@@ -1,6 +1,6 @@
 ---
 name: ui-ux
-description: This skill should be used when the user asks about "UI design", "UX research", "design system", "component library", "accessibility", "WCAG", "responsive design", "design tokens", "Figma", "Storybook", "atomic design", "frontend architecture", "CSS architecture", "Core Web Vitals", or needs guidance on user interface design, user experience, and design system implementation.
+description: This skill should be used when the user asks about "UI design", "UX research", "design system", "component library", "accessibility", "WCAG", "responsive design", "design tokens", "Figma", "Storybook", "atomic design", "frontend architecture", "CSS architecture", "Core Web Vitals", "design d'interface", "recherche UX", "système de design", "bibliothèque de composants", "accessibilité", "design responsive", "jetons de design", "architecture frontend", "Tailwind CSS", "CSS-in-JS", "styled-components", "shadcn/ui", "Radix UI", "Material UI", "Chakra UI", "animation", "Framer Motion", "micro-interactions", "wireframe", "prototype", "maquette", "user testing", "tests utilisateurs", "heuristiques de Nielsen", "information architecture", "dark mode", "theming", "mobile-first", or needs guidance on user interface design, user experience, and design system implementation.
 version: 1.0.0
 ---
 

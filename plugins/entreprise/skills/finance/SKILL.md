@@ -1,6 +1,6 @@
 ---
 name: finance
-description: This skill should be used when the user asks about "financial planning", "FP&A", "budget forecasting", "cash management", "fundraising strategy", "financial modeling", discusses unit economics, SaaS metrics, or needs guidance on corporate finance, tax strategy, or internal audit.
+description: This skill should be used when the user asks about "financial planning", "FP&A", "budget forecasting", "cash management", "fundraising strategy", "financial modeling", "planification financière", "prévision budgétaire", "gestion de trésorerie", "levée de fonds", "modélisation financière", "business plan financier", "unit economics", "SaaS metrics", "MRR", "ARR", "churn rate", "LTV", "CAC", "burn rate", "runway", "P&L", "compte de résultat", "bilan", "balance sheet", "cash flow", "flux de trésorerie", "EBITDA", "ROI", "audit interne", "internal audit", "tax strategy", "stratégie fiscale", "corporate finance", "valorisation", "valuation", "due diligence financière", discusses unit economics, or needs guidance on corporate finance, tax strategy, or internal audit.
 version: 1.0.0
 ---
 

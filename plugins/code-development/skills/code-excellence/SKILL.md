@@ -1,6 +1,6 @@
 ---
 name: code-excellence
-description: This skill should be used when the user asks about "clean code", "code quality", "refactoring", "testing strategy", "TDD", "BDD", "code review", "technical debt", "SOLID principles", "design patterns", "coding standards", or needs guidance on software craftsmanship and engineering best practices.
+description: This skill should be used when the user asks about "clean code", "code quality", "refactoring", "testing strategy", "TDD", "BDD", "code review", "technical debt", "SOLID principles", "design patterns", "coding standards", "qualité de code", "dette technique", "revue de code", "principes SOLID", "standards de code", "bonnes pratiques", "best practices", "DRY", "KISS", "YAGNI", "code smells", "code coverage", "couverture de tests", "unit testing", "tests unitaires", "integration testing", "tests d'intégration", "mocking", "pair programming", "mob programming", "linting", "static analysis", "analyse statique", "cyclomatic complexity", "software craftsmanship", or needs guidance on software craftsmanship and engineering best practices.
 version: 1.0.0
 ---
 

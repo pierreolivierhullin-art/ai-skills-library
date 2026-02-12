@@ -1,6 +1,6 @@
 ---
 name: prompt-engineering-llmops
-description: This skill should be used when the user asks about "prompt engineering", "RAG", "retrieval-augmented generation", "LLM evaluation", "LLMOps", "fine-tuning", "LLM orchestration", "guardrails", "AI agents", "chain-of-thought", "function calling", "tool use", "vector search", "embeddings", or needs guidance on LLM operations, prompt design, and AI application development.
+description: This skill should be used when the user asks about "prompt engineering", "RAG", "retrieval-augmented generation", "LLM evaluation", "LLMOps", "fine-tuning", "LLM orchestration", "guardrails", "AI agents", "chain-of-thought", "function calling", "tool use", "vector search", "embeddings", "ingénierie de prompts", "génération augmentée par récupération", "évaluation de LLM", "orchestration LLM", "garde-fous", "agents IA", "chaîne de pensée", "appel de fonctions", "recherche vectorielle", "few-shot", "zero-shot", "system prompt", "prompt template", "LangChain", "LlamaIndex", "semantic search", "recherche sémantique", "chunking", "token optimization", "context window", "fenêtre de contexte", "hallucination reduction", "prompt injection defense", "model selection", "choix de modèle", "Claude API", "OpenAI API", "Anthropic", "structured output", "JSON mode", or needs guidance on LLM operations, prompt design, and AI application development.
 version: 1.0.0
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: process-engineering
-description: This skill should be used when the user asks about "development workflow", "developer experience", "DX", "agile process", "sprint planning", "estimation", "technical documentation", "engineering metrics", "DORA metrics", "SPACE framework", "coding standards", "linting", or needs guidance on engineering processes, team productivity, and development standards.
+description: This skill should be used when the user asks about "development workflow", "developer experience", "DX", "agile process", "sprint planning", "estimation", "technical documentation", "engineering metrics", "DORA metrics", "SPACE framework", "coding standards", "linting", "workflow de développement", "expérience développeur", "processus agile", "planification de sprint", "estimation", "documentation technique", "métriques d'ingénierie", "standards de code", "velocity", "story points", "retrospective", "daily standup", "code review process", "PR review", "pull request", "git workflow", "branching strategy", "trunk-based development", "feature branching", "monorepo", "RFC", "design doc", "ADR", "technical RFC", "team topologies", "engineering culture", or needs guidance on engineering processes, team productivity, and development standards.
 version: 1.0.0
 ---
 

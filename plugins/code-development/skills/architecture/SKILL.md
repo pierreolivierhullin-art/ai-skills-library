@@ -1,6 +1,6 @@
 ---
 name: architecture
-description: This skill should be used when the user asks about "software architecture", "system design", "microservices", "API design", "design patterns", "DDD", "event-driven architecture", "scalability", "cloud architecture", "technical strategy", or needs guidance on technical architecture decisions and system design.
+description: This skill should be used when the user asks about "software architecture", "system design", "microservices", "API design", "design patterns", "DDD", "event-driven architecture", "scalability", "cloud architecture", "technical strategy", "architecture logicielle", "conception système", "architecture cloud", "stratégie technique", "monolith vs microservices", "hexagonal architecture", "clean architecture", "CQRS", "event sourcing", "domain-driven design", "bounded context", "service mesh", "API gateway", "load balancing", "distributed systems", "systèmes distribués", "high availability", "haute disponibilité", "fault tolerance", "tolérance aux pannes", "tech stack", "choix technologiques", "architecture decision record", "ADR", or needs guidance on technical architecture decisions and system design.
 version: 1.0.0
 ---
 

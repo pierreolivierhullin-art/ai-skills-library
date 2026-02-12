@@ -1,6 +1,6 @@
 ---
 name: behavioral-finance
-description: This skill should be used when the user asks about "behavioral finance", "cognitive biases", "trading psychology", "loss aversion", "confirmation bias", "decision-making", "market psychology", "prospect theory", "herd behavior", "emotional discipline", or needs guidance on behavioral aspects of investing, psychological biases, and decision-making frameworks.
+description: This skill should be used when the user asks about "behavioral finance", "cognitive biases", "trading psychology", "loss aversion", "confirmation bias", "decision-making", "market psychology", "prospect theory", "herd behavior", "emotional discipline", "finance comportementale", "biais cognitifs", "psychologie du trading", "aversion à la perte", "biais de confirmation", "prise de décision", "psychologie de marché", "théorie des perspectives", "comportement moutonnier", "discipline émotionnelle", "overconfidence", "excès de confiance", "anchoring bias", "biais d'ancrage", "disposition effect", "effet de disposition", "FOMO", "fear of missing out", "sunk cost fallacy", "recency bias", "biais de récence", "mental accounting", "comptabilité mentale", "regret aversion", "status quo bias", "framing effect", "effet de cadrage", "Dunning-Kruger", "trading journal", "journal de trading", "mindfulness trading", or needs guidance on behavioral aspects of investing, psychological biases, and decision-making frameworks.
 version: 1.0.0
 ---
 

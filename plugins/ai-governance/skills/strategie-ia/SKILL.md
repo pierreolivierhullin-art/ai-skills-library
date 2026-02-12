@@ -1,6 +1,6 @@
 ---
 name: strategie-ia
-description: This skill should be used when the user asks about "AI strategy", "AI maturity", "AI roadmap", "AI governance", "MLOps", "model lifecycle", "AI Center of Excellence", "AI literacy", "build vs buy AI", "AI use case prioritization", or needs guidance on enterprise AI strategy, model governance, and AI organization.
+description: This skill should be used when the user asks about "AI strategy", "AI maturity", "AI roadmap", "AI governance", "MLOps", "model lifecycle", "AI Center of Excellence", "AI literacy", "build vs buy AI", "AI use case prioritization", "stratégie IA", "maturité IA", "feuille de route IA", "gouvernance IA", "cycle de vie des modèles", "centre d'excellence IA", "acculturation IA", "culture IA", "AI adoption", "adoption de l'IA", "AI transformation", "transformation par l'IA", "AI ROI", "retour sur investissement IA", "AI talent", "compétences IA", "AI operating model", "modèle opérationnel IA", "AI ethics board", "comité éthique IA", "responsible AI governance", "AI portfolio", "AI budget", "make or buy IA", or needs guidance on enterprise AI strategy, model governance, and AI organization.
 version: 1.0.0
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: quality-reliability
-description: This skill should be used when the user asks about "QA automation", "test automation", "SRE", "site reliability engineering", "chaos engineering", "performance testing", "load testing", "reliability", "incident management", "quality gates", "visual regression", "Playwright", "Cypress", or needs guidance on software quality assurance and site reliability engineering.
+description: This skill should be used when the user asks about "QA automation", "test automation", "SRE", "site reliability engineering", "chaos engineering", "performance testing", "load testing", "reliability", "incident management", "quality gates", "visual regression", "Playwright", "Cypress", "automatisation QA", "automatisation de tests", "ingénierie de fiabilité", "tests de performance", "tests de charge", "fiabilité", "gestion des incidents", "portes qualité", "régression visuelle", "Jest", "Vitest", "Testing Library", "Selenium", "k6", "Artillery", "Gatling", "JMeter", "stress testing", "soak testing", "end-to-end testing", "E2E", "smoke testing", "canary testing", "feature flags testing", "contract testing", "Pact", "error budget", "SLO", "toil reduction", "chaos monkey", "game days", or needs guidance on software quality assurance and site reliability engineering.
 version: 1.0.0
 ---
 

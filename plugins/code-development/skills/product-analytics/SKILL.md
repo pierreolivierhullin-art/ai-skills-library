@@ -1,6 +1,6 @@
 ---
 name: product-analytics
-description: This skill should be used when the user asks about "product analytics", "event tracking", "A/B testing", "experimentation", "product metrics", "funnel analysis", "retention analysis", "cohort analysis", "tracking plan", "Amplitude", "Mixpanel", "PostHog", "Segment", or needs guidance on product instrumentation, data-driven decisions, and privacy-compliant analytics.
+description: This skill should be used when the user asks about "product analytics", "event tracking", "A/B testing", "experimentation", "product metrics", "funnel analysis", "retention analysis", "cohort analysis", "tracking plan", "Amplitude", "Mixpanel", "PostHog", "Segment", "analytique produit", "suivi d'événements", "tests A/B", "expérimentation", "métriques produit", "analyse de funnel", "analyse de rétention", "analyse de cohortes", "plan de tracking", "AARRR", "pirate metrics", "activation", "engagement", "conversion rate", "taux de conversion", "DAU", "MAU", "WAU", "feature adoption", "adoption fonctionnalité", "user segmentation", "segmentation utilisateurs", "heat maps", "session replay", "Hotjar", "FullStory", "Google Analytics", "GA4", "attribution", "privacy-compliant analytics", "CNIL", or needs guidance on product instrumentation, data-driven decisions, and privacy-compliant analytics.
 version: 1.0.0
 ---
 

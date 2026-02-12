@@ -1,6 +1,6 @@
 ---
 name: backend-db
-description: This skill should be used when the user asks about "database design", "SQL optimization", "PostgreSQL", "Supabase", "ORM", "Prisma", "Drizzle", "API development", "REST API", "GraphQL", "database migrations", "indexing", "query optimization", "NoSQL", "Redis", "vector databases", or needs guidance on backend development and database management.
+description: This skill should be used when the user asks about "database design", "SQL optimization", "PostgreSQL", "Supabase", "ORM", "Prisma", "Drizzle", "API development", "REST API", "GraphQL", "database migrations", "indexing", "query optimization", "NoSQL", "Redis", "vector databases", "conception de base de données", "optimisation SQL", "développement API", "migrations de base de données", "optimisation de requêtes", "bases de données vectorielles", "MySQL", "MongoDB", "DynamoDB", "Elasticsearch", "database schema", "schéma de base de données", "normalization", "normalisation", "denormalization", "N+1 query", "connection pooling", "database replication", "réplication", "sharding", "partitioning", "stored procedures", "triggers", "materialized views", "tRPC", "Hono", "Express", "Fastify", "NestJS", "serverless functions", or needs guidance on backend development and database management.
 version: 1.0.0
 ---
 

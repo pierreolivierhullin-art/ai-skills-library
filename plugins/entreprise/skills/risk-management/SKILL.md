@@ -1,6 +1,6 @@
 ---
 name: risk-management
-description: This skill should be used when the user asks about "enterprise risk management", "business continuity planning", "compliance program", "crisis management", "risk assessment", discusses COSO, ISO 31000, or needs guidance on risk governance, anti-corruption compliance, or disaster recovery planning.
+description: This skill should be used when the user asks about "enterprise risk management", "business continuity planning", "compliance program", "crisis management", "risk assessment", "gestion des risques", "ERM", "plan de continuité d'activité", "PCA", "PRA", "plan de reprise", "gestion de crise", "évaluation des risques", "cartographie des risques", "risk mapping", "COSO", "ISO 31000", "risk governance", "gouvernance des risques", "anti-corruption", "Sapin II", "FCPA", "UK Bribery Act", "disaster recovery", "BIA", "business impact analysis", "risk appetite", "appétit au risque", "risk register", "matrice de risques", "contrôle interne", "internal control", "audit des risques", discusses COSO, ISO 31000, or needs guidance on risk governance, anti-corruption compliance, or disaster recovery planning.
 version: 1.0.0
 ---
 

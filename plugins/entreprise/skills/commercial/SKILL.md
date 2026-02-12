@@ -1,6 +1,6 @@
 ---
 name: commercial
-description: This skill should be used when the user asks about "sales strategy", "B2B prospecting", "sales methodology", "negotiation techniques", "revenue operations", discusses pipeline management, CRM optimization, or needs guidance on closing deals, account management, or sales enablement.
+description: This skill should be used when the user asks about "sales strategy", "B2B prospecting", "sales methodology", "negotiation techniques", "revenue operations", "stratégie commerciale", "prospection B2B", "prospection commerciale", "techniques de vente", "closing", "pipeline commercial", "cycle de vente", "sales cycle", "account management", "gestion de comptes", "key account", "sales enablement", "CRM optimization", "cold calling", "cold emailing", "social selling", "MEDDIC", "SPIN selling", "Challenger Sale", "RevOps", "forecast", "prévision de ventes", "upsell", "cross-sell", "objection handling", discusses pipeline management, or needs guidance on closing deals, account management, or sales enablement.
 version: 1.0.0
 ---
 

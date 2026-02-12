@@ -1,6 +1,6 @@
 ---
 name: marketing
-description: This skill should be used when the user asks about "marketing strategy", "brand positioning", "acquisition funnel", "growth hacking", "product marketing", "pricing strategy", discusses GTM plans, SEO, CRM, or needs guidance on lead generation, content marketing, or marketing automation.
+description: This skill should be used when the user asks about "marketing strategy", "brand positioning", "acquisition funnel", "growth hacking", "product marketing", "pricing strategy", "stratégie marketing", "positionnement de marque", "tunnel de conversion", "inbound marketing", "outbound marketing", "content marketing", "marketing de contenu", "SEO", "SEA", "SEM", "social media marketing", "email marketing", "marketing automation", "lead generation", "génération de leads", "buyer persona", "parcours client", "customer journey", "market research", "étude de marché", "branding", "go-to-market", "GTM", "CRM", "product-led growth", "PLG", discusses GTM plans, or needs guidance on lead generation, content marketing, or marketing automation.
 version: 1.0.0
 ---
 

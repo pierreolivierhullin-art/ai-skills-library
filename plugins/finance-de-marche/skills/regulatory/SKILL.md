@@ -1,6 +1,6 @@
 ---
 name: regulatory
-description: This skill should be used when the user asks about "MiFID II", "SEC regulations", "trading compliance", "tax reporting", "pattern day trader", "wash sale rules", "insider trading", "FINRA", "EMIR", "MAR", "best execution", "KYC", "AML", or needs guidance on financial market regulations, compliance obligations, and tax reporting for trading.
+description: This skill should be used when the user asks about "MiFID II", "SEC regulations", "trading compliance", "tax reporting", "pattern day trader", "wash sale rules", "insider trading", "FINRA", "EMIR", "MAR", "best execution", "KYC", "AML", "réglementation financière", "conformité trading", "déclaration fiscale", "fiscalité du trading", "délit d'initié", "meilleure exécution", "connaissance client", "lutte anti-blanchiment", "AMF", "Autorité des marchés financiers", "régulateur", "ESMA", "Dodd-Frank", "Basel III", "Bâle III", "suitability", "appropriateness", "transaction reporting", "déclaration de transactions", "market abuse", "abus de marché", "short selling regulations", "réglementation vente à découvert", "UCITS", "AIFMD", "PRIIPs", "flat tax", "PFU", "prélèvement forfaitaire unique", "plus-values", "capital gains tax", or needs guidance on financial market regulations, compliance obligations, and tax reporting for trading.
 version: 1.0.0
 ---
 

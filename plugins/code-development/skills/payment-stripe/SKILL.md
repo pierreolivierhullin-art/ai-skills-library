@@ -1,6 +1,6 @@
 ---
 name: payment-stripe
-description: This skill should be used when the user asks about "Stripe integration", "payment processing", "subscription billing", "PCI compliance", "checkout", "webhooks", "Stripe Connect", "payment intents", "recurring payments", "invoicing", "metered billing", "SCA", "3D Secure", or needs guidance on payment implementation and monetization.
+description: This skill should be used when the user asks about "Stripe integration", "payment processing", "subscription billing", "PCI compliance", "checkout", "webhooks", "Stripe Connect", "payment intents", "recurring payments", "invoicing", "metered billing", "SCA", "3D Secure", "intégration Stripe", "traitement des paiements", "facturation récurrente", "conformité PCI", "paiements récurrents", "facturation", "abonnements", "subscriptions", "pricing page", "page de tarification", "Stripe Elements", "Stripe Checkout", "customer portal", "portail client", "proration", "prorata", "coupons", "promotions", "refunds", "remboursements", "disputes", "litiges", "Stripe Tax", "marketplace payments", "paiements marketplace", "payment links", "Apple Pay", "Google Pay", or needs guidance on payment implementation and monetization.
 version: 1.0.0
 ---
 

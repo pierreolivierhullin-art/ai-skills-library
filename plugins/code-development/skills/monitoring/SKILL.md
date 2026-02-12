@@ -1,6 +1,6 @@
 ---
 name: monitoring
-description: This skill should be used when the user asks about "monitoring", "observability", "logging", "metrics", "tracing", "alerting", "SLO", "SLI", "SLA", "incident management", "OpenTelemetry", "Datadog", "Grafana", "Sentry", "APM", or needs guidance on system observability, reliability monitoring, and incident response.
+description: This skill should be used when the user asks about "monitoring", "observability", "logging", "metrics", "tracing", "alerting", "SLO", "SLI", "SLA", "incident management", "OpenTelemetry", "Datadog", "Grafana", "Sentry", "APM", "observabilité", "journalisation", "métriques", "traçabilité", "alertes", "gestion des incidents", "supervision", "distributed tracing", "traces distribuées", "log aggregation", "agrégation de logs", "Prometheus", "Loki", "ELK", "Elasticsearch", "Kibana", "PagerDuty", "OpsGenie", "New Relic", "error tracking", "suivi d'erreurs", "uptime monitoring", "health checks", "dashboards opérationnels", "on-call", "astreinte", "postmortem", "root cause analysis", "RCA", "error budget", or needs guidance on system observability, reliability monitoring, and incident response.
 version: 1.0.0
 ---
 

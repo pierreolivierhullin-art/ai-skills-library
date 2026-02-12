@@ -1,6 +1,6 @@
 ---
 name: ai-ethics
-description: This skill should be used when the user asks about "AI ethics", "algorithmic bias", "fairness", "explainability", "XAI", "responsible AI", "trustworthy AI", "AI transparency", "bias mitigation", "model cards", or needs guidance on ethical AI development, bias detection, and responsible AI practices.
+description: This skill should be used when the user asks about "AI ethics", "algorithmic bias", "fairness", "explainability", "XAI", "responsible AI", "trustworthy AI", "AI transparency", "bias mitigation", "model cards", "éthique de l'IA", "biais algorithmique", "équité", "explicabilité", "IA responsable", "IA de confiance", "transparence IA", "atténuation des biais", "fiches modèle", "AI audit", "audit algorithmique", "discrimination algorithmique", "AI impact assessment", "étude d'impact IA", "AIDA", "EU AI Act", "AI Act européen", "human-in-the-loop", "HITL", "AI accountability", "responsabilité IA", "data ethics", "éthique des données", "consent management", "fairness metrics", "disparate impact", "AI governance framework", or needs guidance on ethical AI development, bias detection, and responsible AI practices.
 version: 1.0.0
 ---
 

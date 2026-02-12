@@ -1,6 +1,6 @@
 ---
 name: support-client
-description: This skill should be used when the user asks about "customer support strategy", "customer success", "knowledge base management", "NPS improvement", "customer experience", discusses help desk operations, churn prevention, or needs guidance on support metrics, CX programs, or customer health scoring.
+description: This skill should be used when the user asks about "customer support strategy", "customer success", "knowledge base management", "NPS improvement", "customer experience", "stratégie support client", "service client", "satisfaction client", "CSAT", "CES", "customer effort score", "help desk", "centre d'aide", "ticketing", "Zendesk", "Intercom", "Freshdesk", "churn prevention", "rétention client", "fidélisation", "customer health score", "onboarding client", "SLA support", "temps de réponse", "first response time", "résolution au premier contact", "FCR", "self-service", "chatbot support", "escalation", "voice of customer", "VoC", discusses help desk operations, churn prevention, or needs guidance on support metrics, CX programs, or customer health scoring.
 version: 1.0.0
 ---
 
