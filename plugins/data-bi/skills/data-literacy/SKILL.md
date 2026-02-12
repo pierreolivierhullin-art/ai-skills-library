@@ -180,6 +180,16 @@ Appliquer le processus en 6 etapes de Cole Nussbaumer Knaflic :
 20. Etendre le programme aux nouvelles equipes, filiales et partenaires.
 
 
+## State of the Art (2025-2026)
+
+La data literacy s'accélère avec l'IA et les nouvelles réglementations :
+
+- **Natural language analytics** : Les interfaces en langage naturel (Thoughtspot, Tableau AI) permettent à des non-techniciens de poser des questions aux données directement.
+- **Data storytelling assisté par IA** : Les outils génèrent automatiquement des narratifs à partir des données, aidant les analystes à communiquer leurs insights.
+- **Mandatory data literacy** : Les programmes de data literacy deviennent obligatoires dans les grandes organisations, souvent liés aux objectifs ESG et de transformation digitale.
+- **Visual analytics avancés** : Les techniques de visualisation s'enrichissent (small multiples, sparklines, annotations intelligentes) pour communiquer plus efficacement.
+- **Collaborative analytics** : Les notebooks collaboratifs (Observable, Hex, Deepnote) rapprochent l'analyse et la prise de décision en permettant l'exploration partagée.
+
 ## Template actionnable
 
 ### Checklist de revue de dashboard

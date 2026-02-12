@@ -139,6 +139,16 @@ Follow this workflow when designing or improving a data platform:
 ---
 
 
+## State of the Art (2025-2026)
+
+L'ingénierie de données évolue vers la simplification et le temps réel :
+
+- **Lakehouse architecture** : L'architecture lakehouse (Delta Lake, Apache Iceberg, Hudi) unifie data lake et data warehouse, simplifiant l'infrastructure.
+- **Streaming-first** : Apache Flink et Kafka Streams permettent le traitement temps réel comme paradigme par défaut, avec le batch comme cas particulier.
+- **dbt dominant** : dbt s'impose comme le standard de transformation, avec un écosystème riche (dbt Cloud, dbt Mesh, semantic layer).
+- **AI data pipelines** : Les pipelines spécifiques à l'IA (embeddings, feature stores, vector indexing) deviennent une spécialité de l'ingénierie de données.
+- **DataOps mature** : Les pratiques DataOps (CI/CD pour les pipelines, tests de données, monitoring de qualité) se standardisent sur le modèle du DevOps.
+
 ## Template actionnable
 
 ### Data contract template

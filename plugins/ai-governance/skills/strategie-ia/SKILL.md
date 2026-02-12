@@ -220,6 +220,16 @@ Calculer le ROI IA en integrant :
 24. Evoluer vers un modele d'organisation federe mature.
 25. Etablir un programme d'innovation IA continue (veille, experimentation, partenariats).
 
+## State of the Art (2025-2026)
+
+La stratégie IA entre dans une phase de maturité opérationnelle :
+
+- **IA générative en production** : Les entreprises passent du POC à la mise en production à grande échelle, avec des challenges de coût, de latence et de gouvernance.
+- **AI agents** : Les agents autonomes (multi-step reasoning, tool use) transforment les cas d'usage de l'automatisation des tâches à la prise de décision assistée.
+- **Souveraineté et modèles open source** : Les modèles open source (Llama, Mistral) offrent des alternatives aux APIs propriétaires, avec des enjeux de souveraineté des données.
+- **AI Center of Excellence 2.0** : Les CoE évoluent vers des structures embedded dans les business units plutôt que centralisées, pour accélérer l'adoption.
+- **ROI measurement** : Les frameworks de mesure du ROI de l'IA se structurent, au-delà des métriques techniques vers l'impact business mesurable.
+
 ## Template actionnable
 
 ### Scorecard de priorisation de use cases IA

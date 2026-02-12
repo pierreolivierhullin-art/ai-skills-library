@@ -156,6 +156,16 @@ Follow this workflow when designing or improving engineering processes:
 
 
 
+## State of the Art (2025-2026)
+
+Les processus d'ingénierie s'adaptent à l'ère de l'IA :
+
+- **AI-augmented development** : L'intégration d'assistants IA dans le workflow (coding, review, documentation, testing) transforme les processus et les métriques de productivité.
+- **DORA metrics standardisées** : Les quatre métriques DORA (deployment frequency, lead time, MTTR, change failure rate) sont adoptées comme standard de mesure.
+- **Developer Experience (DX)** : Le DX devient une priorité avec des équipes dédiées, des surveys internes (DX surveys) et des outils de mesure (SPACE framework).
+- **Inner source** : Les pratiques open source appliquées en interne (inner source) favorisent la réutilisation et la collaboration inter-équipes.
+- **Documentation-as-Code** : La documentation technique vit dans le repo (Markdown, MDX, Astro), versionnée et déployée automatiquement avec le code.
+
 ## Template actionnable
 
 ### Template de RFC / Design Doc

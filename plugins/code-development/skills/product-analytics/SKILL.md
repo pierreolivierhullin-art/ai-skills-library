@@ -188,6 +188,16 @@ START
 
 
 
+## State of the Art (2025-2026)
+
+L'analytics produit se sophistique et se responsabilise :
+
+- **Warehouse-native analytics** : Les outils d'analytics s'appuient directement sur le data warehouse (reverse ETL, warehouse-native CDPs) plutôt que sur des silos propriétaires.
+- **Privacy-first analytics** : Post-RGPD, les solutions cookieless et server-side (Plausible, Fathom, PostHog self-hosted) gagnent du terrain.
+- **AI-powered insights** : Les outils détectent automatiquement les anomalies, les corrélations et génèrent des insights actionnables via des LLM.
+- **Experimentation avancée** : Le bayesian A/B testing, les bandits multi-bras et l'experimentation continue remplacent les tests classiques.
+- **Product-Led Analytics** : L'analytics s'intègre directement dans le produit (in-app dashboards, behavioral nudges) plutôt que dans des outils séparés.
+
 ## Template actionnable
 
 ### Tracking plan

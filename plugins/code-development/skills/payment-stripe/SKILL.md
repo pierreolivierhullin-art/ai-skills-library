@@ -212,6 +212,16 @@ Mix fixe + variable ?
 
 
 
+## State of the Art (2025-2026)
+
+Le paiement en ligne se diversifie et se simplifie :
+
+- **Stripe Billing v2** : Les nouvelles APIs de facturation supportent des modèles complexes (usage-based, hybrid, multi-currency) avec une meilleure gestion du revenue recognition.
+- **Embedded payments** : Stripe Connect et les payment facilitation models permettent aux plateformes d'intégrer les paiements nativement.
+- **Buy Now Pay Later (BNPL)** : L'intégration de Klarna, Affirm et des solutions BNPL natives de Stripe se démocratise dans les checkouts.
+- **Crypto et stablecoins** : Stripe réintègre les paiements en crypto via USDC, ouvrant de nouvelles options pour les paiements internationaux.
+- **Revenue automation** : Les outils de revenue recovery (dunning intelligent, smart retries) et de tax compliance (Stripe Tax) automatisent la gestion financière.
+
 ## Template actionnable
 
 ### Checklist d'intégration Stripe

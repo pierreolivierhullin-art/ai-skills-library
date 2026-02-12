@@ -179,6 +179,16 @@ Appliquer le screening GARP en 6 étapes pour identifier les sous-jacents de qua
 3. Analyser les trades perdants pour identifier les patterns récurrents.
 4. Recalibrer les paramètres de sizing et de management en fonction des résultats.
 
+## State of the Art (2025-2026)
+
+Le trading d'options évolue avec la technologie et la réglementation :
+
+- **0DTE options** : Les options à expiration le jour même (0 Days To Expiry) explosent en volume, créant de nouvelles stratégies mais aussi des risques de gamma squeeze.
+- **IA et analytics d'options** : Les outils d'analyse intègrent le machine learning pour le pricing, la détection de flux institutionnels et l'optimisation de portefeuille d'options.
+- **Democratisation du retail** : Les plateformes (Tastytrade, IBKR, Webull) rendent les stratégies complexes accessibles aux particuliers, avec des interfaces simplifiées.
+- **Volatilité structurelle** : La dispersion des corrélations et les événements géopolitiques maintiennent une volatilité élevée, favorisant les stratégies de vente de premium.
+- **Réglementation accrue** : Les régulateurs (SEC, ESMA) renforcent les exigences de transparence et de margin pour les options retail.
+
 ## Template actionnable
 
 ### Checklist pré-trade options

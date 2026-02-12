@@ -161,6 +161,16 @@ Utiliser l'Event Storming comme technique de découverte collaborative pour iden
 
 
 
+## State of the Art (2025-2026)
+
+L'architecture logicielle évolue vers plus de modularité et d'intelligence :
+
+- **AI-native architectures** : Les applications intègrent nativement des composants IA (LLM, embeddings, agents), nécessitant de nouvelles patterns (RAG, tool use, orchestration d'agents).
+- **Edge computing et serverless** : Le déploiement se rapproche des utilisateurs avec des architectures edge-first et des fonctions serverless comme primitives de base.
+- **Platform engineering** : Les Internal Developer Platforms (IDP) standardisent l'infrastructure et accélèrent le time-to-market en proposant des abstractions self-service.
+- **CQRS et event sourcing mainstreams** : Ces patterns se démocratisent grâce aux outils matures (EventStoreDB, Kafka, Axon) et aux besoins d'auditabilité.
+- **WebAssembly (Wasm)** : Wasm émerge comme runtime universel pour les plugins, les edge functions et les applications portables multi-plateformes.
+
 ## Template actionnable
 
 ### Architecture Decision Record (ADR)

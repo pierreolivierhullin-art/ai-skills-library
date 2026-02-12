@@ -189,6 +189,16 @@ Premiere experience ? → Toxiproxy en staging → Game Day manuel → Litmus en
 
 
 
+## State of the Art (2025-2026)
+
+La qualité et la fiabilité intègrent l'IA et l'automatisation avancée :
+
+- **AI-generated tests** : Les LLM génèrent des tests unitaires, d'intégration et E2E à partir du code source, accélérant la couverture.
+- **Playwright domine** : Playwright s'impose comme le framework E2E de référence, surpassant Cypress grâce au multi-navigateur natif et aux traces.
+- **Chaos engineering mainstream** : Les pratiques de chaos engineering (Litmus, Chaos Mesh, game days) se démocratisent au-delà des GAFAM.
+- **SLO-driven development** : Les SLOs pilotent les décisions d'ingénierie, avec des error budgets qui déterminent le rythme de déploiement.
+- **Shift-left testing** : Les tests de sécurité, performance et accessibilité s'exécutent dès le développement local, pas seulement en CI.
+
 ## Template actionnable
 
 ### Matrice de stratégie de tests

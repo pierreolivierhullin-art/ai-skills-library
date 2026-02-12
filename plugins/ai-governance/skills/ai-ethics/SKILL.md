@@ -159,6 +159,16 @@ Appliquer les 7 exigences du High-Level Expert Group (HLEG) de la Commission eur
 19. Planifier des audits periodiques independants (trimestriels pour les systemes a haut risque).
 20. Maintenir un registre des incidents ethiques et des actions correctives.
 
+## State of the Art (2025-2026)
+
+L'éthique de l'IA se réglemente et s'outille :
+
+- **EU AI Act en application** : Le règlement européen entre en vigueur progressivement (2024-2026), imposant des obligations de transparence, d'évaluation des risques et de conformité.
+- **Bias audits systématiques** : Les audits de biais deviennent obligatoires pour les systèmes IA à haut risque (recrutement, scoring, santé), avec des méthodologies standardisées.
+- **Explainability toolkits** : Les outils d'explicabilité (SHAP, LIME, Captum) se démocratisent, avec des exigences croissantes de transparence envers les utilisateurs finaux.
+- **AI impact assessments** : Les études d'impact IA (AIDA/FRIA) deviennent un prérequis avant déploiement, sur le modèle des DPIA du RGPD.
+- **Watermarking et provenance** : Les techniques de watermarking du contenu généré par IA (C2PA, Content Credentials) émergent pour lutter contre les deepfakes.
+
 ## Template actionnable
 
 ### Model Card

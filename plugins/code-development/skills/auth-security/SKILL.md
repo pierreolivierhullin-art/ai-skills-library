@@ -204,6 +204,16 @@ Architecture microservices complexe ?
 
 
 
+## State of the Art (2025-2026)
+
+La sécurité applicative fait face à de nouveaux défis :
+
+- **Passkeys et passwordless** : Les passkeys (WebAuthn/FIDO2) remplacent progressivement les mots de passe, supportées nativement par les OS et navigateurs majeurs.
+- **Zero Trust Architecture (ZTA)** : L'approche "never trust, always verify" devient le standard, avec une vérification continue des identités et des postures.
+- **AI-powered security** : L'IA détecte les menaces en temps réel (anomaly detection, behavioral analysis) mais crée aussi de nouveaux vecteurs d'attaque (prompt injection, data exfiltration).
+- **Supply chain security** : Les SBOM (Software Bill of Materials) et les signatures de provenance (SLSA, Sigstore) deviennent obligatoires pour sécuriser la chaîne logicielle.
+- **Post-quantum readiness** : La migration vers des algorithmes résistants au quantique (NIST PQC) commence pour les applications sensibles.
+
 ## Template actionnable
 
 ### Matrice RBAC

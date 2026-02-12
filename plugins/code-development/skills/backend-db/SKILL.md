@@ -189,6 +189,16 @@ Flux de donnees unidirectionnel serveur -> client ?
 
 
 
+## State of the Art (2025-2026)
+
+Le backend et les bases de données évoluent vers l'IA et la simplification :
+
+- **Vector databases** : Pinecone, Weaviate, pgvector deviennent essentiels pour les applications IA (RAG, semantic search, recommendations).
+- **Serverless databases** : Neon, PlanetScale, Supabase offrent du PostgreSQL serverless avec scaling automatique et branching de schéma.
+- **Edge databases** : Turso (libSQL), Cloudflare D1 et DynamoDB Global Tables rapprochent les données des utilisateurs.
+- **TypeScript-first ORMs** : Drizzle ORM et Prisma dominent l'écosystème TypeScript avec des requêtes type-safe et des migrations déclaratives.
+- **Realtime-first** : Les architectures intègrent nativement le temps réel (Supabase Realtime, Convex, Electric SQL) plutôt que de l'ajouter après coup.
+
 ## Template actionnable
 
 ### Checklist de migration de base de données

@@ -228,6 +228,16 @@ Dependance fournisseur excessive ?
 5. Mettre a jour les defenses face aux nouvelles menaces (jailbreaks, techniques d'attaque emergentes)
 6. Conduire des revues post-incident (blameless post-mortems) pour chaque incident IA
 
+## State of the Art (2025-2026)
+
+Les risques IA se diversifient et les protections se structurent :
+
+- **Prompt injection défensif** : Les techniques de défense (input sanitization, output filtering, constitutional AI) se sophistiquent face aux attaques de plus en plus créatives.
+- **Model governance** : Les registres de modèles, les model cards et les processus d'approbation avant déploiement deviennent des pratiques standard.
+- **AI red teaming** : Le red teaming des systèmes IA se professionnalise avec des méthodologies structurées (OWASP LLM Top 10, MITRE ATLAS).
+- **Shadow AI** : L'utilisation non contrôlée d'outils IA par les employés crée des risques de fuite de données, imposant des politiques d'IA acceptable use.
+- **EU AI Act compliance** : Les obligations de conformité (registre, évaluation des risques, monitoring) créent un nouveau domaine de risk management spécialisé.
+
 ## Template actionnable
 
 ### Registre de risques IA

@@ -136,6 +136,16 @@ Follow this workflow when designing or improving a DevOps setup:
 
 
 
+## State of the Art (2025-2026)
+
+Le DevOps évolue vers le platform engineering et l'IA :
+
+- **Platform engineering** : Les équipes plateforme construisent des Internal Developer Platforms (IDP) avec Backstage, Humanitec ou Port pour standardiser le self-service.
+- **GitOps mature** : ArgoCD et Flux deviennent les standards de déploiement Kubernetes, avec des pratiques de progressive delivery intégrées.
+- **AI-assisted DevOps** : L'IA optimise les pipelines (détection de tests flaky, root cause analysis automatisée, auto-remediation).
+- **Shift-left security (DevSecOps)** : La sécurité s'intègre dès le pipeline CI avec des scans automatisés (SAST, DAST, SCA, SBOM).
+- **Ephemeral environments** : Les environnements de preview par PR (Vercel, Railway, Namespace) deviennent le standard pour tester en isolation.
+
 ## Template actionnable
 
 ### Checklist de déploiement en production

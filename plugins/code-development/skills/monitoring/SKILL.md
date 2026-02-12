@@ -176,6 +176,16 @@ START
 
 
 
+## State of the Art (2025-2026)
+
+L'observabilité se consolide et s'enrichit par l'IA :
+
+- **OpenTelemetry standard** : OTel s'impose comme le standard universel pour les traces, métriques et logs, réduisant le vendor lock-in.
+- **AI-powered observability** : L'IA détecte les anomalies, corrèle les incidents automatiquement et suggère des root causes (AIOps).
+- **Observability-as-Code** : Les dashboards, alertes et SLOs sont définis en code (Terraform, Pulumi, SLO-as-Code) et versionnés avec l'application.
+- **eBPF pour l'observabilité** : La technologie eBPF permet une instrumentation sans agent et sans overhead, transformant le monitoring kernel-level.
+- **Cost-aware observability** : Face à l'explosion des volumes de données, les stratégies de sampling intelligent et de tiered storage optimisent les coûts.
+
 ## Template actionnable
 
 ### Template de postmortem

@@ -181,6 +181,16 @@ Le modele a 3 facteurs (1993) ajoute size (SMB) et value (HML) au facteur marche
 16. Realiser un stress test trimestriel (scenarios historiques : 2008, 2020, 2022 ; scenarios hypothetiques : hausse de taux +300bps, recession, choc geopolitique).
 17. Reviser l'IPS annuellement ou lors de changements de situation (mariage, retraite, heritage).
 
+## State of the Art (2025-2026)
+
+La gestion de portefeuille se modernise :
+
+- **Direct indexing** : L'indexation directe (posséder les actions individuelles plutôt que l'ETF) se démocratise, permettant un tax-loss harvesting optimisé et la personnalisation ESG.
+- **AI-driven allocation** : Les robo-advisors de nouvelle génération utilisent le ML pour l'allocation dynamique et la gestion du risque en temps réel.
+- **Alternative investments accessible** : La tokenisation et le fractionnement rendent le private equity, l'immobilier et les collectibles accessibles aux investisseurs individuels.
+- **Factor investing 2.0** : Les facteurs traditionnels (value, momentum, quality) sont complétés par des facteurs alternatifs extraits de données non-structurées (NLP sur earnings calls, sentiment social).
+- **Climate-aware portfolios** : L'intégration des risques climatiques dans l'allocation (Paris-Aligned Benchmarks, Climate VaR) devient un standard institutionnel qui s'étend au retail.
+
 ## Template actionnable
 
 ### Grille d'allocation d'actifs

@@ -217,6 +217,16 @@ US taxpayer ?
 4. Maintenir une veille reglementaire active et un processus de change management
 5. Documenter les lessons learned de chaque controle regulateur ou incident de conformite
 
+## State of the Art (2025-2026)
+
+La réglementation financière se renforce et se complexifie :
+
+- **T+1 settlement** : Le passage au règlement T+1 aux US (2024) met la pression sur l'Europe pour suivre, transformant les processus post-trade.
+- **MiFID III / MiFIR review** : La révision du cadre européen renforce les obligations de best execution, de transparence et de reporting.
+- **Crypto-réglementation (MiCA)** : Le Markets in Crypto-Assets regulation entre en application, créant un cadre unifié européen pour les crypto-actifs.
+- **Retail investor protection** : Les régulateurs renforcent la protection des particuliers (ESMA sur les CFDs, SEC sur les options, restrictions de levier).
+- **ESG disclosure obligatoire** : Les fonds sont contraints de publier des informations ESG détaillées (SFDR Article 8/9), impactant les choix d'investissement retail.
+
 ## Template actionnable
 
 ### Checklist de conformité fiscale (France)

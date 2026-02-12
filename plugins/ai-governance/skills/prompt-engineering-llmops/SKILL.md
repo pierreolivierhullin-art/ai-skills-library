@@ -153,6 +153,16 @@ Follow this workflow when building an LLM-powered application:
 
 ---
 
+## State of the Art (2025-2026)
+
+L'ingénierie de prompts et les LLMOps se professionnalisent :
+
+- **Agentic workflows** : Les architectures d'agents IA (multi-agents, tool use, planning) remplacent les chaînes de prompts simples pour les tâches complexes.
+- **RAG avancé** : Les techniques évoluent (contextual retrieval, reranking, hybrid search, GraphRAG) pour améliorer la qualité des réponses.
+- **Structured outputs** : Les LLM supportent nativement la génération de JSON structuré, réduisant le besoin de parsing et améliorant la fiabilité.
+- **Evaluation frameworks** : Les frameworks d'évaluation (RAGAS, DeepEval, promptfoo) permettent des tests systématiques de qualité avant déploiement.
+- **Fine-tuning efficient** : Les techniques de fine-tuning léger (LoRA, QLoRA, PEFT) rendent la personnalisation des modèles accessible sans infrastructure massive.
+
 ## Template actionnable
 
 ### Template de system prompt structuré

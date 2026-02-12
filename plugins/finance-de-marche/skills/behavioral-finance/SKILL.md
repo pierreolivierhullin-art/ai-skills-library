@@ -216,6 +216,16 @@ Evaluer la tolerance au risque reelle (et non declaree) selon trois dimensions :
 17. Mettre en place des nudges personnels (automatisation du rebalancement, DCA automatique).
 18. Revue trimestrielle complete du systeme comportemental avec calibration des probabilites.
 
+## State of the Art (2025-2026)
+
+La finance comportementale s'outille et se digitalise :
+
+- **Nudging digital** : Les plateformes de trading intègrent des nudges comportementaux (alertes de biais, cooling-off periods, gamification positive) pour aider les investisseurs.
+- **AI behavioral coaching** : Les chatbots spécialisés analysent le journal de trading et identifient les patterns comportementaux récurrents.
+- **Neurofinance** : Les recherches en neuroscience financière (eye tracking, mesures physiologiques) affinent la compréhension des biais dans les décisions d'investissement.
+- **Social trading et biais de groupe** : Les plateformes de copy trading (eToro, Zulutrade) mettent en évidence les biais de herding et les bulles sociales.
+- **Debiasing systématique** : Les frameworks de décision structurés (checklists pré-trade, règles mécaniques) se professionnalisent pour contrer les biais.
+
 ## Template actionnable
 
 ### Journal de trading

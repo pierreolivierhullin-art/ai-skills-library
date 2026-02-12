@@ -185,6 +185,16 @@ Suivre cette hierarchie de conformite :
 
 
 
+## State of the Art (2025-2026)
+
+Le design d'interface et l'expérience utilisateur évoluent rapidement :
+
+- **AI-generated UI** : Les outils génèrent des composants, des layouts et du code frontend à partir de descriptions ou de maquettes (v0.dev, Claude artifacts).
+- **Design systems matures** : shadcn/ui, Radix et les headless components deviennent le standard, séparant la logique du style.
+- **Accessibilité renforcée** : L'European Accessibility Act (2025) impose l'accessibilité numérique, accélérant l'adoption des standards WCAG 2.2.
+- **Micro-interactions et motion** : Les animations subtiles (Framer Motion, CSS animations) deviennent essentielles pour la perception de qualité.
+- **Design tokens et multi-platform** : Les design tokens permettent de maintenir la cohérence visuelle entre web, mobile et desktop à partir d'une source unique.
+
 ## Template actionnable
 
 ### Checklist d'accessibilité WCAG

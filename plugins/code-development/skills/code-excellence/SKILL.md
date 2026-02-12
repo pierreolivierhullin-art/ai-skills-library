@@ -154,6 +154,16 @@ Suivre ce workflow pour toute initiative d'amélioration de la qualité du code 
 
 
 
+## State of the Art (2025-2026)
+
+Les pratiques de qualité de code sont transformées par l'IA :
+
+- **AI-assisted coding** : Les assistants IA (Copilot, Claude Code, Cursor) accélèrent le développement mais imposent de nouvelles pratiques de revue pour valider le code généré.
+- **AI code review** : Les outils d'analyse statique intègrent des LLM pour des revues plus contextuelles, détectant les problèmes de design au-delà des erreurs syntaxiques.
+- **Type-first development** : TypeScript strict, Zod, et les schémas validés à la compilation deviennent le standard pour éliminer des classes entières de bugs.
+- **Mutation testing** : Au-delà de la couverture de code, le mutation testing (Stryker, pitest) évalue la qualité réelle des tests en vérifiant qu'ils détectent les modifications.
+- **Trunk-based development** : Le feature branching long cède la place au trunk-based avec feature flags, réduisant les merge conflicts et accélérant le delivery.
+
 ## Template actionnable
 
 ### Checklist de code review

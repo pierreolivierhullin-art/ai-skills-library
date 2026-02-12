@@ -220,6 +220,16 @@ Evaluer la maturite de la gouvernance sur les 11 domaines DAMA-DMBOK :
 20. Mesurer et rapporter les KPIs de la gouvernance elle-meme : data quality score, catalogue coverage, SLA compliance, time-to-insight.
 
 
+## State of the Art (2025-2026)
+
+La BI et la gouvernance des données se transforment :
+
+- **Semantic layer universel** : Les couches sémantiques (dbt Semantic Layer, Cube, AtScale) unifient les définitions de métriques entre les outils BI, éliminant les incohérences.
+- **Data mesh opérationnel** : L'architecture data mesh (domain ownership, data as a product, self-serve platform) passe de la théorie à l'implémentation dans les grandes organisations.
+- **AI-augmented BI** : Les outils BI intègrent des LLM pour le querying en langage naturel, la génération automatique d'insights et les alertes intelligentes.
+- **Data contracts** : Les contrats de données formalisent les engagements entre producteurs et consommateurs, améliorant la fiabilité et la qualité.
+- **Data observability** : Les outils de monitoring de la qualité des données (Monte Carlo, Elementary, Soda) détectent les anomalies avant qu'elles n'impactent les dashboards.
+
 ## Template actionnable
 
 ### Framework de KPIs par niveau
