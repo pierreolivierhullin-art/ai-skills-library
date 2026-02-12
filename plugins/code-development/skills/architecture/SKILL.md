@@ -1,9 +1,168 @@
 ---
 name: architecture
-description: This skill should be used when the user asks about "software architecture", "system design", "microservices", "API design", "design patterns", "DDD", "event-driven architecture", "scalability", or needs guidance on technical architecture decisions and system design.
-version: 0.0.1
+description: This skill should be used when the user asks about "software architecture", "system design", "microservices", "API design", "design patterns", "DDD", "event-driven architecture", "scalability", "cloud architecture", "technical strategy", or needs guidance on technical architecture decisions and system design.
+version: 1.0.0
 ---
 
-# architecture
+# Software Architecture & System Design
 
-> Placeholder — contenu state-of-the-art à rédiger.
+## Overview
+
+Ce skill couvre l'ensemble des disciplines liées à l'architecture logicielle et au design de systèmes. Il fournit un cadre de décision structuré pour concevoir des systèmes robustes, scalables et maintenables. L'architecture logicielle ne se limite pas au choix de technologies : elle englobe la structuration des composants, la gestion des flux de données, les stratégies de déploiement et l'alignement entre contraintes techniques et objectifs métier. Appliquer systématiquement les principes décrits ici pour guider chaque décision architecturale, en privilégiant la simplicité, l'évolutivité et la résilience.
+
+## When This Skill Applies
+
+Activer ce skill dans les situations suivantes :
+
+- **Conception initiale d'un système** : choix de l'architecture globale (monolithe, monolithe modulaire, microservices, serverless), définition des bounded contexts, design des APIs.
+- **Revue d'architecture existante** : évaluation de la dette technique architecturale, identification des bottlenecks de scalabilité, audit de résilience.
+- **Migration ou modernisation** : transition monolithe vers microservices, migration cloud, adoption de patterns event-driven.
+- **Décisions techniques structurantes** : choix de bases de données, stratégies de caching, design de pipelines de données, choix de protocoles de communication.
+- **Rédaction d'ADR (Architecture Decision Records)** : documentation formelle des décisions architecturales et de leurs justifications.
+- **Scalabilité et performance** : conception pour la montée en charge, stratégies de sharding, patterns de résilience (circuit breaker, bulkhead, retry).
+- **Design d'APIs** : conception REST, GraphQL, gRPC, stratégies de versioning, pagination, gestion des erreurs.
+
+## Core Principles
+
+### Principle 1 — Fitness Functions over Gut Feeling
+Définir des fitness functions architecturales mesurables pour chaque attribut qualité (latence p99 < 200ms, disponibilité 99.9%, couplage afférent < 5). Utiliser ces métriques pour valider objectivement chaque décision. Ne jamais se fier uniquement à l'intuition.
+
+### Principle 2 — Evolutionary Architecture
+Concevoir pour le changement, pas pour la perfection. Appliquer le principe de la "dernière décision responsable" (Last Responsible Moment) : retarder les choix irréversibles, rendre les choix réversibles quand c'est possible. Favoriser les architectures qui permettent l'expérimentation et le pivotement rapide.
+
+### Principle 3 — Domain-Driven Boundaries
+Aligner les frontières techniques sur les frontières métier. Utiliser le Domain-Driven Design pour identifier les bounded contexts et les ubiquitous languages. Chaque service ou module doit correspondre à un sous-domaine métier clairement identifié.
+
+### Principle 4 — Appropriate Coupling
+Ne pas viser le découplage maximal mais le couplage approprié. Distinguer couplage afférent (incoming) et efférent (outgoing). Accepter un couplage fort au sein d'un bounded context et exiger un couplage lâche entre bounded contexts. Utiliser des contrats (API contracts, event schemas) pour formaliser les interfaces.
+
+### Principle 5 — Observability by Design
+Intégrer l'observabilité dès la conception : structured logging, distributed tracing (OpenTelemetry), métriques métier et techniques. Un système non observable est un système non opérable.
+
+### Principle 6 — Security as Architecture
+Traiter la sécurité comme une contrainte architecturale de premier ordre, pas comme une couche ajoutée a posteriori. Appliquer les principes de Zero Trust, least privilege, defense in depth dès le design initial.
+
+## Key Frameworks & Methods
+
+### Architecture Styles Decision Matrix
+
+| Style | Quand l'utiliser | Complexité Ops | Coût initial | Scalabilité |
+|---|---|---|---|---|
+| **Monolithe** | MVP, équipe < 5, domaine simple | Faible | Faible | Verticale |
+| **Monolithe modulaire** | Domaine complexe, équipe < 20, besoin d'évolution | Faible | Moyen | Verticale + préparation horizontale |
+| **Microservices** | Équipes autonomes, scaling indépendant, domaine mature | Élevée | Élevé | Horizontale fine |
+| **Serverless** | Workloads event-driven, trafic imprévisible | Moyenne | Faible | Automatique |
+| **Cell-based** | Très haute disponibilité, isolation de défaillance | Très élevée | Très élevé | Horizontale par cellule |
+
+### Domain-Driven Design (DDD)
+
+Appliquer la démarche DDD en deux phases :
+1. **Strategic Design** : identifier les domaines, sous-domaines (core, supporting, generic), bounded contexts, et context mapping (ACL, Open Host, Shared Kernel).
+2. **Tactical Design** : implémenter les aggregates, entities, value objects, domain events, repositories et domain services à l'intérieur de chaque bounded context.
+
+### Architecture Decision Records (ADR)
+
+Documenter chaque décision architecturale significative selon le format :
+- **Titre** : description concise de la décision
+- **Contexte** : forces en présence, contraintes, hypothèses
+- **Décision** : choix retenu avec justification
+- **Conséquences** : impacts positifs, négatifs, risques résiduels
+- **Statut** : proposé, accepté, déprécié, remplacé
+
+### Event Storming
+
+Utiliser l'Event Storming comme technique de découverte collaborative pour identifier les domain events, commands, aggregates et bounded contexts. Privilégier cette approche pour aligner développeurs et experts métier avant toute décision architecturale.
+
+## Decision Guide
+
+### Arbre de décision architectural
+
+```
+1. Quelle est la taille de l'équipe et sa maturité DevOps ?
+   ├── < 5 développeurs, DevOps débutant → Monolithe ou Monolithe modulaire
+   ├── 5-20 développeurs, DevOps intermédiaire → Monolithe modulaire
+   └── > 20 développeurs, DevOps mature → Microservices ou Cell-based
+
+2. Quel est le profil de charge ?
+   ├── Trafic prévisible et stable → Containers (ECS/Kubernetes)
+   ├── Trafic imprévisible avec pics → Serverless ou auto-scaling agressif
+   └── Trafic très élevé avec besoin d'isolation → Cell-based architecture
+
+3. Quelles sont les contraintes de consistance ?
+   ├── Consistance forte requise → Base relationnelle, transactions ACID
+   ├── Consistance éventuelle acceptable → Event sourcing, CQRS
+   └── Mix des deux → Saga pattern avec compensations
+
+4. Quel est le budget opérationnel ?
+   ├── Budget limité → Monolithe sur PaaS, serverless
+   ├── Budget moyen → Containers managés, services managés
+   └── Budget important → Infrastructure dédiée, multi-region
+```
+
+### Critères de choix de communication inter-services
+
+| Critère | Synchrone (REST/gRPC) | Asynchrone (Events/Messages) |
+|---|---|---|
+| Besoin de réponse immédiate | Oui | Non |
+| Tolérance aux pannes | Faible | Élevée |
+| Couplage temporel | Fort | Faible |
+| Complexité de debug | Faible | Élevée |
+| Throughput | Moyen | Élevé |
+
+## Common Patterns & Anti-Patterns
+
+### Patterns recommandés
+
+- **Strangler Fig** : migrer un monolithe progressivement en routant le trafic vers les nouveaux services via un proxy. Ne jamais tenter un big-bang rewrite.
+- **CQRS** : séparer les modèles de lecture et d'écriture quand les patterns d'accès divergent significativement. Ne pas appliquer CQRS par défaut — uniquement quand la complexité est justifiée.
+- **Event Sourcing** : stocker les événements plutôt que l'état final pour les domaines nécessitant un audit trail complet ou la reconstruction temporelle. Combiner avec CQRS pour les projections de lecture.
+- **Saga Pattern** : orchestrer les transactions distribuées via des séquences de transactions locales avec compensations. Préférer les sagas chorégraphiées pour le découplage, les sagas orchestrées pour la visibilité.
+- **Sidecar / Ambassador** : externaliser les préoccupations transverses (logging, auth, retry) dans des sidecars pour éviter la contamination du code métier.
+- **Backend for Frontend (BFF)** : créer une couche API dédiée par type de client (mobile, web, IoT) pour optimiser les payloads et les interactions.
+
+### Anti-patterns critiques
+
+- **Distributed Monolith** : des microservices couplés temporellement et déployés ensemble. Résultat : la complexité des microservices sans les bénéfices. Diagnostiquer via le test : "Puis-je déployer ce service indépendamment ?"
+- **Golden Hammer** : appliquer la même architecture à tous les problèmes. Chaque sous-domaine peut justifier un style différent.
+- **Premature Decomposition** : découper en microservices avant de comprendre les frontières du domaine. Commencer par un monolithe modulaire et extraire les services quand les frontières sont stabilisées.
+- **Shared Database** : partager une base de données entre services détruit l'encapsulation et crée un couplage invisible. Chaque service doit posséder ses données.
+- **Chatty Services** : des services qui s'appellent en cascade pour chaque requête. Regrouper les données nécessaires ou utiliser des événements.
+
+## Implementation Workflow
+
+### Phase 1 — Discovery & Analysis
+1. Conduire un Event Storming avec les experts métier pour cartographier le domaine.
+2. Identifier les bounded contexts et établir le context map.
+3. Classifier les sous-domaines (core, supporting, generic).
+4. Documenter les attributs qualité prioritaires (latence, disponibilité, consistance, sécurité).
+5. Analyser les contraintes existantes (équipe, budget, timeline, legacy).
+
+### Phase 2 — Architecture Decision
+6. Évaluer les styles architecturaux candidats avec la matrice de décision.
+7. Rédiger un ADR pour chaque décision structurante.
+8. Définir les fitness functions pour valider les attributs qualité.
+9. Concevoir le modèle de communication (sync/async, protocols, formats).
+10. Définir la stratégie de données (ownership, consistance, partitioning).
+
+### Phase 3 — Design & Prototyping
+11. Designer les APIs publiques (contracts-first approach) avec OpenAPI/AsyncAPI.
+12. Modéliser les aggregates, entities et value objects (tactical DDD).
+13. Concevoir les schémas d'événements (event catalog) avec versioning.
+14. Prototyper le chemin critique (walking skeleton) pour valider les choix.
+15. Établir les conventions d'observabilité (traces, métriques, logs).
+
+### Phase 4 — Validation & Evolution
+16. Valider les fitness functions sur le prototype.
+17. Réaliser des chaos engineering tests pour vérifier la résilience.
+18. Mettre en place des architectural fitness tests automatisés (ArchUnit, dependency checks).
+19. Planifier les revues d'architecture périodiques (Architecture Review Board léger).
+20. Maintenir les ADR à jour et documenter les évolutions.
+
+## Additional Resources
+
+Consulter les fichiers de référence suivants pour des guides détaillés :
+
+- **[System Design](./references/system-design.md)** : fondamentaux des systèmes distribués, théorème CAP, patterns de consistance, comparaison monolithe / monolithe modulaire / microservices, service mesh, cell-based architecture, patterns modernes 2024-2026.
+- **[API Design](./references/api-design.md)** : bonnes pratiques REST, conception de schémas GraphQL, gRPC et protocoles binaires, WebSockets, versioning d'API, pagination, HATEOAS, design API-first moderne.
+- **[Design Patterns](./references/design-patterns.md)** : patterns GoF appliqués au développement moderne, principes SOLID, patterns tactiques DDD (aggregates, bounded contexts, domain events), CQRS, event sourcing.
+- **[Cloud Architecture](./references/cloud-architecture.md)** : stratégies multi-cloud, serverless, orchestration de containers, edge computing, FinOps, Well-Architected Frameworks (AWS, Azure, GCP), patterns cloud-native modernes.
