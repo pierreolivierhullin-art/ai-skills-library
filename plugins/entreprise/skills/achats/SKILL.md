@@ -194,6 +194,16 @@ Niveau 5 — Ecosystemique : orchestration de l'ecosysteme fournisseur, IA predi
 
 
 
+## State of the Art (2025-2026)
+
+La fonction achats se digitalise et se stratégise :
+
+- **Procurement analytics et IA** : L'analyse prédictive des dépenses, le sourcing assisté par IA et la négociation augmentée transforment la fonction.
+- **Supply chain risk intelligence** : Les outils de monitoring en temps réel des risques fournisseurs (géopolitiques, ESG, financiers) se généralisent.
+- **Achats responsables réglementés** : Le devoir de vigilance (loi française, directive CS3D européenne) impose des audits ESG systématiques de la chaîne fournisseurs.
+- **Procure-to-Pay automatisé** : L'automatisation end-to-end du P2P (de la demande d'achat au paiement) réduit les délais et améliore la compliance.
+- **Circular procurement** : Les achats intègrent des critères d'économie circulaire (réparabilité, recyclabilité, seconde vie) dans les cahiers des charges.
+
 ## Template actionnable
 
 ### Scorecard fournisseur

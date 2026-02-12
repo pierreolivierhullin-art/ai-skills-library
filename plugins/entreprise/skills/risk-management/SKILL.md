@@ -222,6 +222,16 @@ Obligations de continuite d'activite ?
 
 
 
+## State of the Art (2025-2026)
+
+La gestion des risques intègre de nouvelles dimensions :
+
+- **Cyber-risque systémique** : Les cyberattaques deviennent un risque stratégique majeur, avec des exigences réglementaires croissantes (NIS2, DORA).
+- **Risques climatiques intégrés** : Les stress tests climatiques (NGFS) et la double matérialité CSRD imposent une quantification financière des risques environnementaux.
+- **IA et risque algorithmique** : L'EU AI Act crée un nouveau cadre réglementaire pour les risques liés à l'intelligence artificielle.
+- **Continuous risk monitoring** : Les outils de GRC (Governance, Risk, Compliance) passent du reporting périodique au monitoring continu avec alertes en temps réel.
+- **Third-party risk management** : La gestion des risques tiers (fournisseurs, sous-traitants, partenaires) se structure avec des plateformes dédiées et des audits automatisés.
+
 ## Template actionnable
 
 ### Risk register

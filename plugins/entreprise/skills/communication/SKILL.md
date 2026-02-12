@@ -170,6 +170,16 @@ Piloter la communication par la mesure. Definir des KPIs clairs pour chaque disp
 
 
 
+## State of the Art (2025-2026)
+
+La communication corporate se réinvente avec les nouveaux médias :
+
+- **IA et création de contenu** : L'IA générative accélère la production de contenus (communiqués, posts, visuels) tout en posant des questions d'authenticité.
+- **Employee advocacy** : Les collaborateurs deviennent les premiers ambassadeurs de la marque, avec des programmes structurés de prise de parole.
+- **Communication de crise en temps réel** : Les réseaux sociaux imposent une réactivité immédiate, avec des war rooms digitales et des outils de social listening.
+- **Podcast et vidéo corporate** : Les formats longs (podcasts, webinaires, vidéos) remplacent progressivement les communiqués traditionnels pour toucher les audiences.
+- **Purpose-driven communication** : L'authenticité et l'engagement sociétal deviennent des critères de crédibilité, imposant une cohérence entre communication et actions.
+
 ## Template actionnable
 
 ### Plan de communication de crise

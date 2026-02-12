@@ -168,6 +168,16 @@ Appliquer la methodologie en 4 phases :
 
 
 
+## State of the Art (2025-2026)
+
+Le reporting ESG entre dans une ère réglementaire structurante :
+
+- **CSRD en vigueur** : La Corporate Sustainability Reporting Directive impose un reporting détaillé selon les standards ESRS pour les grandes entreprises (2025) puis les PME cotées (2026).
+- **Double matérialité** : L'analyse de double matérialité (impact financier + impact sociétal) devient obligatoire et structure la stratégie ESG.
+- **Scope 3 sous pression** : Les émissions indirectes de la chaîne de valeur deviennent le principal défi, avec des méthodologies de calcul qui se standardisent.
+- **Biodiversité émergente** : Après le carbone, la biodiversité (TNFD, Science Based Targets for Nature) monte comme prochain grand sujet de reporting.
+- **Greenwashing sanctionné** : La directive Green Claims (UE) et les sanctions AMF renforcent les exigences de preuve sur les allégations environnementales.
+
 ## Template actionnable
 
 ### Matrice de matérialité ESG

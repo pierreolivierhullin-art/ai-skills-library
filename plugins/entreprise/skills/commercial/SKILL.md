@@ -158,6 +158,16 @@ Investir dans la formation et l'outillage continus des equipes commerciales. Les
 
 
 
+## State of the Art (2025-2026)
+
+La fonction commerciale est transformée par l'IA et l'automatisation :
+
+- **AI-powered sales** : Les outils d'IA analysent les signaux d'achat, scorent les leads automatiquement, génèrent des emails personnalisés et assistent les commerciaux en temps réel (call coaching IA).
+- **Revenue Operations (RevOps)** : L'alignement marketing-ventes-CS devient structurel avec des équipes RevOps dédiées, des stacks technologiques unifiées et des métriques partagées.
+- **Social selling 2.0** : LinkedIn et les réseaux sociaux deviennent des canaux de prospection matures, avec des approches de personal branding B2B systématisées.
+- **Sales-Led vs Product-Led** : Les entreprises adoptent des modèles hybrides combinant PLG pour l'acquisition et sales-assisted pour l'enterprise.
+- **Cycle de vente compressé** : La pression sur les cycles pousse à l'adoption de mutual action plans et de digital sales rooms pour accélérer la décision.
+
 ## Template actionnable
 
 ### Scorecard de qualification MEDDIC

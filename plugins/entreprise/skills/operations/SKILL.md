@@ -158,6 +158,16 @@ Concevoir les operations pour la resilience, pas uniquement pour l'efficience ma
 
 
 
+## State of the Art (2025-2026)
+
+L'excellence opérationnelle intègre les technologies avancées :
+
+- **Industry 4.0 et IoT** : Les capteurs connectés et l'IA prédictive transforment la maintenance, le contrôle qualité et l'optimisation des flux en temps réel.
+- **Supply chain résiliente** : Post-disruptions, les chaînes d'approvisionnement se diversifient (nearshoring, multi-sourcing) et adoptent des digital twins pour la simulation.
+- **Automatisation intelligente** : RPA + IA (hyperautomation) automatisent les processus complexes, pas seulement les tâches répétitives.
+- **Sustainability operations** : L'intégration des contraintes environnementales dans les opérations (logistique verte, économie circulaire) devient un impératif réglementaire et compétitif.
+- **Ops-as-a-Service** : L'externalisation intelligente et les plateformes cloud d'opérations permettent une scalabilité sans investissement lourd.
+
 ## Template actionnable
 
 ### Tableau de bord opérationnel

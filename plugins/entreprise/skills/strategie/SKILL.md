@@ -153,6 +153,16 @@ Evaluer chaque initiative strategique selon sa capacite a creer de la valeur dur
 
 
 
+## State of the Art (2025-2026)
+
+L'approche stratégique évolue rapidement sous l'influence de plusieurs tendances majeures :
+
+- **IA générative dans la planification stratégique** : Les outils d'IA permettent désormais de simuler des scénarios stratégiques, d'analyser des marchés en temps réel et d'accélérer la due diligence M&A. Les entreprises intègrent l'IA comme co-pilote stratégique.
+- **Strategy-as-Code** : Inspirée du DevOps, l'approche consiste à formaliser la stratégie sous forme d'OKR dynamiques connectés à des dashboards temps réel, permettant des pivots plus rapides.
+- **Résilience et antifragilité** : Post-pandémie, les entreprises privilégient les stratégies adaptatives (scenario planning, optionalité) plutôt que les plans rigides à 5 ans.
+- **ESG-native strategy** : La durabilité n'est plus un add-on mais un pilier stratégique intégré dès la conception du business model (double matérialité CSRD).
+- **Écosystèmes et platformisation** : Les stratégies évoluent vers la co-création de valeur au sein d'écosystèmes, plutôt que la compétition frontale.
+
 ## Template actionnable
 
 ### Business Model Canvas

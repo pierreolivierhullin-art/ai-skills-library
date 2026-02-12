@@ -215,6 +215,16 @@ Le framework AARRR structure le funnel de croissance en 5 etapes :
 
 
 
+## State of the Art (2025-2026)
+
+Le marketing connaît une transformation profonde portée par l'IA et l'évolution des comportements :
+
+- **Marketing généré par l'IA** : Création de contenu (texte, image, vidéo) assistée par IA, personnalisation à grande échelle, et optimisation automatique des campagnes via des agents IA.
+- **Fin des cookies tiers** : Transition vers le first-party data, les data clean rooms, et le contextual targeting. Les stratégies de marketing se recentrent sur la collecte directe.
+- **Product-Led Growth (PLG)** : Le produit devient le principal canal d'acquisition et de conversion, avec des freemiums optimisés et des boucles virales intégrées.
+- **Community-Led Growth** : Les communautés (Discord, Slack, forums) deviennent des canaux d'acquisition et de rétention majeurs, avec des approches de co-création.
+- **Attribution multi-touch et incrementality testing** : Les modèles d'attribution évoluent vers des approches probabilistes et des tests d'incrémentalité pour mesurer le vrai impact.
+
 ## Template actionnable
 
 ### Plan Go-To-Market

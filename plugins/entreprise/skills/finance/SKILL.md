@@ -205,6 +205,16 @@ Maintenir un referentiel financier unique et reconcilie. Interdire les "shadow s
 
 
 
+## State of the Art (2025-2026)
+
+La fonction financière se transforme avec l'automatisation et les nouvelles métriques :
+
+- **FP&A augmenté par l'IA** : Les outils de financial planning intègrent le machine learning pour des prévisions plus précises, la détection d'anomalies et des scénarios automatisés.
+- **Real-time finance** : Les clôtures comptables tendent vers le temps réel grâce à l'automatisation des flux et la réconciliation continue.
+- **Métriques SaaS avancées** : Au-delà du MRR/ARR, les investisseurs scrutent le Net Dollar Retention (NDR), le CAC payback, la Rule of 40 et le burn multiple.
+- **Embedded finance** : L'intégration de services financiers (paiements, lending, assurance) directement dans les produits crée de nouveaux modèles de revenus.
+- **Green finance et taxonomie** : Les obligations de reporting CSRD et la taxonomie européenne imposent de nouveaux cadres de reporting financier extra-financier.
+
 ## Template actionnable
 
 ### Unit Economics SaaS

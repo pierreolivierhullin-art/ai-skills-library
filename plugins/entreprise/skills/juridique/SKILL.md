@@ -191,6 +191,16 @@ Adapter le niveau de diligence juridique a l'enjeu reel. Ne pas appliquer le mem
 
 
 
+## State of the Art (2025-2026)
+
+La fonction juridique se digitalise et fait face à de nouveaux cadres :
+
+- **Legal tech et IA** : L'IA générative transforme la rédaction contractuelle, l'analyse de clauses et la due diligence. Les CLM (Contract Lifecycle Management) se généralisent.
+- **EU AI Act** : Le règlement européen sur l'IA (applicable 2025-2026) crée de nouvelles obligations de conformité pour les systèmes IA à haut risque.
+- **DMA/DSA** : Les Digital Markets Act et Digital Services Act imposent de nouvelles contraintes aux plateformes numériques.
+- **Transferts internationaux de données** : Post-Schrems II, le Data Privacy Framework UE-US et les clauses contractuelles types évoluent.
+- **Legal Operations** : La professionnalisation du legal ops (métriques, processus, technologie) transforme les directions juridiques en centres de valeur.
+
 ## Template actionnable
 
 ### Checklist de revue contractuelle

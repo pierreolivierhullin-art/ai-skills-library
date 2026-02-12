@@ -196,6 +196,16 @@ Choisir le framework de priorisation adapte au contexte :
 
 
 
+## State of the Art (2025-2026)
+
+La gestion de projet évolue vers plus d'agilité et d'intelligence artificielle :
+
+- **IA dans le project management** : Les outils intègrent l'IA pour l'estimation automatique, la détection de risques, l'optimisation des plannings et la génération de rapports.
+- **Agilité à l'échelle mature** : SAFe, LeSS et Spotify Model se stabilisent, avec un focus sur la simplification et l'adaptation au contexte plutôt que l'application dogmatique.
+- **Continuous Discovery** : L'intégration de la discovery continue (Teresa Torres) dans les cycles agile rapproche la gestion de projet du product management.
+- **Flow metrics** : Les métriques de flux (cycle time, throughput, WIP) remplacent progressivement les métriques traditionnelles (velocity, story points) pour piloter la performance.
+- **Async-first et remote** : Les pratiques de gestion de projet s'adaptent au travail distribué avec des outils et rituels pensés pour l'asynchrone.
+
 ## Template actionnable
 
 ### Charte de projet

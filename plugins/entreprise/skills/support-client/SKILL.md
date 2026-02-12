@@ -182,6 +182,16 @@ Construire un health score composite (0-100) a partir de signaux ponderes :
 
 
 
+## State of the Art (2025-2026)
+
+Le support client est transformé par l'IA conversationnelle :
+
+- **Chatbots IA avancés** : Les LLM permettent des chatbots capables de résoudre des cas complexes, pas seulement les FAQ. Le taux de résolution automatisée dépasse 40% chez les leaders.
+- **Support prédictif** : L'IA anticipe les problèmes avant que le client ne contacte le support, grâce à l'analyse comportementale et la télémétrie produit.
+- **Omnichannel unifié** : La convergence des canaux (chat, email, téléphone, social, in-app) dans une vue unique du parcours client devient le standard.
+- **Customer Success-Led Growth** : Le CS devient un moteur de revenus (expansion, upsell) et pas seulement un centre de coûts.
+- **Voice of Customer (VoC) par IA** : L'analyse automatique des sentiments et des thèmes dans les tickets permet un feedback loop produit en temps réel.
+
 ## Template actionnable
 
 ### Matrice de triage des tickets

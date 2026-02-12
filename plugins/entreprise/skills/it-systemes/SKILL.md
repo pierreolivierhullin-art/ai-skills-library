@@ -178,6 +178,16 @@ Automatiser les taches repetitives et a faible valeur ajoutee (provisioning, pat
 
 
 
+## State of the Art (2025-2026)
+
+La gouvernance IT se transforme avec le cloud et l'IA :
+
+- **FinOps** : La gestion financière du cloud (FinOps) devient une discipline à part entière pour optimiser les coûts et la valeur des investissements cloud.
+- **AI-ready infrastructure** : Les DSI préparent les infrastructures pour l'IA (GPU as a Service, vector databases, MLOps platforms).
+- **Zero Trust généralisé** : Le modèle Zero Trust remplace le périmètre réseau traditionnel, avec une vérification continue des identités et des accès.
+- **Composable enterprise** : Les architectures modulaires (API-first, microservices, packaged business capabilities) remplacent les ERP monolithiques.
+- **Green IT** : La mesure et la réduction de l'empreinte carbone du numérique deviennent des obligations (loi REEN en France, CSRD).
+
 ## Template actionnable
 
 ### Grille d'évaluation cloud

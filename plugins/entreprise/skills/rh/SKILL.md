@@ -178,6 +178,16 @@ feedback continu (via outil type Lattice/Culture Amp) et calibration semestriell
 
 
 
+## State of the Art (2025-2026)
+
+La fonction RH se réinvente sous l'effet de l'IA et des nouvelles attentes des collaborateurs :
+
+- **IA dans le recrutement** : Screening automatisé des CV, matching candidat-poste par IA, chatbots de pré-qualification et analyse prédictive de la rétention.
+- **Skills-based organization** : Le passage d'une logique de postes à une logique de compétences transforme la GPEC, avec des marketplaces internes de talents.
+- **Employee Experience (EX)** : L'expérience collaborateur devient aussi stratégique que l'expérience client, avec des programmes structurés de well-being et de flexibilité.
+- **People analytics avancés** : L'analyse prédictive permet d'anticiper le turnover, d'optimiser la rémunération et de mesurer l'impact des programmes RH.
+- **Travail hybride mature** : Les politiques de travail hybride se formalisent avec des frameworks de flexibilité négociée et des outils de collaboration asynchrone.
+
 ## Template actionnable
 
 ### Checklist d'onboarding
