@@ -206,3 +206,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Corporate Governance](./references/corporate-governance.md)** : structuration du board, comites specialises, ISO 37000, conformite SOX et Sapin II, relations investisseurs, gouvernance ESG, tendances 2024-2026 en gouvernance d'entreprise.
 - **[Mergers & Acquisitions](./references/mergers-acquisitions.md)** : processus M&A end-to-end, due diligence multi-dimensionnelle, methodes de valorisation (DCF, comparables, transactions precedentes), integration post-merger (PMI), capture de synergies, state of the art 2024-2026.
 - **[OKR & Performance Management](./references/okr-performance.md)** : methodologie OKR, cascade et alignement, Balanced Scorecard, KPIs strategiques, revues de performance, pilotage agile de la strategie, tendances 2024-2026.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

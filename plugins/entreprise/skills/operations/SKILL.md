@@ -209,3 +209,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Supply Chain Management](./references/supply-chain.md)** : demand planning, gestion des stocks (EOQ, safety stock, ABC/XYZ), logistique (3PL, last mile, reverse logistics), procurement et sourcing strategique, S&OP, supply chain visibility et resilience, tendances 2024-2026 (digital supply chain twin, autonomous logistics).
 - **[Quality Management](./references/quality-management.md)** : systemes de management de la qualite (ISO 9001:2015), TQM, amelioration continue (PDCA, A3, 8D), analyse de causes racines (Ishikawa, 5 Whys, Pareto), maitrise statistique des procedes (SPC), tendances 2024-2026 (Quality 4.0, predictive quality, AI-driven inspection).
 - **[Service Delivery & Workplace](./references/service-delivery.md)** : design de SLA/SLO/SLI, gestion des incidents, capacity et availability management, Continual Service Improvement (CSI), facilities management, HSE, workplace hybride, tendances 2024-2026 (ITIL 4, XLA, smart buildings).
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

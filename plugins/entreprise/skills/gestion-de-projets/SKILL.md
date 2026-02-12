@@ -251,3 +251,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Portfolio & PMO](./references/portfolio-pmo.md)** : gouvernance de portefeuille, frameworks de priorisation (RICE, MoSCoW, Weighted Scoring, Cost of Delay, WSJF), capacity planning, modeles de PMO (delivery, strategic, value delivery office), reporting et metriques.
 - **[Transformation & Change Management](./references/transformation-change.md)** : evaluation de la maturite digitale, roadmap de transformation, adoption digitale (WalkMe, Pendo), modernisation legacy, frameworks OCM (ADKAR/Prosci, Kotter 8 Steps, Lewin, McKinsey 7S), gestion de la resistance, change champions, mesure de l'adoption.
 - **[Advanced Agile](./references/agile-advanced.md)** : agilite a l'echelle (Scrum@Scale, LeSS, Nexus, SAFe portfolio), Kanban avance (flight levels, Kanban Maturity Model), Design Thinking, Design Sprint, Lean management (Kaizen, A3 Problem Solving, Value Stream Mapping).
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

@@ -223,3 +223,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Media Relations](./references/media-relations.md)** : relations presse et media office, communiques de presse, media training, veille mediatique (Kantar, Meltwater, Onclusive), strategie d'earned media, nouveaux formats mediatiques, tendances 2024-2026.
 - **[Crisis Communication](./references/crisis-communication.md)** : plan de communication de crise, dark site et holding statements, cellule de crise communication, gestion de crise sur les reseaux sociaux, reparation de reputation post-crise, tendances 2024-2026.
 - **[Internal Communications & Public Affairs](./references/internal-public-affairs.md)** : strategie de communication interne, intranet et digital workplace, engagement collaborateur, town halls et all-hands, marque employeur interne, relations institutionnelles, lobbying et advocacy, veille politique et reglementaire, coalitions, tendances 2024-2026.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

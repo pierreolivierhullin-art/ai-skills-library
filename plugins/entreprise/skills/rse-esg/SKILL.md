@@ -222,3 +222,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[ESG Reporting](./references/esg-reporting.md)** : CSRD et normes ESRS, Taxonomie UE, referentiels GRI/SASB/TCFD/ISSB, DPEF, collecte et audit des donnees ESG, assurance limited et reasonable, convergence des standards, state of the art 2024-2026.
 - **[Climate & Carbon](./references/climate-carbon.md)** : GHG Protocol, Bilan Carbone ADEME, scopes 1/2/3, SBTi et trajectoires Net Zero, marches carbone (volontaire et reglemente), compensation et contribution, analyse du cycle de vie (ACV), state of the art 2024-2026.
 - **[Circular Economy & Impact](./references/circular-impact.md)** : economie circulaire, ecoconception, mesure d'impact social et environnemental (SROI, theorie du changement), achats responsables, biodiversite et capital naturel (TNFD, SBTN), gouvernance ESG, devoir de vigilance, state of the art 2024-2026.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

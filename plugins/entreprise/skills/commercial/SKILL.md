@@ -209,3 +209,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Sales Methodologies](./references/sales-methodologies.md)** : comparaison approfondie MEDDPICC, Challenger Sale, SPIN Selling, Sandler, Gap Selling, Command of the Message, Solution Selling, avec guides d'implementation et criteres de selection, tendances 2024-2026.
 - **[RevOps & Sales Management](./references/revops-management.md)** : Revenue Operations, forecasting, pipeline management, territory planning, CRM optimization (Salesforce, HubSpot), sales analytics, compensation design, leadership et coaching, state of the art 2024-2026.
 - **[Sales Enablement & Partners](./references/enablement-partners.md)** : programmes d'enablement, battlecards, tech stack commerciale (Gong, Outreach, Salesloft), conversation intelligence, channel sales, partner programs, co-selling, marketplace selling (AWS/Azure/GCP), state of the art 2024-2026.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

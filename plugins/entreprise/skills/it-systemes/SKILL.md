@@ -233,3 +233,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Cybersecurity Governance](./references/cybersecurity-governance.md)** — ISO 27001/27701 (SMSI, implementation), EBIOS RM et ISO 27005 (analyse de risques), politiques de securite (PSSI), sensibilisation, reponse aux incidents (CSIRT), conformite reglementaire (RGPD, NIS2, DORA, SOC 2, HDS), Zero Trust.
 
 - **[ERP & ITSM](./references/erp-itsm.md)** — ERP (SAP S/4HANA, Oracle, Dynamics 365, Odoo), CRM administration, RPA/low-code/no-code, integration et iPaaS (MuleSoft, Workato, Boomi), service desk (L1/L2/L3), change management IT (CAB), CMDB, problem management, knowledge management, ITAM, ESM.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

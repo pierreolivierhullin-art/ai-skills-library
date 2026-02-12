@@ -230,3 +230,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Knowledge Base & Self-Service](./references/knowledge-self-service.md)** : architecture de knowledge base, methodologie KCS, redaction d'articles, optimisation du self-service, chatbots et IA conversationnelle, content analytics, state of the art 2024-2026.
 - **[Customer Success](./references/customer-success.md)** : health scoring, engagement proactif, prevention du churn, QBR, expansion et upsell, outils CS (Gainsight, ChurnZero, Totango), modeles de segmentation, state of the art 2024-2026.
 - **[CX & Analytics](./references/cx-analytics.md)** : programmes Voice of Customer, mesure NPS/CSAT/CES, journey mapping, service blueprinting, analytics support, forecasting, performance metrics, state of the art 2024-2026.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

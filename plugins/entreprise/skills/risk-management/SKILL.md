@@ -276,3 +276,5 @@ Consulter les fichiers de reference pour un approfondissement detaille :
 - **[Compliance & Regulatory](./references/compliance-regulatory.md)** : Programmes de conformite, anti-corruption (Sapin II, FCPA, UK Bribery Act), protection des donnees (RGPD, CCPA), lanceurs d'alerte (directive 2019/1937), monitoring de conformite, due diligence tiers.
 
 - **[BCP & Insurance](./references/bcp-insurance.md)** : Business Impact Analysis, PCA/BCP, PRA/DRP, gestion de crise, tests de continuite (tabletop, simulation, full-scale), RTO/RPO, programmes d'assurance, transfert de risques, captives, D&O/cyber/property insurance.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

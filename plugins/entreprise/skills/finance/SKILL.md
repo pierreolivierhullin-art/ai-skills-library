@@ -258,3 +258,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[FP&A & Financial Modeling](./references/fpa-modeling.md)** : FP&A, modeles financiers a 3 etats, analyse de scenarios, rolling forecasts, reporting COMEX/board, benchmarking, driver-based planning.
 - **[Treasury & Tax](./references/treasury-tax.md)** : cash management, previsions de tresorerie 13 semaines, financement du BFR (affacturage, Dailly), couverture de change, cash pooling, optimisation fiscale (IS, TVA, CIR), prix de transfert.
 - **[Fundraising & KPIs](./references/fundraising-kpis.md)** : processus de levee de fonds (seed a IPO), relations investisseurs, unit economics (CAC, LTV, payback), metriques SaaS (MRR, ARR, NDR, churn), analyse financiere et ratios cles.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

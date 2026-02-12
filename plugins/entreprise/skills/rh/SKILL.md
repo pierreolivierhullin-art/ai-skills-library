@@ -232,3 +232,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Performance & Compensation](./references/performance-compensation.md)** : cycle de performance management, feedback continu et 360, OKR/SMART, calibration, PIP, grilles salariales et benchmarking, remuneration variable, plans d'equity (BSPCE, AGA, RSU), total rewards, etat de l'art 2024-2026.
 - **[People Analytics & DEI](./references/people-analytics-dei.md)** : KPIs RH, workforce planning, modelisation de l'attrition, enquetes d'engagement, analytics DEI, strategie diversite et inclusion, recrutement inclusif, equite salariale, Index Penicaud, etat de l'art 2024-2026.
 - **[Labor Relations & Administration](./references/labor-relations-admin.md)** : droit du travail francais, CSE et dialogue social, negociations collectives (NAO), contrats de travail, temps de travail, procedure disciplinaire, paie et DSN, SIRH, BDESE, reporting social obligatoire, etat de l'art 2024-2026.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

@@ -245,3 +245,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Supplier Management](./references/supplier-management.md)** : selection et evaluation multicritere des fournisseurs, scorecards de performance QCDRSE, Supplier Relationship Management, developpement fournisseurs, audits et certifications, state of the art 2024-2026.
 - **[Contract & Risk Management](./references/contract-risk.md)** : cycle de vie contractuel, CLM (Contract Lifecycle Management), gestion des risques fournisseurs, KYS (Know Your Supplier), plans de continuite, monitoring financier, conformite, state of the art 2024-2026.
 - **[Procurement Operations](./references/procurement-ops.md)** : processus Purchase-to-Pay, plateformes e-procurement (SAP Ariba, Coupa, Ivalua), spend analysis, KPIs achats (savings, compliance, cycle time), achats durables, state of the art 2024-2026.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

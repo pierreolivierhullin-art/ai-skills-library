@@ -246,3 +246,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Data Protection](./references/data-protection.md)** : RGPD, registre des traitements, Privacy by Design, DPIA/AIPD, droits des personnes concernees, relations CNIL, DPA, transferts internationaux (CCT/SCC, adequation), ePrivacy, state of the art 2024-2026.
 - **[Labor & Compliance](./references/labor-compliance.md)** : droit du travail francais, contrats de travail (CDI, CDD, freelance, portage), contentieux prud'homal, droit disciplinaire, restructurations et PSE, mobilite internationale, programmes compliance, anticorruption, devoir de vigilance, ethique, state of the art 2024-2026.
 - **[Corporate & Legal Ops](./references/corporate-legal-ops.md)** : droit des societes, assemblees generales, operations sur capital (BSA, BSPCE), gouvernance juridique, legal ops, legal tech, IA et droit, contentieux commercial, state of the art 2024-2026.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

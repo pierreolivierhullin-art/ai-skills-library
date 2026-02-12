@@ -268,3 +268,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Growth & Product Marketing](./references/growth-product-marketing.md)** : growth loops, CRO, PLG, product marketing, GTM, competitive intelligence, battlecards, experimentation, state of the art 2024-2026.
 - **[Pricing & Monetization](./references/pricing-monetization.md)** : value-based pricing, dynamic pricing, freemium, Van Westendorp, conjoint analysis, packaging, bundling, experimentation de prix, state of the art 2024-2026.
 - **[Marketing Ops & CRM](./references/marketing-ops-crm.md)** : MarTech stack, automation workflows, lead routing, data enrichment, CRM, lifecycle marketing, email deliverability, segmentation RFM, loyalty, churn prevention, state of the art 2024-2026.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
