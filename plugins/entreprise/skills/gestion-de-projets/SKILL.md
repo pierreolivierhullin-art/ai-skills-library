@@ -1,7 +1,8 @@
 ---
 name: gestion-de-projets
 description: This skill should be used when the user asks about "project management", "agile methodology", "digital transformation", "change management", "portfolio prioritization", "gestion de projet", "méthodologie agile", "transformation digitale", "conduite du changement", "Scrum", "SAFe", "PRINCE2", "Kanban", "sprint planning", "backlog management", "user stories", "velocity", "burndown chart", "PMO", "bureau de projets", "roadmap produit", "product roadmap", "stakeholder management", "gestion des parties prenantes", "risk mitigation", "planning poker", "rétrospective", "daily standup", "epic", "milestone", "jalons", "Gantt", "WBS", "benefits realization", discusses Scrum, SAFe, PRINCE2, or needs guidance on PMO setup, organizational change, or benefits realization.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Gestion de Projets & Transformation
@@ -193,6 +194,25 @@ Choisir le framework de priorisation adapte au contexte :
 25. Ancrer la culture d'amelioration continue (kaizen, retrospectives, communities of practice).
 
 
+
+
+## Template actionnable
+
+### Charte de projet
+
+| Rubrique | Description | Votre réponse |
+|---|---|---|
+| **Nom du projet** | Intitulé clair et concis | ___ |
+| **Sponsor** | Qui porte le projet au CODIR ? | ___ |
+| **Chef de projet** | Responsable opérationnel | ___ |
+| **Objectif SMART** | Spécifique, mesurable, atteignable, réaliste, temporel | ___ |
+| **Périmètre (in)** | Ce qui est inclus | ___ |
+| **Périmètre (out)** | Ce qui est explicitement exclu | ___ |
+| **Parties prenantes** | Qui est impacté ? | ___ |
+| **Budget** | Enveloppe allouée | ___ € |
+| **Échéance** | Date de livraison cible | ___ |
+| **Risques majeurs** | Top 3 des risques identifiés | ___ |
+| **Critères de succès** | Comment mesurer la réussite ? | ___ |
 
 ## Prompts types
 

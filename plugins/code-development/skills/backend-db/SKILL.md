@@ -1,7 +1,8 @@
 ---
 name: backend-db
 description: This skill should be used when the user asks about "database design", "SQL optimization", "PostgreSQL", "Supabase", "ORM", "Prisma", "Drizzle", "API development", "REST API", "GraphQL", "database migrations", "indexing", "query optimization", "NoSQL", "Redis", "vector databases", "conception de base de données", "optimisation SQL", "développement API", "migrations de base de données", "optimisation de requêtes", "bases de données vectorielles", "MySQL", "MongoDB", "DynamoDB", "Elasticsearch", "database schema", "schéma de base de données", "normalization", "normalisation", "denormalization", "N+1 query", "connection pooling", "database replication", "réplication", "sharding", "partitioning", "stored procedures", "triggers", "materialized views", "tRPC", "Hono", "Express", "Fastify", "NestJS", "serverless functions", or needs guidance on backend development and database management.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Backend Development & Database Management
@@ -186,6 +187,24 @@ Flux de donnees unidirectionnel serveur -> client ?
 4. Planifier les maintenances (VACUUM, REINDEX, rafraichissement des vues materialisees).
 5. Documenter les runbooks pour les operations courantes (rollback migration, scaling, failover).
 
+
+
+## Template actionnable
+
+### Checklist de migration de base de données
+
+| Étape | Action | Vérifié |
+|---|---|---|
+| **Pré-migration** | Backup complet de la base | ☐ |
+| **Pré-migration** | Tester la migration sur staging | ☐ |
+| **Pré-migration** | Vérifier la rétrocompatibilité du schéma | ☐ |
+| **Pré-migration** | Estimer le downtime si applicable | ☐ |
+| **Migration** | Exécuter la migration | ☐ |
+| **Migration** | Vérifier l'intégrité des données | ☐ |
+| **Post-migration** | Valider les index et contraintes | ☐ |
+| **Post-migration** | Tester les requêtes critiques | ☐ |
+| **Post-migration** | Monitorer les performances | ☐ |
+| **Rollback** | Plan de rollback documenté et testé | ☐ |
 
 ## Prompts types
 

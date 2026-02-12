@@ -1,7 +1,8 @@
 ---
 name: strategie-ia
 description: This skill should be used when the user asks about "AI strategy", "AI maturity", "AI roadmap", "AI governance", "MLOps", "model lifecycle", "AI Center of Excellence", "AI literacy", "build vs buy AI", "AI use case prioritization", "stratégie IA", "maturité IA", "feuille de route IA", "gouvernance IA", "cycle de vie des modèles", "centre d'excellence IA", "acculturation IA", "culture IA", "AI adoption", "adoption de l'IA", "AI transformation", "transformation par l'IA", "AI ROI", "retour sur investissement IA", "AI talent", "compétences IA", "AI operating model", "modèle opérationnel IA", "AI ethics board", "comité éthique IA", "responsible AI governance", "AI portfolio", "AI budget", "make or buy IA", or needs guidance on enterprise AI strategy, model governance, and AI organization.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Enterprise AI Strategy & Governance
@@ -218,6 +219,19 @@ Calculer le ROI IA en integrant :
 23. Optimiser le portefeuille IA : decommissionner les modeles sans valeur, scaler les succes.
 24. Evoluer vers un modele d'organisation federe mature.
 25. Etablir un programme d'innovation IA continue (veille, experimentation, partenariats).
+
+## Template actionnable
+
+### Scorecard de priorisation de use cases IA
+
+| Use case | Impact business (1-5) | Faisabilité technique (1-5) | Données disponibles (1-5) | Risque (1-5, inversé) | Score total | Priorité |
+|---|---|---|---|---|---|---|
+| ___ | ___ | ___ | ___ | ___ | ___ | ___ |
+| ___ | ___ | ___ | ___ | ___ | ___ | ___ |
+| ___ | ___ | ___ | ___ | ___ | ___ | ___ |
+| ___ | ___ | ___ | ___ | ___ | ___ | ___ |
+
+> Score = Σ critères. Quick win ≥ 16, Projet stratégique 12-15, Exploration 8-11, Reporter < 8.
 
 ## Prompts types
 

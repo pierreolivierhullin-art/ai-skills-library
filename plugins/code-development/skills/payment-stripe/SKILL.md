@@ -1,7 +1,8 @@
 ---
 name: payment-stripe
 description: This skill should be used when the user asks about "Stripe integration", "payment processing", "subscription billing", "PCI compliance", "checkout", "webhooks", "Stripe Connect", "payment intents", "recurring payments", "invoicing", "metered billing", "SCA", "3D Secure", "intégration Stripe", "traitement des paiements", "facturation récurrente", "conformité PCI", "paiements récurrents", "facturation", "abonnements", "subscriptions", "pricing page", "page de tarification", "Stripe Elements", "Stripe Checkout", "customer portal", "portail client", "proration", "prorata", "coupons", "promotions", "refunds", "remboursements", "disputes", "litiges", "Stripe Tax", "marketplace payments", "paiements marketplace", "payment links", "Apple Pay", "Google Pay", or needs guidance on payment implementation and monetization.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Payment Stripe
@@ -209,6 +210,24 @@ Mix fixe + variable ?
 5. Implementer Revenue Recognition pour la comptabilite (ASC 606 / IFRS 15)
 6. Reconcilier les flux financiers avec le systeme comptable (ERP sync, journal entries)
 
+
+
+## Template actionnable
+
+### Checklist d'intégration Stripe
+
+| Étape | Action | Vérifié |
+|---|---|---|
+| **Setup** | Compte Stripe créé, clés API configurées | ☐ |
+| **Setup** | Webhook endpoint configuré et sécurisé | ☐ |
+| **Setup** | Produits et prix créés (test mode) | ☐ |
+| **Checkout** | Flow de paiement testé (succès + échec) | ☐ |
+| **Checkout** | 3D Secure / SCA géré | ☐ |
+| **Webhooks** | Idempotence des handlers vérifiée | ☐ |
+| **Webhooks** | Events critiques gérés (payment_intent.succeeded, invoice.paid, customer.subscription.deleted) | ☐ |
+| **Billing** | Scénarios d'abonnement testés (upgrade, downgrade, cancel) | ☐ |
+| **Billing** | Relance automatique (dunning) configurée | ☐ |
+| **Go-live** | Switch vers clés live + tests en production | ☐ |
 
 ## Prompts types
 

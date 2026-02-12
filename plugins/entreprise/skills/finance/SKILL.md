@@ -1,7 +1,8 @@
 ---
 name: finance
 description: This skill should be used when the user asks about "financial planning", "FP&A", "budget forecasting", "cash management", "fundraising strategy", "financial modeling", "planification financière", "prévision budgétaire", "gestion de trésorerie", "levée de fonds", "modélisation financière", "business plan financier", "unit economics", "SaaS metrics", "MRR", "ARR", "churn rate", "LTV", "CAC", "burn rate", "runway", "P&L", "compte de résultat", "bilan", "balance sheet", "cash flow", "flux de trésorerie", "EBITDA", "ROI", "audit interne", "internal audit", "tax strategy", "stratégie fiscale", "corporate finance", "valorisation", "valuation", "due diligence financière", discusses unit economics, or needs guidance on corporate finance, tax strategy, or internal audit.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Finance d'Entreprise — Corporate Financial Management
@@ -202,6 +203,23 @@ Maintenir un referentiel financier unique et reconcilie. Interdire les "shadow s
 17. Mettre en place la revue trimestrielle des risques financiers (change, taux, liquidite, credit).
 
 
+
+
+## Template actionnable
+
+### Unit Economics SaaS
+
+| Métrique | Formule | Votre valeur | Benchmark |
+|---|---|---|---|
+| **MRR** | Σ abonnements mensuels | ___ € | - |
+| **ARR** | MRR × 12 | ___ € | - |
+| **CAC** | Coûts acquisition / nouveaux clients | ___ € | < LTV/3 |
+| **LTV** | ARPU × durée vie moyenne | ___ € | > 3× CAC |
+| **LTV/CAC** | LTV / CAC | ___ | > 3.0 |
+| **Churn mensuel** | Clients perdus / clients début de mois | ___ % | < 2% |
+| **Burn rate** | Dépenses mensuelles nettes | ___ € | - |
+| **Runway** | Trésorerie / burn rate | ___ mois | > 18 mois |
+| **Payback period** | CAC / ARPU mensuel | ___ mois | < 12 mois |
 
 ## Prompts types
 

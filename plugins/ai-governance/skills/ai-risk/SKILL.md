@@ -1,7 +1,8 @@
 ---
 name: ai-risk
 description: This skill should be used when the user asks about "AI risk", "hallucination", "model drift", "adversarial attacks", "AI safety", "red teaming AI", "prompt injection", "data poisoning", "model collapse", "AI alignment", "AI kill switch", "risque IA", "hallucination IA", "dérive de modèle", "attaques adversariales", "sécurité IA", "red team IA", "injection de prompt", "empoisonnement de données", "effondrement de modèle", "alignement IA", "arrêt d'urgence IA", "AI incident", "incident IA", "AI failure mode", "mode de défaillance IA", "jailbreak", "data leakage", "fuite de données", "model robustness", "robustesse du modèle", "AI monitoring", "surveillance IA", "model validation", "validation de modèle", "AI compliance", "conformité IA", "shadow AI", "AI supply chain risk", or needs guidance on AI-specific risk assessment, mitigation, and safety engineering.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # AI Risk Assessment & Safety Engineering
@@ -226,6 +227,21 @@ Dependance fournisseur excessive ?
 4. Integrer les retours des incidents et near-misses
 5. Mettre a jour les defenses face aux nouvelles menaces (jailbreaks, techniques d'attaque emergentes)
 6. Conduire des revues post-incident (blameless post-mortems) pour chaque incident IA
+
+## Template actionnable
+
+### Registre de risques IA
+
+| # | Risque | Catégorie | Probabilité (1-5) | Impact (1-5) | Score | Mitigation | Owner | Statut |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Hallucination factuelle | Fiabilité | ___ | ___ | ___ | ___ | ___ | ☐ |
+| 2 | Fuite de données sensibles | Sécurité | ___ | ___ | ___ | ___ | ___ | ☐ |
+| 3 | Biais discriminatoire | Éthique | ___ | ___ | ___ | ___ | ___ | ☐ |
+| 4 | Prompt injection | Sécurité | ___ | ___ | ___ | ___ | ___ | ☐ |
+| 5 | Model drift | Performance | ___ | ___ | ___ | ___ | ___ | ☐ |
+| 6 | Dépendance fournisseur | Stratégique | ___ | ___ | ___ | ___ | ___ | ☐ |
+
+> Score = Probabilité × Impact. Critique ≥ 15, Élevé 10-14, Modéré 5-9, Faible < 5.
 
 ## Prompts types
 

@@ -1,7 +1,8 @@
 ---
 name: behavioral-finance
 description: This skill should be used when the user asks about "behavioral finance", "cognitive biases", "trading psychology", "loss aversion", "confirmation bias", "decision-making", "market psychology", "prospect theory", "herd behavior", "emotional discipline", "finance comportementale", "biais cognitifs", "psychologie du trading", "aversion à la perte", "biais de confirmation", "prise de décision", "psychologie de marché", "théorie des perspectives", "comportement moutonnier", "discipline émotionnelle", "overconfidence", "excès de confiance", "anchoring bias", "biais d'ancrage", "disposition effect", "effet de disposition", "FOMO", "fear of missing out", "sunk cost fallacy", "recency bias", "biais de récence", "mental accounting", "comptabilité mentale", "regret aversion", "status quo bias", "framing effect", "effet de cadrage", "Dunning-Kruger", "trading journal", "journal de trading", "mindfulness trading", or needs guidance on behavioral aspects of investing, psychological biases, and decision-making frameworks.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Behavioral Finance — Biais Cognitifs, Psychologie du Trading & Prise de Decision
@@ -214,6 +215,18 @@ Evaluer la tolerance au risque reelle (et non declaree) selon trois dimensions :
 16. Pratiquer le goal-based investing avec des mental accounts dedies.
 17. Mettre en place des nudges personnels (automatisation du rebalancement, DCA automatique).
 18. Revue trimestrielle complete du systeme comportemental avec calibration des probabilites.
+
+## Template actionnable
+
+### Journal de trading
+
+| Date | Actif | Direction | Thèse | Émotion pré-trade | Résultat | Émotion post-trade | Biais identifié | Leçon |
+|---|---|---|---|---|---|---|---|---|
+| ___ | ___ | Long/Short | ___ | ___ | +/- ___% | ___ | ___ | ___ |
+| ___ | ___ | Long/Short | ___ | ___ | +/- ___% | ___ | ___ | ___ |
+| ___ | ___ | Long/Short | ___ | ___ | +/- ___% | ___ | ___ | ___ |
+
+> Biais fréquents : FOMO, confirmation, ancrage, disposition, excès de confiance, aversion à la perte.
 
 ## Prompts types
 

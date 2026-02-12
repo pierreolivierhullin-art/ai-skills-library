@@ -1,7 +1,8 @@
 ---
 name: auth-security
 description: This skill should be used when the user asks about "authentication", "authorization", "OAuth 2.0", "OpenID Connect", "JWT", "OWASP", "application security", "RBAC", "ABAC", "secrets management", "encryption", "zero trust", "passkeys", "WebAuthn", "authentification", "autorisation", "sécurité applicative", "gestion des secrets", "chiffrement", "OIDC", "SSO", "single sign-on", "MFA", "2FA", "multi-factor authentication", "session management", "gestion des sessions", "CORS", "CSRF", "XSS", "SQL injection", "security headers", "certificate management", "TLS", "SSL", "API security", "sécurité API", "token management", "refresh token", "identity provider", "IdP", "Keycloak", "Auth0", "Clerk", "NextAuth", or needs guidance on application security, identity management, and access control.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Auth & Security
@@ -201,6 +202,19 @@ Architecture microservices complexe ?
 4. Realiser des pentests reguliers et des exercices de threat modeling
 5. Maintenir un runbook de reponse aux incidents de securite
 
+
+
+## Template actionnable
+
+### Matrice RBAC
+
+| Rôle | Lire | Créer | Modifier | Supprimer | Admin |
+|---|---|---|---|---|---|
+| **Visiteur** | ☐ Public | ✗ | ✗ | ✗ | ✗ |
+| **Utilisateur** | ☑ Propres données | ☑ | ☑ Propres | ✗ | ✗ |
+| **Manager** | ☑ Équipe | ☑ | ☑ Équipe | ☐ Limité | ✗ |
+| **Admin** | ☑ Tout | ☑ | ☑ Tout | ☑ | ☑ |
+| **Super Admin** | ☑ Tout | ☑ | ☑ Tout | ☑ | ☑ Complet |
 
 ## Prompts types
 

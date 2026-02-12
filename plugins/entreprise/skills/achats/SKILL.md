@@ -1,7 +1,8 @@
 ---
 name: achats
 description: This skill should be used when the user asks about "procurement strategy", "supplier management", "strategic sourcing", "contract management", "spend analysis", "stratégie achats", "gestion des fournisseurs", "sourcing stratégique", "gestion des contrats", "analyse des dépenses", "e-procurement", "appels d'offres", "RFP", "RFQ", "supplier risk", "risque fournisseur", "category management", "gestion par catégories", "P2P", "procure-to-pay", "purchase-to-pay", "sustainable procurement", "achats responsables", "achats durables", "négociation fournisseur", "TCO", "total cost of ownership", "coût total de possession", "panel fournisseurs", "SRM", "supplier relationship management", discusses e-procurement, supplier risk, or needs guidance on category management, P2P processes, or sustainable procurement.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Achats / Procurement
@@ -191,6 +192,21 @@ Niveau 5 — Ecosystemique : orchestration de l'ecosysteme fournisseur, IA predi
 25. Reviser annuellement les strategies categories et les plans d'action.
 
 
+
+
+## Template actionnable
+
+### Scorecard fournisseur
+
+| Critère | Poids | Score (1-5) | Pondéré | Commentaire |
+|---|---|---|---|---|
+| **Qualité produit/service** | 25% | ___ | ___ | ___ |
+| **Respect des délais** | 20% | ___ | ___ | ___ |
+| **Compétitivité prix** | 20% | ___ | ___ | ___ |
+| **Réactivité / support** | 15% | ___ | ___ | ___ |
+| **Solidité financière** | 10% | ___ | ___ | ___ |
+| **Engagements RSE** | 10% | ___ | ___ | ___ |
+| **Score total** | 100% | | ___/5 | Décision : ___ |
 
 ## Prompts types
 

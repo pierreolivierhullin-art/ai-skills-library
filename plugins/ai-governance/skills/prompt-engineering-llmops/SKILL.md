@@ -1,7 +1,8 @@
 ---
 name: prompt-engineering-llmops
 description: This skill should be used when the user asks about "prompt engineering", "RAG", "retrieval-augmented generation", "LLM evaluation", "LLMOps", "fine-tuning", "LLM orchestration", "guardrails", "AI agents", "chain-of-thought", "function calling", "tool use", "vector search", "embeddings", "ingénierie de prompts", "génération augmentée par récupération", "évaluation de LLM", "orchestration LLM", "garde-fous", "agents IA", "chaîne de pensée", "appel de fonctions", "recherche vectorielle", "few-shot", "zero-shot", "system prompt", "prompt template", "LangChain", "LlamaIndex", "semantic search", "recherche sémantique", "chunking", "token optimization", "context window", "fenêtre de contexte", "hallucination reduction", "prompt injection defense", "model selection", "choix de modèle", "Claude API", "OpenAI API", "Anthropic", "structured output", "JSON mode", or needs guidance on LLM operations, prompt design, and AI application development.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Prompt Engineering & LLMOps — Prompt Design, RAG, Evaluation, Orchestration & Fine-Tuning
@@ -151,6 +152,35 @@ Follow this workflow when building an LLM-powered application:
 9. **Consider Fine-Tuning Only as a Last Resort** -- If prompting and RAG are insufficient, consider fine-tuning. Start with LoRA/QLoRA for parameter efficiency. Generate synthetic training data if real data is scarce. Evaluate the fine-tuned model against the same golden dataset.
 
 ---
+
+## Template actionnable
+
+### Template de system prompt structuré
+
+```text
+# Rôle
+Tu es un [rôle spécifique] expert en [domaine].
+
+# Contexte
+[Description du contexte d'utilisation]
+
+# Instructions
+1. [Instruction principale]
+2. [Contrainte de format]
+3. [Contrainte de ton]
+
+# Format de sortie
+[Description du format attendu]
+
+# Exemples
+Input: [exemple d'entrée]
+Output: [exemple de sortie attendue]
+
+# Garde-fous
+- Ne jamais [limite 1]
+- Toujours [limite 2]
+- Si incertain, [comportement par défaut]
+```
 
 ## Prompts types
 

@@ -1,7 +1,8 @@
 ---
 name: regulatory
 description: This skill should be used when the user asks about "MiFID II", "SEC regulations", "trading compliance", "tax reporting", "pattern day trader", "wash sale rules", "insider trading", "FINRA", "EMIR", "MAR", "best execution", "KYC", "AML", "réglementation financière", "conformité trading", "déclaration fiscale", "fiscalité du trading", "délit d'initié", "meilleure exécution", "connaissance client", "lutte anti-blanchiment", "AMF", "Autorité des marchés financiers", "régulateur", "ESMA", "Dodd-Frank", "Basel III", "Bâle III", "suitability", "appropriateness", "transaction reporting", "déclaration de transactions", "market abuse", "abus de marché", "short selling regulations", "réglementation vente à découvert", "UCITS", "AIFMD", "PRIIPs", "flat tax", "PFU", "prélèvement forfaitaire unique", "plus-values", "capital gains tax", or needs guidance on financial market regulations, compliance obligations, and tax reporting for trading.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Financial Market Regulations & Compliance
@@ -215,6 +216,21 @@ US taxpayer ?
 3. Executer des tests de conformite periodiques (mock audits, compliance testing program)
 4. Maintenir une veille reglementaire active et un processus de change management
 5. Documenter les lessons learned de chaque controle regulateur ou incident de conformite
+
+## Template actionnable
+
+### Checklist de conformité fiscale (France)
+
+| Obligation | Échéance | Vérifié | Notes |
+|---|---|---|---|
+| **IFU reçu** — Formulaire de votre courtier | Février N+1 | ☐ | ___ |
+| **Plus-values mobilières** — Calcul PV nettes | Avant déclaration | ☐ | ___ |
+| **Flat tax / barème** — Choix du régime fiscal | Déclaration annuelle | ☐ | ___ |
+| **Formulaire 2074** — Détail des cessions | Mai N+1 | ☐ | ___ |
+| **Comptes à l'étranger** — Déclaration 3916 | Mai N+1 | ☐ | ___ |
+| **Wash sale** — Vérifier pas de rachat < 30 jours | En continu | ☐ | ___ |
+| **Seuil AMF** — Déclaration si > 5% du capital | En continu | ☐ | ___ |
+| **Revenus dividendes** — Report sur 2DC | Mai N+1 | ☐ | ___ |
 
 ## Prompts types
 

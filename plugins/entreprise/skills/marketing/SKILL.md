@@ -1,7 +1,8 @@
 ---
 name: marketing
 description: This skill should be used when the user asks about "marketing strategy", "brand positioning", "acquisition funnel", "growth hacking", "product marketing", "pricing strategy", "stratégie marketing", "positionnement de marque", "tunnel de conversion", "inbound marketing", "outbound marketing", "content marketing", "marketing de contenu", "SEO", "SEA", "SEM", "social media marketing", "email marketing", "marketing automation", "lead generation", "génération de leads", "buyer persona", "parcours client", "customer journey", "market research", "étude de marché", "branding", "go-to-market", "GTM", "CRM", "product-led growth", "PLG", discusses GTM plans, or needs guidance on lead generation, content marketing, or marketing automation.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Marketing & Produit / Offre / Solution
@@ -212,6 +213,23 @@ Le framework AARRR structure le funnel de croissance en 5 etapes :
 20. Documenter et partager les learnings, maintenir un playbook marketing vivant.
 
 
+
+
+## Template actionnable
+
+### Plan Go-To-Market
+
+| Étape | Question clé | Votre réponse |
+|---|---|---|
+| **Cible** | Quel ICP (Ideal Customer Profile) ? | ___ |
+| **Persona** | Quels buyer personas prioritaires ? | ___ |
+| **Positionnement** | Quelle proposition de valeur unique ? | ___ |
+| **Canaux d'acquisition** | SEO / SEA / Social / Email / Outbound ? | ___ |
+| **Contenu** | Quels contenus par étape du funnel ? | ___ |
+| **Conversion** | Quels CTAs et landing pages ? | ___ |
+| **Métriques** | CAC cible / taux de conversion / MQL→SQL ? | ___ |
+| **Budget** | Répartition budget par canal ? | ___ |
+| **Timeline** | Jalons à 30/60/90 jours ? | ___ |
 
 ## Prompts types
 

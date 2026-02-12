@@ -1,7 +1,8 @@
 ---
 name: rh
 description: This skill should be used when the user asks about "HR strategy", "talent acquisition", "employee engagement", "compensation benchmarking", "people analytics", "DEI programs", "stratégie RH", "ressources humaines", "recrutement", "marque employeur", "employer branding", "onboarding", "intégration", "formation", "training", "L&D", "learning and development", "performance management", "gestion de la performance", "entretien annuel", "grille salariale", "rémunération", "avantages sociaux", "benefits", "workforce planning", "GPEC", "GEPP", "droit du travail", "French labor law", "SIRH", "HRIS", "turnover", "rétention", "engagement collaborateur", "QVT", "qualité de vie au travail", "CSE", "diversité inclusion", discusses performance management, workforce planning, or needs guidance on French labor law, SIRH, or organizational development.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Ressources Humaines — Human Capital Management
@@ -175,6 +176,24 @@ feedback continu (via outil type Lattice/Culture Amp) et calibration semestriell
 20. Iterer sur l'ensemble des processus via les retours collaborateurs et les donnees.
 
 
+
+
+## Template actionnable
+
+### Checklist d'onboarding
+
+| Phase | Action | Responsable | Statut |
+|---|---|---|---|
+| **J-7** | Préparer le poste de travail et accès IT | IT / Manager | ☐ |
+| **J-7** | Envoyer le welcome pack et infos pratiques | RH | ☐ |
+| **J1** | Accueil et visite des locaux | Manager | ☐ |
+| **J1** | Présentation de l'équipe et des outils | Manager | ☐ |
+| **J1** | Remise du matériel et configuration | IT | ☐ |
+| **Semaine 1** | Formation aux processus et outils métier | Buddy | ☐ |
+| **Semaine 1** | Définition des objectifs à 30/60/90 jours | Manager | ☐ |
+| **J+30** | Point d'étape : feedback et ajustements | Manager / RH | ☐ |
+| **J+60** | Évaluation mi-parcours de la période d'essai | Manager / RH | ☐ |
+| **J+90** | Bilan de la période d'essai | Manager / RH | ☐ |
 
 ## Prompts types
 

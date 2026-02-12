@@ -1,7 +1,8 @@
 ---
 name: portfolio
 description: This skill should be used when the user asks about "portfolio construction", "asset allocation", "modern portfolio theory", "MPT", "diversification", "rebalancing", "risk-adjusted returns", "Sharpe ratio", "CAPM", "factor investing", "ETF", "tax-loss harvesting", "efficient frontier", "construction de portefeuille", "allocation d'actifs", "théorie moderne du portefeuille", "rééquilibrage", "rendements ajustés au risque", "ratio de Sharpe", "investissement factoriel", "frontière efficiente", "Sortino ratio", "Treynor ratio", "alpha", "beta", "correlation", "corrélation", "volatility", "volatilité", "drawdown", "max drawdown", "value at risk", "VaR", "CVaR", "Monte Carlo simulation", "backtesting", "benchmark", "indice de référence", "S&P 500", "MSCI", "bonds", "obligations", "commodities", "matières premières", "REIT", "alternative investments", "investissements alternatifs", "dollar-cost averaging", "DCA", "strategic allocation", "tactical allocation", or needs guidance on portfolio management, investment strategy, and allocation optimization.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Portfolio Construction, Asset Allocation & Investment Management
@@ -179,6 +180,24 @@ Le modele a 3 facteurs (1993) ajoute size (SMB) et value (HML) au facteur marche
 15. Analyser la performance via attribution Brinson-Fachler : decomposer entre effet allocation, effet selection et effet interaction.
 16. Realiser un stress test trimestriel (scenarios historiques : 2008, 2020, 2022 ; scenarios hypothetiques : hausse de taux +300bps, recession, choc geopolitique).
 17. Reviser l'IPS annuellement ou lors de changements de situation (mariage, retraite, heritage).
+
+## Template actionnable
+
+### Grille d'allocation d'actifs
+
+| Classe d'actifs | Allocation cible | Allocation réelle | Écart | Action |
+|---|---|---|---|---|
+| **Actions US** | ___% | ___% | ___% | ___ |
+| **Actions Europe** | ___% | ___% | ___% | ___ |
+| **Actions Émergents** | ___% | ___% | ___% | ___ |
+| **Obligations souveraines** | ___% | ___% | ___% | ___ |
+| **Obligations corporate** | ___% | ___% | ___% | ___ |
+| **Immobilier (REITs)** | ___% | ___% | ___% | ___ |
+| **Matières premières** | ___% | ___% | ___% | ___ |
+| **Cash / Monétaire** | ___% | ___% | ___% | ___ |
+| **Total** | 100% | 100% | — | — |
+
+> Rééquilibrer quand l'écart dépasse ±5% de l'allocation cible.
 
 ## Prompts types
 

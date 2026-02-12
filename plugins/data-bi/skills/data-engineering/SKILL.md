@@ -1,7 +1,8 @@
 ---
 name: data-engineering
 description: This skill should be used when the user asks about "data pipeline", "ETL", "ELT", "dbt", "data warehouse", "data lake", "data lakehouse", "Airflow", "Dagster", "streaming", "Kafka", "data orchestration", "Snowflake", "BigQuery", "data transformation", "data infrastructure", "pipeline de données", "entrepôt de données", "lac de données", "orchestration de données", "transformation de données", "infrastructure de données", "ingestion de données", "data ingestion", "batch processing", "traitement par lots", "stream processing", "traitement en temps réel", "real-time data", "données temps réel", "Apache Spark", "Flink", "Fivetran", "Airbyte", "Stitch", "CDC", "change data capture", "data partitioning", "data compaction", "Iceberg", "Delta Lake", "Parquet", "Avro", "schema evolution", "idempotency", "backfill", "data freshness", or needs guidance on data engineering, pipeline architecture, and data platform design.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Data Engineering — Pipelines, Transformations, Orchestration & Data Infrastructure
@@ -137,6 +138,24 @@ Follow this workflow when designing or improving a data platform:
 
 ---
 
+
+## Template actionnable
+
+### Data contract template
+
+| Champ | Valeur |
+|---|---|
+| **Nom du dataset** | ___ |
+| **Owner** | Équipe ___ |
+| **Consommateurs** | Équipe(s) ___ |
+| **SLA de fraîcheur** | ___ (ex: T+1, temps réel, horaire) |
+| **SLA de qualité** | Taux de nulls < ___%, unicité sur ___ |
+| **Schéma** | Colonnes: ___, types: ___, contraintes: ___ |
+| **Format** | Parquet / JSON / Avro / CSV |
+| **Fréquence de mise à jour** | ___ |
+| **Rétention** | ___ jours/mois |
+| **Point de contact** | ___ (Slack, email) |
+| **Changelog** | Toute modification de schéma notifiée ___ jours avant |
 
 ## Prompts types
 

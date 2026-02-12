@@ -1,7 +1,8 @@
 ---
 name: communication
 description: This skill should be used when the user asks about "corporate communications", "press relations", "crisis communication", "internal communications", "public affairs", "communication d'entreprise", "relations presse", "communication de crise", "communication interne", "affaires publiques", "media strategy", "stratégie média", "reputation management", "e-réputation", "gestion de réputation", "PR", "relations publiques", "lobbying", "influence", "employee engagement communications", "communication managériale", "communiqué de presse", "press release", "media training", "personal branding", "thought leadership", "social media corporate", "brand journalism", "storytelling", "communication événementielle", "event communication", discusses media strategy, reputation management, or needs guidance on PR, lobbying, or employee engagement communications.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Communication Institutionnelle & Relations Publiques
@@ -167,6 +168,23 @@ Piloter la communication par la mesure. Definir des KPIs clairs pour chaque disp
 20. Benchmarker les pratiques par rapport aux pairs et aux tendances du secteur.
 
 
+
+
+## Template actionnable
+
+### Plan de communication de crise
+
+| Phase | Action | Responsable | Délai | Statut |
+|---|---|---|---|---|
+| **Alerte** | Identifier et qualifier la crise | Cellule de crise | < 1h | ☐ |
+| **Alerte** | Activer la cellule de crise | DG / DirCom | < 2h | ☐ |
+| **Réaction** | Rédiger les éléments de langage | DirCom | < 4h | ☐ |
+| **Réaction** | Briefer les porte-paroles | DirCom | < 4h | ☐ |
+| **Réaction** | Publier le communiqué initial | DirCom | < 6h | ☐ |
+| **Gestion** | Informer les collaborateurs | RH / Com interne | < 8h | ☐ |
+| **Gestion** | Répondre aux médias et réseaux sociaux | DirCom | En continu | ☐ |
+| **Sortie** | Publier le bilan et les actions correctives | DG / DirCom | J+7 | ☐ |
+| **Sortie** | Retex et mise à jour du plan de crise | Cellule de crise | J+30 | ☐ |
 
 ## Prompts types
 

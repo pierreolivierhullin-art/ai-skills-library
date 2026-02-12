@@ -1,7 +1,8 @@
 ---
 name: architecture
 description: This skill should be used when the user asks about "software architecture", "system design", "microservices", "API design", "design patterns", "DDD", "event-driven architecture", "scalability", "cloud architecture", "technical strategy", "architecture logicielle", "conception système", "architecture cloud", "stratégie technique", "monolith vs microservices", "hexagonal architecture", "clean architecture", "CQRS", "event sourcing", "domain-driven design", "bounded context", "service mesh", "API gateway", "load balancing", "distributed systems", "systèmes distribués", "high availability", "haute disponibilité", "fault tolerance", "tolérance aux pannes", "tech stack", "choix technologiques", "architecture decision record", "ADR", or needs guidance on technical architecture decisions and system design.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Software Architecture & System Design
@@ -158,6 +159,22 @@ Utiliser l'Event Storming comme technique de découverte collaborative pour iden
 19. Planifier les revues d'architecture périodiques (Architecture Review Board léger).
 20. Maintenir les ADR à jour et documenter les évolutions.
 
+
+
+## Template actionnable
+
+### Architecture Decision Record (ADR)
+
+| Champ | Contenu |
+|---|---|
+| **Titre** | ADR-___: ___ |
+| **Date** | ___ |
+| **Statut** | Proposé / Accepté / Rejeté / Remplacé |
+| **Contexte** | Quel problème résolvons-nous ? |
+| **Options envisagées** | Option A: ___ / Option B: ___ / Option C: ___ |
+| **Décision** | Nous choisissons l'option ___ parce que ___ |
+| **Conséquences** | Positif: ___ / Négatif: ___ / Risques: ___ |
+| **Participants** | Qui a participé à la décision ? |
 
 ## Prompts types
 

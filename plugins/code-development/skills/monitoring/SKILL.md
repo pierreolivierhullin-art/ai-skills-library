@@ -1,7 +1,8 @@
 ---
 name: monitoring
 description: This skill should be used when the user asks about "monitoring", "observability", "logging", "metrics", "tracing", "alerting", "SLO", "SLI", "SLA", "incident management", "OpenTelemetry", "Datadog", "Grafana", "Sentry", "APM", "observabilité", "journalisation", "métriques", "traçabilité", "alertes", "gestion des incidents", "supervision", "distributed tracing", "traces distribuées", "log aggregation", "agrégation de logs", "Prometheus", "Loki", "ELK", "Elasticsearch", "Kibana", "PagerDuty", "OpsGenie", "New Relic", "error tracking", "suivi d'erreurs", "uptime monitoring", "health checks", "dashboards opérationnels", "on-call", "astreinte", "postmortem", "root cause analysis", "RCA", "error budget", or needs guidance on system observability, reliability monitoring, and incident response.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Monitoring & Observability / Monitoring & Observabilité
@@ -173,6 +174,25 @@ START
 5. Measure and report on MTTR, MTTD, alert quality, and SLO compliance monthly.
 6. Practice chaos engineering with observability validation (GameDays).
 
+
+
+## Template actionnable
+
+### Template de postmortem
+
+| Section | Contenu |
+|---|---|
+| **Titre** | Incident du ___ — ___ |
+| **Sévérité** | P1 / P2 / P3 |
+| **Durée** | Début: ___ — Fin: ___ — Durée totale: ___ |
+| **Impact** | ___ utilisateurs affectés, ___ revenus perdus |
+| **Timeline** | HH:MM — Événement 1 / HH:MM — Événement 2 / ... |
+| **Root cause** | Cause racine identifiée : ___ |
+| **Détection** | Comment l'incident a été détecté : ___ |
+| **Résolution** | Actions prises pour résoudre : ___ |
+| **Ce qui a fonctionné** | ___ |
+| **Ce qui peut être amélioré** | ___ |
+| **Action items** | 1. ___ (owner, deadline) / 2. ___ / 3. ___ |
 
 ## Prompts types
 

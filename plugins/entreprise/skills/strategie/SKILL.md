@@ -1,7 +1,8 @@
 ---
 name: strategie
 description: This skill should be used when the user asks about "corporate strategy", "strategic planning", "business model design", "M&A due diligence", "OKR implementation", "planification stratégique", "stratégie d'entreprise", "modèle économique", "business model canvas", "vision long terme", "avantage concurrentiel", "competitive advantage", "SWOT analysis", "Porter's five forces", "value proposition", "pivot stratégique", "croissance organique", "fusion acquisition", "gouvernance", "board strategy", "plan stratégique", "strategic roadmap", discusses governance frameworks, or needs guidance on executive decision-making and long-term vision.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Strategie & Direction Generale
@@ -150,6 +151,23 @@ Evaluer chaque initiative strategique selon sa capacite a creer de la valeur dur
 20. Ajuster la strategie et reallouer les ressources en fonction des resultats et de l'evolution de l'environnement.
 
 
+
+
+## Template actionnable
+
+### Business Model Canvas
+
+| Bloc | Description | Votre réponse |
+|---|---|---|
+| **Proposition de valeur** | Quel problème résolvez-vous ? Pour qui ? | ___ |
+| **Segments clients** | Qui sont vos clients cibles ? | ___ |
+| **Canaux** | Comment atteignez-vous vos clients ? | ___ |
+| **Relations clients** | Quel type de relation ? (self-service, dédié...) | ___ |
+| **Sources de revenus** | Comment gagnez-vous de l'argent ? | ___ |
+| **Ressources clés** | Quels actifs essentiels ? (tech, humains, IP...) | ___ |
+| **Activités clés** | Quelles activités critiques ? | ___ |
+| **Partenaires clés** | Quels partenariats stratégiques ? | ___ |
+| **Structure de coûts** | Quels sont vos principaux postes de coûts ? | ___ |
 
 ## Prompts types
 

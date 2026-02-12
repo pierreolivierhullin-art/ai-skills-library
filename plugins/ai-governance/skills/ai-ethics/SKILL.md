@@ -1,7 +1,8 @@
 ---
 name: ai-ethics
 description: This skill should be used when the user asks about "AI ethics", "algorithmic bias", "fairness", "explainability", "XAI", "responsible AI", "trustworthy AI", "AI transparency", "bias mitigation", "model cards", "éthique de l'IA", "biais algorithmique", "équité", "explicabilité", "IA responsable", "IA de confiance", "transparence IA", "atténuation des biais", "fiches modèle", "AI audit", "audit algorithmique", "discrimination algorithmique", "AI impact assessment", "étude d'impact IA", "AIDA", "EU AI Act", "AI Act européen", "human-in-the-loop", "HITL", "AI accountability", "responsabilité IA", "data ethics", "éthique des données", "consent management", "fairness metrics", "disparate impact", "AI governance framework", or needs guidance on ethical AI development, bias detection, and responsible AI practices.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # AI Ethics, Fairness & Responsible AI
@@ -157,6 +158,24 @@ Appliquer les 7 exigences du High-Level Expert Group (HLEG) de la Commission eur
 18. Definir les seuils de rollback automatique si les metriques derivent.
 19. Planifier des audits periodiques independants (trimestriels pour les systemes a haut risque).
 20. Maintenir un registre des incidents ethiques et des actions correctives.
+
+## Template actionnable
+
+### Model Card
+
+| Section | Contenu |
+|---|---|
+| **Nom du modèle** | ___ |
+| **Version** | ___ |
+| **Date** | ___ |
+| **Objectif** | Quel problème le modèle résout-il ? |
+| **Données d'entraînement** | Sources, volume, période, biais connus |
+| **Métriques de performance** | Accuracy, precision, recall, F1 par segment |
+| **Limites connues** | Cas où le modèle performe mal |
+| **Biais identifiés** | Biais détectés et mesures de mitigation |
+| **Utilisation prévue** | Contextes d'utilisation autorisés |
+| **Utilisation interdite** | Contextes où le modèle ne doit pas être utilisé |
+| **Contact** | Équipe responsable et processus d'escalade |
 
 ## Prompts types
 

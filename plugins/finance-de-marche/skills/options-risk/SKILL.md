@@ -1,7 +1,8 @@
 ---
 name: options-risk
 description: This skill should be used when the user asks about "options trading", "Greeks", "delta", "gamma", "theta", "vega", "implied volatility", "options strategies", "risk management", "position sizing", "GARP screening", "covered call", "iron condor", "straddle", "Black-Scholes", "trading d'options", "grecques", "volatilité implicite", "stratégies d'options", "gestion du risque", "dimensionnement de position", "call couvert", "vente de put", "put spread", "call spread", "butterfly", "calendar spread", "strangle", "collar", "risk/reward", "ratio risque/rendement", "IV rank", "IV percentile", "options chain", "chaîne d'options", "expiration", "échéance", "strike price", "prix d'exercice", "in the money", "ITM", "OTM", "ATM", "open interest", "volume", "bid-ask spread", "assignment", "exercise", or needs guidance on options trading, market risk management, and fundamental analysis.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Options Risk
@@ -177,6 +178,22 @@ Appliquer le screening GARP en 6 étapes pour identifier les sous-jacents de qua
 2. Calculer les métriques de performance : win rate, average winner/loser, profit factor, R-multiple moyen.
 3. Analyser les trades perdants pour identifier les patterns récurrents.
 4. Recalibrer les paramètres de sizing et de management en fonction des résultats.
+
+## Template actionnable
+
+### Checklist pré-trade options
+
+| Critère | Vérifié | Valeur |
+|---|---|---|
+| **Thèse directionnelle** — Biais haussier/baissier/neutre clair | ☐ | ___ |
+| **IV Rank / IV Percentile** — Volatilité relative évaluée | ☐ | ___% |
+| **Stratégie choisie** — Adaptée au contexte de vol et direction | ☐ | ___ |
+| **Risk/Reward** — Ratio acceptable (min 1:2 ou prime suffisante) | ☐ | ___ |
+| **Taille de position** — Max 2-5% du portefeuille à risque | ☐ | ___% |
+| **Échéance** — DTE cohérent avec la thèse (30-45 DTE recommandé) | ☐ | ___ j |
+| **Plan de sortie** — Profit target et stop loss définis | ☐ | TP: ___% / SL: ___% |
+| **Greeks vérifiés** — Delta, theta, vega dans les limites | ☐ | Δ___ θ___ ν___ |
+| **Impact sur le portefeuille** — Corrélation et beta-weighted delta | ☐ | ___ |
 
 ## Prompts types
 

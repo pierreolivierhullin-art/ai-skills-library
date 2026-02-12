@@ -1,7 +1,8 @@
 ---
 name: support-client
 description: This skill should be used when the user asks about "customer support strategy", "customer success", "knowledge base management", "NPS improvement", "customer experience", "stratégie support client", "service client", "satisfaction client", "CSAT", "CES", "customer effort score", "help desk", "centre d'aide", "ticketing", "Zendesk", "Intercom", "Freshdesk", "churn prevention", "rétention client", "fidélisation", "customer health score", "onboarding client", "SLA support", "temps de réponse", "first response time", "résolution au premier contact", "FCR", "self-service", "chatbot support", "escalation", "voice of customer", "VoC", discusses help desk operations, churn prevention, or needs guidance on support metrics, CX programs, or customer health scoring.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Customer Support & Service Client
@@ -179,6 +180,18 @@ Construire un health score composite (0-100) a partir de signaux ponderes :
 20. Mesurer le Net Revenue Retention et aligner les objectifs CS sur la croissance.
 
 
+
+
+## Template actionnable
+
+### Matrice de triage des tickets
+
+| Priorité | Critère | SLA réponse | SLA résolution | Exemple |
+|---|---|---|---|---|
+| **P1 — Critique** | Service indisponible, perte de données | 15 min | 2h | Plateforme down |
+| **P2 — Haute** | Fonctionnalité majeure dégradée | 1h | 8h | Paiements échouent |
+| **P3 — Moyenne** | Bug non bloquant, contournement possible | 4h | 24h | Export CSV cassé |
+| **P4 — Basse** | Question, demande d'amélioration | 24h | 5 jours | Nouvelle fonctionnalité |
 
 ## Prompts types
 

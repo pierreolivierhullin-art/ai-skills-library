@@ -1,7 +1,8 @@
 ---
 name: code-excellence
 description: This skill should be used when the user asks about "clean code", "code quality", "refactoring", "testing strategy", "TDD", "BDD", "code review", "technical debt", "SOLID principles", "design patterns", "coding standards", "qualité de code", "dette technique", "revue de code", "principes SOLID", "standards de code", "bonnes pratiques", "best practices", "DRY", "KISS", "YAGNI", "code smells", "code coverage", "couverture de tests", "unit testing", "tests unitaires", "integration testing", "tests d'intégration", "mocking", "pair programming", "mob programming", "linting", "static analysis", "analyse statique", "cyclomatic complexity", "software craftsmanship", or needs guidance on software craftsmanship and engineering best practices.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Code Excellence
@@ -151,6 +152,24 @@ Suivre ce workflow pour toute initiative d'amélioration de la qualité du code 
 3. Utiliser Branch by Abstraction pour substituer les implémentations sans Big Bang.
 4. Documenter les décisions architecturales via des ADR (Architecture Decision Records).
 
+
+
+## Template actionnable
+
+### Checklist de code review
+
+| Critère | Vérifié | Commentaire |
+|---|---|---|
+| **Lisibilité** — Nommage clair, fonctions courtes | ☐ | ___ |
+| **SOLID** — Principes respectés | ☐ | ___ |
+| **DRY** — Pas de duplication inutile | ☐ | ___ |
+| **Tests** — Cas nominaux et edge cases couverts | ☐ | ___ |
+| **Error handling** — Erreurs gérées proprement | ☐ | ___ |
+| **Sécurité** — Pas d'injection, inputs validés | ☐ | ___ |
+| **Performance** — Pas de N+1, requêtes optimisées | ☐ | ___ |
+| **Types** — Typage strict, pas de `any` | ☐ | ___ |
+| **Documentation** — Logique complexe commentée | ☐ | ___ |
+| **Breaking changes** — API rétrocompatible ou migrée | ☐ | ___ |
 
 ## Prompts types
 

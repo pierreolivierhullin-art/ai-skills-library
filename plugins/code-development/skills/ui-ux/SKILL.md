@@ -1,7 +1,8 @@
 ---
 name: ui-ux
 description: This skill should be used when the user asks about "UI design", "UX research", "design system", "component library", "accessibility", "WCAG", "responsive design", "design tokens", "Figma", "Storybook", "atomic design", "frontend architecture", "CSS architecture", "Core Web Vitals", "design d'interface", "recherche UX", "système de design", "bibliothèque de composants", "accessibilité", "design responsive", "jetons de design", "architecture frontend", "Tailwind CSS", "CSS-in-JS", "styled-components", "shadcn/ui", "Radix UI", "Material UI", "Chakra UI", "animation", "Framer Motion", "micro-interactions", "wireframe", "prototype", "maquette", "user testing", "tests utilisateurs", "heuristiques de Nielsen", "information architecture", "dark mode", "theming", "mobile-first", or needs guidance on user interface design, user experience, and design system implementation.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # UI/UX Design, Design Systems & Accessibility
@@ -182,6 +183,24 @@ Suivre cette hierarchie de conformite :
 24. Mesurer l'adoption (analytics d'usage des composants) et la satisfaction (Design System Satisfaction Score).
 25. Planifier des revues trimestrielles pour evoluer le systeme (deprecation, nouveaux patterns).
 
+
+
+## Template actionnable
+
+### Checklist d'accessibilité WCAG
+
+| Critère | Niveau | Vérifié | Notes |
+|---|---|---|---|
+| **Contraste texte** | AA (4.5:1) | ☐ | ___ |
+| **Contraste grands textes** | AA (3:1) | ☐ | ___ |
+| **Navigation clavier** | A | ☐ | ___ |
+| **Focus visible** | AA | ☐ | ___ |
+| **Textes alternatifs images** | A | ☐ | ___ |
+| **Labels des formulaires** | A | ☐ | ___ |
+| **Messages d'erreur** | A | ☐ | ___ |
+| **Hiérarchie des titres** | A | ☐ | ___ |
+| **Landmarks ARIA** | AA | ☐ | ___ |
+| **Responsive (320px min)** | AA | ☐ | ___ |
 
 ## Prompts types
 

@@ -1,7 +1,8 @@
 ---
 name: decision-reporting-governance
 description: This skill should be used when the user asks about "business intelligence", "BI dashboards", "data governance", "data quality", "data modeling", "KPI frameworks", "data catalog", "master data management", "data lineage", "Power BI", "Tableau", "Looker", "Metabase", "data contracts", "intelligence d'affaires", "tableaux de bord BI", "gouvernance des données", "qualité des données", "modélisation des données", "cadres KPI", "catalogue de données", "gestion des données de référence", "MDM", "lignage des données", "traçabilité des données", "data mesh", "data fabric", "data steward", "data owner", "DAMA", "DMBOK", "dimensional modeling", "star schema", "modèle en étoile", "data dictionary", "dictionnaire de données", "reporting automatisé", "automated reporting", "self-service BI", "BI en libre-service", "data observability", "semantic layer", "couche sémantique", or needs guidance on BI reporting, data governance, and data quality management.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Decision Reporting & Governance — BI, Data Quality & Modeling
@@ -218,6 +219,21 @@ Evaluer la maturite de la gouvernance sur les 11 domaines DAMA-DMBOK :
 19. Planifier les revues trimestrielles : audit des dashboards (usage analytics), revue des data contracts, mise a jour du catalogue et du glossary.
 20. Mesurer et rapporter les KPIs de la gouvernance elle-meme : data quality score, catalogue coverage, SLA compliance, time-to-insight.
 
+
+## Template actionnable
+
+### Framework de KPIs par niveau
+
+| Niveau | KPI | Formule | Source | Fréquence | Owner |
+|---|---|---|---|---|---|
+| **Stratégique** | ___ | ___ | ___ | Mensuel | C-Level |
+| **Stratégique** | ___ | ___ | ___ | Mensuel | C-Level |
+| **Tactique** | ___ | ___ | ___ | Hebdomadaire | Manager |
+| **Tactique** | ___ | ___ | ___ | Hebdomadaire | Manager |
+| **Opérationnel** | ___ | ___ | ___ | Quotidien | Équipe |
+| **Opérationnel** | ___ | ___ | ___ | Quotidien | Équipe |
+
+> Règle : max 5 KPIs stratégiques, 10 tactiques, 15 opérationnels.
 
 ## Prompts types
 

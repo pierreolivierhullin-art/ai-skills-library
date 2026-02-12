@@ -1,7 +1,8 @@
 ---
 name: it-systemes
 description: This skill should be used when the user asks about "IT governance", "ITIL framework", "cloud strategy", "ERP implementation", "cybersecurity governance", "gouvernance IT", "gouvernance informatique", "stratégie cloud", "migration cloud", "implémentation ERP", "SAP", "Salesforce", "IT service management", "ITSM", "COBIT", "infrastructure informatique", "IT infrastructure", "vendor management", "gestion des fournisseurs IT", "digital workplace", "environnement de travail numérique", "shadow IT", "IT asset management", "CMDB", "incident management", "gestion des incidents", "disaster recovery", "PRA", "PCA", "SLA", "helpdesk", "ticketing", "TOGAF", "architecture d'entreprise", discusses IT service management, COBIT, or needs guidance on IT infrastructure, vendor management, or digital workplace.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # IT / Data / Systemes — Gouvernance IT, Infrastructure, Cybersecurite & Applications Metier
@@ -175,6 +176,22 @@ Automatiser les taches repetitives et a faible valeur ajoutee (provisioning, pat
 ---
 
 
+
+
+## Template actionnable
+
+### Grille d'évaluation cloud
+
+| Critère | Poids | Cloud Public | Cloud Privé | Hybride |
+|---|---|---|---|---|
+| **Coût initial** | ___ % | ___ /5 | ___ /5 | ___ /5 |
+| **Coût récurrent** | ___ % | ___ /5 | ___ /5 | ___ /5 |
+| **Scalabilité** | ___ % | ___ /5 | ___ /5 | ___ /5 |
+| **Sécurité** | ___ % | ___ /5 | ___ /5 | ___ /5 |
+| **Conformité (RGPD)** | ___ % | ___ /5 | ___ /5 | ___ /5 |
+| **Performance** | ___ % | ___ /5 | ___ /5 | ___ /5 |
+| **Réversibilité** | ___ % | ___ /5 | ___ /5 | ___ /5 |
+| **Score pondéré** | 100% | ___ | ___ | ___ |
 
 ## Prompts types
 

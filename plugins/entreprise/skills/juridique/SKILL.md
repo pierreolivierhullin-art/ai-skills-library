@@ -1,7 +1,8 @@
 ---
 name: juridique
 description: This skill should be used when the user asks about "contract law", "intellectual property", "GDPR compliance", "corporate legal", "legal operations", "droit des contrats", "propriété intellectuelle", "conformité RGPD", "RGPD", "protection des données", "data privacy", "droit du travail", "French labor law", "droit des sociétés", "corporate law", "contract negotiation", "négociation contractuelle", "NDA", "CGV", "CGU", "terms of service", "SLA juridique", "contentieux", "litigation", "IP protection", "brevets", "patents", "marques", "trademarks", "compliance", "conformité", "legal tech", "CLM", "contract lifecycle management", "clause pénale", "responsabilité civile", discusses contract negotiation, data protection, or needs guidance on French labor law, IP protection, or compliance programs.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Juridique / Legal
@@ -188,6 +189,25 @@ Adapter le niveau de diligence juridique a l'enjeu reel. Ne pas appliquer le mem
 20. Positionner la direction juridique comme contributeur a la strategie d'entreprise (M&A, expansion internationale, innovation).
 
 
+
+
+## Template actionnable
+
+### Checklist de revue contractuelle
+
+| Point de contrôle | Vérifié | Commentaire |
+|---|---|---|
+| **Parties** — Identité, capacité, représentation | ☐ | ___ |
+| **Objet** — Périmètre clair et exhaustif | ☐ | ___ |
+| **Durée** — Début, fin, renouvellement, préavis | ☐ | ___ |
+| **Prix** — Montant, révision, pénalités, paiement | ☐ | ___ |
+| **Obligations** — Engagements réciproques clairs | ☐ | ___ |
+| **Responsabilité** — Plafond, exclusions, assurance | ☐ | ___ |
+| **Confidentialité** — Périmètre, durée, exceptions | ☐ | ___ |
+| **Données personnelles** — RGPD, sous-traitance, DPA | ☐ | ___ |
+| **Propriété intellectuelle** — Cession, licence, limites | ☐ | ___ |
+| **Résiliation** — Conditions, conséquences, réversibilité | ☐ | ___ |
+| **Loi applicable** — Juridiction, médiation, arbitrage | ☐ | ___ |
 
 ## Prompts types
 

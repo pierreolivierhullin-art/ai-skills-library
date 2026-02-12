@@ -1,7 +1,8 @@
 ---
 name: quality-reliability
 description: This skill should be used when the user asks about "QA automation", "test automation", "SRE", "site reliability engineering", "chaos engineering", "performance testing", "load testing", "reliability", "incident management", "quality gates", "visual regression", "Playwright", "Cypress", "automatisation QA", "automatisation de tests", "ingénierie de fiabilité", "tests de performance", "tests de charge", "fiabilité", "gestion des incidents", "portes qualité", "régression visuelle", "Jest", "Vitest", "Testing Library", "Selenium", "k6", "Artillery", "Gatling", "JMeter", "stress testing", "soak testing", "end-to-end testing", "E2E", "smoke testing", "canary testing", "feature flags testing", "contract testing", "Pact", "error budget", "SLO", "toil reduction", "chaos monkey", "game days", or needs guidance on software quality assurance and site reliability engineering.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Quality & Reliability — QA Automation, SRE, Chaos Engineering & Performance Testing
@@ -186,6 +187,21 @@ Premiere experience ? → Toxiproxy en staging → Game Day manuel → Litmus en
 
 ---
 
+
+
+## Template actionnable
+
+### Matrice de stratégie de tests
+
+| Type de test | Scope | Outils | Fréquence | Couverture cible |
+|---|---|---|---|---|
+| **Unit** | Fonctions, modules | Jest, Vitest | Chaque commit | > 80% |
+| **Integration** | APIs, services | Supertest, MSW | Chaque PR | Endpoints critiques |
+| **E2E** | Parcours utilisateur | Playwright, Cypress | Nightly + pre-deploy | Happy paths |
+| **Visual** | UI, composants | Chromatic, Percy | Chaque PR UI | Composants partagés |
+| **Performance** | Charge, latence | k6, Artillery | Hebdomadaire | SLOs définis |
+| **Contract** | APIs inter-services | Pact | Chaque PR API | Contrats publiés |
+| **Security** | Vulnérabilités | Snyk, OWASP ZAP | Quotidien | OWASP Top 10 |
 
 ## Prompts types
 

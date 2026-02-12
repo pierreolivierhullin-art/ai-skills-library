@@ -1,7 +1,8 @@
 ---
 name: product-analytics
 description: This skill should be used when the user asks about "product analytics", "event tracking", "A/B testing", "experimentation", "product metrics", "funnel analysis", "retention analysis", "cohort analysis", "tracking plan", "Amplitude", "Mixpanel", "PostHog", "Segment", "analytique produit", "suivi d'événements", "tests A/B", "expérimentation", "métriques produit", "analyse de funnel", "analyse de rétention", "analyse de cohortes", "plan de tracking", "AARRR", "pirate metrics", "activation", "engagement", "conversion rate", "taux de conversion", "DAU", "MAU", "WAU", "feature adoption", "adoption fonctionnalité", "user segmentation", "segmentation utilisateurs", "heat maps", "session replay", "Hotjar", "FullStory", "Google Analytics", "GA4", "attribution", "privacy-compliant analytics", "CNIL", or needs guidance on product instrumentation, data-driven decisions, and privacy-compliant analytics.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Product Analytics & Instrumentation / Analytique Produit & Instrumentation
@@ -185,6 +186,21 @@ START
 5. Run quarterly tracking plan audits: remove dead events, update schemas, validate data quality.
 6. Implement long-term holdouts and causal inference for measuring cumulative experiment impact.
 
+
+
+## Template actionnable
+
+### Tracking plan
+
+| Événement | Catégorie | Propriétés | Déclencheur | Priorité |
+|---|---|---|---|---|
+| `page_viewed` | Navigation | page_name, referrer | Chargement de page | P1 |
+| `signup_started` | Activation | source, plan_type | Clic sur "S'inscrire" | P1 |
+| `signup_completed` | Activation | method, plan_type | Compte créé | P1 |
+| `feature_used` | Engagement | feature_name, context | Utilisation feature | P1 |
+| `upgrade_started` | Monétisation | current_plan, target_plan | Clic sur upgrade | P1 |
+| `payment_completed` | Monétisation | plan, amount, currency | Paiement réussi | P1 |
+| `error_occurred` | Technique | error_type, page, stack | Erreur runtime | P2 |
 
 ## Prompts types
 

@@ -1,7 +1,8 @@
 ---
 name: operations
 description: This skill should be used when the user asks about "operational excellence", "supply chain management", "lean management", "Six Sigma", "quality management", "excellence opérationnelle", "gestion de la chaîne logistique", "supply chain", "logistique", "gestion des stocks", "inventory management", "process optimization", "optimisation des processus", "SLA management", "continuous improvement", "amélioration continue", "Kaizen", "5S", "value stream mapping", "VSM", "DMAIC", "TQM", "total quality management", "ISO 9001", "KPI opérationnels", "OEE", "taux de service", "lead time", "délai de livraison", "warehouse management", "WMS", "S&OP", "demand planning", discusses process optimization, SLA management, or needs guidance on logistics, inventory, or continuous improvement.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Operations / Delivery — Excellence Operationnelle
@@ -155,6 +156,21 @@ Concevoir les operations pour la resilience, pas uniquement pour l'efficience ma
 20. Evaluer la maturite operationnelle annuellement et ajuster la feuille de route.
 
 
+
+
+## Template actionnable
+
+### Tableau de bord opérationnel
+
+| KPI | Définition | Cible | Réel | Écart |
+|---|---|---|---|---|
+| **Taux de service** | Commandes livrées à temps / total | ___ % | ___ % | ___ |
+| **Lead time** | Délai moyen commande → livraison | ___ j | ___ j | ___ |
+| **Taux de qualité** | Produits conformes / total produit | ___ % | ___ % | ___ |
+| **OEE** | Disponibilité × Performance × Qualité | ___ % | ___ % | ___ |
+| **Coût unitaire** | Coût total / volume produit | ___ € | ___ € | ___ |
+| **Stock moyen** | Valeur moyenne du stock | ___ € | ___ € | ___ |
+| **Taux de retour** | Retours / livraisons | ___ % | ___ % | ___ |
 
 ## Prompts types
 

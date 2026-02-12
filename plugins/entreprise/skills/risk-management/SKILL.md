@@ -1,7 +1,8 @@
 ---
 name: risk-management
 description: This skill should be used when the user asks about "enterprise risk management", "business continuity planning", "compliance program", "crisis management", "risk assessment", "gestion des risques", "ERM", "plan de continuité d'activité", "PCA", "PRA", "plan de reprise", "gestion de crise", "évaluation des risques", "cartographie des risques", "risk mapping", "COSO", "ISO 31000", "risk governance", "gouvernance des risques", "anti-corruption", "Sapin II", "FCPA", "UK Bribery Act", "disaster recovery", "BIA", "business impact analysis", "risk appetite", "appétit au risque", "risk register", "matrice de risques", "contrôle interne", "internal control", "audit des risques", discusses COSO, ISO 31000, or needs guidance on risk governance, anti-corruption compliance, or disaster recovery planning.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Enterprise Risk Management
@@ -219,6 +220,21 @@ Obligations de continuite d'activite ?
 6. Evoluer vers une plateforme GRC integree
 
 
+
+
+## Template actionnable
+
+### Risk register
+
+| # | Risque | Probabilité (1-5) | Impact (1-5) | Score | Propriétaire | Mitigation | Statut |
+|---|---|---|---|---|---|---|---|
+| 1 | ___ | ___ | ___ | ___ | ___ | ___ | ☐ Ouvert |
+| 2 | ___ | ___ | ___ | ___ | ___ | ___ | ☐ Ouvert |
+| 3 | ___ | ___ | ___ | ___ | ___ | ___ | ☐ Ouvert |
+| 4 | ___ | ___ | ___ | ___ | ___ | ___ | ☐ Ouvert |
+| 5 | ___ | ___ | ___ | ___ | ___ | ___ | ☐ Ouvert |
+
+> Score = Probabilité × Impact. Critique ≥ 15, Élevé 10-14, Modéré 5-9, Faible < 5.
 
 ## Prompts types
 

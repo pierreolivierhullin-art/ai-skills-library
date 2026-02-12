@@ -1,7 +1,8 @@
 ---
 name: process-engineering
 description: This skill should be used when the user asks about "development workflow", "developer experience", "DX", "agile process", "sprint planning", "estimation", "technical documentation", "engineering metrics", "DORA metrics", "SPACE framework", "coding standards", "linting", "workflow de développement", "expérience développeur", "processus agile", "planification de sprint", "estimation", "documentation technique", "métriques d'ingénierie", "standards de code", "velocity", "story points", "retrospective", "daily standup", "code review process", "PR review", "pull request", "git workflow", "branching strategy", "trunk-based development", "feature branching", "monorepo", "RFC", "design doc", "ADR", "technical RFC", "team topologies", "engineering culture", or needs guidance on engineering processes, team productivity, and development standards.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Process Engineering — Development Workflows, Developer Experience, Documentation & Engineering Metrics
@@ -153,6 +154,25 @@ Follow this workflow when designing or improving engineering processes:
 
 ---
 
+
+
+## Template actionnable
+
+### Template de RFC / Design Doc
+
+| Section | Contenu |
+|---|---|
+| **Titre** | RFC-___: ___ |
+| **Auteur** | ___ |
+| **Date** | ___ |
+| **Statut** | Brouillon / En revue / Approuvé / Implémenté |
+| **Résumé** | En 2-3 phrases, quel problème et quelle solution ? |
+| **Contexte** | Pourquoi maintenant ? Quel est le problème ? |
+| **Proposition** | Description détaillée de la solution |
+| **Alternatives** | Options écartées et pourquoi |
+| **Impact** | Équipes impactées, migration, breaking changes |
+| **Plan d'implémentation** | Étapes, estimation, dépendances |
+| **Questions ouvertes** | Points à résoudre avant approbation |
 
 ## Prompts types
 

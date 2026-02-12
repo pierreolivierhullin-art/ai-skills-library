@@ -1,7 +1,8 @@
 ---
 name: commercial
 description: This skill should be used when the user asks about "sales strategy", "B2B prospecting", "sales methodology", "negotiation techniques", "revenue operations", "stratégie commerciale", "prospection B2B", "prospection commerciale", "techniques de vente", "closing", "pipeline commercial", "cycle de vente", "sales cycle", "account management", "gestion de comptes", "key account", "sales enablement", "CRM optimization", "cold calling", "cold emailing", "social selling", "MEDDIC", "SPIN selling", "Challenger Sale", "RevOps", "forecast", "prévision de ventes", "upsell", "cross-sell", "objection handling", discusses pipeline management, or needs guidance on closing deals, account management, or sales enablement.
-version: 1.0.0
+version: 1.1.0
+last_updated: 2026-02
 ---
 
 # Commercial / Sales
@@ -155,6 +156,21 @@ Investir dans la formation et l'outillage continus des equipes commerciales. Les
 20. Deployer une stack RevOps complete et automatiser les workflows repetitifs.
 
 
+
+
+## Template actionnable
+
+### Scorecard de qualification MEDDIC
+
+| Critère | Question | Score (1-5) | Notes |
+|---|---|---|---|
+| **Metrics** | Quel impact financier mesurable ? | ___ | ___ |
+| **Economic Buyer** | Qui signe le budget ? | ___ | ___ |
+| **Decision Criteria** | Quels critères de choix ? | ___ | ___ |
+| **Decision Process** | Quelles étapes de validation ? | ___ | ___ |
+| **Identify Pain** | Quel problème urgent ? | ___ | ___ |
+| **Champion** | Qui porte le projet en interne ? | ___ | ___ |
+| **Score total** | | ___/30 | Go/No-Go : ___ |
 
 ## Prompts types
 
