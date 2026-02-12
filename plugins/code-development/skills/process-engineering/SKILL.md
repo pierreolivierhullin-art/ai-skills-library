@@ -153,6 +153,17 @@ Follow this workflow when designing or improving engineering processes:
 
 ---
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Gestion de projets | `entreprise:gestion-de-projets` — Méthodologies agile et pilotage de projet |
+| Code Excellence | `code-development:code-excellence` — Standards de code et bonnes pratiques |
+| DevOps | `code-development:devops` — CI/CD et automatisation du workflow |
+| Quality Reliability | `code-development:quality-reliability` — Quality gates et métriques qualité |
+| Monitoring | `code-development:monitoring` — Métriques DORA et performance engineering |
+
 ## Additional Resources
 
 Consult these reference files for deep dives on each topic area:

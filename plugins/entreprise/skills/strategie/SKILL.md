@@ -149,6 +149,17 @@ Evaluer chaque initiative strategique selon sa capacite a creer de la valeur dur
 19. Realiser un bilan strategique annuel avec mise a jour du plan et des scenarios.
 20. Ajuster la strategie et reallouer les ressources en fonction des resultats et de l'evolution de l'environnement.
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Marketing | `entreprise:marketing` — Déclinaison de la stratégie en plan marketing et GTM |
+| Finance | `entreprise:finance` — Modélisation financière du business model |
+| Commercial | `entreprise:commercial` — Exécution de la stratégie de revenus |
+| Gestion de projets | `entreprise:gestion-de-projets` — Pilotage de la feuille de route stratégique |
+| RSE-ESG | `entreprise:rse-esg` — Intégration de la durabilité dans la stratégie |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

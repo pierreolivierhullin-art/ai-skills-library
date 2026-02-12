@@ -186,6 +186,17 @@ Premiere experience ? → Toxiproxy en staging → Game Day manuel → Litmus en
 
 ---
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Code Excellence | `code-development:code-excellence` — Stratégie de tests et TDD |
+| DevOps | `code-development:devops` — CI/CD et déploiement continu |
+| Monitoring | `code-development:monitoring` — SRE, SLOs et incident management |
+| Process Engineering | `code-development:process-engineering` — Quality gates et métriques DORA |
+| Opérations | `entreprise:operations` — Excellence opérationnelle et amélioration continue |
+
 ## Additional Resources
 
 Consult the reference files for deep-dive guidance / Consulter les references pour un approfondissement :

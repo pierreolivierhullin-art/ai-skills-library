@@ -227,6 +227,16 @@ Dependance fournisseur excessive ?
 5. Mettre a jour les defenses face aux nouvelles menaces (jailbreaks, techniques d'attaque emergentes)
 6. Conduire des revues post-incident (blameless post-mortems) pour chaque incident IA
 
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Risk Management | `entreprise:risk-management` — Cadre ERM et cartographie des risques |
+| AI Ethics | `ai-governance:ai-ethics` — IA responsable et biais algorithmiques |
+| Auth Security | `code-development:auth-security` — Sécurité applicative et prompt injection |
+| Stratégie IA | `ai-governance:strategie-ia` — Gouvernance IA et cycle de vie des modèles |
+| Prompt Engineering | `ai-governance:prompt-engineering-llmops` — Guardrails et défense des LLM |
+
 ## Additional Resources
 
 Consulter les fichiers de reference pour un approfondissement detaille :

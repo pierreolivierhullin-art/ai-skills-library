@@ -187,6 +187,17 @@ Adapter le niveau de diligence juridique a l'enjeu reel. Ne pas appliquer le mem
 19. Integrer la veille reglementaire systematique (EU AI Act, DSA/DMA, evolution jurisprudence CJUE/Cour de cassation).
 20. Positionner la direction juridique comme contributeur a la strategie d'entreprise (M&A, expansion internationale, innovation).
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| RH | `entreprise:rh` — Droit du travail et relations sociales |
+| Risk Management | `entreprise:risk-management` — Compliance et conformité |
+| Achats | `entreprise:achats` — Contrats fournisseurs et négociation |
+| Auth Security | `code-development:auth-security` — RGPD et protection des données |
+| RSE-ESG | `entreprise:rse-esg` — CSRD et reporting extra-financier |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

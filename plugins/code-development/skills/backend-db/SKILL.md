@@ -186,6 +186,17 @@ Flux de donnees unidirectionnel serveur -> client ?
 4. Planifier les maintenances (VACUUM, REINDEX, rafraichissement des vues materialisees).
 5. Documenter les runbooks pour les operations courantes (rollback migration, scaling, failover).
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Architecture | `code-development:architecture` — Design système et choix d'architecture |
+| DevOps | `code-development:devops` — Déploiement et migrations en production |
+| Data Engineering | `data-bi:data-engineering` — Pipelines de données et intégration |
+| Auth Security | `code-development:auth-security` — Sécurité des données et accès |
+| Payment Stripe | `code-development:payment-stripe` — APIs de paiement et webhooks |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

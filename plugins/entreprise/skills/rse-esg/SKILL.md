@@ -164,6 +164,17 @@ Appliquer la methodologie en 4 phases :
 19. Revoir l'analyse de materialite et actualiser la strategie.
 20. Communiquer de maniere transparente les progres et les defis restants.
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Stratégie | `entreprise:strategie` — Intégration ESG dans la stratégie corporate |
+| Achats | `entreprise:achats` — Achats responsables et supply chain durable |
+| Juridique | `entreprise:juridique` — CSRD, taxonomie et cadre réglementaire |
+| Finance | `entreprise:finance` — Green finance et reporting financier ESG |
+| Risk Management | `entreprise:risk-management` — Cartographie des risques ESG |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

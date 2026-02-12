@@ -190,6 +190,17 @@ Niveau 5 — Ecosystemique : orchestration de l'ecosysteme fournisseur, IA predi
 24. Integrer les objectifs achats responsables (carbone, economie circulaire, inclusion).
 25. Reviser annuellement les strategies categories et les plans d'action.
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Opérations | `entreprise:operations` — Supply chain et logistique |
+| Finance | `entreprise:finance` — Analyse des dépenses et budget achats |
+| Juridique | `entreprise:juridique` — Contrats fournisseurs et cadre légal |
+| RSE-ESG | `entreprise:rse-esg` — Achats responsables et durables |
+| Risk Management | `entreprise:risk-management` — Risque fournisseur et continuité |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

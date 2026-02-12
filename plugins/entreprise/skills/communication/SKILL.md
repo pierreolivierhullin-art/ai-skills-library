@@ -166,6 +166,17 @@ Piloter la communication par la mesure. Definir des KPIs clairs pour chaque disp
 19. Mettre a jour le narrative et la message house en fonction de l'evolution strategique.
 20. Benchmarker les pratiques par rapport aux pairs et aux tendances du secteur.
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Marketing | `entreprise:marketing` — Stratégie de marque et notoriété |
+| RH | `entreprise:rh` — Communication interne et engagement |
+| Stratégie | `entreprise:strategie` — Communication corporate et institutionnelle |
+| Support Client | `entreprise:support-client` — Communication de crise client |
+| Data Literacy | `data-bi:data-literacy` — Data storytelling et présentation de données |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

@@ -178,6 +178,17 @@ Appliquer le processus en 6 etapes de Cole Nussbaumer Knaflic :
 19. Iterer sur le programme de formation en fonction des retours et des lacunes identifiees.
 20. Etendre le programme aux nouvelles equipes, filiales et partenaires.
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Decision Reporting | `data-bi:decision-reporting-governance` — Dashboards et reporting BI |
+| Data Engineering | `data-bi:data-engineering` — Accès aux données et self-service |
+| Product Analytics | `code-development:product-analytics` — Métriques produit et analyse |
+| Communication | `entreprise:communication` — Data storytelling et présentation exécutive |
+| Marketing | `entreprise:marketing` — Reporting marketing et métriques d'acquisition |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

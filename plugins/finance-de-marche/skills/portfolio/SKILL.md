@@ -180,6 +180,16 @@ Le modele a 3 facteurs (1993) ajoute size (SMB) et value (HML) au facteur marche
 16. Realiser un stress test trimestriel (scenarios historiques : 2008, 2020, 2022 ; scenarios hypothetiques : hausse de taux +300bps, recession, choc geopolitique).
 17. Reviser l'IPS annuellement ou lors de changements de situation (mariage, retraite, heritage).
 
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Options Risk | `finance-de-marche:options-risk` — Couverture et stratégies d'options |
+| Behavioral Finance | `finance-de-marche:behavioral-finance` — Biais d'investissement et discipline |
+| Regulatory | `finance-de-marche:regulatory` — Conformité et fiscalité du portefeuille |
+| Finance | `entreprise:finance` — Modélisation financière et valorisation |
+| Decision Reporting | `data-bi:decision-reporting-governance` — Dashboards et suivi de performance |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

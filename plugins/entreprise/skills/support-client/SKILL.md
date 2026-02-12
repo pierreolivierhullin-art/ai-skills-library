@@ -178,6 +178,17 @@ Construire un health score composite (0-100) a partir de signaux ponderes :
 19. Implementer le churn prediction model et les alertes automatisees.
 20. Mesurer le Net Revenue Retention et aligner les objectifs CS sur la croissance.
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Commercial | `entreprise:commercial` — Rétention client et upsell |
+| Communication | `entreprise:communication` — Communication de crise client |
+| Product Analytics | `code-development:product-analytics` — Analyse du feedback et NPS |
+| Marketing | `entreprise:marketing` — Parcours client et expérience de marque |
+| Prompt Engineering | `ai-governance:prompt-engineering-llmops` — Chatbots et support IA |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

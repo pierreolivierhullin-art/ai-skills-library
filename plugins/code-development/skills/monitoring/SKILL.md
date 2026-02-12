@@ -173,6 +173,17 @@ START
 5. Measure and report on MTTR, MTTD, alert quality, and SLO compliance monthly.
 6. Practice chaos engineering with observability validation (GameDays).
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| DevOps | `code-development:devops` — Infrastructure et pipeline de déploiement |
+| Quality Reliability | `code-development:quality-reliability` — SRE et ingénierie de fiabilité |
+| Architecture | `code-development:architecture` — Design d'observabilité dans l'architecture |
+| Process Engineering | `code-development:process-engineering` — Processus d'incident et postmortem |
+| Risk Management | `entreprise:risk-management` — Continuité d'activité et gestion de crise |
+
 ## Additional Resources / Ressources complémentaires
 
 Consult the following reference files for deep-dive guidance on each domain:

@@ -158,6 +158,16 @@ Appliquer les 7 exigences du High-Level Expert Group (HLEG) de la Commission eur
 19. Planifier des audits periodiques independants (trimestriels pour les systemes a haut risque).
 20. Maintenir un registre des incidents ethiques et des actions correctives.
 
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Stratégie IA | `ai-governance:strategie-ia` — Gouvernance IA et cadre organisationnel |
+| AI Risk | `ai-governance:ai-risk` — Risques et sécurité des systèmes IA |
+| Juridique | `entreprise:juridique` — Réglementation IA (EU AI Act) et conformité |
+| RH | `entreprise:rh` — Impact de l'IA sur les métiers et l'emploi |
+| RSE-ESG | `entreprise:rse-esg` — IA responsable et impact environnemental |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

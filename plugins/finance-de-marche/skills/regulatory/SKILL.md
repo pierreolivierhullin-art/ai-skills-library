@@ -216,6 +216,16 @@ US taxpayer ?
 4. Maintenir une veille reglementaire active et un processus de change management
 5. Documenter les lessons learned de chaque controle regulateur ou incident de conformite
 
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Juridique | `entreprise:juridique` — Cadre juridique et droit des marchés |
+| Risk Management | `entreprise:risk-management` — Compliance et gestion des risques |
+| Options Risk | `finance-de-marche:options-risk` — Réglementation des dérivés et marges |
+| Portfolio | `finance-de-marche:portfolio` — Reporting et obligations de déclaration |
+| Finance | `entreprise:finance` — Fiscalité et stratégie fiscale |
+
 ## Additional Resources
 
 Consulter les fichiers de reference pour un approfondissement detaille / Consult the reference files for detailed deep dives:

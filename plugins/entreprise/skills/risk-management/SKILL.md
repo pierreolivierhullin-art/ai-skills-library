@@ -218,6 +218,17 @@ Obligations de continuite d'activite ?
 5. Benchmarker le dispositif ERM avec les pairs sectoriels
 6. Evoluer vers une plateforme GRC integree
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Juridique | `entreprise:juridique` — Conformité réglementaire et compliance |
+| Finance | `entreprise:finance` — Risques financiers et audit |
+| IT Systèmes | `entreprise:it-systemes` — PCA/PRA et résilience IT |
+| RSE-ESG | `entreprise:rse-esg` — Risques ESG et climatiques |
+| AI Risk | `ai-governance:ai-risk` — Risques spécifiques à l'intelligence artificielle |
+
 ## Additional Resources
 
 Consulter les fichiers de reference pour un approfondissement detaille :

@@ -174,6 +174,17 @@ Automatiser les taches repetitives et a faible valeur ajoutee (provisioning, pat
 
 ---
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Architecture | `code-development:architecture` — Architecture technique et choix de stack |
+| DevOps | `code-development:devops` — Infrastructure et déploiement |
+| Auth Security | `code-development:auth-security` — Cybersécurité applicative |
+| Monitoring | `code-development:monitoring` — Observabilité et supervision des systèmes |
+| Risk Management | `entreprise:risk-management` — PCA/PRA et continuité d'activité |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

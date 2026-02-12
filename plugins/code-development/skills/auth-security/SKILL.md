@@ -201,6 +201,17 @@ Architecture microservices complexe ?
 4. Realiser des pentests reguliers et des exercices de threat modeling
 5. Maintenir un runbook de reponse aux incidents de securite
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Architecture | `code-development:architecture` — Security by design et architecture sécurisée |
+| Juridique | `entreprise:juridique` — RGPD, protection des données et conformité |
+| Backend & DB | `code-development:backend-db` — Sécurité des données et chiffrement |
+| IT Systèmes | `entreprise:it-systemes` — Cybersécurité et gouvernance IT |
+| AI Risk | `ai-governance:ai-risk` — Sécurité des systèmes IA et prompt injection |
+
 ## Additional Resources
 
 Consulter les fichiers de reference pour un approfondissement detaille :

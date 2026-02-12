@@ -178,6 +178,16 @@ Appliquer le screening GARP en 6 étapes pour identifier les sous-jacents de qua
 3. Analyser les trades perdants pour identifier les patterns récurrents.
 4. Recalibrer les paramètres de sizing et de management en fonction des résultats.
 
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Portfolio | `finance-de-marche:portfolio` — Gestion de portefeuille et allocation |
+| Behavioral Finance | `finance-de-marche:behavioral-finance` — Psychologie du trading et biais |
+| Regulatory | `finance-de-marche:regulatory` — Réglementation des produits dérivés |
+| Risk Management | `entreprise:risk-management` — Cadre de gestion des risques |
+| Data Literacy | `data-bi:data-literacy` — Visualisation des Greeks et P&L |
+
 ## Additional Resources
 
 Consulter les fichiers de référence suivants pour un approfondissement détaillé :

@@ -211,6 +211,17 @@ Le framework AARRR structure le funnel de croissance en 5 etapes :
 19. Affiner le pricing par experimentation (A/B test, Van Westendorp, conjoint analysis).
 20. Documenter et partager les learnings, maintenir un playbook marketing vivant.
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Commercial | `entreprise:commercial` — Alignement marketing-ventes et gestion du pipeline |
+| Stratégie | `entreprise:strategie` — Positionnement et vision stratégique de marque |
+| Communication | `entreprise:communication` — Relations presse et notoriété |
+| Product Analytics | `code-development:product-analytics` — Mesure de performance des campagnes |
+| Data Literacy | `data-bi:data-literacy` — Visualisation des métriques marketing |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

@@ -137,6 +137,17 @@ Follow this workflow when designing or improving a data platform:
 
 ---
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Backend & DB | `code-development:backend-db` — Bases de données et optimisation SQL |
+| Architecture | `code-development:architecture` — Architecture data et systèmes distribués |
+| DevOps | `code-development:devops` — Infrastructure et orchestration des pipelines |
+| Decision Reporting | `data-bi:decision-reporting-governance` — Qualité des données et gouvernance |
+| Prompt Engineering | `ai-governance:prompt-engineering-llmops` — Pipelines RAG et embeddings |
+
 ## Additional Resources
 
 Consult these reference files for deep dives on each topic area:

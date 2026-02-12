@@ -209,6 +209,17 @@ Mix fixe + variable ?
 5. Implementer Revenue Recognition pour la comptabilite (ASC 606 / IFRS 15)
 6. Reconcilier les flux financiers avec le systeme comptable (ERP sync, journal entries)
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Backend & DB | `code-development:backend-db` — APIs, webhooks et persistance des données |
+| Auth Security | `code-development:auth-security` — Conformité PCI et sécurité des paiements |
+| Finance | `entreprise:finance` — Modèle de monétisation et métriques SaaS |
+| Juridique | `entreprise:juridique` — Réglementation des paiements et CGV |
+| Product Analytics | `code-development:product-analytics` — Métriques de conversion et funnel |
+
 ## Additional Resources
 
 Consulter les fichiers de reference pour un approfondissement detaille :

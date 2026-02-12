@@ -215,6 +215,16 @@ Evaluer la tolerance au risque reelle (et non declaree) selon trois dimensions :
 17. Mettre en place des nudges personnels (automatisation du rebalancement, DCA automatique).
 18. Revue trimestrielle complete du systeme comportemental avec calibration des probabilites.
 
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Options Risk | `finance-de-marche:options-risk` — Décisions de trading et gestion du risque |
+| Portfolio | `finance-de-marche:portfolio` — Biais dans la construction de portefeuille |
+| Regulatory | `finance-de-marche:regulatory` — Protection des investisseurs |
+| Commercial | `entreprise:commercial` — Psychologie de la négociation commerciale |
+| AI Ethics | `ai-governance:ai-ethics` — Biais cognitifs et biais algorithmiques |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

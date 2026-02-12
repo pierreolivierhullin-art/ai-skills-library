@@ -154,6 +154,17 @@ Concevoir les operations pour la resilience, pas uniquement pour l'efficience ma
 19. Former les Green Belts et Black Belts internes pour autonomiser l'amelioration continue.
 20. Evaluer la maturite operationnelle annuellement et ajuster la feuille de route.
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Achats | `entreprise:achats` — Supply chain et gestion des fournisseurs |
+| Gestion de projets | `entreprise:gestion-de-projets` — Pilotage des projets d'amélioration |
+| IT Systèmes | `entreprise:it-systemes` — Systèmes d'information opérationnels |
+| Quality Reliability | `code-development:quality-reliability` — Qualité et fiabilité des processus |
+| Data Engineering | `data-bi:data-engineering` — Pipelines de données opérationnelles |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

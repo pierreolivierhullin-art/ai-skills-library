@@ -174,6 +174,17 @@ feedback continu (via outil type Lattice/Culture Amp) et calibration semestriell
 19. Mettre en place les enquetes d'engagement avec plans d'action par equipe.
 20. Iterer sur l'ensemble des processus via les retours collaborateurs et les donnees.
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Juridique | `entreprise:juridique` — Droit du travail et conformité sociale |
+| Communication | `entreprise:communication` — Communication interne et marque employeur |
+| Stratégie | `entreprise:strategie` — Design organisationnel et planification des effectifs |
+| Gestion de projets | `entreprise:gestion-de-projets` — Conduite du changement |
+| Stratégie IA | `ai-governance:strategie-ia` — Impact de l'IA sur les métiers et compétences |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

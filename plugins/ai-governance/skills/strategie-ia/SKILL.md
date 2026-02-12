@@ -219,6 +219,16 @@ Calculer le ROI IA en integrant :
 24. Evoluer vers un modele d'organisation federe mature.
 25. Etablir un programme d'innovation IA continue (veille, experimentation, partenariats).
 
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Stratégie | `entreprise:strategie` — Intégration de l'IA dans la stratégie corporate |
+| IT Systèmes | `entreprise:it-systemes` — Infrastructure et gouvernance IT pour l'IA |
+| AI Ethics | `ai-governance:ai-ethics` — IA responsable et cadre éthique |
+| Prompt Engineering | `ai-governance:prompt-engineering-llmops` — Implémentation et opérations LLM |
+| Risk Management | `entreprise:risk-management` — Gouvernance des risques liés à l'IA |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

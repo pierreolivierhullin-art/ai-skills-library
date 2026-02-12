@@ -158,6 +158,17 @@ Utiliser l'Event Storming comme technique de découverte collaborative pour iden
 19. Planifier les revues d'architecture périodiques (Architecture Review Board léger).
 20. Maintenir les ADR à jour et documenter les évolutions.
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Backend & DB | `code-development:backend-db` — Architecture de données et design de schéma |
+| DevOps | `code-development:devops` — Infrastructure et déploiement de l'architecture |
+| Auth Security | `code-development:auth-security` — Sécurité dans la conception système |
+| Code Excellence | `code-development:code-excellence` — Design patterns et principes SOLID |
+| IT Systèmes | `entreprise:it-systemes` — Gouvernance IT et architecture d'entreprise |
+
 ## Additional Resources
 
 Consulter les fichiers de référence suivants pour des guides détaillés :

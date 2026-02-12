@@ -154,6 +154,17 @@ Investir dans la formation et l'outillage continus des equipes commerciales. Les
 19. Construire le programme de sales enablement (onboarding, formation continue, certifications).
 20. Deployer une stack RevOps complete et automatiser les workflows repetitifs.
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Marketing | `entreprise:marketing` — Génération de leads et alignement marketing-ventes |
+| Finance | `entreprise:finance` — Prévisions de revenus et unit economics |
+| Support Client | `entreprise:support-client` — Fidélisation et rétention client |
+| Stratégie | `entreprise:strategie` — Stratégie de croissance et go-to-market |
+| Behavioral Finance | `finance-de-marche:behavioral-finance` — Psychologie de la négociation |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

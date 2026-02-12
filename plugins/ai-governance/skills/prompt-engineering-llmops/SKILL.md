@@ -152,6 +152,16 @@ Follow this workflow when building an LLM-powered application:
 
 ---
 
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Stratégie IA | `ai-governance:strategie-ia` — Stratégie et choix de modèles |
+| Architecture | `code-development:architecture` — Architecture des applications LLM |
+| Backend & DB | `code-development:backend-db` — Bases vectorielles et APIs |
+| AI Risk | `ai-governance:ai-risk` — Guardrails et sécurité des prompts |
+| Product Analytics | `code-development:product-analytics` — Métriques et évaluation des LLM |
+
 ## Additional Resources
 
 Consult these reference files for deep dives on each topic area:

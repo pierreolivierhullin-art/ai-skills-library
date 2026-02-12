@@ -151,6 +151,17 @@ Suivre ce workflow pour toute initiative d'amélioration de la qualité du code 
 3. Utiliser Branch by Abstraction pour substituer les implémentations sans Big Bang.
 4. Documenter les décisions architecturales via des ADR (Architecture Decision Records).
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Architecture | `code-development:architecture` — Patterns architecturaux et principes de conception |
+| Quality Reliability | `code-development:quality-reliability` — Stratégie de tests et automatisation QA |
+| Process Engineering | `code-development:process-engineering` — Standards de code et revue de code |
+| UI/UX | `code-development:ui-ux` — Qualité du code frontend et composants |
+| Monitoring | `code-development:monitoring` — Observabilité et logging dans le code |
+
 ## Additional Resources
 
 Consulter les fichiers de référence suivants pour un approfondissement détaillé :

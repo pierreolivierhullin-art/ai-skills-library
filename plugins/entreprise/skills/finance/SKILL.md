@@ -201,6 +201,17 @@ Maintenir un referentiel financier unique et reconcilie. Interdire les "shadow s
 16. Structurer la veille fiscale et les opportunites d'optimisation (CIR, integration fiscale, prix de transfert).
 17. Mettre en place la revue trimestrielle des risques financiers (change, taux, liquidite, credit).
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Stratégie | `entreprise:strategie` — Alignement financier avec la vision stratégique |
+| Commercial | `entreprise:commercial` — Prévision de revenus et forecast |
+| Risk Management | `entreprise:risk-management` — Gestion des risques financiers |
+| Payment Stripe | `code-development:payment-stripe` — Implémentation de la monétisation |
+| Decision Reporting | `data-bi:decision-reporting-governance` — KPIs et tableaux de bord financiers |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

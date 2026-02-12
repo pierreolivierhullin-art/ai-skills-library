@@ -133,6 +133,17 @@ Follow this workflow when designing or improving a DevOps setup:
 
 ---
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Architecture | `code-development:architecture` — Infrastructure et architecture cloud |
+| Monitoring | `code-development:monitoring` — Observabilité et alerting en production |
+| Quality Reliability | `code-development:quality-reliability` — CI/CD et tests automatisés |
+| Backend & DB | `code-development:backend-db` — Déploiement de bases de données et migrations |
+| IT Systèmes | `entreprise:it-systemes` — Gouvernance infrastructure et cloud strategy |
+
 ## Additional Resources
 
 Consult these reference files for deep dives on each topic area:

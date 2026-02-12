@@ -218,6 +218,17 @@ Evaluer la maturite de la gouvernance sur les 11 domaines DAMA-DMBOK :
 19. Planifier les revues trimestrielles : audit des dashboards (usage analytics), revue des data contracts, mise a jour du catalogue et du glossary.
 20. Mesurer et rapporter les KPIs de la gouvernance elle-meme : data quality score, catalogue coverage, SLA compliance, time-to-insight.
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Data Engineering | `data-bi:data-engineering` — Pipelines et infrastructure de données |
+| Data Literacy | `data-bi:data-literacy` — Visualisation et storytelling des données |
+| Finance | `entreprise:finance` — KPIs financiers et tableaux de bord |
+| Stratégie | `entreprise:strategie` — Aide à la décision stratégique |
+| Product Analytics | `code-development:product-analytics` — Métriques produit et instrumentation |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

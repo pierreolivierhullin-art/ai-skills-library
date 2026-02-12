@@ -185,6 +185,17 @@ START
 5. Run quarterly tracking plan audits: remove dead events, update schemas, validate data quality.
 6. Implement long-term holdouts and causal inference for measuring cumulative experiment impact.
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Marketing | `entreprise:marketing` — Métriques d'acquisition et attribution |
+| UI/UX | `code-development:ui-ux` — Recherche utilisateur et tests d'usabilité |
+| Data Engineering | `data-bi:data-engineering` — Infrastructure de tracking et pipelines |
+| Data Literacy | `data-bi:data-literacy` — Visualisation et storytelling des métriques |
+| Stratégie IA | `ai-governance:strategie-ia` — Analytics augmentés par l'IA |
+
 ## Additional Resources / Ressources complémentaires
 
 Consult the following reference files for deep-dive guidance on each domain:

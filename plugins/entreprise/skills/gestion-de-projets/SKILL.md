@@ -192,6 +192,17 @@ Choisir le framework de priorisation adapte au contexte :
 24. Integrer les pratiques d'IA pour augmenter le pilotage projet (forecasting, risk prediction).
 25. Ancrer la culture d'amelioration continue (kaizen, retrospectives, communities of practice).
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Stratégie | `entreprise:strategie` — Priorisation du portefeuille de projets |
+| Opérations | `entreprise:operations` — Optimisation des processus opérationnels |
+| Process Engineering | `code-development:process-engineering` — Workflow de développement agile |
+| RH | `entreprise:rh` — Conduite du changement et transformation organisationnelle |
+| Communication | `entreprise:communication` — Communication de projet et gestion des parties prenantes |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

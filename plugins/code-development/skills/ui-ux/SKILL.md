@@ -182,6 +182,17 @@ Suivre cette hierarchie de conformite :
 24. Mesurer l'adoption (analytics d'usage des composants) et la satisfaction (Design System Satisfaction Score).
 25. Planifier des revues trimestrielles pour evoluer le systeme (deprecation, nouveaux patterns).
 
+
+## Skills connexes
+
+| Skill | Lien |
+|---|---|
+| Code Excellence | `code-development:code-excellence` — Qualité du code frontend et composants |
+| Product Analytics | `code-development:product-analytics` — Métriques UX et tests A/B |
+| Data Literacy | `data-bi:data-literacy` — Visualisation de données et design d'information |
+| Process Engineering | `code-development:process-engineering` — Design process et collaboration design-dev |
+| Marketing | `entreprise:marketing` — Conversion, parcours client et landing pages |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :
