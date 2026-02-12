@@ -247,3 +247,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Developpement d'API](./references/api-development.md)** : REST API design (nommage des ressources, versioning, pagination, filtrage, gestion d'erreurs), GraphQL (schema design, resolvers, DataLoader, federation), gRPC, WebSockets & SSE, rate limiting, documentation OpenAPI/Swagger.
 
 - **[Stack Supabase](./references/supabase-stack.md)** : Supabase Auth (providers, integration RLS), Supabase Storage (policies, transformations), Supabase Realtime (broadcast, presence, postgres changes), Edge Functions (Deno), PostgREST, CLI & developpement local, webhooks & triggers.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

@@ -243,6 +243,7 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 
 - **[Frontend Architecture](./references/frontend-architecture.md)** -- Component patterns (atomic, compound, render props), state management (Redux, Zustand, Jotai, signals), CSS architecture (BEM, CSS Modules, Tailwind, CSS-in-JS), optimisation Core Web Vitals (LCP, INP, CLS), progressive enhancement, View Transitions API, container queries.
 
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
 ### Ouvrages et references fondamentaux
 - Steve Krug, *Don't Make Me Think* (3rd ed., 2014)
 - Brad Frost, *Atomic Design* (2016)

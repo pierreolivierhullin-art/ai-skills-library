@@ -269,3 +269,5 @@ Consulter les fichiers de reference pour un approfondissement detaille :
 - **[PCI Compliance](./references/pci-compliance.md)** : PCI-DSS overview (SAQ levels A/A-EP/D), tokenisation, formulaires de paiement securises, reduction du scope PCI (Stripe.js, iframes), documentation de conformite, SCA/3D Secure 2, types de methodes de paiement (cartes, SEPA, Apple Pay, Google Pay, BNPL).
 
 - **[Revenue & Integration](./references/revenue-integration.md)** : Revenue recognition (ASC 606, IFRS 15), Stripe Tax, integration comptable (journal entries, ERP sync), reporting financier & reconciliation, gestion des remboursements/litiges/chargebacks, multi-devise & FX, Stripe Sigma & Data Pipeline.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

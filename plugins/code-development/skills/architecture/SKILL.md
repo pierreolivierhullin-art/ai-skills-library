@@ -213,3 +213,5 @@ Consulter les fichiers de référence suivants pour des guides détaillés :
 - **[API Design](./references/api-design.md)** : bonnes pratiques REST, conception de schémas GraphQL, gRPC et protocoles binaires, WebSockets, versioning d'API, pagination, HATEOAS, design API-first moderne.
 - **[Design Patterns](./references/design-patterns.md)** : patterns GoF appliqués au développement moderne, principes SOLID, patterns tactiques DDD (aggregates, bounded contexts, domain events), CQRS, event sourcing.
 - **[Cloud Architecture](./references/cloud-architecture.md)** : stratégies multi-cloud, serverless, orchestration de containers, edge computing, FinOps, Well-Architected Frameworks (AWS, Azure, GCP), patterns cloud-native modernes.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

@@ -193,3 +193,5 @@ Consult these reference files for deep dives on each topic area:
 - **[Containerization](./references/containerization.md)** — Docker best practices (multi-stage builds, layer caching, security scanning), Docker Compose, Kubernetes (pods, services, deployments, ingress, HPA, ConfigMaps, Secrets), Helm charts, Kustomize, container security (Trivy, Snyk Container).
 
 - **[Deployment Strategies](./references/deployment-strategies.md)** — Blue-green, canary, rolling updates, feature flags and progressive delivery, zero-downtime deployments, database migrations in deployment, rollback strategies, environment management, preview environments.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

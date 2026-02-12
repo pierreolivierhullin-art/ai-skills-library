@@ -256,3 +256,5 @@ Consulter les fichiers de reference pour un approfondissement detaille :
 - **[Security Hardening](./references/security-hardening.md)** : OWASP Top 10 (2021+), validation et sanitisation d'inputs, prevention XSS/CSRF/injection, CSP, CORS, security headers, rate limiting, protection DDoS, scanning de dependances.
 
 - **[Secrets Management](./references/secrets-management.md)** : Stockage de secrets (Vault, AWS/GCP Secret Manager), rotation de cles API, gestion des variables d'environnement, certificats TLS, secrets scanning en CI/CD, architecture zero-trust pour les secrets.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

@@ -232,6 +232,7 @@ Consult the following reference files for deep-dive guidance on each domain:
 - **[Alerting & Incidents](./references/alerting-incidents.md)** — Alert design, on-call management, incident response process, post-mortem / blameless retrospectives, status pages, PagerDuty/OpsGenie/Incident.io.
 - **[Monitoring Tools](./references/monitoring-tools.md)** — Datadog, Grafana+Prometheus, New Relic, Sentry, uptime monitoring, synthetic monitoring, RUM, cloud cost monitoring (FinOps), tool comparison matrix.
 
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
 ### External References / Références externes
 
 - Google SRE Book: https://sre.google/sre-book/table-of-contents/

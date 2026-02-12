@@ -244,6 +244,7 @@ Consult the reference files for deep-dive guidance / Consulter les references po
 
 - **[Chaos Engineering](./references/chaos-engineering.md)** — Principes Netflix, injection de pannes (Chaos Monkey, Gremlin, Litmus), Game Days, steady-state hypothesis, blast radius management, chaos in CI/CD, resilience patterns (circuit breaker, bulkhead, retry with backoff).
 
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
 ### Foundational References / References fondamentales
 
 - Betsy Beyer et al., *Site Reliability Engineering* (Google SRE Book, 2016) — https://sre.google/sre-book/table-of-contents/

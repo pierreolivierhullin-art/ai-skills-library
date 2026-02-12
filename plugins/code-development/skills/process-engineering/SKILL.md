@@ -215,6 +215,7 @@ Consult these reference files for deep dives on each topic area:
 
 - **[Engineering Metrics](./references/engineering-metrics.md)** — DORA metrics deep dive (deployment frequency, lead time for changes, MTTR, change failure rate), SPACE framework, cycle time and throughput analysis, developer productivity debates and pitfalls, engineering OKRs, burndown and velocity, engineering intelligence platforms (LinearB, Jellyfish, DX, Swarmia), and the McKinsey developer productivity controversy.
 
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
 ### Foundational References
 - Nicole Forsgren, Jez Humble, Gene Kim, *Accelerate* (2018)
 - Team Topologies — Matthew Skelton & Manuel Pais (2019)

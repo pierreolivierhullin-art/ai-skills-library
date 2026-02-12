@@ -240,6 +240,7 @@ Consult the following reference files for deep-dive guidance on each domain:
 - **[Experimentation](./references/experimentation.md)** -- Experiment design (hypothesis, variants, sample size calculator), statistical significance & power analysis (MDE, p-value, confidence interval), Bayesian vs frequentist, multi-armed bandits, platforms (Optimizely, LaunchDarkly, Statsig, Eppo), guardrail metrics.
 - **[Privacy & Analytics](./references/privacy-analytics.md)** -- Consent management (CMP -- Didomi, Axeptio, OneTrust), server-side tracking for privacy, anonymization & pseudonymization, cookie-less tracking, RGPD-compliant analytics (CNIL exemption for first-party), GA4 alternatives.
 
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
 ### External References / Références externes
 
 - Amplitude Analytics Playbook: https://amplitude.com/blog/analytics-playbook

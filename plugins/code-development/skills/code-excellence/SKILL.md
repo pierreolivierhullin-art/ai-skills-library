@@ -212,6 +212,8 @@ Consulter les fichiers de référence suivants pour un approfondissement détail
 
 - [Code Review & Collaboration](./references/code-review.md) -- Processus de code review, feedback constructif, checklists de revue, optimisation de la taille des PRs, pair/mob programming, revue assistée par IA, partage de connaissances au travers des revues.
 
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
 ### Ouvrages et références fondamentaux
 - Robert C. Martin, *Clean Code* (2008) et *Clean Architecture* (2017)
 - Martin Fowler, *Refactoring: Improving the Design of Existing Code* (2nd ed., 2018)
