@@ -1,0 +1,46 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ai-skills-library",
+  "description": "Comprehensive AI Skills Library — 36 expert skills across 5 domains: Enterprise, Code Development, AI Governance, Data & BI, Market Finance. State-of-the-art best practices, bilingual FR/EN.",
+  "owner": {
+    "name": "hullin",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "entreprise",
+      "description": "14 expert skills for enterprise operations: strategy, marketing, sales, finance, project management, HR, operations, IT/systems, procurement, client support, risk management, legal, communication, and CSR/ESG.",
+      "version": "1.0.0",
+      "source": "./plugins/entreprise",
+      "category": "productivity"
+    },
+    {
+      "name": "code-development",
+      "description": "11 expert skills for software development: architecture, code excellence, UI/UX, process engineering, auth & security, backend & databases, payment/Stripe, monitoring & observability, DevOps & CI/CD, product analytics, quality & reliability.",
+      "version": "1.0.0",
+      "source": "./plugins/code-development",
+      "category": "development"
+    },
+    {
+      "name": "ai-governance",
+      "description": "4 expert skills for AI maturity & governance: AI strategy, AI ethics & responsible AI, prompt engineering & LLMOps, AI risk assessment.",
+      "version": "1.0.0",
+      "source": "./plugins/ai-governance",
+      "category": "productivity"
+    },
+    {
+      "name": "data-bi",
+      "description": "3 expert skills for data & business intelligence: decision/reporting/governance, data engineering & pipelines, data literacy & storytelling.",
+      "version": "1.0.0",
+      "source": "./plugins/data-bi",
+      "category": "productivity"
+    },
+    {
+      "name": "finance-de-marche",
+      "description": "4 expert skills for market finance & investment: options & risk management, portfolio construction, behavioral finance, regulatory & compliance.",
+      "version": "1.0.0",
+      "source": "./plugins/finance-de-marche",
+      "category": "productivity"
+    }
+  ]
+}
