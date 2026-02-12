@@ -158,6 +158,15 @@ Appliquer les 7 exigences du High-Level Expert Group (HLEG) de la Commission eur
 19. Planifier des audits periodiques independants (trimestriels pour les systemes a haut risque).
 20. Maintenir un registre des incidents ethiques et des actions correctives.
 
+## Prompts types
+
+- "Comment auditer les biais de notre modèle de scoring ?"
+- "Aide-moi à créer une model card pour notre système IA"
+- "Propose un framework d'évaluation éthique pour nos projets IA"
+- "Comment rendre nos algorithmes plus explicables ?"
+- "Quelles sont nos obligations sous l'EU AI Act ?"
+- "Aide-moi à mettre en place un comité éthique IA"
+
 ## Skills connexes
 
 | Skill | Lien |

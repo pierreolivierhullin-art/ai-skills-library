@@ -165,6 +165,16 @@ Appliquer la methodologie en 4 phases :
 20. Communiquer de maniere transparente les progres et les defis restants.
 
 
+
+## Prompts types
+
+- "Aide-moi à construire une stratégie ESG pour notre entreprise"
+- "Comment réaliser notre premier bilan carbone (scope 1, 2, 3) ?"
+- "Propose un plan de conformité CSRD pour notre reporting"
+- "Quels KPIs ESG suivre et comment les mesurer ?"
+- "Comment intégrer l'économie circulaire dans notre modèle ?"
+- "Aide-moi à préparer notre notation ESG"
+
 ## Skills connexes
 
 | Skill | Lien |

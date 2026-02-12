@@ -202,6 +202,15 @@ Architecture microservices complexe ?
 5. Maintenir un runbook de reponse aux incidents de securite
 
 
+## Prompts types
+
+- "Comment implémenter OAuth 2.0 + OIDC dans mon app Next.js ?"
+- "Aide-moi à sécuriser mon API avec JWT et refresh tokens"
+- "Propose un système RBAC pour mon application multi-tenant"
+- "Comment gérer les secrets en production de manière sécurisée ?"
+- "Fais un audit OWASP Top 10 de mon application"
+- "Comment implémenter les passkeys / WebAuthn ?"
+
 ## Skills connexes
 
 | Skill | Lien |

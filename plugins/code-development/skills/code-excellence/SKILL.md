@@ -152,6 +152,15 @@ Suivre ce workflow pour toute initiative d'amélioration de la qualité du code 
 4. Documenter les décisions architecturales via des ADR (Architecture Decision Records).
 
 
+## Prompts types
+
+- "Comment réduire la dette technique de mon projet ?"
+- "Propose une stratégie de tests pour mon application TypeScript"
+- "Aide-moi à refactorer ce code en appliquant les principes SOLID"
+- "Comment mettre en place un processus de code review efficace ?"
+- "Quels design patterns utiliser pour ce cas d'usage ?"
+- "Analyse ce code et identifie les code smells"
+
 ## Skills connexes
 
 | Skill | Lien |

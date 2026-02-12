@@ -219,6 +219,15 @@ Evaluer la maturite de la gouvernance sur les 11 domaines DAMA-DMBOK :
 20. Mesurer et rapporter les KPIs de la gouvernance elle-meme : data quality score, catalogue coverage, SLA compliance, time-to-insight.
 
 
+## Prompts types
+
+- "Comment mettre en place une gouvernance des données dans notre organisation ?"
+- "Aide-moi à concevoir un dashboard BI pour le comité de direction"
+- "Propose un framework de KPIs pour piloter notre activité"
+- "Comment choisir entre Power BI, Tableau et Looker ?"
+- "Aide-moi à créer un data catalog pour notre entreprise"
+- "Comment définir des data contracts entre équipes ?"
+
 ## Skills connexes
 
 | Skill | Lien |

@@ -187,6 +187,16 @@ Flux de donnees unidirectionnel serveur -> client ?
 5. Documenter les runbooks pour les operations courantes (rollback migration, scaling, failover).
 
 
+## Prompts types
+
+- "Comment concevoir un schéma PostgreSQL pour une app multi-tenant ?"
+- "Aide-moi à optimiser cette requête SQL lente"
+- "Prisma vs Drizzle : lequel choisir pour mon projet ?"
+- "Comment structurer mes migrations de base de données ?"
+- "Propose une stratégie d'indexation pour améliorer les performances"
+- "Comment implémenter une API GraphQL avec des relations complexes ?"
+- "Aide-moi à configurer Supabase avec Row Level Security"
+
 ## Skills connexes
 
 | Skill | Lien |

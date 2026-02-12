@@ -138,6 +138,15 @@ Follow this workflow when designing or improving a data platform:
 ---
 
 
+## Prompts types
+
+- "Comment concevoir un pipeline ETL robuste avec dbt ?"
+- "Aide-moi à choisir entre data warehouse et data lakehouse"
+- "Propose une architecture de streaming avec Kafka"
+- "Comment orchestrer nos pipelines avec Airflow ou Dagster ?"
+- "Aide-moi à optimiser les coûts de notre data warehouse Snowflake"
+- "Comment mettre en place du CDC pour la réplication temps réel ?"
+
 ## Skills connexes
 
 | Skill | Lien |

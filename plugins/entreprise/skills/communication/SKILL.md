@@ -167,6 +167,16 @@ Piloter la communication par la mesure. Definir des KPIs clairs pour chaque disp
 20. Benchmarker les pratiques par rapport aux pairs et aux tendances du secteur.
 
 
+
+## Prompts types
+
+- "Aide-moi à rédiger un communiqué de presse pour notre levée de fonds"
+- "Comment construire un plan de communication de crise ?"
+- "Propose une stratégie de communication interne pour accompagner le changement"
+- "Comment développer le personal branding de notre CEO ?"
+- "Aide-moi à préparer un media training pour nos dirigeants"
+- "Quelle stratégie de communication corporate pour améliorer notre e-réputation ?"
+
 ## Skills connexes
 
 | Skill | Lien |

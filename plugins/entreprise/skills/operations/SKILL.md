@@ -155,6 +155,16 @@ Concevoir les operations pour la resilience, pas uniquement pour l'efficience ma
 20. Evaluer la maturite operationnelle annuellement et ajuster la feuille de route.
 
 
+
+## Prompts types
+
+- "Comment optimiser notre chaîne logistique avec le lean management ?"
+- "Aide-moi à cartographier nos processus avec un value stream mapping"
+- "Propose des KPIs opérationnels pour notre service de production"
+- "Comment mettre en place une démarche d'amélioration continue ?"
+- "Analyse nos SLA et propose des axes d'optimisation"
+- "Quels outils pour piloter la performance opérationnelle ?"
+
 ## Skills connexes
 
 | Skill | Lien |

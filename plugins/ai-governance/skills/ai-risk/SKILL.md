@@ -227,6 +227,15 @@ Dependance fournisseur excessive ?
 5. Mettre a jour les defenses face aux nouvelles menaces (jailbreaks, techniques d'attaque emergentes)
 6. Conduire des revues post-incident (blameless post-mortems) pour chaque incident IA
 
+## Prompts types
+
+- "Comment évaluer les risques d'hallucination de notre système IA ?"
+- "Aide-moi à mettre en place un red teaming pour notre LLM"
+- "Propose un framework de gestion des risques IA"
+- "Comment détecter et prévenir le model drift en production ?"
+- "Quelles protections contre le prompt injection ?"
+- "Aide-moi à concevoir un kill switch pour notre système IA"
+
 ## Skills connexes
 
 | Skill | Lien |

@@ -187,6 +187,15 @@ Premiere experience ? → Toxiproxy en staging → Game Day manuel → Litmus en
 ---
 
 
+## Prompts types
+
+- "Comment mettre en place des tests E2E avec Playwright ?"
+- "Aide-moi à concevoir une stratégie de tests automatisés complète"
+- "Comment implémenter du chaos engineering dans notre environnement ?"
+- "Propose des quality gates pour notre pipeline CI/CD"
+- "Comment faire du load testing avec k6 pour notre API ?"
+- "Aide-moi à définir un error budget et des SLOs réalistes"
+
 ## Skills connexes
 
 | Skill | Lien |

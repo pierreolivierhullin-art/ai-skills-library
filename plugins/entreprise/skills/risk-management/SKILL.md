@@ -219,6 +219,16 @@ Obligations de continuite d'activite ?
 6. Evoluer vers une plateforme GRC integree
 
 
+
+## Prompts types
+
+- "Aide-moi à construire une cartographie des risques pour mon entreprise"
+- "Comment mettre en place un plan de continuité d'activité (PCA) ?"
+- "Propose un framework de gestion de crise opérationnel"
+- "Quels contrôles internes mettre en place pour la conformité Sapin II ?"
+- "Comment évaluer l'appétit au risque de notre organisation ?"
+- "Aide-moi à concevoir un risk register pour notre projet"
+
 ## Skills connexes
 
 | Skill | Lien |

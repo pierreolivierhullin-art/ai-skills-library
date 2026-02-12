@@ -186,6 +186,15 @@ START
 6. Implement long-term holdouts and causal inference for measuring cumulative experiment impact.
 
 
+## Prompts types
+
+- "Aide-moi à créer un tracking plan pour mon application"
+- "Comment mettre en place des tests A/B avec PostHog ?"
+- "Propose des métriques AARRR adaptées à notre produit"
+- "Comment analyser la rétention de nos utilisateurs par cohorte ?"
+- "Aide-moi à implémenter un event tracking conforme au RGPD"
+- "Quels outils choisir entre Amplitude, Mixpanel et PostHog ?"
+
 ## Skills connexes
 
 | Skill | Lien |

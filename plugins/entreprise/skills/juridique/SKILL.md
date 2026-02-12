@@ -188,6 +188,16 @@ Adapter le niveau de diligence juridique a l'enjeu reel. Ne pas appliquer le mem
 20. Positionner la direction juridique comme contributeur a la strategie d'entreprise (M&A, expansion internationale, innovation).
 
 
+
+## Prompts types
+
+- "Aide-moi à rédiger les CGV pour notre plateforme SaaS"
+- "Quels points vérifier dans un contrat fournisseur avant signature ?"
+- "Comment mettre en conformité notre entreprise avec le RGPD ?"
+- "Propose un NDA standard pour nos partenariats"
+- "Quels risques juridiques anticiper pour un lancement international ?"
+- "Aide-moi à structurer un programme de compliance"
+
 ## Skills connexes
 
 | Skill | Lien |

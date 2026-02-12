@@ -134,6 +134,15 @@ Follow this workflow when designing or improving a DevOps setup:
 ---
 
 
+## Prompts types
+
+- "Comment mettre en place un pipeline CI/CD avec GitHub Actions ?"
+- "Aide-moi à containeriser mon application avec Docker"
+- "Propose une stratégie de déploiement blue-green pour notre API"
+- "Comment gérer les feature flags en production ?"
+- "Terraform vs Pulumi : lequel choisir pour notre infra ?"
+- "Aide-moi à configurer un environnement de staging automatisé"
+
 ## Skills connexes
 
 | Skill | Lien |

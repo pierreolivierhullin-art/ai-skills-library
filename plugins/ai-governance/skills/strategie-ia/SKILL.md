@@ -219,6 +219,15 @@ Calculer le ROI IA en integrant :
 24. Evoluer vers un modele d'organisation federe mature.
 25. Etablir un programme d'innovation IA continue (veille, experimentation, partenariats).
 
+## Prompts types
+
+- "Comment construire une feuille de route IA pour mon entreprise ?"
+- "Aide-moi à évaluer la maturité IA de notre organisation"
+- "Build vs buy : comment choisir pour notre cas d'usage IA ?"
+- "Propose un framework de priorisation de use cases IA"
+- "Comment créer un centre d'excellence IA ?"
+- "Aide-moi à construire un business case pour un projet IA"
+
 ## Skills connexes
 
 | Skill | Lien |

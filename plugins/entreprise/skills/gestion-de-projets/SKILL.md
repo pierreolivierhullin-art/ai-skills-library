@@ -193,6 +193,16 @@ Choisir le framework de priorisation adapte au contexte :
 25. Ancrer la culture d'amelioration continue (kaizen, retrospectives, communities of practice).
 
 
+
+## Prompts types
+
+- "Comment mettre en place Scrum dans une équipe de 8 personnes ?"
+- "Aide-moi à prioriser mon backlog avec la méthode MoSCoW"
+- "Propose un plan de conduite du changement pour notre transformation digitale"
+- "Comment estimer la charge de travail d'un projet complexe ?"
+- "Crée un template de rétrospective sprint efficace"
+- "Quelle gouvernance projet mettre en place pour un programme multi-équipes ?"
+
 ## Skills connexes
 
 | Skill | Lien |

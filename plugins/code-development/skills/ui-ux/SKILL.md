@@ -183,6 +183,15 @@ Suivre cette hierarchie de conformite :
 25. Planifier des revues trimestrielles pour evoluer le systeme (deprecation, nouveaux patterns).
 
 
+## Prompts types
+
+- "Comment construire un design system avec Tailwind et shadcn/ui ?"
+- "Aide-moi à améliorer l'accessibilité WCAG de mon application"
+- "Propose une architecture de composants pour mon app React"
+- "Comment optimiser les Core Web Vitals de mon site ?"
+- "Aide-moi à concevoir un flow d'onboarding utilisateur efficace"
+- "Quelle stratégie CSS adopter pour un projet à grande échelle ?"
+
 ## Skills connexes
 
 | Skill | Lien |

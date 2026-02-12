@@ -215,6 +215,15 @@ Evaluer la tolerance au risque reelle (et non declaree) selon trois dimensions :
 17. Mettre en place des nudges personnels (automatisation du rebalancement, DCA automatique).
 18. Revue trimestrielle complete du systeme comportemental avec calibration des probabilites.
 
+## Prompts types
+
+- "Quels biais cognitifs affectent mes décisions de trading ?"
+- "Aide-moi à mettre en place un journal de trading structuré"
+- "Comment éviter le FOMO dans mes investissements ?"
+- "Propose un framework de décision pour éviter les biais émotionnels"
+- "Comment reconnaître l'effet de disposition dans mon comportement ?"
+- "Aide-moi à développer une discipline de trading systématique"
+
 ## Skills connexes
 
 | Skill | Lien |

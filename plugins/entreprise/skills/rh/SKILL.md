@@ -175,6 +175,16 @@ feedback continu (via outil type Lattice/Culture Amp) et calibration semestriell
 20. Iterer sur l'ensemble des processus via les retours collaborateurs et les donnees.
 
 
+
+## Prompts types
+
+- "Aide-moi à construire une grille de rémunération équitable"
+- "Comment structurer un processus d'onboarding efficace ?"
+- "Propose un plan d'action pour améliorer l'engagement collaborateur"
+- "Quels KPIs RH suivre pour piloter la rétention des talents ?"
+- "Comment mettre en place un entretien annuel constructif ?"
+- "Aide-moi à rédiger une fiche de poste pour un Product Manager"
+
 ## Skills connexes
 
 | Skill | Lien |

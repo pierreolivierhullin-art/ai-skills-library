@@ -202,6 +202,16 @@ Maintenir un referentiel financier unique et reconcilie. Interdire les "shadow s
 17. Mettre en place la revue trimestrielle des risques financiers (change, taux, liquidite, credit).
 
 
+
+## Prompts types
+
+- "Construis un modèle financier pour ma startup sur 3 ans"
+- "Comment calculer et optimiser notre unit economics (LTV/CAC) ?"
+- "Aide-moi à préparer un budget prévisionnel annuel"
+- "Quels KPIs financiers suivre pour un SaaS en croissance ?"
+- "Comment structurer un pitch deck financier pour une levée de fonds ?"
+- "Analyse mon P&L et identifie les leviers d'optimisation"
+
 ## Skills connexes
 
 | Skill | Lien |

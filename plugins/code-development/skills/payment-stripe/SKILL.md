@@ -210,6 +210,15 @@ Mix fixe + variable ?
 6. Reconcilier les flux financiers avec le systeme comptable (ERP sync, journal entries)
 
 
+## Prompts types
+
+- "Comment intégrer Stripe Checkout dans mon app Next.js ?"
+- "Aide-moi à implémenter un système d'abonnement avec Stripe"
+- "Comment gérer les webhooks Stripe de manière robuste ?"
+- "Propose une architecture pour un marketplace avec Stripe Connect"
+- "Comment implémenter le metered billing pour un usage-based pricing ?"
+- "Aide-moi à gérer les cas d'échec de paiement et les relances"
+
 ## Skills connexes
 
 | Skill | Lien |

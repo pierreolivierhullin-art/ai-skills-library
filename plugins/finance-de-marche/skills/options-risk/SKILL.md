@@ -178,6 +178,15 @@ Appliquer le screening GARP en 6 étapes pour identifier les sous-jacents de qua
 3. Analyser les trades perdants pour identifier les patterns récurrents.
 4. Recalibrer les paramètres de sizing et de management en fonction des résultats.
 
+## Prompts types
+
+- "Analyse cette chaîne d'options et propose une stratégie"
+- "Comment construire un iron condor sur le SPY ?"
+- "Aide-moi à calculer les Greeks de ma position"
+- "Quelle stratégie d'options pour un marché latéral ?"
+- "Comment gérer le risque d'une position short put ?"
+- "Explique-moi l'impact du theta decay sur mes positions"
+
 ## Skills connexes
 
 | Skill | Lien |

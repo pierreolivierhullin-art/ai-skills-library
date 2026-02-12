@@ -175,6 +175,16 @@ Automatiser les taches repetitives et a faible valeur ajoutee (provisioning, pat
 ---
 
 
+
+## Prompts types
+
+- "Comment définir une stratégie cloud pour notre entreprise ?"
+- "Aide-moi à évaluer un ERP pour notre PME"
+- "Propose un plan de gouvernance IT basé sur ITIL"
+- "Comment gérer le shadow IT dans l'organisation ?"
+- "Quels critères pour choisir entre cloud public, privé ou hybride ?"
+- "Aide-moi à rédiger un PCA/PRA pour notre SI"
+
 ## Skills connexes
 
 | Skill | Lien |

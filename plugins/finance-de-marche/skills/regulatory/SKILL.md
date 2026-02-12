@@ -216,6 +216,15 @@ US taxpayer ?
 4. Maintenir une veille reglementaire active et un processus de change management
 5. Documenter les lessons learned de chaque controle regulateur ou incident de conformite
 
+## Prompts types
+
+- "Quelles sont mes obligations fiscales sur les plus-values de trading ?"
+- "Comment déclarer mes revenus d'options en France ?"
+- "Aide-moi à comprendre les règles du pattern day trader"
+- "Quelles obligations MiFID II pour un investisseur particulier ?"
+- "Comment éviter la wash sale rule dans mon portfolio ?"
+- "Quels sont les seuils de déclaration AMF pour les positions ?"
+
 ## Skills connexes
 
 | Skill | Lien |

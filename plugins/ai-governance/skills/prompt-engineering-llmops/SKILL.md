@@ -152,6 +152,16 @@ Follow this workflow when building an LLM-powered application:
 
 ---
 
+## Prompts types
+
+- "Comment concevoir un système RAG performant ?"
+- "Aide-moi à optimiser mon prompt pour réduire les hallucinations"
+- "Propose une architecture d'agents IA avec function calling"
+- "Comment évaluer la qualité des réponses de mon LLM ?"
+- "Aide-moi à choisir entre fine-tuning et few-shot prompting"
+- "Comment mettre en place des guardrails pour notre chatbot ?"
+- "Quelle stratégie de chunking pour mon pipeline RAG ?"
+
 ## Skills connexes
 
 | Skill | Lien |

@@ -155,6 +155,16 @@ Investir dans la formation et l'outillage continus des equipes commerciales. Les
 20. Deployer une stack RevOps complete et automatiser les workflows repetitifs.
 
 
+
+## Prompts types
+
+- "Aide-moi à structurer un processus de vente B2B en 5 étapes"
+- "Comment qualifier mes leads avec la méthode MEDDIC ?"
+- "Propose un script de cold calling pour notre solution"
+- "Comment améliorer notre taux de closing ?"
+- "Aide-moi à construire un forecast de ventes fiable"
+- "Quelles techniques pour gérer les objections prix ?"
+
 ## Skills connexes
 
 | Skill | Lien |

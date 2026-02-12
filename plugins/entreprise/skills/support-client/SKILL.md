@@ -179,6 +179,16 @@ Construire un health score composite (0-100) a partir de signaux ponderes :
 20. Mesurer le Net Revenue Retention et aligner les objectifs CS sur la croissance.
 
 
+
+## Prompts types
+
+- "Comment structurer un service client multicanal efficace ?"
+- "Aide-moi à construire une knowledge base pour réduire les tickets"
+- "Propose un plan d'action pour améliorer notre NPS"
+- "Comment mettre en place un programme de customer success ?"
+- "Quels SLA définir pour notre support client B2B ?"
+- "Aide-moi à calculer le customer health score de nos comptes"
+
 ## Skills connexes
 
 | Skill | Lien |

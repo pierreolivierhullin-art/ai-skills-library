@@ -159,6 +159,15 @@ Utiliser l'Event Storming comme technique de découverte collaborative pour iden
 20. Maintenir les ADR à jour et documenter les évolutions.
 
 
+## Prompts types
+
+- "Comment migrer un monolithe vers une architecture microservices ?"
+- "Propose une architecture pour une app Next.js à forte charge"
+- "CQRS vs architecture classique : quand utiliser quoi ?"
+- "Aide-moi à concevoir un système event-driven avec Kafka"
+- "Comment structurer une API REST scalable ?"
+- "Fais une revue d'architecture de mon projet et identifie les risques"
+
 ## Skills connexes
 
 | Skill | Lien |

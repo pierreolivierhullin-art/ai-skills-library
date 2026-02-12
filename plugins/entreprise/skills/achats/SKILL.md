@@ -191,6 +191,16 @@ Niveau 5 — Ecosystemique : orchestration de l'ecosysteme fournisseur, IA predi
 25. Reviser annuellement les strategies categories et les plans d'action.
 
 
+
+## Prompts types
+
+- "Comment structurer une stratégie achats par catégories ?"
+- "Aide-moi à évaluer et scorer mes fournisseurs clés"
+- "Propose un processus d'appel d'offres efficace"
+- "Comment calculer le TCO d'une solution logicielle ?"
+- "Quels leviers pour négocier de meilleures conditions fournisseurs ?"
+- "Aide-moi à mettre en place des achats responsables"
+
 ## Skills connexes
 
 | Skill | Lien |

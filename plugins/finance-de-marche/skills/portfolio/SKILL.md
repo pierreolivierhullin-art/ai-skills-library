@@ -180,6 +180,15 @@ Le modele a 3 facteurs (1993) ajoute size (SMB) et value (HML) au facteur marche
 16. Realiser un stress test trimestriel (scenarios historiques : 2008, 2020, 2022 ; scenarios hypothetiques : hausse de taux +300bps, recession, choc geopolitique).
 17. Reviser l'IPS annuellement ou lors de changements de situation (mariage, retraite, heritage).
 
+## Prompts types
+
+- "Comment construire un portefeuille diversifié avec des ETF ?"
+- "Aide-moi à rééquilibrer mon allocation d'actifs"
+- "Calcule le ratio de Sharpe de mon portefeuille"
+- "Propose une allocation factorielle pour un profil modéré"
+- "Comment mettre en place le tax-loss harvesting ?"
+- "Analyse la corrélation entre mes positions et propose des améliorations"
+
 ## Skills connexes
 
 | Skill | Lien |

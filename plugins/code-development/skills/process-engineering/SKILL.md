@@ -154,6 +154,15 @@ Follow this workflow when designing or improving engineering processes:
 ---
 
 
+## Prompts types
+
+- "Comment améliorer les métriques DORA de notre équipe ?"
+- "Aide-moi à mettre en place un processus de PR review efficace"
+- "Propose une convention de branching pour notre monorepo"
+- "Comment estimer les story points de manière fiable ?"
+- "Aide-moi à rédiger un RFC/design doc pour une nouvelle feature"
+- "Quels standards de code adopter pour notre équipe TypeScript ?"
+
 ## Skills connexes
 
 | Skill | Lien |

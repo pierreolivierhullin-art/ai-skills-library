@@ -150,6 +150,16 @@ Evaluer chaque initiative strategique selon sa capacite a creer de la valeur dur
 20. Ajuster la strategie et reallouer les ressources en fonction des resultats et de l'evolution de l'environnement.
 
 
+
+## Prompts types
+
+- "Aide-moi à structurer un plan stratégique à 3 ans pour ma startup SaaS"
+- "Fais une analyse SWOT de mon positionnement marché"
+- "Comment définir des OKR alignés avec notre vision d'entreprise ?"
+- "Évalue ce business model canvas et identifie les faiblesses"
+- "Quels frameworks utiliser pour une due diligence M&A ?"
+- "Comment pivoter notre stratégie face à un changement de marché ?"
+
 ## Skills connexes
 
 | Skill | Lien |

@@ -179,6 +179,15 @@ Appliquer le processus en 6 etapes de Cole Nussbaumer Knaflic :
 20. Etendre le programme aux nouvelles equipes, filiales et partenaires.
 
 
+## Prompts types
+
+- "Comment choisir le bon type de graphique pour mes données ?"
+- "Aide-moi à structurer une présentation data storytelling"
+- "Propose un programme de formation data literacy pour nos équipes"
+- "Comment éviter les erreurs statistiques courantes dans nos analyses ?"
+- "Aide-moi à concevoir un dashboard lisible et actionnable"
+- "Quelles bonnes pratiques pour démocratiser l'accès aux données ?"
+
 ## Skills connexes
 
 | Skill | Lien |

@@ -212,6 +212,16 @@ Le framework AARRR structure le funnel de croissance en 5 etapes :
 20. Documenter et partager les learnings, maintenir un playbook marketing vivant.
 
 
+
+## Prompts types
+
+- "Construis un plan marketing digital pour le lancement de notre produit"
+- "Comment structurer un funnel d'acquisition B2B efficace ?"
+- "Aide-moi à définir nos buyer personas et le parcours client"
+- "Quelle stratégie de pricing adopter pour un SaaS freemium ?"
+- "Propose un plan de content marketing pour générer des leads"
+- "Comment mesurer le ROI de nos campagnes marketing ?"
+
 ## Skills connexes
 
 | Skill | Lien |

@@ -174,6 +174,15 @@ START
 6. Practice chaos engineering with observability validation (GameDays).
 
 
+## Prompts types
+
+- "Comment mettre en place une stack d'observabilité complète ?"
+- "Aide-moi à définir des SLOs pertinents pour notre API"
+- "Propose une stratégie d'alerting qui évite l'alert fatigue"
+- "Comment implémenter le distributed tracing avec OpenTelemetry ?"
+- "Aide-moi à structurer nos logs pour faciliter le debugging"
+- "Comment rédiger un bon postmortem après un incident ?"
+
 ## Skills connexes
 
 | Skill | Lien |
