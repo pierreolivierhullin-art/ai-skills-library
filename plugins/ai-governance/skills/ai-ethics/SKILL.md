@@ -159,6 +159,38 @@ Appliquer les 7 exigences du High-Level Expert Group (HLEG) de la Commission eur
 19. Planifier des audits periodiques independants (trimestriels pour les systemes a haut risque).
 20. Maintenir un registre des incidents ethiques et des actions correctives.
 
+## Modèle de maturité
+
+### Niveau 1 — Réactif
+- Pas de politique éthique IA formalisée dans l'organisation
+- Biais détectés en production par les utilisateurs finaux (et non en amont)
+- Aucune évaluation d'impact algorithmique avant déploiement
+- **Indicateurs** : 0% de modèles audités, délai de détection des biais > 30 jours
+
+### Niveau 2 — Sensibilisé
+- Charte éthique IA existante et diffusée aux équipes techniques
+- Audits de biais ponctuels sur les modèles à haut risque
+- Model cards basiques rédigées pour les modèles principaux
+- **Indicateurs** : < 30% des modèles avec audit de fairness, formation initiale déployée
+
+### Niveau 3 — Intégré
+- Fairness metrics intégrées dans le pipeline ML (Fairlearn, AIF360)
+- Impact assessments systématiques avant chaque déploiement de modèle
+- Comité éthique IA opérationnel et explainability (SHAP/LIME) en production
+- **Indicateurs** : couverture d'évaluation d'impact > 80%, score de transparence documenté
+
+### Niveau 4 — Proactif
+- Tests de biais automatisés dans la CI/CD pour chaque itération de modèle
+- Monitoring continu des métriques d'équité en production avec alertes
+- Red teaming éthique régulier et public model cards pour la transparence
+- **Indicateurs** : délai de détection des biais < 24h, 100% des modèles à haut risque audités
+
+### Niveau 5 — Exemplaire
+- IA de confiance certifiée conforme à l'EU AI Act et standards internationaux
+- Contribution active aux standards du secteur et recherche en fairness
+- Feedback boucle structuré avec les populations affectées par les systèmes IA
+- **Indicateurs** : score de transparence > 90%, certification externe obtenue
+
 ## State of the Art (2025-2026)
 
 L'éthique de l'IA se réglemente et s'outille :

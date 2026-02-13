@@ -153,6 +153,38 @@ Follow this workflow when building an LLM-powered application:
 
 ---
 
+## Modèle de maturité
+
+### Niveau 1 — Exploratoire
+- Prompts ad-hoc sans versioning ni structure réutilisable
+- Pas d'évaluation systématique des sorties LLM
+- Utilisation naïve des modèles sans guardrails ni filtrage
+- **Indicateurs** : taux d'hallucination non mesuré, 0% de couverture d'évaluation
+
+### Niveau 2 — Structuré
+- Templates de prompts réutilisables avec séparation system/user prompt
+- Évaluation manuelle sur des cas de test représentatifs
+- RAG basique opérationnel (chunking fixe, embedding standard)
+- **Indicateurs** : taux d'hallucination mesuré manuellement, logs d'usage centralisés
+
+### Niveau 3 — Industrialisé
+- Prompt versioning en contrôle de source avec historique de performance
+- Évaluation automatisée en CI/CD (RAGAS, DeepEval, golden datasets)
+- RAG avancé en production (re-ranking, hybrid search, guardrails actifs)
+- **Indicateurs** : couverture d'évaluation > 80%, taux d'hallucination < 5%
+
+### Niveau 4 — Optimisé
+- Orchestration multi-modèles avec routing intelligent par complexité
+- Évaluation continue en production (LLM-as-Judge, A/B testing de prompts)
+- Observabilité complète (LangSmith/Langfuse, coût par tâche, latence P95)
+- **Indicateurs** : cycle d'itération prompt < 1 jour, coût par tâche optimisé et suivi
+
+### Niveau 5 — Autonome
+- Agents autonomes avec tool use et orchestration multi-agents
+- Self-improving prompts par feedback loops et évaluation automatique
+- Fine-tuning automatisé et coûts optimisés par caching et distillation
+- **Indicateurs** : couverture d'évaluation > 95%, coût réduit de 50%+ par distillation
+
 ## State of the Art (2025-2026)
 
 L'ingénierie de prompts et les LLMOps se professionnalisent :

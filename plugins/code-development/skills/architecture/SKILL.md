@@ -161,6 +161,38 @@ Utiliser l'Event Storming comme technique de découverte collaborative pour iden
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Émergent
+- Pas de documentation architecturale, décisions prises ad-hoc sans traçabilité
+- Monolithe non structuré avec couplage fort entre composants
+- Dépendances non gérées, ajout de librairies sans évaluation d'impact
+- **Indicateurs** : deployment independence 0%, mean time to onboard > 3 mois
+
+### Niveau 2 — Fondamental
+- ADR ponctuels pour les décisions majeures, revues d'architecture occasionnelles
+- Séparation en couches basique (présentation/logique/données), quelques patterns identifiés
+- Dépendances partiellement gérées, début de découplage entre modules
+- **Indicateurs** : architecture debt ratio > 30%, coupling metrics non mesurés
+
+### Niveau 3 — Structuré
+- ADR systématiques versionnés, monolithe modulaire ou premiers microservices
+- Fitness functions définies pour valider les propriétés architecturales critiques
+- API contracts formalisés (OpenAPI/AsyncAPI), dependency management rigoureux
+- **Indicateurs** : deployment independence > 50%, mean time to onboard < 4 semaines
+
+### Niveau 4 — Évolutif
+- Architecture event-driven avec bounded contexts DDD clairement délimités
+- Cell-based architecture permettant scaling et déploiement indépendants
+- Évolution incrémentale maîtrisée, migrations sans big-bang via strangler fig pattern
+- **Indicateurs** : architecture debt ratio < 10%, deployment independence > 80%
+
+### Niveau 5 — Adaptatif
+- Architecture self-healing avec reconfiguration automatique sur incident
+- Fitness functions automatisées dans la CI, architecture as code (Structurizr/C4)
+- Évolution continue sans interruption, composants remplaçables à chaud
+- **Indicateurs** : coupling metrics stable ou en baisse, mean time to onboard < 1 semaine
+
 ## State of the Art (2025-2026)
 
 L'architecture logicielle évolue vers plus de modularité et d'intelligence :

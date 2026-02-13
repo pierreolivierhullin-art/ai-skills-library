@@ -139,6 +139,38 @@ Follow this workflow when designing or improving a data platform:
 ---
 
 
+## Modèle de maturité
+
+### Niveau 1 — Manuel
+- Scripts SQL/Python ad-hoc lancés manuellement, pas d'orchestration
+- Données en silos sans catalogue ni documentation, logique métier éparpillée
+- Pas de tests ni de validation, qualité des données inconnue
+- **Indicateurs** : pipeline reliability < 50%, time-to-insight > 1 semaine
+
+### Niveau 2 — Structuré
+- ETL basique avec scheduling (cron/Airflow simple), pipelines identifiés
+- Quelques tests de données en place, documentation partielle des sources
+- Warehouse centralisé mais transformations peu organisées
+- **Indicateurs** : pipeline reliability 60-80%, data freshness SLA compliance < 70%
+
+### Niveau 3 — Industrialisé
+- ELT moderne (dbt + warehouse cloud), medallion architecture (bronze/silver/gold)
+- Data contracts entre producteurs et consommateurs, tests automatisés systématiques
+- CI/CD data en place, environnements de développement isolés
+- **Indicateurs** : pipeline reliability > 95%, cost per TB processed suivi et optimisé
+
+### Niveau 4 — Optimisé
+- Observabilité data complète : SLAs, freshness monitoring, lineage bout-en-bout
+- Streaming intégré (Kafka/Flink) pour les cas d'usage temps réel, DataOps mature
+- Coûts optimisés par workload (auto-scaling, partitionnement, lifecycle policies)
+- **Indicateurs** : data freshness SLA compliance > 99%, time-to-insight < 4 heures
+
+### Niveau 5 — Self-service
+- Data mesh opérationnel avec data products autonomes et interopérables
+- Gouvernance fédérée : chaque domaine propriétaire de ses données et SLAs
+- Provisionnement automatique de pipelines, schéma discovery, accès self-service
+- **Indicateurs** : pipeline reliability > 99.5%, time-to-insight < 30 minutes
+
 ## State of the Art (2025-2026)
 
 L'ingénierie de données évolue vers la simplification et le temps réel :

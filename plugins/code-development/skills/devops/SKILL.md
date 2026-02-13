@@ -136,6 +136,38 @@ Follow this workflow when designing or improving a DevOps setup:
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Ad-hoc
+- Déploiements manuels via SSH ou copie de fichiers, sans procédure standardisée
+- Pas de CI : tests lancés localement, scripts individuels non versionnés
+- Rollbacks paniqués en production, pas de stratégie de retour arrière
+- **Indicateurs** : deployment frequency < 1/mois, MTTR > 1 semaine
+
+### Niveau 2 — Reproductible
+- CI basique en place (lint + tests unitaires + build automatisé)
+- Infrastructure partiellement versionnée, environnements documentés
+- Déploiements suivant un runbook documenté, reproductibles mais manuels
+- **Indicateurs** : deployment frequency 1-2/mois, lead time for changes 1-2 semaines
+
+### Niveau 3 — Standardisé
+- CI/CD complet avec déploiements automatisés en staging et production
+- IaC systématique (Terraform/Pulumi), environnements éphémères disponibles
+- Métriques DORA suivies et revues régulièrement par l'équipe
+- **Indicateurs** : deployment frequency 1-2/semaine, change failure rate < 15%
+
+### Niveau 4 — Optimisé
+- Déploiements canary/blue-green avec rollback automatique sur anomalie
+- GitOps avec réconciliation automatique (ArgoCD/Flux), Internal Developer Platform
+- DORA au niveau élite, feature flags pour découplage deploy/release
+- **Indicateurs** : deployment frequency quotidienne, lead time < 1 jour, change failure rate < 5%
+
+### Niveau 5 — Autonome
+- Optimisation IA des pipelines (parallélisation, cache, sélection de tests)
+- Auto-remédiation sur incidents courants, chaos engineering continu en production
+- Developer experience mesurée (DX surveys, cognitive load, time-to-productivity)
+- **Indicateurs** : deployment frequency on-demand (multiple/jour), MTTR < 1 heure
+
 ## State of the Art (2025-2026)
 
 Le DevOps évolue vers le platform engineering et l'IA :
