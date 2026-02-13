@@ -1,7 +1,7 @@
 ---
 name: it-systemes
 description: This skill should be used when the user asks about "IT governance", "ITIL framework", "cloud strategy", "ERP implementation", "cybersecurity governance", "gouvernance IT", "gouvernance informatique", "stratégie cloud", "migration cloud", "implémentation ERP", "SAP", "Salesforce", "IT service management", "ITSM", "COBIT", "infrastructure informatique", "IT infrastructure", "vendor management", "gestion des fournisseurs IT", "digital workplace", "environnement de travail numérique", "shadow IT", "IT asset management", "CMDB", "incident management", "gestion des incidents", "disaster recovery", "PRA", "PCA", "SLA", "helpdesk", "ticketing", "TOGAF", "architecture d'entreprise", discusses IT service management, COBIT, or needs guidance on IT infrastructure, vendor management, or digital workplace.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

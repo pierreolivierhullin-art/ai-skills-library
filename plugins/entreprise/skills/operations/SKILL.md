@@ -1,7 +1,7 @@
 ---
 name: operations
 description: This skill should be used when the user asks about "operational excellence", "supply chain management", "lean management", "Six Sigma", "quality management", "excellence opérationnelle", "gestion de la chaîne logistique", "supply chain", "logistique", "gestion des stocks", "inventory management", "process optimization", "optimisation des processus", "SLA management", "continuous improvement", "amélioration continue", "Kaizen", "5S", "value stream mapping", "VSM", "DMAIC", "TQM", "total quality management", "ISO 9001", "KPI opérationnels", "OEE", "taux de service", "lead time", "délai de livraison", "warehouse management", "WMS", "S&OP", "demand planning", discusses process optimization, SLA management, or needs guidance on logistics, inventory, or continuous improvement.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

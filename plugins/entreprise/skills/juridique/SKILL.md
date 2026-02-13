@@ -1,7 +1,7 @@
 ---
 name: juridique
 description: This skill should be used when the user asks about "contract law", "intellectual property", "GDPR compliance", "corporate legal", "legal operations", "droit des contrats", "propriété intellectuelle", "conformité RGPD", "RGPD", "protection des données", "data privacy", "droit du travail", "French labor law", "droit des sociétés", "corporate law", "contract negotiation", "négociation contractuelle", "NDA", "CGV", "CGU", "terms of service", "SLA juridique", "contentieux", "litigation", "IP protection", "brevets", "patents", "marques", "trademarks", "compliance", "conformité", "legal tech", "CLM", "contract lifecycle management", "clause pénale", "responsabilité civile", discusses contract negotiation, data protection, or needs guidance on French labor law, IP protection, or compliance programs.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

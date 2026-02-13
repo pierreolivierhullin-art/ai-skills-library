@@ -1,7 +1,7 @@
 ---
 name: data-literacy
 description: This skill should be used when the user asks about "data visualization", "data storytelling", "dashboard design", "statistical thinking", "data culture", "data democratization", "chart selection", "data presentation", "data literacy", "visualisation de données", "narration par les données", "conception de tableaux de bord", "pensée statistique", "culture data", "culture des données", "démocratisation des données", "choix de graphiques", "présentation de données", "littératie des données", "data-driven culture", "culture data-driven", "bar chart vs line chart", "scatter plot", "box plot", "histogram", "heat map", "choropleth", "infographie", "infographic", "D3.js", "Observable", "Matplotlib", "Plotly", "Apache Superset", "cognitive load", "chart junk", "Tufte", "data ink ratio", "misleading charts", or needs guidance on communicating data insights, building visualizations, and fostering data-driven culture.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

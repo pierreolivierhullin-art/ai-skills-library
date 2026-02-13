@@ -1,7 +1,7 @@
 ---
 name: data-engineering
 description: This skill should be used when the user asks about "data pipeline", "ETL", "ELT", "dbt", "data warehouse", "data lake", "data lakehouse", "Airflow", "Dagster", "streaming", "Kafka", "data orchestration", "Snowflake", "BigQuery", "data transformation", "data infrastructure", "pipeline de données", "entrepôt de données", "lac de données", "orchestration de données", "transformation de données", "infrastructure de données", "ingestion de données", "data ingestion", "batch processing", "traitement par lots", "stream processing", "traitement en temps réel", "real-time data", "données temps réel", "Apache Spark", "Flink", "Fivetran", "Airbyte", "Stitch", "CDC", "change data capture", "data partitioning", "data compaction", "Iceberg", "Delta Lake", "Parquet", "Avro", "schema evolution", "idempotency", "backfill", "data freshness", or needs guidance on data engineering, pipeline architecture, and data platform design.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: decision-reporting-governance
 description: This skill should be used when the user asks about "business intelligence", "BI dashboards", "data governance", "data quality", "data modeling", "KPI frameworks", "data catalog", "master data management", "data lineage", "Power BI", "Tableau", "Looker", "Metabase", "data contracts", "intelligence d'affaires", "tableaux de bord BI", "gouvernance des données", "qualité des données", "modélisation des données", "cadres KPI", "catalogue de données", "gestion des données de référence", "MDM", "lignage des données", "traçabilité des données", "data mesh", "data fabric", "data steward", "data owner", "DAMA", "DMBOK", "dimensional modeling", "star schema", "modèle en étoile", "data dictionary", "dictionnaire de données", "reporting automatisé", "automated reporting", "self-service BI", "BI en libre-service", "data observability", "semantic layer", "couche sémantique", or needs guidance on BI reporting, data governance, and data quality management.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

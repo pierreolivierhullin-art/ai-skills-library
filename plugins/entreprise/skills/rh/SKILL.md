@@ -1,7 +1,7 @@
 ---
 name: rh
 description: This skill should be used when the user asks about "HR strategy", "talent acquisition", "employee engagement", "compensation benchmarking", "people analytics", "DEI programs", "stratégie RH", "ressources humaines", "recrutement", "marque employeur", "employer branding", "onboarding", "intégration", "formation", "training", "L&D", "learning and development", "performance management", "gestion de la performance", "entretien annuel", "grille salariale", "rémunération", "avantages sociaux", "benefits", "workforce planning", "GPEC", "GEPP", "droit du travail", "French labor law", "SIRH", "HRIS", "turnover", "rétention", "engagement collaborateur", "QVT", "qualité de vie au travail", "CSE", "diversité inclusion", discusses performance management, workforce planning, or needs guidance on French labor law, SIRH, or organizational development.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

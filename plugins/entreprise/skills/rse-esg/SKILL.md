@@ -1,7 +1,7 @@
 ---
 name: rse-esg
 description: This skill should be used when the user asks about "ESG strategy", "CSR reporting", "carbon footprint", "CSRD compliance", "sustainability strategy", "stratégie ESG", "reporting RSE", "RSE", "responsabilité sociétale", "empreinte carbone", "bilan carbone", "GHG accounting", "scope 1 2 3", "CSRD", "taxonomie européenne", "EU taxonomy", "climate targets", "objectifs climatiques", "SBTi", "Science Based Targets", "circular economy", "économie circulaire", "biodiversité", "biodiversity", "ESG ratings", "notation ESG", "responsible procurement", "achats responsables", "DPEF", "déclaration de performance extra-financière", "green bonds", "obligations vertes", "matérialité", "materiality assessment", "parties prenantes", "stakeholder engagement", discusses climate targets, circular economy, or needs guidance on ESG ratings, GHG accounting, or responsible procurement.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

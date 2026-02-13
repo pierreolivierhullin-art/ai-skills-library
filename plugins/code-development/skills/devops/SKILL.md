@@ -1,7 +1,7 @@
 ---
 name: devops
 description: This skill should be used when the user asks about "CI/CD", "continuous integration", "continuous deployment", "Docker", "Kubernetes", "Infrastructure as Code", "Terraform", "Pulumi", "feature flags", "GitOps", "GitHub Actions", "deployment strategy", "blue-green", "canary", "release management", "intégration continue", "déploiement continu", "infrastructure as code", "IaC", "stratégie de déploiement", "gestion des releases", "containerization", "conteneurisation", "Docker Compose", "Helm", "ArgoCD", "Flux", "Jenkins", "CircleCI", "GitLab CI", "Vercel", "Netlify", "AWS", "GCP", "Azure", "serverless", "rolling update", "rollback", "secrets management", "environment management", "staging", "production", "immutable infrastructure", "12-factor app", or needs guidance on DevOps practices, pipeline design, and release engineering.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: communication
 description: This skill should be used when the user asks about "corporate communications", "press relations", "crisis communication", "internal communications", "public affairs", "communication d'entreprise", "relations presse", "communication de crise", "communication interne", "affaires publiques", "media strategy", "stratégie média", "reputation management", "e-réputation", "gestion de réputation", "PR", "relations publiques", "lobbying", "influence", "employee engagement communications", "communication managériale", "communiqué de presse", "press release", "media training", "personal branding", "thought leadership", "social media corporate", "brand journalism", "storytelling", "communication événementielle", "event communication", discusses media strategy, reputation management, or needs guidance on PR, lobbying, or employee engagement communications.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

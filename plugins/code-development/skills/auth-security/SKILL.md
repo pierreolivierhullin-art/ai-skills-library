@@ -1,7 +1,7 @@
 ---
 name: auth-security
 description: This skill should be used when the user asks about "authentication", "authorization", "OAuth 2.0", "OpenID Connect", "JWT", "OWASP", "application security", "RBAC", "ABAC", "secrets management", "encryption", "zero trust", "passkeys", "WebAuthn", "authentification", "autorisation", "sécurité applicative", "gestion des secrets", "chiffrement", "OIDC", "SSO", "single sign-on", "MFA", "2FA", "multi-factor authentication", "session management", "gestion des sessions", "CORS", "CSRF", "XSS", "SQL injection", "security headers", "certificate management", "TLS", "SSL", "API security", "sécurité API", "token management", "refresh token", "identity provider", "IdP", "Keycloak", "Auth0", "Clerk", "NextAuth", or needs guidance on application security, identity management, and access control.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

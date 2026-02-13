@@ -1,7 +1,7 @@
 ---
 name: ai-risk
 description: This skill should be used when the user asks about "AI risk", "hallucination", "model drift", "adversarial attacks", "AI safety", "red teaming AI", "prompt injection", "data poisoning", "model collapse", "AI alignment", "AI kill switch", "risque IA", "hallucination IA", "dérive de modèle", "attaques adversariales", "sécurité IA", "red team IA", "injection de prompt", "empoisonnement de données", "effondrement de modèle", "alignement IA", "arrêt d'urgence IA", "AI incident", "incident IA", "AI failure mode", "mode de défaillance IA", "jailbreak", "data leakage", "fuite de données", "model robustness", "robustesse du modèle", "AI monitoring", "surveillance IA", "model validation", "validation de modèle", "AI compliance", "conformité IA", "shadow AI", "AI supply chain risk", or needs guidance on AI-specific risk assessment, mitigation, and safety engineering.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

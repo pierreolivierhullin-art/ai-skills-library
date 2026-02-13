@@ -1,7 +1,7 @@
 ---
 name: strategie
 description: This skill should be used when the user asks about "corporate strategy", "strategic planning", "business model design", "M&A due diligence", "OKR implementation", "planification stratégique", "stratégie d'entreprise", "modèle économique", "business model canvas", "vision long terme", "avantage concurrentiel", "competitive advantage", "SWOT analysis", "Porter's five forces", "value proposition", "pivot stratégique", "croissance organique", "fusion acquisition", "gouvernance", "board strategy", "plan stratégique", "strategic roadmap", discusses governance frameworks, or needs guidance on executive decision-making and long-term vision.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

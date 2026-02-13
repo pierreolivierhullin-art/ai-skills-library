@@ -1,7 +1,7 @@
 ---
 name: achats
 description: This skill should be used when the user asks about "procurement strategy", "supplier management", "strategic sourcing", "contract management", "spend analysis", "stratégie achats", "gestion des fournisseurs", "sourcing stratégique", "gestion des contrats", "analyse des dépenses", "e-procurement", "appels d'offres", "RFP", "RFQ", "supplier risk", "risque fournisseur", "category management", "gestion par catégories", "P2P", "procure-to-pay", "purchase-to-pay", "sustainable procurement", "achats responsables", "achats durables", "négociation fournisseur", "TCO", "total cost of ownership", "coût total de possession", "panel fournisseurs", "SRM", "supplier relationship management", discusses e-procurement, supplier risk, or needs guidance on category management, P2P processes, or sustainable procurement.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

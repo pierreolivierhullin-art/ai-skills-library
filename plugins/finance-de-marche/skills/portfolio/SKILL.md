@@ -1,7 +1,7 @@
 ---
 name: portfolio
 description: This skill should be used when the user asks about "portfolio construction", "asset allocation", "modern portfolio theory", "MPT", "diversification", "rebalancing", "risk-adjusted returns", "Sharpe ratio", "CAPM", "factor investing", "ETF", "tax-loss harvesting", "efficient frontier", "construction de portefeuille", "allocation d'actifs", "théorie moderne du portefeuille", "rééquilibrage", "rendements ajustés au risque", "ratio de Sharpe", "investissement factoriel", "frontière efficiente", "Sortino ratio", "Treynor ratio", "alpha", "beta", "correlation", "corrélation", "volatility", "volatilité", "drawdown", "max drawdown", "value at risk", "VaR", "CVaR", "Monte Carlo simulation", "backtesting", "benchmark", "indice de référence", "S&P 500", "MSCI", "bonds", "obligations", "commodities", "matières premières", "REIT", "alternative investments", "investissements alternatifs", "dollar-cost averaging", "DCA", "strategic allocation", "tactical allocation", or needs guidance on portfolio management, investment strategy, and allocation optimization.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: gestion-de-projets
 description: This skill should be used when the user asks about "project management", "agile methodology", "digital transformation", "change management", "portfolio prioritization", "gestion de projet", "méthodologie agile", "transformation digitale", "conduite du changement", "Scrum", "SAFe", "PRINCE2", "Kanban", "sprint planning", "backlog management", "user stories", "velocity", "burndown chart", "PMO", "bureau de projets", "roadmap produit", "product roadmap", "stakeholder management", "gestion des parties prenantes", "risk mitigation", "planning poker", "rétrospective", "daily standup", "epic", "milestone", "jalons", "Gantt", "WBS", "benefits realization", discusses Scrum, SAFe, PRINCE2, or needs guidance on PMO setup, organizational change, or benefits realization.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 

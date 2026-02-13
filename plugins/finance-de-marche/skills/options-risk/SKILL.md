@@ -1,7 +1,7 @@
 ---
 name: options-risk
 description: This skill should be used when the user asks about "options trading", "Greeks", "delta", "gamma", "theta", "vega", "implied volatility", "options strategies", "risk management", "position sizing", "GARP screening", "covered call", "iron condor", "straddle", "Black-Scholes", "trading d'options", "grecques", "volatilité implicite", "stratégies d'options", "gestion du risque", "dimensionnement de position", "call couvert", "vente de put", "put spread", "call spread", "butterfly", "calendar spread", "strangle", "collar", "risk/reward", "ratio risque/rendement", "IV rank", "IV percentile", "options chain", "chaîne d'options", "expiration", "échéance", "strike price", "prix d'exercice", "in the money", "ITM", "OTM", "ATM", "open interest", "volume", "bid-ask spread", "assignment", "exercise", or needs guidance on options trading, market risk management, and fundamental analysis.
-version: 1.1.0
+version: 1.2.0
 last_updated: 2026-02
 ---
 
