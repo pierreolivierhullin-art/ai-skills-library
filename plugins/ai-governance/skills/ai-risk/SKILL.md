@@ -283,3 +283,5 @@ Consulter les fichiers de reference pour un approfondissement detaille :
 - **[AI Safety & Alignment](./references/ai-safety-alignment.md)** : Fondamentaux de la safety IA, Constitutional AI, RLHF/DPO/RLAIF, filtrage et moderation de contenu, prevention des outputs nocifs, reponse aux incidents pour les systemes IA, kill switches et degradation gracieuse, paysage de la recherche en alignement.
 
 - **[Operational Risks](./references/operational-risks.md)** : Detection et grounding des hallucinations, model drift (data drift, concept drift, performance decay), attenuation du vendor lock-in, gestion des couts, optimisation de la latence, disponibilite et redondance, bases de donnees d'incidents IA (AIAAIC), risques lies aux deepfakes.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

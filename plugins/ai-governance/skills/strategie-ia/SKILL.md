@@ -270,3 +270,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Model Governance](./references/model-governance.md)** : cycle de vie MLOps complet, registre de modeles (MLflow, W&B), validation et approbation des modeles, monitoring (data drift, concept drift, performance decay), decommissionnement, gouvernance specifique aux LLM et modeles generatifs.
 - **[AI Organization](./references/ai-organization.md)** : structures d'equipes IA (centralise, hub & spoke, embedded, federe), roles (Data Scientist, ML Engineer, AI Engineer, AI PM), upskilling et montee en competences, AI champions, patterns de collaboration entre equipes IA et metiers.
 - **[AI Regulatory Frameworks](./references/ai-regulatory-frameworks.md)** : EU AI Act (classification des risques, obligations par niveau), NIST AI RMF (fonctions Govern/Map/Measure/Manage), ISO 42001 (systeme de management de l'IA), reglementations sectorielles, paysage international de la gouvernance IA.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

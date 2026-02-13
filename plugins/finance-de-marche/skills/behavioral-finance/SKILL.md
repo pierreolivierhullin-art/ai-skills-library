@@ -269,6 +269,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 
 - **[Market & Behavioral Psychology](./references/market-behavioral-psychology.md)** -- Cycles de marche et sentiment investisseur, bulles et manies historiques, investissement contrarien, psychologie du momentum, mental accounting (Thaler), goal-based investing, evaluation de la tolerance au risque, nudges et architecture de choix, techniques de debiasing structurees.
 
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
 ### Ouvrages et references fondamentaux
 
 - Daniel Kahneman, *Thinking, Fast and Slow* (2011)

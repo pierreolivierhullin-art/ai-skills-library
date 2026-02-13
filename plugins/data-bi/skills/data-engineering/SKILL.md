@@ -197,3 +197,5 @@ Consult these reference files for deep dives on each topic area:
 - **[Data Orchestration](./references/data-orchestration.md)** — Airflow deep dive (DAGs, operators, sensors, TaskFlow API), Dagster software-defined assets, Prefect flows, scheduling and dependency management, monitoring and alerting, data SLAs and freshness enforcement.
 
 - **[Data Infrastructure](./references/data-infrastructure.md)** — Data warehouse comparison (BigQuery, Snowflake, Redshift, Databricks), data lake and lakehouse (Delta Lake, Iceberg, Hudi), streaming platforms (Kafka, Pub/Sub, Flink), integration tools (Fivetran, Airbyte, Meltano), DataOps practices, CI/CD for data, cost optimization strategies.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

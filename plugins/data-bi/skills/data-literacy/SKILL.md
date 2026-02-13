@@ -234,3 +234,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Data Storytelling](./references/data-storytelling.md)** : arc narratif (setup, conflit, resolution), communication adaptee a l'audience (executive, analyste, operationnel), syntheses executives, synthese d'insights, presentation de resultats analytiques, recommandations actionnables.
 - **[Statistical Thinking](./references/statistical-thinking.md)** : frameworks de data literacy, concepts statistiques pour les non-specialistes, pensee critique avec les donnees, sophismes et erreurs d'interpretation courantes, prise de decision data-driven, bases du test d'hypotheses.
 - **[Data Culture](./references/data-culture.md)** : programmes de democratisation des donnees, enablement du self-service analytics, data champions et ambassadeurs, programmes de formation et montee en competences, mesure de la maturite data culture, conduite du changement pour l'adoption data.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

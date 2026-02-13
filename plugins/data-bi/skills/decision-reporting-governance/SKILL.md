@@ -272,3 +272,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Data Governance & Quality](./references/data-governance-quality.md)** : framework DAMA-DMBOK, catalogage des donnees, data lineage, regles et monitoring de la qualite, MDM, ownership et stewardship, data contracts.
 - **[Data Modeling](./references/data-modeling.md)** : dimensional modeling Kimball (star/snowflake), Data Vault 2.0, types de Slowly Changing Dimensions, modeles conceptuel/logique/physique, pattern One Big Table.
 - **[Analytics & Privacy](./references/analytics-privacy.md)** : analytics descriptive/diagnostique/predictive/prescriptive, analyse statistique, cartographie RGPD, classification des donnees, techniques d'anonymisation, politiques de retention.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

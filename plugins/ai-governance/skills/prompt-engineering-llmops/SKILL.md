@@ -223,3 +223,5 @@ Consult these reference files for deep dives on each topic area:
 - **[LLM Evaluation](./references/llm-evaluation.md)** -- Evaluation frameworks (RAGAS, DeepEval, LangSmith Evaluators, Braintrust), benchmark design, golden dataset creation, human evaluation protocols, automated eval pipelines, hallucination detection, red teaming and adversarial testing, safety evaluation, continuous evaluation in production.
 
 - **[LLMOps & Orchestration](./references/llmops-orchestration.md)** -- Orchestration frameworks (LangChain, LlamaIndex, Semantic Kernel, Vercel AI SDK), agent frameworks and patterns (tool use, multi-agent, CrewAI, AutoGen, Claude Code), MCP protocol, model routing and fallback strategies, cost optimization (caching, compression, batching), observability (LangSmith, Langfuse, Helicone), guardrails (NeMo Guardrails, Guardrails AI), fine-tuning strategies (LoRA, QLoRA, distillation), synthetic data generation.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

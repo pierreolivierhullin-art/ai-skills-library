@@ -236,6 +236,8 @@ Consulter les fichiers de référence suivants pour un approfondissement détail
 
 - [Risk Management](./references/risk-management.md) -- Position sizing (Kelly criterion, fixed fractional), calculs de perte maximale, R-multiples, corrélation et diversification, stratégies de stop-loss, gestion des Greeks de portefeuille (delta-neutral, vega-neutral), VaR et Expected Shortfall, analyse technique, sentiment, options flow.
 
+- [Études de cas](./references/case-studies.md) -- Cas pratiques détaillés illustrant les concepts clés du skill.
+
 ### Ouvrages et références fondamentaux
 - Sheldon Natenberg, *Option Volatility and Pricing* (2nd ed., 2014) -- La bible du pricing et de la volatilité
 - Lawrence McMillan, *Options as a Strategic Investment* (5th ed., 2012) -- Référence encyclopédique des stratégies

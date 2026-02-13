@@ -272,3 +272,5 @@ Consulter les fichiers de reference pour un approfondissement detaille / Consult
 - **[Reporting Obligations](./references/reporting-obligations.md)** : Transaction reporting (MiFIR Art. 26, FINRA TRF), position reporting, 13F/13D/13G filings, tax reporting (plus-values/IFU/formulaire 2074, Schedule D/Form 8949), FATCA/CRS, beneficial ownership disclosure.
 
 - **[Trading Compliance](./references/trading-compliance.md)** : Best execution obligations, order handling & transparency, conflicts of interest management, suitability & appropriateness, record keeping, personal account dealing, AML/KYC for trading accounts.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

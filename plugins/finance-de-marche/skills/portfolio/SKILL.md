@@ -236,3 +236,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Asset Allocation](./references/asset-allocation.md)** : allocation strategique vs tactique, core-satellite, risk parity (All-Weather), factor-based allocation, modele de dotation (Yale/Swensen), allocation lifecycle, Black-Litterman.
 - **[Portfolio Management](./references/portfolio-management.md)** : strategies de rebalancement, tax-loss harvesting, attribution de performance (Brinson-Fachler), selection de benchmarks, gestion du drawdown, stress testing, Investment Policy Statement.
 - **[Investment Vehicles](./references/investment-vehicles.md)** : ETFs vs fonds communs, investissement indiciel (Bogle), strategies d'options overlay, investissements alternatifs (REITs, PE, hedge funds), produits structures, fractional shares, investissement thematique.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.

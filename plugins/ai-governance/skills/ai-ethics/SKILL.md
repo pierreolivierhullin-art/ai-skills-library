@@ -214,3 +214,5 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Explainability & Transparency](./references/explainability-transparency.md)** : methodes XAI (SHAP, LIME, attention maps, counterfactual), interpretabilite intrinseque vs post-hoc, model cards, datasheets for datasets, RGPD article 22, transparency reports, outils et librairies.
 - **[Trustworthy AI](./references/trustworthy-ai.md)** : 7 exigences de l'UE pour l'IA de confiance, human oversight, robustesse et securite, privacy-preserving AI (federated learning, differential privacy), frameworks de responsabilite, EU AI Act.
 - **[Impact Assessment](./references/impact-assessment.md)** : Algorithmic Impact Assessment, evaluation d'impact social, impact environnemental (empreinte carbone, CodeCarbon), consultation des parties prenantes, monitoring continu et audit, cadres reglementaires.
+
+- **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
