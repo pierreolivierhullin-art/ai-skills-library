@@ -171,6 +171,18 @@ Follow this workflow when designing or improving a data platform:
 - Provisionnement automatique de pipelines, schéma discovery, accès self-service
 - **Indicateurs** : pipeline reliability > 99.5%, time-to-insight < 30 minutes
 
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue santé des pipelines (échecs, violations SLA) | Data Engineer | Rapport d'incidents et actions correctives |
+| **Hebdomadaire** | Triage des alertes qualité de données | Data Engineer | Backlog priorisé des anomalies |
+| **Mensuel** | Analyse des coûts et optimisation infrastructure | Data Engineer Lead | Dashboard coûts et plan d'optimisation |
+| **Mensuel** | Revue des contrats de données avec les consommateurs | Data Engineer + Data Analyst | Registre des data contracts mis à jour |
+| **Trimestriel** | Rightsizing de l'infrastructure (compute, storage) | Data Engineer Lead | Rapport de dimensionnement et recommandations |
+| **Trimestriel** | Revue d'architecture data (patterns, technologies) | Data Architect | Diagramme d'architecture actualisé |
+| **Annuel** | Actualisation de la roadmap plateforme data | Head of Data | Roadmap annuelle et budget prévisionnel |
+
 ## State of the Art (2025-2026)
 
 L'ingénierie de données évolue vers la simplification et le temps réel :

@@ -156,6 +156,18 @@ Follow this workflow when designing or improving engineering processes:
 
 
 
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue des métriques sprint (vélocité, cycle time) | Engineering Manager | Dashboard sprint et tendances |
+| **Hebdomadaire** | Log des blocages et frictions de processus | Tech Lead | Backlog frictions priorisé |
+| **Mensuel** | Revue des métriques DORA/SPACE | Engineering Manager + VP Engineering | Rapport DORA/SPACE commenté |
+| **Mensuel** | Audit de fraîcheur de la documentation | Tech Lead | Checklist documentation et mises à jour requises |
+| **Trimestriel** | Rétrospective des processus d'ingénierie | Engineering Manager + Équipe | Plan d'amélioration des processus |
+| **Trimestriel** | Enquête expérience développeur (DX) | VP Engineering | Rapport DX et actions prioritaires |
+| **Annuel** | Actualisation du handbook et des standards engineering | VP Engineering + Tech Leads | Handbook engineering et normes actualisés |
+
 ## State of the Art (2025-2026)
 
 Les processus d'ingénierie s'adaptent à l'ère de l'IA :

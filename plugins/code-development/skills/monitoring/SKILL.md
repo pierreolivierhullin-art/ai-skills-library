@@ -176,6 +176,18 @@ START
 
 
 
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue des alertes (tuning des alertes bruyantes, suppression des faux positifs) | SRE / On-call Engineer | Liste d'alertes ajustées ou supprimées |
+| **Hebdomadaire** | Handoff on-call + synthèse des incidents de la semaine | SRE | Résumé on-call + escalades documentées |
+| **Mensuel** | Revue SLO et consommation du budget d'erreur | SRE / Engineering Manager | Dashboard SLO + décisions go/no-go |
+| **Mensuel** | Nettoyage des dashboards (pertinence, doublons, métriques obsolètes) | SRE / Tech Lead | Inventaire dashboards à jour |
+| **Trimestriel** | Capacity planning (tendances de charge, prévisions de scaling) | SRE / Cloud Architect | Rapport de capacité + recommandations |
+| **Trimestriel** | Mise à jour des runbooks et chemins d'escalade | SRE / On-call Engineer | Runbooks validés + matrice d'escalade |
+| **Annuel** | Revue de l'architecture d'observabilité (stack, rétention, coûts) | Engineering Manager / SRE | Plan d'évolution observabilité |
+
 ## State of the Art (2025-2026)
 
 L'observabilité se consolide et s'enrichit par l'IA :

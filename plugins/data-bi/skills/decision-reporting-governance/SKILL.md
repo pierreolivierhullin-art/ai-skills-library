@@ -220,6 +220,18 @@ Evaluer la maturite de la gouvernance sur les 11 domaines DAMA-DMBOK :
 20. Mesurer et rapporter les KPIs de la gouvernance elle-meme : data quality score, catalogue coverage, SLA compliance, time-to-insight.
 
 
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue du score de qualité des données | Data Steward | Dashboard qualité et alertes critiques |
+| **Hebdomadaire** | Monitoring de l'usage des dashboards | Data Analyst | Rapport d'adoption et anomalies d'usage |
+| **Mensuel** | Comité de data stewardship | Data Governance Lead | Compte-rendu et plan d'actions |
+| **Mensuel** | Revue des KPIs et mise à jour du catalogue | Data Steward + Métier | Catalogue KPI actualisé |
+| **Trimestriel** | Évaluation de maturité de la gouvernance data | Data Governance Lead | Scorecard de maturité et axes de progrès |
+| **Trimestriel** | Audit du data lineage et du catalogue | Data Steward | Rapport d'audit et actions de remédiation |
+| **Annuel** | Actualisation de la stratégie et des politiques data | CDO / Head of Data | Charte data governance et roadmap annuelle |
+
 ## State of the Art (2025-2026)
 
 La BI et la gouvernance des données se transforment :

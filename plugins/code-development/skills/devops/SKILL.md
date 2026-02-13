@@ -168,6 +168,18 @@ Follow this workflow when designing or improving a DevOps setup:
 - Developer experience mesurée (DX surveys, cognitive load, time-to-productivity)
 - **Indicateurs** : deployment frequency on-demand (multiple/jour), MTTR < 1 heure
 
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue des déploiements (succès, rollbacks, incidents) | Tech Lead | Rapport hebdo déploiements |
+| **Hebdomadaire** | Rétro incidents et post-mortems | SRE / DevOps Engineer | Action items priorisés |
+| **Mensuel** | Revue des métriques DORA (DF, LT, CFR, MTTR) | Engineering Manager | Dashboard DORA commenté |
+| **Mensuel** | Optimisation des pipelines CI/CD (temps, coûts, fiabilité) | DevOps Engineer | Backlog d'améliorations pipeline |
+| **Trimestriel** | Audit d'infrastructure (sécurité, coûts, scalabilité) | SRE / Cloud Architect | Rapport d'audit + plan de remédiation |
+| **Trimestriel** | Test de disaster recovery (failover, restore, RTO/RPO) | SRE | Compte-rendu DR + checklist validée |
+| **Annuel** | Revue tech radar et outillage DevOps | Engineering Manager | Tech radar mis à jour + roadmap outillage |
+
 ## State of the Art (2025-2026)
 
 Le DevOps évolue vers le platform engineering et l'IA :

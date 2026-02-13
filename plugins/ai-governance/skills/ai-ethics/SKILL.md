@@ -191,6 +191,18 @@ Appliquer les 7 exigences du High-Level Expert Group (HLEG) de la Commission eur
 - Feedback boucle structuré avec les populations affectées par les systèmes IA
 - **Indicateurs** : score de transparence > 90%, certification externe obtenue
 
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue des alertes de biais en production | AI Ethics Lead | Rapport d'alertes et actions immédiates |
+| **Mensuel** | Revue du dashboard de métriques d'équité | AI Ethics Lead + Data Scientist | Dashboard fairness commenté |
+| **Mensuel** | Mise à jour des model cards des modèles actifs | ML Engineer | Model cards actualisées |
+| **Trimestriel** | Comité éthique IA | AI Ethics Lead + Direction | Compte-rendu et recommandations |
+| **Trimestriel** | Revue des évaluations d'impact (AIIA) | AI Ethics Lead | Registre des impacts mis à jour |
+| **Trimestriel** | Session de feedback parties prenantes externes | AI Ethics Lead + Affaires publiques | Synthèse des retours et plan d'actions |
+| **Annuel** | Actualisation de la politique et charte éthique IA | AI Ethics Lead + Juridique | Charte éthique IA et checklist de conformité |
+
 ## State of the Art (2025-2026)
 
 L'éthique de l'IA se réglemente et s'outille :

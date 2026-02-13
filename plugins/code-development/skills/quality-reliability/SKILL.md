@@ -189,6 +189,18 @@ Premiere experience ? → Toxiproxy en staging → Game Day manuel → Litmus en
 
 
 
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Triage des échecs de tests (nouvelles régressions, blocages CI) | QA Lead / Tech Lead | Liste de régressions priorisées |
+| **Hebdomadaire** | Nettoyage des tests flaky (quarantaine, correction, suppression) | QA Engineer | Rapport flaky tests + actions correctives |
+| **Mensuel** | Revue couverture de tests et quality gates (seuils, règles) | QA Lead / Engineering Manager | Dashboard couverture + ajustements gates |
+| **Mensuel** | Chaos experiment / game day (injection de pannes contrôlées) | SRE / QA Lead | Rapport game day + vulnérabilités identifiées |
+| **Trimestriel** | Benchmark de performance (latence, throughput, utilisation ressources) | SRE / Performance Engineer | Rapport benchmark + tendances |
+| **Trimestriel** | Revue SRE (objectifs SLO, bilan error budget, ajustements cibles) | SRE / Engineering Manager | Bilan SLO + nouvelles cibles validées |
+| **Annuel** | Revue de la stratégie qualité et outillage (frameworks, outils, processus) | Engineering Manager / QA Lead | Plan qualité annuel + roadmap outillage |
+
 ## State of the Art (2025-2026)
 
 La qualité et la fiabilité intègrent l'IA et l'automatisation avancée :

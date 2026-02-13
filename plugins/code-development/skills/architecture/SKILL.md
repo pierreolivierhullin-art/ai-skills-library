@@ -193,6 +193,17 @@ Utiliser l'Event Storming comme technique de découverte collaborative pour iden
 - Évolution continue sans interruption, composants remplaçables à chaud
 - **Indicateurs** : coupling metrics stable ou en baisse, mean time to onboard < 1 semaine
 
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue des ADR + office hours architecture | Staff Engineer / Architect | ADR validés + décisions documentées |
+| **Mensuel** | Revue de la dette technique + priorisation | Tech Lead / Engineering Manager | Backlog dette technique priorisé |
+| **Mensuel** | Revue des dépendances inter-équipes (API contracts, shared libs) | Staff Engineer | Cartographie des dépendances à jour |
+| **Trimestriel** | Architecture fitness review (métriques couplage, cohésion, complexité) | Architect / Staff Engineer | Rapport fitness functions + tendances |
+| **Trimestriel** | Mise à jour du tech radar (adopt, trial, assess, hold) | Engineering Manager / Architect | Tech radar publié |
+| **Annuel** | Rafraîchissement de la vision et roadmap architecture | CTO / VP Engineering | Document de vision architecture + roadmap |
+
 ## State of the Art (2025-2026)
 
 L'architecture logicielle évolue vers plus de modularité et d'intelligence :

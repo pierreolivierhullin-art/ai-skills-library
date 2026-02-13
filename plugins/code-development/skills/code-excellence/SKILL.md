@@ -154,6 +154,17 @@ Suivre ce workflow pour toute initiative d'amélioration de la qualité du code 
 
 
 
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue des métriques code review (PR cycle time, profondeur des revues) | Tech Lead | Dashboard code review hebdo |
+| **Mensuel** | Mise à jour de l'inventaire de dette technique | Tech Lead / Staff Engineer | Backlog dette technique à jour |
+| **Mensuel** | Revue des standards de code (conventions, patterns, anti-patterns) | Staff Engineer / Tech Lead | Standards documentés + changelog |
+| **Trimestriel** | Planification du sprint de refactoring (cibles prioritaires) | Engineering Manager / Tech Lead | Plan de refactoring + objectifs mesurables |
+| **Trimestriel** | Enquête satisfaction développeur (DX survey : outillage, friction, vélocité) | Engineering Manager | Résultats DX survey + plan d'action |
+| **Annuel** | Rafraîchissement des coding standards et règles de linting | Staff Engineer / Engineering Manager | Coding standards v.N+1 + config linter à jour |
+
 ## State of the Art (2025-2026)
 
 Les pratiques de qualité de code sont transformées par l'IA :

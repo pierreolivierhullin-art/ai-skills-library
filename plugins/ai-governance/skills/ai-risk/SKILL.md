@@ -228,6 +228,18 @@ Dependance fournisseur excessive ?
 5. Mettre a jour les defenses face aux nouvelles menaces (jailbreaks, techniques d'attaque emergentes)
 6. Conduire des revues post-incident (blameless post-mortems) pour chaque incident IA
 
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Monitoring des performances modèles (alertes de drift) | ML Engineer | Rapport de drift et seuils d'alerte |
+| **Hebdomadaire** | Triage des incidents IA | AI Risk Manager | Backlog incidents priorisé |
+| **Mensuel** | Exercice de red teaming sur modèles à haut risque | AI Red Team + AI Risk Manager | Rapport de vulnérabilités et remédiations |
+| **Mensuel** | Revue des guardrails et mécanismes de sécurité | AI Risk Manager + ML Engineer | Checklist guardrails et ajustements |
+| **Trimestriel** | Mise à jour du registre des risques IA | AI Risk Manager | Registre des risques IA actualisé |
+| **Trimestriel** | Campagne de revalidation des modèles | ML Engineer + Data Scientist | Rapport de revalidation par modèle |
+| **Annuel** | Révision du framework de risque IA et test des kill switches | AI Risk Manager + CTO | Framework de risque et PV de test kill switch |
+
 ## State of the Art (2025-2026)
 
 Les risques IA se diversifient et les protections se structurent :
