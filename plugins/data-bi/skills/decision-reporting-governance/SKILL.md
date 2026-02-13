@@ -264,6 +264,30 @@ La BI et la gouvernance des données se transforment :
 | Stratégie | `entreprise:strategie` — Aide à la décision stratégique |
 | Product Analytics | `code-development:product-analytics` — Métriques produit et instrumentation |
 
+## Glossaire
+
+| Terme | Définition |
+|-------|-----------|
+| **DAMA-DMBOK** | Data Management Body of Knowledge — référentiel international de la gestion des données couvrant 11 domaines (gouvernance, qualité, architecture, sécurité, etc.). |
+| **Data Catalog** | Inventaire centralisé et consultable de tous les actifs de données d'une organisation, incluant métadonnées techniques, descriptions métier et lignage. Exemples : DataHub, Atlan, OpenMetadata. |
+| **Data Lineage** | Traçabilité de bout en bout des données : origine, transformations successives et destinations. Permet l'analyse d'impact et le débogage des pipelines. |
+| **Data Steward** | Responsable opérationnel de la qualité et de la conformité des données d'un domaine. Définit et applique les règles de qualité au quotidien. |
+| **Data Owner** | Responsable métier décisionnaire d'un domaine de données. Définit les règles d'accès, valide les définitions et arbitre les priorités de qualité. |
+| **Master Data Management (MDM)** | Discipline visant à créer et maintenir un référentiel unique (golden record) pour les entités métier clés (clients, produits, fournisseurs) à travers les systèmes. |
+| **Data Quality Score** | Score agrégé mesurant la qualité des données sur les 6 dimensions DAMA (complétude, unicité, validité, cohérence, exactitude, actualité), exprimé en pourcentage. |
+| **Data Contract** | Accord formel entre producteurs et consommateurs de données spécifiant le schéma, les SLAs de fraîcheur et de qualité, et les responsabilités respectives. |
+| **Dimensional Modeling (Kimball)** | Méthodologie de modélisation de Ralph Kimball pour les entrepôts de données, organisée autour de tables de faits (mesures) et de dimensions (contextes d'analyse). |
+| **Star Schema** | Modèle en étoile : une table de faits centrale reliée directement à des tables de dimensions dénormalisées. Optimisé pour la performance en lecture et la simplicité des requêtes BI. |
+| **Snowflake Schema** | Variante du star schema où les tables de dimensions sont normalisées en sous-dimensions. Réduit la redondance au prix d'une complexité accrue des jointures. |
+| **Data Vault 2.0** | Méthodologie de modélisation orientée audit et historisation, basée sur des hubs (clés métier), links (relations) et satellites (attributs horodatés). Adaptée aux environnements multi-sources. |
+| **SCD (Slowly Changing Dimension)** | Technique de gestion de l'historique des dimensions. Type 1 : écrasement. Type 2 : nouvelle ligne avec dates de validité. Type 3 : colonne de valeur précédente. |
+| **KPI Tree** | Arbre de décomposition hiérarchique des indicateurs clés de performance, du KPI stratégique aux métriques opérationnelles actionnables par chaque équipe. |
+| **Self-service BI** | Approche permettant aux utilisateurs métier d'explorer et d'analyser les données de manière autonome via des datasets certifiés et des outils BI accessibles, sans dépendance systématique envers l'équipe data. |
+| **Semantic Layer** | Couche d'abstraction entre les données brutes et les outils de consommation, centralisant les définitions de métriques et les règles de calcul pour garantir la cohérence. Exemples : dbt Semantic Layer, LookML, Cube. |
+| **Data Mesh** | Architecture décentralisée où chaque domaine métier est responsable de ses propres data products, avec une gouvernance fédérée et des standards d'interopérabilité communs. |
+| **Data Fabric** | Architecture intégrée utilisant des métadonnées actives et l'automatisation (ML) pour connecter, gouverner et consommer les données à travers des environnements hétérogènes et distribués. |
+| **RGPD (Règlement Général sur la Protection des Données)** | Réglementation européenne (2018) encadrant la collecte, le traitement et le stockage des données personnelles. Impose le consentement, le droit à l'oubli, la portabilité et la protection dès la conception (privacy by design). |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

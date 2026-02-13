@@ -245,6 +245,29 @@ La sécurité applicative fait face à de nouveaux défis :
 | IT Systèmes | `entreprise:it-systemes` — Cybersécurité et gouvernance IT |
 | AI Risk | `ai-governance:ai-risk` — Sécurité des systèmes IA et prompt injection |
 
+## Glossaire
+
+| Terme | Définition |
+|-------|-----------|
+| **OAuth 2.0** | Protocole d'autorisation déléguée permettant à une application tierce d'accéder aux ressources d'un utilisateur sans connaître ses identifiants. |
+| **OpenID Connect (OIDC)** | Couche d'identité construite sur OAuth 2.0, ajoutant l'authentification et la fourniture d'informations sur l'utilisateur via un ID Token. |
+| **JWT (JSON Web Token)** | Format de jeton compact et signé (voire chiffré) encodant des claims JSON, utilisé pour transmettre des informations d'identité ou d'autorisation entre services. |
+| **RBAC (Role-Based Access Control)** | Modèle d'autorisation attribuant des permissions aux utilisateurs via des rôles prédéfinis (admin, éditeur, lecteur). |
+| **ABAC (Attribute-Based Access Control)** | Modèle d'autorisation évaluant les permissions selon des attributs dynamiques (utilisateur, ressource, contexte, environnement). |
+| **OWASP** | Organisation à but non lucratif publiant des standards et guides de sécurité applicative, notamment le Top 10 des vulnérabilités web les plus critiques. |
+| **Zero Trust** | Modèle de sécurité reposant sur le principe "ne jamais faire confiance, toujours vérifier" — chaque requête est authentifiée et autorisée indépendamment du réseau. |
+| **Passkeys** | Identifiants cryptographiques FIDO2 stockés sur l'appareil de l'utilisateur, remplaçant les mots de passe avec une résistance native au phishing. |
+| **WebAuthn** | Standard W3C permettant l'authentification forte via des clés cryptographiques liées à un appareil (biométrie, clé de sécurité), sans mot de passe. |
+| **FIDO2** | Ensemble de standards (WebAuthn + CTAP) permettant l'authentification sans mot de passe via des clés cryptographiques résistantes au phishing. |
+| **MFA (Multi-Factor Authentication)** | Authentification exigeant au moins deux facteurs distincts (connaissance, possession, inhérence) pour renforcer la vérification d'identité. |
+| **PKCE (Proof Key for Code Exchange)** | Extension d'OAuth 2.0 protégeant le flux Authorization Code contre l'interception, indispensable pour les clients publics (SPA, mobile). |
+| **Refresh Token** | Jeton de longue durée permettant d'obtenir de nouveaux access tokens sans re-authentifier l'utilisateur, soumis à rotation et révocation. |
+| **CSRF (Cross-Site Request Forgery)** | Attaque forçant un utilisateur authentifié à exécuter une action non désirée sur un site où il est connecté, via une requête forgée depuis un site tiers. |
+| **XSS (Cross-Site Scripting)** | Attaque injectant du code JavaScript malveillant dans une page web pour voler des données utilisateur ou détourner des sessions. |
+| **Secret Manager** | Service (Vault, AWS Secrets Manager) stockant, gérant et distribuant les secrets (clés API, mots de passe, certificats) de manière sécurisée et auditée. |
+| **mTLS (Mutual TLS)** | Authentification TLS bidirectionnelle où client et serveur vérifient mutuellement leurs certificats, assurant l'identité des deux parties. |
+| **SAML** | Standard XML d'échange d'assertions d'authentification et d'autorisation entre un Identity Provider et un Service Provider, principalement utilisé en SSO entreprise. |
+
 ## Additional Resources
 
 Consulter les fichiers de reference pour un approfondissement detaille :

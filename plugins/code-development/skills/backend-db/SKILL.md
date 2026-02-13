@@ -236,6 +236,28 @@ Le backend et les bases de données évoluent vers l'IA et la simplification :
 | Auth Security | `code-development:auth-security` — Sécurité des données et accès |
 | Payment Stripe | `code-development:payment-stripe` — APIs de paiement et webhooks |
 
+## Glossaire
+
+| Terme | Définition |
+|-------|-----------|
+| **ORM (Object-Relational Mapping)** | Couche d'abstraction mappant les tables de base de données vers des objets du langage de programmation, simplifiant l'accès aux données (ex. Prisma, Drizzle). |
+| **N+1 Query** | Anti-pattern où une requête initiale charge une liste, puis une requête supplémentaire est exécutée pour chaque élément, causant une explosion du nombre de requêtes. |
+| **ACID (Atomicity, Consistency, Isolation, Durability)** | Ensemble de propriétés garantissant la fiabilité des transactions de base de données : atomicité, cohérence, isolation et durabilité. |
+| **CAP Theorem** | Théorème stipulant qu'un système distribué ne peut garantir simultanément que deux des trois propriétés : Cohérence, Disponibilité, Tolérance au partitionnement. |
+| **Index (B-tree, GIN, GiST)** | Structure de données accélérant les recherches en base. B-tree pour les comparaisons classiques, GIN pour le full-text/JSONB, GiST pour les données spatiales. |
+| **Migration** | Fichier versionné décrivant une modification de schéma de base de données (ajout de table, colonne, index), appliqué de manière reproductible et réversible. |
+| **Row-Level Security (RLS)** | Mécanisme PostgreSQL appliquant des politiques de sécurité au niveau de chaque ligne, filtrant automatiquement les données selon l'utilisateur connecté. |
+| **Connection Pooling** | Technique maintenant un pool de connexions réutilisables vers la base de données pour éviter le coût d'établissement de nouvelles connexions à chaque requête. |
+| **Materialized View** | Vue dont les résultats sont stockés physiquement et rafraîchis périodiquement, optimisant les requêtes coûteuses fréquemment exécutées (dashboards, rapports). |
+| **CTE (Common Table Expression)** | Sous-requête nommée définie avec `WITH`, améliorant la lisibilité des requêtes complexes et permettant des requêtes récursives. |
+| **Deadlock** | Situation où deux transactions se bloquent mutuellement en attendant chacune la libération d'un verrou détenu par l'autre, nécessitant l'annulation d'une des deux. |
+| **Sharding** | Technique de partitionnement horizontal distribuant les données sur plusieurs instances de base de données selon une clé de partition pour gérer la montée en charge. |
+| **Read Replica** | Copie en lecture seule de la base de données principale, permettant de répartir la charge des requêtes de lecture et d'améliorer les performances. |
+| **Prisma** | ORM TypeScript moderne avec un schéma déclaratif, une excellente DX, la génération de types automatique et des migrations intégrées. |
+| **Drizzle** | ORM TypeScript léger, type-safe et proche du SQL, compatible avec les runtimes edge et serverless, avec des migrations déclaratives. |
+| **Edge Function** | Fonction serverless exécutée au plus proche de l'utilisateur (edge network), offrant des latences très faibles (< 50ms cold start). |
+| **Vector Database** | Base de données spécialisée dans le stockage et la recherche de vecteurs d'embeddings pour la recherche sémantique, le RAG et les recommandations IA. |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :

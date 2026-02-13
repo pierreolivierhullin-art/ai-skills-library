@@ -186,6 +186,30 @@ L'ingénierie de données évolue vers la simplification et le temps réel :
 | Decision Reporting | `data-bi:decision-reporting-governance` — Qualité des données et gouvernance |
 | Prompt Engineering | `ai-governance:prompt-engineering-llmops` — Pipelines RAG et embeddings |
 
+## Glossaire
+
+| Terme | Définition |
+|-------|-----------|
+| **ETL (Extract, Transform, Load)** | Patron d'intégration où les données sont extraites, transformées puis chargées dans le système cible. Adapté aux systèmes cibles à capacité de calcul limitée. |
+| **ELT (Extract, Load, Transform)** | Patron moderne où les données brutes sont chargées d'abord dans le warehouse, puis transformées sur place grâce à la puissance de calcul élastique du cloud. |
+| **Medallion Architecture (Bronze/Silver/Gold)** | Architecture en couches de qualité croissante : bronze (données brutes), silver (nettoyées et conformées), gold (agrégations métier prêtes à consommer). |
+| **Data Lakehouse** | Architecture hybride combinant le stockage à faible coût d'un data lake avec les capacités transactionnelles (ACID) et la performance d'un data warehouse. |
+| **Data Lake** | Réservoir centralisé de données brutes stockées dans leur format natif (structuré, semi-structuré, non structuré), généralement sur du stockage objet (S3, GCS, ADLS). |
+| **Data Warehouse** | Entrepôt de données structurées, optimisé pour les requêtes analytiques. Exemples : BigQuery, Snowflake, Redshift, Databricks SQL. |
+| **dbt (data build tool)** | Framework open source de transformation SQL-first permettant de modéliser, tester et documenter les transformations de données directement dans le warehouse. |
+| **DAG (Directed Acyclic Graph)** | Graphe orienté sans cycle représentant les dépendances entre tâches d'un pipeline. Structure fondamentale des orchestrateurs comme Airflow et Dagster. |
+| **Airflow** | Orchestrateur de workflows open source (Apache). Standard de l'industrie pour planifier et surveiller des pipelines de données via des DAGs Python. |
+| **Dagster** | Orchestrateur moderne orienté assets (software-defined assets) avec typage fort, lignage natif et excellente expérience développeur. |
+| **Idempotence** | Propriété d'une opération qui, exécutée plusieurs fois avec les mêmes entrées, produit toujours le même résultat sans effets de bord. Essentielle pour la fiabilité des pipelines. |
+| **Backfill** | Ré-exécution d'un pipeline sur une période historique pour recalculer ou corriger des données passées. Requiert des pipelines idempotents paramétrés par date. |
+| **Schema Evolution** | Capacité d'un système à gérer les modifications de schéma (ajout/suppression de colonnes, changement de types) sans casser les pipelines existants. |
+| **CDC (Change Data Capture)** | Technique de capture des modifications (insertions, mises à jour, suppressions) dans une base source pour les répliquer de manière incrémentale vers un système cible. |
+| **Partitioning** | Technique de découpage physique des tables par clé (date, région, etc.) pour améliorer les performances de requête et réduire les coûts via le partition pruning. |
+| **Data Contract** | Accord formel entre producteurs et consommateurs de données définissant le schéma, les SLAs de qualité et de fraîcheur, et les responsabilités de chaque partie. |
+| **Data SLA** | Engagement de niveau de service sur les données : fraîcheur maximale, taux de qualité minimal, disponibilité du pipeline. Exemple : « dashboard mis à jour avant 08h00 UTC ». |
+| **Dead Letter Queue** | File d'attente où sont redirigés les messages ou enregistrements en erreur lors du traitement, permettant une analyse et un retraitement ultérieurs sans bloquer le pipeline. |
+| **Exactly-once Processing** | Garantie sémantique assurant que chaque enregistrement est traité exactement une fois, sans perte ni doublon, même en cas de panne ou de retry. |
+
 ## Additional Resources
 
 Consult these reference files for deep dives on each topic area:

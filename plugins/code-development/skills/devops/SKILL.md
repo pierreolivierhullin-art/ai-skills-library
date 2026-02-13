@@ -182,6 +182,30 @@ Le DevOps évolue vers le platform engineering et l'IA :
 | Backend & DB | `code-development:backend-db` — Déploiement de bases de données et migrations |
 | IT Systèmes | `entreprise:it-systemes` — Gouvernance infrastructure et cloud strategy |
 
+## Glossaire
+
+| Terme | Définition |
+|-------|-----------|
+| **CI/CD** | Intégration Continue / Déploiement Continu — pratiques automatisant la compilation, les tests et le déploiement du code à chaque changement pour livrer plus vite et plus fiablement. |
+| **GitOps** | Pratique utilisant Git comme source unique de vérité pour l'infrastructure et les déploiements, avec réconciliation automatique de l'état réel vers l'état déclaré. |
+| **Infrastructure as Code (IaC)** | Gestion de l'infrastructure via des fichiers de configuration déclaratifs versionnés, plutôt que par des manipulations manuelles. |
+| **Terraform** | Outil IaC de HashiCorp utilisant le langage HCL pour provisionner et gérer l'infrastructure multi-cloud de manière déclarative avec gestion d'état. |
+| **Pulumi** | Outil IaC permettant de définir l'infrastructure avec de vrais langages de programmation (TypeScript, Python, Go) plutôt qu'un DSL. |
+| **Blue-Green Deployment** | Stratégie de déploiement maintenant deux environnements identiques (blue/green), basculant le trafic instantanément vers le nouveau pour un rollback rapide. |
+| **Canary Release** | Stratégie déployant progressivement une nouvelle version à un sous-ensemble croissant d'utilisateurs (1% -> 5% -> 25% -> 100%) avec des portes d'observabilité. |
+| **Feature Flag** | Mécanisme permettant d'activer ou désactiver une fonctionnalité en production sans redéploiement, découplant le déploiement du release. |
+| **ArgoCD** | Outil GitOps pour Kubernetes réconciliant automatiquement l'état du cluster avec les manifestes déclarés dans un dépôt Git. |
+| **Helm** | Gestionnaire de packages pour Kubernetes utilisant des charts (templates paramétrables) pour déployer et versionner des applications. |
+| **Container Registry** | Service de stockage et de distribution d'images de conteneurs (Docker Hub, GitHub Container Registry, ECR, GCR). |
+| **Namespace (K8s)** | Partitionnement logique d'un cluster Kubernetes isolant les ressources (pods, services, secrets) par environnement ou par équipe. |
+| **Rolling Update** | Stratégie de déploiement par défaut dans Kubernetes, remplaçant progressivement les anciens pods par les nouveaux sans interruption de service. |
+| **Immutable Infrastructure** | Principe selon lequel l'infrastructure déployée n'est jamais modifiée en place : toute mise à jour consiste à remplacer les instances par de nouvelles. |
+| **Drift Detection** | Détection des écarts entre l'état réel de l'infrastructure et l'état déclaré dans le code IaC, signalant les modifications manuelles non autorisées. |
+| **Pipeline as Code** | Définition du pipeline CI/CD dans des fichiers versionnés dans le dépôt (ex. `.github/workflows/`, `.gitlab-ci.yml`) plutôt que via une interface graphique. |
+| **Artifact** | Produit de build (image Docker, binaire, archive) généré par le pipeline CI et promu à travers les environnements sans recompilation. |
+| **DORA Metrics** | Quatre métriques clés mesurant la performance DevOps : fréquence de déploiement, lead time, taux d'échec des changements, temps de restauration (MTTR). |
+| **SemVer** | Versionnage sémantique (MAJOR.MINOR.PATCH) communiquant la nature des changements : breaking change, nouvelle fonctionnalité, ou correction de bug. |
+
 ## Additional Resources
 
 Consult these reference files for deep dives on each topic area:

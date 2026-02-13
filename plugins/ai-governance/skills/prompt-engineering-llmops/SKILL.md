@@ -212,6 +212,33 @@ Output: [exemple de sortie attendue]
 | AI Risk | `ai-governance:ai-risk` — Guardrails et sécurité des prompts |
 | Product Analytics | `code-development:product-analytics` — Métriques et évaluation des LLM |
 
+## Glossaire
+
+| Terme | Définition |
+|-------|-----------|
+| **RAG (Retrieval-Augmented Generation)** | Architecture combinant recherche documentaire et génération par LLM : les documents pertinents sont récupérés puis injectés dans le contexte pour ancrer la réponse dans des faits vérifiables. |
+| **Chain-of-Thought (CoT)** | Technique de prompting incitant le LLM à décomposer son raisonnement en étapes intermédiaires explicites avant de fournir la réponse finale, améliorant la précision sur les tâches complexes. |
+| **Tree-of-Thought (ToT)** | Extension du CoT où le modèle explore plusieurs branches de raisonnement en parallèle, évalue chaque chemin et sélectionne le plus prometteur pour résoudre des problèmes complexes. |
+| **ReAct** | Pattern combinant raisonnement (Reasoning) et action (Acting) : le LLM alterne entre réflexion sur la tâche et appel à des outils externes pour construire sa réponse de manière itérative. |
+| **Few-shot Prompting** | Technique fournissant au LLM quelques exemples (input, output) dans le prompt pour guider le format, le style et la logique de la réponse attendue sans fine-tuning. |
+| **Zero-shot Prompting** | Technique demandant au LLM d'effectuer une tâche sans aucun exemple préalable, en s'appuyant uniquement sur les instructions et les connaissances pré-entraînées du modèle. |
+| **System Prompt** | Instructions persistantes définissant le rôle, le comportement, les contraintes et le format de sortie du LLM, séparées du prompt utilisateur et appliquées à chaque interaction. |
+| **Embedding** | Représentation vectorielle dense d'un texte dans un espace multidimensionnel, capturant le sens sémantique et permettant le calcul de similarité entre documents ou requêtes. |
+| **Vector Database** | Base de données spécialisée dans le stockage et la recherche efficace de vecteurs d'embedding via des algorithmes de plus proches voisins (ANN), fondement technique du RAG. |
+| **Chunking** | Processus de découpage de documents en segments (chunks) de taille optimale pour l'embedding et la recherche vectorielle, stratégie clé impactant la qualité du RAG. |
+| **Re-ranking** | Étape de réordonnancement des résultats de recherche initiaux à l'aide d'un modèle cross-encoder plus précis, améliorant la pertinence des documents fournis au LLM. |
+| **HyDE (Hypothetical Document Embeddings)** | Technique RAG avancée où le LLM génère d'abord un document hypothétique répondant à la requête, puis utilise son embedding pour rechercher des documents réels similaires. |
+| **CRAG (Corrective RAG)** | Architecture RAG intégrant un évaluateur de pertinence qui vérifie la qualité des documents récupérés et déclenche des stratégies de correction (nouvelle recherche, web search) si nécessaire. |
+| **Self-RAG** | Architecture où le LLM décide de manière autonome s'il a besoin de récupérer des informations, évalue la pertinence des documents et vérifie la fidélité de sa propre réponse. |
+| **Function Calling** | Capacité d'un LLM à générer des appels de fonctions structurés (nom, paramètres) permettant l'interaction avec des APIs externes, bases de données ou outils logiciels. |
+| **Tool Use** | Mécanisme permettant à un LLM d'utiliser des outils externes (calculatrice, recherche web, exécution de code) pour augmenter ses capacités au-delà de la génération de texte. |
+| **MCP (Model Context Protocol)** | Protocole standardisé (Anthropic) définissant comment les LLM interagissent avec des outils et sources de données externes via une interface unifiée client-serveur. |
+| **Guardrails** | Mécanismes de sécurité (filtres d'entrée/sortie, règles métier, validations) encadrant le comportement d'un LLM pour prévenir les réponses inappropriées, dangereuses ou hors périmètre. |
+| **Fine-tuning** | Processus d'adaptation d'un modèle pré-entraîné à une tâche spécifique en le ré-entraînant sur un jeu de données spécialisé, modifiant ses poids pour améliorer ses performances dans un domaine. |
+| **LoRA (Low-Rank Adaptation)** | Technique de fine-tuning efficace en paramètres qui gèle les poids du modèle original et n'entraîne que de petites matrices de faible rang, réduisant drastiquement les coûts de calcul et de stockage. |
+| **Prompt Caching** | Mécanisme de mise en cache des préfixes de prompts côté fournisseur (Anthropic, OpenAI), évitant le retraitement des instructions système répétitives et réduisant latence et coûts de 80-90%. |
+| **Temperature** | Paramètre contrôlant le caractère aléatoire des réponses du LLM : une valeur basse (0-0.3) produit des réponses déterministes et factuelles, une valeur haute (0.7-1.0) favorise la créativité et la diversité. |
+
 ## Additional Resources
 
 Consult these reference files for deep dives on each topic area:

@@ -272,6 +272,29 @@ Les risques IA se diversifient et les protections se structurent :
 | Stratégie IA | `ai-governance:strategie-ia` — Gouvernance IA et cycle de vie des modèles |
 | Prompt Engineering | `ai-governance:prompt-engineering-llmops` — Guardrails et défense des LLM |
 
+## Glossaire
+
+| Terme | Définition |
+|-------|-----------|
+| **Red Teaming** | Exercice de test adversarial où une équipe tente délibérément de provoquer des comportements indésirables d'un système IA pour identifier ses vulnérabilités et faiblesses. |
+| **Adversarial Attack** | Attaque consistant à manipuler les entrées d'un modèle IA (perturbations imperceptibles ou inputs malicieux) pour provoquer des erreurs de prédiction ou des comportements non souhaités. |
+| **Prompt Injection** | Technique d'attaque où un utilisateur insère des instructions malveillantes dans un prompt pour détourner le comportement prévu du LLM, contourner ses garde-fous ou exfiltrer des données. |
+| **Data Poisoning** | Attaque visant à corrompre les données d'entraînement ou de fine-tuning d'un modèle afin d'introduire des biais, des backdoors ou de dégrader ses performances. |
+| **Model Drift** | Dégradation progressive des performances d'un modèle en production due à l'évolution des données d'entrée ou du contexte opérationnel au fil du temps. |
+| **Concept Drift** | Changement dans la relation statistique entre les variables d'entrée et la variable cible, rendant les patterns appris par le modèle obsolètes. |
+| **Hallucination** | Génération par un LLM de contenu factuellement incorrect, inventé ou incohérent, présenté avec un degré de confiance élevé comme s'il était véridique. |
+| **Grounding** | Technique consistant à ancrer les réponses d'un LLM dans des sources de données vérifiables (documents, bases de connaissances) pour réduire les hallucinations. |
+| **NIST AI RMF** | Framework de gestion des risques IA du National Institute of Standards and Technology, structuré en 4 fonctions : Govern, Map, Measure, Manage. |
+| **Kill Switch** | Mécanisme d'arrêt d'urgence permettant de désactiver immédiatement un système IA à différents niveaux (requête, session, fonctionnalité ou système entier). |
+| **Guardrails** | Ensemble de mécanismes de sécurité (filtres d'entrée/sortie, règles métier, limites d'action) encadrant le comportement d'un système IA pour prévenir les résultats indésirables. |
+| **Model Collapse** | Phénomène de dégénérescence d'un modèle entraîné de manière récursive sur ses propres sorties, entraînant une perte de diversité et de qualité des générations. |
+| **Evasion Attack** | Attaque en phase d'inférence où des perturbations subtiles sont ajoutées aux entrées pour tromper le modèle sans altérer la perception humaine (ex. images adversariales). |
+| **Backdoor Attack** | Attaque insérant un déclencheur caché dans un modèle pendant l'entraînement, activant un comportement malveillant uniquement en présence d'un pattern spécifique dans les entrées. |
+| **Model Stealing** | Attaque visant à reconstruire ou approximer un modèle propriétaire en analysant systématiquement ses réponses à des requêtes ciblées (extraction de modèle). |
+| **Constitutional AI** | Approche d'alignement développée par Anthropic où le modèle est entraîné à respecter un ensemble de principes constitutionnels via auto-critique et révision itérative. |
+| **RLHF (Reinforcement Learning from Human Feedback)** | Technique d'alignement où un modèle est affiné à l'aide de retours humains transformés en signal de récompense pour optimiser la qualité et la sécurité des réponses. |
+| **Safety Alignment** | Domaine de recherche visant à garantir que les systèmes IA se comportent conformément aux intentions et aux valeurs humaines, même dans des situations imprévues. |
+
 ## Additional Resources
 
 Consulter les fichiers de reference pour un approfondissement detaille :

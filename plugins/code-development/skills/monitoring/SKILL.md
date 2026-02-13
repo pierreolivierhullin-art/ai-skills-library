@@ -223,6 +223,29 @@ L'observabilité se consolide et s'enrichit par l'IA :
 | Process Engineering | `code-development:process-engineering` — Processus d'incident et postmortem |
 | Risk Management | `entreprise:risk-management` — Continuité d'activité et gestion de crise |
 
+## Glossaire
+
+| Terme | Définition |
+|-------|-----------|
+| **SLO (Service Level Objective)** | Objectif interne de fiabilité défini sur une fenêtre glissante (ex. 99.9% de disponibilité sur 30 jours), servant de cible pour l'ingénierie. |
+| **SLI (Service Level Indicator)** | Métrique quantitative mesurant un aspect de la fiabilité d'un service tel que perçu par l'utilisateur (latence p99, taux d'erreur, disponibilité). |
+| **SLA (Service Level Agreement)** | Engagement contractuel entre un fournisseur et ses clients sur un niveau de service minimal, avec des pénalités en cas de non-respect. |
+| **Error Budget** | Quantité d'indisponibilité ou d'erreurs tolérée avant de violer le SLO. Permet d'arbitrer entre vélocité de développement et investissement en fiabilité. |
+| **MTTD (Mean Time To Detect)** | Temps moyen entre le début d'un incident et sa détection par les systèmes de monitoring ou l'équipe d'astreinte. |
+| **MTTR (Mean Time To Resolve)** | Temps moyen entre la détection d'un incident et sa résolution complète, indicateur clé de la capacité de réponse de l'équipe. |
+| **APM (Application Performance Monitoring)** | Catégorie d'outils mesurant les performances applicatives en production : temps de réponse, débit, erreurs, dépendances (ex. Datadog APM, New Relic). |
+| **Trace** | Enregistrement du parcours complet d'une requête à travers un système distribué, composé de plusieurs spans liés par un trace ID commun. |
+| **Span** | Unité de travail individuelle au sein d'une trace, représentant une opération (appel HTTP, requête DB, traitement) avec sa durée et ses attributs. |
+| **OpenTelemetry** | Standard open-source et vendor-neutral fournissant des APIs, SDKs et un Collector pour l'instrumentation unifiée des traces, métriques et logs. |
+| **Cardinality** | Nombre de combinaisons uniques de valeurs d'attributs d'une métrique. Une cardinalité élevée augmente les coûts de stockage et de requêtage. |
+| **Alert Fatigue** | Phénomène où un volume excessif d'alertes non actionnables conduit les opérateurs à ignorer les alertes, y compris les critiques. |
+| **Golden Signals** | Les quatre signaux clés de Google SRE pour monitorer un service : latence, trafic, erreurs et saturation. |
+| **RED Method** | Méthode d'instrumentation pour les services orientés requêtes : Rate (débit), Errors (taux d'erreur), Duration (latence). |
+| **USE Method** | Méthode d'instrumentation pour les ressources d'infrastructure : Utilization (utilisation), Saturation, Errors (erreurs) par ressource. |
+| **Exemplar** | Lien entre une métrique agrégée et une trace spécifique, permettant de passer d'un pic de latence dans un graphe directement à la trace correspondante. |
+| **Log Aggregation** | Centralisation des logs de tous les services dans un système unique (ELK, Loki, Datadog Logs) pour la recherche, le filtrage et la corrélation. |
+| **Distributed Tracing** | Technique de suivi du parcours d'une requête à travers plusieurs services d'un système distribué, permettant d'identifier les goulots d'étranglement et les erreurs. |
+
 ## Additional Resources / Ressources complémentaires
 
 Consult the following reference files for deep-dive guidance on each domain:

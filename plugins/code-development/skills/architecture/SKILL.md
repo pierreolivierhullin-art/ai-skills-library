@@ -205,6 +205,29 @@ L'architecture logicielle évolue vers plus de modularité et d'intelligence :
 | Code Excellence | `code-development:code-excellence` — Design patterns et principes SOLID |
 | IT Systèmes | `entreprise:it-systemes` — Gouvernance IT et architecture d'entreprise |
 
+## Glossaire
+
+| Terme | Définition |
+|-------|-----------|
+| **DDD (Domain-Driven Design)** | Approche de conception logicielle qui aligne le code sur le domaine métier en utilisant un langage ubiquitaire partagé entre développeurs et experts métier. |
+| **Bounded Context** | Frontière explicite à l'intérieur de laquelle un modèle de domaine est défini et applicable. Chaque bounded context possède son propre langage ubiquitaire. |
+| **CQRS (Command Query Responsibility Segregation)** | Pattern séparant les modèles de lecture (queries) et d'écriture (commands) pour optimiser indépendamment chaque chemin d'accès aux données. |
+| **Event Sourcing** | Pattern de persistance stockant l'historique complet des événements plutôt que l'état final, permettant la reconstruction temporelle et l'audit trail. |
+| **ADR (Architecture Decision Record)** | Document formel enregistrant une décision architecturale, son contexte, les options envisagées, la justification et les conséquences. |
+| **Strangler Fig** | Pattern de migration progressive d'un monolithe vers de nouveaux services en redirigeant le trafic route par route, sans big-bang rewrite. |
+| **API Gateway** | Point d'entrée unique pour les clients qui route les requêtes vers les services backend, gérant authentification, rate limiting et agrégation. |
+| **Service Mesh** | Couche d'infrastructure (ex. Istio, Linkerd) gérant la communication inter-services de manière transparente : mTLS, retry, circuit breaking, observabilité. |
+| **Monolithe Modulaire** | Architecture monolithique structurée en modules fortement découplés avec des frontières claires, préparant une extraction future en microservices si nécessaire. |
+| **Clean Architecture** | Architecture en couches concentriques où les dépendances pointent vers l'intérieur, isolant la logique métier des détails techniques (frameworks, BDD, UI). |
+| **Architecture Hexagonale** | Variante de Clean Architecture organisant le code autour de ports (interfaces) et d'adaptateurs (implémentations), séparant le domaine de l'infrastructure. |
+| **Fitness Function** | Métrique ou test automatisé évaluant objectivement si l'architecture respecte un attribut qualité donné (latence, couplage, disponibilité). |
+| **Cell-based Architecture** | Architecture découpant le système en cellules autonomes et isolées, chacune capable de fonctionner indépendamment pour maximiser la résilience. |
+| **Event Storming** | Atelier collaboratif de découverte du domaine où développeurs et experts métier identifient les événements, commandes, agrégats et bounded contexts. |
+| **Saga Pattern** | Pattern de gestion des transactions distribuées via une séquence de transactions locales avec des actions de compensation en cas d'échec. |
+| **Circuit Breaker** | Pattern de résilience coupant temporairement les appels vers un service défaillant pour éviter la propagation de pannes en cascade. |
+| **Sidecar Pattern** | Pattern déployant un conteneur auxiliaire aux côtés du service principal pour gérer des préoccupations transverses (logging, proxy, auth) sans modifier le code métier. |
+| **Anti-Corruption Layer** | Couche de traduction isolant un bounded context des modèles externes (legacy, services tiers) pour préserver l'intégrité du modèle de domaine interne. |
+
 ## Additional Resources
 
 Consulter les fichiers de référence suivants pour des guides détaillés :

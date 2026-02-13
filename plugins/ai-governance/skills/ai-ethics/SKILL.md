@@ -206,6 +206,28 @@ L'éthique de l'IA se réglemente et s'outille :
 | RH | `entreprise:rh` — Impact de l'IA sur les métiers et l'emploi |
 | RSE-ESG | `entreprise:rse-esg` — IA responsable et impact environnemental |
 
+## Glossaire
+
+| Terme | Définition |
+|-------|-----------|
+| **XAI (Explainable AI)** | Ensemble de techniques et méthodes visant à rendre les décisions des modèles d'IA compréhensibles et interprétables par les humains. |
+| **SHAP (SHapley Additive exPlanations)** | Méthode d'explicabilité post-hoc basée sur les valeurs de Shapley (théorie des jeux) qui attribue à chaque feature sa contribution à une prédiction donnée. |
+| **LIME (Local Interpretable Model-agnostic Explanations)** | Technique d'explicabilité locale qui approxime le comportement d'un modèle complexe par un modèle simple et interprétable autour d'une prédiction spécifique. |
+| **Demographic Parity** | Métrique d'équité exigeant que la proportion de résultats positifs soit identique entre les groupes protégés, indépendamment du taux de base réel. |
+| **Equalized Odds** | Métrique d'équité imposant que les taux de vrais positifs (TPR) et de faux positifs (FPR) soient égaux entre les groupes protégés. |
+| **Calibration** | Propriété d'un modèle dont les scores de confiance reflètent fidèlement la probabilité réelle de l'événement prédit (ex. un score de 80% correspond à 80% de cas réels). |
+| **Model Card** | Document standardisé décrivant un modèle ML : objectif, données d'entraînement, métriques de performance par sous-groupe, limites connues, biais identifiés et utilisations prévues/interdites. |
+| **Datasheet for Datasets** | Documentation structurée d'un jeu de données décrivant sa provenance, ses conditions de collecte, sa composition démographique, ses biais connus et ses usages recommandés. |
+| **Biais algorithmique** | Erreur systématique dans les résultats d'un système IA qui crée des résultats injustes ou discriminatoires envers certains groupes de personnes. |
+| **Fairness-aware ML** | Branche du machine learning intégrant des contraintes d'équité directement dans le processus d'entraînement (in-processing) ou de post-traitement des modèles. |
+| **Impact Assessment** | Évaluation systématique des effets potentiels d'un système IA sur les individus, les groupes et la société, incluant les risques de discrimination et de préjudice. |
+| **Human-in-the-loop** | Architecture de décision où un opérateur humain valide ou corrige les décisions du modèle avant qu'elles ne soient appliquées, obligatoire pour les décisions à fort impact. |
+| **EU AI Act** | Règlement européen sur l'intelligence artificielle classant les systèmes IA par niveau de risque et imposant des obligations de transparence, d'évaluation et de conformité. |
+| **Differential Privacy** | Technique mathématique ajoutant du bruit contrôlé aux données ou aux résultats de requêtes pour garantir qu'aucune information individuelle ne puisse être extraite. |
+| **Federated Learning** | Méthode d'entraînement distribué où le modèle est entraîné localement sur les données de chaque participant sans que les données brutes ne quittent leur emplacement d'origine. |
+| **Counterfactual Explanation** | Explication contrefactuelle indiquant le changement minimal nécessaire dans les inputs pour obtenir un résultat différent (ex. "si votre revenu avait été X, le prêt aurait été accordé"). |
+| **Proxy Variable** | Variable apparemment neutre qui encode indirectement un attribut protégé (ex. le code postal comme proxy de l'origine ethnique), source fréquente de biais indirect. |
+
 ## Additional Resources
 
 Consulter les fichiers de reference suivants pour des guides detailles :
