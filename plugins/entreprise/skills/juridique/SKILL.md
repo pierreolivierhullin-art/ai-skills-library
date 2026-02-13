@@ -191,6 +191,50 @@ Adapter le niveau de diligence juridique a l'enjeu reel. Ne pas appliquer le mem
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Réactif
+- La fonction juridique intervient uniquement en cas de litige ou d'urgence
+- Pas de templates contractuels standardisés ni de processus de validation
+- Conformité RGPD et compliance non structurées
+- **Indicateurs** : délai contractuel > 4 semaines, taux de litiges élevé
+
+### Niveau 2 — Organisé
+- Bibliothèque de templates contractuels de base en place
+- Processus de validation défini avec seuils par niveau de risque
+- Registre des traitements RGPD initié et DPO désigné
+- **Indicateurs** : délai contractuel 2-4 semaines, couverture compliance < 50 %
+
+### Niveau 3 — Structuré
+- CLM déployé avec workflow d'approbation et signature électronique
+- Programme compliance opérationnel (anticorruption, alertes internes, RGPD)
+- Veille juridique active et formation des équipes opérationnelles
+- **Indicateurs** : délai contractuel 1-2 semaines, taux de litiges en baisse, couverture compliance 50-75 %
+
+### Niveau 4 — Stratégique
+- Legal ops mature avec KPIs suivis et pilotage budgétaire des cabinets externes
+- Self-service contractuel pour les opérations à faible risque (NDA, commandes)
+- Direction juridique impliquée en amont des projets stratégiques (M&A, lancement)
+- **Indicateurs** : délai contractuel < 1 semaine, coût juridique / CA < 1 %, couverture compliance 75-90 %
+
+### Niveau 5 — Business Partner
+- IA intégrée pour l'analyse de contrats, la due diligence et la veille
+- Juridique co-pilote de la stratégie d'entreprise (expansion, innovation, ESG)
+- Data-driven legal management avec prédiction des risques contentieux
+- **Indicateurs** : délai contractuel < 3 jours, taux de litiges < 1 %, couverture compliance > 90 %
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue des contrats en cours et urgences juridiques | Responsable Contrats | Tableau de bord contrats hebdomadaire |
+| **Hebdomadaire** | Suivi des dossiers contentieux actifs | Directeur Juridique | Point contentieux et actions |
+| **Mensuel** | Veille réglementaire et jurisprudentielle | Juriste Compliance | Note de veille réglementaire mensuelle |
+| **Mensuel** | Revue des demandes RGPD et incidents données | DPO | Rapport RGPD mensuel |
+| **Trimestriel** | Revue du programme compliance (Sapin II, RGPD, vigilance) | Directeur Juridique / Compliance Officer | Rapport compliance trimestriel |
+| **Trimestriel** | Revue du portefeuille PI et échéances (marques, brevets) | Responsable PI | État du portefeuille PI |
+| **Annuel** | Révision de la politique juridique et budget contentieux | Directeur Juridique / Direction Générale | Politique juridique annuelle |
+
 ## State of the Art (2025-2026)
 
 La fonction juridique se digitalise et fait face à de nouveaux cadres :

@@ -222,6 +222,50 @@ Obligations de continuite d'activite ?
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Ignoré
+- Pas de processus formel de gestion des risques dans l'organisation
+- Les risques sont découverts au moment où ils se matérialisent
+- Aucun registre de risques ni responsable identifié
+- **Indicateurs** : couverture cartographie 0 %, aucun KRI défini
+
+### Niveau 2 — Réactif
+- Registre de risques initial créé mais rarement mis à jour
+- Réponse aux incidents au cas par cas sans capitalisation
+- Conformité réglementaire traitée en réaction aux contrôles externes
+- **Indicateurs** : couverture cartographie < 40 %, délai de détection > 30 jours
+
+### Niveau 3 — Structuré
+- Cadre ERM formalisé (ISO 31000 ou COSO) avec comité des risques actif
+- Cartographie des risques complète avec évaluation probabilité-impact
+- KRIs définis et suivis trimestriellement, PCA/PRA documentés
+- **Indicateurs** : couverture cartographie 40-70 %, taux de conformité > 70 %, délai de détection 10-30 jours
+
+### Niveau 4 — Intégré
+- Gestion des risques intégrée dans chaque décision stratégique et projet
+- Three Lines Model opérationnel avec audit interne régulier
+- Plateforme GRC déployée avec monitoring continu et alertes automatisées
+- **Indicateurs** : couverture cartographie 70-90 %, taux de conformité > 85 %, coût des incidents en baisse de 30 %+
+
+### Niveau 5 — Anticipatif
+- Analyse prédictive et scénarios prospectifs sur les risques émergents
+- Culture du risque diffusée à tous les niveaux de l'organisation
+- Stress testing régulier et résilience opérationnelle prouvée par les tests
+- **Indicateurs** : couverture cartographie > 90 %, délai de détection < 48h, taux de conformité > 95 %
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue des alertes risques et incidents en cours | Risk Manager | Bulletin d'alertes risques hebdomadaire |
+| **Hebdomadaire** | Suivi des plans d'action de mitigation | Propriétaires de risques | Tableau de suivi des actions |
+| **Mensuel** | Revue du tableau de bord des risques et KRIs | Directeur des Risques (CRO) | Dashboard risques mensuel |
+| **Mensuel** | Veille réglementaire et conformité | Compliance Officer | Note de veille réglementaire |
+| **Trimestriel** | Mise à jour de la cartographie des risques | Comité des Risques | Cartographie des risques actualisée |
+| **Trimestriel** | Revue du programme de conformité (Sapin II, RGPD) | Directeur des Risques / Directeur Juridique | Rapport de conformité trimestriel |
+| **Annuel** | Test du PCA/PRA (tabletop ou simulation complète) | Directeur des Risques / DSI | Rapport de test PCA/PRA et retex |
+
 ## State of the Art (2025-2026)
 
 La gestion des risques intègre de nouvelles dimensions :

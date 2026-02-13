@@ -228,6 +228,38 @@ Dependance fournisseur excessive ?
 5. Mettre a jour les defenses face aux nouvelles menaces (jailbreaks, techniques d'attaque emergentes)
 6. Conduire des revues post-incident (blameless post-mortems) pour chaque incident IA
 
+## Modèle de maturité
+
+### Niveau 1 — Ignoré
+- Aucun inventaire des systèmes IA ni identification formelle des risques associés
+- Pas de processus de red teaming ni de tests adversariaux sur les modèles
+- Absence de guardrails, de monitoring et de procédures de réponse aux incidents IA
+- **Indicateurs** : 0% de couverture red teaming, aucun registre de risques IA
+
+### Niveau 2 — Réactif
+- Registre de risques IA initié après un incident ou une exigence réglementaire
+- Red teaming ponctuel avant les mises en production majeures uniquement
+- Guardrails basiques déployés sur les systèmes les plus exposés (filtres d'entrée/sortie)
+- **Indicateurs** : couverture red teaming < 30%, délai détection drift > 7 jours
+
+### Niveau 3 — Structuré
+- Taxonomie des risques IA formalisée et registre maintenu avec des owners identifiés
+- Programme de red teaming régulier combinant outils automatisés et tests humains
+- Monitoring de drift et de qualité déployé sur tous les modèles en production
+- **Indicateurs** : couverture red teaming > 60%, délai détection drift < 48h, taux d'incidents IA documentés > 90%
+
+### Niveau 4 — Proactif
+- Threat modeling systématique intégré dans le cycle de développement de chaque modèle IA
+- Red teaming continu avec scénarios avancés (multi-modal, agents, supply chain)
+- Guardrails adaptatifs et circuit breakers automatisés avec escalade graduée
+- **Indicateurs** : couverture red teaming > 85%, délai détection drift < 4h, couverture guardrails > 95%
+
+### Niveau 5 — Résilient
+- Culture de sécurité IA diffusée dans toute l'organisation avec formation continue
+- Défenses auto-adaptatives intégrant le feedback des incidents et des near-misses
+- Kill switches testés régulièrement et réponse aux incidents IA en moins de 15 minutes
+- **Indicateurs** : couverture red teaming > 95%, délai détection drift < 1h, taux d'incidents IA critiques non détectés = 0%
+
 ## Rythme opérationnel
 
 | Cadence | Activité | Responsable | Livrable |

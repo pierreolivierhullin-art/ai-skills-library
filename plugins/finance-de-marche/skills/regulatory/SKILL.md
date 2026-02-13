@@ -217,6 +217,50 @@ US taxpayer ?
 4. Maintenir une veille reglementaire active et un processus de change management
 5. Documenter les lessons learned de chaque controle regulateur ou incident de conformite
 
+## Modèle de maturité
+
+### Niveau 1 — Non-informé
+- Aucune connaissance des obligations réglementaires applicables à l'activité de trading
+- Les déclarations fiscales sont incomplètes ou absentes
+- Les règles de base (wash sale, PDT, seuils de déclaration) sont ignorées
+- **Indicateurs** : nombre d'infractions non détectées élevé, aucun suivi du délai de reporting
+
+### Niveau 2 — Conscient
+- Les principales réglementations applicables (MiFID II ou SEC/FINRA) sont connues
+- Les déclarations fiscales sont effectuées mais avec des erreurs ou retards fréquents
+- Les obligations de reporting de base sont identifiées mais traitées manuellement
+- **Indicateurs** : < 5 infractions/an, délai de reporting > J+3, taux de conformité ~ 60%
+
+### Niveau 3 — Conforme
+- Les obligations de reporting sont respectées dans les délais réglementaires
+- Un processus de veille réglementaire est en place avec mise à jour trimestrielle
+- Les contrôles pre-trade (restricted lists, position limits) sont implémentés
+- **Indicateurs** : 0-2 infractions/an, délai de reporting J+1 respecté, taux de conformité > 85%
+
+### Niveau 4 — Proactif
+- Les évolutions réglementaires sont anticipées avec des plans d'adaptation pré-établis
+- L'optimisation fiscale est intégrée dans la stratégie de trading (asset location, TLH)
+- La surveillance automatisée des abus de marché est opérationnelle
+- **Indicateurs** : 0 infraction/an, taux de conformité > 95%, coût fiscal optimisé à 90%
+
+### Niveau 5 — Expert
+- La conformité est intégrée by-design dans tous les processus de trading et d'investissement
+- Le modèle Three Lines of Defense est pleinement opérationnel avec audit indépendant
+- L'entité est reconnue comme référence par les régulateurs et les pairs du secteur
+- **Indicateurs** : 0 infraction/an, taux de conformité 100%, coût fiscal optimisé à 95%+, délai de reporting systématiquement J+0
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Quotidien** | Transaction reporting et vérification des contrôles pre-trade | Compliance Officer | Rapport de transactions J+1 |
+| **Hebdomadaire** | Veille réglementaire (nouvelles publications ESMA, SEC, AMF, FINRA) | Compliance Officer | Note de veille réglementaire |
+| **Hebdomadaire** | Revue des alertes de surveillance de marché (abus, wash trading, spoofing) | Compliance Officer | Rapport d'alertes |
+| **Mensuel** | Revue du transaction reporting et réconciliation avec le courtier | Compliance Officer / Back Office | Rapport de réconciliation |
+| **Trimestriel** | Auto-évaluation de conformité + gap analysis réglementaire | Compliance Officer / Risk Manager | Rapport de conformité trimestriel |
+| **Trimestriel** | Déclarations périodiques (13F, position reporting, seuils AMF) | Compliance Officer | Déclarations déposées |
+| **Annuel** | Déclaration fiscale complète + audit de conformité global | Compliance Officer / Conseiller Fiscal | Déclaration fiscale + rapport d'audit |
+
 ## State of the Art (2025-2026)
 
 La réglementation financière se renforce et se complexifie :

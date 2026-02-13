@@ -168,6 +168,50 @@ Appliquer la methodologie en 4 phases :
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Conformité
+- RSE/ESG traitée comme un exercice réglementaire minimal
+- Pas de bilan carbone ni d'analyse de matérialité structurée
+- Reporting limité à la DPEF ou aux obligations légales de base
+- **Indicateurs** : score ESG non évalué, empreinte carbone non mesurée
+
+### Niveau 2 — Structuré
+- Bilan carbone réalisé (scopes 1 et 2) et premiers indicateurs ESG suivis
+- Analyse de matérialité initiale conduite avec les parties prenantes
+- Politique RSE formalisée avec un responsable RSE désigné
+- **Indicateurs** : score ESG en progression, taux de conformité CSRD < 50 %
+
+### Niveau 3 — Intégré
+- Stratégie ESG intégrée à la stratégie d'entreprise avec feuille de route pluriannuelle
+- Bilan carbone complet (scopes 1, 2, 3) et engagement SBTi near-term
+- Reporting CSRD/ESRS en place avec collecte de données automatisée
+- **Indicateurs** : score ESG médian sectoriel, empreinte carbone en réduction, taux de conformité CSRD 50-75 %
+
+### Niveau 4 — Stratégique
+- ESG comme levier de création de valeur (green finance, innovation durable)
+- Chaîne de valeur engagée (fournisseurs évalués ESG, achats responsables actifs)
+- Gouvernance ESG au Board avec rémunération variable indexée sur les objectifs
+- **Indicateurs** : score ESG quartile supérieur, empreinte carbone alignée trajectoire SBTi, engagement parties prenantes > 70 %
+
+### Niveau 5 — Leader
+- Modèle d'affaires transformé intégrant circularité et régénération
+- Trajectoire Net Zero validée SBTi avec scope 3 maîtrisé
+- Référence sectorielle en matière de transparence et d'impact positif
+- **Indicateurs** : score ESG top 10 % sectoriel, taux de conformité CSRD > 95 %, engagement parties prenantes > 85 %
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Veille réglementaire ESG (CSRD, taxonomie, directives UE) | Responsable RSE / Compliance | Bulletin de veille ESG hebdomadaire |
+| **Hebdomadaire** | Suivi des actions RSE en cours et remontées terrain | Coordinateur RSE | Tableau de suivi des actions RSE |
+| **Mensuel** | Suivi des indicateurs carbone et énergie | Responsable RSE / Direction Opérations | Tableau de bord carbone mensuel |
+| **Mensuel** | Revue des KPIs ESG et reporting interne | Directeur RSE | Rapport ESG mensuel |
+| **Trimestriel** | Comité RSE/ESG (pilotage stratégique et arbitrages) | Directeur RSE / Direction Générale | Compte-rendu comité RSE |
+| **Trimestriel** | Revue engagement fournisseurs et scope 3 | Directeur RSE / Directeur Achats | Rapport scope 3 et fournisseurs |
+| **Annuel** | Production du rapport extra-financier CSRD/ESRS | Directeur RSE / DAF | Rapport de durabilité annuel (CSRD) |
+
 ## State of the Art (2025-2026)
 
 Le reporting ESG entre dans une ère réglementaire structurante :

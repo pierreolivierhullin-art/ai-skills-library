@@ -194,6 +194,50 @@ Niveau 5 — Ecosystemique : orchestration de l'ecosysteme fournisseur, IA predi
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Opérationnel
+- Achats fragmentés et décentralisés, pas de visibilité consolidée sur les dépenses
+- Négociations ponctuelles au fil de l'eau sans stratégie par catégorie
+- Processus manuels (bons de commande papier, validation par email)
+- **Indicateurs** : savings < 2 %, taux de couverture contrats < 30 %
+
+### Niveau 2 — Structuré
+- Centralisation partielle des achats avec premiers contrats-cadres
+- Spend analysis initiale et classification des dépenses par catégorie
+- Début de formalisation du processus P2P et des validations
+- **Indicateurs** : savings 2-5 %, taux de couverture contrats 30-50 %, délai P2P > 15 jours
+
+### Niveau 3 — Stratégique
+- Category management déployé avec stratégies par catégorie (Kraljic)
+- SRM structuré avec scorecards fournisseurs et revues régulières
+- Plateforme e-procurement opérationnelle et KPIs achats suivis
+- **Indicateurs** : savings 5-8 %, taux de couverture contrats 50-70 %, délai P2P 10-15 jours
+
+### Niveau 4 — Optimisé
+- TCO systématique sur les catégories majeures, three-way matching automatisé
+- Gestion proactive des risques fournisseurs avec monitoring continu
+- Achats responsables intégrés dans les processus de sourcing et d'évaluation
+- **Indicateurs** : savings 8-12 %, taux de couverture contrats 70-85 %, risque fournisseur scoré à 90 %
+
+### Niveau 5 — Prédictif
+- Analytics avancés et IA prédictive pour le sourcing et la négociation
+- Orchestration de l'écosystème fournisseur avec co-innovation
+- Achats circulaires et decarbonation scope 3 achats pilotés par la donnée
+- **Indicateurs** : savings > 12 %, taux de couverture contrats > 85 %, délai P2P < 5 jours
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Suivi des commandes critiques et urgences | Responsable Achats Opérationnels | Tableau de bord commandes critiques |
+| **Hebdomadaire** | Point fournisseurs à risque et alertes supply | Category Manager | Note d'alerte fournisseurs |
+| **Mensuel** | Spend analysis et suivi des savings | Directeur Achats | Rapport mensuel dépenses et savings |
+| **Mensuel** | Revue performance fournisseurs (scorecards) | Category Managers | Scorecards fournisseurs actualisées |
+| **Trimestriel** | Supplier Business Review (fournisseurs stratégiques) | Directeur Achats / Category Manager | Compte-rendu QBR fournisseurs |
+| **Trimestriel** | Revue des risques fournisseurs et plans de continuité | Directeur Achats / Risk Manager | Cartographie risques fournisseurs |
+| **Annuel** | Révision de la stratégie achats et plans catégoriels | Directeur Achats / DAF | Stratégie achats annuelle et budget |
+
 ## State of the Art (2025-2026)
 
 La fonction achats se digitalise et se stratégise :

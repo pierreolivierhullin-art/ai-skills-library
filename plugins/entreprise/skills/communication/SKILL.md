@@ -170,6 +170,50 @@ Piloter la communication par la mesure. Definir des KPIs clairs pour chaque disp
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Ad-hoc
+- Communication réactive et ponctuelle, sans stratégie formalisée
+- Pas de message house ni de narrative d'entreprise documenté
+- Veille médiatique absente, pas de dispositif de crise préparé
+- **Indicateurs** : portée média non mesurée, sentiment score inconnu
+
+### Niveau 2 — Planifié
+- Plan de communication annuel avec calendrier éditorial de base
+- Messages clés définis pour les sujets principaux de l'entreprise
+- Relations presse initiées avec un fichier de contacts journalistes
+- **Indicateurs** : portée média suivie trimestriellement, engagement interne < 30 %
+
+### Niveau 3 — Intégré
+- Narrative d'entreprise cohérent décliné sur tous les supports et canaux
+- Communication interne structurée (intranet, newsletters, town halls)
+- Dispositif de crise préparé (cellule, dark site, holding statements)
+- **Indicateurs** : sentiment score > 60 % positif, engagement interne 30-50 %, part de voix stable
+
+### Niveau 4 — Mesuré
+- KPIs de communication suivis mensuellement avec outils de monitoring
+- Employee advocacy déployé avec programme structuré de prise de parole
+- Affaires publiques actives avec position papers et coalitions sectorielles
+- **Indicateurs** : portée média en croissance, sentiment score > 75 %, engagement interne 50-70 %
+
+### Niveau 5 — Stratégique
+- Communication pilotée par la donnée avec analyse prédictive du sentiment
+- DirCom membre du COMEX, co-pilote de la stratégie d'entreprise
+- Thought leadership reconnu avec CEO parmi les voix influentes du secteur
+- **Indicateurs** : part de voix leader dans le secteur, sentiment score > 85 %, engagement interne > 70 %
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Veille médiatique et social listening | Chargé de Communication | Revue de presse et alertes hebdomadaires |
+| **Hebdomadaire** | Point éditorial et contenus à produire | Responsable Éditorial | Planning éditorial de la semaine |
+| **Mensuel** | Planification éditoriale et suivi KPIs communication | Directeur de la Communication (DirCom) | Tableau de bord communication mensuel |
+| **Mensuel** | Revue communication interne et engagement | Responsable Communication Interne | Rapport engagement interne |
+| **Trimestriel** | Bilan de campagne et analyse d'impact | DirCom | Bilan campagne trimestriel (reach, sentiment, reprises) |
+| **Trimestriel** | Mise à jour de la message house et des éléments de langage | DirCom / Direction Générale | Message house actualisée |
+| **Annuel** | Élaboration du plan de communication annuel | DirCom / Direction Générale | Plan de communication et budget annuel |
+
 ## State of the Art (2025-2026)
 
 La communication corporate se réinvente avec les nouveaux médias :

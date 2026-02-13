@@ -182,6 +182,50 @@ Construire un health score composite (0-100) a partir de signaux ponderes :
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Réactif
+- Support par email et téléphone sans outil de ticketing structuré
+- Pas de SLA formalisés ni de base de connaissances documentée
+- Résolution au cas par cas sans capitalisation sur les solutions
+- **Indicateurs** : CSAT < 60 %, first contact resolution < 40 %
+
+### Niveau 2 — Organisé
+- Outil de ticketing déployé avec SLA définis par priorité
+- Base de connaissances initiale (top 50 articles) et 2-3 canaux actifs
+- Reporting opérationnel basique (volume, temps de réponse, backlog)
+- **Indicateurs** : CSAT 60-75 %, NPS 0-20, first contact resolution 40-60 %
+
+### Niveau 3 — Proactif
+- Omnicanal cohérent avec méthodologie KCS pour la knowledge base
+- Chatbot déployé pour les questions fréquentes et le triage automatisé
+- Programmes Voice of Customer actifs avec closed-loop feedback
+- **Indicateurs** : CSAT 75-85 %, NPS 20-40, first contact resolution 60-75 %, temps de résolution moyen < 8h
+
+### Niveau 4 — Prédictif
+- Health scoring client avec alertes automatisées et playbooks de rétention
+- IA prédictive pour anticiper le churn et les problèmes avant contact
+- Customer Success structuré avec QBR et mesure du Net Revenue Retention
+- **Indicateurs** : CSAT > 85 %, NPS 40-60, first contact resolution 75-85 %, temps de résolution moyen < 4h
+
+### Niveau 5 — Autonome
+- IA agentique résolvant automatiquement 50 %+ des requêtes complexes
+- Self-service intelligent avec hyper-personnalisation du parcours client
+- Support proactif intégré au produit avec effort client proche de zéro
+- **Indicateurs** : CSAT > 92 %, NPS > 60, first contact resolution > 85 %, temps de résolution moyen < 2h
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue du backlog tickets et SLA compliance | Responsable Support | Rapport backlog et SLA hebdomadaire |
+| **Hebdomadaire** | Analyse des tickets escaladés et récurrents | Team Lead Support | Liste des problèmes récurrents et actions |
+| **Mensuel** | Analyse CSAT / NPS et closed-loop feedback | Directeur CX / Support | Rapport satisfaction client mensuel |
+| **Mensuel** | Revue performance agents et coaching | Responsable Support | Scorecards agents et plan de coaching |
+| **Trimestriel** | Audit de la knowledge base et self-service | Knowledge Manager | Rapport d'audit KB et plan de mise à jour |
+| **Trimestriel** | QBR comptes stratégiques (Customer Success) | Customer Success Manager | Bilan valeur délivrée et plan d'action |
+| **Annuel** | Révision de la stratégie CX et support | Directeur CX / Direction Générale | Plan stratégique CX annuel |
+
 ## State of the Art (2025-2026)
 
 Le support client est transformé par l'IA conversationnelle :

@@ -212,6 +212,50 @@ Mix fixe + variable ?
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Manuel
+- Paiements gérés manuellement via le Dashboard Stripe, pas d'intégration API
+- Pas de webhooks configurés, vérification manuelle des paiements
+- Aucune gestion automatisée des échecs de paiement ni des relances
+- **Indicateurs** : taux de conversion checkout < 50%, failed payment recovery < 10%
+
+### Niveau 2 — Intégré
+- Stripe Checkout ou Payment Links intégrés, Customer créé automatiquement à l'inscription
+- Webhooks configurés avec signature verification pour les événements critiques
+- Gestion basique des abonnements (création, annulation), receipts automatiques
+- **Indicateurs** : taux de conversion checkout 50-65%, failed payment recovery 20-40%, PCI SAQ-A compliant
+
+### Niveau 3 — Automatisé
+- Payment Element unifié avec support multi-méthodes, idempotence sur tous les handlers
+- Smart Retries et dunning automatique configurés, Customer Portal déployé
+- Stripe Tax activé, gestion de la proration et des changements de plan automatisée
+- **Indicateurs** : taux de conversion checkout 65-75%, failed payment recovery 40-60%, revenue leakage < 2%
+
+### Niveau 4 — Optimisé
+- Adaptive Pricing activé pour la tarification multi-devises, analytics de conversion Stripe Sigma
+- Webhook-driven architecture complète, monitoring des taux de conversion par méthode de paiement
+- Gestion avancée des litiges (disputes), alertes sur anomalies de revenus, réconciliation automatisée
+- **Indicateurs** : taux de conversion checkout 75-85%, failed payment recovery 60-80%, revenue leakage < 0.5%
+
+### Niveau 5 — Revenue Platform
+- Plateforme de revenus complète : Stripe Connect, Revenue Recognition (ASC 606/IFRS 15), Billing v2
+- Metered billing et modèles hybrides, intégration ERP/comptabilité temps réel
+- Optimisation continue A/B sur les flux de checkout, prédiction du churn basée sur les patterns de paiement
+- **Indicateurs** : taux de conversion checkout > 85%, failed payment recovery > 80%, PCI compliance score 100%, revenue leakage < 0.1%
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue des paiements échoués et du taux de recovery (Smart Retries, dunning) | Product / Finance | Rapport failed payments + actions de relance |
+| **Hebdomadaire** | Monitoring des webhooks (taux de succès, latence, erreurs) | Backend Engineer | Dashboard webhooks + alertes résolues |
+| **Mensuel** | Réconciliation des revenus (Stripe vs comptabilité, MRR, churn) | Finance / Product | Rapport réconciliation + écarts identifiés |
+| **Mensuel** | Analyse des taux de conversion par méthode de paiement et par marché | Product / Marketing | Rapport conversion + recommandations d'optimisation |
+| **Trimestriel** | Revue de la stratégie de pricing (plans, tarifs, promotions, Adaptive Pricing) | Product / Finance / CEO | Décisions pricing documentées + mise à jour Stripe |
+| **Trimestriel** | Revue des disputes et chargebacks (tendances, causes racines, prévention) | Finance / Support | Rapport disputes + plan de réduction |
+| **Annuel** | Audit PCI-DSS et revue de conformité réglementaire (SCA, taxes, facturation) | RSSI / Finance / Juridique | Certificat PCI + rapport conformité annuel |
+
 ## State of the Art (2025-2026)
 
 Le paiement en ligne se diversifie et se simplifie :

@@ -178,6 +178,50 @@ Automatiser les taches repetitives et a faible valeur ajoutee (provisioning, pat
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Réactif
+- Les incidents sont traités au fil de l'eau sans processus formalisé
+- Pas de catalogue de services ni de SLA documentés
+- Infrastructure gérée manuellement, sans monitoring centralisé
+- **Indicateurs** : uptime < 95 %, > 20 incidents P1/mois
+
+### Niveau 2 — Structuré
+- Processus ITSM de base en place (incidents, changements, demandes)
+- SLA définis pour les services critiques avec suivi mensuel
+- Début de documentation de l'infrastructure et inventaire des actifs
+- **Indicateurs** : uptime 95-98 %, 10-20 incidents P1/mois
+
+### Niveau 3 — Industrialisé
+- ITIL 4 déployé sur les pratiques clés, CMDB fiable et maintenue
+- Infrastructure as Code et automatisation du provisioning
+- Monitoring centralisé avec alertes proactives et tableaux de bord
+- **Indicateurs** : uptime 98-99,5 %, 5-10 incidents P1/mois, temps de résolution < 4h
+
+### Niveau 4 — Optimisé
+- FinOps mature avec optimisation continue des coûts cloud
+- AIOps pour la détection prédictive des incidents et l'auto-remédiation
+- Gouvernance IT intégrée à la stratégie métier avec revues trimestrielles
+- **Indicateurs** : uptime 99,5-99,9 %, < 5 incidents P1/mois, satisfaction utilisateurs > 80 %
+
+### Niveau 5 — Stratégique
+- SI piloté comme un produit avec mesure de la valeur métier
+- Zero Trust complet, GreenOps et platform engineering mature
+- Innovation continue (IA, edge computing) alignée sur la roadmap business
+- **Indicateurs** : uptime > 99,9 %, < 2 incidents P1/mois, satisfaction utilisateurs > 90 %
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue des incidents et problèmes en cours | Responsable ITSM | Rapport d'incidents hebdomadaire |
+| **Hebdomadaire** | Comité des changements (CAB) | DSI / Change Manager | PV du CAB et planning des changements |
+| **Mensuel** | Reporting SLA et performance des services | DSI | Tableau de bord SLA mensuel |
+| **Mensuel** | Revue sécurité et vulnérabilités | RSSI | Rapport de posture sécurité |
+| **Trimestriel** | Revue de capacité infrastructure et FinOps | Responsable Infra / FinOps | Plan de capacité et optimisation coûts |
+| **Trimestriel** | Comité de gouvernance IT (alignement métier) | DSI / Direction Générale | Compte-rendu comité IT |
+| **Annuel** | Révision du Schéma Directeur SI (SDSI) | DSI | SDSI actualisé et feuille de route |
+
 ## State of the Art (2025-2026)
 
 La gouvernance IT se transforme avec le cloud et l'IA :

@@ -185,6 +185,18 @@ Follow this workflow when building an LLM-powered application:
 - Fine-tuning automatisé et coûts optimisés par caching et distillation
 - **Indicateurs** : couverture d'évaluation > 95%, coût réduit de 50%+ par distillation
 
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue des métriques de performance des prompts (accuracy, latence, coût) | Prompt Engineer | Dashboard de performance prompt et alertes |
+| **Hebdomadaire** | Triage des erreurs LLM et hallucinations remontées par le monitoring | ML Engineer | Backlog d'améliorations priorisé |
+| **Mensuel** | Audit du pipeline d'évaluation (golden datasets, couverture, seuils) | Prompt Engineer + QA | Rapport d'audit eval et mises à jour des datasets |
+| **Mensuel** | Revue de sécurité des guardrails et tests de prompt injection | AI Security Lead | Rapport de vulnérabilités et remédiations |
+| **Trimestriel** | Revue qualité RAG (retrieval precision, faithfulness, coût par requête) | ML Engineer + Data Engineer | Scorecard RAG et plan d'optimisation |
+| **Trimestriel** | Benchmark des modèles et revue de la stratégie de routing multi-modèles | AI Architect | Rapport de benchmark et recommandations de routing |
+| **Annuel** | Refresh du stack LLM (nouveaux modèles, frameworks, providers) et roadmap LLMOps | AI Architect + CTO | Roadmap LLMOps et stratégie modèles à 12 mois |
+
 ## State of the Art (2025-2026)
 
 L'ingénierie de prompts et les LLMOps se professionnalisent :

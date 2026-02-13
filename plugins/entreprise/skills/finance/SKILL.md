@@ -205,6 +205,50 @@ Maintenir un referentiel financier unique et reconcilie. Interdire les "shadow s
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Comptable
+- La fonction finance se limite à la production des états financiers et à la conformité légale
+- Les clôtures sont longues (> 15 jours) et manuelles, avec de nombreuses corrections post-clôture
+- Pas de contrôle de gestion formalisé ni de prévisions structurées
+- **Indicateurs** : délai de clôture > 15 jours ouvrés, pas de forecast formalisé, cash conversion cycle non mesuré
+
+### Niveau 2 — Structuré
+- Le référentiel comptable et analytique est défini ; les clôtures sont mensuelles et documentées
+- Un budget annuel est construit (top-down/bottom-up) avec au moins 2 reforecasts par an
+- Le reporting mensuel inclut le P&L, les KPIs principaux et une analyse des écarts de base
+- **Indicateurs** : délai de clôture 10-15 jours, précision forecast ± 15 %, cash conversion cycle mesuré
+
+### Niveau 3 — Analytique
+- L'analyse des écarts est systématique (volume, prix, mix, change) avec des bridges présentés au COMEX
+- Les prévisions de trésorerie à 13 semaines sont maintenues et fiables
+- Le contrôle de gestion produit des analyses de rentabilité par produit, client et canal
+- **Indicateurs** : délai de clôture 5-10 jours, précision forecast ± 10 %, cash conversion cycle optimisé trimestriellement
+
+### Niveau 4 — Stratégique
+- Le rolling forecast (12-18 mois glissants) remplace le budget figé comme outil de pilotage principal
+- Le FP&A est un business partner reconnu qui éclaire les décisions stratégiques avec des scénarios
+- L'automatisation des écritures récurrentes et des réconciliations libère du temps pour l'analyse
+- **Indicateurs** : délai de clôture < 5 jours, précision forecast ± 5 %, contribution active de la DAF aux décisions stratégiques
+
+### Niveau 5 — Prédictif
+- L'IA augmente le FP&A : détection d'anomalies, prévisions machine learning, scénarios automatisés
+- La clôture tend vers le temps réel grâce à la réconciliation continue et l'automatisation complète
+- La finance pilote la création de valeur avec des modèles prédictifs (churn, LTV, demand sensing)
+- **Indicateurs** : clôture en continu (< 3 jours), précision forecast ± 3 %, cash conversion cycle best-in-class sectoriel
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue de la position de trésorerie et prévisions à 13 semaines | Trésorier | Tableau de trésorerie hebdomadaire |
+| **Hebdomadaire** | Suivi des encaissements et relance clients (DSO) | Credit Manager | Rapport d'âge des créances |
+| **Mensuel** | Clôture comptable et production du reporting de gestion | DAF + Contrôleur de Gestion | P&L, bilan, bridge des écarts |
+| **Mensuel** | Monthly Business Review (MBR) — présentation au COMEX | DAF | Pack MBR (10-15 slides + KPIs) |
+| **Trimestriel** | Rolling forecast et mise à jour des scénarios (base/up/down) | FP&A Manager | Forecast 12-18 mois + analyse de sensibilité |
+| **Trimestriel** | Revue des risques financiers (change, taux, liquidité, crédit) | DAF + Trésorier | Cartographie des risques financiers actualisée |
+| **Annuel** | Construction budgétaire et plan de financement | DAF + DG | Budget N+1 + plan de financement 3 ans |
+
 ## State of the Art (2025-2026)
 
 La fonction financière se transforme avec l'automatisation et les nouvelles métriques :

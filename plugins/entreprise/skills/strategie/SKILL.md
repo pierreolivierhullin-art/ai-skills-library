@@ -153,6 +153,50 @@ Evaluer chaque initiative strategique selon sa capacite a creer de la valeur dur
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Ad-hoc
+- Les décisions stratégiques sont prises de manière opportuniste, sans cadre formel ni processus récurrent
+- Absence de vision formalisée ; la stratégie repose sur l'intuition du dirigeant
+- Pas de revue stratégique régulière ni de suivi structuré des initiatives
+- **Indicateurs** : < 20 % des initiatives alignées sur une vision explicite, délai de décision > 4 semaines
+
+### Niveau 2 — Structuré
+- Un plan stratégique écrit existe avec des axes prioritaires identifiés
+- Les revues stratégiques sont planifiées (trimestrielles) mais encore peu respectées
+- Les outils d'analyse (SWOT, PESTEL) sont utilisés ponctuellement
+- **Indicateurs** : 20-50 % des initiatives alignées, NPS stratégique interne > 30
+
+### Niveau 3 — Piloté
+- Les OKR sont déployés et cascadés du COMEX aux équipes opérationnelles
+- Un Balanced Scorecard est en place avec des KPIs suivis mensuellement
+- Le scenario planning est pratiqué pour les décisions majeures
+- **Indicateurs** : 50-75 % des initiatives alignées, délai de décision < 2 semaines
+
+### Niveau 4 — Optimisé
+- L'allocation des ressources est dynamique et réajustée trimestriellement selon la performance
+- Les revues stratégiques intègrent des données temps réel et des signaux faibles
+- La gouvernance (board, comités) challenge activement la direction et génère de la valeur
+- **Indicateurs** : 75-90 % des initiatives alignées, NPS stratégique > 60, délai de décision < 1 semaine
+
+### Niveau 5 — Visionnaire
+- La stratégie est adaptive et pilotée par l'IA (simulation de scénarios, détection de signaux faibles automatisée)
+- L'organisation pratique l'ambidextrie (exploitation + exploration) de manière intégrée
+- La vision est co-construite avec l'écosystème (clients, partenaires, collaborateurs)
+- **Indicateurs** : > 90 % des initiatives alignées, NPS stratégique > 75, capacité de pivot < 1 mois
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Flash CODIR — revue des priorités et alertes | DG | Compte-rendu décisions + actions |
+| **Hebdomadaire** | Suivi des OKR clés et indicateurs avancés | Directeur Stratégie | Dashboard OKR mis à jour |
+| **Mensuel** | Revue des KPIs stratégiques et analyse des écarts | DG + COMEX | Rapport de performance mensuel |
+| **Mensuel** | Veille concurrentielle et signaux faibles | Directeur Stratégie | Note de veille stratégique |
+| **Trimestriel** | Revue OKR et réallocation des ressources | DG + COMEX | Bilan OKR + plan d'action ajusté |
+| **Trimestriel** | Comité stratégique Board — validation des orientations | Président du Board | PV du comité stratégique |
+| **Annuel** | Séminaire de planification stratégique (offsite) | DG + Board | Plan stratégique 3 ans actualisé |
+
 ## State of the Art (2025-2026)
 
 L'approche stratégique évolue rapidement sous l'influence de plusieurs tendances majeures :

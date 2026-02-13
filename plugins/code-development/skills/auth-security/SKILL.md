@@ -204,6 +204,50 @@ Architecture microservices complexe ?
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Minimal
+- Authentification par mot de passe simple sans MFA
+- Secrets stockés en variables d'environnement non chiffrées ou en dur dans le code
+- Aucune politique de sécurité formalisée ni audit régulier
+- **Indicateurs** : < 50% endpoints protégés, délai patch CVE > 30 jours
+
+### Niveau 2 — Basique
+- MFA disponible mais optionnel, gestion centralisée des sessions
+- Secrets dans un vault ou secret manager, rotation manuelle
+- OWASP Top 10 connu, security headers partiellement déployés
+- **Indicateurs** : 50-70% endpoints protégés, délai patch CVE 15-30 jours
+
+### Niveau 3 — Structuré
+- OAuth 2.1 + PKCE implémenté, MFA obligatoire pour les rôles sensibles
+- RBAC centralisé avec tests automatisés, RLS actif sur les tables multi-tenant
+- Scan de vulnérabilités automatisé en CI, rotation des secrets semi-automatique
+- **Indicateurs** : 70-85% endpoints protégés, couverture MFA > 60%, score OWASP ASVS L2
+
+### Niveau 4 — Avancé
+- Passkeys/WebAuthn comme méthode primaire, policy engine centralisé (OPA/Cedar)
+- Rotation automatique de tous les secrets avec TTL < 24h, mTLS entre services
+- Pentests trimestriels, threat modeling systématique, security champions dans chaque équipe
+- **Indicateurs** : > 95% endpoints protégés, couverture MFA > 90%, délai patch CVE < 48h
+
+### Niveau 5 — Zero Trust
+- Architecture zero-trust complète : vérification continue de l'identité, du device et du contexte
+- Authorization-as-code avec tests de propriété, réponse automatisée aux incidents de sécurité
+- Conformité OWASP ASVS L3, programme de bug bounty actif, post-quantum readiness évalué
+- **Indicateurs** : 100% endpoints protégés, couverture MFA 100%, score OWASP ASVS L3, délai patch CVE < 24h
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue des résultats de scan de vulnérabilités (dépendances, code, images) | Security Engineer / Tech Lead | Liste de vulnérabilités priorisées + actions |
+| **Hebdomadaire** | Revue des alertes de sécurité et tentatives d'intrusion | Security Engineer | Rapport alertes sécurité hebdo |
+| **Mensuel** | Revue des accès et permissions (access review, comptes inactifs) | Security Engineer / Engineering Manager | Matrice d'accès auditée + comptes désactivés |
+| **Mensuel** | Mise à jour du registre des secrets et vérification des rotations | Security Engineer | Inventaire secrets à jour + rotations validées |
+| **Trimestriel** | Pentest interne ou externe sur les surfaces critiques | RSSI / Prestataire sécurité | Rapport de pentest + plan de remédiation |
+| **Trimestriel** | Revue des policies d'autorisation et mise à jour du threat model | Security Engineer / Architecte | Threat model actualisé + policies ajustées |
+| **Annuel** | Audit de sécurité complet (OWASP ASVS, conformité, architecture zero-trust) | RSSI / Auditeur externe | Rapport d'audit annuel + feuille de route sécurité |
+
 ## State of the Art (2025-2026)
 
 La sécurité applicative fait face à de nouveaux défis :

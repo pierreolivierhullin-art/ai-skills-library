@@ -216,6 +216,50 @@ Evaluer la tolerance au risque reelle (et non declaree) selon trois dimensions :
 17. Mettre en place des nudges personnels (automatisation du rebalancement, DCA automatique).
 18. Revue trimestrielle complete du systeme comportemental avec calibration des probabilites.
 
+## Modèle de maturité
+
+### Niveau 1 — Inconscient
+- Les biais cognitifs ne sont pas identifiés ni même connus
+- Les décisions de trading sont prises de manière purement intuitive et émotionnelle
+- Aucun journal de trading ni processus de revue des décisions
+- **Indicateurs** : 0% des trades suivent un plan écrit, aucune mesure du drawdown émotionnel
+
+### Niveau 2 — Sensibilisé
+- Les principaux biais (loss aversion, confirmation, FOMO) sont connus théoriquement
+- Un journal de trading est initié mais rempli de manière irrégulière
+- Le revenge trading est fréquent après les périodes de pertes
+- **Indicateurs** : < 30% des trades suivent le plan, fréquence de revenge trading > 2 épisodes/mois
+
+### Niveau 3 — Structuré
+- Une pre-trade checklist est systématiquement utilisée avant chaque position
+- Le journal de trading est tenu quotidiennement avec auto-évaluation émotionnelle
+- Les règles de stop-loss et de sizing sont respectées dans la majorité des cas
+- **Indicateurs** : 50-70% des trades suivent le plan, score journal de trading > 6/10
+
+### Niveau 4 — Discipliné
+- Les biais sont identifiés en temps réel et les techniques de debiasing sont appliquées automatiquement
+- Le revenge trading est quasi éliminé grâce aux règles mécaniques de pause
+- Les revues hebdomadaires de performance comportementale sont systématiques
+- **Indicateurs** : > 85% des trades suivent le plan, drawdown émotionnel < 5% du capital
+
+### Niveau 5 — Maîtrisé
+- Le processus de décision est entièrement systématisé avec des garde-fous comportementaux intégrés
+- La calibration probabiliste est régulièrement pratiquée et mesurée (Brier score)
+- Le trader sert de mentor et d'accountability partner pour d'autres traders
+- **Indicateurs** : > 95% des trades suivent le plan, revenge trading = 0, score journal > 9/10
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Quotidien** | Journaling post-session : émotion, biais détectés, qualité du processus | Trader | Entrée journal de trading |
+| **Hebdomadaire** | Revue du journal de trading + identification des biais récurrents | Trader | Rapport hebdomadaire de biais |
+| **Hebdomadaire** | Bias check croisé avec accountability partner | Trader / Mentor | Feedback comportemental |
+| **Mensuel** | Performance attribution comportementale (% trades conformes au plan) | Trader | Scorecard mensuelle |
+| **Trimestriel** | Revue complète du plan de trading et ajustement des garde-fous | Trader / Coach | Plan de trading mis à jour |
+| **Semestriel** | Calibration probabiliste et mesure du Brier score | Trader | Rapport de calibration |
+| **Annuel** | Bilan psychologique complet + définition des objectifs comportementaux | Trader / Psychologue | Bilan annuel + objectifs N+1 |
+
 ## State of the Art (2025-2026)
 
 La finance comportementale s'outille et se digitalise :

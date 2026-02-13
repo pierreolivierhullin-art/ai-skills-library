@@ -180,6 +180,50 @@ Appliquer le processus en 6 etapes de Cole Nussbaumer Knaflic :
 20. Etendre le programme aux nouvelles equipes, filiales et partenaires.
 
 
+## Modèle de maturité
+
+### Niveau 1 — Analphabète
+- Les collaborateurs ne savent pas lire un graphique ni interpréter des métriques de base
+- Aucun programme de formation data, les décisions reposent sur l'intuition ou l'anecdote
+- Pas d'outil de self-service analytics, les données sont accessibles uniquement via l'équipe IT
+- **Indicateurs** : < 5% de collaborateurs formés aux fondamentaux data, adoption self-service = 0%
+
+### Niveau 2 — Sensibilisé
+- Sensibilisation initiale aux données avec des formations ponctuelles pour les managers
+- Les collaborateurs peuvent lire des dashboards simples mais ne questionnent pas les données
+- Un ou deux outils BI déployés avec une adoption limitée aux équipes analytiques
+- **Indicateurs** : 10-25% de collaborateurs formés, adoption self-service < 15%
+
+### Niveau 3 — Autonome
+- Programme de formation structuré par niveaux (Reader, Communicator, Analyst) déployé
+- Les utilisateurs métier explorent les données de manière autonome via des datasets certifiés
+- Data champions identifiés dans chaque département, data clinics régulières en place
+- **Indicateurs** : 40-60% de collaborateurs formés, adoption self-service > 40%, qualité des présentations data évaluée
+
+### Niveau 4 — Ambassadeur
+- Réseau d'ambassadeurs data actif qui forme et accompagne leurs pairs au quotidien
+- Les présentations exécutives appliquent systématiquement les principes de data storytelling
+- Self-service analytics mature avec semantic layer, métriques certifiées et gouvernance
+- **Indicateurs** : 70-85% de collaborateurs formés, adoption self-service > 65%, data-driven decisions ratio > 60%
+
+### Niveau 5 — Data-driven Culture
+- La data literacy est un prérequis pour tous les postes, intégrée dans les parcours d'onboarding
+- Chaque décision stratégique est documentée par des données avec traçabilité complète
+- Innovation data bottom-up avec des initiatives data portées par les métiers eux-mêmes
+- **Indicateurs** : > 90% de collaborateurs formés, adoption self-service > 85%, data-driven decisions ratio > 80%
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Data tips et micro-learning (newsletter, Slack, intranet) | Data Champion | Contenu de micro-formation publié |
+| **Hebdomadaire** | Data clinic ouverte (revue de dashboards et analyses) | Data Analyst + Data Champion | Feedback et améliorations documentés |
+| **Mensuel** | Session de formation data literacy (par niveau de compétence) | Data Literacy Lead | Attestation de participation et évaluation |
+| **Mensuel** | Revue des métriques d'adoption self-service et d'usage BI | Data Analyst | Rapport d'adoption et recommandations |
+| **Trimestriel** | Évaluation de la maturité data culture (survey + métriques) | Data Literacy Lead + RH | Scorecard de maturité et plan d'action |
+| **Trimestriel** | Atelier de data storytelling et best practices de visualisation | Data Champion + Communication | Bibliothèque d'exemples mise à jour |
+| **Annuel** | Actualisation du plan de formation data literacy et certifications | Data Literacy Lead + RH + CDO | Plan de formation annuel et budget certifications |
+
 ## State of the Art (2025-2026)
 
 La data literacy s'accélère avec l'IA et les nouvelles réglementations :

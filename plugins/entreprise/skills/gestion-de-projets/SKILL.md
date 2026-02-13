@@ -196,6 +196,50 @@ Choisir le framework de priorisation adapte au contexte :
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Ad-hoc
+- Les projets sont gérés de manière informelle, sans méthodologie ni outillage commun
+- Les estimations sont approximatives et les délais rarement respectés
+- Pas de PMO ni de visibilité sur le portefeuille de projets
+- **Indicateurs** : on-time delivery < 30 %, budget variance > 40 %, pas de mesure de velocity
+
+### Niveau 2 — Planifié
+- Une méthodologie projet est choisie et appliquée (Waterfall ou Scrum basique)
+- Les projets ont une charte, un planning et un suivi régulier des jalons
+- Les risques sont identifiés en début de projet mais peu mis à jour ensuite
+- **Indicateurs** : on-time delivery 30-50 %, budget variance 20-40 %, satisfaction stakeholders mesurée ponctuellement
+
+### Niveau 3 — Standardisé
+- Un PMO est en place avec des templates, des processus et des outils communs à l'organisation
+- Les métriques de flux (lead time, cycle time, throughput) sont suivies en complément des métriques traditionnelles
+- La priorisation du portefeuille est formalisée (RICE, WSJF, Weighted Scoring)
+- **Indicateurs** : on-time delivery 50-70 %, budget variance 10-20 %, velocity stable et prévisible
+
+### Niveau 4 — Piloté
+- La gouvernance de portefeuille est mature avec une allocation dynamique des ressources
+- La conduite du changement est intégrée dans chaque projet avec des change champions actifs
+- Les bénéfices sont suivis post-implémentation avec un benefits tracking register
+- **Indicateurs** : on-time delivery 70-85 %, budget variance < 10 %, satisfaction stakeholders > 80 %
+
+### Niveau 5 — Agile mature
+- L'agilité est déployée à l'échelle avec des pratiques adaptées au contexte (SAFe, LeSS, ou modèle sur-mesure)
+- L'IA augmente le pilotage projet (estimation automatique, détection de risques, optimisation du planning)
+- La culture d'amélioration continue est ancrée avec des rétrospectives actionnables et des communities of practice
+- **Indicateurs** : on-time delivery > 85 %, budget variance < 5 %, satisfaction stakeholders > 90 %, time-to-value réduit de 30 %+
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Standup / sprint review — avancement et blocages | Scrum Master / Chef de Projet | Burndown chart + actions de déblocage |
+| **Hebdomadaire** | Suivi des risques et escalade des alertes projet | Chef de Projet | Risk register mis à jour |
+| **Mensuel** | Portfolio review — état des projets et arbitrages de ressources | Directeur PMO | Tableau de bord portefeuille |
+| **Mensuel** | Revue de la capacité et du staffing des équipes projet | Directeur PMO + DRH | Plan de charge actualisé |
+| **Trimestriel** | Rétrospective PMO et amélioration des pratiques | Directeur PMO | Plan d'amélioration méthodologique |
+| **Trimestriel** | Revue des bénéfices réalisés vs attendus | Sponsors + PMO | Bilan des bénéfices par programme |
+| **Annuel** | Revue méthodologique et mise à jour du référentiel projet | Directeur PMO + DG | Référentiel méthodologique actualisé |
+
 ## State of the Art (2025-2026)
 
 La gestion de projet évolue vers plus d'agilité et d'intelligence artificielle :

@@ -189,6 +189,38 @@ Premiere experience ? → Toxiproxy en staging → Game Day manuel → Litmus en
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Manuel
+- Tests manuels comme stratégie principale, pas d'automatisation ni de CI
+- Aucun SLO défini, incidents découverts par les utilisateurs
+- Pas de processus de qualité formalisé, releases basées sur la confiance subjective
+- **Indicateurs** : test automation < 10%, incident frequency > 5/mois, MTTR > 4h
+
+### Niveau 2 — Automatisé
+- Pyramide de tests en place (unitaires, intégration, e2e smoke), CI exécutant les tests sur chaque PR
+- Quality gates basiques (couverture min, zéro test en échec), régression visuelle sur les composants critiques
+- Premiers SLOs définis, monitoring basique des erreurs (Sentry)
+- **Indicateurs** : test automation 30-50%, incident frequency 3-5/mois, MTTR 2-4h
+
+### Niveau 3 — Intégré
+- Playwright comme standard e2e, contract testing (Pact) pour les APIs inter-services
+- Performance budgets enforced en CI (Lighthouse, taille bundles), load testing régulier (k6)
+- SLOs opérationnels avec error budgets, post-mortems blameless systématiques
+- **Indicateurs** : test automation 50-75%, incident frequency 1-3/mois, MTTR 1-2h, error budget consumption < 50%
+
+### Niveau 4 — Résilient
+- Chaos engineering intégré (Game Days trimestriels, Litmus en staging)
+- Mutation testing (Stryker) pour valider la qualité des tests, shift-left security et performance
+- Error budget policies actives, resilience patterns déployés (circuit breaker, bulkhead, retry)
+- **Indicateurs** : test automation 75-90%, incident frequency < 1/mois, MTTR < 30min, error budget consumption < 30%
+
+### Niveau 5 — Anti-fragile
+- Chaos engineering continu en production, self-healing automatisé sur les pannes connues
+- AI-powered testing (génération de tests, impact analysis), zero flaky tests
+- Le système s'améliore après chaque incident, capacity planning prédictif, DR testé automatiquement
+- **Indicateurs** : test automation > 90%, incident frequency < 1/trimestre, MTTR < 15min, error budget consumption < 10%
+
 ## Rythme opérationnel
 
 | Cadence | Activité | Responsable | Livrable |

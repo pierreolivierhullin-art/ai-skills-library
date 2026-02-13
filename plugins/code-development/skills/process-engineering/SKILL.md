@@ -156,6 +156,38 @@ Follow this workflow when designing or improving engineering processes:
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Ad-hoc
+- Pas de processus de développement formalisé, chaque développeur travaille selon ses habitudes
+- Aucune documentation technique ni standard de code partagé
+- Pas de métriques d'ingénierie, estimation au doigt mouillé
+- **Indicateurs** : DORA metrics non mesurées, developer satisfaction non évaluée
+
+### Niveau 2 — Documenté
+- Processus agile en place (sprints, daily, retro), Definition of Done définie
+- Coding standards documentés, linter et formatter configurés en CI
+- README par service, documentation de base (API specs), onboarding en quelques jours
+- **Indicateurs** : deployment frequency hebdomadaire, lead time 1-2 semaines, documentation coverage > 40%
+
+### Niveau 3 — Mesuré
+- DORA metrics collectées et visibles (deployment frequency, lead time, CFR, MTTR)
+- Cycle time tracké, PRs limitées en taille, code review structurée avec checklist
+- Documentation-as-code (ADR, OpenAPI, Mermaid), devcontainers pour l'onboarding < 30min
+- **Indicateurs** : deployment frequency quotidienne, lead time < 1 semaine, cycle time < 3 jours, documentation coverage > 60%
+
+### Niveau 4 — Optimisé
+- SPACE framework déployé, DX surveys trimestrielles avec plan d'action
+- Internal Developer Portal (Backstage/Port), golden paths pour les nouveaux services
+- AI-augmented workflows (code review, documentation, test generation), engineering OKRs
+- **Indicateurs** : deployment frequency multi-quotidienne, lead time < 1 jour, developer satisfaction > 75%, documentation coverage > 80%
+
+### Niveau 5 — Continuous Improvement
+- Culture d'amélioration continue : chaque processus a un owner, des métriques et une cadence de revue
+- Platform engineering mature, self-serve pour 90% des besoins développeur
+- Inner source actif, partage cross-équipe systématique, innovation processus continue
+- **Indicateurs** : DORA metrics Elite (toutes les 4), developer satisfaction > 85%, cycle time < 1 jour, documentation coverage > 90%
+
 ## Rythme opérationnel
 
 | Cadence | Activité | Responsable | Livrable |

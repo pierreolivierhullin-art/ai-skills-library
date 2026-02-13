@@ -185,6 +185,50 @@ Suivre cette hierarchie de conformite :
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Ad-hoc
+- Design réalisé au cas par cas sans guidelines ni composants réutilisables
+- Accessibilité ignorée, pas de tests utilisateurs, pas de design tokens
+- CSS non structuré, incohérences visuelles entre les pages et les équipes
+- **Indicateurs** : design system adoption 0%, accessibility score < 30%
+
+### Niveau 2 — Consistant
+- Bibliothèque de composants de base (boutons, inputs, typographie) dans Figma et code
+- Conventions visuelles établies (couleurs, spacing, typographie), CSS structuré (Tailwind ou Modules)
+- Accessibilité basique (contraste, alt text), premiers tests d'utilisabilité ad hoc
+- **Indicateurs** : design system adoption 20-40%, accessibility score 40-60%, Core Web Vitals partiellement verts
+
+### Niveau 3 — Design System
+- Design system complet avec design tokens (W3C), Storybook documenté, pipeline Figma-to-code
+- Composants headless accessibles (Radix, Ark UI), atomic design structuré (atoms, molecules, organisms)
+- Tests de régression visuelle en CI, Core Web Vitals optimisés, responsive mobile-first
+- **Indicateurs** : design system adoption 40-70%, accessibility score 60-80% (WCAG AA partiel), Core Web Vitals verts
+
+### Niveau 4 — User-centered
+- Recherche utilisateur intégrée au cycle produit (interviews, usability tests réguliers)
+- Design system gouverné avec processus de contribution (RFC, review, changelog semver)
+- Accessibilité WCAG 2.2 AA validée, tests avec technologies d'assistance réelles (VoiceOver, NVDA)
+- **Indicateurs** : design system adoption 70-90%, accessibility score > 85%, user satisfaction (SUS) > 70
+
+### Niveau 5 — Experience-driven
+- UX pilotée par les données : métriques d'engagement, heatmaps, session replay, A/B tests sur les parcours
+- Design system multi-plateforme (web, mobile, desktop) avec tokens propagés automatiquement
+- Conformité EAA/WCAG AAA sur les parcours critiques, innovation UX continue (View Transitions, micro-interactions)
+- **Indicateurs** : design system adoption > 90%, accessibility score > 95%, Core Web Vitals top 10%, user satisfaction (SUS) > 80
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Design review (revue des maquettes, composants et interactions en cours) | Design Lead / Tech Lead | Feedback documenté + décisions UX actées |
+| **Hebdomadaire** | Revue des Core Web Vitals et métriques UX (LCP, INP, CLS, taux d'erreur UI) | Frontend Lead | Dashboard performance UX + régressions identifiées |
+| **Mensuel** | Session d'usability testing (minimum 5 participants, parcours critiques) | UX Researcher / Designer | Rapport usability + recommandations priorisées |
+| **Mensuel** | Revue d'adoption du design system (composants utilisés, déviations, nouvelles demandes) | Design System Lead | Rapport adoption + backlog composants |
+| **Trimestriel** | Audit d'accessibilité (automatisé axe-core + manuel clavier/lecteur d'écran) | Frontend Lead / QA | Rapport accessibilité + plan de remédiation |
+| **Trimestriel** | Revue UX stratégique (parcours utilisateur, pain points, opportunités) | Head of Design / Product | Roadmap UX trimestrielle |
+| **Annuel** | Revue du design system (évolutions, dépréciations, roadmap multi-plateforme) | Design System Lead / Engineering Manager | Plan d'évolution design system annuel |
+
 ## State of the Art (2025-2026)
 
 Le design d'interface et l'expérience utilisateur évoluent rapidement :

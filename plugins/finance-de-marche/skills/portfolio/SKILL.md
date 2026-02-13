@@ -181,6 +181,50 @@ Le modele a 3 facteurs (1993) ajoute size (SMB) et value (HML) au facteur marche
 16. Realiser un stress test trimestriel (scenarios historiques : 2008, 2020, 2022 ; scenarios hypothetiques : hausse de taux +300bps, recession, choc geopolitique).
 17. Reviser l'IPS annuellement ou lors de changements de situation (mariage, retraite, heritage).
 
+## Modèle de maturité
+
+### Niveau 1 — Intuitif
+- Les décisions d'investissement sont basées sur des conseils informels ou des tendances médiatiques
+- Aucune allocation d'actifs formelle ni diversification structurée
+- Pas de suivi de performance ni de métriques de risque
+- **Indicateurs** : Sharpe ratio non mesuré, aucune discipline de rebalancing
+
+### Niveau 2 — Structuré
+- Un Investment Policy Statement (IPS) basique est défini avec une allocation cible
+- Le portefeuille est diversifié sur les principales classes d'actifs (actions, obligations, cash)
+- Le rebalancing est effectué annuellement ou lors de déviations majeures
+- **Indicateurs** : Sharpe ratio suivi, tracking error < 10%, rebalancing 1-2 fois/an
+
+### Niveau 3 — Optimisé
+- L'allocation est optimisée via des modèles mean-variance ou risk parity
+- Le tax-loss harvesting est pratiqué de manière opportuniste
+- Les métriques de performance (Sharpe, Sortino, max drawdown) sont suivies mensuellement
+- **Indicateurs** : Sharpe ratio > 0.5, tracking error < 5%, tax efficiency ratio > 85%
+
+### Niveau 4 — Quantitatif
+- L'allocation intègre les facteurs de risque (Fama-French, momentum, quality)
+- Le rebalancing est systématique par bandes avec optimisation fiscale intégrée
+- Le stress testing est conduit trimestriellement avec des scénarios historiques et hypothétiques
+- **Indicateurs** : Sharpe ratio > 0.8, tracking error < 3%, rebalancing discipline > 90%
+
+### Niveau 5 — Institutionnel
+- Le processus de gestion est entièrement institutionnalisé avec gouvernance, comité d'investissement et audit
+- L'attribution de performance Brinson-Fachler est systématique avec décomposition complète
+- L'intégration ESG, la gestion du risque climatique et la conformité réglementaire sont pleinement opérationnelles
+- **Indicateurs** : Sharpe ratio > 1.0, tax efficiency ratio > 95%, information ratio positif et stable
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Quotidien** | Suivi de marché et vérification des alertes de drift significatif | Portfolio Manager | Alerte de dépassement de bande |
+| **Hebdomadaire** | Revue de marché + vérification du drift d'allocation vs cibles | Portfolio Manager | Note de marché hebdomadaire |
+| **Mensuel** | Performance reporting + rebalancing si seuils dépassés | Portfolio Manager | Rapport de performance mensuel |
+| **Mensuel** | Revue des flux entrants/sortants et impact sur l'allocation | Gestionnaire de Patrimoine | Plan de déploiement des flux |
+| **Trimestriel** | Revue de l'allocation stratégique + tax-loss harvesting | Portfolio Manager / Conseiller Fiscal | Rapport trimestriel + opérations TLH |
+| **Trimestriel** | Stress testing du portefeuille (scénarios 2008, 2020, 2022, taux +300bps) | Risk Manager | Rapport de stress test |
+| **Annuel** | Revue complète de l'IPS + mise à jour de l'allocation stratégique | Comité d'Investissement | IPS révisé + allocation N+1 |
+
 ## State of the Art (2025-2026)
 
 La gestion de portefeuille se modernise :

@@ -215,6 +215,50 @@ Le framework AARRR structure le funnel de croissance en 5 etapes :
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Réactif
+- Le marketing fonctionne au coup par coup, sans stratégie formalisée ni budget structuré
+- Pas de tracking ni d'attribution ; les décisions reposent sur l'intuition
+- Les campagnes sont lancées sans hypothèse mesurable ni objectif chiffré
+- **Indicateurs** : CAC inconnu, pas de mesure du LTV/CAC, attribution inexistante
+
+### Niveau 2 — Structuré
+- Un plan marketing annuel existe avec des canaux et budgets définis
+- Le tracking de base est en place (GA4, UTMs) et les KPIs principaux sont suivis mensuellement
+- Les buyer personas et l'ICP sont documentés mais peu actualisés
+- **Indicateurs** : CAC mesuré par canal, LTV/CAC entre 1:1 et 2:1, attribution last-click
+
+### Niveau 3 — Data-driven
+- Les décisions marketing sont fondées sur des données fiables et un modèle d'attribution multi-touch
+- Un programme d'expérimentation est en place (A/B tests, backlog ICE/RICE) avec cadence hebdomadaire
+- Le MarTech stack est intégré (CRM, automation, analytics) avec lead scoring opérationnel
+- **Indicateurs** : LTV/CAC > 3:1, attribution multi-touch, marketing ROI mesuré par canal
+
+### Niveau 4 — Optimisé
+- L'allocation budgétaire est optimisée dynamiquement selon les performances par cohorte et canal
+- Les growth loops produit (referral, viral) complètent les canaux payants
+- Les SLA Marketing-Sales sont formalisés et respectés avec un RevOps structuré
+- **Indicateurs** : LTV/CAC > 4:1, CAC payback < 12 mois, forecast marketing fiable à ± 10 %
+
+### Niveau 5 — Prédictif
+- L'IA pilote l'optimisation des campagnes, la personnalisation à grande échelle et la prédiction du churn
+- Le marketing est un centre de profit mesurable avec un modèle d'attribution incrémental validé
+- L'expérimentation est systématique sur le pricing, le messaging et les canaux émergents
+- **Indicateurs** : LTV/CAC > 5:1, attribution accuracy > 85 %, marketing ROI temps réel
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue des performances campagnes et expérimentations | Growth Manager | Dashboard campagnes + résultats tests |
+| **Hebdomadaire** | Suivi du pipeline MQL/SQL et alignement avec les Sales | CMO + Directeur Commercial | Rapport pipeline + actions correctives |
+| **Mensuel** | Revue du funnel complet et analyse de conversion par étape | CMO | Rapport funnel + recommandations d'optimisation |
+| **Mensuel** | Analyse des cohortes d'acquisition et optimisation budgétaire | Head of Acquisition | Tableau d'allocation budget par canal |
+| **Trimestriel** | Audit de marque et analyse concurrentielle | CMO + Brand Manager | Rapport d'audit marque + battlecards actualisées |
+| **Trimestriel** | Revue de la stratégie GTM et ajustement du plan | CMO + CPO | Plan GTM trimestriel mis à jour |
+| **Annuel** | Construction du plan marketing annuel et budget | CMO + DG | Plan marketing annuel + budget détaillé |
+
 ## State of the Art (2025-2026)
 
 Le marketing connaît une transformation profonde portée par l'IA et l'évolution des comportements :

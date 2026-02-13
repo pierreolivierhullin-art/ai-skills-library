@@ -154,6 +154,38 @@ Suivre ce workflow pour toute initiative d'amélioration de la qualité du code 
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Chaotique
+- Pas de conventions de code ni de linter, style de code variable selon les développeurs
+- Tests absents ou anecdotiques, pas de processus de code review formalisé
+- Dette technique accumulée sans inventaire ni plan de remboursement
+- **Indicateurs** : PR cycle time > 5 jours, test coverage < 20%
+
+### Niveau 2 — Basique
+- Linter et formatter configurés (ESLint, Prettier), conventions de nommage établies
+- Tests unitaires présents sur la logique métier critique, code review obligatoire sur chaque PR
+- Dette technique identifiée mais non priorisée, PRs de taille variable
+- **Indicateurs** : PR cycle time 2-5 jours, test coverage 20-50%, tech debt ratio non mesuré
+
+### Niveau 3 — Discipliné
+- Principes SOLID appliqués, quality gates en CI (couverture min, complexité max, zéro code smell bloquant)
+- TDD pratiqué pour la logique métier complexe, revues de code structurées avec checklist
+- Dette technique inventoriée et priorisée, PRs limitées à 200-400 lignes
+- **Indicateurs** : PR cycle time 1-2 jours, test coverage 50-75%, tech debt ratio mesuré et en baisse
+
+### Niveau 4 — Maîtrisé
+- Trunk-based development avec feature flags, mutation testing pour évaluer la qualité des tests
+- Revue assistée par IA en premier filtre, pair/mob programming régulier
+- Sessions de refactoring planifiées (20% du sprint), métriques de qualité suivies mensuellement
+- **Indicateurs** : PR cycle time < 1 jour, test coverage > 80%, code review depth > 3 commentaires/PR
+
+### Niveau 5 — Exemplaire
+- Culture d'excellence technique : Boy Scout Rule systématique, ADR pour chaque décision architecturale
+- Property-based testing et contract testing généralisés, zero flaky tests
+- Innovation continue sur les pratiques (nouveaux patterns, outils, formations), partage cross-équipe
+- **Indicateurs** : PR cycle time < 4h, test coverage > 90%, tech debt ratio < 5%, mutation score > 80%
+
 ## Rythme opérationnel
 
 | Cadence | Activité | Responsable | Livrable |

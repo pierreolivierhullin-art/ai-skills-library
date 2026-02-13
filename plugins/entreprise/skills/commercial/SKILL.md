@@ -158,6 +158,50 @@ Investir dans la formation et l'outillage continus des equipes commerciales. Les
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Opportuniste
+- Les ventes reposent sur le réseau personnel et les opportunités entrantes sans processus formalisé
+- Pas de CRM structuré ; le pipeline est géré dans des fichiers Excel ou la tête des commerciaux
+- Aucune méthodologie de vente n'est appliquée de manière systématique
+- **Indicateurs** : taux de conversion inconnu, cycle de vente non mesuré, forecast inexistant
+
+### Niveau 2 — Processé
+- Un CRM est déployé avec des étapes de pipeline définies et respectées
+- Une méthodologie de vente est choisie (BANT, SPIN) et appliquée sur les deals principaux
+- Les métriques de base sont suivies (win rate, taille moyenne des deals, cycle de vente)
+- **Indicateurs** : taux de conversion > 15 %, cycle de vente mesuré, forecast accuracy < 50 %
+
+### Niveau 3 — Piloté
+- La qualification rigoureuse (MEDDPICC) est appliquée systématiquement sur chaque opportunité
+- Les sales reviews hebdomadaires pilotent le pipeline avec des critères de progression objectifs
+- Le coaching commercial est structuré (call reviews, deal clinics) et régulier
+- **Indicateurs** : taux de conversion 20-25 %, forecast accuracy 50-70 %, revenue per rep en croissance
+
+### Niveau 4 — Optimisé
+- Le RevOps aligne Marketing, Sales et CS avec des métriques partagées et des handoffs formalisés
+- Les séquences de prospection multicanal sont optimisées par les données (taux de réponse, conversion)
+- Le sales enablement est mature (battlecards, ROI calculators, conversation intelligence)
+- **Indicateurs** : taux de conversion 25-35 %, forecast accuracy 70-85 %, pipeline coverage > 3,5x
+
+### Niveau 5 — Prédictif
+- L'IA assiste les commerciaux en temps réel (scoring, next best action, coaching automatisé)
+- Le forecasting est piloté par des modèles prédictifs combinant signaux d'achat et données CRM
+- La machine commerciale est reproductible et scalable avec des playbooks par segment
+- **Indicateurs** : taux de conversion > 30 %, forecast accuracy > 85 %, revenue per rep au benchmark top quartile
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Pipeline review — revue des opportunités et next steps | Directeur Commercial | Rapport pipeline + forecast mis à jour |
+| **Hebdomadaire** | Deal clinic — coaching sur les deals stratégiques | Sales Manager | Actions de déblocage par deal |
+| **Mensuel** | Revue de performance commerciale (win/loss, conversion, velocity) | Directeur Commercial + RevOps | Tableau de bord commercial mensuel |
+| **Mensuel** | Analyse des séquences de prospection et optimisation | Head of SDR | Rapport taux de réponse + ajustements séquences |
+| **Trimestriel** | Territory review et réallocation des comptes | Directeur Commercial + DG | Plan de territoire actualisé |
+| **Trimestriel** | Revue des plans de comptes stratégiques (KAM) | Directeur Commercial + KAM | Account plans mis à jour |
+| **Annuel** | Sales Kickoff — objectifs, stratégie, formation | DG + Directeur Commercial | Plan commercial annuel + quotas |
+
 ## State of the Art (2025-2026)
 
 La fonction commerciale est transformée par l'IA et l'automatisation :

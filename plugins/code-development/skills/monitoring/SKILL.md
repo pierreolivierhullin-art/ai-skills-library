@@ -176,6 +176,38 @@ START
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Aveugle
+- Pas de monitoring structuré, logs en stdout sans format ni corrélation
+- Découverte des incidents par les utilisateurs ou par hasard
+- Aucun SLO défini, pas de processus d'astreinte formalisé
+- **Indicateurs** : MTTD > 1h, MTTR > 4h, alert signal/noise ratio non mesuré
+
+### Niveau 2 — Réactif
+- Monitoring basique déployé (uptime checks, alertes CPU/mémoire/disque)
+- Logs centralisés mais non structurés, alertes à seuils statiques
+- Rotation d'astreinte en place, incidents traités au cas par cas sans post-mortem
+- **Indicateurs** : MTTD 30min-1h, MTTR 2-4h, alert signal/noise ratio < 50%
+
+### Niveau 3 — Observable
+- Trois piliers déployés (logs structurés JSON, métriques Prometheus/Datadog, traces OpenTelemetry)
+- SLOs définis pour les services critiques, alertes burn-rate implémentées
+- Dashboards hiérarchiques (overview, per-service, per-endpoint), runbooks liés aux alertes
+- **Indicateurs** : MTTD 10-30min, MTTR 1-2h, alert signal/noise ratio 50-70%, SLO compliance > 95%
+
+### Niveau 4 — Proactif
+- OTel Collector comme gateway central, tail-based sampling pour optimiser les coûts
+- Error budget policies actives, revue hebdomadaire SLO avec l'engineering leadership
+- Continuous profiling en production, post-mortems blameless systématiques avec suivi des actions
+- **Indicateurs** : MTTD 5-10min, MTTR 30min-1h, alert signal/noise ratio 70-85%, SLO compliance > 99%
+
+### Niveau 5 — Prédictif
+- Anomaly detection AI/ML sur les métriques clés, corrélation automatique des incidents
+- eBPF pour l'observabilité kernel sans overhead, chaos engineering avec validation observabilité
+- Observability-as-code (dashboards, alertes, SLOs versionnés), FinOps observabilité optimisé
+- **Indicateurs** : MTTD < 5min, MTTR < 30min, alert signal/noise ratio > 85%, SLO compliance > 99.5%
+
 ## Rythme opérationnel
 
 | Cadence | Activité | Responsable | Livrable |

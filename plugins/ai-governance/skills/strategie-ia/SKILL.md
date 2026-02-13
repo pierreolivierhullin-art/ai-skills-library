@@ -220,6 +220,50 @@ Calculer le ROI IA en integrant :
 24. Evoluer vers un modele d'organisation federe mature.
 25. Etablir un programme d'innovation IA continue (veille, experimentation, partenariats).
 
+## Modèle de maturité
+
+### Niveau 1 — Exploration
+- Expérimentations IA isolées sans vision stratégique ni sponsorship exécutif
+- Compétences IA dispersées, pas d'équipe dédiée ni de budget formalisé
+- Aucun use case en production, uniquement des PoC sans suivi de valeur
+- **Indicateurs** : 0 use cases en production, AI literacy score < 10%
+
+### Niveau 2 — Expérimentation
+- Premiers PoC déployés en production avec mesure de valeur initiale
+- Noyau d'équipe IA constitué (2-5 personnes), premiers budgets alloués
+- Stratégie IA embryonnaire alignée sur quelques objectifs métier prioritaires
+- **Indicateurs** : 1-3 use cases en production, ROI moyen IA non encore mesuré systématiquement
+
+### Niveau 3 — Industrialisation
+- Stratégie IA formalisée avec roadmap pluriannuelle et portefeuille de use cases priorisé
+- AI CoE opérationnel, pipeline MLOps de base en place, registre de modèles actif
+- Programme d'AI literacy lancé couvrant dirigeants, managers et équipes métier
+- **Indicateurs** : 5-15 use cases en production, ROI moyen IA > 1.5x, maturité MLOps niveau 2
+
+### Niveau 4 — Optimisation
+- Portefeuille IA géré avec revue trimestrielle du ROI et réallocation des investissements
+- MLOps mature avec CI/CD modèles, monitoring de drift et re-entraînement automatisé
+- Culture IA diffusée avec réseau d'AI Champions et AI literacy > 50% des collaborateurs
+- **Indicateurs** : 15-50 use cases en production, ROI moyen IA > 3x, maturité MLOps niveau 3-4, AI literacy score > 50%
+
+### Niveau 5 — IA-native
+- L'IA est un avantage compétitif structurel intégré dans chaque processus métier critique
+- Innovation IA continue avec agents autonomes, GenAI strategy et produits AI-native
+- Organisation apprenante avec responsible scaling et gouvernance proportionnée à chaque palier
+- **Indicateurs** : 50+ use cases en production, ROI moyen IA > 5x, maturité MLOps niveau 5, AI literacy score > 80%
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Standup projets IA (avancement, blocages, décisions) | AI Program Manager | Compte-rendu hebdo et backlog mis à jour |
+| **Hebdomadaire** | Veille technologique IA et partage d'insights | AI CoE Lead | Newsletter interne IA |
+| **Mensuel** | Revue de performance des modèles en production | ML Engineer + Data Scientist | Rapport de performance et alertes de drift |
+| **Mensuel** | Comité de gouvernance IA (validation déploiements, risques) | AI CoE Lead + Data Owner | PV de comité et décisions de go/no-go |
+| **Trimestriel** | Revue du portefeuille IA et mesure du ROI | AI CoE Lead + CFO | Scorecard portefeuille IA et ROI par use case |
+| **Trimestriel** | Évaluation de la maturité IA et plan d'action | AI CoE Lead + COMEX sponsor | Rapport de maturité et axes de progrès |
+| **Annuel** | Actualisation de la stratégie IA et roadmap pluriannuelle | CDO / CTO + COMEX | Stratégie IA et roadmap à 3 ans actualisées |
+
 ## State of the Art (2025-2026)
 
 La stratégie IA entre dans une phase de maturité opérationnelle :

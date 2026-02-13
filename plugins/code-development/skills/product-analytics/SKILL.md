@@ -188,6 +188,50 @@ START
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Aveugle
+- Pas de tracking plan, événements instrumentés ad hoc sans convention de nommage
+- Métriques limitées aux page views et utilisateurs inscrits (vanity metrics)
+- Aucun processus d'expérimentation, décisions basées sur l'intuition
+- **Indicateurs** : event coverage < 20%, experiment velocity = 0/mois
+
+### Niveau 2 — Instrumenté
+- Tracking plan structuré avec convention object-action, SDK analytics déployé
+- Métriques AARRR définies, dashboards de base (DAU/MAU, funnels principaux)
+- Consentement RGPD géré, premiers événements server-side pour les conversions critiques
+- **Indicateurs** : event coverage 20-50%, data trust score > 60%, experiment velocity 1-2/mois
+
+### Niveau 3 — Analytique
+- North Star Metric définie et décomposée en input metrics, retention par cohortes
+- Funnels d'activation et de conversion instrumentés et optimisés, segmentation utilisateurs
+- Dashboards automatisés envoyés aux équipes produit, tracking plan versionné
+- **Indicateurs** : event coverage 50-75%, data trust score > 75%, experiment velocity 3-5/mois
+
+### Niveau 4 — Expérimental
+- Feature flags généralisés, A/B tests systématiques avec hypothèse et sample size calculé
+- Guardrail metrics définies, sequential testing ou bayesian analysis implémenté
+- Warehouse-native analytics, reverse ETL pour activer les données dans les outils produit
+- **Indicateurs** : event coverage 75-90%, experiment velocity 5-10/mois, data trust score > 85%
+
+### Niveau 5 — Data-driven
+- Culture d'expérimentation : toute release majeure derrière un experiment, self-serve analytics
+- Anomaly detection automatique sur les métriques clés, causal inference et long-term holdouts
+- Tracking plan-as-code validé en CI, AI-powered insights intégrés au workflow produit
+- **Indicateurs** : event coverage > 90%, experiment velocity > 10/mois, data trust score > 95%
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue des métriques produit (North Star, activation, engagement, rétention) | Product Manager / Data Analyst | Dashboard métriques hebdo + insights actionnables |
+| **Hebdomadaire** | Revue des expériences en cours (A/B tests, feature flags, résultats intermédiaires) | Product Manager / Data Scientist | Statut experiments + décisions go/no-go |
+| **Mensuel** | Analyse de funnel approfondie (activation, conversion, churn) par cohorte et segment | Data Analyst / Product Manager | Rapport funnel + recommandations d'optimisation |
+| **Mensuel** | Revue de la qualité des données (événements manquants, doublons, drifts de schéma) | Data Engineer / Analytics Engineer | Rapport qualité données + corrections planifiées |
+| **Trimestriel** | Audit du tracking plan (événements morts, schéma à jour, couverture features) | Analytics Engineer / Product Manager | Tracking plan nettoyé et mis à jour |
+| **Trimestriel** | Revue de la stratégie d'expérimentation (vélocité, win rate, learnings) | Head of Product / Data Science | Bilan expérimentation + objectifs trimestriels |
+| **Annuel** | Revue de la stratégie analytics (stack, gouvernance, maturité, roadmap) | VP Product / Head of Data | Plan analytics annuel + évolutions de stack |
+
 ## State of the Art (2025-2026)
 
 L'analytics produit se sophistique et se responsabilise :

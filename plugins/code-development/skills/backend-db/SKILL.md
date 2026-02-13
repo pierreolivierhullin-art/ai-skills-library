@@ -189,6 +189,50 @@ Flux de donnees unidirectionnel serveur -> client ?
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Ad-hoc
+- Schéma de base de données conçu sans modélisation préalable, pas de conventions de nommage
+- Requêtes SQL écrites en concaténation de chaînes, pas d'ORM ni de query builder type-safe
+- Migrations manuelles en production, pas de versionning du schéma
+- **Indicateurs** : query p95 latency > 1s, migration success rate < 80%
+
+### Niveau 2 — Structuré
+- Schéma normalisé (3NF) avec diagramme ERD documenté, conventions de nommage établies
+- ORM type-safe configuré (Prisma ou Drizzle), requêtes paramétrées systématiques
+- Migrations versionnées et appliquées via CI/CD, backups automatiques quotidiens
+- **Indicateurs** : query p95 latency < 500ms, migration success rate > 95%, index coverage > 50%
+
+### Niveau 3 — Optimisé
+- Index stratégiques basés sur EXPLAIN ANALYZE, vues matérialisées pour les dashboards
+- Connection pooling configuré (PgBouncer/Supavisor), caching Redis pour les données chaudes
+- RLS actif sur les tables multi-tenant, tests de migration sur copies de production
+- **Indicateurs** : query p95 latency < 200ms, migration success rate > 99%, connection pool utilization < 80%
+
+### Niveau 4 — Scalable
+- Partitionnement et read replicas déployés, monitoring pg_stat_statements actif
+- CQRS appliqué sur les cas justifiés, pagination par curseur généralisée
+- Database branching pour les environnements de preview, observabilité des requêtes intégrée
+- **Indicateurs** : query p95 latency < 100ms, index coverage > 80%, zero downtime migrations
+
+### Niveau 5 — Cloud-native
+- Architecture multi-base adaptée aux cas d'usage (relationnelle, vectorielle, cache, time-series)
+- Auto-scaling serverless (Neon, Supabase), edge databases pour la latence minimale
+- Chaos testing sur la couche données, capacity planning automatisé, DR testé trimestriellement
+- **Indicateurs** : query p95 latency < 50ms, migration success rate 100%, connection pool utilization optimisée dynamiquement
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue des slow queries (pg_stat_statements, EXPLAIN ANALYZE) | DBA / Tech Lead | Top 10 requêtes lentes + plan d'optimisation |
+| **Hebdomadaire** | Vérification des backups et tests de restauration aléatoires | DBA / SRE | Rapport backup + test restore validé |
+| **Mensuel** | Optimisation des index (index inutilisés, index manquants, bloat) | DBA / Backend Engineer | Rapport indexation + actions correctives |
+| **Mensuel** | Revue des métriques de performance (connection pool, cache hit ratio, latence) | DBA / Tech Lead | Dashboard performance à jour |
+| **Trimestriel** | Revue du schéma (normalisation, cohérence, évolutions nécessaires) | Architecte / DBA | Schema review documenté + migrations planifiées |
+| **Trimestriel** | Test de disaster recovery (failover, restauration point-in-time) | SRE / DBA | Rapport DR + temps de restauration mesuré |
+| **Annuel** | Revue de l'architecture base de données (choix technologiques, scaling, coûts) | Architecte / Engineering Manager | Plan d'évolution architecture données |
+
 ## State of the Art (2025-2026)
 
 Le backend et les bases de données évoluent vers l'IA et la simplification :

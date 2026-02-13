@@ -158,6 +158,50 @@ Concevoir les operations pour la resilience, pas uniquement pour l'efficience ma
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Réactif
+- Les opérations fonctionnent en mode pompier, avec une gestion des problèmes au cas par cas
+- Pas de processus documentés ni de standards de travail ; la performance dépend des individus
+- Les KPIs opérationnels ne sont pas définis ou pas suivis régulièrement
+- **Indicateurs** : OEE < 40 %, taux de service < 80 %, lead time non mesuré
+
+### Niveau 2 — Documenté
+- Les processus clés sont documentés et les standards de travail (standard work) sont définis
+- Les fondations Lean sont en place (5S, management visuel, Gemba walks réguliers)
+- Les KPIs opérationnels de base sont suivis mensuellement avec une baseline établie
+- **Indicateurs** : OEE 40-60 %, taux de service 80-90 %, lead time mesuré et suivi, coût unitaire connu
+
+### Niveau 3 — Standardisé
+- Les méthodologies d'amélioration continue (Lean, DMAIC) sont déployées avec des Kaizen events réguliers
+- Le Daily Management System est en place (tier meetings, escalade structurée, management visuel)
+- Le S&OP est opérationnel avec une coordination formalisée entre demand planning et production
+- **Indicateurs** : OEE 60-75 %, taux de service 90-95 %, lead time réduit de 20 %+ vs baseline
+
+### Niveau 4 — Optimisé
+- La Theory of Constraints est appliquée pour identifier et exploiter les goulots d'étranglement
+- Le Lean Six Sigma est intégré avec des Green Belts et Black Belts internes autonomes
+- La supply chain est pilotée par une control tower avec visibilité end-to-end et alertes temps réel
+- **Indicateurs** : OEE 75-85 %, taux de service > 95 %, lead time best-in-class sectoriel, coût unitaire en réduction continue
+
+### Niveau 5 — Autonome
+- L'IoT et l'IA prédictive optimisent la maintenance, le contrôle qualité et les flux en temps réel
+- Les opérations sont résilientes avec des buffers stratégiques (DDMRP) et des sources alternatives
+- L'amélioration continue est culturellement ancrée avec un Hoshin Kanri alignant opérations et stratégie
+- **Indicateurs** : OEE > 85 %, taux de service > 98 %, lead time optimisé en continu par IA, coût unitaire top quartile sectoriel
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue de production — performance, incidents et actions correctives | Directeur des Opérations | Tableau de bord production hebdomadaire |
+| **Hebdomadaire** | Réunion S&OP opérationnelle — ajustement plan de charge | Responsable Supply Chain | Plan de production ajusté |
+| **Mensuel** | Revue qualité — non-conformités, réclamations, actions 8D | Responsable Qualité | Rapport qualité mensuel + plan d'action |
+| **Mensuel** | Analyse des KPIs opérationnels et bridges d'écarts | Directeur des Opérations + DAF | Dashboard opérationnel + bridge des écarts |
+| **Trimestriel** | Audit Lean et revue des chantiers d'amélioration continue | Directeur des Opérations + Lean Manager | Bilan Kaizen + feuille de route amélioration |
+| **Trimestriel** | Revue fournisseurs et performance supply chain | Directeur Achats + Supply Chain | Scorecard fournisseurs + plan d'action |
+| **Annuel** | Planification de la capacité et budget opérationnel | Directeur des Opérations + DG | Plan capacitaire + budget opérationnel N+1 |
+
 ## State of the Art (2025-2026)
 
 L'excellence opérationnelle intègre les technologies avancées :

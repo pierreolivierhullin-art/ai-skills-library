@@ -179,6 +179,50 @@ Appliquer le screening GARP en 6 étapes pour identifier les sous-jacents de qua
 3. Analyser les trades perdants pour identifier les patterns récurrents.
 4. Recalibrer les paramètres de sizing et de management en fonction des résultats.
 
+## Modèle de maturité
+
+### Niveau 1 — Débutant
+- Compréhension limitée des mécaniques de base des options (Call/Put, strike, expiration)
+- Trading d'options sans plan de gestion des Greeks ni sizing rigoureux
+- Aucune analyse de volatilité implicite avant l'ouverture de positions
+- **Indicateurs** : win rate < 30%, aucun suivi du ratio risk/reward
+
+### Niveau 2 — Pratiquant
+- Maîtrise des stratégies de base (covered call, cash-secured put, vertical spreads)
+- Suivi régulier des Greeks de position (delta, theta principalement)
+- Utilisation de l'IV Rank pour le timing d'entrée en position
+- **Indicateurs** : win rate 40-50%, ratio risk/reward moyen > 1:1, max drawdown suivi mensuellement
+
+### Niveau 3 — Stratégique
+- Déploiement de stratégies multi-jambes adaptées à l'environnement de volatilité
+- Gestion active des positions avec règles d'ajustement et de rolling prédéfinies
+- Analyse systématique du skew, de la term structure et du flow d'options
+- **Indicateurs** : win rate > 55%, ratio risk/reward moyen > 1.5:1, Greeks portfolio sous contrôle
+
+### Niveau 4 — Avancé
+- Gestion de portefeuille d'options avec Greeks agrégés et corrélations maîtrisés
+- Utilisation de modèles quantitatifs (Black-Scholes, Monte Carlo) pour le pricing et le backtesting
+- Intégration du GARP screening pour la sélection systématique des sous-jacents
+- **Indicateurs** : win rate > 60%, max drawdown < 15%, profit factor > 1.5
+
+### Niveau 5 — Expert
+- Delta-hedging dynamique et gestion de la surface de volatilité en temps réel
+- Construction de stratégies propriétaires avec backtesting rigoureux et edge quantifié
+- Capacité à gérer un book d'options en conditions de stress (gamma squeeze, vol spike)
+- **Indicateurs** : win rate > 65%, ratio risk/reward > 2:1, max drawdown < 10%, Greeks portfolio toujours dans les limites
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Quotidien** | Revue des positions ouvertes + vérification des Greeks agrégés | Trader Options | Dashboard Greeks journalier |
+| **Hebdomadaire** | Revue complète des positions + Greeks portfolio + P&L attribution | Trader Options | Rapport hebdomadaire de positions |
+| **Hebdomadaire** | Analyse de l'environnement de volatilité (IV Rank, skew, term structure) | Trader Options / Analyste | Note de volatilité |
+| **Mensuel** | P&L attribution détaillée + revue des stratégies + win rate | Portfolio Manager | Rapport mensuel de performance |
+| **Mensuel** | Screening GARP de la watchlist de sous-jacents | Analyste Fondamental | Watchlist mise à jour |
+| **Trimestriel** | Recalibration des paramètres de risque (sizing, limites de Greeks, max loss) | Risk Manager | Paramètres de risque recalibrés |
+| **Annuel** | Backtesting complet des stratégies + mise à jour du plan de trading | Trader Options / Risk Manager | Plan de trading annuel |
+
 ## State of the Art (2025-2026)
 
 Le trading d'options évolue avec la technologie et la réglementation :

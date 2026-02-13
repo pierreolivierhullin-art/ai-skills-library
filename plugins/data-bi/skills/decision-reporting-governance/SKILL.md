@@ -220,6 +220,38 @@ Evaluer la maturite de la gouvernance sur les 11 domaines DAMA-DMBOK :
 20. Mesurer et rapporter les KPIs de la gouvernance elle-meme : data quality score, catalogue coverage, SLA compliance, time-to-insight.
 
 
+## Modèle de maturité
+
+### Niveau 1 — Excel Hell
+- Reporting artisanal via fichiers Excel partagés par email, sans source de vérité unique
+- Pas de catalogue de données ni de définitions métier standardisées
+- Qualité des données non mesurée, incohérences fréquentes entre les rapports
+- **Indicateurs** : 0 sources gouvernées, data quality score non mesuré, adoption BI < 5%
+
+### Niveau 2 — Centralisé
+- Outil BI déployé avec des dashboards centralisés maintenus par l'équipe data
+- Business glossary initié avec les KPIs prioritaires définis et documentés
+- Premières règles de qualité implémentées sur les sources de données critiques
+- **Indicateurs** : 5-15 sources gouvernées, data quality score > 60%, adoption BI 15-30%
+
+### Niveau 3 — Gouverné
+- Catalogue de données opérationnel avec data lineage, ownership et stewardship formalisés
+- Data contracts en place entre producteurs et consommateurs avec SLAs de qualité
+- Monitoring de qualité automatisé sur les 6 dimensions DAMA, alertes en temps réel
+- **Indicateurs** : 30-60 sources gouvernées, data quality score > 80%, adoption BI 40-60%, délai insight-to-action < 48h
+
+### Niveau 4 — Self-service
+- Plateforme self-service BI mature avec datasets certifiés et semantic layer unifiée
+- Utilisateurs métier autonomes pour l'exploration et l'analyse, gouvernance par design
+- Metric trees décomposés du stratégique à l'opérationnel avec traçabilité complète
+- **Indicateurs** : 60-100 sources gouvernées, data quality score > 90%, adoption BI > 70%, délai insight-to-action < 24h
+
+### Niveau 5 — Data Mesh
+- Architecture décentralisée où chaque domaine gère ses data products avec des standards globaux
+- Gouvernance fédérée avec interopérabilité, discoverability et qualité garanties par contrat
+- BI augmentée par l'IA (NL querying, insights automatiques, alertes prédictives)
+- **Indicateurs** : 100+ sources gouvernées, data quality score > 95%, adoption BI > 85%, délai insight-to-action < 4h
+
 ## Rythme opérationnel
 
 | Cadence | Activité | Responsable | Livrable |

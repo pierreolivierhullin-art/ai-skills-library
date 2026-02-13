@@ -178,6 +178,50 @@ feedback continu (via outil type Lattice/Culture Amp) et calibration semestriell
 
 
 
+## Modèle de maturité
+
+### Niveau 1 — Administratif
+- La fonction RH se limite à l'administration du personnel, la paie et la conformité légale
+- Pas de stratégie de recrutement formalisée ; les embauches sont réactives et non planifiées
+- Les processus RH sont manuels (fichiers Excel, documents papier) sans SIRH intégré
+- **Indicateurs** : time-to-hire > 60 jours, turnover non mesuré, pas d'eNPS
+
+### Niveau 2 — Structuré
+- Un SIRH est déployé avec les processus core HR (paie, congés, dossiers collaborateurs)
+- Le recrutement est structuré (ATS, scorecards, processus d'entretien standardisé)
+- Les KPIs RH fondamentaux sont suivis mensuellement (turnover, time-to-hire, effectifs)
+- **Indicateurs** : time-to-hire 40-60 jours, turnover mesuré par catégorie, coût par recrutement connu
+
+### Niveau 3 — Stratégique
+- La stratégie RH est alignée sur la stratégie business avec un workforce planning à 12-24 mois
+- Le cycle de performance management est déployé (OKR, feedback continu, calibration)
+- La GEPP est formalisée avec une cartographie des compétences et des plans de développement
+- **Indicateurs** : time-to-hire < 40 jours, turnover volontaire < 15 %, eNPS > 20
+
+### Niveau 4 — Data-driven
+- Le people analytics éclaire les décisions RH (modélisation de l'attrition, ROI des formations, équité salariale)
+- La mobilité interne est structurée avec un job board interne et un taux de mobilité suivi comme KPI
+- La stratégie DEI est déployée avec des objectifs mesurables et des audits d'équité réguliers
+- **Indicateurs** : time-to-hire < 30 jours, turnover volontaire < 10 %, eNPS > 40, coût par recrutement optimisé
+
+### Niveau 5 — Prédictif
+- L'IA augmente les processus RH (matching candidat-poste, prédiction du turnover, personnalisation des parcours)
+- L'organisation fonctionne en skills-based avec une marketplace interne de talents
+- L'expérience collaborateur est pilotée comme l'expérience client, avec des parcours personnalisés
+- **Indicateurs** : time-to-hire < 20 jours, turnover volontaire < 7 %, eNPS > 60, quality of hire mesurée et corrélée à la performance
+
+## Rythme opérationnel
+
+| Cadence | Activité | Responsable | Livrable |
+|---------|----------|-------------|----------|
+| **Hebdomadaire** | Revue du pipeline de recrutement et priorisation des postes | Talent Acquisition Manager | Tableau de suivi recrutement |
+| **Hebdomadaire** | Suivi des onboardings en cours et alertes période d'essai | HR Business Partner | Rapport d'intégration |
+| **Mensuel** | People analytics — KPIs RH et tableaux de bord | DRH + People Analytics | Dashboard RH mensuel (turnover, eNPS, effectifs) |
+| **Mensuel** | Revue des relations sociales et veille juridique | DRH + Juriste social | Note de veille sociale |
+| **Trimestriel** | Talent review et revue des hauts potentiels (9-box) | DRH + COMEX | Talent map + plans de succession |
+| **Trimestriel** | Enquête pulse engagement et plan d'action par équipe | DRH + Managers | Résultats engagement + actions correctives |
+| **Annuel** | GPEC/GEPP + NAO (Négociation Annuelle Obligatoire) | DRH + DG + Partenaires sociaux | Accord GEPP + procès-verbal NAO |
+
 ## State of the Art (2025-2026)
 
 La fonction RH se réinvente sous l'effet de l'IA et des nouvelles attentes des collaborateurs :
