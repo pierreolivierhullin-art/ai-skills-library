@@ -3,81 +3,90 @@
 ## Cas 1 : Transformation Lean d'une usine de production
 
 ### Contexte
-PlastiTech, fabricant de composants plastiques techniques (180 personnes, 25M€ CA), fournit l'industrie automobile et l'électronique. L'usine principale tourne en 3×8 avec 12 lignes de production.
+PlastiTech, fabricant de composants plastiques techniques (180 personnes, 25M€ CA), fournit l'industrie automobile et l'électronique avec des pièces injectées de haute précision. L'usine principale, située en Savoie, tourne en 3×8 avec 12 lignes de production (presses à injection de 50 à 500 tonnes). L'entreprise occupe une position de spécialiste sur les pièces techniques à forte valeur ajoutée, mais fait face à une pression concurrentielle croissante de la part d'acteurs est-européens et asiatiques sur les séries moyennes. L'équipe de production est composée de 85 opérateurs expérimentés (ancienneté moyenne de 12 ans), 8 régleurs, 5 responsables de ligne et un directeur de production. Les méthodes de travail n'ont pas significativement évolué depuis 10 ans, et aucune démarche d'amélioration continue structurée n'a été mise en place malgré des compétences techniques solides.
 
 ### Problème
-Le taux de rendement synthétique (TRS/OEE) moyen est de 62% (vs 85% benchmark sectoriel), le taux de rebut atteint 8%, et les délais de livraison dérapent : 75% OTIF (On-Time In-Full) vs 95% contractuel. Deux clients majeurs menacent de transférer leurs commandes.
+Le taux de rendement synthétique (TRS/OEE) moyen est de 62% (vs 85% benchmark sectoriel de la plasturgie technique), signalant des pertes de capacité considérables réparties entre les arrêts non planifiés (18%), les temps de changement de série (12%) et les rebuts (8%). Le taux de rebut de 8% représente un coût qualité de 680K€/an en matières premières perdues, temps machine et main d'oeuvre improductive. Les délais de livraison dérapent régulièrement : le taux OTIF (On-Time In-Full) n'atteint que 75% contre 95% contractuel avec les clients automobiles. Deux clients majeurs (représentant 40% du CA) ont formellement notifié des pénalités de retard et menacent de transférer leurs commandes vers un concurrent polonais qui propose des prix inférieurs de 15% avec un OTIF de 94%.
 
 ### Approche
-1. **Diagnostic Lean** : Value Stream Mapping sur les 3 lignes les plus critiques, identifiant 45% de temps de non-valeur ajoutée (attentes, déplacements, surproduction).
-2. **5S et management visuel** : Déploiement systématique sur les 12 lignes, avec audits hebdomadaires et scoring visible.
-3. **SMED** : Réduction des temps de changement de série de 45 minutes à 12 minutes sur les 5 machines critiques.
-4. **Kaizen continu** : Formation de 25 opérateurs au problem solving A3, mise en place de gemba walks quotidiennes par les managers.
-5. **Flux tiré** : Passage d'un système de production push à un système kanban pour les 20 références les plus volumineuses.
+1. **Diagnostic Lean** : Réalisation d'un Value Stream Mapping (VSM) complet sur les 3 lignes les plus critiques (celles alimentant les 2 clients majeurs), mobilisant les opérateurs, les régleurs et le responsable logistique pendant 2 semaines. Le VSM a identifié 45% de temps de non-valeur ajoutée dans le flux de production, réparti entre les attentes (changements de série, approvisionnement matière, attente d'outillage), les déplacements inutiles (stock intermédiaire éloigné des lignes, outils non standardisés), et la surproduction (production en flux poussé générant des stocks intermédiaires de 3 semaines). L'exercice a été complété par une analyse des 5 pourquoi sur les 10 causes de rebut les plus fréquentes.
+2. **5S et management visuel** : Déploiement systématique du 5S sur les 12 lignes en 4 mois, avec des chantiers de 3 jours par ligne impliquant les opérateurs concernés. Le management visuel a été installé : tableaux de bord de ligne affichant le TRS en temps réel (capteurs IoT connectés à un écran au pied de chaque ligne), zone de communication avec les indicateurs qualité/sécurité/production, et marquage au sol standardisé. Des audits 5S hebdomadaires avec scoring visible par ligne créent une émulation positive entre les équipes. Le meilleur score mensuel est récompensé par un repas d'équipe.
+3. **SMED** : Réduction des temps de changement de série de 45 minutes à 12 minutes sur les 5 machines critiques (presses de 200 à 500 tonnes), grâce à la séparation des opérations internes (machine arrêtée) et externes (préparables pendant la production), la standardisation des outillages de fixation (systèmes de serrage rapide), et la préparation anticipée des moules et matières. Les chantiers SMED ont été conduits par des binômes opérateur-régleur, filmés et analysés pour identifier chaque geste non productif. Le gain de 33 minutes par changement, multiplié par les 180 changements mensuels, a libéré 100 heures de capacité productive par mois.
+4. **Kaizen continu** : Formation de 25 opérateurs volontaires au problem solving A3 (méthode structurée de résolution de problèmes sur une feuille A3), avec un objectif de 2 chantiers A3 par équipe par mois. Mise en place de gemba walks quotidiennes de 20 minutes par les managers de production (visite du terrain, observation, écoute des opérateurs, résolution immédiate des irritants). Un comité kaizen mensuel sélectionne les 3 meilleures améliorations et les récompense (prime de 200€ par suggestion implémentée). En 12 mois, 87 améliorations ont été implémentées, dont 12 ayant un impact mesurable sur le TRS ou le taux de rebut.
+5. **Flux tiré** : Passage d'un système de production push (production sur prévisions avec stocks importants) à un système kanban pour les 20 références les plus volumineuses (représentant 65% du CA), avec des boucles kanban dimensionnées sur la consommation réelle des clients. Le stock intermédiaire est passé de 3 semaines à 4 jours, libérant 180K€ de trésorerie et réduisant les risques d'obsolescence. Les références à faible rotation restent gérées en flux poussé sur commande ferme.
 
 ### Résultat
-- TRS passé de 62% à 81% en 12 mois
-- Taux de rebut réduit de 8% à 2,5%
-- OTIF amélioré de 75% à 93%
-- Coûts de production réduits de 12% (économie de 850K€/an)
+- TRS passé de 62% à 81% en 12 mois, représentant un gain de capacité équivalent à 2,3 lignes de production supplémentaires sans investissement
+- Taux de rebut réduit de 8% à 2,5%, générant une économie annuelle de 480K€ en matières premières et temps machine
+- OTIF amélioré de 75% à 93%, avec un objectif de 95% atteignable dans les 6 prochains mois grâce à l'amélioration continue
+- Coûts de production réduits de 12% (économie totale de 850K€/an), rendant PlastiTech compétitif face au concurrent polonais
+- Les 2 clients majeurs ont retiré leurs menaces de transfert et augmenté leurs commandes de 15% (gain de 1,5M€ de CA)
+- Engagement des opérateurs : 87 suggestions kaizen implémentées, turnover en production réduit de 18% à 9%
 
 ### Leçons apprises
-- Le SMED est le quick win le plus impactant en production — réduire les changements de série libère de la capacité immédiatement.
-- Les gemba walks quotidiennes par les managers changent la culture plus vite que n'importe quelle formation.
-- Le flux tiré (kanban) fonctionne pour les références à haute rotation, mais le flux poussé reste pertinent pour les petites séries.
+- Le SMED est le quick win le plus impactant en production — réduire les temps de changement de série libère de la capacité immédiatement et de manière visible, créant un momentum positif pour les autres chantiers Lean. C'est le chantier à lancer en premier.
+- Les gemba walks quotidiennes par les managers changent la culture plus vite que n'importe quelle formation — la présence quotidienne sur le terrain, l'écoute active et la résolution rapide des irritants signalent que l'amélioration continue est une priorité, pas un slogan.
+- Le flux tiré (kanban) fonctionne pour les références à haute rotation, mais le flux poussé reste pertinent pour les petites séries et les commandes spéciales — la coexistence des deux systèmes est la norme dans l'industrie, pas l'exception.
+- L'implication des opérateurs dans les chantiers (SMED filmé par les opérateurs, A3 conduits par les équipes) est le facteur différenciant entre un programme Lean qui perdure et un programme qui s'essouffle après 6 mois.
 
 ---
 
 ## Cas 2 : Résilience supply chain post-crise
 
 ### Contexte
-MédiEquip, distributeur d'équipements médicaux (350 personnes, 120M€ CA), importe 70% de ses produits d'Asie (Chine, Malaisie, Vietnam). Les perturbations supply chain de 2021-2023 ont mis en lumière des vulnérabilités critiques.
+MédiEquip, distributeur d'équipements médicaux (350 personnes, 120M€ CA), est un acteur majeur de la distribution de dispositifs médicaux en France, servant 2 500 établissements de santé (hôpitaux, cliniques, cabinets) avec un catalogue de 8 000 références. L'entreprise importe 70% de ses produits d'Asie (Chine 45%, Malaisie 15%, Vietnam 10%) et distribue depuis 3 entrepôts en France (Île-de-France, Lyon, Bordeaux). Les perturbations supply chain successives de 2021-2023 (pénurie de semi-conducteurs impactant les dispositifs électroniques, congestion portuaire de Shanghai, crise du canal de Suez) ont mis en lumière des vulnérabilités critiques dans un secteur où les ruptures de stock ont un impact direct sur la prise en charge des patients. L'équipe supply chain de 12 personnes gère les approvisionnements, le transport et la logistique avec des outils manuels (Excel, emails) et des processus non automatisés.
 
 ### Problème
-Les ruptures de stock touchent 15% des références actives, les lead times fournisseurs ont doublé (de 8 à 16 semaines), et les coûts de transport maritime ont triplé. Le taux de service client est tombé à 82% (vs 96% avant la crise).
+Les ruptures de stock touchent 15% des références actives à un instant T, un chiffre inacceptable pour un distributeur médical dont les clients (blocs opératoires, services d'urgence) ne peuvent pas attendre. Les lead times fournisseurs ont doublé (de 8 à 16 semaines en moyenne), rendant obsolètes les paramètres de stock de sécurité calibrés sur des délais historiques. Les coûts de transport maritime ont triplé (+200% sur les routes Asie-Europe), comprimant les marges dans un secteur déjà concurrentiel. Le taux de service client est tombé à 82% (vs 96% avant les perturbations et vs 95% contractuel avec les groupes hospitaliers), entraînant des pénalités contractuelles de 340K€/an et un risque de non-renouvellement de 3 marchés publics représentant 18M€ de CA. Le directeur supply chain est mandaté pour reconstruire la résilience de la chaîne d'approvisionnement en 12 mois.
 
 ### Approche
-1. **Cartographie des risques supply chain** : Identification des dépendances critiques (fournisseur unique, route maritime unique, matière première unique) sur les 500 références top.
-2. **Dual sourcing** : Qualification de fournisseurs alternatifs (Turquie, Inde, Europe de l'Est) pour les 50 références les plus critiques.
-3. **Stock de sécurité intelligent** : Modélisation probabiliste des lead times variables, recalcul dynamique des stocks de sécurité par catégorie de risque.
-4. **Nearshoring partiel** : Relocalisation de 20% des volumes en Europe (Portugal, Pologne) pour les références à forte rotation.
-5. **Tour de contrôle supply chain** : Dashboard temps réel avec alertes prédictives (retards fournisseurs, congestion portuaire, risques météo).
+1. **Cartographie des risques supply chain** : Identification systématique des dépendances critiques sur les 500 références top (80% du CA), évaluant 5 facteurs de risque : fournisseur unique (42 références concernées), route maritime unique (78 références), matière première critique (15 références), délai de substitution > 6 mois (28 références), et concentration géographique (120 références sourced dans un rayon de 200 km en Chine). Chaque référence a reçu un score de risque composite (1-5) qui détermine la stratégie de mitigation appropriée. L'exercice a mobilisé 3 acheteurs pendant 4 semaines et a été formalisé dans une matrice de risques validée par le CODIR.
+2. **Dual sourcing** : Qualification de fournisseurs alternatifs en Turquie, Inde et Europe de l'Est (Pologne, République tchèque) pour les 50 références les plus critiques (score de risque ≥ 4). Le processus de qualification, incluant les audits qualité, les certifications CE/MDR et les échantillons de validation, a pris 6 à 9 mois selon les références. Le dual sourcing augmente le coût unitaire de 5-12% mais élimine le risque de rupture totale. La répartition cible est de 60/40 entre le fournisseur principal et le fournisseur alternatif, permettant une bascule rapide en cas de défaillance.
+3. **Stock de sécurité intelligent** : Abandon du modèle de stock de sécurité statique (X semaines identique pour toutes les références) au profit d'une modélisation probabiliste intégrant la variabilité réelle des lead times (mesurée sur 24 mois), la criticité médicale de la référence (classification ABC croisée avec le risque patient), et la saisonnalité de la demande. Le recalcul dynamique est effectué mensuellement par un outil de planification (Kinaxis), remplaçant les calculs Excel manuels. Cette approche a permis d'augmenter les stocks de sécurité sur les références critiques (+40%) tout en les réduisant sur les références à faible risque (-25%), pour un niveau de stock total quasi constant.
+4. **Nearshoring partiel** : Relocalisation de 20% des volumes en Europe (Portugal pour les textiles médicaux, Pologne pour les consommables plastiques) pour les références à forte rotation et faible sensibilité prix. La proximité géographique réduit le lead time de 16 à 4 semaines et élimine le risque maritime. Le surcoût de production (+8-15%) est partiellement compensé par la réduction des coûts de transport (-40%) et de stockage (-20% de stock de sécurité nécessaire). Un POC sur 30 références a validé la viabilité économique avant le déploiement à plus grande échelle.
+5. **Tour de contrôle supply chain** : Déploiement d'un dashboard temps réel consolidant les données de 12 sources (ERP, transitaires, ports, météo, fournisseurs) avec des alertes prédictives basées sur des signaux faibles (retards fournisseurs > 3 jours, congestion portuaire signalée, conditions météo extrêmes prévues, grèves annoncées). La tour de contrôle permet d'anticiper les perturbations 2-3 semaines à l'avance et de déclencher des plans de contingence (accélération de commande, switch fournisseur, transport aérien d'urgence) avant que la rupture ne se matérialise.
 
 ### Résultat
-- Taux de service client remonté de 82% à 95%
-- Ruptures de stock réduites de 15% à 4% des références
-- Lead time moyen réduit de 16 à 10 semaines (grâce au nearshoring)
-- Coût total supply chain stabilisé malgré l'inflation (+3% vs +18% avant intervention)
+- Taux de service client remonté de 82% à 95%, conforme aux engagements contractuels et éliminant les pénalités de retard
+- Ruptures de stock réduites de 15% à 4% des références, avec un objectif de 2% à 18 mois
+- Lead time moyen réduit de 16 à 10 semaines (grâce au nearshoring et au dual sourcing), améliorant la réactivité aux commandes urgentes
+- Coût total supply chain stabilisé malgré l'inflation (+3% vs +18% avant intervention), grâce à l'optimisation des stocks et au nearshoring
+- Les 3 marchés publics à risque ont été renouvelés, dont 1 avec une extension de périmètre (+2,5M€ de CA)
+- Temps de réaction aux perturbations réduit de 3 semaines (détection réactive) à 3 jours (détection prédictive) grâce à la tour de contrôle
 
 ### Leçons apprises
-- Le dual sourcing coûte plus cher à court terme mais offre une résilience inestimable — c'est une assurance, pas un coût.
-- Les stocks de sécurité statiques sont obsolètes — la modélisation dynamique basée sur la variabilité réelle est indispensable.
-- Le nearshoring n'est viable que pour les références à forte rotation et à faible sensibilité prix.
+- Le dual sourcing coûte plus cher à court terme (+5-12% sur le coût unitaire) mais offre une résilience inestimable — c'est une assurance, pas un coût. Le calcul du coût d'une rupture de stock (pénalités + perte de marché + impact patient) justifie systématiquement l'investissement.
+- Les stocks de sécurité statiques sont obsolètes dans un monde de lead times variables — la modélisation dynamique basée sur la variabilité réelle est indispensable. Un stock de sécurité identique pour une référence à lead time stable de 8 semaines et une référence à lead time variable de 8 à 20 semaines est une aberration statistique.
+- Le nearshoring n'est viable que pour les références à forte rotation et à faible sensibilité prix — il ne s'agit pas de tout relocaliser mais de diversifier intelligemment. Le POC sur 30 références avant le déploiement a évité des erreurs coûteuses sur les références non adaptées.
+- La tour de contrôle supply chain est le levier le plus transformant : passer d'un mode réactif ("on découvre la rupture quand le stock est vide") à un mode prédictif ("on détecte le risque 3 semaines avant") change fondamentalement la performance opérationnelle.
 
 ---
 
 ## Cas 3 : Optimisation de la gestion des SLA dans une ESN
 
 ### Contexte
-InfoServices, ESN de 600 personnes, gère le support IT de 15 clients grands comptes avec des SLA contractuels stricts. L'entreprise traite 5 200 tickets par mois avec 12 agents de support L1/L2.
+InfoServices, ESN (Entreprise de Services du Numérique) de 600 personnes, gère le support IT de 15 clients grands comptes dans les secteurs bancaire, assurance et industrie avec des SLA contractuels stricts assortis de pénalités financières significatives. L'entreprise traite 5 200 tickets par mois avec une équipe de 12 agents de support répartis en 2 niveaux (L1 : prise d'appel et diagnostic initial, L2 : résolution technique avancée), complétée par une équipe d'ingénieurs L3 (8 personnes) pour les escalades complexes. Le support est opéré depuis un centre de services à Nantes, avec un horaire de couverture de 7h-20h en semaine et un astreinte le week-end pour les clients à SLA renforcé. Les outils en place sont un ticketing BMC Remedy vieillissant, des procédures documentées dans des fichiers Word, et un suivi des SLA par extraction Excel mensuelle.
 
 ### Problème
-Le taux de respect des SLA critiques (P1) est de 61% (vs 95% contractuel), générant 1,8M€ de pénalités annuelles. Deux clients majeurs menacent de résilier. Le MTTR (Mean Time To Resolve) est de 14,2 heures en moyenne.
+Le taux de respect des SLA critiques (P1 — incident bloquant affectant la production) est de 61% (vs 95% contractuel), un écart majeur qui génère 1,8M€ de pénalités annuelles et menace directement la rentabilité de 4 contrats sur 15. Deux clients majeurs (banque et assureur, représentant 35% du CA) ont formellement notifié leur intention de lancer un appel d'offres si les SLA ne s'améliorent pas sous 6 mois. Le MTTR (Mean Time To Resolve) global est de 14,2 heures en moyenne, avec une dispersion considérable (P1 : 6,8h vs cible 1h, P4 : 18h vs cible 3 jours). L'analyse des causes révèle 3 facteurs structurels : l'absence de priorisation effective (tous les tickets traités dans l'ordre d'arrivée), une knowledge base inexistante (chaque agent résout les problèmes à partir de sa seule expérience), et 20% des incidents récurrents liés aux mêmes causes racines non traitées.
 
 ### Approche
-1. **Matrice de priorisation** : Redéfinition de la matrice Impact × Urgence avec 4 niveaux de priorité et des SLA différenciés (P1 : 1h, P2 : 4h, P3 : 1 jour, P4 : 3 jours).
-2. **Déploiement ITSM** : Migration vers ServiceNow avec workflows automatisés, routage intelligent et escalade automatique.
-3. **Knowledge base** : Création de 800 articles de résolution pour les incidents récurrents, accessible en self-service.
-4. **Problem management** : Identification et correction des 20% de problèmes racines générant 80% des incidents.
-5. **Capacity planning** : Modèle de staffing flexible avec pool de consultants en renfort lors des pics.
+1. **Matrice de priorisation** : Redéfinition complète de la matrice Impact × Urgence avec 4 niveaux de priorité et des SLA différenciés (P1 — production arrêtée : prise en charge 15 min, résolution 1h ; P2 — dégradation de service : prise en charge 30 min, résolution 4h ; P3 — impact limité : résolution 1 jour ouvré ; P4 — demande standard : résolution 3 jours ouvrés). La matrice a été co-validée avec chaque client lors de comités de pilotage dédiés, avec des exemples concrets pour chaque niveau évitant l'ambiguïté. Un processus d'escalade automatique a été défini : si un P1 n'est pas pris en charge en 15 minutes, le manager on-call est alerté ; à 30 minutes, le directeur de comptes est notifié.
+2. **Déploiement ITSM** : Migration de BMC Remedy vers ServiceNow ITSM, avec des workflows automatisés incluant le routage intelligent des tickets (assignation automatique à l'agent le plus compétent selon la catégorie technique et la charge de travail), l'escalade automatique temporelle (si le SLA approche de la limite, escalade immédiate au niveau supérieur), et les notifications proactives aux clients (SMS automatique au contact client lors de l'ouverture d'un P1, mise à jour toutes les 30 minutes). Le déploiement a été réalisé en 12 semaines avec une migration des 15 environnements clients et un plan de formation de 40 heures par agent.
+3. **Knowledge base** : Création systématique d'articles de résolution pour les incidents récurrents, en commençant par les 200 types d'incidents les plus fréquents (représentant 70% du volume). Chaque article suit un template standardisé (symptôme, diagnostic, résolution step-by-step, temps estimé, contact escalade). La base a atteint 800 articles en 6 mois, avec un processus de revue trimestrielle pour maintenir la qualité. Un widget de suggestion contextuelle dans ServiceNow propose automatiquement les articles pertinents à l'agent lors de la création du ticket, réduisant le temps de diagnostic.
+4. **Problem management** : Mise en place d'un processus formel d'analyse des causes racines, ciblant les 20% de problèmes générant 80% des incidents (principe de Pareto). Un Problem Manager dédié conduit des analyses 5 Pourquoi sur les incidents récurrents les plus impactants, avec des plans d'action correctifs validés par les équipes techniques et les clients. En 6 mois, 35 problèmes racines ont été identifiés et corrigés, éliminant 1 200 incidents récurrents par mois. Les corrections les plus fréquentes concernent des configurations défectueuses, des incompatibilités logicielles et des procédures de backup défaillantes.
+5. **Capacity planning** : Mise en place d'un modèle de staffing flexible avec un pool de 8 consultants en renfort activable sous 4 heures lors des pics de charge (déploiement de mises à jour, incidents majeurs affectant plusieurs clients, périodes de clôture comptable). Le modèle est alimenté par une analyse prédictive des volumes de tickets (saisonnalité, corrélation avec les déploiements planifiés) permettant d'anticiper les besoins de renfort 2 semaines à l'avance.
 
 ### Résultat
-- Respect SLA P1 passé de 61% à 94,2%
-- MTTR global réduit de 14,2h à 5,1h (-64%)
-- Pénalités SLA réduites de 1,8M€ à 180K€
-- Satisfaction client : 4,1/5 (vs 2,8/5 avant)
+- Respect SLA P1 passé de 61% à 94,2%, à 0,8 point de l'objectif contractuel de 95% (atteint au mois 10)
+- MTTR global réduit de 14,2h à 5,1h (-64%), avec un MTTR P1 passé de 6,8h à 52 minutes
+- Pénalités SLA réduites de 1,8M€ à 180K€/an (économie de 1,62M€), remboursant l'investissement ServiceNow dès la première année
+- Satisfaction client : 4,1/5 (vs 2,8/5 avant), mesurée par une enquête trimestrielle incluant la réactivité, la qualité de communication et la résolution définitive
+- Les 2 clients ayant menacé de lancer un appel d'offres ont renouvelé leur contrat pour 3 ans, dont 1 avec extension de périmètre (+1,2M€ de CA annuel)
+- First Call Resolution (FCR) passé de 35% à 58%, grâce à la knowledge base et au routage intelligent
 
 ### Leçons apprises
-- La matrice de priorisation est la décision la plus impactante — sans elle, aucun processus ne fonctionne.
-- Le knowledge management réduit le MTTR de 35% à lui seul.
-- Le problem management est le levier le plus sous-estimé — éliminer les causes racines vaut mieux qu'optimiser la vitesse de résolution.
+- La matrice de priorisation est la décision la plus impactante — sans elle, aucun processus ni aucun outil ne peut fonctionner efficacement. La co-définir avec les clients (pas en interne seul) garantit l'alignement et évite les contestations de priorité lors des incidents.
+- Le knowledge management réduit le MTTR de 35% à lui seul — c'est l'investissement au meilleur ROI de tout le programme. Les 800 articles ont transformé le support d'un exercice de mémoire individuelle en un processus reproductible et scalable.
+- Le problem management est le levier le plus sous-estimé des ESN — éliminer les causes racines vaut infiniment mieux qu'optimiser la vitesse de résolution des symptômes. Les 35 corrections de problèmes racines ont éliminé 1 200 incidents/mois, l'équivalent de 3 agents à temps plein.
+- L'automatisation du suivi SLA (alertes prédictives quand un ticket approche de la limite) est aussi importante que l'amélioration du MTTR — un ticket qui va dépasser son SLA doit être détecté et escaladé automatiquement, pas découvert lors de la revue mensuelle.

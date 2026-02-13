@@ -3,78 +3,87 @@
 ## Cas 1 : Transformation agile d'une DSI bancaire
 
 ### Contexte
-BankTech, DSI d'une banque régionale de 2 000 collaborateurs, gère 45 projets en parallèle avec des méthodologies waterfall. L'équipe IT de 120 personnes livre en moyenne 2 releases majeures par an avec un taux d'échec projet de 35%.
+BankTech, DSI d'une banque régionale de 2 000 collaborateurs, gère le système d'information bancaire qui supporte 850 000 clients et 120 agences. L'équipe IT de 120 personnes est organisée en silos fonctionnels (développement, infrastructure, QA, support) et gère 45 projets en parallèle avec des méthodologies waterfall héritées d'une culture de conformité réglementaire stricte. L'entreprise livre en moyenne 2 releases majeures par an avec un taux d'échec projet de 35% (dépassement de budget > 20% ou livraison > 3 mois de retard). La dette technique s'accumule, les outils de développement sont vieillissants, et les équipes opèrent avec des processus documentés dans des fichiers Word de 200 pages rarement consultés. Le secteur bancaire est en pleine disruption par les néo-banques qui livrent des fonctionnalités en continu avec des équipes 5× plus petites.
 
 ### Problème
-Les métiers se plaignent de délais de livraison de 12-18 mois, d'un manque de visibilité sur l'avancement, et de livrables qui ne correspondent pas aux besoins initiaux (effet tunnel). Le DSI est mandaté pour réduire le time-to-market de 50%.
+Les métiers (directions commerciale, marketing, risque) se plaignent de délais de livraison de 12-18 mois entre l'expression du besoin et la mise en production, d'un manque de visibilité sur l'avancement réel des projets (les indicateurs de suivi sont manipulés pour masquer les retards), et de livrables qui ne correspondent pas aux besoins initiaux car les spécifications rédigées 12 mois plus tôt sont devenues obsolètes (effet tunnel). Le DSI est mandaté par le COMEX pour réduire le time-to-market de 50% dans un contexte où la banque perd 3% de parts de marché par an face aux concurrents digitaux. La pression est d'autant plus forte que 2 projets stratégiques (refonte de l'app mobile et nouveau parcours crédit en ligne) sont considérés comme vitaux pour la rétention des clients jeunes.
 
 ### Approche
-1. **Pilote agile** : Sélection de 3 projets pilotes pour une transformation Scrum, avec formation de 3 Scrum Masters et 3 Product Owners.
-2. **Organisation en squads** : Réorganisation progressive en 8 squads cross-fonctionnelles (dev, QA, ops, UX) alignées sur des domaines métier.
-3. **Portfolio management** : Mise en place d'un board de priorisation trimestriel avec les métiers, basé sur la valeur business (WSJF).
-4. **Continuous delivery** : Investissement dans une pipeline CI/CD permettant des releases bimensuelles au lieu de semestrielles.
+1. **Pilote agile** : Sélection de 3 projets pilotes pour une transformation Scrum, choisis selon 3 critères (complexité maîtrisable, sponsor métier engagé, équipe motivée). Formation certifiante de 3 Scrum Masters (profils internes reconvertis depuis la QA) et 3 Product Owners (issus du métier, pas de l'IT — décision structurante). Les pilotes ont duré 4 mois (8 sprints de 2 semaines), avec un coach agile externe à temps plein pour accompagner les équipes et débloquer les impediments organisationnels. Les résultats des pilotes ont été mesurés rigoureusement et présentés au COMEX pour valider la généralisation.
+2. **Organisation en squads** : Réorganisation progressive en 8 squads cross-fonctionnelles (dev, QA, ops, UX) alignées sur des domaines métier (crédit, épargne, paiements, conformité, etc.), inspirée du modèle Spotify mais adapté au contexte bancaire réglementé. Chaque squad est autonome sur son périmètre avec un PO métier dédié. Les chapters (communautés de compétences transverses) maintiennent la cohérence technique et les standards. La transition s'est faite en 3 vagues sur 9 mois pour limiter la disruption opérationnelle, avec un accompagnement RH pour les managers intermédiaires dont le rôle évolue de contrôleur à facilitateur.
+3. **Portfolio management** : Mise en place d'un board de priorisation trimestriel réunissant les directeurs métier et le DSI, basé sur la méthode WSJF (Weighted Shortest Job First) qui combine la valeur business, le coût du retard et la taille du travail pour prioriser objectivement les demandes. Ce board a remplacé le système informel de "celui qui crie le plus fort est servi en premier" par un processus transparent et documenté. Les projets non priorisés sont explicitement mis en attente, libérant les équipes de la surcharge chronique.
+4. **Continuous delivery** : Investissement dans une pipeline CI/CD complète (GitLab CI, tests automatisés, déploiement blue-green) permettant des releases bimensuelles au lieu de semestrielles. L'infrastructure a été conteneurisée (Docker/Kubernetes) et les environnements de test automatisés pour réduire les délais de validation. Un "release train" bimensuel a été instauré, avec une discipline stricte de feature flags pour découpler le déploiement technique de l'activation fonctionnelle.
 
 ### Résultat
-- Time-to-market réduit de 14 mois à 4 mois en moyenne
-- Taux de satisfaction métier passé de 45% à 82%
-- Taux d'échec projet réduit de 35% à 12%
-- Productivité mesurée (story points livrés) en hausse de 65%
+- Time-to-market réduit de 14 mois à 4 mois en moyenne, dépassant l'objectif de 50% de réduction
+- Taux de satisfaction métier passé de 45% à 82%, mesuré par une enquête trimestrielle auprès des sponsors de projets
+- Taux d'échec projet réduit de 35% à 12%, grâce à la livraison itérative et au feedback continu
+- Productivité mesurée (story points livrés par sprint) en hausse de 65% par rapport aux estimations initiales en waterfall
+- Refonte de l'app mobile livrée en 5 mois (vs 14 mois estimés en waterfall), avec un score App Store passé de 2,8 à 4,4
+- Turnover IT réduit de 22% à 14%, les développeurs appréciant l'autonomie et la suppression de la bureaucratie
 
 ### Leçons apprises
-- La transformation agile est d'abord un changement culturel, pas un changement de processus — commencer par les pilotes pour prouver la valeur.
-- Les Product Owners issus du métier (pas de l'IT) sont un facteur clé de succès.
-- La priorisation par la valeur business (WSJF) résout 80% des conflits de priorité.
+- La transformation agile est d'abord un changement culturel, pas un changement de processus — commencer par des pilotes visibles pour prouver la valeur et créer un effet de contagion positive. Tenter de transformer 120 personnes d'un coup aurait échoué.
+- Les Product Owners issus du métier (pas de l'IT) sont un facteur clé de succès — ils apportent la connaissance client, la capacité de priorisation et la légitimité pour dire non aux demandes non prioritaires. Former un métier au Scrum est plus facile que donner la connaissance métier à un IT.
+- La priorisation par la valeur business (WSJF) résout 80% des conflits de priorité en objectivant les décisions — elle élimine le politique et le favoritisme, et force les demandeurs à chiffrer la valeur de leurs besoins.
+- L'accompagnement des managers intermédiaires est le point aveugle de la plupart des transformations agiles : leur rôle change fondamentalement, et sans accompagnement explicite, ils deviennent des résistants au changement plutôt que des facilitateurs.
 
 ---
 
 ## Cas 2 : Sauvetage d'un projet de migration ERP
 
 ### Contexte
-AgroDistrib, distributeur agroalimentaire de 500 personnes, migre son ERP vieillissant (AS/400) vers SAP S/4HANA. Le budget est de 2,5M€ sur 18 mois.
+AgroDistrib, distributeur agroalimentaire de 500 personnes implanté sur 8 sites en France, migre son ERP vieillissant (AS/400, en service depuis 22 ans) vers SAP S/4HANA. L'entreprise gère 15 000 références produits, 3 000 clients et 800 fournisseurs, avec des processus métier fortement personnalisés autour de l'AS/400 au fil des décennies. Le projet a été lancé 9 mois plus tôt avec un budget de 2,5M€ sur 18 mois, piloté par un intégrateur SAP de taille moyenne et un chef de projet interne issu de la DSI. L'équipe projet comprend 12 consultants externes et 8 utilisateurs clés métier détachés à 50%.
 
 ### Problème
-À mi-parcours (M9), le projet accuse 3 mois de retard, le budget est dépassé de 40%, et les utilisateurs clés sont démotivés par des ateliers de conception interminables. Le sponsor exécutif menace d'arrêter le projet.
+À mi-parcours (M9), le projet est en situation critique : 3 mois de retard sur le planning initial, budget dépassé de 40% (3,5M€ engagés sur les 2,5M€ prévus), et démotivation des utilisateurs clés épuisés par des ateliers de conception interminables (280 ateliers en 9 mois, soit plus d'un par jour) qui n'aboutissent pas à des livrables concrets. Le scope a dérivé de 60% par rapport au cahier des charges initial — chaque atelier génère de nouvelles demandes que l'intégrateur accepte sans évaluation d'impact. La gouvernance est floue : le COPIL mensuel est une chambre d'enregistrement sans pouvoir de décision, le RACI n'est pas documenté, et personne ne sait qui arbitre les conflits de priorité. Le sponsor exécutif (DG), excédé par les dépassements, menace d'arrêter le projet — une décision qui coûterait 3,5M€ de pertes sèches et laisserait l'entreprise sur un système obsolète.
 
 ### Approche
-1. **Audit de santé projet** : Diagnostic indépendant identifiant 3 causes racines — périmètre non maîtrisé (scope creep de 60%), gouvernance floue, et dette de test accumulée.
-2. **Rescoping** : Réduction du périmètre au MVP (3 processus critiques : commande-livraison, facturation, stock) et report des fonctionnalités secondaires en phase 2.
-3. **Gouvernance renforcée** : COPIL bimensuel avec pouvoir de décision, RACI clarifié, et war room quotidienne pendant les 3 derniers mois.
-4. **Plan de test intensif** : 4 semaines de tests intégrés avec les utilisateurs métier, correction des bugs bloquants en temps réel.
+1. **Audit de santé projet** : Diagnostic indépendant de 2 semaines confié à un cabinet spécialisé en sauvetage de projets ERP, identifiant 3 causes racines hiérarchisées — scope creep de 60% (aucun processus de gestion du changement), gouvernance floue (pas de RACI, pas de pouvoir de décision au COPIL), et dette de test accumulée (aucun test réalisé en 9 mois, repoussé systématiquement pour "finir les spécifications"). L'audit a aussi identifié 2 facteurs aggravants : l'intégrateur avait sous-estimé la complexité des processus métier spécifiques à l'agroalimentaire, et les utilisateurs clés n'étaient détachés qu'à 50%, rendant impossible un engagement soutenu.
+2. **Rescoping** : Réduction drastique du périmètre au MVP strictement nécessaire au go-live — 3 processus critiques uniquement (commande-livraison, facturation, gestion de stock), représentant 80% de la valeur métier. Toutes les fonctionnalités secondaires (reporting avancé, intégration CRM, portail fournisseur, gestion des promotions) sont reportées en phase 2 post-go-live. Le rescoping a été formalisé dans un document signé par le DG, le directeur commercial et le DSI pour éviter toute remise en question ultérieure. Chaque demande de changement de scope nécessite désormais une validation du COPIL avec analyse d'impact coût/délai.
+3. **Gouvernance renforcée** : Transformation du COPIL en instance de décision bimensuelle avec pouvoir d'arbitrage, présidée par le DG en personne. RACI clarifié et affiché dans la war room. Mise en place d'une war room physique quotidienne de 30 minutes (stand-up) pendant les 3 derniers mois, réunissant le chef de projet, les leads métier et le directeur de projet de l'intégrateur. Un système de feux tricolores (vert/orange/rouge) par processus permet de visualiser instantanément l'avancement et de concentrer l'attention sur les zones en difficulté.
+4. **Plan de test intensif** : 4 semaines de tests intégrés avec les utilisateurs métier réels (pas les consultants), en conditions proches de la production (données réelles anonymisées, volumes représentatifs). Correction des bugs bloquants en temps réel par une équipe de 6 développeurs dédiée. 3 répétitions de go-live ("dry runs") ont été réalisées pour valider la procédure de basculement. Le plan de rollback a été documenté et testé, garantissant un retour en arrière possible sous 4 heures en cas de problème critique le jour J.
 
 ### Résultat
-- Go-live réussi avec 2 mois de retard (vs 6 mois projetés sans intervention)
-- Budget final : 3,1M€ (+24% vs initial, mais -15% vs trajectoire avant rescoping)
-- 95% des processus critiques opérationnels dès J+1
-- Phase 2 lancée 6 mois après avec les leçons du MVP
+- Go-live réussi avec 2 mois de retard (vs 6 mois projetés sans intervention), un résultat considéré comme un succès dans le contexte
+- Budget final : 3,1M€ (+24% vs initial, mais -15% vs trajectoire avant rescoping qui projetait 3,8M€)
+- 95% des processus critiques opérationnels dès J+1, avec seulement 12 bugs non-bloquants à corriger dans les 2 premières semaines
+- Phase 2 lancée 6 mois après avec les leçons du MVP et une gouvernance éprouvée, livrée dans les délais et le budget
+- Aucune perte de commande ou de facturation pendant la période de transition, grâce aux dry runs et au plan de rollback
+- Le DG, initialement prêt à arrêter le projet, a publiquement salué l'équipe lors du town hall post-go-live
 
 ### Leçons apprises
-- Le scope creep est le premier tueur de projets ERP — définir le MVP dès le début et résister à l'ajout de fonctionnalités.
-- Un audit de santé projet indépendant à mi-parcours devrait être systématique pour les projets > 1M€.
-- Les tests avec les vrais utilisateurs (pas les consultants) sont non négociables.
+- Le scope creep est le premier tueur de projets ERP — définir le MVP dès le début et résister fermement à l'ajout de fonctionnalités en cours de route. Chaque "petite demande" supplémentaire est un engrenage qui repousse le go-live et augmente le risque.
+- Un audit de santé projet indépendant à mi-parcours devrait être systématique pour les projets > 1M€ — il offre un regard objectif que l'équipe projet, trop impliquée émotionnellement, ne peut plus fournir. Le coût de l'audit (35K€) est négligeable face aux 3,5M€ de pertes évitées.
+- Les tests avec les vrais utilisateurs (pas les consultants) sont non négociables — les consultants connaissent SAP, mais pas les cas particuliers métier qui font planter le système en production. Les 4 semaines de tests ont révélé 47 cas non prévus dans les spécifications.
+- Le DG doit être physiquement présent dans la gouvernance d'un projet ERP critique — sa présence au COPIL a transformé les réunions de "discussion" en "décision", et sa signature sur le document de rescoping a mis fin au scope creep.
 
 ---
 
 ## Cas 3 : Mise en place d'un PMO dans un groupe multi-sites
 
 ### Contexte
-TechGroup, groupe technologique de 800 personnes réparti sur 4 filiales, lance simultanément 25+ projets transverses. Il n'existe pas de PMO central.
+TechGroup, groupe technologique de 800 personnes réparti sur 4 filiales spécialisées (logiciels industriels, services IT, cybersécurité, IoT), a connu une croissance rapide par acquisitions successives au cours des 5 dernières années. Chaque filiale, issue d'une acquisition distincte, a conservé sa propre culture, ses propres outils et ses propres méthodes de gestion de projet. Le groupe lance simultanément 25+ projets transverses (harmonisation des processus, plateforme commerciale commune, mutualisation IT, programme de cross-selling). Il n'existe pas de PMO central, et chaque filiale pilote ses projets avec des outils différents (Jira pour l'une, Asana pour l'autre, Excel pour les deux dernières). Le COO, arrivé il y a 8 mois pour structurer les opérations du groupe, identifie la gestion de projet comme le chantier prioritaire.
 
 ### Problème
-Chaque filiale pilote ses projets en silo, avec des méthodologies et outils différents. 30% des projets sont en doublon, les ressources partagées sont sur-allouées, et il n'y a aucune visibilité consolidée pour le COMEX.
+Chaque filiale pilote ses projets en silo total, sans coordination ni partage de ressources. Un audit rapide révèle que 30% des projets sont en doublon partiel (3 filiales développent chacune leur propre portail client, 2 filiales mènent des projets de refonte CRM indépendants), gaspillant des ressources estimées à 1,2M€/an. Les ressources partagées (architectes, data engineers, designers) sont sur-allouées à 180% en moyenne, créant des goulots d'étranglement et des retards en cascade. Le COMEX n'a aucune visibilité consolidée sur le portefeuille de projets du groupe : ni le nombre exact de projets en cours, ni leur statut, ni leur consommation budgétaire. Les arbitrages se font de gré à gré entre DG de filiales, souvent au détriment des projets transverses qui n'ont pas de sponsor assez puissant.
 
 ### Approche
-1. **Création du PMO** : Recrutement d'un directeur PMO et de 2 PM seniors, rattachement direct au COO.
-2. **Framework unifié** : Méthodologie hybride (waterfall pour les projets réglementaires, agile pour les projets produit) avec des gates communes.
-3. **Portfolio management** : Scoring et priorisation des 25 projets sur 4 critères (valeur stratégique, urgence, faisabilité, interdépendances) → 8 projets prioritaires identifiés.
-4. **Outillage et reporting** : Déploiement de Monday.com avec des dashboards portfolio consolidés, reporting mensuel au COMEX.
+1. **Création du PMO** : Recrutement d'un directeur PMO expérimenté (profil multi-sites, certifié PMP et SAFe) et de 2 PM seniors, rattachés directement au COO pour garantir la légitimité transverse. Le positionnement du PMO a été défini comme "service center" et non comme "tour de contrôle" — un choix de communication délibéré pour éviter la résistance des filiales. Le PMO offre des services aux filiales (templates, coaching, reporting, facilitation) plutôt qu'il ne leur impose des contraintes. Les 2 premières semaines ont été consacrées à une tournée d'écoute dans les 4 filiales pour comprendre les pratiques existantes et identifier les besoins.
+2. **Framework unifié** : Définition d'une méthodologie hybride respectant les spécificités de chaque type de projet — waterfall pour les projets réglementaires et contractuels (jalons fermes, livrables documentés), agile pour les projets produit et innovation (sprints, itérations), et des gates communes de décision applicables à tous les projets (go/no-go, revue de budget, validation de livrable). Le framework a été co-construit avec les chefs de projet des 4 filiales lors de 3 ateliers de 2 jours, garantissant une appropriation par les équipes plutôt qu'une imposition top-down. Les templates (charte projet, plan projet, rapport d'avancement, bilan projet) ont été standardisés tout en restant modulaires.
+3. **Portfolio management** : Scoring et priorisation des 25 projets en cours sur 4 critères pondérés (valeur stratégique 40%, urgence 20%, faisabilité 25%, interdépendances 15%), réalisés lors d'un workshop de priorisation de 2 jours avec les 4 DG de filiales et le COMEX. L'exercice a identifié 8 projets prioritaires (représentant 70% de la valeur stratégique), 11 projets en attente (à replanifier) et 6 projets à fusionner ou arrêter. La priorisation est revisitée trimestriellement, et tout nouveau projet doit passer par le processus de scoring avant d'être lancé, éliminant les "projets fantômes" qui consommaient des ressources sans mandat.
+4. **Outillage et reporting** : Déploiement de Monday.com comme outil commun de gestion de projet et de portfolio, avec des dashboards consolidés à 3 niveaux (projet, filiale, groupe). Un reporting mensuel au COMEX, automatisé à 90%, présente le statut des 8 projets prioritaires, la consommation budgétaire, les risques majeurs et les décisions requises. Le choix de Monday.com a été motivé par sa facilité d'adoption (UX intuitive, faible courbe d'apprentissage) et sa capacité à fédérer des équipes utilisant précédemment des outils différents.
 
 ### Résultat
-- 6 projets en doublon identifiés et fusionnés (économie de 800K€)
-- Taux de livraison dans les délais passé de 40% à 72%
-- Satisfaction des sponsors passée de 3,2/5 à 4,1/5
-- Visibilité COMEX : reporting consolidé en temps réel
+- 6 projets en doublon identifiés et fusionnés, générant une économie immédiate de 800K€ et libérant 12 ETP (équivalents temps plein) pour des projets à plus forte valeur
+- Taux de livraison dans les délais passé de 40% à 72% en 9 mois, grâce à la priorisation et à la gestion proactive des dépendances
+- Satisfaction des sponsors passée de 3,2/5 à 4,1/5, mesurée par une enquête trimestrielle incluant la qualité du reporting, la réactivité et l'alignement avec les attentes
+- Visibilité COMEX : reporting consolidé en temps réel accessible en self-service, éliminant les 3 jours de préparation manuelle qui précédaient chaque COMEX
+- Sur-allocation des ressources partagées réduite de 180% à 110%, grâce à la planification centralisée de la capacité
+- Culture de gestion de projet harmonisée : les 4 filiales partagent désormais un langage commun et des pratiques interopérables
 
 ### Leçons apprises
-- Le PMO doit être un enabler, pas un contrôleur — les chefs de projet doivent y voir un service, pas une contrainte.
-- La priorisation du portfolio est la première valeur ajoutée du PMO — savoir dire "pas maintenant" est essentiel.
-- Le rattachement au COMEX (pas à l'IT) est crucial pour la légitimité transverse du PMO.
+- Le PMO doit être un enabler, pas un contrôleur — les chefs de projet doivent y voir un service qui leur facilite la vie, pas une couche de bureaucratie supplémentaire. Le positionnement initial "service center" a été le facteur clé d'adoption par les filiales.
+- La priorisation du portfolio est la première valeur ajoutée du PMO — savoir dire "pas maintenant" est aussi important que savoir exécuter. L'identification des 6 projets en doublon lors du premier exercice de priorisation a immédiatement crédibilisé le PMO.
+- Le rattachement au COMEX (pas à l'IT ni à une filiale) est crucial pour la légitimité transverse du PMO — un PMO rattaché à une filiale sera perçu comme partial, et un PMO rattaché à l'IT sera réduit aux seuls projets technologiques.
+- La co-construction du framework avec les équipes existantes est non négociable : imposer un framework sans consultation génère du rejet immédiat. Les 3 ateliers de co-conception ont pris du temps mais ont économisé des mois de résistance au changement.

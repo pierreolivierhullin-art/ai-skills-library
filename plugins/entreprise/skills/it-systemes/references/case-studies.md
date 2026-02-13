@@ -3,81 +3,90 @@
 ## Cas 1 : Migration cloud stratégique d'un groupe industriel
 
 ### Contexte
-IndustriAer, équipementier aéronautique de 2 800 personnes, gère 180 serveurs physiques dans deux datacenters vieillissants (12 et 15 ans). Le budget IT est de 18,2M€ dont 72% en run. Les projets d'IA et IoT sont bloqués par les contraintes d'infrastructure.
+IndustriAer, équipementier aéronautique de 2 800 personnes, est un fournisseur de rang 2 pour les principaux programmes aéronautiques européens (A320neo, A350, Rafale). L'entreprise gère un parc applicatif de 120 applications et 180 serveurs physiques dans deux datacenters on-premise vieillissants (12 et 15 ans), situés sur les sites de production de Toulouse et Nantes. Le budget IT annuel est de 18,2M€ dont 72% est consacré au run (maintenance, support, licences, hébergement), ne laissant que 28% pour le build (nouveaux projets). La DSI de 65 personnes fait face à une dette technique croissante et une difficulté à recruter des profils infrastructure classique. Les projets d'IA pour le contrôle qualité et d'IoT pour la maintenance prédictive, identifiés comme stratégiques par le COMEX, sont bloqués par les contraintes d'infrastructure (pas de GPU, pas d'élasticité, pas de services managés).
 
 ### Problème
-Les datacenters approchent leur fin de vie (mise aux normes : 4,5M€ sans gain fonctionnel), le PRA est inadéquat (RPO 24h, RTO 72h), et le ratio run/build de 72/28 ne laisse pas de place à l'innovation. La direction exige un rééquilibrage à 55/45 en 3 ans.
+Les deux datacenters approchent leur fin de vie technique et réglementaire — la mise aux normes (électrique, climatisation, sécurité incendie) nécessiterait un investissement de 4,5M€ sans aucun gain fonctionnel ni amélioration de performance. Le PRA (Plan de Reprise d'Activité) est inadéquat pour une entreprise travaillant sur des programmes aéronautiques critiques : le RPO est de 24h (risque de perte d'une journée de données) et le RTO de 72h (3 jours d'arrêt avant reprise). Ces métriques sont incompatibles avec les exigences contractuelles des donneurs d'ordres (Airbus, Dassault) qui imposent un RTO < 8h. Le ratio run/build de 72/28 ne laisse pas de place à l'innovation, et la direction exige un rééquilibrage à 55/45 en 3 ans pour financer les projets stratégiques IA et IoT. Trois ingénieurs infrastructure seniors ont démissionné en 12 mois, rendant la maintenance des systèmes legacy de plus en plus risquée.
 
 ### Approche
-1. **Audit applicatif et stratégie des 6R** : Classification des 120 applications (Retain, Retire, Rehost, Replatform, Refactor, Repurchase). 18 retirées, 42 rehébergées, 28 replatformées, 12 refactorées, 8 remplacées par du SaaS, 12 conservées on-premise.
-2. **Landing Zone Azure** : Infrastructure cloud fondationnelle en IaC (Terraform), réseau hub-spoke, guardrails de sécurité, FinOps dès le jour 1.
-3. **Migration en 4 vagues** : Apps non-critiques → apps métier → ERP SAP → apps industrielles, avec rollback prévu à chaque étape.
-4. **Modernisation PRA** : Azure Site Recovery pour les apps critiques (RPO 15 min, RTO 2h), tests trimestriels automatisés.
-5. **Montée en compétences** : 25 certifications Azure visées, 3 recrutements cloud senior, communautés de pratiques internes.
+1. **Audit applicatif et stratégie des 6R** : Classification de chacune des 120 applications selon la matrice des 6R (Retain, Retire, Rehost, Replatform, Refactor, Repurchase), basée sur une analyse multicritère incluant la criticité métier, la dette technique, le coût de migration et le potentiel de modernisation. L'exercice a mobilisé 4 architectes pendant 6 semaines, avec des interviews de chaque owner applicatif. Résultat : 18 applications retirées (plus utilisées ou redondantes), 42 rehébergées (lift & shift), 28 replatformées (conteneurisation), 12 refactorées (réécriture partielle pour le cloud-native), 8 remplacées par des solutions SaaS du marché, 12 conservées on-premise (contraintes réglementaires ITAR).
+2. **Landing Zone Azure** : Construction de l'infrastructure cloud fondationnelle en IaC (Infrastructure as Code via Terraform), avec une architecture réseau hub-spoke, des guardrails de sécurité automatisés (Azure Policy, Defender for Cloud), et un dispositif FinOps opérationnel dès le jour 1 (budgets par projet, alertes de dépassement, right-sizing automatique des VMs). La Landing Zone a été co-construite avec un partenaire Microsoft Gold certifié et validée par un audit de sécurité indépendant avant la première migration. Les normes aéronautiques (EN 9100) ont été intégrées dans les guardrails de sécurité.
+3. **Migration en 4 vagues** : Vague 1 (M1-M3) — applications non-critiques et environnements de développement pour valider les procédures ; Vague 2 (M4-M8) — applications métier standard (RH, finance, CRM) ; Vague 3 (M9-M14) — ERP SAP S/4HANA (migration la plus complexe, testée en dry run 3 fois) ; Vague 4 (M15-M18) — applications industrielles (MES, PLM, connexions IoT). Chaque vague incluait un plan de rollback testé et un go/no-go formel avec les métiers. Les weekends de migration étaient planifiés 3 mois à l'avance avec les équipes opérationnelles.
+4. **Modernisation PRA** : Déploiement d'Azure Site Recovery pour les applications critiques, permettant une réplication continue et une bascule automatisée. Le RPO est passé à 15 minutes et le RTO à 2 heures, conformes aux exigences contractuelles des donneurs d'ordres. Des tests trimestriels automatisés valident la capacité de reprise sans interruption de production.
+5. **Montée en compétences** : Programme de certification avec un objectif de 25 certifications Azure (AZ-900, AZ-104, AZ-305) obtenues par les équipes internes, complété par 3 recrutements de profils cloud senior (architecte cloud, SRE, ingénieur FinOps). Des communautés de pratiques internes ont été créées (Cloud Guild) avec des sessions de partage bimensuelles.
 
 ### Résultat
-- Ratio run/build passé de 72/28 à 58/42
-- Économie annuelle de 1,8M€ sur l'infrastructure
-- RPO réduit de 24h à 15 min, RTO de 72h à 2h
-- Projets IA/IoT débloqués et lancés dans les 6 mois post-migration
+- Ratio run/build passé de 72/28 à 58/42, libérant 2,5M€ supplémentaires par an pour les projets d'innovation
+- Économie annuelle de 1,8M€ sur l'infrastructure (fermeture progressive des datacenters, réduction des licences, optimisation FinOps)
+- RPO réduit de 24h à 15 min, RTO de 72h à 2h — conformité contractuelle obtenue auprès d'Airbus et Dassault
+- Projets IA (contrôle qualité par vision) et IoT (maintenance prédictive) débloqués et lancés dans les 6 mois post-migration, avec un time-to-deploy de nouvelles ressources passé de 6 semaines à 2 heures
+- 23 certifications Azure obtenues par les équipes internes, réduisant la dépendance aux prestataires externes de 40%
+- Turnover IT inversé : 2 recrutements attirés par la modernité de la stack, 0 départ dans les 12 mois suivant la migration
 
 ### Leçons apprises
-- La stratégie des 6R évite le piège du lift & shift généralisé — l'investissement initial dans l'analyse est toujours rentabilisé.
-- La Landing Zone est le fondement non-négociable — sans elle, le cloud devient ingérable.
-- Le FinOps doit être lancé dès le jour 1, pas après la migration.
+- La stratégie des 6R évite le piège du lift & shift généralisé — l'investissement initial de 6 semaines dans l'analyse applicative a été rentabilisé 10× par l'optimisation des coûts et la modernisation ciblée des applications à plus fort potentiel.
+- La Landing Zone est le fondement non-négociable de toute migration cloud — sans elle, le cloud devient un datacenter délocalisé, ingérable et coûteux. Résister à la pression de "migrer vite" pour construire les fondations correctement.
+- Le FinOps doit être lancé dès le jour 1, pas après la migration — les entreprises qui découvrent le FinOps post-migration subissent en moyenne 30-40% de surcoûts évitables pendant les 6 premiers mois.
+- La montée en compétences interne est un investissement stratégique : les entreprises qui externalisent 100% de leur cloud deviennent dépendantes de leurs prestataires et perdent la capacité de piloter leur roadmap technique.
 
 ---
 
 ## Cas 2 : Implémentation ITSM/ITIL dans un groupe de distribution
 
 ### Contexte
-MegaRetail, groupe de distribution alimentaire (380 magasins, 42 000 collaborateurs), gère 4 500 tickets/mois. Le service desk traite tous les incidents avec la même priorité, il n'existe pas de CMDB, et 34% des incidents sont liés à des changements non coordonnés.
+MegaRetail, groupe de distribution alimentaire (380 magasins, 42 000 collaborateurs), est un acteur majeur de la grande distribution en France avec un réseau de supermarchés et hypermarchés générant 8,5 Md€ de CA annuel. Le système d'information supporte des opérations critiques 7j/7 : caisses, supply chain, e-commerce, programme de fidélité. La DSI de 180 personnes gère un parc de 15 000 postes, 4 200 caisses et 380 serveurs locaux. Le service desk centralisé (25 agents N1/N2 répartis sur 2 sites) traite 4 500 tickets par mois avec un outil de ticketing vieillissant (GLPI) sans workflows automatisés. Tous les incidents sont traités avec la même priorité (premier arrivé, premier servi), il n'existe pas de CMDB, et les changements sont déployés sans coordination formelle entre les équipes réseau, applicatives et magasins.
 
 ### Problème
-Le MTTR global est de 14,2h, les incidents P1 (caisses bloquées) mettent 4,8h à être résolus (perte de 3 200€/h par magasin), et la maturité ITSM est à 1,5/5 sur le modèle CMM.
+Le MTTR (Mean Time To Resolve) global est de 14,2h, un chiffre inacceptable pour un distributeur où chaque heure d'indisponibilité a un impact business direct. Les incidents P1 (caisses bloquées en magasin) mettent en moyenne 4,8h à être résolus, alors que chaque heure de caisse bloquée représente une perte estimée à 3 200€ par magasin — soit un coût annuel des incidents P1 de plus de 4M€. La maturité ITSM est évaluée à 1,5/5 sur le modèle CMM (Capability Maturity Model). 34% des incidents sont directement liés à des changements non coordonnés (mise à jour logicielle déployée sans test, modification réseau impactant les caisses), un chiffre révélateur de l'absence totale de gestion des changements. Les agents du service desk, démotivés par le manque d'outils et de processus, affichent un turnover de 35%.
 
 ### Approche
-1. **Matrice de priorisation** : 4 niveaux (P1 : 1h, P2 : 4h, P3 : 1 jour, P4 : 3 jours), validée avec les directions métier.
-2. **ServiceNow ITSM** : Déploiement des modules Incident, Problem, Change et Knowledge Management avec workflows automatisés.
-3. **CMDB et auto-découverte** : Inventaire automatique des actifs IT avec impact maps reliant les CI aux services métier.
-4. **Change Management** : CAB hebdomadaire, calendrier des changements avec fenêtres de déploiement, plans de rollback obligatoires.
-5. **Knowledge Management** : Capitalisation systématique, chaque incident résolu génère un article de connaissance.
+1. **Matrice de priorisation** : Définition de 4 niveaux de priorité avec des SLA précis (P1 — impact business majeur : résolution en 1h ; P2 — impact modéré : 4h ; P3 — impact limité : 1 jour ouvré ; P4 — demande standard : 3 jours ouvrés), validée en comité avec les 5 directions métier (commerce, supply chain, finance, RH, e-commerce). Chaque niveau de priorité a été défini non pas par critères techniques mais par impact business, avec des exemples concrets pour chaque niveau. Cette co-construction a été essentielle pour obtenir l'adhésion des métiers et éviter l'inflation des priorités ("tout est P1").
+2. **ServiceNow ITSM** : Déploiement des modules Incident, Problem, Change et Knowledge Management avec des workflows automatisés (escalade temporelle, notification des parties prenantes, fermeture automatique après 72h sans activité). L'implémentation a été réalisée en 4 mois par un intégrateur certifié, avec une phase de configuration intensive pour adapter les workflows aux spécificités du retail (horaires d'ouverture magasins, pics de charge en période de fêtes, criticité variable selon les heures). Un portail self-service a été déployé pour les demandes standards (accès, matériel, dépannage de base).
+3. **CMDB et auto-découverte** : Inventaire automatique de l'ensemble des actifs IT (postes, serveurs, caisses, imprimantes, réseau) avec un outil de discovery intégré à ServiceNow. Les impact maps relient chaque CI (Configuration Item) aux services métier qu'il supporte, permettant de mesurer automatiquement l'impact business d'une panne. Par exemple, la défaillance d'un switch réseau en magasin est automatiquement classée P1 car elle impacte les caisses, le terminal de paiement et le système de commande.
+4. **Change Management** : Mise en place d'un CAB (Change Advisory Board) hebdomadaire réunissant les responsables réseau, applicatif et magasin, avec un calendrier des changements partagé définissant des fenêtres de déploiement (mardi et jeudi nuit uniquement, jamais en période commerciale forte). Chaque changement nécessite un plan de rollback documenté et testé. Les changements standards (pré-approuvés et fréquents) sont automatisés pour éviter la surcharge du CAB.
+5. **Knowledge Management** : Capitalisation systématique — chaque incident résolu génère une proposition d'article de connaissance, validée par un expert N2/N3. Les articles les plus consultés sont mis en avant sur le portail self-service. En 6 mois, la base a atteint 850 articles couvrant les 20 catégories d'incidents les plus fréquentes.
 
 ### Résultat
-- MTTR global réduit de 14,2h à 5,1h (-64%)
-- MTTR P1 (caisses) passé de 4,8h à 47 minutes
-- Incidents liés aux changements réduits de 34% à 8%
-- Maturité ITSM passée de 1,5/5 à 3,2/5
+- MTTR global réduit de 14,2h à 5,1h (-64%), représentant une économie estimée à 2,8M€/an en impact business
+- MTTR P1 (caisses) passé de 4,8h à 47 minutes, grâce à la priorisation automatique et aux procédures de résolution pré-documentées
+- Incidents liés aux changements réduits de 34% à 8%, grâce au CAB et à la discipline de fenêtres de déploiement
+- Maturité ITSM passée de 1,5/5 à 3,2/5, mesurée par un audit externe 12 mois après le déploiement
+- Taux de résolution en self-service : 22% des tickets résolus sans intervention humaine grâce au portail et à la knowledge base
+- Turnover du service desk réduit de 35% à 15%, les agents disposant désormais d'outils performants et de processus clairs
 
 ### Leçons apprises
-- La matrice de priorisation est la première décision — c'est une décision de gouvernance, pas technique.
-- La CMDB est un investissement continu, pas un projet — elle devient obsolète en 3 mois sans maintenance.
-- Le Change Management génère le ROI le plus rapide de toutes les pratiques ITIL.
+- La matrice de priorisation est la première décision à prendre — c'est une décision de gouvernance business, pas technique. La co-définir avec les métiers garantit que les priorités reflètent l'impact réel sur le business et évite l'inflation des P1.
+- La CMDB est un investissement continu, pas un projet ponctuel — elle devient obsolète en 3 mois sans maintenance automatisée. L'auto-découverte est un prérequis, et un processus de revue mensuelle de la qualité des données est indispensable.
+- Le Change Management génère le ROI le plus rapide de toutes les pratiques ITIL — réduire les incidents liés aux changements de 34% à 8% a été le gain le plus visible et le plus facilement quantifiable, justifiant à lui seul l'investissement dans ServiceNow.
+- Le Knowledge Management est le levier le plus sous-estimé : les 850 articles créés en 6 mois ont permis un taux de self-service de 22%, l'équivalent de 5 agents N1 à temps plein, sans recrutement supplémentaire.
 
 ---
 
 ## Cas 3 : Programme de gouvernance cybersécurité dans une ETI financière
 
 ### Contexte
-FinSecure Gestion, société de gestion d'actifs (280 personnes, 12 Md€ d'encours), est soumise au RGPD, DORA, NIS2. L'équipe sécurité compte 4 personnes. Un audit révèle un score NIST CSF de 1,8/5 et 47 écarts DORA.
+FinSecure Gestion, société de gestion d'actifs (280 personnes, 12 Md€ d'encours sous gestion), est un acteur reconnu de la gestion institutionnelle en France avec une clientèle de caisses de retraite, mutuelles et assureurs. L'entreprise opère dans un environnement réglementaire dense : RGPD pour les données personnelles, DORA (Digital Operational Resilience Act) pour la résilience numérique du secteur financier, NIS2 pour la sécurité des systèmes d'information critiques. L'équipe sécurité se compose de 4 personnes (1 RSSI, 2 analystes sécurité, 1 administrateur IAM) — un effectif insuffisant face à la surface d'attaque et aux exigences réglementaires. Un audit commandé par le conseil d'administration révèle un score NIST CSF (Cybersecurity Framework) de 1,8/5 et 47 écarts par rapport aux exigences DORA, déclenchant un programme de remédiation urgent.
 
 ### Problème
-Pas de SOC ni de SIEM, 68 applications SaaS non validées, 23 systèmes d'authentification différents, taux de clic phishing de 34%. La conformité DORA est exigée sous 14 mois.
+L'entreprise ne dispose ni de SOC (Security Operations Center) ni de SIEM (Security Information and Event Management), ce qui signifie qu'elle est incapable de détecter les incidents de sécurité en temps réel. Un inventaire révèle 68 applications SaaS non validées (shadow IT), introduites sans évaluation de sécurité par les équipes métier. L'authentification est fragmentée en 23 systèmes différents, sans MFA (Multi-Factor Authentication) généralisé, créant une surface d'attaque considérable. Le taux de clic sur les campagnes de phishing simulé atteint 34%, signalant une vulnérabilité humaine critique. La conformité DORA est exigée sous 14 mois par l'AMF (Autorité des Marchés Financiers), avec un risque de sanction pouvant aller jusqu'à la suspension de l'agrément en cas de non-conformité. Trois clients institutionnels représentant 2,8 Md€ d'encours exigent un rapport de conformité cybersécurité avant le renouvellement de leurs mandats.
 
 ### Approche
-1. **Cartographie et analyse de risques EBIOS RM** : Inventaire des actifs, classification par sensibilité, identification de 28 risques majeurs dont 8 inacceptables.
-2. **SMSI ISO 27001** : IAM centralisé (Azure AD + MFA), chiffrement, plan de réponse aux incidents cyber.
-3. **SOC hybride** : SOC managé 24/7 + 2 analystes internes, SIEM Microsoft Sentinel, 85 règles de détection, EDR sur tout le parc.
-4. **Conformité DORA** : Traitement des 47 écarts, registre des risques TIC, tests de résilience, renforcement des contrats prestataires.
-5. **Sensibilisation continue** : E-learning mensuel, phishing simulé trimestriel, 15 Security Champions dans les équipes.
+1. **Cartographie et analyse de risques EBIOS RM** : Inventaire exhaustif des actifs informationnels (données de gestion, données personnelles, systèmes de trading, infrastructure), classification par sensibilité selon 3 niveaux (C1-C2-C3), et réalisation d'une analyse de risques selon la méthodologie EBIOS RM (méthode recommandée par l'ANSSI). L'exercice, conduit sur 8 semaines avec l'implication de chaque direction métier, a identifié 28 risques majeurs dont 8 jugés inacceptables (risque résiduel supérieur à l'appétence définie par le conseil d'administration). Ces 8 risques ont fait l'objet de plans de traitement prioritaires.
+2. **SMSI ISO 27001** : Mise en place d'un Système de Management de la Sécurité de l'Information structuré, incluant un IAM centralisé (Azure AD avec SSO pour toutes les applications, MFA obligatoire pour tous les utilisateurs, revue trimestrielle des accès), le chiffrement systématique des données au repos et en transit, et un plan de réponse aux incidents cyber documenté et testé. L'objectif de certification ISO 27001 a été fixé à 18 mois, avec un accompagnement par un cabinet spécialisé finance.
+3. **SOC hybride** : Mise en place d'un modèle SOC hybride combinant un prestataire managé 24/7 (monitoring continu, détection, première réponse) et 2 analystes internes (contexte métier, investigation approfondie, coordination avec les équipes). Le SIEM Microsoft Sentinel a été déployé avec 85 règles de détection calibrées sur les menaces spécifiques au secteur financier (fraude, exfiltration de données, accès non autorisé aux systèmes de gestion). Un EDR (Endpoint Detection and Response) a été déployé sur l'intégralité du parc postes et serveurs. Le choix du modèle hybride a été motivé par l'impossibilité de recruter et retenir une équipe SOC interne complète dans le contexte de pénurie de talents cyber.
+4. **Conformité DORA** : Traitement méthodique des 47 écarts identifiés, organisé en 4 workstreams (gouvernance TIC, gestion des risques TIC, gestion des incidents, résilience opérationnelle, gestion des prestataires TIC). Mise en place du registre des risques TIC requis par DORA, réalisation de tests de résilience (TLPT — Threat-Led Penetration Testing) sur les systèmes critiques, et renforcement des clauses contractuelles avec les 35 prestataires IT (clause d'audit, SLA de notification, droit de résiliation en cas de non-conformité).
+5. **Sensibilisation continue** : Programme de sensibilisation multi-format — e-learning mensuel de 15 minutes sur des thématiques ciblées (phishing, mots de passe, ingénierie sociale, données sensibles), campagnes de phishing simulé trimestrielles avec debriefing individuel pour les collaborateurs ayant cliqué, et nomination de 15 Security Champions répartis dans les équipes métier (formation renforcée, rôle de relais, remontée des incidents). Un tableau de bord mensuel partagé avec le COMEX suit le taux de clic phishing et le taux de complétion des e-learnings.
 
 ### Résultat
-- Score NIST CSF passé de 1,8/5 à 3,4/5
-- 44/47 écarts DORA remédiés — conformité validée
-- Taux de clic phishing réduit de 34% à 7%
-- MTTD des incidents : 2,4h (vs non mesuré avant)
+- Score NIST CSF passé de 1,8/5 à 3,4/5, représentant un doublement de la maturité cybersécurité en 12 mois
+- 44/47 écarts DORA remédiés — conformité validée par l'AMF lors du contrôle, les 3 écarts restants classés en risque résiduel accepté avec plan de traitement
+- Taux de clic phishing réduit de 34% à 7%, avec une tendance à la baisse continue grâce aux campagnes répétées
+- MTTD (Mean Time To Detect) des incidents : 2,4h (vs non mesuré avant), avec un objectif de descendre sous 1h dans les 12 prochains mois
+- Les 3 clients institutionnels (2,8 Md€ d'encours) ont renouvelé leurs mandats après présentation du rapport de conformité
+- Shadow IT réduit de 68 à 12 applications non validées, les autres ayant été intégrées dans le périmètre de sécurité ou remplacées
 
 ### Leçons apprises
-- La conformité réglementaire est un accélérateur — elle permet d'obtenir le budget et le sponsorship nécessaires.
-- Le SOC hybride (prestataire 24/7 + interne pour le contexte métier) est le modèle optimal pour les ETI.
-- La sensibilisation continue (micro-formations mensuelles) bat la formation annuelle — le changement nécessite une exposition répétée.
+- La conformité réglementaire est un accélérateur de transformation — elle permet d'obtenir le budget et le sponsorship du conseil d'administration qui seraient impossibles à obtenir autrement. DORA a débloqué un budget de 1,2M€ que le RSSI demandait depuis 3 ans sans succès.
+- Le SOC hybride (prestataire 24/7 + analystes internes pour le contexte métier) est le modèle optimal pour les ETI qui ne peuvent pas construire et maintenir un SOC interne complet. L'interne apporte la connaissance métier indispensable à la qualification des alertes, le prestataire apporte la couverture 24/7 et l'expertise technique de pointe.
+- La sensibilisation continue (micro-formations mensuelles + phishing simulé trimestriel) bat systématiquement la formation annuelle d'une journée — le changement de comportement nécessite une exposition répétée et espacée, pas un choc ponctuel vite oublié.
+- Les Security Champions dans les équipes métier sont le multiplicateur de force le plus efficace pour une petite équipe sécurité — les 15 champions de FinSecure agissent comme 15 capteurs supplémentaires et réduisent le nombre d'incidents liés aux erreurs humaines de 45%.

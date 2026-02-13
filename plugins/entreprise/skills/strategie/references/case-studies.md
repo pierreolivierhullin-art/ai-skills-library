@@ -3,78 +3,87 @@
 ## Cas 1 : Pivot stratégique d'une startup SaaS B2B
 
 ### Contexte
-NovaTech, startup SaaS B2B de 45 personnes spécialisée dans la gestion de projets pour les agences digitales, réalise 2,5M€ d'ARR après 4 ans d'activité. La croissance stagne à +15% annuel et le marché des outils de gestion de projets est saturé par des acteurs majeurs (Asana, Monday, ClickUp).
+NovaTech, startup SaaS B2B de 45 personnes spécialisée dans la gestion de projets pour les agences digitales, réalise 2,5M€ d'ARR après 4 ans d'activité. L'entreprise, fondée par 2 ingénieurs issus du monde des agences, a initialement construit un outil de gestion de projets généraliste avant de le personnaliser progressivement pour les agences digitales. L'équipe se compose de 20 développeurs, 8 commerciaux, 5 CSM, et des fonctions support. Le produit est techniquement mature (NPS moyen de +35) mais se trouve en compétition frontale avec des géants bien financés. La croissance stagne à +15% annuel, nettement en-dessous de l'objectif de 60% fixé par les investisseurs de la seed de 2M€. Le marché des outils de gestion de projets est saturé par des acteurs majeurs (Asana, Monday, ClickUp) disposant de budgets marketing 100× supérieurs et de fonctionnalités couvrant un spectre plus large.
 
 ### Problème
-Le positionnement généraliste ne permet plus de se différencier. Le CAC a triplé en 18 mois, le churn mensuel atteint 4%, et les levées de fonds deviennent difficiles sans perspective de leadership de marché. Le board demande un plan stratégique clair sous 3 mois.
+Le positionnement généraliste "gestion de projets pour agences" ne permet plus de se différencier dans un marché où les géants baissent continuellement leurs prix et ajoutent des fonctionnalités. Le CAC a triplé en 18 mois (de 800€ à 2 400€) car la concurrence sur les mots-clés SEO et SEA est devenue féroce. Le churn mensuel atteint 4%, signalant un product-market fit insuffisant pour une grande partie de la base clients. Les levées de fonds deviennent difficiles : 3 fonds contactés ont décliné en citant l'absence de perspective de leadership de marché comme facteur éliminatoire. Le board fixe un ultimatum : présenter un plan stratégique clair sous 3 mois, faute de quoi l'entreprise entrera en mode conservation (gel des recrutements, réduction des coûts) en attendant une éventuelle revente.
 
 ### Approche
-1. **Analyse stratégique approfondie** : SWOT, analyse des 5 forces de Porter, et interviews de 50 clients pour identifier les segments les plus rentables et satisfaits.
-2. **Identification d'un segment de niche** : Les agences de production vidéo représentent 18% des clients mais 35% du NRR, avec un churn de seulement 1,2% — signal fort d'un product-market fit supérieur.
-3. **Redesign du business model** : Pivot vers un outil vertical pour la production vidéo et créative, avec des fonctionnalités spécialisées (timeline de production, gestion des assets, collaboration client).
-4. **Roadmap stratégique** : Plan en 3 phases — Phase 1 (M1-M3) : repositionnement et rebranding ; Phase 2 (M4-M9) : développement des features verticales ; Phase 3 (M10-M18) : expansion internationale.
+1. **Analyse stratégique approfondie** : Exercice de diagnostic complet combinant SWOT, analyse des 5 forces de Porter, et interviews qualitatives de 50 clients (25 satisfaits, 25 churned) pour identifier les segments les plus rentables et les plus satisfaits. L'analyse a été conduite en 4 semaines par le CEO et le VP Product, avec un consultant stratégie externe pour challenger les hypothèses et éviter les biais de confirmation. L'exercice a révélé que la satisfaction variait dramatiquement par segment : les agences de production vidéo et créative présentaient un NPS de +68 (vs +22 pour les agences web et -5 pour les agences marketing), un signal clair de product-market fit différencié.
+2. **Identification d'un segment de niche** : L'analyse par cohorte a révélé que les agences de production vidéo représentaient 18% des clients mais 35% du NRR (Net Revenue Retention), avec un churn de seulement 1,2% (vs 4% pour l'ensemble). Ces clients utilisaient des fonctionnalités spécifiques (timeline de production, gestion de versions d'assets, collaboration avec le client sur les rushes) que les concurrents généralistes ne proposaient pas. Le TAM spécifique (agences vidéo et créatives) est estimé à 850M$ mondialement, un marché suffisant pour construire une entreprise de 100M$ ARR mais trop petit pour attirer les géants généralistes — la niche défendable par excellence.
+3. **Redesign du business model** : Décision de pivot vers un outil vertical pour la production vidéo et créative, avec des fonctionnalités spécialisées introuvables chez les concurrents : timeline de production collaborative (pré-production, tournage, post-production), gestion des assets et des versions (stockage cloud intégré, prévisualisation, annotations), collaboration client en temps réel (partage sécurisé, approbation, feedback contextuel), et gestion des droits et licences. Le rebranding (de "NovaTech Project" à "NovaTech Studio") et la refonte du site web avec un messaging 100% vertical ont été réalisés en parallèle du développement produit.
+4. **Roadmap stratégique** : Plan en 3 phases avec des jalons clairs et des critères de go/no-go — Phase 1 (M1-M3) : repositionnement et rebranding, communication aux clients existants, migration des 82 agences vidéo vers le nouveau plan, offboarding progressif des clients hors-cible ; Phase 2 (M4-M9) : développement des features verticales (timeline, assets management, collaboration client), recrutement de 3 commerciaux spécialisés production vidéo ; Phase 3 (M10-M18) : expansion internationale (US et UK en priorité, marchés où la production vidéo est la plus structurée), partenariats avec les éditeurs de post-production (Adobe, DaVinci).
 
 ### Résultat
-- ARR passé de 2,5M€ à 6,8M€ en 18 mois (+172%)
-- Churn mensuel réduit de 4% à 0,9%
-- CAC divisé par 2,5 grâce au positionnement ciblé
-- Levée de série A de 8M€ réussie sur la base du nouveau positionnement
+- ARR passé de 2,5M€ à 6,8M€ en 18 mois (+172%), avec un rythme de croissance mensuel de +8% à la fin de la période
+- Churn mensuel réduit de 4% à 0,9%, le meilleur taux du secteur SaaS B2B créatif
+- CAC divisé par 2,5 (de 2 400€ à 960€) grâce au positionnement ciblé qui élimine la concurrence avec les géants sur les mots-clés génériques
+- Levée de série A de 8M€ réussie sur la base du nouveau positionnement, avec 4 fonds en compétition (vs 3 refus avant le pivot)
+- NPS global passé de +35 à +62, les clients cibles appréciant un produit conçu spécifiquement pour leur métier
+- 15 clients "hors cible" offboardés proprement (orientation vers des alternatives, support de transition), maintenant la réputation de l'entreprise
 
 ### Leçons apprises
-- Un positionnement de niche crée plus de valeur qu'un positionnement généraliste dans un marché saturé.
-- L'analyse des cohortes clients (NRR par segment) est le meilleur signal pour identifier un pivot.
-- Le pivot stratégique nécessite un engagement total — le "demi-pivot" est la pire stratégie.
+- Un positionnement de niche crée plus de valeur qu'un positionnement généraliste dans un marché saturé — en se concentrant sur 18% de sa base, NovaTech a multiplié son ARR par 2,7. Le contre-intuitif "rétrécir pour grandir" est la stratégie la plus puissante en SaaS B2B face aux géants.
+- L'analyse des cohortes clients (NRR par segment, churn par segment, NPS par segment) est le meilleur signal pour identifier un pivot — les données quantitatives objectivent une décision qui serait autrement basée sur l'intuition et les opinions contradictoires du CODIR.
+- Le pivot stratégique nécessite un engagement total — le "demi-pivot" (garder un pied dans le marché généraliste "au cas où") est la pire stratégie. L'offboarding des 15 clients hors-cible a été le moment le plus difficile émotionnellement, mais le plus libérateur opérationnellement.
+- La communication transparente aux clients existants pendant le pivot est cruciale : les 82 agences vidéo ont été enthousiasmées par l'annonce et sont devenues des ambassadrices, tandis que les clients offboardés ont apprécié l'honnêteté et l'accompagnement dans la transition.
 
 ---
 
 ## Cas 2 : Stratégie M&A pour une ETI industrielle
 
 ### Contexte
-MétalForge, ETI industrielle de 280 personnes spécialisée dans l'usinage de précision, réalise 45M€ de CA avec une marge EBITDA de 12%. Le dirigeant fondateur prépare la transmission et souhaite renforcer la valorisation par une stratégie de croissance externe.
+MétalForge, ETI industrielle de 280 personnes spécialisée dans l'usinage de précision de pièces métalliques, réalise 45M€ de CA avec une marge EBITDA de 12%. L'entreprise, fondée il y a 35 ans et basée dans le Jura, dispose d'un savoir-faire reconnu dans l'usinage de précision 5 axes et le traitement de surface, avec un parc de 45 machines-outils de dernière génération. Le dirigeant fondateur (62 ans) prépare la transmission de l'entreprise sous 3 ans et souhaite renforcer la valorisation avant la cession, tout en pérennisant l'emploi et le savoir-faire industriel. L'entreprise est trop dépendante du secteur automobile (65% du CA) — un secteur en transformation profonde (électrification, réduction du nombre de pièces) — et d'un client majeur (28% du CA), créant une double vulnérabilité stratégique. Les tentatives de diversification organique (démarchage commercial vers l'aéronautique et le médical) n'ont produit que des résultats marginaux en 3 ans (5M€ de CA, soit 11% du total).
 
 ### Problème
-L'entreprise est trop dépendante du secteur automobile (65% du CA) et d'un client majeur (28% du CA). La diversification organique est lente et le dirigeant dispose de 3 ans avant sa retraite pour transformer l'entreprise.
+L'entreprise est valorisée à 5× EBITDA (27M€), un multiple caractéristique d'une ETI mono-sectorielle avec une forte dépendance client. Les ETI diversifiées du même secteur se valorisent à 7-8× EBITDA. Le dirigeant dispose de 3 ans avant sa retraite pour transformer la structure de revenus et justifier un multiple supérieur. La diversification organique est lente et incertaine : les qualifications aéronautiques (EN 9100, NADCAP) prennent 18-24 mois, et le développement commercial vers de nouveaux secteurs nécessite des compétences techniques et relationnelles que l'équipe actuelle ne maîtrise pas. Le board (fondateur + 2 co-actionnaires minoritaires) décide d'une stratégie de croissance externe ciblée pour accélérer la diversification et améliorer la valorisation.
 
 ### Approche
-1. **Diagnostic stratégique** : Cartographie des adjacences de marché (aéronautique, médical, énergie) et identification des compétences transférables.
-2. **Screening M&A** : Identification de 120 cibles potentielles, filtrage sur 5 critères (taille, secteur, géographie, rentabilité, culture) → shortlist de 12 cibles.
-3. **Due diligence approfondie** : Due diligence financière, opérationnelle et RH sur 3 cibles finales, avec focus sur les synergies de production.
-4. **Acquisition et intégration** : Acquisition de PrécisAéro (usinage aéronautique, 8M€ CA) et MédTech Usinage (dispositifs médicaux, 5M€ CA) sur 18 mois.
+1. **Diagnostic stratégique** : Cartographie des adjacences de marché à partir des compétences core de MétalForge (usinage 5 axes, traitement de surface, précision < 10 microns), identifiant 4 secteurs cibles (aéronautique, médical, énergie, défense) avec pour chacun une analyse de la taille de marché, des barrières d'entrée, des marges et des synergies potentielles avec l'existant. L'aéronautique et le médical ont été retenus comme prioritaires — l'aéronautique pour le volume et les marges (EBITDA 15-18%), le médical pour la récurrence et la résistance cyclique. L'analyse a été conduite en 6 semaines par le dirigeant avec un cabinet de conseil en stratégie industrielle.
+2. **Screening M&A** : Identification de 120 cibles potentielles à partir des bases de données sectorielles (Orbis, Diane), des syndicats professionnels et du réseau du dirigeant. Filtrage systématique sur 5 critères objectifs (taille : 3-15M€ CA, secteur : aéro ou médical, géographie : France, rentabilité : EBITDA > 8%, culture : entreprise familiale ou patrimoniale). Le screening a réduit la liste à 12 cibles qualifiées, contactées via un intermédiaire M&A pour les discussions préliminaires. Le processus a pris 4 mois et coûté 35K€ (cabinet de conseil + base de données).
+3. **Due diligence approfondie** : Due diligence financière (expert-comptable M&A), opérationnelle (audit des moyens de production et des certifications) et RH (analyse de la pyramide des âges, des compétences clés, de la culture) sur 3 cibles finales, avec un focus particulier sur les synergies de production (complémentarité des moyens, mutualisation des achats, cross-selling). La due diligence a été conduite en parallèle sur les 3 cibles pendant 8 semaines pour maintenir la dynamique et la compétition. Les synergies identifiées (achats groupés, mutualisation de machines spécifiques, cross-selling des gammes de produits) ont été chiffrées conservativement et intégrées dans les modèles de valorisation.
+4. **Acquisition et intégration** : Acquisition de PrécisAéro (usinage aéronautique, 8M€ CA, certifié EN 9100 et NADCAP, 45 personnes, basé à Figeac) et MédTech Usinage (dispositifs médicaux, 5M€ CA, certifié ISO 13485, 30 personnes, basé à Annecy) sur 18 mois. L'intégration a suivi un plan en 3 phases : Phase 1 (M1-M3) — quick wins (achats groupés, harmonisation des conditions commerciales) ; Phase 2 (M4-M9) — synergies opérationnelles (transfert de charges entre sites, formation croisée) ; Phase 3 (M10-M18) — synergies commerciales (cross-selling, réponse conjointe aux appels d'offres). Un Integration Manager dédié a été recruté pour piloter le processus.
 
 ### Résultat
-- CA consolidé passé de 45M€ à 58M€
-- Part automobile réduite de 65% à 48% du CA
-- Marge EBITDA consolidée maintenue à 11,5% malgré les coûts d'intégration
-- Valorisation de l'entreprise multipliée par 1,8× (passage de 5× à 7× EBITDA grâce à la diversification)
+- CA consolidé passé de 45M€ à 58M€, avec une cible de 65M€ à 3 ans grâce aux synergies commerciales (cross-selling)
+- Part automobile réduite de 65% à 48% du CA, en-dessous du seuil de vulnérabilité de 50% défini par le diagnostic
+- Marge EBITDA consolidée maintenue à 11,5% malgré les coûts d'intégration (advisory fees, harmonisation, recrutement), avec un objectif de 13% à 2 ans grâce aux synergies achats et à la montée en charge des activités aéro/médical
+- Valorisation de l'entreprise multipliée par 1,8× (passage de 5× à 7× EBITDA grâce à la diversification sectorielle et la démonstration de la capacité de croissance externe)
+- Synergies achats groupés réalisées : 420K€/an d'économies sur les matières premières (acier, aluminium, titane)
+- Aucune perte de collaborateur clé lors de l'intégration, grâce au maintien des identités locales et à la communication transparente
 
 ### Leçons apprises
-- La diversification par M&A est plus rapide que la croissance organique, mais l'intégration culturelle est le facteur clé de succès.
-- Le screening discipliné (critères objectifs, scoring systématique) évite les acquisitions émotionnelles.
-- Impliquer les équipes opérationnelles dès la due diligence réduit les surprises post-acquisition.
+- La diversification par M&A est plus rapide que la croissance organique (18 mois vs 5-7 ans pour obtenir les certifications aéro et médical), mais l'intégration culturelle est le facteur clé de succès. Les 2 acquisitions étaient des entreprises familiales — le respect de l'identité et de l'autonomie locale a été la condition de réussite de l'intégration.
+- Le screening discipliné (critères objectifs, scoring systématique, shortlist documentée) évite les acquisitions émotionnelles — "coup de coeur" pour une cible qui ne répond pas aux critères stratégiques. Les 120 cibles identifiées, filtrées méthodiquement à 12 puis 3, ont garanti un processus rationnel.
+- Impliquer les équipes opérationnelles dès la due diligence réduit les surprises post-acquisition — le directeur de production de MétalForge a participé à l'audit opérationnel des 3 cibles, identifiant des synergies et des risques que les consultants financiers n'auraient pas détectés.
+- Le multiple de valorisation est directement corrélé à la diversification sectorielle et client : passer de 5× à 7× EBITDA en diversifiant représente un gain de valorisation de 12M€, pour un coût total d'acquisition de 8,5M€. Le ROI stratégique de la M&A est immédiat.
 
 ---
 
 ## Cas 3 : Déploiement d'OKR dans un scale-up
 
 ### Contexte
-DataFlow, scale-up de 150 personnes dans l'analytics B2B, vient de lever une série B de 20M€. L'entreprise croît de 80% par an mais souffre d'un manque d'alignement stratégique : chaque équipe poursuit ses propres priorités, les projets se multiplient sans coordination.
+DataFlow, scale-up de 150 personnes dans l'analytics B2B, développe une plateforme de data analytics self-service utilisée par 350 clients mid-market et enterprise en Europe. L'entreprise vient de lever une série B de 20M€ auprès de fonds tier 1 (Index Ventures, Balderton), avec un objectif de tripler l'ARR en 2 ans (de 12M€ à 36M€). La croissance annuelle de 80% crée une pression intense sur l'exécution. L'organisation est structurée en 7 départements (Engineering, Product, Sales, Marketing, CS, People, Finance) dirigés par des VP recrutés dans les 12 derniers mois, chacun ayant importé ses propres méthodes de management et de priorisation. Le CEO, fondateur technique, excelle dans la vision produit mais peine à coordonner une organisation qui a triplé de taille en 18 mois.
 
 ### Problème
-Le CEO constate que 40% des initiatives lancées ne sont pas alignées avec la stratégie, les délais de livraison dérapent systématiquement, et les équipes se plaignent d'un manque de visibilité sur les priorités. La croissance crée du chaos organisationnel.
+Le CEO constate que 40% des initiatives lancées par les équipes ne sont pas alignées avec les 3 priorités stratégiques définies lors de l'offsite annuel — les départements poursuivent des objectifs locaux qui ne contribuent pas à la stratégie globale. Les délais de livraison dérapent systématiquement (70% des projets en retard de plus de 2 semaines) car les équipes sont tiraillées entre trop d'initiatives simultanées. Les collaborateurs se plaignent d'un manque de visibilité sur les priorités ("on ne sait pas pourquoi on fait ce qu'on fait") — un signal alarmant dans une enquête engagement qui montre un eNPS passé de +25 à +12 en 6 mois. Le board, lors de la dernière revue trimestrielle, alerte sur le risque de "growing pains" : la croissance crée du chaos organisationnel, et sans un cadre d'alignement, l'entreprise risque de gaspiller les 20M€ de la série B en initiatives dispersées.
 
 ### Approche
-1. **Formation leadership** : Workshop de 2 jours avec le CODIR pour définir la vision, la mission et 3 priorités stratégiques annuelles.
-2. **Architecture OKR** : Mise en place d'OKR sur 3 niveaux (entreprise → département → équipe) avec un cycle trimestriel et des check-ins bi-mensuels.
-3. **Outillage et rituels** : Adoption d'un outil dédié (Perdoo), mise en place de weekly check-ins, monthly reviews, et quarterly planning.
-4. **Conduite du changement** : Formation de 12 "OKR Champions" dans les équipes, coaching individuel des managers pendant 2 trimestres.
+1. **Formation leadership** : Workshop de 2 jours hors site (offsite) avec le CODIR (CEO + 7 VP) facilité par un coach OKR expérimenté (ex-Google), pour définir la vision à 3 ans, la mission de l'entreprise, et les 3 priorités stratégiques annuelles (pénétrer le marché enterprise, atteindre 95% de NRR, construire un moteur de croissance PLG). Chaque priorité a été traduite en 1-2 objectifs d'entreprise mesurables. Le workshop a aussi été l'occasion de clarifier les rôles et responsabilités entre VP, un sujet qui générait des frictions quotidiennes depuis l'expansion rapide de l'équipe de leadership.
+2. **Architecture OKR** : Mise en place d'OKR sur 3 niveaux — entreprise (3-5 objectifs validés par le board), département (3-4 objectifs contribuant aux OKR entreprise), et équipe (2-3 objectifs par squad ou pod) — avec un cycle trimestriel comprenant quarterly planning (2 jours), monthly reviews (2h), et weekly check-ins (30 min par équipe). Les OKR sont publics et accessibles à tous dans l'outil dédié, créant une transparence totale sur les priorités et les progrès de chaque équipe. Le cadrage a défini des règles claires : maximum 5 objectifs par niveau, chaque key result doit être mesurable avec un propriétaire nommé, et les OKR ne sont pas des to-do lists mais des outcomes ambitieux (70% d'atteinte = succès).
+3. **Outillage et rituels** : Adoption de Perdoo comme outil dédié OKR (choisi pour son interface visuelle et son intégration avec Slack), avec mise en place de rituels structurés — weekly check-in de 30 minutes par équipe (mise à jour des KR, blocages, actions), monthly review de 2 heures par département (revue des progrès, ajustements, partage inter-équipes), et quarterly planning de 2 jours (bilan du trimestre, célébration des succès, définition des OKR du trimestre suivant). Le quarterly planning inclut un "pitching session" où chaque département présente ses OKR proposés et reçoit du feedback des autres départements, garantissant l'alignement horizontal.
+4. **Conduite du changement** : Formation de 12 "OKR Champions" répartis dans les équipes (1-2 par département), formés en profondeur sur la méthodologie et le coaching, servant de relais pour aider leurs collègues à formuler des OKR ambitieux mais réalistes. Coaching individuel mensuel des 7 VP par le coach OKR externe pendant les 2 premiers trimestres, pour ancrer les réflexes et corriger les erreurs courantes (OKR trop nombreux, key results confondus avec des tâches, objectifs pas assez ambitieux). Un channel Slack #okr-help permet à quiconque de poser des questions et de partager des bonnes pratiques.
 
 ### Résultat
-- Taux d'alignement des initiatives passé de 60% à 92% en 3 trimestres
-- Taux d'atteinte des OKR : 35% au Q1 (apprentissage), 55% au Q2, 72% au Q3
-- eNPS (satisfaction collaborateur) passé de +12 à +38
-- Délais de livraison réduits de 30% grâce à la priorisation
+- Taux d'alignement des initiatives sur les priorités stratégiques passé de 60% à 92% en 3 trimestres, éliminant les projets "orphelins" qui consommaient des ressources sans contribuer à la stratégie
+- Taux d'atteinte des OKR : 35% au Q1 (trimestre d'apprentissage — attendu et communiqué comme tel), 55% au Q2 (ajustement de l'ambition et amélioration de la formulation), 72% au Q3 (maturité du processus)
+- eNPS (satisfaction collaborateur) passé de +12 à +38, les collaborateurs citant la clarté des priorités et la transparence comme facteurs principaux d'amélioration
+- Délais de livraison réduits de 30% grâce à la priorisation stricte — les équipes ne travaillent plus sur 15 projets simultanés mais sur 3-4 objectifs clairs
+- Revue board trimestrielle transformée : au lieu de 3h de reporting rétrospectif, le board consacre 1h30 à la revue des OKR et 1h30 à la discussion stratégique, un format salué par les investisseurs
+- Le quarterly planning est devenu le moment le plus attendu de l'entreprise — un rituel qui crée de l'énergie collective et du sens
 
 ### Leçons apprises
-- Les OKR sont un outil de focus, pas un outil de micro-management — limiter à 3-5 objectifs par niveau.
-- Le premier trimestre d'OKR est un trimestre d'apprentissage — ne pas juger le système sur ses résultats initiaux.
-- Les OKR sans rituels réguliers (check-ins, reviews) deviennent rapidement un exercice administratif.
+- Les OKR sont un outil de focus, pas un outil de micro-management — limiter à 3-5 objectifs par niveau force les choix stratégiques douloureux mais nécessaires. Le plus dur n'est pas de définir les OKR mais de décider ce qu'on ne fait PAS.
+- Le premier trimestre d'OKR est un trimestre d'apprentissage — ne pas juger le système sur ses résultats initiaux. Le score de 35% au Q1 a paniqué certains VP ; le coach a expliqué que c'est normal et même souhaitable (si on atteint 100% dès le Q1, les OKR n'étaient pas assez ambitieux).
+- Les OKR sans rituels réguliers (check-ins, reviews) deviennent rapidement un exercice administratif déconnecté de la réalité — ce sont les rituels qui donnent vie aux OKR, pas l'outil ni la méthodologie. L'outil Perdoo ne sert qu'à formaliser ce qui est discuté dans les rituels.
+- La transparence des OKR (publics et accessibles à tous) est le levier d'alignement le plus puissant : quand un développeur peut voir les OKR du VP Sales et comprendre pourquoi une feature est prioritaire, l'engagement et la vélocité augmentent mécaniquement.
