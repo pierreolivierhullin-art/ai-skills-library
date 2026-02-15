@@ -9,8 +9,6 @@ last_updated: 2026-02
 
 ## Overview / Vue d'ensemble
 
-This skill covers the full spectrum of modern product analytics engineering: tracking plan design, event instrumentation, product metrics frameworks, experimentation platforms, and privacy-compliant analytics. It integrates state-of-the-art practices from 2024-2026 including warehouse-native analytics, PostHog as the open-source standard, privacy-first tracking, AI-powered insights, product-led growth metrics, and server-side instrumentation for a cookie-less world.
-
 Cette skill couvre l'ensemble de l'ingénierie analytique produit moderne : conception de tracking plans, instrumentation d'événements, frameworks de métriques produit, plateformes d'expérimentation, et analytique conforme vie privée. Elle intègre les pratiques état de l'art 2024-2026 incluant l'analytique warehouse-native, PostHog comme standard open-source, le tracking privacy-first, les insights alimentés par l'IA, les métriques product-led growth, et l'instrumentation server-side pour un monde sans cookies.
 
 ## When This Skill Applies / Quand cette skill s'applique
@@ -27,7 +25,6 @@ Apply this skill when the user needs to:
 - Instrument product-led growth (PLG) funnels
 - Evaluate statistical significance of experiments
 
-Appliquer cette skill quand l'utilisateur a besoin de : concevoir un tracking plan, implémenter du tracking événementiel, définir des métriques produit, construire des analyses de funnels ou cohortes de rétention, concevoir des A/B tests, choisir des outils analytics, implémenter une analytique conforme RGPD, migrer vers de l'analytique warehouse-native, instrumenter des funnels PLG, ou évaluer la significativité statistique d'expériences.
 
 ## Core Principles / Principes fondamentaux
 
@@ -264,6 +261,21 @@ L'analytics produit se sophistique et se responsabilise :
 - "Comment analyser la rétention de nos utilisateurs par cohorte ?"
 - "Aide-moi à implémenter un event tracking conforme au RGPD"
 - "Quels outils choisir entre Amplitude, Mixpanel et PostHog ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Data engineering (pipelines ETL/ELT, orchestration dbt, data warehouse design) → Utiliser plutôt : `data-bi:data-engineering`
+- ❌ Visualisation de données pour la direction, storytelling BI ou reporting exécutif → Utiliser plutôt : `data-bi:data-literacy` ou `data-bi:decision-reporting-governance`
+- ❌ Design d'interface utilisateur, recherche UX qualitative ou design system → Utiliser plutôt : `code-development:ui-ux`
+- ❌ Métriques d'infrastructure (CPU, mémoire, latence serveur, SLOs) → Utiliser plutôt : `code-development:monitoring`
+- ❌ Métriques marketing d'acquisition (SEO, SEM, attribution multi-canal) → Utiliser plutôt : `entreprise:marketing`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Plus de 100 événements trackés sans tracking plan documenté → nettoyer les événements morts, versionner le tracking plan et valider les schémas en CI
+- ⚠️ Les résultats d'A/B test sont consultés avant d'atteindre la taille d'échantillon calculée → le peeking sans correction séquentielle gonfle le taux de faux positifs jusqu'à 30%+
+- ⚠️ Les métriques principales sont des vanity metrics (page views, inscriptions totales) → remplacer par des métriques actionnables (activation rate, rétention Day-7, DAU/MAU ratio)
+- ⚠️ Le tracking se fait uniquement côté client sans tracking server-side → les ad blockers bloquent 30-40% des événements ; tracker les conversions critiques côté serveur
 
 ## Skills connexes
 

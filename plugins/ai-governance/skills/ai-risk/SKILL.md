@@ -130,8 +130,9 @@ Le systeme traite-t-il des donnees personnelles ou sensibles ?
 
 Le systeme est-il un outil interne a faible autonomie ?
   (assistant developpeur, resume de documents, recherche interne)
-  -> Risque MODERE : guardrails standards, monitoring basique,
-     revue periodique des outputs
+  -> Risque MODERE : guardrails standards (input/output filtering),
+     monitoring des metriques cles (latence, taux d'erreur, drift score) avec alertes,
+     revue mensuelle des outputs (echantillon de 5% des requetes)
 
 Le systeme est-il un prototype ou un PoC non deploye ?
   -> Risque FAIBLE : documenter les risques identifies pour
@@ -206,17 +207,17 @@ Dependance fournisseur excessive ?
 ### Phase 2 : Evaluation et priorisation
 
 1. Appliquer la matrice probabilite x impact a chaque risque identifie
-2. Conduire des evaluations techniques : tests de robustesse, red teaming initial, audit des donnees
+2. Conduire des evaluations techniques : tests de robustesse (100+ inputs adversariaux par categorie OWASP LLM Top 10), red teaming initial (2-3 sessions de 4h avec des testeurs dedies), audit des donnees (verification de la provenance, detection de donnees sensibles, test de data poisoning)
 3. Evaluer les risques supply chain (modeles, datasets, librairies)
 4. Prioriser les risques et definir les seuils d'acceptation
 5. Valider avec les parties prenantes et obtenir l'approbation formelle du risque residuel
 
 ### Phase 3 : Mitigation et controles
 
-1. Implementer les defenses multi-couches pour les risques critiques et eleves
+1. Implementer les defenses multi-couches pour chaque risque critique et eleve : minimum 3 couches de protection (ex. input validation + output filtering + monitoring + circuit breaker), chaque couche documentee avec son taux de couverture
 2. Deployer le monitoring de production (performance, qualite, securite, drift)
 3. Configurer les kill switches et les mecanismes de graceful degradation
-4. Mettre en place les alertes et les seuils d'escalade
+4. Mettre en place les alertes et les seuils d'escalade : definir 3 niveaux (warning a 80% du seuil, alerte a 90%, critique a 100%) avec un responsable et un delai de reponse maximal pour chaque niveau (critique < 15 min, alerte < 1h, warning < 24h)
 5. Documenter les procedures de reponse aux incidents specifiques IA
 
 ### Phase 4 : Monitoring continu et amelioration
@@ -225,7 +226,7 @@ Dependance fournisseur excessive ?
 2. Monitorer les metriques de risque en temps reel (hallucination rate, drift score, blocked requests)
 3. Revoir le registre des risques mensuellement
 4. Integrer les retours des incidents et near-misses
-5. Mettre a jour les defenses face aux nouvelles menaces (jailbreaks, techniques d'attaque emergentes)
+5. Mettre a jour les defenses face aux nouvelles menaces : veille hebdomadaire sur les jailbreaks publies (OWASP, MITRE ATLAS, Twitter/X), test des nouveaux vecteurs d'attaque dans les 48h suivant leur publication, et mise a jour des filtres dans les 7 jours
 6. Conduire des revues post-incident (blameless post-mortems) pour chaque incident IA
 
 ## Modèle de maturité
@@ -305,6 +306,21 @@ Les risques IA se diversifient et les protections se structurent :
 - "Comment détecter et prévenir le model drift en production ?"
 - "Quelles protections contre le prompt injection ?"
 - "Aide-moi à concevoir un kill switch pour notre système IA"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ Définition de la stratégie IA globale, roadmap ou priorisation de use cases → Utiliser plutôt : `ai-governance:strategie-ia`
+- ❌ Audit de biais algorithmiques, métriques d'équité ou explicabilité des modèles → Utiliser plutôt : `ai-governance:ai-ethics`
+- ❌ Conception de prompts, architecture RAG ou évaluation de la qualité des réponses LLM → Utiliser plutôt : `ai-governance:prompt-engineering-llmops`
+- ❌ Gestion des risques d'entreprise généraux (financiers, opérationnels) sans composante IA → Utiliser plutôt : `entreprise:risk-management`
+- ❌ Sécurité applicative classique (OWASP Web Top 10, authentification, chiffrement) sans dimension IA → Utiliser plutôt : `code-development:auth-security`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Le registre des risques IA est un document statique jamais mis à jour — il doit être vivant, revu mensuellement pour les risques élevés et critiques
+- ⚠️ Le red teaming est effectué uniquement avant le lancement et jamais après — les modèles et les attaques évoluent, le red teaming doit être continu
+- ⚠️ La sécurité repose uniquement sur le system prompt ("ne fais pas X") — le system prompt est extractible et contournable, les défenses doivent être dans le code applicatif
+- ⚠️ Un agent IA a des permissions étendues (accès filesystem, APIs externes) sans kill switch testable — implémenter et tester le kill switch avant le déploiement
 
 ## Skills connexes
 

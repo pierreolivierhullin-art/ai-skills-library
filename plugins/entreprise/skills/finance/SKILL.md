@@ -9,7 +9,7 @@ last_updated: 2026-02
 
 ## Overview
 
-Ce skill couvre l'ensemble des disciplines de la finance d'entreprise : comptabilite et reporting financier, controle de gestion, FP&A (Financial Planning & Analysis), tresorerie, fiscalite, audit interne, fundraising et analyse financiere. Il fournit un cadre de decision structure pour piloter la performance financiere, optimiser la structure de financement et soutenir la prise de decision strategique a tous les niveaux de l'organisation. La finance d'entreprise ne se limite pas a la production de chiffres : elle constitue le systeme nerveux qui relie strategie, operations et creation de valeur. Appliquer systematiquement les principes decrits ici pour garantir rigueur, transparence et anticipation dans chaque decision financiere.
+Ce skill couvre l'ensemble des disciplines de la finance d'entreprise : comptabilite et reporting financier, controle de gestion, FP&A (Financial Planning & Analysis), tresorerie, fiscalite, audit interne, fundraising et analyse financiere. Il fournit un cadre de decision structure pour piloter la performance financiere, optimiser la structure de financement et soutenir la prise de decision strategique a tous les niveaux de l'organisation. La finance d'entreprise ne se limite pas a la production de chiffres : elle constitue le systeme nerveux qui relie strategie, operations et creation de valeur. Appliquer systematiquement les principes decrits ici pour garantir la fiabilite des donnees (reconciliation systematique entre comptabilite et controle de gestion), la transparence (chaque chiffre presente avec son ecart vs budget et N-1) et l'anticipation (rolling forecast 12-18 mois mis a jour mensuellement) dans chaque decision financiere.
 
 ## When This Skill Applies
 
@@ -36,7 +36,7 @@ Ne jamais presenter un chiffre sans son ecart par rapport au budget, au reforeca
 
 ### Principle 3 — Three Lines of Defense
 
-Appliquer le modele des trois lignes de defense pour structurer la gouvernance financiere : (1) le management operationnel est responsable de ses risques, (2) les fonctions de controle (controlling, compliance, risk) supervisent et challengent, (3) l'audit interne fournit une assurance independante. Ce modele garantit que chaque risque financier est identifie, evalue et traite a un niveau appropriate.
+Appliquer le modele des trois lignes de defense pour structurer la gouvernance financiere : (1) le management operationnel est responsable de ses risques, (2) les fonctions de controle (controlling, compliance, risk) supervisent et challengent, (3) l'audit interne fournit une assurance independante. Ce modele garantit que chaque risque financier est identifie, evalue et traite au bon niveau de responsabilite (operations pour les risques < 50K EUR, controle pour 50-500K EUR, direction pour > 500K EUR).
 
 ### Principle 4 — Forward-Looking over Backward-Looking
 
@@ -172,7 +172,7 @@ Maintenir un referentiel financier unique et reconcilie. Interdire les "shadow s
 - **Budget-as-a-Target Syndrome** : traiter le budget comme un objectif intangible plutot que comme une reference de pilotage. Un budget depasse de 3% avec une croissance du CA de 20% au-dessus du plan n'est pas un probleme. Toujours analyser les ecarts en relatif et en contexte.
 - **Spreadsheet Hell** : gerer la planification financiere, la consolidation ou le reporting sur des fichiers Excel non controles, non versionnes, avec des liens circulaires et des macros fragiles. Migrer vers des outils FP&A dedies (Pigment, Anaplan, Planful) des que la complexite le justifie.
 - **Rear-View Mirror Finance** : consacrer 80% du temps de la DAF a cloturer les comptes et 20% a anticiper. Inverser le ratio. Automatiser les clotures, standardiser les ecritures recurrentes, et reallouer les ressources vers le FP&A et l'analyse decisionnelle.
-- **Vanity Metrics** : presenter des metriques flatteuses mais non pertinentes (CA brut vs net, EBITDA ajuste avec trop de retraitements, nombre de clients sans distinction actifs/churnes). Toujours presenter les metriques les plus conservatives et les plus pertinentes pour la decision.
+- **Vanity Metrics** : presenter des metriques flatteuses mais non pertinentes (CA brut vs net, EBITDA ajuste avec trop de retraitements, nombre de clients sans distinction actifs/churnes). Toujours presenter les metriques les plus conservatives et les plus directement liees a la decision (CA net vs brut, EBITDA sans ajustements excessifs, clients actifs vs total inscrits).
 - **Siloed Finance** : cloisonner comptabilite, controle de gestion, tresorerie et fiscalite sans referentiel commun. Les ecarts entre la compta et le controlling, ou entre le budget de tresorerie et le P&L previsionnel, detruisent la credibilite de la DAF.
 
 ## Implementation Workflow
@@ -283,6 +283,21 @@ La fonction financière se transforme avec l'automatisation et les nouvelles mé
 - "Quels KPIs financiers suivre pour un SaaS en croissance ?"
 - "Comment structurer un pitch deck financier pour une levée de fonds ?"
 - "Analyse mon P&L et identifie les leviers d'optimisation"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ **Trading, gestion de portefeuille et produits derives** (options, hedging, allocation d'actifs) → Utiliser plutot : `finance-de-marche:options-risk` ou `finance-de-marche:portfolio`
+- ❌ **Strategie d'entreprise et decisions d'investissement strategique** (M&A strategy, go-to-market, scenario planning strategique) → Utiliser plutot : `entreprise:strategie`
+- ❌ **Implementation technique des systemes de paiement** (Stripe, passerelles, PCI-DSS) → Utiliser plutot : `code-development:payment-stripe`
+- ❌ **Gouvernance des risques d'entreprise et conformite reglementaire** (ERM, Sapin II, PCA/PRA) → Utiliser plutot : `entreprise:risk-management`
+- ❌ **Construction de dashboards et pipelines de donnees** (ETL, BI, data warehouse) → Utiliser plutot : `data-bi:decision-reporting-governance`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ L'ecart entre comptabilite et controle de gestion depasse 5% — le referentiel financier n'est pas reconcilie
+- ⚠️ Le delai de cloture depasse 15 jours ouvres — les processus comptables necessitent une automatisation urgente
+- ⚠️ Le cash conversion cycle s'allonge de plus de 10 jours sur un trimestre — signal d'alerte sur la liquidite
+- ⚠️ Aucun scenario downside n'est presente au COMEX — faux sentiment de securite financiere
 
 ## Skills connexes
 

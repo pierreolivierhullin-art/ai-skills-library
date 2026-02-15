@@ -13,8 +13,6 @@ Expert-level guidance for user interface design, user experience research, desig
 
 Ce skill couvre l'ensemble de la discipline UI/UX : de la recherche utilisateur au design d'interface, des design systems aux architectures frontend, de l'accessibilite a la performance perçue. Appliquer systematiquement les principes decrits ici pour concevoir des interfaces performantes, accessibles et maintenables. L'approche integre les standards modernes (2024-2026) : design tokens W3C, container queries, View Transitions API, CSS layers, Interaction to Next Paint (INP) comme Core Web Vital, et conformite a l'European Accessibility Act (EAA 2025).
 
-This skill covers the full UI/UX discipline: from user research to interface design, from design systems to frontend architecture, from accessibility to perceived performance. Apply the principles described here systematically to build performant, accessible, and maintainable interfaces. The approach incorporates modern standards (2024-2026): W3C design tokens, container queries, View Transitions API, CSS layers, Interaction to Next Paint (INP) as a Core Web Vital, and compliance with the European Accessibility Act (EAA 2025).
-
 Le design d'interface n'est pas une discipline decorative. Il determine directement les taux de conversion, la retention utilisateur, les couts de support et la conformite legale. Un design system mature reduit le temps de developpement de 30 a 50%, tandis qu'une mauvaise accessibilite expose l'organisation a des risques juridiques croissants sous l'EAA.
 
 ## When This Skill Applies
@@ -264,6 +262,21 @@ Le design d'interface et l'expérience utilisateur évoluent rapidement :
 - "Comment optimiser les Core Web Vitals de mon site ?"
 - "Aide-moi à concevoir un flow d'onboarding utilisateur efficace"
 - "Quelle stratégie CSS adopter pour un projet à grande échelle ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Architecture backend, choix de base de données ou optimisation SQL → Utiliser plutôt : `code-development:backend-db`
+- ❌ Branding, identité visuelle ou création de logo → Faire appel à un designer graphique ou une agence de branding
+- ❌ Stratégie marketing, acquisition ou SEO technique → Utiliser plutôt : `entreprise:marketing`
+- ❌ Tests de charge, performance backend ou chaos engineering → Utiliser plutôt : `code-development:quality-reliability`
+- ❌ Analyse de métriques produit (funnels, cohortes, A/B tests statistiques) → Utiliser plutôt : `code-development:product-analytics`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Le design system contient des composants utilisés par un seul écran → un composant partagé doit être utilisé dans au moins 2-3 contextes différents ; sinon c'est du code local
+- ⚠️ L'accessibilité est traitée en "phase de remédiation" après le développement → intégrer les tests axe-core et clavier dès le développement de chaque composant
+- ⚠️ Les Core Web Vitals ne sont mesurés qu'en environnement de dev → utiliser les field data (CrUX) pour mesurer la performance réelle des utilisateurs
+- ⚠️ Les maquettes sont validées sans test utilisateur (même informel) → conduire au minimum 5 tests d'utilisabilité guerilla avant de valider un parcours
 
 ## Skills connexes
 

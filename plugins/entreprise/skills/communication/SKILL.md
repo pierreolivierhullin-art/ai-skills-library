@@ -9,7 +9,7 @@ last_updated: 2026-02
 
 ## Overview
 
-Ce skill couvre l'ensemble des disciplines de la communication institutionnelle et des relations publiques, de la communication corporate aux affaires publiques, en passant par les relations presse, la gestion de crise et la communication interne. Il fournit un cadre structurant pour concevoir, deployer et piloter des dispositifs de communication alignes sur les objectifs strategiques de l'organisation. Appliquer systematiquement les principes et methodes decrits ici pour garantir la coherence, la credibilite et l'impact de chaque action de communication. La communication institutionnelle ne se limite pas a la diffusion de messages : elle englobe la construction du recit d'entreprise, la gestion de la reputation, l'engagement des parties prenantes internes et externes, et le pilotage de l'influence dans un ecosysteme mediatique et politique en profonde mutation (IA generative, desinformation, defiance institutionnelle, exigences ESG).
+Ce skill couvre l'ensemble des disciplines de la communication institutionnelle et des relations publiques, de la communication corporate aux affaires publiques, en passant par les relations presse, la gestion de crise et la communication interne. Il fournit un cadre structurant pour concevoir, deployer et piloter des dispositifs de communication alignes sur les objectifs strategiques de l'organisation. Appliquer systematiquement les principes et methodes decrits ici pour garantir la coherence (chaque message rattache au narrative central), la credibilite (chaque affirmation soutenue par une preuve : chiffre, temoignage, certification) et l'impact mesurable (share of voice, sentiment score, taux de reprise des messages cles) de chaque action de communication. La communication institutionnelle ne se limite pas a la diffusion de messages : elle englobe la construction du recit d'entreprise, la gestion de la reputation, l'engagement des parties prenantes internes et externes, et le pilotage de l'influence dans un ecosysteme mediatique et politique en profonde mutation (IA generative, desinformation, defiance institutionnelle, exigences ESG).
 
 ## When This Skill Applies
 
@@ -248,6 +248,21 @@ La communication corporate se réinvente avec les nouveaux médias :
 - "Comment développer le personal branding de notre CEO ?"
 - "Aide-moi à préparer un media training pour nos dirigeants"
 - "Quelle stratégie de communication corporate pour améliorer notre e-réputation ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ **Strategie d'acquisition marketing et generation de leads** (SEO, paid ads, content marketing, growth hacking) → Utiliser plutot : `entreprise:marketing`
+- ❌ **Communication commerciale et techniques de vente** (pitch, demos, objection handling, closing) → Utiliser plutot : `entreprise:commercial`
+- ❌ **Gestion de crise operationnelle** (PCA/PRA, continuite d'activite, gestion des incidents) → Utiliser plutot : `entreprise:risk-management`
+- ❌ **Data storytelling et visualisation de donnees** (choix de graphiques, design de dashboards, presentations de donnees) → Utiliser plutot : `data-bi:data-literacy`
+- ❌ **Communication RH interne et marque employeur** (onboarding, engagement collaborateur, people analytics) → Utiliser plutot : `entreprise:rh`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Le sentiment score media est inferieur a 40% positif — la perception de l'organisation est en zone de risque reputationnel
+- ⚠️ Aucun dispositif de crise n'est prepare (pas de dark site, pas de holding statements, pas de cellule pre-identifiee) — une crise trouvera l'organisation non preparee
+- ⚠️ Les messages diffuses en interne contredisent la communication externe — destruction de credibilite aupres des collaborateurs
+- ⚠️ L'engagement interne sur l'intranet est inferieur a 20% — les collaborateurs ne recoivent pas ou n'ecoutent pas la communication interne
 
 ## Skills connexes
 

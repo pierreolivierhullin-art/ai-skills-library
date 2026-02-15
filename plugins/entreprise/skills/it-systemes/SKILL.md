@@ -43,7 +43,7 @@ Integrer la securite des la phase de conception de tout projet IT (Security by D
 
 ### Principle 4 — Privilegier le cloud-smart au cloud-first
 
-Ne pas migrer vers le cloud par dogme, mais par analyse rigoureuse du rapport cout/benefice/risque pour chaque workload. Adopter une approche cloud-smart : certains workloads justifient le cloud public, d'autres le cloud prive ou l'on-premise. Maitriser le FinOps pour eviter l'explosion des couts. Anticiper la reversibilite et le vendor lock-in des la conception.
+Ne pas migrer vers le cloud par dogme, mais par analyse documentee du rapport cout/benefice/risque pour chaque workload (TCO sur 3 ans, score de risque securite, SLA requis, contraintes reglementaires). Adopter une approche cloud-smart : certains workloads justifient le cloud public, d'autres le cloud prive ou l'on-premise. Maitriser le FinOps pour eviter l'explosion des couts. Anticiper la reversibilite et le vendor lock-in des la conception.
 
 ### Principle 5 — Mesurer pour piloter
 
@@ -255,6 +255,21 @@ La gouvernance IT se transforme avec le cloud et l'IA :
 - "Comment gérer le shadow IT dans l'organisation ?"
 - "Quels critères pour choisir entre cloud public, privé ou hybride ?"
 - "Aide-moi à rédiger un PCA/PRA pour notre SI"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ **Architecture technique et choix de stack de developpement** (microservices, API design, design patterns, DDD) → Utiliser plutot : `code-development:architecture`
+- ❌ **Implementation CI/CD et Infrastructure as Code** (pipelines, Docker, Kubernetes, Terraform) → Utiliser plutot : `code-development:devops`
+- ❌ **Securite applicative et implementation technique** (OWASP, OAuth, JWT, chiffrement) → Utiliser plutot : `code-development:auth-security`
+- ❌ **Pilotage de projets de transformation** (methodologie agile, change management, PMO) → Utiliser plutot : `entreprise:gestion-de-projets`
+- ❌ **Pipelines de donnees et architecture data** (ETL, data warehouse, Snowflake, dbt) → Utiliser plutot : `data-bi:data-engineering`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Le shadow IT represente plus de 30% des applications utilisees — le processus d'onboarding SaaS est trop lent ou trop contraignant
+- ⚠️ Le ratio run/build depasse 80/20 — la DSI ne degage pas de capacite pour la transformation
+- ⚠️ La CMDB n'a pas ete mise a jour depuis plus de 6 mois — les decisions d'infrastructure reposent sur des donnees obsoletes
+- ⚠️ Aucun test de PRA n'a ete realise dans l'annee — le plan de reprise est un document, pas un plan operationnel
 
 ## Skills connexes
 

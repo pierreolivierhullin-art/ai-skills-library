@@ -9,7 +9,7 @@ last_updated: 2026-02
 
 ## Overview
 
-Ce skill couvre l'ensemble des disciplines commerciales B2B et B2C, de la prospection au closing, en passant par la gestion de comptes stratégiques et les opérations revenue. Il fournit un cadre structuré pour construire une machine commerciale performante, reproductible et scalable. La vente moderne ne repose plus uniquement sur le talent individuel : elle s'appuie sur des méthodologies éprouvées, une stack technologique intégrée, des processus data-driven et un alignement étroit entre Sales, Marketing et Customer Success. Appliquer systématiquement les principes décrits ici pour structurer chaque initiative commerciale, en privilégiant la rigueur méthodologique, la mesure des résultats et l'orientation valeur client.
+Ce skill couvre l'ensemble des disciplines commerciales B2B et B2C, de la prospection au closing, en passant par la gestion de comptes stratégiques et les opérations revenue. Il fournit un cadre structuré pour construire une machine commerciale performante, reproductible et scalable. La vente moderne ne repose plus uniquement sur le talent individuel : elle s'appuie sur des méthodologies éprouvées, une stack technologique intégrée, des processus data-driven et un alignement étroit entre Sales, Marketing et Customer Success. Appliquer systématiquement les principes décrits ici pour structurer chaque initiative commerciale, en privilégiant la rigueur méthodologique (qualification MEDDPICC systématique sur chaque deal > 50K EUR), la mesure des résultats (win rate, sales velocity, pipeline coverage suivis hebdomadairement) et l'orientation valeur client (chaque interaction apporte un insight ou une donnée utile au prospect).
 
 ## When This Skill Applies
 
@@ -33,7 +33,7 @@ Aligner l'ensemble du processus de vente sur le parcours d'achat du client, pas 
 Fonder chaque decision commerciale sur des donnees mesurables. Tracker les metriques cles a chaque etape du funnel : taux de conversion par etape, sales velocity, win rate par segment, taille moyenne des deals, cycle de vente. Ne jamais se fier uniquement a l'intuition du commercial. Un pipeline sans donnees fiables est un pipeline fictif.
 
 ### Principle 3 — Methodology Discipline
-Adopter une methodologie de vente et l'appliquer avec rigueur sur chaque deal. MEDDPICC pour les ventes enterprise complexes, Challenger Sale pour les marches ou l'education du client est cle, SPIN pour les ventes consultatives. La methodologie n'est pas un formulaire a remplir mais un cadre de reflexion qui structure la qualification, la decouverte et la strategie de closing.
+Adopter une methodologie de vente et l'appliquer systematiquement sur chaque deal (scorecard remplie a chaque etape, revue en deal review hebdomadaire). MEDDPICC pour les ventes enterprise complexes, Challenger Sale pour les marches ou l'education du client est cle, SPIN pour les ventes consultatives. La methodologie n'est pas un formulaire a remplir mais un cadre de reflexion qui structure la qualification, la decouverte et la strategie de closing.
 
 ### Principle 4 — Multi-Threading & Consensus Building
 Ne jamais dependre d'un seul contact chez le prospect. En vente B2B complexe, la decision implique en moyenne 6 a 11 parties prenantes (source : Gartner). Identifier et engager systematiquement le Champion, l'Economic Buyer, le Technical Buyer, le Coach interne et les influenceurs. Construire un consensus multi-niveaux est la cle du closing en enterprise.
@@ -121,15 +121,15 @@ Investir dans la formation et l'outillage continus des equipes commerciales. Les
 
 - **Happy Ears** : croire les signaux positifs du prospect sans les valider (le prospect dit "tres interessant" mais n'a pas de budget). Diagnostiquer via MEDDPICC : chaque element doit etre valide, pas suppose.
 - **Single-Threading** : ne parler qu'a un seul interlocuteur chez le prospect. Si cette personne change de poste ou perd son influence, le deal meurt. Toujours multi-threader des la phase de decouverte.
-- **Feature Dumping** : presenter toutes les fonctionnalites du produit au lieu de se concentrer sur le probleme specifique du prospect. Adopter une approche diagnostique : d'abord comprendre le probleme, puis presenter uniquement les capacites pertinentes.
+- **Feature Dumping** : presenter toutes les fonctionnalites du produit au lieu de se concentrer sur le probleme specifique du prospect. Adopter une approche diagnostique : d'abord comprendre le probleme, puis presenter uniquement les 2-3 capacites qui repondent directement au probleme identifie.
 - **Discount-First Closing** : offrir des remises sans contrepartie ni negociation structuree. Chaque remise doit etre echangee contre quelque chose (engagement de duree, volume, reference client, timeline acceleree).
-- **Forecasting Fiction** : un pipeline rempli de deals mal qualifies, avec des dates de closing artificielles. Appliquer des criteres de qualification stricts et des categories de forecast rigoureuses (Commit, Best Case, Pipeline, Upside).
+- **Forecasting Fiction** : un pipeline rempli de deals mal qualifies, avec des dates de closing artificielles. Appliquer des criteres de qualification stricts (score MEDDPICC > 18/30 pour passer en Commit) et des categories de forecast verifiables (Commit : champion confirme + budget valide + decision process mappe ; Best Case : 2 criteres sur 3 ; Pipeline : en cours de qualification).
 
 ## Implementation Workflow
 
 ### Phase 1 — Foundation & Strategy
 1. Definir l'ICP (Ideal Customer Profile) et les personas d'acheteurs avec des criteres firmographiques, technographiques et comportementaux.
-2. Choisir la methodologie de vente adaptee au segment et a la complexite du cycle.
+2. Choisir la methodologie de vente selon le segment et la complexite du cycle (MEDDPICC si deal > 50K EUR et cycle > 90 jours, SPIN pour deals 10-50K EUR, BANT si cycle < 30 jours).
 3. Construire le sales playbook : process par etape, scripts, objection handling, templates.
 4. Deployer le CRM et configurer les etapes du pipeline alignees sur le parcours d'achat.
 5. Definir les metriques cles et les dashboards de pilotage.
@@ -143,7 +143,7 @@ Investir dans la formation et l'outillage continus des equipes commerciales. Les
 
 ### Phase 3 — Execution & Closing
 11. Appliquer la methodologie de decouverte a chaque opportunite (SPIN questions, pain identification).
-12. Qualifier rigoureusement chaque deal avec le framework choisi (MEDDPICC, BANT).
+12. Qualifier chaque deal avec le framework choisi (MEDDPICC, BANT) en exigeant un score minimum de 18/30 sur la scorecard pour passer en commit forecast.
 13. Construire des mutual action plans pour les deals strategiques.
 14. Gerer les objections avec des techniques structurees (feel-felt-found, isolate and address).
 15. Executer le closing avec une negociation preparee (BATNA, ZOPA, concessions planifiees).
@@ -234,6 +234,21 @@ La fonction commerciale est transformée par l'IA et l'automatisation :
 - "Comment améliorer notre taux de closing ?"
 - "Aide-moi à construire un forecast de ventes fiable"
 - "Quelles techniques pour gérer les objections prix ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ **Generation de leads et strategie d'acquisition marketing** (SEO, content marketing, paid ads, growth hacking) → Utiliser plutot : `entreprise:marketing`
+- ❌ **Modelisation financiere et previsions de revenus detaillees** (P&L, unit economics, valorisation) → Utiliser plutot : `entreprise:finance`
+- ❌ **Negociation contractuelle et cadre juridique** (CGV, contrats-cadres, clauses de responsabilite) → Utiliser plutot : `entreprise:juridique`
+- ❌ **Fidelisation post-vente et customer success** (health scoring, churn prevention, NPS) → Utiliser plutot : `entreprise:support-client`
+- ❌ **Implementation technique du CRM** (configuration Salesforce/HubSpot, workflows, integrations API) → Utiliser plutot : `code-development:backend-db`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Le pipeline coverage est inferieur a 3x le quota — risque de sous-performance trimestrielle
+- ⚠️ Plus de 50% des deals n'ont qu'un seul interlocuteur identifie — probleme de single-threading critique
+- ⚠️ Le forecast accuracy est inferieur a 50% — les criteres de qualification ne sont pas appliques ou pas fiables
+- ⚠️ Le win rate chute de plus de 5 points sur un trimestre sans explication identifiee — necessite une analyse win/loss immediate
 
 ## Skills connexes
 

@@ -94,7 +94,7 @@ Agentic AI (tool use, multi-step reasoning, autonomous execution) unlocks transf
 ### Choosing a RAG Architecture
 
 - **Naive RAG** -- Simple embed-chunk-retrieve-generate. Use for prototypes, internal tools with clean data, and when latency is critical.
-- **Advanced RAG** -- Add re-ranking, query expansion, HyDE, or self-RAG. Use when naive RAG accuracy is insufficient and the data corpus is large or noisy.
+- **Advanced RAG** -- Add re-ranking, query expansion, HyDE, or self-RAG. Use when naive RAG retrieval precision@5 < 70% or faithfulness < 85%, and the data corpus exceeds 10K documents or contains noisy/heterogeneous sources.
 - **Modular RAG** -- Pluggable components (routing, multi-index, iterative retrieval). Use for production systems with diverse data sources and complex query patterns.
 
 ### Choosing an Orchestration Framework
@@ -143,13 +143,13 @@ Follow this workflow when building an LLM-powered application:
 
 5. **Build the Orchestration Pipeline** -- Choose a framework or direct API calls based on complexity. Implement error handling, retries with exponential backoff, and fallback models. Add streaming for user-facing applications.
 
-6. **Evaluate and Iterate** -- Run the evaluation pipeline on the golden dataset. Measure faithfulness, relevance, coherence, and safety. Iterate on prompts, retrieval, and pipeline until success criteria are met. Use A/B testing for production changes.
+6. **Evaluate and Iterate** -- Run the evaluation pipeline on the golden dataset. Measure faithfulness (% of claims supported by sources), relevance (% of answers addressing the query), coherence (human rating 1-5), and safety (% of outputs passing content filters). Iterate on prompts, retrieval, and pipeline until success criteria are met. Use A/B testing for production changes.
 
-7. **Deploy with Observability** -- Instrument every LLM call with tracing (LangSmith, Langfuse). Monitor latency, cost, error rates, and output quality in production. Set up alerts for quality degradation.
+7. **Deploy with Observability** -- Instrument every LLM call with tracing (LangSmith, Langfuse). Monitor latency (P50, P95, P99), cost per request, error rates (timeouts, 4xx, 5xx), and output quality (hallucination rate, user thumbs-up ratio, faithfulness score). Set up alerts when any metric degrades beyond 10% of the baseline.
 
 8. **Optimize Costs** -- Implement prompt caching. Set up model routing (small model for simple tasks, large model for complex tasks). Compress prompts where possible. Batch requests when latency allows.
 
-9. **Consider Fine-Tuning Only as a Last Resort** -- If prompting and RAG are insufficient, consider fine-tuning. Start with LoRA/QLoRA for parameter efficiency. Generate synthetic training data if real data is scarce. Evaluate the fine-tuned model against the same golden dataset.
+9. **Consider Fine-Tuning Only as a Last Resort** -- Fine-tune only si le prompting + RAG plafonnent sous les criteres de succes apres 3+ iterations documentees. Commencer par LoRA/QLoRA (< 1% des parametres entraines). Minimum 1000 exemples d'entrainement (generer des donnees synthetiques si donnees reelles < 500). Evaluer le modele fine-tune sur le meme golden dataset et comparer les metriques point par point.
 
 ---
 
@@ -245,6 +245,21 @@ Output: [exemple de sortie attendue]
 - "Aide-moi à choisir entre fine-tuning et few-shot prompting"
 - "Comment mettre en place des guardrails pour notre chatbot ?"
 - "Quelle stratégie de chunking pour mon pipeline RAG ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ Definition de la strategie IA d'entreprise, roadmap ou gouvernance organisationnelle → Utiliser plutot : `ai-governance:strategie-ia`
+- ❌ Audit de biais algorithmiques, metriques de fairness ou explicabilite ethique → Utiliser plutot : `ai-governance:ai-ethics`
+- ❌ Red teaming securitaire, gestion des incidents IA ou conformite reglementaire → Utiliser plutot : `ai-governance:ai-risk`
+- ❌ Architecture logicielle generale (microservices, APIs) sans composante LLM → Utiliser plutot : `code-development:architecture`
+- ❌ Data engineering pur (pipelines ETL, data lakes) sans lien avec un pipeline RAG ou LLM → Utiliser plutot : `data-bi:data-engineering`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Le prompt est deploye en production sans golden dataset d'evaluation (meme minimal de 50 exemples) — c'est du "Prompt-and-Pray", creer un jeu de test avant tout deploiement
+- ⚠️ Le taux d'hallucination n'est pas mesure — mettre en place un scoring de faithfulness (% de claims ancrees dans les sources) avant de deployer un RAG
+- ⚠️ Le fine-tuning est envisage alors que le prompt n'a ete itere que 1-2 fois — epuiser d'abord le prompting (few-shot, CoT) et le RAG avant de fine-tuner
+- ⚠️ Un agent IA a un acces illimite aux outils sans plafond d'iterations ni budget API — restreindre le scope, plafonner les actions et exiger une approbation humaine pour les actions a fort impact
 
 ## Skills connexes
 

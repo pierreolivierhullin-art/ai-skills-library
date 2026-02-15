@@ -176,7 +176,7 @@ Flux de donnees unidirectionnel serveur -> client ?
 1. Analyser les requetes lentes avec `EXPLAIN (ANALYZE, BUFFERS, FORMAT TEXT)`.
 2. Ajouter des index cibles sur les colonnes identifiees (voir sql-postgresql.md pour les strategies).
 3. Implementer le caching Redis pour les donnees frequemment accedees et rarement modifiees.
-4. Configurer le connection pooling (PgBouncer/Supavisor) avec des limites appropriees.
+4. Configurer le connection pooling (PgBouncer/Supavisor) : pool_size = nb_cores * 2 + nb_disks pour PostgreSQL, max 100 connexions par pool, mode transaction pour les workloads web.
 5. Mettre en place le monitoring des requetes avec `pg_stat_statements`.
 
 ### Phase 4 : Production & Maintenance
@@ -269,6 +269,21 @@ Le backend et les bases de données évoluent vers l'IA et la simplification :
 - "Propose une stratégie d'indexation pour améliorer les performances"
 - "Comment implémenter une API GraphQL avec des relations complexes ?"
 - "Aide-moi à configurer Supabase avec Row Level Security"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Décisions d'architecture système (monolithe vs microservices, event-driven design) → Utiliser plutôt : `code-development:architecture`
+- ❌ Pipelines de données ETL/ELT, data warehousing ou orchestration dbt → Utiliser plutôt : `data-bi:data-engineering`
+- ❌ Authentification utilisateur, OAuth, gestion de sessions ou RBAC applicatif → Utiliser plutôt : `code-development:auth-security`
+- ❌ Design d'interface frontend, formulaires ou composants UI → Utiliser plutôt : `code-development:ui-ux`
+- ❌ Intégration de paiements Stripe, webhooks de facturation ou conformité PCI → Utiliser plutôt : `code-development:payment-stripe`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Des requêtes SELECT * sont présentes dans le code de production → spécifier les colonnes nécessaires pour réduire le transfert et exploiter les index couvrants
+- ⚠️ Les migrations sont appliquées manuellement en production sans fichier versionné → toujours passer par des fichiers de migration versionnés et testés sur staging
+- ⚠️ Le schema est en 1NF avec des colonnes JSON fourre-tout → normaliser en 3NF d'abord, puis dénormaliser intentionnellement selon les access patterns mesurés
+- ⚠️ Pas de connection pooler en production → chaque connexion directe coûte ~5MB de RAM PostgreSQL ; utiliser PgBouncer ou Supavisor systématiquement
 
 ## Skills connexes
 

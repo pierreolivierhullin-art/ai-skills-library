@@ -26,7 +26,7 @@ Activer ce skill dans les situations suivantes :
 
 ### Principle 1 — Prevention Over Litigation
 
-Privilegier systematiquement la prevention juridique sur la resolution contentieuse. Un euro investi en securisation contractuelle en amont economise dix euros en contentieux en aval. Structurer chaque projet avec une analyse de risques juridiques initiale (legal risk assessment), des clauses contractuelles adaptees, et des mecanismes de resolution amiable (mediation, conciliation) avant toute escalade judiciaire. En 2024-2026, les entreprises les plus performantes integrent le juridique des la phase de conception des produits et services (Legal by Design).
+Privilegier systematiquement la prevention juridique sur la resolution contentieuse. Un euro investi en securisation contractuelle en amont economise dix euros en contentieux en aval. Structurer chaque projet avec une analyse de risques juridiques initiale (legal risk assessment), des clauses contractuelles proportionnees au risque identifie (limitation de responsabilite, penalites, SLA), et des mecanismes de resolution amiable (mediation, conciliation) avant toute escalade judiciaire. En 2024-2026, les entreprises les plus performantes integrent le juridique des la phase de conception des produits et services (Legal by Design).
 
 ### Principle 2 — Business Partner, Not Gatekeeper
 
@@ -144,7 +144,7 @@ Adapter le niveau de diligence juridique a l'enjeu reel. Ne pas appliquer le mem
 - **Legal Risk Register** : tenir un registre centralise des risques juridiques par business unit, classe par probabilite et impact, avec des plans d'attenuation documentes et des responsables identifies. Revue trimestrielle en comite des risques.
 - **Privacy by Design Checklist** : integrer une checklist Privacy by Design dans chaque process de lancement produit ou projet IT. Valider la conformite RGPD avant toute mise en production, pas apres.
 - **Contract Lifecycle Automation** : automatiser le cycle de vie contractuel de bout en bout : creation depuis templates, workflow d'approbation, signature electronique, stockage centralise, alertes d'echeance, renouvellement. Eliminer les contrats "oublies" qui se renouvellent par tacite reconduction.
-- **Compliance Training Program** : deployer un programme de formation compliance recurrent (annuel minimum) adapte par population (dirigeants, managers, operationnels, achats). Tracker les taux de completion et tester la comprehension.
+- **Compliance Training Program** : deployer un programme de formation compliance recurrent (annuel minimum) avec un contenu specifique par population (dirigeants : responsabilite penale, Sapin II ; managers : harcelement, discrimination ; operationnels : RGPD, confidentialite ; achats : anticorruption, conflits d'interets). Tracker les taux de completion et tester la comprehension.
 
 ### Anti-patterns critiques
 
@@ -166,7 +166,7 @@ Adapter le niveau de diligence juridique a l'enjeu reel. Ne pas appliquer le mem
 
 ### Phase 2 -- Structuration & Outils
 
-6. Deployer les outils legal tech adaptes a la maturite de l'organisation (CLM, e-signature, veille juridique).
+6. Deployer les outils legal tech selon la maturite de l'organisation (early-stage : Google Docs + DocuSign ; PME : Tomorro/Leeway CLM ; ETI : Icertis/Ironclad + Doctrine).
 7. Formaliser le playbook de negociation contractuelle (positions, lignes rouges, escalade).
 8. Mettre en place le programme compliance (anticorruption, devoir de vigilance, alertes internes).
 9. Structurer la strategie PI : depot des marques et brevets prioritaires, politique de licence logicielle.
@@ -271,6 +271,21 @@ La fonction juridique se digitalise et fait face à de nouveaux cadres :
 - "Propose un NDA standard pour nos partenariats"
 - "Quels risques juridiques anticiper pour un lancement international ?"
 - "Aide-moi à structurer un programme de compliance"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ **Gestion des risques d'entreprise et conformite ERM** (cartographie des risques, PCA/PRA, appetence au risque) → Utiliser plutot : `entreprise:risk-management`
+- ❌ **Strategie de recrutement et gestion des talents** (GPEC, performance management, remuneration) → Utiliser plutot : `entreprise:rh`
+- ❌ **Negociation commerciale et techniques de vente** (MEDDIC, objection handling, pricing) → Utiliser plutot : `entreprise:commercial`
+- ❌ **Reporting extra-financier et strategie ESG** (CSRD, bilan carbone, taxonomie UE) → Utiliser plutot : `entreprise:rse-esg`
+- ❌ **Implementation technique RGPD** (pseudonymisation, chiffrement, consentement technique) → Utiliser plutot : `code-development:auth-security`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Le delai moyen de traitement des contrats depasse 4 semaines — la direction juridique est un goulot d'etranglement pour le business
+- ⚠️ Le registre des traitements RGPD n'a pas ete mis a jour depuis plus de 6 mois — risque de non-conformite CNIL
+- ⚠️ Les marques et brevets strategiques ne sont pas deposes — les actifs intellectuels ne sont pas proteges
+- ⚠️ Aucun template contractuel pre-valide n'existe pour les operations recurrentes (NDA, SaaS, prestation) — chaque contrat est redige from scratch
 
 ## Skills connexes
 

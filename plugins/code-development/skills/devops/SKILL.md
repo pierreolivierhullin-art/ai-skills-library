@@ -216,6 +216,21 @@ Le DevOps évolue vers le platform engineering et l'IA :
 - "Terraform vs Pulumi : lequel choisir pour notre infra ?"
 - "Aide-moi à configurer un environnement de staging automatisé"
 
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Décisions d'architecture applicative (monolithe vs microservices, DDD, CQRS) → Utiliser plutôt : `code-development:architecture`
+- ❌ Écriture de tests unitaires, TDD, stratégie de test ou refactoring de code → Utiliser plutôt : `code-development:code-excellence` ou `code-development:quality-reliability`
+- ❌ Monitoring, alerting, SLOs ou gestion d'incidents en production → Utiliser plutôt : `code-development:monitoring`
+- ❌ Sécurité applicative (OAuth, OWASP, gestion des secrets applicatifs) → Utiliser plutôt : `code-development:auth-security`
+- ❌ Gouvernance IT d'entreprise, stratégie cloud au niveau direction → Utiliser plutôt : `entreprise:it-systemes`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Le pipeline CI prend plus de 30 minutes → découper en stages parallèles, activer le caching des dépendances et limiter les tests e2e au smoke testing
+- ⚠️ Les déploiements en production sont manuels ou nécessitent un accès SSH → automatiser via CI/CD avec des approval gates uniquement où la compliance l'exige
+- ⚠️ Les images Docker sont taguées `latest` en production → taguer avec le commit SHA pour garantir la traçabilité et la reproductibilité
+- ⚠️ L'infrastructure est modifiée manuellement sans passer par l'IaC → tout changement doit être versionné dans Terraform/Pulumi et appliqué via pipeline
+
 ## Skills connexes
 
 | Skill | Lien |

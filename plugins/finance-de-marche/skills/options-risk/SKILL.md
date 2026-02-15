@@ -20,9 +20,9 @@ Le trading d'options n'est pas de la spéculation aveugle : c'est de l'ingénier
 Activer cette skill dans les situations suivantes :
 
 - **Analyse d'une position options** : évaluer le prix théorique, les Greeks, le breakeven, le max profit/loss et le profil risque/rendement d'une position simple ou complexe.
-- **Construction de stratégie** : sélectionner et structurer une stratégie d'options (income, directionnelle, volatilité, hedging) adaptée à une thèse de marché, un objectif de rendement et une tolérance au risque.
+- **Construction de stratégie** : sélectionner et structurer une stratégie d'options (income, directionnelle, volatilité, hedging) en fonction de 3 critères explicites : (1) la thèse de marché (direction + conviction 1-5), (2) l'environnement de volatilité (IV Rank > ou < 50%), (3) le budget de risque (max loss en % du capital).
 - **Analyse de volatilité** : interpréter la volatilité implicite, l'IV Rank/Percentile, le skew, la term structure, et identifier les opportunités de mispricing.
-- **Sélection de sous-jacent (GARP)** : appliquer la méthodologie Growth At a Reasonable Price pour identifier des actions de qualité à prix raisonnable comme sous-jacents pour des stratégies d'options.
+- **Sélection de sous-jacent (GARP)** : appliquer la méthodologie Growth At a Reasonable Price pour identifier des actions avec PEG < 1.5, croissance CA > 10%/an, FCF/Net Income > 80% et dette nette/EBITDA < 2.5 comme sous-jacents pour des stratégies d'options.
 - **Gestion du risque** : dimensionner les positions (Kelly, fixed fractional), calculer les pertes maximales, gérer les Greeks au niveau du portefeuille, et surveiller les métriques de risque (VaR, Expected Shortfall).
 - **Wheel strategy** : exécuter et optimiser le cycle complet cash-secured put / assignment / covered call pour la génération de revenus.
 - **Ajustements et rolling** : décider quand et comment ajuster une position existante (roll up/down/out, conversion, repair strategy).
@@ -48,7 +48,7 @@ Gérer un portefeuille d'options sans surveiller les Greeks agrégés revient à
 
 ### GARP : Qualité du Sous-Jacent Avant Tout
 
-Une stratégie d'options brillante sur un sous-jacent de mauvaise qualité reste une mauvaise position. Appliquer la méthodologie GARP (Growth At a Reasonable Price) pour sélectionner des sous-jacents présentant une croissance des bénéfices supérieure à la moyenne, une valorisation raisonnable (PEG < 1.5), un bilan solide et des catalyseurs identifiables. La qualité fondamentale du sous-jacent est le premier facteur de succès à long terme.
+Une stratégie d'options brillante sur un sous-jacent de mauvaise qualité reste une mauvaise position. Appliquer la méthodologie GARP (Growth At a Reasonable Price) pour sélectionner des sous-jacents répondant aux critères quantifiés détaillés dans la section GARP Methodology ci-dessous. La qualité fondamentale du sous-jacent est le premier facteur de succès à long terme.
 
 ## Key Frameworks & Methods
 
@@ -82,7 +82,7 @@ Classifier et sélectionner les stratégies selon quatre objectifs :
 
 ### Wheel Strategy
 
-Exécuter le cycle complet de la Wheel Strategy pour la génération de revenus sur des sous-jacents de qualité (filtrés par GARP) :
+Exécuter le cycle complet de la Wheel Strategy pour la génération de revenus sur des sous-jacents filtrés par les 6 critères GARP (voir section GARP Methodology) :
 1. Vendre un cash-secured put à un strike correspondant à un prix d'achat acceptable (support technique, valorisation GARP attractive).
 2. Si assigné, détenir les actions et vendre immédiatement un covered call au-dessus du coût de base ajusté (prix d'achat - premium reçu).
 3. Si le covered call est assigné, réaliser le profit et recommencer au step 1.
@@ -90,7 +90,7 @@ Exécuter le cycle complet de la Wheel Strategy pour la génération de revenus 
 
 ### GARP Methodology
 
-Appliquer le screening GARP en 6 étapes pour identifier les sous-jacents de qualité :
+Appliquer le screening GARP en 6 étapes pour identifier les sous-jacents éligibles :
 1. **PEG Ratio < 1.5** : Price/Earnings divisé par le taux de croissance des bénéfices. Un PEG < 1 indique une sous-valorisation relative à la croissance.
 2. **Croissance des revenus** : chiffre d'affaires en croissance > 10% annualisé sur 3 ans avec accélération récente.
 3. **Qualité des bénéfices** : marge opérationnelle stable ou en expansion, conversion élevée des bénéfices en free cash flow (FCF/Net Income > 80%).
@@ -152,14 +152,14 @@ Appliquer le screening GARP en 6 étapes pour identifier les sous-jacents de qua
 ## Implementation Workflow
 
 ### Phase 1 -- Screening et Sélection (pré-trade)
-1. Appliquer le screening GARP pour constituer une watchlist de 15-20 sous-jacents de qualité.
+1. Appliquer le screening GARP pour constituer une watchlist de 15-20 sous-jacents répondant aux critères (PEG < 1.5, croissance CA > 10%, FCF/NI > 80%, dette nette/EBITDA < 2.5).
 2. Analyser l'environnement de volatilité : IV Rank, skew, term structure pour chaque sous-jacent.
 3. Vérifier le calendrier des événements : earnings, dividendes, événements macro.
 4. Identifier les niveaux techniques clés (support, résistance, moyennes mobiles) pour le placement des strikes.
 5. Consulter le flow d'options (unusual activity, put/call ratio, Open Interest) pour détecter le sentiment institutionnel.
 
 ### Phase 2 -- Construction et Sizing (entry)
-1. Sélectionner la stratégie alignée avec la thèse, l'IV environment et l'objectif.
+1. Sélectionner la stratégie en croisant la thèse directionnelle, l'IV Rank et le budget de risque (cf. tableau Sélection de Stratégie).
 2. Choisir l'expiration : 30-45 DTE pour les stratégies income, 60-90 DTE pour les stratégies directionnelles, > 180 DTE pour les LEAPS.
 3. Placer les strikes en utilisant les deltas comme guide : 0.30 delta pour les short strikes (70% POP), 0.16 delta pour les wings (84% POP).
 4. Calculer le max loss, le breakeven, le ratio risque/rendement et le rendement annualisé.
@@ -183,7 +183,7 @@ Appliquer le screening GARP en 6 étapes pour identifier les sous-jacents de qua
 
 ### Niveau 1 — Débutant
 - Compréhension limitée des mécaniques de base des options (Call/Put, strike, expiration)
-- Trading d'options sans plan de gestion des Greeks ni sizing rigoureux
+- Trading d'options sans plan de gestion des Greeks ni sizing défini (% du capital par trade non calculé)
 - Aucune analyse de volatilité implicite avant l'ouverture de positions
 - **Indicateurs** : win rate < 30%, aucun suivi du ratio risk/reward
 
@@ -194,7 +194,7 @@ Appliquer le screening GARP en 6 étapes pour identifier les sous-jacents de qua
 - **Indicateurs** : win rate 40-50%, ratio risk/reward moyen > 1:1, max drawdown suivi mensuellement
 
 ### Niveau 3 — Stratégique
-- Déploiement de stratégies multi-jambes adaptées à l'environnement de volatilité
+- Déploiement de stratégies multi-jambes calibrées selon l'IV Rank et le biais directionnel
 - Gestion active des positions avec règles d'ajustement et de rolling prédéfinies
 - Analyse systématique du skew, de la term structure et du flow d'options
 - **Indicateurs** : win rate > 55%, ratio risk/reward moyen > 1.5:1, Greeks portfolio sous contrôle
@@ -207,7 +207,7 @@ Appliquer le screening GARP en 6 étapes pour identifier les sous-jacents de qua
 
 ### Niveau 5 — Expert
 - Delta-hedging dynamique et gestion de la surface de volatilité en temps réel
-- Construction de stratégies propriétaires avec backtesting rigoureux et edge quantifié
+- Construction de stratégies propriétaires avec backtesting sur 5+ ans de données et edge quantifié (expected value > 0 sur 1000 simulations Monte Carlo)
 - Capacité à gérer un book d'options en conditions de stress (gamma squeeze, vol spike)
 - **Indicateurs** : win rate > 65%, ratio risk/reward > 2:1, max drawdown < 10%, Greeks portfolio toujours dans les limites
 
@@ -241,7 +241,7 @@ Le trading d'options évolue avec la technologie et la réglementation :
 |---|---|---|
 | **Thèse directionnelle** — Biais haussier/baissier/neutre clair | ☐ | ___ |
 | **IV Rank / IV Percentile** — Volatilité relative évaluée | ☐ | ___% |
-| **Stratégie choisie** — Adaptée au contexte de vol et direction | ☐ | ___ |
+| **Stratégie choisie** — Sélectionnée via le tableau Environnement/IV Rank/Direction | ☐ | ___ |
 | **Risk/Reward** — Ratio acceptable (min 1:2 ou prime suffisante) | ☐ | ___ |
 | **Taille de position** — Max 2-5% du portefeuille à risque | ☐ | ___% |
 | **Échéance** — DTE cohérent avec la thèse (30-45 DTE recommandé) | ☐ | ___ j |
@@ -257,6 +257,21 @@ Le trading d'options évolue avec la technologie et la réglementation :
 - "Quelle stratégie d'options pour un marché latéral ?"
 - "Comment gérer le risque d'une position short put ?"
 - "Explique-moi l'impact du theta decay sur mes positions"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Valorisation fondamentale approfondie d'une entreprise (DCF, multiples sectoriels détaillés) → Utiliser plutôt : `entreprise:finance`
+- ❌ Gestion de portefeuille multi-classes d'actifs (allocation actions/obligations/immobilier) → Utiliser plutôt : `finance-de-marche:portfolio`
+- ❌ Questions de conformité réglementaire sur les dérivés (obligations de reporting, marges réglementaires) → Utiliser plutôt : `finance-de-marche:regulatory`
+- ❌ Gestion des biais psychologiques du trader (revenge trading, FOMO, overconfidence) → Utiliser plutôt : `finance-de-marche:behavioral-finance`
+- ❌ Trading d'options sur crypto-actifs ou produits structurés exotiques non-listés (warrants, turbos, certificats) → Ces produits ont des mécaniques de pricing et de risque spécifiques non couvertes ici
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ L'utilisateur demande une stratégie sans pouvoir quantifier sa thèse directionnelle ni son budget de risque → Revenir aux fondamentaux avant de proposer une structure
+- ⚠️ L'utilisateur veut vendre des options nues sans connaître son max loss ni avoir de plan d'ajustement → Réorienter vers des stratégies à risque défini (spreads)
+- ⚠️ Le sous-jacent envisagé ne passe aucun filtre GARP (PEG > 3, dette nette/EBITDA > 5, FCF négatif) → Proposer un sous-jacent alternatif ou limiter la taille de position
+- ⚠️ L'utilisateur ignore l'IV Rank et veut acheter des straddles en environnement de volatilité élevée (IV Rank > 80%) → Signaler le risque de surpayer la volatilité
 
 ## Skills connexes
 

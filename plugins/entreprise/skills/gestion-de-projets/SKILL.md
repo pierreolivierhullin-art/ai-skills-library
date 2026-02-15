@@ -9,7 +9,7 @@ last_updated: 2026-02
 
 ## Overview
 
-Ce skill couvre l'ensemble des disciplines liees a la gestion de projets et a la transformation d'entreprise, depuis les methodologies classiques (Waterfall, PRINCE2) et agiles (Scrum, Kanban, SAFe) jusqu'a la conduite du changement organisationnel et la realisation des benefices. Il fournit un cadre de decision structure pour piloter des projets, des programmes et des portefeuilles, en integrant les dimensions methodologiques (choix du framework adapte), organisationnelles (PMO, gouvernance), humaines (change management, adoption) et strategiques (transformation digitale, benefits realization). Appliquer systematiquement les principes decrits ici pour guider chaque decision relative a la gestion de projets et a la transformation, en privilegiant la valeur livree, l'adaptabilite et l'engagement des parties prenantes. Ce skill integre les evolutions majeures 2024-2026 : pilotage IA-augmente, agilite a l'echelle, transformation data-driven et gestion du changement continu.
+Ce skill couvre l'ensemble des disciplines liees a la gestion de projets et a la transformation d'entreprise, depuis les methodologies classiques (Waterfall, PRINCE2) et agiles (Scrum, Kanban, SAFe) jusqu'a la conduite du changement organisationnel et la realisation des benefices. Il fournit un cadre de decision structure pour piloter des projets, des programmes et des portefeuilles, en integrant les dimensions methodologiques (choix du framework adapte), organisationnelles (PMO, gouvernance), humaines (change management, adoption) et strategiques (transformation digitale, benefits realization). Appliquer systematiquement les principes decrits ici pour guider chaque decision relative a la gestion de projets et a la transformation, en privilegiant la valeur livree (outcome mesurable defini avant chaque sprint), l'adaptabilite (revue de la methodologie a chaque retrospective) et l'engagement des parties prenantes (satisfaction stakeholders mesuree trimestriellement). Ce skill integre les evolutions majeures 2024-2026 : pilotage IA-augmente, agilite a l'echelle, transformation data-driven et gestion du changement continu.
 
 ## When This Skill Applies
 
@@ -31,7 +31,7 @@ Mesurer le succes d'un projet par la valeur delivree aux parties prenantes, pas 
 
 ### Principle 2 — Adaptive Governance
 
-Adapter le niveau de gouvernance a la complexite et au risque du projet. Un projet de 3 personnes sur 6 semaines ne necessite pas le meme cadre de gouvernance qu'une transformation a 200 personnes sur 3 ans. Utiliser le framework Cynefin pour diagnostiquer le type de complexite (simple, complique, complexe, chaotique) et choisir l'approche de gouvernance appropriee. Eviter la sur-gouvernance (bureaucratie) autant que la sous-gouvernance (chaos).
+Adapter le niveau de gouvernance a la complexite et au risque du projet. Un projet de 3 personnes sur 6 semaines ne necessite pas le meme cadre de gouvernance qu'une transformation a 200 personnes sur 3 ans. Utiliser le framework Cynefin pour diagnostiquer le type de complexite (simple, complique, complexe, chaotique) et choisir l'approche de gouvernance correspondante (simple : checklist hebdomadaire ; complique : comite de pilotage mensuel ; complexe : inspect & adapt toutes les 2 semaines ; chaotique : war room quotidienne). Eviter la sur-gouvernance (bureaucratie) autant que la sous-gouvernance (chaos).
 
 ### Principle 3 — People First, Process Second
 
@@ -274,8 +274,23 @@ La gestion de projet évolue vers plus d'agilité et d'intelligence artificielle
 - "Aide-moi à prioriser mon backlog avec la méthode MoSCoW"
 - "Propose un plan de conduite du changement pour notre transformation digitale"
 - "Comment estimer la charge de travail d'un projet complexe ?"
-- "Crée un template de rétrospective sprint efficace"
+- "Crée un template de rétrospective sprint avec actions mesurables et suivi"
 - "Quelle gouvernance projet mettre en place pour un programme multi-équipes ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ **Decisions strategiques d'entreprise** (vision, modele economique, M&A) → Utiliser plutot : `entreprise:strategie`
+- ❌ **Processus de developpement logiciel** (CI/CD, code review, architecture technique) → Utiliser plutot : `code-development:process-engineering` ou `code-development:devops`
+- ❌ **Optimisation des processus operationnels** (Lean manufacturing, supply chain, Six Sigma) → Utiliser plutot : `entreprise:operations`
+- ❌ **Gestion des competences et formation des equipes** (GPEC, plans de developpement, recrutement) → Utiliser plutot : `entreprise:rh`
+- ❌ **Communication de transformation aupres des parties prenantes externes** (relations presse, communication de crise) → Utiliser plutot : `entreprise:communication`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Le backlog est fige a plus de 80% sur les 3 prochains sprints — signe de "waterfall deguise en agile"
+- ⚠️ Aucun benefice n'est mesure 6 mois apres le go-live — risque de "benefits amnesia"
+- ⚠️ Le PMO produit plus de 10 reportings differents par mois sans feedback des chefs de projet — signe de PMO bureaucratique
+- ⚠️ La resistance au changement est identifiee mais aucun plan d'action OCM n'est en place — le changement ne sera pas adopte
 
 ## Skills connexes
 

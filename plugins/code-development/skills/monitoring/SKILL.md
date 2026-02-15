@@ -9,9 +9,9 @@ last_updated: 2026-02
 
 ## Overview / Vue d'ensemble
 
-This skill covers the full spectrum of modern observability engineering: the three pillars (logs, metrics, traces), structured logging, distributed tracing with OpenTelemetry, SLO/SLI/SLA management, error budgets, alerting design, incident management, and post-mortem culture. It integrates state-of-the-art practices from 2024-2026 including OpenTelemetry as the universal standard, eBPF-based kernel-level monitoring, continuous profiling, AI-powered anomaly detection, and observability-driven development (ODD).
+Ce skill couvre l'ensemble de l'ingénierie d'observabilité moderne : les trois piliers (logs, métriques, traces), le logging structuré, le tracing distribué avec OpenTelemetry, la gestion SLO/SLI/SLA, les budgets d'erreur, la conception d'alertes, la gestion d'incidents et la culture post-mortem. Il intègre les pratiques état de l'art 2024-2026 incluant OpenTelemetry comme standard universel, le monitoring kernel via eBPF, le profiling continu, la détection d'anomalies par IA, et l'observability-driven development (ODD).
 
-Cette skill couvre l'ensemble de l'ingénierie d'observabilité moderne : les trois piliers (logs, métriques, traces), le logging structuré, le tracing distribué avec OpenTelemetry, la gestion SLO/SLI/SLA, les budgets d'erreur, la conception d'alertes, la gestion d'incidents et la culture post-mortem. Elle intègre les pratiques état de l'art 2024-2026 incluant OpenTelemetry comme standard universel, le monitoring kernel via eBPF, le profiling continu, la détection d'anomalies par IA, et l'observability-driven development (ODD).
+This skill covers the full spectrum of modern observability engineering: the three pillars (logs, metrics, traces), structured logging, distributed tracing with OpenTelemetry, SLO/SLI/SLA management, error budgets, alerting design, incident management, and post-mortem culture.
 
 ## When This Skill Applies / Quand cette skill s'applique
 
@@ -27,7 +27,6 @@ Apply this skill when the user needs to:
 - Adopt OpenTelemetry or migrate from proprietary agents
 - Build dashboards, runbooks, or status pages
 
-Appliquer cette skill quand l'utilisateur a besoin de : instrumenter une application, configurer une infrastructure de monitoring, définir des SLOs, concevoir une stratégie d'alerting, gérer des incidents de production, choisir des outils d'observabilité, implémenter du tracing distribué, optimiser les coûts de monitoring, adopter OpenTelemetry, ou construire des dashboards et runbooks.
 
 ## Core Principles / Principes fondamentaux
 
@@ -256,6 +255,21 @@ L'observabilité se consolide et s'enrichit par l'IA :
 - "Comment implémenter le distributed tracing avec OpenTelemetry ?"
 - "Aide-moi à structurer nos logs pour faciliter le debugging"
 - "Comment rédiger un bon postmortem après un incident ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Configuration de pipelines CI/CD, déploiement ou infrastructure as code → Utiliser plutôt : `code-development:devops`
+- ❌ Écriture de tests automatisés, stratégie de test ou chaos engineering → Utiliser plutôt : `code-development:quality-reliability`
+- ❌ Architecture système, choix de patterns ou design d'APIs → Utiliser plutôt : `code-development:architecture`
+- ❌ Gestion de crise au niveau organisationnel ou continuité d'activité → Utiliser plutôt : `entreprise:risk-management`
+- ❌ Analyse de métriques produit (funnels, rétention, A/B tests) → Utiliser plutôt : `code-development:product-analytics`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Plus de 5 pages par rotation d'astreinte → trop de bruit ; auditer chaque alerte et supprimer celles qui ne déclenchent pas d'action humaine
+- ⚠️ Les dashboards existent mais personne ne les consulte → passer aux alertes proactives sur burn rate plutôt que le monitoring passif par dashboard
+- ⚠️ Les logs sont en texte brut sans correlation ID → migrer vers du structured JSON logging avec trace_id, request_id et user_id dans chaque ligne
+- ⚠️ Les SLOs sont définis sur des métriques d'infrastructure (CPU, RAM) au lieu de métriques utilisateur (latence, taux d'erreur) → redéfinir les SLIs sur l'expérience utilisateur réelle
 
 ## Skills connexes
 

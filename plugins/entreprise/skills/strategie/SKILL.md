@@ -9,7 +9,7 @@ last_updated: 2026-02
 
 ## Overview
 
-Ce skill couvre l'ensemble des disciplines liees a la strategie d'entreprise et a la direction generale. Il fournit un cadre de decision structure pour definir la vision, piloter la croissance, gouverner l'organisation et mesurer la performance strategique. La strategie d'entreprise ne se limite pas a la redaction d'un plan : elle englobe l'analyse de l'environnement concurrentiel, la conception de modeles economiques, la gestion des fusions-acquisitions, le pilotage par OKR et l'alignement de l'ensemble des parties prenantes autour d'une vision partagee. Appliquer systematiquement les principes decrits ici pour guider chaque decision strategique, en privilegiant la clarte de la vision, la rigueur analytique et l'agilite strategique.
+Ce skill couvre l'ensemble des disciplines liees a la strategie d'entreprise et a la direction generale. Il fournit un cadre de decision structure pour definir la vision, piloter la croissance, gouverner l'organisation et mesurer la performance strategique. La strategie d'entreprise ne se limite pas a la redaction d'un plan : elle englobe l'analyse de l'environnement concurrentiel, la conception de modeles economiques, la gestion des fusions-acquisitions, le pilotage par OKR et l'alignement de l'ensemble des parties prenantes autour d'une vision partagee. Appliquer systematiquement les principes decrits ici pour guider chaque decision strategique, en privilegiant la clarte de la vision (formulee en une phrase testable), l'analyse factuelle (fact pack structure avant chaque decision) et l'agilite strategique (revision trimestrielle des priorites).
 
 ## When This Skill Applies
 
@@ -31,7 +31,7 @@ Ancrer chaque decision strategique dans une vision claire et inspirante. La visi
 
 ### Principle 2 -- Evidence-Based Decision Making
 
-Fonder chaque choix strategique sur des donnees et des analyses rigoureuses, pas sur l'intuition seule. Combiner analyse quantitative (donnees de marche, metriques financieres, benchmarks) et qualitative (entretiens experts, signaux faibles, retours terrain). Exiger un "fact pack" structure avant toute decision strategique majeure. Distinguer clairement les faits, les hypotheses et les opinions dans chaque deliberation.
+Fonder chaque choix strategique sur des donnees et des analyses structurees, pas sur l'intuition seule. Combiner analyse quantitative (donnees de marche, metriques financieres, benchmarks sectoriels) et qualitative (entretiens avec 5-10 experts, signaux faibles documentes, retours terrain). Exiger un "fact pack" structure avant toute decision strategique majeure, comprenant : taille de marche, tendances, position concurrentielle, impact financier projete, et risques identifies. Distinguer clairement les faits, les hypotheses et les opinions dans chaque deliberation.
 
 ### Principle 3 -- Adaptive Strategy over Rigid Plans
 
@@ -39,11 +39,11 @@ Privilegier l'agilite strategique au plan quinquennal fige. Adopter un cycle str
 
 ### Principle 4 -- Stakeholder Alignment
 
-Aligner systematiquement les parties prenantes cles avant l'execution. Cartographier les stakeholders avec la matrice pouvoir/interet. Adapter la communication strategique a chaque audience (board, investisseurs, management, collaborateurs, clients). Un plan strategique non compris par le middle management est un plan mort. Investir autant dans la communication de la strategie que dans sa conception.
+Aligner systematiquement les parties prenantes cles avant l'execution. Cartographier les stakeholders avec la matrice pouvoir/interet. Adapter la communication strategique a chaque audience : pour le board, presenter les implications financieres et les risques ; pour le middle management, detailler les OKR et les moyens ; pour les collaborateurs, expliquer le "pourquoi" et l'impact sur leur quotidien. Un plan strategique non compris par le middle management est un plan mort. Investir autant dans la communication de la strategie que dans sa conception.
 
 ### Principle 5 -- Execution Discipline
 
-La strategie sans execution est une illusion. Traduire chaque axe strategique en OKR mesurables, cascader les OKR du comite de direction aux equipes operationnelles, et mettre en place un rythme de revues rigoureux (weekly check-ins, monthly reviews, quarterly business reviews). Mesurer l'ecart entre ambition et realisation, pas seulement l'activite.
+La strategie sans execution est une illusion. Traduire chaque axe strategique en OKR mesurables, cascader les OKR du comite de direction aux equipes operationnelles, et mettre en place un rythme de revues structure (weekly check-ins de 15 min, monthly reviews de 2h, quarterly business reviews d'une journee). Mesurer l'ecart entre ambition et realisation, pas seulement l'activite.
 
 ### Principle 6 -- Sustainable Value Creation
 
@@ -231,6 +231,21 @@ L'approche stratégique évolue rapidement sous l'influence de plusieurs tendanc
 - "Évalue ce business model canvas et identifie les faiblesses"
 - "Quels frameworks utiliser pour une due diligence M&A ?"
 - "Comment pivoter notre stratégie face à un changement de marché ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ **Execution operationnelle quotidienne** (sprints, tickets, incidents) → Utiliser plutot : `entreprise:gestion-de-projets` ou `entreprise:operations`
+- ❌ **Modelisation financiere detaillee** (construction de P&L, cash flow, valorisation DCF ligne par ligne) → Utiliser plutot : `entreprise:finance`
+- ❌ **Decisions marketing tactiques** (choix de canaux d'acquisition, A/B tests, budget media par campagne) → Utiliser plutot : `entreprise:marketing`
+- ❌ **Problematiques RH operationnelles** (recrutement, grilles salariales, droit du travail) → Utiliser plutot : `entreprise:rh`
+- ❌ **Architecture technique et choix de stack technologique** → Utiliser plutot : `code-development:architecture`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Le plan strategique contient plus de 5 axes prioritaires — signe de "peanut butter strategy" (saupoudrage des ressources)
+- ⚠️ Aucun OKR mesurable n'est defini pour un axe strategique — risque de "strategy by PowerPoint"
+- ⚠️ La decision repose sur l'opinion du dirigeant sans fact pack structure — biais HIPPO (Highest Paid Person's Opinion)
+- ⚠️ Le scenario planning ne comporte qu'un seul scenario (le favorable) — faux sentiment de securite
 
 ## Skills connexes
 

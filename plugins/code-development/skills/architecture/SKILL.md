@@ -9,7 +9,7 @@ last_updated: 2026-02
 
 ## Overview
 
-Ce skill couvre l'ensemble des disciplines liées à l'architecture logicielle et au design de systèmes. Il fournit un cadre de décision structuré pour concevoir des systèmes robustes, scalables et maintenables. L'architecture logicielle ne se limite pas au choix de technologies : elle englobe la structuration des composants, la gestion des flux de données, les stratégies de déploiement et l'alignement entre contraintes techniques et objectifs métier. Appliquer systématiquement les principes décrits ici pour guider chaque décision architecturale, en privilégiant la simplicité, l'évolutivité et la résilience.
+Ce skill couvre l'ensemble des disciplines liées à l'architecture logicielle et au design de systèmes. Il fournit un cadre de décision structuré pour concevoir des systèmes robustes, scalables et maintenables. L'architecture logicielle ne se limite pas au choix de technologies : elle englobe la structuration des composants, la gestion des flux de données, les stratégies de déploiement et l'alignement entre contraintes techniques et objectifs métier. Appliquer systématiquement les principes décrits ici pour guider chaque décision architecturale : documenter le contexte et les options dans un ADR, valider via des fitness functions mesurables, et privilégier la simplicité, l'évolutivité et la résilience.
 
 ## When This Skill Applies
 
@@ -237,6 +237,21 @@ L'architecture logicielle évolue vers plus de modularité et d'intelligence :
 - "Aide-moi à concevoir un système event-driven avec Kafka"
 - "Comment structurer une API REST scalable ?"
 - "Fais une revue d'architecture de mon projet et identifie les risques"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Choix d'un langage ou d'un framework applicatif (React vs Vue, Python vs Go) → Utiliser plutôt : `code-development:code-excellence`
+- ❌ Configuration d'infrastructure, Dockerfiles ou pipelines CI/CD → Utiliser plutôt : `code-development:devops`
+- ❌ Modélisation de schéma de base de données, optimisation SQL ou choix d'ORM → Utiliser plutôt : `code-development:backend-db`
+- ❌ Audit de sécurité applicative, implémentation OAuth/JWT ou durcissement OWASP → Utiliser plutôt : `code-development:auth-security`
+- ❌ Refactoring de code sans impact sur les frontières de modules ou services → Utiliser plutôt : `code-development:code-excellence`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ L'ADR ne liste qu'une seule option sans alternative → une décision sans comparaison est une justification a posteriori, pas une décision architecturale
+- ⚠️ Aucune fitness function mesurable n'est définie → "haute disponibilité" sans SLO chiffré reste un voeu pieux
+- ⚠️ Découpage en microservices envisagé avec une équipe < 5 ou un domaine mal compris → risque élevé de distributed monolith
+- ⚠️ Décisions architecturales prises sans impliquer les experts métier → bounded contexts déconnectés de la réalité du domaine
 
 ## Skills connexes
 

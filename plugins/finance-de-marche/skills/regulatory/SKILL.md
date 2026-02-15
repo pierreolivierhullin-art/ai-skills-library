@@ -11,8 +11,6 @@ last_updated: 2026-02
 
 Ce skill couvre l'ensemble du cadre reglementaire applicable aux marches financiers, cote europeen (MiFID II/MiFIR, EMIR, MAR, PRIIPs, SFDR) et americain (SEC, FINRA, Reg NMS, Reg T). Il synthetise les obligations de reporting, la fiscalite des operations de marche, les regles de conformite operationnelle (best execution, AML/KYC, conflits d'interets) et les obligations de transparence. Utiliser ce skill comme reference systematique pour toute question touchant a la reglementation, la conformite et la fiscalite des marches financiers.
 
-This skill covers the full regulatory framework applicable to financial markets, on both the European side (MiFID II/MiFIR, EMIR, MAR, PRIIPs, SFDR) and the US side (SEC, FINRA, Reg NMS, Reg T). Use it as the authoritative reference for any question related to regulation, compliance, and taxation of financial market activities.
-
 ## When This Skill Applies
 
 Activer ce skill dans les situations suivantes / Activate this skill in the following situations:
@@ -35,33 +33,23 @@ Activer ce skill dans les situations suivantes / Activate this skill in the foll
 
 ### 1. Investor Protection (Protection des investisseurs)
 
-Placer la protection de l'investisseur au centre de toute decision reglementaire. Appliquer les regles de suitability et d'appropriateness avant toute recommandation. Assurer la transparence sur les couts, les risques et les conflits d'interets. Les obligations d'information priment sur les interets commerciaux.
-
-Place investor protection at the center of every regulatory decision. Apply suitability and appropriateness rules before any recommendation. Ensure transparency on costs, risks, and conflicts of interest. Disclosure obligations prevail over commercial interests.
+Placer la protection de l'investisseur au centre de toute decision reglementaire. Appliquer les règles de suitability (MiFID II Art. 25(2)) et d'appropriateness (Art. 25(3)) avant toute recommandation : vérifier le profil de risque client, son expérience en instruments financiers, et sa capacité à supporter les pertes. Documenter les coûts ex-ante (frais d'entrée, de gestion, de transaction, de sortie) et les conflits d'intérêts identifiés. Les obligations d'information priment sur les interets commerciaux.
 
 ### 2. Market Integrity (Integrite des marches)
 
 Maintenir des marches justes, ordonnees et transparents. Interdire toute forme de manipulation de marche, d'abus de marche (insider dealing, unlawful disclosure) et de pratiques deloyales. Declarer toute transaction suspecte (STOR) sans delai. Respecter les regimes de transparence pre- et post-negociation.
 
-Maintain fair, orderly, and transparent markets. Prohibit all forms of market manipulation, market abuse (insider dealing, unlawful disclosure), and unfair practices. Report any suspicious transaction (STOR) without delay.
-
 ### 3. Systemic Risk Mitigation (Attenuation du risque systemique)
 
 Respecter les obligations de clearing, de margining et de reporting sur les derives (EMIR). Declarer les positions au-dela des seuils reglementaires. Implementer les controles de risque pre-trade et post-trade. Surveiller les concentrations de positions et les expositions de contrepartie.
-
-Comply with clearing, margining, and reporting obligations on derivatives (EMIR). Report positions beyond regulatory thresholds. Implement pre-trade and post-trade risk controls.
 
 ### 4. Regulatory Consistency (Coherence reglementaire)
 
 Appliquer de maniere coherente les reglementations entre juridictions. Identifier les chevauchements et les conflits entre regimes (EU vs US). Adopter le standard le plus strict en cas de double soumission. Maintenir une veille reglementaire active et mettre a jour les procedures en continu.
 
-Apply regulations consistently across jurisdictions. Identify overlaps and conflicts between regimes (EU vs US). Adopt the stricter standard when dual-regulated.
-
 ### 5. Proportionality & Documentation (Proportionnalite et documentation)
 
 Adapter l'intensite des controles a la taille, la complexite et le profil de risque de l'activite. Documenter toutes les decisions, justifications et evaluations. Conserver les enregistrements conformement aux durees reglementaires (5 ans MiFID II, 6 ans FINRA). Rendre l'audit trail complet et accessible.
-
-Scale control intensity to the size, complexity, and risk profile of the activity. Document all decisions, justifications, and assessments. Retain records per regulatory durations.
 
 ## Key Frameworks & Regulatory Architecture
 
@@ -153,27 +141,27 @@ US taxpayer ?
 
 ### Patterns recommandes / Recommended patterns
 
-- **Compliance-by-Design** : Integrer les controles de conformite des la conception du systeme de trading ou de la strategie d'investissement. Ne pas traiter la conformite comme un ajout post-implementation. Embed compliance controls from the design phase of any trading system or investment strategy.
+- **Compliance-by-Design** : Integrer les controles de conformite des la conception du systeme de trading ou de la strategie d'investissement. Ne pas traiter la conformite comme un ajout post-implementation.
 
-- **Three Lines of Defense** : Appliquer le modele a trois lignes : (1) front office / business controles les risques operationnels, (2) compliance et risk management fournissent un cadre et une surveillance, (3) audit interne fournit une assurance independante. Apply the three lines model rigorously.
+- **Three Lines of Defense** : Appliquer le modele a trois lignes : (1) front office / business controles les risques operationnels, (2) compliance et risk management fournissent un cadre et une surveillance, (3) audit interne fournit une assurance independante.
 
-- **Automated Surveillance** : Automatiser la detection des abus de marche (wash trading, spoofing, layering, insider patterns) via des systemes de surveillance en temps reel. Generer des alertes parametrables avec escalation. Automate market abuse detection with real-time surveillance systems.
+- **Automated Surveillance** : Automatiser la detection des abus de marche (wash trading, spoofing, layering, insider patterns) via des systemes de surveillance en temps reel. Generer des alertes parametrables avec escalation.
 
-- **Regulatory Change Management** : Maintenir un processus formel de veille reglementaire. Evaluer l'impact de chaque nouvelle reglementation sur les processus existants. Documenter les gap analyses et les plans de remediation. Maintain a formal regulatory watch process.
+- **Regulatory Change Management** : Maintenir un processus formel de veille reglementaire. Evaluer l'impact de chaque nouvelle reglementation sur les processus existants. Documenter les gap analyses et les plans de remediation.
 
-- **Pre-Trade Compliance Checks** : Implementer des controles pre-trade automatises : limites de position, concentration sectorielle, restricted lists (insiders, PDMR), sanctions screening, suitability checks. Bloquer l'ordre si un controle echoue. Implement automated pre-trade checks.
+- **Pre-Trade Compliance Checks** : Implementer des controles pre-trade automatises : limites de position, concentration sectorielle, restricted lists (insiders, PDMR), sanctions screening, suitability checks. Bloquer l'ordre si un controle echoue.
 
 ### Anti-patterns a eviter / Anti-patterns to avoid
 
 - **Regulatory Arbitrage Abusif** : Ne pas exploiter les differences entre juridictions pour contourner les obligations. Les regulateurs cooperent activement (ESMA-SEC MoUs, IOSCO MMoU). Le risque reputationnel et les sanctions depassent largement les gains potentiels.
 
-- **Compliance Retrospective** : Ne pas attendre un controle ou une sanction pour mettre en place les controles. Les regulateurs appliquent des sanctions aggravees pour defaut d'organisation. Do not wait for an enforcement action to implement controls.
+- **Compliance Retrospective** : Ne pas attendre un controle ou une sanction pour mettre en place les controles. Les regulateurs appliquent des sanctions aggravees pour defaut d'organisation.
 
 - **Over-Reliance on Disclaimers** : Les disclaimers et les terms & conditions ne remplacent pas les obligations reglementaires de suitability, d'appropriateness et de best execution. Un disclaimer ne protege pas contre une sanction pour mis-selling.
 
-- **Manual-Only Compliance** : Ne pas s'appuyer uniquement sur des controles manuels pour des obligations a volume eleve (transaction reporting, surveillance). L'automatisation est indispensable pour la scalabilite et la fiabilite. Do not rely on manual-only controls for high-volume obligations.
+- **Manual-Only Compliance** : Ne pas s'appuyer uniquement sur des controles manuels pour des obligations a volume eleve (transaction reporting, surveillance). L'automatisation est indispensable pour la scalabilite et la fiabilite.
 
-- **Ignoring Record Keeping** : Ne pas negliger les obligations de conservation. Conserver toutes les communications (emails, chats, enregistrements telephoniques), toutes les decisions d'investissement, tous les ordres (y compris les ordres annules et modifies) pour la duree reglementaire. Ignoring record-keeping is a common enforcement trigger.
+- **Ignoring Record Keeping** : Ne pas negliger les obligations de conservation. Conserver toutes les communications (emails, chats, enregistrements telephoniques), toutes les decisions d'investissement, tous les ordres (y compris les ordres annules et modifies) pour la duree reglementaire.
 
 ## Implementation Workflow
 
@@ -182,8 +170,8 @@ US taxpayer ?
 1. Identifier toutes les juridictions applicables (lieu d'etablissement, lieu des clients, lieu de l'instrument)
 2. Cartographier les reglementations applicables par activite (MiFID II, EMIR, MAR, SEC Act, FINRA)
 3. Identifier les obligations de licence et d'autorisation (IF, CIF, broker-dealer registration)
-4. Realiser une gap analysis entre l'existant et les exigences reglementaires
-5. Prioriser les remediation actions par criticite et delai
+4. Réaliser une gap analysis structurée : pour chaque obligation réglementaire identifiée, documenter le statut actuel (conforme / partiellement conforme / non conforme), l'écart précis, le plan de remédiation et le délai cible
+5. Prioriser les actions de remédiation selon une matrice criticité (sanctions potentielles : amende, retrait d'agrément, pénale) x urgence (délai réglementaire restant)
 
 ### Phase 2 : Infrastructure de conformite / Compliance Infrastructure
 
@@ -211,9 +199,9 @@ US taxpayer ?
 
 ### Phase 5 : Formation et amelioration continue / Training and Continuous Improvement
 
-1. Former l'ensemble du personnel aux obligations reglementaires applicables
+1. Former 100% du personnel front office aux obligations réglementaires applicables avec test de validation (score minimum 80%), et former le middle/back office aux obligations de reporting et de record keeping
 2. Realiser des formations specifiques : MAR awareness, AML red flags, insider trading prevention
-3. Executer des tests de conformite periodiques (mock audits, compliance testing program)
+3. Exécuter des tests de conformité trimestriels : 2 mock audits/an + programme de compliance testing couvrant 100% des obligations critiques (transaction reporting, best execution, AML) sur 12 mois glissants
 4. Maintenir une veille reglementaire active et un processus de change management
 5. Documenter les lessons learned de chaque controle regulateur ou incident de conformite
 
@@ -294,6 +282,20 @@ La réglementation financière se renforce et se complexifie :
 - "Quelles obligations MiFID II pour un investisseur particulier ?"
 - "Comment éviter la wash sale rule dans mon portfolio ?"
 - "Quels sont les seuils de déclaration AMF pour les positions ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Conseil juridique formel ou rédaction de documents juridiques opposables (contrats, prospectus, avis juridiques) → Utiliser plutôt : `entreprise:juridique` et consulter un avocat spécialisé en droit financier
+- ❌ Réglementation des crypto-actifs et DeFi au-delà du cadre MiCA européen → Consulter un spécialiste local de la réglementation crypto
+- ❌ Calcul précis de l'impôt dû (le skill fournit les règles, pas le calcul personnalisé) → Consulter un expert-comptable ou fiscaliste pour le calcul définitif
+- ❌ Stratégies de trading ou construction de portefeuille → Utiliser plutôt : `finance-de-marche:options-risk` ou `finance-de-marche:portfolio`
+- ❌ Due diligence complète d'un broker ou d'une contrepartie (DUNS, financials, historique d'enforcement) → Consulter les bases de données réglementaires (FINRA BrokerCheck, registre ORIAS, registre AMF)
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ L'utilisateur demande comment contourner une obligation réglementaire → Rappeler les sanctions applicables (amendes, interdiction d'exercer, sanctions pénales) et refuser d'assister dans le contournement
+- ⚠️ L'activité décrite semble relever de plusieurs juridictions sans que l'utilisateur en soit conscient → Alerter sur les obligations de double conformité EU/US et vérifier les obligations FATCA/CRS
+- ⚠️ L'utilisateur mentionne des transactions suspectes (wash trading, spoofing, insider information) sans les identifier comme problématiques → Rappeler les obligations de STOR et les sanctions MAR/10b-5
 
 ## Skills connexes
 

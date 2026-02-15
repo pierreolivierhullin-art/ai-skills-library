@@ -266,10 +266,25 @@ La fonction achats se digitalise et se stratégise :
 
 - "Comment structurer une stratégie achats par catégories ?"
 - "Aide-moi à évaluer et scorer mes fournisseurs clés"
-- "Propose un processus d'appel d'offres efficace"
+- "Propose un processus d'appel d'offres en 5 etapes avec criteres de selection ponderes"
 - "Comment calculer le TCO d'une solution logicielle ?"
 - "Quels leviers pour négocier de meilleures conditions fournisseurs ?"
 - "Aide-moi à mettre en place des achats responsables"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ **Optimisation des processus logistiques et de production** (Lean, Six Sigma, gestion des stocks, S&OP) → Utiliser plutot : `entreprise:operations`
+- ❌ **Redaction et negociation de contrats complexes** (clauses juridiques, contentieux, propriete intellectuelle) → Utiliser plutot : `entreprise:juridique`
+- ❌ **Analyse financiere et controle de gestion** (budget, P&L, analyse des ecarts, forecast) → Utiliser plutot : `entreprise:finance`
+- ❌ **Strategie RSE et reporting CSRD** (bilan carbone scope 3, double materialite, taxonomie UE) → Utiliser plutot : `entreprise:rse-esg`
+- ❌ **Gestion des risques d'entreprise** (ERM, cartographie des risques, PCA/PRA) → Utiliser plutot : `entreprise:risk-management`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Le taux de conformite achats (achats sous contrat) est inferieur a 50% — le maverick buying erode les economies negociees
+- ⚠️ Plus de 30% des categories critiques dependent d'un fournisseur unique sans alternative qualifiee — risque de rupture non maitrise
+- ⚠️ Le spend analysis n'a pas ete actualise depuis plus de 12 mois — les decisions d'achat reposent sur des donnees obsoletes
+- ⚠️ Les scorecards fournisseurs existent mais ne declenchent aucune action corrective — evaluation sans impact
 
 ## Skills connexes
 

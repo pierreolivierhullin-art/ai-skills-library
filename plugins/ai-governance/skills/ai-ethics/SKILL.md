@@ -131,7 +131,7 @@ Appliquer les 7 exigences du High-Level Expert Group (HLEG) de la Commission eur
 
 1. Identifier les populations affectees par le systeme et cartographier les risques de prejudice potentiels.
 2. Conduire une evaluation d'impact algorithmique preliminaire (AIA screening).
-3. Definir les attributs proteges pertinents et les metriques d'equite cibles avec les parties prenantes.
+3. Definir les attributs proteges (genre, age, ethnicite, handicap, statut socio-economique) et selectionner 2-3 metriques d'equite parmi demographic parity, equalized odds et calibration, en justifiant chaque choix avec les parties prenantes.
 4. Rediger le datasheet for dataset documentant la provenance, les conditions de collecte et les limites des donnees.
 5. Organiser un Ethics by Design Workshop avec les parties prenantes (equipe technique, metier, ethiciens, representants).
 
@@ -141,7 +141,7 @@ Appliquer les 7 exigences du High-Level Expert Group (HLEG) de la Commission eur
 7. Tester les correlations entre features et attributs proteges (detection de proxies).
 8. Appliquer les techniques de debiasing pre-processing si necessaire (reweighting, resampling, relabeling).
 9. Documenter toutes les transformations appliquees et leur justification.
-10. Valider les donnees preparees avec un second audit independant.
+10. Valider les donnees preparees avec un second audit independant : une personne differente de celle qui a applique les transformations verifie la distribution par sous-groupe et les correlations avec les attributs proteges.
 
 ### Phase 3 -- Fair Model Training & Explanation
 
@@ -149,11 +149,11 @@ Appliquer les 7 exigences du High-Level Expert Group (HLEG) de la Commission eur
 12. Evaluer les performances ventilees par sous-groupe sur un jeu de test representatif.
 13. Generer les explications globales (feature importance, SHAP summary) et locales (SHAP waterfall, LIME).
 14. Rediger la model card incluant : intended use, out-of-scope uses, performance metrics by subgroup, ethical considerations, limitations.
-15. Valider les explications avec des utilisateurs non-techniques pour s'assurer de leur comprehensibilite.
+15. Valider les explications avec 3-5 utilisateurs non-techniques : chaque utilisateur doit pouvoir reformuler en ses propres mots pourquoi le modele a pris une decision donnee. Si moins de 80% y parviennent, simplifier les explications.
 
 ### Phase 4 -- Deployment, Monitoring & Audit
 
-16. Deployer avec human-in-the-loop pour les decisions a fort impact (periode probatoire minimum).
+16. Deployer avec human-in-the-loop pour les decisions a fort impact : un operateur humain valide 100% des decisions pendant les 30 premiers jours, puis passe a un echantillonnage de 10% si les metriques de fairness restent dans les seuils.
 17. Mettre en place le monitoring continu des metriques de fairness en production (dashboards, alertes).
 18. Definir les seuils de rollback automatique si les metriques derivent.
 19. Planifier des audits periodiques independants (trimestriels pour les systemes a haut risque).
@@ -239,6 +239,21 @@ L'éthique de l'IA se réglemente et s'outille :
 - "Comment rendre nos algorithmes plus explicables ?"
 - "Quelles sont nos obligations sous l'EU AI Act ?"
 - "Aide-moi à mettre en place un comité éthique IA"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Définition de la stratégie IA globale, roadmap ou organisation CoE → Utiliser plutôt : `ai-governance:strategie-ia`
+- ❌ Sécurité technique des modèles (prompt injection, adversarial attacks, kill switches) → Utiliser plutôt : `ai-governance:ai-risk`
+- ❌ Conformité RGPD/GDPR pure (sans dimension biais ou équité algorithmique) → Utiliser plutôt : `entreprise:juridique`
+- ❌ Optimisation des performances du modèle (accuracy, latence, coût) sans dimension équité → Utiliser plutôt : `ai-governance:prompt-engineering-llmops`
+- ❌ Questions RSE/ESG générales sans lien direct avec un système IA déployé → Utiliser plutôt : `entreprise:rse-esg`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Les métriques de fairness sont calculées mais aucune action corrective n'est prise quand elles sont défavorables — c'est du "Fairness Washing", exiger un plan de remédiation
+- ⚠️ Les explications SHAP/LIME sont présentées comme des vérités causales — rappeler systématiquement qu'elles sont corrélationnelles et documenter leurs limites
+- ⚠️ L'audit de biais ne couvre qu'un seul attribut protégé (ex: genre uniquement) sans tester les intersections — étendre aux combinaisons (ex: femmes âgées issues de minorités)
+- ⚠️ La model card est rédigée après le déploiement en production — exiger qu'elle soit un artefact vivant mis à jour à chaque étape du cycle de vie
 
 ## Skills connexes
 

@@ -11,26 +11,22 @@ last_updated: 2026-02
 
 Ce skill couvre l'ensemble des disciplines liees a la finance comportementale : identification et gestion des biais cognitifs, psychologie du trading, sentiment de marche, et cadres de decision structures. La finance comportementale, fondee par Daniel Kahneman, Amos Tversky et Richard Thaler, demontre que les acteurs de marche ne sont pas les agents rationnels decrits par la theorie classique. Comprendre ces deviations systematiques de la rationalite est un avantage competitif majeur. Appliquer systematiquement les principes decrits ici pour identifier, mesurer et neutraliser les biais comportementaux dans chaque decision d'investissement.
 
-This skill covers all disciplines related to behavioral finance: identification and management of cognitive biases, trading psychology, market sentiment, and structured decision frameworks. Apply these principles to every investment decision as a systematic edge.
-
 ## When This Skill Applies
 
 Activer ce skill dans les situations suivantes :
 
 - **Analyse de biais cognitifs** : identifier les biais (loss aversion, confirmation bias, anchoring, overconfidence, recency, disposition effect) qui affectent une decision d'investissement ou de trading.
-- **Construction d'un cadre de decision** : mettre en place un systeme de decision structure (checklists, pre-mortem, journaling) pour reduire l'impact des heuristiques automatiques.
-- **Psychologie du trading** : gerer les emotions (peur, avidite, revenge trading), adherer au plan de trading, dimensionner les positions en fonction de la tolerance psychologique.
+- **Construction d'un cadre de decision** : mettre en place un système de décision avec 3 composants minimum : (1) checklist pré-trade de 10 points, (2) pre-mortem écrit avant chaque position > 2% du capital, (3) journal de décisions avec score émotionnel 1-10 et biais identifié.
+- **Psychologie du trading** : gerer les emotions (peur, avidite, revenge trading), adherer au plan de trading, dimensionner les positions pour que le max loss d'une position individuelle ne dépasse pas le seuil de sommeil (montant à partir duquel le trader perd le sommeil — typiquement 1-2% du capital pour les débutants, 3-5% pour les expérimentés).
 - **Analyse du sentiment de marche** : evaluer les cycles de marche, detecter les bulles et manies, appliquer une approche contrarienne ou momentum en connaissance des dynamiques psychologiques de masse.
 - **Planification patrimoniale comportementale** : appliquer le mental accounting (Thaler), l'investissement par objectifs (goal-based investing), evaluer la tolerance au risque reelle, concevoir une architecture de choix (nudges).
-- **Debiasing et amelioration continue** : appliquer des techniques de debiasing structurees, conduire des revues de performance comportementale, ameliorer la discipline emotionnelle.
+- **Debiasing et amelioration continue** : appliquer les techniques de debiasing documentées (steel-man, zero-based thinking, pre-mortem), mesurer le % de trades conformes au plan écrit (cible > 85%), et tracker le nombre d'épisodes de revenge trading par mois (cible = 0).
 
 ## Core Principles
 
 ### Principle 1 — Prospect Theory (Kahneman & Tversky, 1979)
 
 Les individus evaluent les gains et les pertes par rapport a un point de reference, non en termes absolus. Les pertes pesent environ 2 a 2.5 fois plus que les gains equivalents (loss aversion). La fonction de valeur est concave pour les gains (aversion au risque) et convexe pour les pertes (recherche de risque). Cette asymetrie engendre le disposition effect : vendre les gagnants trop tot et garder les perdants trop longtemps.
-
-Individuals evaluate gains and losses relative to a reference point. Losses loom approximately 2-2.5x larger than equivalent gains. This asymmetry drives the disposition effect: selling winners too early and holding losers too long.
 
 **Application directe** : definir des stop-losses et des objectifs de profit AVANT d'entrer en position, quand le jugement est froid et non affecte par l'asymetrie gain/perte.
 
@@ -50,8 +46,6 @@ Les heuristiques (raccourcis mentaux) sont des adaptations evolutives efficaces 
 ### Principle 4 — Emotional Discipline as Edge
 
 La discipline emotionnelle est un avantage concurrentiel durable. Les marches sont domines par des participants oscillant entre peur et avidite. La capacite a maintenir un processus rationnel quand les autres sont en mode panique ou euphorie constitue un alpha comportemental mesurable. Construire cette discipline par des routines, un journaling rigoureux et un plan de trading non negociable.
-
-Emotional discipline is a durable competitive edge. Markets are dominated by participants oscillating between fear and greed. Build discipline through routines, rigorous journaling, and a non-negotiable trading plan.
 
 ### Principle 5 — Debiasing Requires Structure, Not Willpower
 
@@ -188,7 +182,7 @@ Evaluer la tolerance au risque reelle (et non declaree) selon trois dimensions :
 
 ### Phase 1 — Diagnostic Comportemental (1-2 semaines)
 
-1. Conduire une auto-evaluation des biais dominants via un questionnaire structure (identifier le top 3 des biais personnels).
+1. Conduire une auto-évaluation des biais dominants via un questionnaire de 20 questions couvrant les 10 biais de la matrice ci-dessus. Scorer chaque biais de 1 (jamais) à 5 (systématique) et identifier le top 3 des biais personnels (score >= 4).
 2. Analyser l'historique de trading passe : calculer le disposition effect ratio, le taux de revenge trading, la correlation sizing/conviction.
 3. Evaluer la tolerance au risque selon les trois dimensions (capacite, emotion, besoin).
 4. Documenter les episodes passes de decisions sous influence emotionnelle.
@@ -290,6 +284,21 @@ La finance comportementale s'outille et se digitalise :
 - "Propose un framework de décision pour éviter les biais émotionnels"
 - "Comment reconnaître l'effet de disposition dans mon comportement ?"
 - "Aide-moi à développer une discipline de trading systématique"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Diagnostic ou traitement de troubles psychologiques cliniques (anxiété pathologique, addiction au trading, dépression liée aux pertes) → Consulter un professionnel de santé mentale spécialisé
+- ❌ Construction technique de stratégies d'options ou calcul de Greeks → Utiliser plutôt : `finance-de-marche:options-risk`
+- ❌ Allocation d'actifs et optimisation mean-variance → Utiliser plutôt : `finance-de-marche:portfolio`
+- ❌ Questions de conformité réglementaire ou fiscale → Utiliser plutôt : `finance-de-marche:regulatory`
+- ❌ Analyse des biais algorithmiques dans les systèmes d'IA (biais de données, fairness ML) → Utiliser plutôt : `ai-governance:ai-ethics`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ L'utilisateur décrit des symptômes de revenge trading actif (augmentation de taille après perte, trading compulsif) → Recommander un arrêt immédiat de 48h minimum avant toute analyse
+- ⚠️ L'utilisateur refuse systématiquement d'envisager la thèse contraire (steel-man) → Signe de confirmation bias sévère, insister sur l'exercice avant de poursuivre
+- ⚠️ L'utilisateur confond la qualité du résultat avec la qualité de la décision (ex: "j'ai gagné donc ma méthode est bonne") → Rappeler la distinction processus vs résultat et exiger un échantillon > 30 trades
+- ⚠️ Le journal de trading n'est pas tenu depuis plus de 2 semaines → L'amélioration comportementale est impossible sans données, reprioriser le journaling
 
 ## Skills connexes
 

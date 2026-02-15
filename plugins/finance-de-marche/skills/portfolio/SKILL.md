@@ -11,14 +11,12 @@ last_updated: 2026-02
 
 Ce skill couvre l'ensemble des disciplines liées a la construction de portefeuilles, l'allocation d'actifs et la gestion d'investissements. Il fournit un cadre de decision structure pour concevoir, optimiser et maintenir des portefeuilles robustes alignes avec les objectifs de rendement, les contraintes de risque et l'horizon temporel de l'investisseur. La gestion de portefeuille ne se limite pas a la selection de titres : elle englobe la theorie financiere moderne, les strategies d'allocation, la diversification multi-dimensionnelle, le rebalancement tactique, l'optimisation fiscale et l'attribution de performance. Appliquer systematiquement les principes decrits ici pour guider chaque decision d'investissement, en privilegiant la rigueur quantitative, la diversification et la discipline systematique.
 
-This skill covers portfolio construction, asset allocation, and investment management comprehensively. It provides a structured decision framework for designing, optimizing, and maintaining robust portfolios aligned with return objectives, risk constraints, and investment horizons. Apply these principles systematically to guide every investment decision.
-
 ## When This Skill Applies
 
 Activer ce skill dans les situations suivantes / Activate this skill in the following situations:
 
-- **Construction de portefeuille initiale** : definition de l'allocation strategique, selection des classes d'actifs, choix des vehicules d'investissement (ETFs, fonds, titres individuels), calibration du niveau de risque.
-- **Optimisation de portefeuille existant** : analyse mean-variance, identification des inefficiences, amelioration du ratio rendement/risque, reduction des correlations excessives.
+- **Construction de portefeuille initiale** : definition de l'allocation strategique, selection des classes d'actifs, choix des vehicules d'investissement (ETFs, fonds, titres individuels), calibration du budget de risque (volatilité cible, max drawdown acceptable, VaR à 95%).
+- **Optimisation de portefeuille existant** : analyse mean-variance, identification des inefficiences, amélioration du ratio de Sharpe d'au moins 0.1, réduction des corrélations pair-à-pair au-dessus de 0.7.
 - **Strategies d'allocation d'actifs** : allocation strategique vs tactique, core-satellite, risk parity, factor-based allocation, modele de dotation (endowment model).
 - **Gestion du risque de portefeuille** : stress testing, analyse de drawdown, mesure de VaR/CVaR, analyse de correlation en regime de crise, hedging via options overlay.
 - **Rebalancement et maintenance** : strategies de rebalancement (calendaire, par bandes, tactique), tax-loss harvesting, gestion des flux entrants/sortants.
@@ -30,8 +28,6 @@ Activer ce skill dans les situations suivantes / Activate this skill in the foll
 ### Principle 1 — Diversification Is the Only Free Lunch
 
 Appliquer la diversification sur toutes les dimensions disponibles : classes d'actifs (actions, obligations, matieres premieres, immobilier, alternatives), geographies (marches developpes, emergents, frontieres), secteurs, styles (value, growth, momentum, quality), et horizons temporels (DCA, echelonnement). La diversification reduit le risque idiosyncratique sans reduire le rendement attendu. Mesurer la diversification effective via la matrice de correlation et le nombre effectif d'actifs (Effective N).
-
-Diversification is the only established mechanism for reducing portfolio risk without proportionally reducing expected return. Apply it across all available dimensions: asset classes, geographies, sectors, styles, and time horizons.
 
 ### Principle 2 — Risk First, Returns Follow
 
@@ -164,7 +160,7 @@ Le modele a 3 facteurs (1993) ajoute size (SMB) et value (HML) au facteur marche
 
 ### Phase 2 — Allocation Strategique / Strategic Allocation
 5. Definir l'univers d'investissement : classes d'actifs eligibles (actions, obligations, immobilier, matieres premieres, alternatives).
-6. Estimer les rendements attendus, volatilites et correlations pour chaque classe d'actifs (utiliser les primes de risque historiques ajustees des conditions actuelles).
+6. Estimer les rendements attendus, volatilites et correlations pour chaque classe d'actifs (utiliser les primes de risque historiques sur 20+ ans, ajustées du CAPE ratio actuel, du niveau des taux réels et du spread de crédit).
 7. Optimiser l'allocation via mean-variance (Markowitz) ou risk parity selon le profil. Appliquer des contraintes de robustesse (Black-Litterman, resampled efficient frontier).
 8. Definir les bandes de rebalancement pour chaque classe d'actifs.
 
@@ -261,6 +257,21 @@ La gestion de portefeuille se modernise :
 - "Propose une allocation factorielle pour un profil modéré"
 - "Comment mettre en place le tax-loss harvesting ?"
 - "Analyse la corrélation entre mes positions et propose des améliorations"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Pricing et structuration de positions options complexes (iron condors, butterflies, Greeks management) → Utiliser plutôt : `finance-de-marche:options-risk`
+- ❌ Analyse psychologique des biais d'investissement (disposition effect, FOMO, overconfidence) → Utiliser plutôt : `finance-de-marche:behavioral-finance`
+- ❌ Questions de fiscalité détaillée (calcul précis de plus-values, wash sale rules, formulaires fiscaux) → Utiliser plutôt : `finance-de-marche:regulatory`
+- ❌ Valorisation DCF ou modélisation financière d'entreprises individuelles → Utiliser plutôt : `entreprise:finance`
+- ❌ Construction de portefeuilles crypto-only ou NFT (classes d'actifs non couvertes par les modèles MPT/Fama-French classiques) → Adapter les frameworks avec prudence, les corrélations historiques sont trop courtes (< 10 ans)
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ L'utilisateur n'a pas défini d'horizon temporel ni de tolérance au risque → Impossible de recommander une allocation sans ces deux paramètres fondamentaux
+- ⚠️ Le portefeuille proposé a plus de 70% de corrélation entre les positions principales → La diversification est illusoire, recalculer l'Effective N
+- ⚠️ L'utilisateur veut optimiser mean-variance avec des estimations de rendement ponctuelles sans intervalle de confiance → Utiliser Black-Litterman ou resampling pour robustifier
+- ⚠️ Les frais totaux (TER + transaction) dépassent 1% annuel sans alpha documenté → Migrer vers des véhicules passifs pour le core
 
 ## Skills connexes
 

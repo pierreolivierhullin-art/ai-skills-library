@@ -186,7 +186,7 @@ Obligations de continuite d'activite ?
 ### Phase 2 : Identification et evaluation
 
 1. Realiser l'inventaire exhaustif des risques (ateliers, interviews, historique)
-2. Structurer la taxonomie de risques adaptee a l'organisation
+2. Structurer la taxonomie de risques selon les categories de l'organisation (strategique, operationnel, financier, conformite, reputationnel, cyber, climatique) avec 3-5 sous-categories par categorie
 3. Evaluer chaque risque (probabilite, impact, vitesse de survenance)
 4. Construire la heat map et identifier les risques prioritaires
 5. Definir les KRIs et leurs seuils d'alerte
@@ -298,6 +298,21 @@ La gestion des risques intègre de nouvelles dimensions :
 - "Quels contrôles internes mettre en place pour la conformité Sapin II ?"
 - "Comment évaluer l'appétit au risque de notre organisation ?"
 - "Aide-moi à concevoir un risk register pour notre projet"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ **Risques financiers de marche et gestion de portefeuille** (VaR, hedging, allocation d'actifs) → Utiliser plutot : `finance-de-marche:options-risk` ou `finance-de-marche:portfolio`
+- ❌ **Risques specifiques a l'IA** (hallucinations, biais algorithmiques, adversarial attacks, prompt injection) → Utiliser plutot : `ai-governance:ai-risk`
+- ❌ **Implementation technique de la securite applicative** (OWASP, OAuth, chiffrement, pentesting) → Utiliser plutot : `code-development:auth-security`
+- ❌ **Gestion contractuelle et contentieux** (redaction de contrats, clauses de responsabilite, litiges) → Utiliser plutot : `entreprise:juridique`
+- ❌ **Risques ESG et reporting CSRD** (bilan carbone, double materialite, taxonomie UE) → Utiliser plutot : `entreprise:rse-esg`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Le registre de risques n'a pas ete mis a jour depuis plus de 6 mois — le profil de risque est probablement obsolete
+- ⚠️ Les risques identifies ne generent aucun plan d'action avec proprietaire et echeance — signe de "risk theatre"
+- ⚠️ Le PCA/PRA n'a jamais ete teste — un plan non teste n'est pas un plan, c'est un document
+- ⚠️ L'appetence au risque n'est pas formalisee par le conseil d'administration — les decisions de prise de risque sont prises sans cadre de reference
 
 ## Skills connexes
 

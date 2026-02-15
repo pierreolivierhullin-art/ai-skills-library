@@ -292,6 +292,21 @@ Le paiement en ligne se diversifie et se simplifie :
 - "Comment implémenter le metered billing pour un usage-based pricing ?"
 - "Aide-moi à gérer les cas d'échec de paiement et les relances"
 
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Intégration d'autres processeurs de paiement (Adyen, Mollie, PayPal) → Adapter les principes généraux mais consulter la documentation spécifique du processeur
+- ❌ Stratégie de pricing, positionnement tarifaire ou étude de marché → Utiliser plutôt : `entreprise:finance` ou `entreprise:marketing`
+- ❌ Comptabilité générale, clôture comptable ou reporting financier → Utiliser plutôt : `entreprise:finance` pour la gestion financière
+- ❌ Réglementation juridique des paiements, CGV ou droit de la consommation → Utiliser plutôt : `entreprise:juridique`
+- ❌ Architecture système globale ou design d'APIs non liées au paiement → Utiliser plutôt : `code-development:architecture` ou `code-development:backend-db`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Les montants de paiement sont définis côté client (frontend) → toujours créer les Payment Intents côté serveur avec le montant validé
+- ⚠️ Les webhooks retournent systématiquement 200 sans vérifier la signature → utiliser `stripe.webhooks.constructEvent()` pour valider chaque webhook
+- ⚠️ Les price IDs sont hardcodés dans le code source → stocker dans des variables d'environnement pour pouvoir modifier les prix sans redéploiement
+- ⚠️ Le taux de failed payment recovery est < 30% → activer Smart Retries et configurer le dunning (emails de relance) dans le Dashboard Stripe
+
 ## Skills connexes
 
 | Skill | Lien |

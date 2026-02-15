@@ -9,7 +9,7 @@ last_updated: 2026-02
 
 ## Overview
 
-Ce skill couvre l'ensemble des disciplines liees a l'excellence operationnelle et au delivery. Il fournit un cadre structure pour concevoir, optimiser et piloter les operations d'une organisation, de la gestion des processus a la supply chain, en passant par la qualite, la gestion de services et l'environnement de travail. L'excellence operationnelle ne se resume pas a la reduction des couts : elle englobe la creation de valeur durable par l'amelioration continue des processus, la maitrise de la qualite, la resilience de la chaine d'approvisionnement et la satisfaction des parties prenantes. Appliquer systematiquement les principes decrits ici pour guider chaque decision operationnelle, en privilegiant la rigueur, la mesure et l'amelioration continue.
+Ce skill couvre l'ensemble des disciplines liees a l'excellence operationnelle et au delivery. Il fournit un cadre structure pour concevoir, optimiser et piloter les operations d'une organisation, de la gestion des processus a la supply chain, en passant par la qualite, la gestion de services et l'environnement de travail. L'excellence operationnelle ne se resume pas a la reduction des couts : elle englobe la creation de valeur durable par l'amelioration continue des processus, la maitrise de la qualite, la resilience de la chaine d'approvisionnement et la satisfaction des parties prenantes. Appliquer systematiquement les principes decrits ici pour guider chaque decision operationnelle, en privilegiant la mesure (baseline quantifiee avant toute initiative), le flux (optimisation du lead time et du throughput plutot que du taux d'utilisation) et l'amelioration continue (Kaizen events mensuels avec gains mesures en EUR ou en temps).
 
 ## When This Skill Applies
 
@@ -234,6 +234,21 @@ L'excellence opérationnelle intègre les technologies avancées :
 - "Comment mettre en place une démarche d'amélioration continue ?"
 - "Analyse nos SLA et propose des axes d'optimisation"
 - "Quels outils pour piloter la performance opérationnelle ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ **Gestion des achats et negociation fournisseurs** (appels d'offres, contrats, category management) → Utiliser plutot : `entreprise:achats`
+- ❌ **Pilotage de projets et de programmes** (methodologies agile/waterfall, PMO, governance) → Utiliser plutot : `entreprise:gestion-de-projets`
+- ❌ **Architecture technique et infrastructure IT** (cloud, ERP, cybersecurite) → Utiliser plutot : `entreprise:it-systemes`
+- ❌ **Strategie RSE et impact environnemental** (bilan carbone, economie circulaire, CSRD) → Utiliser plutot : `entreprise:rse-esg`
+- ❌ **Pipelines de donnees et analytics** (ETL, data warehouse, dashboards BI) → Utiliser plutot : `data-bi:data-engineering`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ L'OEE est inferieur a 40% sans baseline documentee — il faut mesurer avant d'ameliorer
+- ⚠️ Un chantier Lean est lance sans identification prealable du goulot d'etranglement — risque d'optimiser un poste non-critique (island of excellence)
+- ⚠️ Les KPI operationnels sont affiches mais personne ne reagit quand ils passent au rouge — "KPI theater" sans processus d'escalade
+- ⚠️ Le taux de service chute sous 90% sans plan d'action corrective — impact direct sur la satisfaction client et le chiffre d'affaires
 
 ## Skills connexes
 

@@ -9,7 +9,7 @@ last_updated: 2026-02
 
 ## Overview
 
-Ce skill couvre l'ensemble des disciplines liees a la gestion du capital humain dans l'entreprise. Il fournit un cadre de decision structure pour attirer, developper, engager et retenir les talents tout en assurant la conformite juridique et l'excellence operationnelle RH. La fonction RH moderne ne se limite plus a l'administration du personnel : elle englobe la strategie de talent acquisition, le developpement des competences (GPEC/GEPP), le performance management, la politique de remuneration globale (total rewards), le people analytics, la diversite et l'inclusion (DEI), les relations sociales et la digitalisation SIRH. Appliquer systematiquement les principes decrits ici pour guider chaque decision RH, en privilegiant l'experience collaborateur, la donnee et l'alignement avec la strategie business.
+Ce skill couvre l'ensemble des disciplines liees a la gestion du capital humain dans l'entreprise. Il fournit un cadre de decision structure pour attirer, developper, engager et retenir les talents tout en assurant la conformite juridique et l'excellence operationnelle RH. La fonction RH moderne ne se limite plus a l'administration du personnel : elle englobe la strategie de talent acquisition, le developpement des competences (GPEC/GEPP), le performance management, la politique de remuneration globale (total rewards), le people analytics, la diversite et l'inclusion (DEI), les relations sociales et la digitalisation SIRH. Appliquer systematiquement les principes decrits ici pour guider chaque decision RH, en privilegiant l'experience collaborateur (eNPS mesure trimestriellement, objectif > 20), la donnee (chaque decision RH appuyee par des metriques : taux de conversion recrutement, correlation engagement-retention, ROI formation) et l'alignement avec la strategie business (workforce planning a 12-24 mois derive de la roadmap produit et du pipeline commercial).
 
 ## When This Skill Applies
 
@@ -27,7 +27,7 @@ Activer ce skill dans les situations suivantes :
 ## Core Principles
 
 ### Principle 1 — Employee Experience First
-Placer l'experience collaborateur au centre de chaque processus RH. Chaque point de contact — du premier entretien de recrutement jusqu'a l'offboarding — doit etre concu avec la meme rigueur qu'un parcours client. Mesurer l'experience via l'eNPS, les enquetes pulse et les entretiens qualitatifs. Un collaborateur engage genere en moyenne 21% de productivite supplementaire (Gallup).
+Placer l'experience collaborateur au centre de chaque processus RH. Chaque point de contact — du premier entretien de recrutement jusqu'a l'offboarding — doit etre concu avec la meme attention qu'un parcours client (mapping des touchpoints, mesure de satisfaction a chaque etape, boucle de feedback). Mesurer l'experience via l'eNPS, les enquetes pulse et les entretiens qualitatifs. Un collaborateur engage genere en moyenne 21% de productivite supplementaire (Gallup).
 
 ### Principle 2 — Data-Driven HR
 Fonder chaque decision RH sur des donnees fiables et mesurees. Remplacer les intuitions par des metriques : taux de conversion du funnel de recrutement, correlation entre engagement et retention, ROI des formations, equite salariale par cohorte. Constituer un data lake RH centralise et investir dans les competences analytiques de l'equipe.
@@ -140,7 +140,7 @@ feedback continu (via outil type Lattice/Culture Amp) et calibration semestriell
 ### Anti-patterns critiques
 
 - **Spray & Pray Recruiting** : publier des annonces sur tous les job boards sans strategie de sourcing ciblee. Resultat : volume de candidatures non qualifiees, charge de tri elevee, time-to-hire degrade. Privilegier le sourcing direct et la cooptation structuree.
-- **Performance Rating Inflation** : noter tout le monde "exceeds expectations" par evitement du conflit. Resultat : impossibilite de differencier les hauts potentiels, deconnexion entre evaluation et remuneration. Corriger par des sessions de calibration rigoureuses.
+- **Performance Rating Inflation** : noter tout le monde "exceeds expectations" par evitement du conflit. Resultat : impossibilite de differencier les hauts potentiels, deconnexion entre evaluation et remuneration. Corriger par des sessions de calibration structurees (comparaison des evaluations par manager, distribution forcee ou guidee, exemples concrets de performance attendue par niveau).
 - **Compensation Opacity** : garder les grilles salariales secretes en pensant preserver la flexibilite. Resultat : sentiment d'inequite, rumeurs, departs. Adopter la transparence salariale progressive (bandes, criteres de progression, methodologie de benchmark).
 - **Training Without Strategy** : acheter des licences LMS et des catalogues de formation sans diagnostic prealable des competences critiques. Resultat : faible ROI, completions sans transfert d'apprentissage. Lier chaque investissement formation a un gap identifie dans la GEPP.
 - **SIRH Frankenstein** : empiler les outils RH sans integration ni strategie de donnee unifiee. Resultat : silos de donnees, double saisie, reporting impossible. Definir une architecture SIRH cible et un master data management RH.
@@ -252,11 +252,26 @@ La fonction RH se réinvente sous l'effet de l'IA et des nouvelles attentes des 
 ## Prompts types
 
 - "Aide-moi à construire une grille de rémunération équitable"
-- "Comment structurer un processus d'onboarding efficace ?"
+- "Comment structurer un processus d'onboarding 30-60-90 jours ?"
 - "Propose un plan d'action pour améliorer l'engagement collaborateur"
 - "Quels KPIs RH suivre pour piloter la rétention des talents ?"
 - "Comment mettre en place un entretien annuel constructif ?"
 - "Aide-moi à rédiger une fiche de poste pour un Product Manager"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ **Contentieux prud'homal et procedures disciplinaires complexes** (licenciement pour faute grave, PSE, restructurations) → Utiliser plutot : `entreprise:juridique`
+- ❌ **Communication interne institutionnelle** (town halls, intranet, marque employeur externe) → Utiliser plutot : `entreprise:communication`
+- ❌ **Conduite du changement organisationnel** (frameworks OCM, gestion de la resistance, transformation digitale) → Utiliser plutot : `entreprise:gestion-de-projets`
+- ❌ **Strategie de remuneration variable commerciale** (OTE, SPIFs, accelerators) → Utiliser plutot : `entreprise:commercial`
+- ❌ **Impact de l'IA sur les metiers et reskilling technologique** → Utiliser plutot : `ai-governance:strategie-ia`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Le turnover volontaire depasse 20% sans diagnostic structure — il faut une analyse par cohorte (anciennete, manager, departement) avant toute action
+- ⚠️ L'eNPS est inferieur a 0 — signal de desengagement critique necessitant un plan d'action immediat par equipe
+- ⚠️ Le time-to-hire depasse 60 jours — le processus de recrutement est un goulot d'etranglement pour le business
+- ⚠️ Plus de 90% des collaborateurs sont notes "exceeds expectations" — l'inflation de notation empeche d'identifier les hauts potentiels
 
 ## Skills connexes
 

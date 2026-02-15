@@ -9,9 +9,9 @@ last_updated: 2026-02
 
 ## Overview
 
-**FR** — Cette skill couvre l'ensemble des pratiques modernes de data engineering : conception de pipelines de donnees (ETL/ELT), architectures batch et streaming, transformation avec dbt, orchestration avec Airflow/Dagster/Prefect, et infrastructure de donnees (data warehouse, data lake, data lakehouse). L'objectif est de construire des plateformes de donnees fiables, scalables et economiques — de l'ingestion brute a la couche de consommation analytique. Les recommandations sont alignees avec les meilleures pratiques 2024-2026, incluant l'architecture medallion, les formats de table ouverts (Iceberg, Delta Lake), le streaming unifie, et l'observabilite des donnees.
+**FR** — Cette skill couvre les pratiques modernes de data engineering : conception de pipelines de donnees (ETL/ELT), architectures batch et streaming, transformation avec dbt, orchestration avec Airflow/Dagster/Prefect, et infrastructure de donnees (data warehouse, data lake, data lakehouse). L'objectif est de construire des plateformes de donnees fiables, scalables et economiques — de l'ingestion brute a la couche de consommation analytique. Les recommandations sont alignees avec les meilleures pratiques 2024-2026, incluant l'architecture medallion, les formats de table ouverts (Iceberg, Delta Lake), le streaming unifie, et l'observabilite des donnees.
 
-**EN** — This skill covers the full spectrum of modern data engineering practices: data pipeline design (ETL/ELT), batch and streaming architectures, transformation with dbt, orchestration with Airflow/Dagster/Prefect, and data infrastructure (data warehouse, data lake, data lakehouse). The goal is to build reliable, scalable, and cost-efficient data platforms — from raw ingestion to the analytical consumption layer. Recommendations are aligned with 2024-2026 best practices, including medallion architecture, open table formats (Iceberg, Delta Lake), unified streaming, and data observability.
+**EN** — This skill covers modern data engineering practices: data pipeline design (ETL/ELT), batch and streaming architectures, transformation with dbt, orchestration with Airflow/Dagster/Prefect, and data infrastructure (data warehouse, data lake, data lakehouse). The goal is to build reliable, scalable, and cost-efficient data platforms — from raw ingestion to the analytical consumption layer. Recommendations are aligned with 2024-2026 best practices, including medallion architecture, open table formats (Iceberg, Delta Lake), unified streaming, and data observability.
 
 ---
 
@@ -44,13 +44,13 @@ Adopt a clear layered architecture. Ingest raw data faithfully (bronze), clean a
 Treat schema changes as breaking changes. Implement schema validation at ingestion, enforce schema evolution policies (backward-compatible by default), and use schema registries for streaming. / Traiter les changements de schema comme des breaking changes. Implementer la validation de schema a l'ingestion, appliquer des politiques d'evolution de schema (retrocompatibles par defaut), et utiliser des registres de schemas pour le streaming.
 
 ### 4. Test Data Pipelines Like Software
-Apply unit tests to transformations, integration tests to pipeline stages, and data quality tests to outputs. Use dbt tests, Great Expectations, or Soda for assertion-based data validation. Never deploy an untested transformation to production. / Appliquer des tests unitaires aux transformations, des tests d'integration aux etapes du pipeline, et des tests de qualite aux sorties. Utiliser les tests dbt, Great Expectations, ou Soda pour la validation des donnees par assertions. Ne jamais deployer une transformation non testee en production.
+Apply unit tests to transformations (ex: tester qu'une fonction de nettoyage retourne le resultat attendu sur 5 cas limites), integration tests to pipeline stages (ex: verifier que le pipeline bout-en-bout produit le bon nombre de lignes sur un jeu de donnees de reference), and data quality tests to outputs (ex: not_null, unique, accepted_values sur chaque modele dbt). Use dbt tests, Great Expectations, or Soda for assertion-based data validation. Never deploy an untested transformation to production.
 
 ### 5. Optimize for Cost and Performance Together
-Choose the right processing paradigm (batch vs. micro-batch vs. streaming) based on latency requirements, not hype. Partition and cluster tables. Use incremental processing over full refreshes. Monitor compute costs per pipeline and set budgets. / Choisir le bon paradigme de traitement (batch vs. micro-batch vs. streaming) en fonction des exigences de latence, pas de la mode. Partitionner et clusterer les tables. Privilegier le traitement incremental aux rafraichissements complets. Surveiller les couts de calcul par pipeline et fixer des budgets.
+Choose the right processing paradigm (batch vs. micro-batch vs. streaming) based on latency requirements, not hype. Partition and cluster tables by the columns most used in WHERE and JOIN clauses. Use incremental processing over full refreshes — for a table de 100M lignes, passer de full refresh a incremental peut reduire les couts de 80-95%. Monitor compute costs per pipeline and set budgets with alerts at 80% consumption.
 
 ### 6. Observe Everything, Alert on What Matters
-Instrument every pipeline with data quality checks, freshness monitors, and volume anomaly detection. Use data observability tools (Monte Carlo, Elementary, Soda) to detect issues before they reach dashboards. Define data SLAs and measure adherence. / Instrumenter chaque pipeline avec des controles de qualite, des moniteurs de fraicheur, et la detection d'anomalies de volume. Utiliser des outils d'observabilite des donnees (Monte Carlo, Elementary, Soda) pour detecter les problemes avant qu'ils n'atteignent les dashboards. Definir des SLAs de donnees et mesurer leur respect.
+Instrument every pipeline with data quality checks, freshness monitors, and volume anomaly detection. Use data observability tools (Monte Carlo, Elementary, Soda) to detect issues before they reach dashboards. Define data SLAs with des engagements explicites (ex: "table orders_mart rafraichie avant 08h00 UTC, completude > 99.5%, zero doublons sur order_id") and measure adherence weekly.
 
 ---
 
@@ -118,23 +118,23 @@ Instrument every pipeline with data quality checks, freshness monitors, and volu
 
 Follow this workflow when designing or improving a data platform:
 
-1. **Assess Data Requirements** — Identify data sources, latency requirements, data volumes, and consumer needs. Map the current pipeline topology. Classify data by sensitivity (PII, financial, public).
+1. **Assess Data Requirements** — Identify data sources (lister chaque source avec : type de connecteur, volume estimé, fréquence de mise à jour, sensibilité PII), latency requirements (batch T+1 vs. near-real-time vs. streaming sub-second), data volumes, and consumer needs. Map the current pipeline topology. Classify data by sensitivity (PII, financial, public).
 
-2. **Design the Architecture** — Choose ELT for modern cloud warehouses. Adopt medallion architecture (bronze/silver/gold). Define data contracts between layers. Select batch, micro-batch, or streaming based on actual latency needs.
+2. **Design the Architecture** — Choose ELT for modern cloud warehouses. Adopt medallion architecture (bronze/silver/gold). Define data contracts between layers with SLAs explicites (ex: bronze -> silver : fraicheur < 2h, completude > 99%). Select batch, micro-batch, or streaming based on actual latency needs documented in step 1.
 
 3. **Set Up Ingestion** — Deploy integration tools (Fivetran, Airbyte, or custom connectors) for source extraction. Land raw data faithfully in the bronze layer. Implement CDC (Change Data Capture) for transactional sources. Use schema detection and evolution at ingestion.
 
 4. **Build the Transformation Layer** — Implement dbt as the transformation framework. Structure models by layer (staging -> intermediate -> marts). Write tests for every model (not_null, unique, relationships, custom). Generate documentation with `dbt docs`. Use incremental models for large tables.
 
-5. **Configure Orchestration** — Deploy Airflow, Dagster, or Prefect. Define DAGs/assets with clear dependencies. Set up retries with exponential backoff. Configure alerting on failure, SLA misses, and anomalies. Implement sensors or triggers for event-driven pipelines.
+5. **Configure Orchestration** — Deploy Airflow, Dagster, or Prefect. Define DAGs/assets with clear dependencies. Set up retries with exponential backoff (ex: 3 retries, delais 1min/5min/15min). Configure alerting on failure, SLA misses, and anomalies via Slack/PagerDuty. Implement sensors or triggers for event-driven pipelines.
 
 6. **Implement Data Quality** — Add dbt tests at every layer boundary. Deploy data observability (Elementary, Monte Carlo, or Soda). Monitor freshness, volume, schema, and distribution. Define SLAs: "marketing dashboard refreshed by 08:00 UTC daily."
 
 7. **Establish CI/CD for Data** — Run dbt in CI (lint with sqlfluff, build with tests, generate docs). Use slim CI for efficiency. Implement blue-green deployments for warehouse schema changes. Version-control all pipeline code, SQL, and configuration.
 
-8. **Optimize Costs** — Partition and cluster all large tables. Monitor per-query and per-pipeline costs. Set warehouse auto-suspend and auto-scaling policies. Use reserved capacity for predictable workloads, on-demand for spikes. Review and eliminate unused tables and pipelines quarterly.
+8. **Optimize Costs** — Partition and cluster all large tables (> 1 Go). Monitor per-query and per-pipeline costs with un dashboard dédié mis à jour quotidiennement. Set warehouse auto-suspend (ex: 5 min inactivité) and auto-scaling policies. Use reserved capacity for predictable workloads, on-demand for spikes. Review and eliminate unused tables and pipelines quarterly.
 
-9. **Observe and Iterate** — Track data freshness SLAs, pipeline success rates, data quality scores, and cost per pipeline. Run blameless post-incident reviews for data outages. Feed learnings back into architecture and process improvements.
+9. **Observe and Iterate** — Track data freshness SLAs, pipeline success rates, data quality scores, and cost per pipeline dans un dashboard opérationnel unique. Run blameless post-incident reviews for data outages. Feed learnings back into architecture and process improvements.
 
 ---
 
@@ -219,6 +219,21 @@ L'ingénierie de données évolue vers la simplification et le temps réel :
 - "Comment orchestrer nos pipelines avec Airflow ou Dagster ?"
 - "Aide-moi à optimiser les coûts de notre data warehouse Snowflake"
 - "Comment mettre en place du CDC pour la réplication temps réel ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Concevoir des dashboards, choisir un outil BI ou définir des KPIs métier → Utiliser plutôt : `data-bi:decision-reporting-governance`
+- ❌ Former des utilisateurs au data storytelling ou à la lecture de graphiques → Utiliser plutôt : `data-bi:data-literacy`
+- ❌ Concevoir l'architecture applicative (microservices, API REST, frontend) → Utiliser plutôt : `code-development:architecture`
+- ❌ Gérer la sécurité réseau, les certificats SSL ou l'authentification applicative → Utiliser plutôt : `code-development:auth-security`
+- ❌ Entraîner ou déployer des modèles de machine learning (feature engineering, model serving, MLOps) → Utiliser plutôt : un skill dédié MLOps ou `ai-governance:prompt-engineering-llmops` pour les pipelines LLM
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Un pipeline n'a aucun test de données (ni dbt test, ni assertion de qualité) — il va silencieusement propager des données corrompues aux dashboards
+- ⚠️ Toutes les tables sont en full refresh alors que les volumes dépassent 10M lignes — signe de coûts excessifs et de latence évitable
+- ⚠️ Les transformations SQL sont écrites directement dans les DAGs Airflow plutôt que dans des modèles dbt — la logique métier sera introuvable, intestable et sans lineage
+- ⚠️ Aucun SLA de fraîcheur n'est défini pour les datasets consommés par les dashboards — personne ne saura si les données sont à jour ou périmées
 
 ## Skills connexes
 

@@ -189,7 +189,7 @@ Architecture microservices complexe ?
 
 1. Auditer l'application contre l'OWASP Top 10 et l'ASVS
 2. Implementer input validation stricte avec allow-lists
-3. Configurer le logging securitaire (pas de secrets dans les logs)
+3. Configurer le logging securitaire : exclure des logs tout token, mot de passe, PII et secret ; utiliser un filtre de redaction automatique dans le logger
 4. Mettre en place le monitoring des evenements de securite (failed logins, privilege escalation attempts)
 5. Planifier la rotation automatique de tous les secrets
 6. Executer des scans de dependances (Snyk, Dependabot) en CI
@@ -278,6 +278,21 @@ La sécurité applicative fait face à de nouveaux défis :
 - "Comment gérer les secrets en production de manière sécurisée ?"
 - "Fais un audit OWASP Top 10 de mon application"
 - "Comment implémenter les passkeys / WebAuthn ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Architecture réseau, configuration de firewalls ou sécurité périmétrique → Utiliser plutôt : `entreprise:it-systemes` pour la cybersécurité infrastructure
+- ❌ Conformité RGPD, protection des données personnelles ou DPO → Utiliser plutôt : `entreprise:juridique` pour le cadre réglementaire données personnelles
+- ❌ Sécurité des modèles IA, prompt injection ou data poisoning → Utiliser plutôt : `ai-governance:ai-risk` pour la sécurité des systèmes IA
+- ❌ Tests de charge, chaos engineering ou SRE → Utiliser plutôt : `code-development:quality-reliability` pour la fiabilité système
+- ❌ Choix d'architecture système (monolithe vs microservices) → Utiliser plutôt : `code-development:architecture` pour les décisions architecturales
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Les JWT sont utilisés comme sessions longue durée (TTL > 1h) sans mécanisme de révocation → utiliser des access tokens courts (5-15 min) + refresh token rotation
+- ⚠️ La validation des inputs n'existe que côté client → toute validation client est contournable ; implémenter systématiquement la validation côté serveur
+- ⚠️ Un seul rôle "admin" concentre toutes les permissions → appliquer le principe de moindre privilège avec des permissions granulaires par action
+- ⚠️ Les secrets sont passés en variables d'environnement sans secret manager → migrer vers Vault, AWS Secrets Manager ou équivalent avec rotation automatique
 
 ## Skills connexes
 

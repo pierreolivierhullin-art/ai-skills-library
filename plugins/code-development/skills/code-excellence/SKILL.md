@@ -143,7 +143,7 @@ Suivre ce workflow pour toute initiative d'amélioration de la qualité du code 
 1. Appliquer la Boy Scout Rule sur chaque commit.
 2. Planifier des sessions de refactoring dédiées (20% du sprint).
 3. Pratiquer le TDD pour toute nouvelle fonctionnalité de logique métier.
-4. Conduire des revues de code bienveillantes et formatives.
+4. Conduire des revues de code avec feedback structuré : chaque commentaire cite le principe violé (SOLID, DRY, sécurité), propose une alternative concrète, et distingue bloquant/suggestion.
 5. Mesurer et visualiser l'évolution des métriques de qualité mensuellement.
 
 ### Phase 4 -- Legacy Modernization (si applicable)
@@ -232,6 +232,21 @@ Les pratiques de qualité de code sont transformées par l'IA :
 - "Comment mettre en place un processus de code review efficace ?"
 - "Quels design patterns utiliser pour ce cas d'usage ?"
 - "Analyse ce code et identifie les code smells"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Décisions d'architecture système (choix monolithe vs microservices, design de bounded contexts) → Utiliser plutôt : `code-development:architecture`
+- ❌ Mise en place de pipelines CI/CD ou d'infrastructure de déploiement → Utiliser plutôt : `code-development:devops`
+- ❌ Stratégie de tests de charge, performance ou chaos engineering → Utiliser plutôt : `code-development:quality-reliability`
+- ❌ Design d'interface utilisateur, accessibilité WCAG ou design system → Utiliser plutôt : `code-development:ui-ux`
+- ❌ Définition de métriques DORA, processus agile ou workflows d'équipe → Utiliser plutôt : `code-development:process-engineering`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ On vise 100% de couverture de code sans mutation testing → la couverture cosmétique donne une fausse confiance ; valider avec Stryker/PITest
+- ⚠️ Les tests mockent la majorité des dépendances → tester le comportement, pas l'implémentation ; si > 3 mocks dans un test, repenser le design
+- ⚠️ Le refactoring est planifié comme un "projet à part" au lieu d'être incrémental → appliquer la Boy Scout Rule sur chaque commit plutôt qu'un sprint dédié
+- ⚠️ Les PRs dépassent régulièrement 500 lignes → découper en PRs de 200-400 lignes max pour des revues exploitables
 
 ## Skills connexes
 

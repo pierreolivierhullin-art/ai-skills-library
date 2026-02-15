@@ -9,7 +9,7 @@ last_updated: 2026-02
 
 ## Overview
 
-Ce skill couvre l'ensemble des disciplines liees a la responsabilite societale des entreprises (RSE), aux criteres environnementaux, sociaux et de gouvernance (ESG) et au developpement durable. Il fournit un cadre operationnel pour concevoir, piloter et reporter une strategie RSE/ESG alignee sur les reglementations europeennes (CSRD, Taxonomie UE), les standards internationaux (GRI, ISSB, GHG Protocol) et les meilleures pratiques de marche. Appliquer systematiquement les principes decrits ici pour guider chaque decision liee a la durabilite, en privilegiant la rigueur methodologique, la transparence des donnees et l'impact mesurable.
+Ce skill couvre l'ensemble des disciplines liees a la responsabilite societale des entreprises (RSE), aux criteres environnementaux, sociaux et de gouvernance (ESG) et au developpement durable. Il fournit un cadre operationnel pour concevoir, piloter et reporter une strategie RSE/ESG alignee sur les reglementations europeennes (CSRD, Taxonomie UE), les standards internationaux (GRI, ISSB, GHG Protocol) et les meilleures pratiques de marche. Appliquer systematiquement les principes decrits ici pour guider chaque decision liee a la durabilite, en privilegiant la methodologie (GHG Protocol pour le carbone, ESRS pour le reporting, SBTi pour les trajectoires), la transparence des donnees (chaque indicateur auditable avec tracabilite de la source) et l'impact mesurable (reduction en tCO2e, scores EcoVadis/CDP, taux de conformite CSRD).
 
 La RSE/ESG ne se limite pas a un exercice de conformite : elle englobe la transformation du modele d'affaires, l'integration des enjeux climatiques et sociaux dans la strategie, la mesure d'impact, et l'engagement de l'ensemble des parties prenantes. Le cadre reglementaire europeen (CSRD, CSDDD, Taxonomie) impose desormais une approche structuree, auditable et comparable.
 
@@ -28,7 +28,7 @@ Activer ce skill dans les situations suivantes :
 ## Core Principles
 
 ### Principle 1 — Double Materiality First
-Partir systematiquement de l'analyse de double materialite (impact materiality + financial materiality) pour prioriser les enjeux ESG. Utiliser cette analyse comme boussole de toute la strategie RSE. Ne jamais definir de priorites ESG sans avoir conduit une analyse de materialite rigoureuse impliquant les parties prenantes internes et externes.
+Partir systematiquement de l'analyse de double materialite (impact materiality + financial materiality) pour prioriser les enjeux ESG. Utiliser cette analyse comme boussole de toute la strategie RSE. Ne jamais definir de priorites ESG sans avoir conduit une analyse de materialite structuree (entretiens avec 15-20 parties prenantes internes et externes, evaluation de severite sur 3 criteres : gravite, etendue, caractere irremediable, et croisement avec les risques financiers).
 
 ### Principle 2 — Science-Based & Data-Driven
 Fonder chaque engagement climat sur la science (SBTi, GIEC/IPCC). Quantifier systematiquement les impacts avec des methodologies reconnues (GHG Protocol, ACV ISO 14040/14044, SROI). Refuser les engagements non etayes par des donnees verifiables. Chaque indicateur doit etre mesurable, auditable et comparable dans le temps.
@@ -90,7 +90,7 @@ Appliquer la methodologie en 4 phases :
    |   +-- Structurer le reporting selon les ESRS applicables
    |   +-- Preparer l'audit/assurance (limited puis reasonable)
    +-- Non mais volontaire
-       +-- Choisir le referentiel adapte (GRI, ISSB, VSME)
+       +-- Choisir le referentiel selon le public cible (GRI pour un reporting large parties prenantes, ISSB pour les investisseurs, VSME pour les PME)
        +-- Conduire une analyse de materialite simplifiee
 
 2. Quel est le niveau de maturite carbone ?
@@ -247,6 +247,21 @@ Le reporting ESG entre dans une ère réglementaire structurante :
 - "Quels KPIs ESG suivre et comment les mesurer ?"
 - "Comment intégrer l'économie circulaire dans notre modèle ?"
 - "Aide-moi à préparer notre notation ESG"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ **Communication institutionnelle et relations presse sur les engagements RSE** (communiques, media training, gestion de la reputation) → Utiliser plutot : `entreprise:communication`
+- ❌ **Gestion des risques d'entreprise et conformite reglementaire generale** (ERM, Sapin II, PCA) → Utiliser plutot : `entreprise:risk-management`
+- ❌ **Strategie d'achats responsables et gestion des fournisseurs** (category management, scorecards, negociation) → Utiliser plutot : `entreprise:achats`
+- ❌ **Modelisation financiere de projets verts** (green bonds, taxonomie pour les investisseurs, valorisation) → Utiliser plutot : `entreprise:finance`
+- ❌ **Cadre reglementaire et conformite juridique** (devoir de vigilance, contentieux, CSRD aspects juridiques) → Utiliser plutot : `entreprise:juridique`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Des objectifs climat sont annonces sans trajectoire SBTi ni plan de reduction chiffre — risque de greenwashing
+- ⚠️ Le scope 3 n'est pas mesure alors qu'il represente typiquement 70-90% de l'empreinte — l'essentiel du probleme est ignore
+- ⚠️ L'analyse de materialite date de plus de 2 ans sans mise a jour — le contexte reglementaire et les attentes des parties prenantes ont probablement evolue
+- ⚠️ La RSE est confiee a un departement isole sans mandat transversal ni rattachement au COMEX — risque de "ESG siloing"
 
 ## Skills connexes
 

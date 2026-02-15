@@ -9,9 +9,9 @@ last_updated: 2026-02
 
 ## Overview
 
-Ce skill couvre l'ensemble des disciplines liees a la litteratie des donnees : la capacite a lire, comprendre, analyser, communiquer et prendre des decisions fondees sur les donnees. Il ne s'adresse pas uniquement aux analystes ou data scientists — il fournit un cadre complet pour toute personne devant interagir avec des donnees dans un contexte professionnel. Appliquer systematiquement les principes decrits ici pour transformer des donnees brutes en insights actionnables, construire des visualisations efficaces, raconter des histoires convaincantes avec les donnees, et favoriser une culture data-driven a l'echelle de l'organisation. La data literacy est le socle sur lequel repose toute strategie analytique : sans elle, les meilleurs outils et les donnees les plus riches restent inexploites.
+Ce skill couvre les disciplines liees a la litteratie des donnees : la capacite a lire, comprendre, analyser, communiquer et prendre des decisions fondees sur les donnees. Il ne s'adresse pas uniquement aux analystes ou data scientists — il fournit un cadre complet pour toute personne devant interagir avec des donnees dans un contexte professionnel. Appliquer systematiquement les principes decrits ici pour transformer des donnees brutes en insights actionnables, construire des visualisations claires, raconter des histoires convaincantes avec les donnees, et favoriser une culture data-driven a l'echelle de l'organisation. La data literacy est le socle sur lequel repose toute strategie analytique : sans elle, les meilleurs outils et les donnees les plus riches restent inexploites.
 
-This skill covers the full spectrum of data literacy: the ability to read, understand, analyze, communicate, and make decisions based on data. Apply these principles to transform raw data into actionable insights, build effective visualizations, craft compelling data narratives, and foster organization-wide data-driven culture.
+This skill covers data literacy: the ability to read, understand, analyze, communicate, and make decisions based on data. Apply these principles to transform raw data into actionable insights, build clear visualizations, craft compelling data narratives, and foster organization-wide data-driven culture.
 
 ## When This Skill Applies
 
@@ -33,11 +33,11 @@ Appliquer le principe fondamental d'Edward Tufte : maximiser le ratio data-ink, 
 
 ### Principle 2 — Audience-First Design
 
-Ne jamais concevoir une visualisation ou un rapport sans identifier d'abord l'audience cible et son contexte de decision. Un dirigeant a besoin d'un executive summary avec des KPIs et des tendances. Un analyste a besoin de granularite et d'interactivite pour explorer les donnees. Un operationnel a besoin d'alertes et de seuils pour agir immediatement. Adapter le niveau de detail, le vocabulaire, le format et le canal de diffusion a chaque audience. Cole Nussbaumer Knaflic formule ce principe ainsi : "Who is your audience and what do you need them to know or do?"
+Ne jamais concevoir une visualisation ou un rapport sans identifier d'abord l'audience cible et son contexte de decision. Un dirigeant a besoin d'un executive summary avec 3-5 KPIs, les tendances clés et les decisions a prendre. Un analyste a besoin de granularite et d'interactivite pour explorer les donnees (filtres, drill-down, export SQL). Un operationnel a besoin d'alertes visuelles et de seuils colores (vert/orange/rouge) pour agir en moins de 30 secondes. Adapter le niveau de detail, le vocabulaire, le format et le canal de diffusion a chaque audience. Cole Nussbaumer Knaflic formule ce principe ainsi : "Who is your audience and what do you need them to know or do?"
 
 ### Principle 3 — Statistical Rigor Without Jargon
 
-Appliquer la rigueur statistique dans chaque analyse sans imposer le jargon technique a l'audience. Toujours contextualiser les chiffres (comparaisons temporelles, benchmarks, intervalles de confiance), signaler explicitement les limites des donnees (taille d'echantillon, biais de selection, donnees manquantes), et distinguer clairement correlation et causalite. Rendre accessible l'incertitude : utiliser des fourchettes plutot que des chiffres precis quand c'est plus honnete, et privilegier les ordres de grandeur quand la precision est trompeuse.
+Appliquer la rigueur statistique dans chaque analyse sans imposer le jargon technique a l'audience. Toujours contextualiser les chiffres : ajouter une comparaison temporelle (vs. meme periode N-1), un benchmark (moyenne sectorielle, objectif interne), et un intervalle de confiance quand la precision est incertaine. Signaler explicitement les limites des donnees (taille d'echantillon, biais de selection, donnees manquantes), et distinguer clairement correlation et causalite. Rendre accessible l'incertitude : utiliser des fourchettes plutot que des chiffres precis quand c'est plus honnete, et privilegier les ordres de grandeur quand la precision est trompeuse.
 
 ### Principle 4 — Narrative Arc for Every Analysis
 
@@ -45,7 +45,7 @@ Structurer chaque communication analytique comme un recit avec un arc narratif c
 
 ### Principle 5 — Democratization with Governance
 
-Favoriser l'acces aux donnees pour tous les collaborateurs tout en maintenant la gouvernance necessaire. La data literacy ne signifie pas que tout le monde doit devenir data scientist, mais que chacun doit pouvoir poser des questions aux donnees et comprendre les reponses. Mettre en place des semantic layers, des definitions metier partagees (metrics dictionaries), et des niveaux d'acces adaptes. Le self-service analytics sans gouvernance produit du chaos ; la gouvernance sans self-service produit des goulots d'etranglement.
+Favoriser l'acces aux donnees pour tous les collaborateurs tout en maintenant la gouvernance necessaire. La data literacy ne signifie pas que tout le monde doit devenir data scientist, mais que chacun doit pouvoir poser des questions aux donnees et comprendre les reponses. Mettre en place des semantic layers avec des metriques certifiees et documentees, un metrics dictionary accessible a tous (ex: Notion, Confluence, data catalog), et des niveaux d'acces par role (viewer, explorer, analyst). Le self-service analytics sans gouvernance produit du chaos ; la gouvernance sans self-service produit des goulots d'etranglement.
 
 ### Principle 6 — Ethical Data Communication
 
@@ -89,8 +89,8 @@ Appliquer le processus en 6 etapes de Cole Nussbaumer Knaflic :
 1. **Understand the context** : identifier l'audience, le message cle, et l'action souhaitee.
 2. **Choose an appropriate display** : selectionner le type de graphique adapte a l'objectif (voir matrice ci-dessus).
 3. **Eliminate clutter** : supprimer tout element superflu en appliquant les principes Gestalt (proximite, similarite, cloture, continuite).
-4. **Focus attention** : utiliser la couleur, la taille et le positionnement de maniere strategique pour guider l'oeil vers l'insight principal.
-5. **Think like a designer** : appliquer les principes d'accessibilite, de hierarchie visuelle, et d'affordance.
+4. **Focus attention** : utiliser la couleur, la taille et le positionnement pour guider l'oeil vers l'insight principal — une seule couleur d'accent pour le point cle, gris pour le contexte.
+5. **Think like a designer** : appliquer les principes d'accessibilite (contraste WCAG AA minimum), de hierarchie visuelle (titre > sous-titre > annotation > legende), et d'affordance.
 6. **Tell a story** : structurer la presentation avec un arc narratif clair (contexte, tension, resolution).
 
 ## Decision Guide
@@ -130,11 +130,11 @@ Appliquer le processus en 6 etapes de Cole Nussbaumer Knaflic :
 
 ### Patterns recommandes
 
-- **Progressive Disclosure** : presenter d'abord le message cle (big number, headline), puis permettre l'exploration progressive vers le detail. Un dashboard efficace raconte son histoire en 5 secondes, puis permet 5 minutes d'exploration.
-- **Consistent Visual Grammar** : definir et appliquer un design system pour les visualisations (palette de couleurs, typographie, grille, conventions de nommage). La coherence visuelle reduit la charge cognitive et accelere la comprehension.
-- **Annotation-Driven Insights** : annoter les graphiques avec le "so what" — expliquer directement sur le graphique pourquoi un point de donnee est significatif, plutot que de forcer l'audience a deviner.
+- **Progressive Disclosure** : presenter d'abord le message cle (big number, headline), puis permettre l'exploration progressive vers le detail. Un dashboard doit raconter son histoire en 5 secondes (le "so what" visible immediatement), puis permettre 5 minutes d'exploration via drill-down et filtres.
+- **Consistent Visual Grammar** : definir et appliquer un design system pour les visualisations : palette de 5-7 couleurs maximum (dont 1 couleur d'accent), typographie unique, grille de 12 colonnes, conventions de nommage des metriques. La coherence visuelle reduit la charge cognitive et accelere la comprehension.
+- **Annotation-Driven Insights** : annoter les graphiques avec le "so what" — expliquer directement sur le graphique pourquoi un point de donnee est significatif (ex: "Pic du 15 mars : lancement campagne email +45% trafic"), plutot que de forcer l'audience a deviner.
 - **Benchmarking Context** : toujours fournir un point de comparaison (periode precedente, objectif, benchmark sectoriel, moyenne). Un chiffre sans contexte est un chiffre sans sens.
-- **Pre-Mortem Data Analysis** : avant de communiquer un insight, se demander : "Quelles objections un sceptique intelligent pourrait-il soulever ?" Adresser proactivement ces objections dans la presentation.
+- **Pre-Mortem Data Analysis** : avant de communiquer un insight, lister 3 objections qu'un sceptique informé pourrait soulever (ex: "N'est-ce pas un effet de saisonnalité ?", "L'échantillon est-il assez grand ?", "La corrélation implique-t-elle la causalité ?"). Adresser proactivement ces objections dans la presentation.
 
 ### Anti-patterns critiques
 
@@ -149,33 +149,33 @@ Appliquer le processus en 6 etapes de Cole Nussbaumer Knaflic :
 
 ### Phase 1 — Assessment & Strategy
 
-1. Evaluer le niveau de data literacy actuel de l'organisation avec le Competency Framework (surveys, interviews, tests pratiques).
-2. Identifier les cas d'usage prioritaires ou la data literacy aurait le plus grand impact business.
-3. Cartographier les outils de visualisation existants et leur taux d'adoption reel.
-4. Definir les personas utilisateurs et leurs besoins specifiques en matiere de donnees.
-5. Etablir les standards de visualisation et le design system data (palette, conventions, templates).
+1. Evaluer le niveau de data literacy actuel de l'organisation avec le Competency Framework : faire passer un test pratique de 15 questions couvrant les 5 competences (lecture, statistiques, visualisation, communication, esprit critique), scorer chaque departement sur l'echelle Reader/Communicator/Analyst/Champion.
+2. Identifier les 3-5 cas d'usage prioritaires ou la data literacy aurait le plus grand impact business mesurable (ex: reduire le temps de decision du comite de direction de 2h a 30min).
+3. Cartographier les outils de visualisation existants et leur taux d'adoption reel (% d'utilisateurs actifs vs. licences payees).
+4. Definir les personas utilisateurs et leurs besoins specifiques en matiere de donnees : pour chaque persona, documenter le format prefere, la frequence de consultation, et les 3 questions metier recurrentes.
+5. Etablir les standards de visualisation et le design system data : palette de couleurs (5-7 couleurs max), typographie, grille de layout, conventions de nommage des KPIs, templates de dashboards.
 
 ### Phase 2 — Foundation & Training
 
 6. Deployer une plateforme de self-service analytics adaptee aux profils utilisateurs identifies.
-7. Creer un data dictionary et un metrics glossary partages et accessibles.
-8. Concevoir et lancer un programme de formation par niveaux (Reader, Communicator, Analyst, Champion).
-9. Identifier et former des data champions dans chaque departement.
-10. Produire des templates de dashboards et de presentations conformes aux standards.
+7. Creer un data dictionary et un metrics glossary partages et accessibles, avec pour chaque metrique : nom, definition, formule de calcul, source, owner, frequence de mise a jour.
+8. Concevoir et lancer un programme de formation par niveaux (Reader : 2h, Communicator : 4h, Analyst : 8h, Champion : 16h + mentorat).
+9. Identifier et former 1-2 data champions par departement : les former au niveau Analyst minimum et leur donner du temps dedie (10-20% de leur temps).
+10. Produire des templates de dashboards et de presentations conformes aux standards definis en phase 1.
 
 ### Phase 3 — Activation & Practice
 
-11. Mettre en place des data clinics regulieres (sessions ouvertes de revue de dashboards et analyses).
-12. Instaurer des revues de visualisation (viz review) sur le modele des code reviews.
-13. Lancer des challenges data internes pour stimuler l'adoption et la creativite.
+11. Mettre en place des data clinics regulieres (sessions ouvertes de revue de dashboards et analyses) : 1h par semaine, ouvertes a tous.
+12. Instaurer des revues de visualisation (viz review) sur le modele des code reviews : chaque nouveau dashboard passe une revue avant publication, verifiee contre la checklist de revue (voir Template actionnable).
+13. Lancer des challenges data internes pour stimuler l'adoption et la creativite (ex: "Meilleur dashboard du trimestre", "Insight le plus impactant").
 14. Creer une bibliotheque d'exemples de data storytelling reussis dans l'organisation.
-15. Etablir des feedback loops entre producteurs et consommateurs de donnees.
+15. Etablir des feedback loops entre producteurs et consommateurs de donnees : chaque dashboard a un canal de feedback (Slack, formulaire) et les retours sont traites sous 48h.
 
 ### Phase 4 — Measurement & Scaling
 
 16. Mesurer la maturite data culture avec un modele structure (voir reference data-culture.md).
-17. Tracker les metriques d'adoption : nombre d'utilisateurs actifs du self-service, frequence de consultation des dashboards, taux de decisions documentees par les donnees.
-18. Evaluer l'impact business : reduction du temps de decision, amelioration des KPIs lies aux initiatives data-driven.
+17. Tracker les metriques d'adoption : nombre d'utilisateurs actifs du self-service par semaine, frequence mediane de consultation des dashboards, taux de decisions documentees par les donnees (objectif : > 50% des decisions du comite de direction).
+18. Evaluer l'impact business : reduction du temps de decision (en heures), amelioration des KPIs lies aux initiatives data-driven (ex: conversion +X%, churn -Y%).
 19. Iterer sur le programme de formation en fonction des retours et des lacunes identifiees.
 20. Etendre le programme aux nouvelles equipes, filiales et partenaires.
 
@@ -259,6 +259,21 @@ La data literacy s'accélère avec l'IA et les nouvelles réglementations :
 - "Comment éviter les erreurs statistiques courantes dans nos analyses ?"
 - "Aide-moi à concevoir un dashboard lisible et actionnable"
 - "Quelles bonnes pratiques pour démocratiser l'accès aux données ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Construire les pipelines de données, configurer dbt ou orchestrer des workflows Airflow → Utiliser plutôt : `data-bi:data-engineering`
+- ❌ Mettre en place un programme de data governance, un data catalog ou des data contracts → Utiliser plutôt : `data-bi:decision-reporting-governance`
+- ❌ Réaliser des analyses statistiques avancées (tests A/B, régressions, séries temporelles, modèles prédictifs) → Utiliser plutôt : un statisticien ou un data scientist
+- ❌ Concevoir l'UI/UX d'une application web ou mobile (design system applicatif, composants React) → Utiliser plutôt : `code-development:ui-ux`
+- ❌ Rédiger une stratégie de communication corporate ou des supports marketing → Utiliser plutôt : `entreprise:communication` ou `entreprise:marketing`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ La présentation contient plus de 10 graphiques sans fil conducteur narratif — signe d'un "data dump" qui ne convaincra personne
+- ⚠️ Un graphique utilise plus de 7 couleurs différentes ou des effets 3D — la charge cognitive dépasse la capacité d'interprétation
+- ⚠️ Les conclusions sont présentées sans mentionner les limites des données (taille d'échantillon, période couverte, biais potentiels) — signe de surconfiance qui érode la crédibilité
+- ⚠️ Le programme de data literacy est conçu uniquement par l'équipe data sans impliquer les RH ni les managers métier — l'adoption sera faible car déconnectée des besoins réels
 
 ## Skills connexes
 

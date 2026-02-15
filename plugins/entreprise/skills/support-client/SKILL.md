@@ -9,7 +9,7 @@ last_updated: 2026-02
 
 ## Overview
 
-Ce skill couvre l'ensemble des disciplines liées au support client, au customer success et a l'experience client (CX). Il fournit un cadre operationnel et strategique pour concevoir, structurer et optimiser les operations de support, les bases de connaissances, les programmes de customer success et les dispositifs de mesure de la satisfaction. Le support client moderne ne se limite plus a la resolution reactive de problemes : il englobe l'engagement proactif, le self-service intelligent, l'analyse predictive du churn et l'orchestration omnicanale. Appliquer systematiquement les principes decrits ici pour structurer chaque decision, en privilegiant la resolution au premier contact, l'autonomie client et la valeur a long terme.
+Ce skill couvre l'ensemble des disciplines liées au support client, au customer success et a l'experience client (CX). Il fournit un cadre operationnel et strategique pour concevoir, structurer et optimiser les operations de support, les bases de connaissances, les programmes de customer success et les dispositifs de mesure de la satisfaction. Le support client moderne ne se limite plus a la resolution reactive de problemes : il englobe l'engagement proactif, le self-service intelligent, l'analyse predictive du churn et l'orchestration omnicanale. Appliquer systematiquement les principes decrits ici pour structurer chaque decision, en privilegiant la resolution au premier contact (FCR > 80%), l'autonomie client (taux de self-service resolution > 40%) et la valeur a long terme (Net Revenue Retention > 110%).
 
 ## When This Skill Applies
 
@@ -249,12 +249,27 @@ Le support client est transformé par l'IA conversationnelle :
 
 ## Prompts types
 
-- "Comment structurer un service client multicanal efficace ?"
+- "Comment structurer un service client multicanal avec SLA par priorite et par canal ?"
 - "Aide-moi à construire une knowledge base pour réduire les tickets"
 - "Propose un plan d'action pour améliorer notre NPS"
 - "Comment mettre en place un programme de customer success ?"
 - "Quels SLA définir pour notre support client B2B ?"
 - "Aide-moi à calculer le customer health score de nos comptes"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ **Strategie de vente et prospection commerciale** (MEDDIC, pipeline management, closing) → Utiliser plutot : `entreprise:commercial`
+- ❌ **Strategie de marque et acquisition marketing** (SEO, content marketing, paid ads, branding) → Utiliser plutot : `entreprise:marketing`
+- ❌ **Communication de crise institutionnelle** (relations presse, dark site, gestion de la reputation) → Utiliser plutot : `entreprise:communication`
+- ❌ **Implementation technique de chatbots et IA conversationnelle** (prompt engineering, RAG, fine-tuning) → Utiliser plutot : `ai-governance:prompt-engineering-llmops`
+- ❌ **Instrumentation produit et analytics** (event tracking, funnel analysis, A/B testing) → Utiliser plutot : `code-development:product-analytics`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Le CSAT est inferieur a 60% — le support genere de la frustration plutot que de la satisfaction
+- ⚠️ Le reopen rate depasse 10% — les tickets sont fermes sans resolution reelle
+- ⚠️ La knowledge base n'a pas ete auditee depuis plus de 6 mois — les articles obsoletes degradent le self-service
+- ⚠️ Le health score n'est pas calcule pour les comptes > 10K EUR ARR — absence de visibilite sur le risque de churn
 
 ## Skills connexes
 

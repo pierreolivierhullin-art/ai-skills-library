@@ -9,7 +9,7 @@ last_updated: 2026-02
 
 ## Overview
 
-Ce skill couvre l'ensemble du spectre marketing moderne, de la construction de marque jusqu'a l'optimisation du cycle de vie client. Il integre les disciplines historiques du marketing (branding, media, acquisition) avec les approches contemporaines du growth marketing, du product marketing et du marketing ops. Appliquer systematiquement les frameworks decrits ici pour structurer chaque reflexion marketing, en privilegiant la mesurabilite, l'experimentation et l'alignement entre marketing, produit et ventes. Le marketing moderne n'est plus un centre de cout : c'est un moteur de revenus mesurable, pilote par la donnee et orchestre par la technologie.
+Ce skill couvre l'ensemble du spectre marketing moderne, de la construction de marque jusqu'a l'optimisation du cycle de vie client. Il integre les disciplines historiques du marketing (branding, media, acquisition) avec les approches contemporaines du growth marketing, du product marketing et du marketing ops. Appliquer systematiquement les frameworks decrits ici pour structurer chaque reflexion marketing, en privilegiant la mesurabilite (chaque initiative a un KPI cible chiffre), l'experimentation (hypothese → test → analyse → decision) et l'alignement entre marketing, produit et ventes (definitions MQL/SQL partagees, SLA formalises). Le marketing moderne n'est plus un centre de cout : c'est un moteur de revenus mesurable, pilote par la donnee et orchestre par la technologie.
 
 ## When This Skill Applies
 
@@ -29,7 +29,7 @@ Activer ce skill dans les situations suivantes :
 
 ### Principle 1 — Data-Informed, Not Data-Driven
 
-Ne pas confondre etre "data-driven" (suivre aveuglement les metriques) et etre "data-informed" (utiliser la donnee pour eclairer le jugement). Les metriques quantitatives revelent le "quoi" ; la recherche qualitative (interviews, tests utilisateurs) revele le "pourquoi". Combiner les deux systematiquement. Definir pour chaque initiative les KPIs primaires (North Star Metric), secondaires (guardrail metrics) et les indicateurs avances (leading indicators). Ne jamais lancer une campagne sans hypothese mesurable.
+Ne pas confondre etre "data-driven" (suivre aveuglement les metriques) et etre "data-informed" (utiliser la donnee pour eclairer le jugement). Les metriques quantitatives revelent le "quoi" ; la recherche qualitative (interviews, tests utilisateurs) revele le "pourquoi". Combiner les deux systematiquement. Definir pour chaque initiative les KPIs primaires (North Star Metric), secondaires (guardrail metrics) et les indicateurs avances (leading indicators). Ne jamais lancer une campagne sans hypothese mesurable formulee ainsi : "Si nous faisons X, alors Y augmentera de Z% en N semaines."
 
 ### Principle 2 — Full-Funnel Thinking
 
@@ -37,7 +37,7 @@ Refuser le cloisonnement entre acquisition, activation, retention et monetisatio
 
 ### Principle 3 — Experimentation as Operating System
 
-Faire de l'experimentation le mode operatoire par defaut. Structurer chaque initiative en hypothese (si nous faisons X, alors Y augmentera de Z%), test (duree, taille d'echantillon, metriques), analyse (significativite statistique, puissance) et decision (ship, iterate, kill). Maintenir un backlog d'experiences priorise par ICE (Impact x Confidence x Ease) ou RICE (Reach x Impact x Confidence x Effort). Viser un minimum de 2-3 experiences par semaine par equipe growth.
+Faire de l'experimentation le mode operatoire par defaut. Structurer chaque initiative en hypothese (si nous faisons X, alors Y augmentera de Z%), test (duree minimale 2 semaines, taille d'echantillon calculee pour puissance de 80%+), analyse (significativite statistique p < 0.05) et decision (ship, iterate, kill). Maintenir un backlog d'experiences priorise par ICE (Impact x Confidence x Ease) ou RICE (Reach x Impact x Confidence x Effort). Viser un minimum de 2-3 experiences par semaine par equipe growth.
 
 ### Principle 4 — Brand as Moat
 
@@ -45,7 +45,7 @@ La marque n'est pas un logo ou une charte graphique : c'est la somme des percept
 
 ### Principle 5 — Channel-Market Fit
 
-Chaque marche a des canaux de distribution naturels. Ne pas copier la strategie d'acquisition d'une autre entreprise sans valider l'adequation canal-marche. Tester methodiquement les canaux avec le framework Bullseye de Gabriel Weinberg : brainstorm (tous les canaux possibles), rank (top 3 a tester), test (validation rapide), scale (doubler sur ce qui fonctionne).
+Chaque marche a des canaux de distribution naturels. Ne pas copier la strategie d'acquisition d'une autre entreprise sans valider l'adequation canal-marche. Tester methodiquement les canaux avec le framework Bullseye de Gabriel Weinberg : brainstorm (lister les 19 canaux possibles), rank (selectionner les 3 a tester en premier), test (budget de 500-2000 EUR par canal pendant 2-4 semaines), scale (doubler sur ce qui genere un CAC < cible).
 
 ### Principle 6 — Revenue Alignment (Marketing + Sales + Product)
 
@@ -172,18 +172,18 @@ Le framework AARRR structure le funnel de croissance en 5 etapes :
 
 ### Anti-patterns critiques
 
-- **Vanity Metrics Obsession** : suivre le nombre de followers, impressions, pageviews sans les relier a des metriques business (pipeline, revenue, activation). Toujours remonter a l'impact sur le revenue ou la retention.
+- **Vanity Metrics Obsession** : suivre le nombre de followers, impressions, pageviews sans les relier a des metriques business (pipeline genere en EUR, revenue attribuable, taux d'activation). Toujours remonter a l'impact sur le revenue ou la retention.
 - **Channel Dependency** : concentrer > 60% de l'acquisition sur un seul canal. Un changement d'algorithme (Google, Meta) ou de politique peut effondrer le flux. Diversifier les canaux et investir dans les owned channels (email, communaute).
 - **Premature Scaling** : augmenter le budget paid avant d'avoir valide le product-market fit et optimise la conversion. Accelerer une machine cassee ne fait qu'accelerer les pertes.
 - **Feature-Led Positioning** : positionner le produit par ses features plutot que par la valeur delivree et la transformation promise. Les features sont copiables ; la promesse de transformation, non.
-- **Lead Quantity over Quality** : generer un volume massif de MQLs non qualifies qui engorgent les equipes commerciales et degradent la relation Marketing-Sales. Privilegier la qualite via un scoring rigoureux et des SLA clairs.
+- **Lead Quantity over Quality** : generer un volume massif de MQLs non qualifies qui engorgent les equipes commerciales et degradent la relation Marketing-Sales. Privilegier la qualite via un scoring base sur des signaux comportementaux (pages visitees, contenu telecharge, frequence) et des SLA clairs sur le taux de conversion MQL→SQL attendu.
 
 ## Implementation Workflow
 
 ### Phase 1 — Foundation & Strategy
 
-1. Auditer l'existant : metriques actuelles, stack technologique, assets de contenu, base clients, canaux actifs.
-2. Definir l'ICP (Ideal Customer Profile) et les buyer personas avec donnees reelles (interviews clients, donnees CRM, product analytics).
+1. Auditer l'existant : metriques actuelles (CAC, LTV, conversion par etape), stack technologique, assets de contenu, base clients, canaux actifs.
+2. Definir l'ICP (Ideal Customer Profile) et les buyer personas avec donnees reelles (interviews de 10-15 clients, donnees CRM, product analytics).
 3. Construire la plateforme de marque : purpose, vision, valeurs, positionnement, personality, promise.
 4. Formaliser la strategie GTM : motion (PLG/SLG/hybride), canaux prioritaires, pricing, sequencement.
 5. Definir les metriques North Star et les guardrail metrics pour chaque etape du funnel.
@@ -288,11 +288,26 @@ Le marketing connaît une transformation profonde portée par l'IA et l'évoluti
 ## Prompts types
 
 - "Construis un plan marketing digital pour le lancement de notre produit"
-- "Comment structurer un funnel d'acquisition B2B efficace ?"
+- "Comment structurer un funnel d'acquisition B2B avec un budget de 10K EUR/mois ?"
 - "Aide-moi à définir nos buyer personas et le parcours client"
 - "Quelle stratégie de pricing adopter pour un SaaS freemium ?"
-- "Propose un plan de content marketing pour générer des leads"
+- "Propose un plan de content marketing pour générer 200 leads/mois"
 - "Comment mesurer le ROI de nos campagnes marketing ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapte pour :
+- ❌ **Negociation et closing de deals commerciaux** (techniques de vente, MEDDIC, pipeline management) → Utiliser plutot : `entreprise:commercial`
+- ❌ **Implementation technique SEO/tracking** (code, balises, infrastructure) → Utiliser plutot : `code-development:product-analytics`
+- ❌ **Communication de crise et relations presse institutionnelles** → Utiliser plutot : `entreprise:communication`
+- ❌ **Modelisation financiere du business model** (P&L, unit economics detailles, fundraising) → Utiliser plutot : `entreprise:finance`
+- ❌ **Design UX/UI et implementation front-end** → Utiliser plutot : `code-development:ui-ux`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Le LTV:CAC ratio est inferieur a 1:1 et le budget paid augmente — la machine d'acquisition detruit de la valeur
+- ⚠️ Plus de 60% du trafic/leads provient d'un seul canal — risque de channel dependency critique
+- ⚠️ Les MQLs sont generes en volume mais le taux de conversion MQL→SQL est inferieur a 5% — probleme de qualite des leads
+- ⚠️ Aucune experimentation n'est en cours depuis plus d'un mois — stagnation de l'optimisation
 
 ## Skills connexes
 

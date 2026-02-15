@@ -56,13 +56,13 @@ L'IA transforme les metiers et les competences. Investir dans l'AI literacy a to
 
 ### AI Maturity Model (5 niveaux)
 
-| Niveau | Nom | Caracteristiques | Priorites |
-|---|---|---|---|
-| **1** | Exploring | Experimentation ad hoc, pas de strategie IA formalisee, competences dispersees | Sensibilisation, premiers PoC, identification des sponsors |
-| **2** | Experimenting | Quelques PoC reussis, debut de structuration, premiers data scientists | Premiers deploiements en production, quick wins, constitution du CoE |
-| **3** | Formalizing | Strategie IA formalisee, CoE operationnel, pipeline MLOps de base, quelques modeles en production | Scaling des cas d'usage, industrialisation MLOps, AI literacy |
-| **4** | Optimizing | Portefeuille IA gere, MLOps mature, gouvernance etablie, culture IA diffusee | Optimisation du ROI, automatisation avancee, GenAI strategy |
-| **5** | Transforming | IA comme avantage competitif structurel, innovation continue, agents autonomes | Innovation disruptive, AI-native products, responsible scaling |
+| Niveau | Nom | Caracteristiques | Priorites | Indicateurs cles |
+|---|---|---|---|---|
+| **1** | Exploring | Experimentation ad hoc, pas de strategie IA formalisee, competences dispersees, pas d'equipe dediee ni de budget formalise | Sensibilisation, premiers PoC, identification des sponsors | 0 use cases en production, AI literacy score < 10% |
+| **2** | Experimenting | Quelques PoC reussis, noyau d'equipe IA constitue (2-5 personnes), premiers budgets alloues, strategie IA embryonnaire | Premiers deploiements en production, quick wins, constitution du CoE | 1-3 use cases en production, ROI non mesure systematiquement |
+| **3** | Formalizing | Strategie IA formalisee avec roadmap pluriannuelle, CoE operationnel, pipeline MLOps de base, registre de modeles actif, programme AI literacy lance | Scaling des cas d'usage, industrialisation MLOps, AI literacy | 5-15 use cases en production, ROI moyen IA > 1.5x, maturite MLOps niveau 2 |
+| **4** | Optimizing | Portefeuille IA gere avec revue trimestrielle du ROI, MLOps mature avec CI/CD modeles et monitoring de drift, culture IA diffusee avec reseau d'AI Champions | Optimisation du ROI, automatisation avancee, GenAI strategy | 15-50 use cases en production, ROI moyen IA > 3x, AI literacy > 50% |
+| **5** | Transforming | IA comme avantage competitif structurel integre dans chaque processus metier critique, innovation continue, agents autonomes, responsible scaling | Innovation disruptive, AI-native products, responsible scaling | 50+ use cases en production, ROI moyen IA > 5x, AI literacy > 80% |
 
 ### Use Case Prioritization Matrix
 
@@ -182,7 +182,7 @@ Calculer le ROI IA en integrant :
 
 ### Phase 1 — Assessment & Vision (Semaines 1-4)
 
-1. Realiser une evaluation de maturite IA sur les 5 dimensions : strategie, donnees, technologie, organisation, gouvernance.
+1. Realiser une evaluation de maturite IA sur les 5 dimensions : strategie, donnees, technologie, organisation, gouvernance. Scorer chaque dimension de 1 a 5 et identifier les 2-3 gaps prioritaires.
 2. Cartographier les cas d'usage IA existants (y compris le Shadow AI) et leur etat (PoC, production, decommissionne).
 3. Identifier les assets strategiques : donnees proprietaires, expertise metier unique, infrastructure existante.
 4. Analyser le paysage concurrentiel IA dans le secteur.
@@ -193,7 +193,7 @@ Calculer le ROI IA en integrant :
 6. Prioriser les cas d'usage avec la matrice valeur/faisabilite (viser 3-5 quick wins et 2-3 projets strategiques).
 7. Definir le modele d'organisation cible (CoE, hub & spoke, federe) en fonction de la maturite et de la taille.
 8. Concevoir l'architecture de la plateforme IA cible (MLOps, data platform, model registry, LLM gateway).
-9. Construire le business case consolide avec le ROI projete sur 3 ans.
+9. Construire le business case consolide avec le ROI projete sur 3 ans, incluant les couts d'infrastructure, d'equipe, de licences et de gouvernance.
 10. Etablir la roadmap IA sequencee en vagues (Wave 1 : fondations + quick wins, Wave 2 : scaling, Wave 3 : transformation).
 
 ### Phase 3 — Foundations & Quick Wins (Mois 3-6)
@@ -215,42 +215,10 @@ Calculer le ROI IA en integrant :
 ### Phase 5 — Transform & Innovate (Mois 18+)
 
 21. Lancer les initiatives de transformation IA (AI-native products, processus autonomes).
-22. Deployer les agents IA autonomes avec les garde-fous et le monitoring appropries.
-23. Optimiser le portefeuille IA : decommissionner les modeles sans valeur, scaler les succes.
+22. Deployer les agents IA autonomes avec guardrails (scope d'action restreint, budget API plafonne, whitelist d'outils autorises), human-in-the-loop pour les actions a fort impact, et monitoring de chaque invocation d'outil avec alertes sur les anomalies.
+23. Optimiser le portefeuille IA : decommissionner les modeles dont le ROI est inferieur a 1x depuis plus de 6 mois, scaler les use cases dont le ROI depasse 3x.
 24. Evoluer vers un modele d'organisation federe mature.
 25. Etablir un programme d'innovation IA continue (veille, experimentation, partenariats).
-
-## Modèle de maturité
-
-### Niveau 1 — Exploration
-- Expérimentations IA isolées sans vision stratégique ni sponsorship exécutif
-- Compétences IA dispersées, pas d'équipe dédiée ni de budget formalisé
-- Aucun use case en production, uniquement des PoC sans suivi de valeur
-- **Indicateurs** : 0 use cases en production, AI literacy score < 10%
-
-### Niveau 2 — Expérimentation
-- Premiers PoC déployés en production avec mesure de valeur initiale
-- Noyau d'équipe IA constitué (2-5 personnes), premiers budgets alloués
-- Stratégie IA embryonnaire alignée sur quelques objectifs métier prioritaires
-- **Indicateurs** : 1-3 use cases en production, ROI moyen IA non encore mesuré systématiquement
-
-### Niveau 3 — Industrialisation
-- Stratégie IA formalisée avec roadmap pluriannuelle et portefeuille de use cases priorisé
-- AI CoE opérationnel, pipeline MLOps de base en place, registre de modèles actif
-- Programme d'AI literacy lancé couvrant dirigeants, managers et équipes métier
-- **Indicateurs** : 5-15 use cases en production, ROI moyen IA > 1.5x, maturité MLOps niveau 2
-
-### Niveau 4 — Optimisation
-- Portefeuille IA géré avec revue trimestrielle du ROI et réallocation des investissements
-- MLOps mature avec CI/CD modèles, monitoring de drift et re-entraînement automatisé
-- Culture IA diffusée avec réseau d'AI Champions et AI literacy > 50% des collaborateurs
-- **Indicateurs** : 15-50 use cases en production, ROI moyen IA > 3x, maturité MLOps niveau 3-4, AI literacy score > 50%
-
-### Niveau 5 — IA-native
-- L'IA est un avantage compétitif structurel intégré dans chaque processus métier critique
-- Innovation IA continue avec agents autonomes, GenAI strategy et produits AI-native
-- Organisation apprenante avec responsible scaling et gouvernance proportionnée à chaque palier
-- **Indicateurs** : 50+ use cases en production, ROI moyen IA > 5x, maturité MLOps niveau 5, AI literacy score > 80%
 
 ## Rythme opérationnel
 
@@ -295,6 +263,21 @@ La stratégie IA entre dans une phase de maturité opérationnelle :
 - "Propose un framework de priorisation de use cases IA"
 - "Comment créer un centre d'excellence IA ?"
 - "Aide-moi à construire un business case pour un projet IA"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Implémentation technique MLOps (pipelines, CI/CD, infrastructure) → Utiliser plutôt : `entreprise:it-systemes` ou `code-development:devops`
+- ❌ Conception et optimisation de prompts LLM ou architecture RAG → Utiliser plutôt : `ai-governance:prompt-engineering-llmops`
+- ❌ Audit de biais algorithmiques, métriques de fairness ou explicabilité des modèles → Utiliser plutôt : `ai-governance:ai-ethics`
+- ❌ Red teaming, défense contre le prompt injection ou réponse aux incidents IA → Utiliser plutôt : `ai-governance:ai-risk`
+- ❌ Stratégie d'entreprise générale sans composante IA significative → Utiliser plutôt : `entreprise:strategie`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ La discussion porte sur du code, des pipelines ou de la configuration technique sans dimension stratégique ou organisationnelle — rebasculer vers un skill technique
+- ⚠️ Le business case IA ne contient aucun KPI métier chiffré (uniquement des bénéfices qualitatifs comme "améliorer l'efficacité") — exiger des métriques mesurables avant de valider
+- ⚠️ La roadmap IA est définie sans évaluation préalable de la maturité — risque de sur-dimensionnement ou de sous-dimensionnement des ambitions
+- ⚠️ L'organisation lance plus de 5 PoC simultanément sans aucun modèle en production — symptôme du "PoC Graveyard", recentrer sur le déploiement
 
 ## Skills connexes
 

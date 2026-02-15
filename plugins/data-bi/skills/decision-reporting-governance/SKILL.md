@@ -9,9 +9,9 @@ last_updated: 2026-02
 
 ## Overview
 
-Ce skill couvre l'ensemble des disciplines liées au reporting decisionnel, a la gouvernance des donnees et a la modelisation. Il fournit un cadre structure pour concevoir des tableaux de bord performants, etablir une gouvernance des donnees robuste, garantir la qualite des donnees et modeliser des entrepots de donnees selon les methodologies de reference. Appliquer systematiquement les principes decrits ici pour guider chaque decision relative au BI, a la data governance et au data modeling, en privilegiant la rigueur methodologique, la lisibilite metier et la conformite reglementaire.
+Ce skill couvre le reporting decisionnel, la gouvernance des donnees et la modelisation d'entrepots. Il fournit un cadre structure pour concevoir des tableaux de bord, etablir une gouvernance des donnees, garantir leur qualite et modeliser des entrepots selon les methodologies de reference (DAMA-DMBOK, Kimball, Data Vault 2.0). Appliquer systematiquement les principes decrits ici pour guider chaque decision relative au BI, a la data governance et au data modeling — en validant chaque choix par la question "Quelle decision metier ce livrable permet-il de prendre ?"
 
-This skill covers the full spectrum of decision reporting, data governance, and data modeling disciplines. It provides a structured framework for designing performant dashboards, establishing robust data governance, ensuring data quality, and modeling data warehouses using industry-standard methodologies. Systematically apply the principles described here to guide every decision related to BI, data governance, and data modeling, prioritizing methodological rigor, business readability, and regulatory compliance.
+This skill covers decision reporting, data governance, and data warehouse modeling. It provides a structured framework for designing dashboards, establishing data governance, ensuring data quality, and modeling data warehouses using industry-standard methodologies (DAMA-DMBOK, Kimball, Data Vault 2.0). Systematically apply the principles described here to guide every decision related to BI, data governance, and data modeling — validating each choice by asking "What business decision does this deliverable enable?"
 
 ## When This Skill Applies
 
@@ -28,9 +28,9 @@ Activer ce skill dans les situations suivantes / Activate this skill in the foll
 
 ### Principle 1 — Business-First Design
 
-Concevoir chaque dashboard, modele de donnees et regle de qualite en partant du besoin metier, jamais de la donnee brute. Poser la question "Quelle decision ce livrable permet-il de prendre ?" avant tout travail technique. Aligner chaque KPI sur un objectif strategique mesurable.
+Concevoir chaque dashboard, modele de donnees et regle de qualite en partant du besoin metier, jamais de la donnee brute. Poser la question "Quelle decision ce livrable permet-il de prendre ?" avant tout travail technique. Aligner chaque KPI sur un objectif strategique mesurable avec une cible chiffree, un seuil d'alerte et un responsable identifie.
 
-Design every dashboard, data model, and quality rule starting from the business need, never from raw data. Ask "What decision does this deliverable enable?" before any technical work. Align every KPI to a measurable strategic objective.
+Design every dashboard, data model, and quality rule starting from the business need, never from raw data. Ask "What decision does this deliverable enable?" before any technical work. Align every KPI to a measurable strategic objective with a numeric target, an alert threshold, and an identified owner.
 
 ### Principle 2 — Single Source of Truth (SSOT)
 
@@ -40,27 +40,27 @@ Establish a single source of truth for every metric, dimension, and business ent
 
 ### Principle 3 — Data Quality as a First-Class Citizen
 
-Traiter la qualite des donnees comme une contrainte non negociable, pas comme un correctif post-hoc. Integrer les tests de qualite dans les pipelines de transformation (dbt tests, Great Expectations, Soda). Mesurer la qualite sur les 6 dimensions DAMA : completude, unicite, validite, coherence, exactitude, actualite.
+Traiter la qualite des donnees comme une contrainte non negociable, pas comme un correctif post-hoc. Integrer les tests de qualite dans les pipelines de transformation (dbt tests, Great Expectations, Soda). Mesurer la qualite sur les 6 dimensions DAMA (voir le tableau detaille dans Key Frameworks ci-dessous) : completude, unicite, validite, coherence, exactitude, actualite. Fixer un seuil minimum de qualite (ex: score global > 80%) avant de certifier un dataset pour le self-service.
 
-Treat data quality as a non-negotiable constraint, not as a post-hoc fix. Integrate quality tests into transformation pipelines (dbt tests, Great Expectations, Soda). Measure quality across the 6 DAMA dimensions: completeness, uniqueness, validity, consistency, accuracy, timeliness.
+Treat data quality as a non-negotiable constraint, not as a post-hoc fix. Integrate quality tests into transformation pipelines (dbt tests, Great Expectations, Soda). Measure quality across the 6 DAMA dimensions (see detailed table in Key Frameworks below): completeness, uniqueness, validity, consistency, accuracy, timeliness. Set a minimum quality threshold (e.g., overall score > 80%) before certifying a dataset for self-service.
 
 ### Principle 4 — Governed Self-Service
 
-Permettre l'autonomie des utilisateurs metier tout en maintenant la gouvernance. Fournir un cadre self-service BI avec des datasets certifies, des metriques standardisees et des garde-fous (row-level security, masking). L'objectif est de democratiser l'acces aux donnees sans sacrifier la fiabilite ni la conformite.
+Permettre l'autonomie des utilisateurs metier tout en maintenant la gouvernance. Fournir un cadre self-service BI avec des datasets certifies (marques comme "certified" dans l'outil BI), des metriques standardisees dans la semantic layer, et des garde-fous techniques (row-level security, column masking, query timeouts). L'objectif : chaque utilisateur metier peut repondre a ses propres questions en moins de 15 minutes sans solliciter l'equipe data.
 
-Enable business user autonomy while maintaining governance. Provide a self-service BI framework with certified datasets, standardized metrics, and guardrails (row-level security, masking). The goal is to democratize data access without sacrificing reliability or compliance.
+Enable business user autonomy while maintaining governance. Provide a self-service BI framework with certified datasets (marked as "certified" in the BI tool), standardized metrics in the semantic layer, and technical guardrails (row-level security, column masking, query timeouts). The goal: every business user can answer their own questions within 15 minutes without needing the data team.
 
 ### Principle 5 — Privacy by Design
 
-Integrer la protection des donnees personnelles des la conception (RGPD article 25). Classifier les donnees, appliquer les techniques d'anonymisation/pseudonymisation, definir des politiques de retention et documenter les traitements dans un registre. Ne jamais stocker de donnees personnelles sans finalite explicite et base legale.
+Integrer la protection des donnees personnelles des la conception (RGPD article 25). Classifier les donnees en 4 niveaux (Public, Interne, Confidentiel, Restreint), appliquer les techniques d'anonymisation/pseudonymisation selon le niveau, definir des politiques de retention avec des durees explicites par categorie, et documenter chaque traitement dans un registre RGPD. Ne jamais stocker de donnees personnelles sans finalite explicite et base legale.
 
-Integrate personal data protection from the design stage (GDPR article 25). Classify data, apply anonymization/pseudonymization techniques, define retention policies, and document processing in a register. Never store personal data without an explicit purpose and legal basis.
+Integrate personal data protection from the design stage (GDPR article 25). Classify data into 4 levels (Public, Internal, Confidential, Restricted), apply anonymization/pseudonymization techniques based on level, define retention policies with explicit durations per category, and document every processing in a GDPR register. Never store personal data without an explicit purpose and legal basis.
 
 ### Principle 6 — Iterative Modeling
 
-Privilegier une approche iterative de la modelisation : commencer par un modele conceptuel aligne sur le metier, raffiner en modele logique, puis implementer le modele physique. Ne jamais sauter directement au modele physique. Valider chaque couche avec les parties prenantes metier et techniques.
+Privilegier une approche iterative de la modelisation : commencer par un modele conceptuel aligne sur le metier (entites, relations, definitions validees par le metier), raffiner en modele logique (cles, cardinalites, types), puis implementer le modele physique (partitionnement, indexation, materialisation). Ne jamais sauter directement au modele physique. Valider chaque couche avec les parties prenantes metier et techniques avant de passer a la suivante.
 
-Favor an iterative modeling approach: start with a conceptual model aligned with the business, refine into a logical model, then implement the physical model. Never skip directly to the physical model. Validate each layer with business and technical stakeholders.
+Favor an iterative modeling approach: start with a conceptual model aligned with the business (entities, relationships, definitions validated by business), refine into a logical model (keys, cardinalities, types), then implement the physical model (partitioning, indexing, materialization). Never skip directly to the physical model. Validate each layer with business and technical stakeholders before moving to the next.
 
 ## Key Frameworks & Methods
 
@@ -189,19 +189,19 @@ Evaluer la maturite de la gouvernance sur les 11 domaines DAMA-DMBOK :
 
 ### Phase 1 — Discovery & Assessment
 
-1. Cartographier les sources de donnees existantes et evaluer leur qualite via un data profiling (row count, null %, distribution, outliers).
-2. Identifier les parties prenantes metier, leurs besoins decisionnels et les KPIs prioritaires.
-3. Evaluer la maturite de la gouvernance avec un assessment DAMA-DMBOK (11 domaines, niveaux 1-5).
-4. Inventorier les outils existants (BI, ETL, bases, catalogue) et identifier les gaps.
-5. Classifier les donnees sensibles (PII, PHI, financial) et cartographier les traitements RGPD.
+1. Cartographier les sources de donnees existantes et evaluer leur qualite via un data profiling systematique (row count, null %, distribution par colonne, outliers detectes, freshness par source).
+2. Identifier les parties prenantes metier, documenter pour chacune : les 3-5 decisions cles qu'elles prennent, les KPIs qu'elles suivent actuellement, et les gaps d'information identifies.
+3. Evaluer la maturite de la gouvernance avec un assessment DAMA-DMBOK (11 domaines, niveaux 1-5), en scorant chaque domaine et en identifiant les 3 domaines prioritaires.
+4. Inventorier les outils existants (BI, ETL, bases, catalogue) et identifier les gaps fonctionnels par rapport aux besoins documentes.
+5. Classifier les donnees sensibles (PII, PHI, financial) selon les 4 niveaux (Public, Interne, Confidentiel, Restreint) et cartographier les traitements RGPD.
 
 ### Phase 2 — Foundation & Governance Setup
 
-6. Deployer un data catalog (DataHub, Atlan, OpenMetadata) et initialiser le business glossary avec les definitions metier validees.
-7. Definir les roles : Data Owner (decideur metier), Data Steward (gardien qualite), Data Engineer (implementation), Analytics Engineer (modelisation).
-8. Formaliser les data contracts entre producteurs et consommateurs (schema, freshness SLA, quality SLA).
-9. Implementer les regles de qualite fondamentales dans les pipelines (dbt tests, Great Expectations, Soda checks).
-10. Definir les politiques de classification, retention et anonymisation conformes au RGPD.
+6. Deployer un data catalog (DataHub, Atlan, OpenMetadata) et initialiser le business glossary avec les 20-30 definitions metier prioritaires validees par les data owners.
+7. Definir les roles avec des responsabilites explicites : Data Owner (valide les definitions, arbitre les priorites de qualite), Data Steward (implemente et surveille les regles de qualite au quotidien), Data Engineer (construit les pipelines), Analytics Engineer (modelise les donnees pour la consommation).
+8. Formaliser les data contracts entre producteurs et consommateurs : schema attendu, SLA de fraicheur (ex: T+1 avant 08h00 UTC), SLA de qualite (ex: nulls < 2% sur les champs critiques), ownership et canal d'escalade.
+9. Implementer les regles de qualite fondamentales dans les pipelines (dbt tests, Great Expectations, Soda checks) couvrant au minimum les dimensions completude et unicite sur tous les datasets critiques.
+10. Definir les politiques de classification, retention et anonymisation conformes au RGPD avec des durees explicites (ex: logs 90 jours, donnees clients 3 ans apres derniere interaction).
 
 ### Phase 3 — Modeling & BI Development
 
@@ -209,15 +209,15 @@ Evaluer la maturite de la gouvernance sur les 11 domaines DAMA-DMBOK :
 12. Traduire en modele logique : star schema / snowflake (Kimball) ou Data Vault 2.0 selon le contexte.
 13. Implementer le modele physique avec dbt (staging, intermediate, mart layers) et appliquer les conventions de nommage.
 14. Construire la semantic layer (dbt metrics, LookML, DAX measures) pour garantir la coherence des calculs.
-15. Concevoir les dashboards selon les principes de data visualization : hierarchie visuelle, 5-7 KPIs max par vue, storytelling oriente decision.
+15. Concevoir les dashboards selon les principes de data visualization : hierarchie visuelle claire (titre > KPI > graphique > detail), 5-7 KPIs max par vue, chaque graphique annote avec le "so what" et l'action attendue.
 
 ### Phase 4 — Operationalization & Continuous Improvement
 
-16. Deployer les dashboards avec row-level security, refresh schedules et alerting.
-17. Mettre en place le data quality monitoring continu (Soda, Elementary, Monte Carlo) avec alertes automatiques.
-18. Former les utilisateurs metier au self-service BI avec les datasets certifies.
-19. Planifier les revues trimestrielles : audit des dashboards (usage analytics), revue des data contracts, mise a jour du catalogue et du glossary.
-20. Mesurer et rapporter les KPIs de la gouvernance elle-meme : data quality score, catalogue coverage, SLA compliance, time-to-insight.
+16. Deployer les dashboards avec row-level security, refresh schedules documentes et alerting sur seuils metier (ex: alerte si CA journalier < 80% de la moyenne mobile 7 jours).
+17. Mettre en place le data quality monitoring continu (Soda, Elementary, Monte Carlo) avec alertes automatiques envoyees au Data Steward concerne dans les 15 minutes suivant la detection.
+18. Former les utilisateurs metier au self-service BI avec les datasets certifies : session de 2h par profil utilisateur, documentation des parcours types, canal Slack de support.
+19. Planifier les revues trimestrielles : audit des dashboards (retirer ceux avec < 5 vues/mois), revue des data contracts (SLAs respectes ?), mise a jour du catalogue et du glossary.
+20. Mesurer et rapporter les KPIs de la gouvernance elle-meme : data quality score global, catalogue coverage (% de tables documentees), SLA compliance (% de data contracts respectes), time-to-insight (temps moyen entre une question metier et sa reponse data).
 
 
 ## Modèle de maturité
@@ -297,6 +297,21 @@ La BI et la gouvernance des données se transforment :
 - "Comment choisir entre Power BI, Tableau et Looker ?"
 - "Aide-moi à créer un data catalog pour notre entreprise"
 - "Comment définir des data contracts entre équipes ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Construire les pipelines d'ingestion et de transformation de données (ETL/ELT, dbt, orchestration) → Utiliser plutôt : `data-bi:data-engineering`
+- ❌ Concevoir des visualisations narratives complexes ou former les équipes au data storytelling → Utiliser plutôt : `data-bi:data-literacy`
+- ❌ Implémenter des modèles de machine learning ou de l'analytics prédictive avancée (régression, classification, clustering) → Utiliser plutôt : un data scientist ou un skill dédié ML
+- ❌ Gérer la sécurité applicative, le chiffrement réseau ou les audits de sécurité IT → Utiliser plutôt : `code-development:auth-security`
+- ❌ Définir la stratégie business globale ou les objectifs stratégiques de l'entreprise → Utiliser plutôt : `entreprise:strategie` (ce skill aide à mesurer les objectifs, pas à les définir)
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ Un dashboard contient plus de 15 KPIs ou plus de 10 graphiques sur une seule vue — signe de surcharge qui dilue le message décisionnel
+- ⚠️ Aucun data owner ou data steward n'est identifié pour un domaine de données — la gouvernance restera théorique sans responsabilité claire
+- ⚠️ Le business glossary contient des définitions que personne en dehors de l'équipe data ne comprend — signe d'un glossaire technique déguisé, pas d'un outil métier
+- ⚠️ Les data contracts existent sur papier mais aucune alerte ne se déclenche quand un SLA est violé — la gouvernance est déclarative, pas opérationnelle
 
 ## Skills connexes
 

@@ -11,7 +11,6 @@ last_updated: 2026-02
 
 **FR** — Cette skill couvre l'ingenierie des processus de developpement logiciel dans sa globalite : conception de workflows agiles, experience developpeur (DX), documentation technique, metriques d'ingenierie et gouvernance technologique. Un processus de developpement mature ne se limite pas a choisir un framework agile — il s'agit de concevoir un systeme sociotechnique ou chaque developpeur peut produire son meilleur travail avec un minimum de friction. L'objectif est de fournir des recommandations actionnables et alignees avec les meilleures pratiques 2024-2026, incluant le platform engineering, le developpement augmente par l'IA, la mesure de la productivite developpeur et les plateformes d'intelligence ingenierie.
 
-**EN** — This skill covers the full scope of software development process engineering: agile workflow design, developer experience (DX), technical documentation, engineering metrics, and technology governance. A mature development process goes far beyond picking an agile framework — it is about designing a sociotechnical system where every developer can produce their best work with minimal friction. The goal is to provide actionable recommendations aligned with 2024-2026 best practices, including platform engineering, AI-augmented development, developer productivity measurement, and engineering intelligence platforms.
 
 ---
 
@@ -236,6 +235,21 @@ Les processus d'ingénierie s'adaptent à l'ère de l'IA :
 - "Comment estimer les story points de manière fiable ?"
 - "Aide-moi à rédiger un RFC/design doc pour une nouvelle feature"
 - "Quels standards de code adopter pour notre équipe TypeScript ?"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Choix d'architecture logicielle (microservices, DDD, event-driven) → Utiliser plutôt : `code-development:architecture`
+- ❌ Écriture de code, refactoring ou revue de code technique → Utiliser plutôt : `code-development:code-excellence`
+- ❌ Configuration de pipelines CI/CD ou infrastructure as code → Utiliser plutôt : `code-development:devops`
+- ❌ Gestion de projet au niveau portfolio, PMO ou budgétisation → Utiliser plutôt : `entreprise:gestion-de-projets`
+- ❌ Recrutement, évaluation de performance ou gestion RH des développeurs → Utiliser plutôt : `entreprise:rh`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ La vélocité est utilisée pour comparer les équipes entre elles ou évaluer la performance individuelle → la vélocité est un outil de planification interne, jamais une métrique de productivité
+- ⚠️ Les story points sont débattus plus de 2 minutes par story → time-boxer l'estimation ; si le débat persiste, découper la story ou utiliser l'estimation haute
+- ⚠️ La documentation existe mais n'a pas été mise à jour depuis > 3 mois → traiter la documentation obsolète comme un bug et intégrer un check de fraîcheur automatisé
+- ⚠️ Un nouvel outil est adopté sans critères de succès mesurables ni période d'essai → définir des métriques d'adoption et un trial de 30 jours avant toute adoption définitive
 
 ## Skills connexes
 

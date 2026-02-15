@@ -11,7 +11,6 @@ last_updated: 2026-02
 
 **FR** — Cette skill couvre les pratiques modernes de qualite logicielle et de fiabilite des systemes : automatisation des tests, strategie risk-based, regression visuelle, tests de performance, principes SRE (Google SRE Book), chaos engineering et processus qualite. L'objectif est de construire un systeme ou la confiance dans chaque release repose sur des preuves automatisees, ou la resilience est validee par des experiences controlees, et ou la fiabilite est pilotee par des metriques centrees sur l'utilisateur. Recommandations alignees avec les pratiques 2024-2026 : Playwright comme standard e2e, shift-left testing, AI-powered testing, platform reliability engineering, chaos engineering comme pratique standard.
 
-**EN** — This skill covers modern software quality and system reliability: test automation, risk-based test strategy, visual regression, performance testing, SRE principles (Google SRE Book), chaos engineering, and quality processes. The goal is to build a system where release confidence is based on automated evidence, resilience is validated through controlled experiments, and reliability is driven by user-centric metrics. Aligned with 2024-2026 best practices: Playwright as e2e standard, shift-left testing, AI-powered testing, platform reliability engineering, chaos engineering as standard practice.
 
 ---
 
@@ -265,6 +264,21 @@ La qualité et la fiabilité intègrent l'IA et l'automatisation avancée :
 - "Propose des quality gates pour notre pipeline CI/CD"
 - "Comment faire du load testing avec k6 pour notre API ?"
 - "Aide-moi à définir un error budget et des SLOs réalistes"
+
+## Limites et Red Flags
+
+Ce skill n'est PAS adapté pour :
+- ❌ Écriture de code applicatif, design patterns ou refactoring → Utiliser plutôt : `code-development:code-excellence`
+- ❌ Configuration de monitoring, alerting, SLOs ou dashboards d'observabilité → Utiliser plutôt : `code-development:monitoring`
+- ❌ Mise en place de pipelines CI/CD ou infrastructure as code → Utiliser plutôt : `code-development:devops`
+- ❌ Tests d'utilisabilité, recherche UX ou accessibilité WCAG → Utiliser plutôt : `code-development:ui-ux`
+- ❌ Tests A/B produit, analytics de conversion ou expérimentation statistique → Utiliser plutôt : `code-development:product-analytics`
+
+Signaux d'alerte en cours d'utilisation :
+- ⚠️ La majorité des tests sont des e2e avec peu d'unitaires (ice cream cone) → rééquilibrer vers 70% unitaires, 20% intégration, 10% e2e
+- ⚠️ Le taux de tests flaky dépasse 1% → mettre en quarantaine immédiatement et corriger sous 1 sprint ; les flaky tests érodent la confiance dans toute la suite
+- ⚠️ Le chaos engineering est pratiqué sans hypothèse de steady-state ni critère d'arrêt → injecter des pannes sans plan, c'est du sabotage, pas du chaos engineering
+- ⚠️ Les tests de performance ne sont lancés qu'avant les releases majeures → intégrer les benchmarks k6/Lighthouse dans le CI quotidien pour détecter les régressions tôt
 
 ## Skills connexes
 
