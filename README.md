@@ -1,6 +1,6 @@
 # AI Skills Library
 
-Marketplace Claude Code contenant **36 skills experts** organisés en **5 domaines**, couvrant l'ensemble des disciplines business, techniques et analytiques.
+Marketplace Claude Code contenant **45 skills experts** organisés en **6 domaines**, couvrant l'ensemble des disciplines business, techniques, analytiques et productivité.
 
 Chaque skill intègre les **meilleures pratiques actuelles (2024-2026)**, recherchées et validées pour fournir un contenu state-of-the-art, actionnable et bilingue FR/EN.
 
@@ -13,6 +13,7 @@ Chaque skill intègre les **meilleures pratiques actuelles (2024-2026)**, recher
 | `ai-governance` | AI Governance | 4 | AI Strategy, AI Ethics, Prompt Engineering & LLMOps, AI Risk |
 | `data-bi` | Data & BI | 3 | Decision/Reporting/Governance, Data Engineering, Data Literacy |
 | `finance-de-marche` | Market Finance | 4 | Options & Risk, Portfolio, Behavioral Finance, Regulatory |
+| `productivite` | Productivity & Automation | 9 | Excel/Spreadsheets, Presentations/Storytelling, Documents, Workflow Automation (N8N/Zapier/Make), No-Code Apps, Knowledge Management (Notion/Obsidian), Digital Collaboration, Email & Time Management, AI Copilots |
 
 ## Installation
 
@@ -45,6 +46,7 @@ Add to `~/.claude/plugins/known_marketplaces.json`:
 ```
 /plugin install code-development@ai-skills-library
 /plugin install entreprise@ai-skills-library
+/plugin install productivite@ai-skills-library
 ```
 
 ### Quick test (local development)
