@@ -1,6 +1,6 @@
 # AI Skills Library
 
-Marketplace Claude Code contenant **45 skills experts** organisés en **6 domaines**, couvrant l'ensemble des disciplines business, techniques, analytiques et productivité.
+Marketplace Claude Code contenant **47 skills experts** organisés en **6 domaines**, couvrant l'ensemble des disciplines business, techniques, analytiques et productivité.
 
 Chaque skill intègre les **meilleures pratiques actuelles (2024-2026)**, recherchées et validées pour fournir un contenu state-of-the-art, actionnable et bilingue FR/EN.
 
@@ -8,7 +8,7 @@ Chaque skill intègre les **meilleures pratiques actuelles (2024-2026)**, recher
 
 | Plugin | Domain | Skills | Description |
 |--------|--------|--------|-------------|
-| `entreprise` | Enterprise | 14 | Strategy, Marketing, Sales, Finance, PM, HR, Ops, IT, Procurement, Support, Risk, Legal, Communication, CSR/ESG |
+| `entreprise` | Enterprise | 16 | Strategy, Marketing, Sales, Finance, PM, HR, Ops, IT, Procurement, Support, Risk, Legal, Communication, CSR/ESG, Product Strategy, User Research |
 | `code-development` | Code Development | 11 | Architecture, Code Excellence, UI/UX, Process Engineering, Auth & Security, Backend & DB, Payment/Stripe, Monitoring, DevOps, Product Analytics, Quality & Reliability |
 | `ai-governance` | AI Governance | 4 | AI Strategy, AI Ethics, Prompt Engineering & LLMOps, AI Risk |
 | `data-bi` | Data & BI | 3 | Decision/Reporting/Governance, Data Engineering, Data Literacy |
