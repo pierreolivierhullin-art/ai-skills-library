@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "ai-skills-library",
-  "description": "Comprehensive AI Skills Library — 59 expert skills across 6 domains: Enterprise, Code Development, AI Governance, Data & BI, Market Finance, Productivité. State-of-the-art best practices, bilingual FR/EN.",
+  "description": "Comprehensive AI Skills Library — 67 expert skills across 6 domains: Enterprise, Code Development, AI Governance, Data & BI, Market Finance, Productivité. State-of-the-art best practices, bilingual FR/EN.",
   "owner": {
     "name": "hullin",
     "email": ""
@@ -9,28 +9,28 @@
   "plugins": [
     {
       "name": "entreprise",
-      "description": "19 expert skills for enterprise operations: strategy, marketing, sales, finance, project management, HR, operations, IT/systems, procurement, client support, risk management, legal, communication, CSR/ESG, product strategy, user research, change management, innovation management, and data privacy & compliance.",
+      "description": "23 expert skills for enterprise operations: strategy, marketing, sales, finance, project management, HR, operations, IT/systems, procurement, client support, risk management, legal, communication, CSR/ESG, product strategy, user research, change management, innovation management, data privacy & compliance, leadership & management, fundraising & VC, pricing strategy, and entrepreneurship.",
       "version": "1.0.0",
       "source": "./plugins/entreprise",
       "category": "productivity"
     },
     {
       "name": "code-development",
-      "description": "14 expert skills for software development: architecture, code excellence, UI/UX, process engineering, auth & security, backend & databases, payment/Stripe, monitoring & observability, DevOps & CI/CD, product analytics, quality & reliability, AI engineering, API design, and cloud infrastructure.",
+      "description": "15 expert skills for software development: architecture, code excellence, UI/UX, process engineering, auth & security, backend & databases, payment/Stripe, monitoring & observability, DevOps & CI/CD, product analytics, quality & reliability, AI engineering, API design, cloud infrastructure, and mobile development (React Native/Flutter).",
       "version": "1.0.0",
       "source": "./plugins/code-development",
       "category": "development"
     },
     {
       "name": "ai-governance",
-      "description": "6 expert skills for AI maturity & governance: AI strategy, AI ethics & responsible AI, prompt engineering & LLMOps, AI risk assessment, AI implementation & MLOps, and AI data privacy & EU AI Act compliance.",
+      "description": "7 expert skills for AI maturity & governance: AI strategy, AI ethics & responsible AI, prompt engineering & LLMOps, AI risk assessment, AI implementation & MLOps, AI data privacy & EU AI Act compliance, and agentic AI systems.",
       "version": "1.0.0",
       "source": "./plugins/ai-governance",
       "category": "productivity"
     },
     {
       "name": "data-bi",
-      "description": "5 expert skills for data & business intelligence: decision/reporting/governance, data engineering & pipelines, data literacy & storytelling, advanced analytics & machine learning, and data quality & observability.",
+      "description": "7 expert skills for data & business intelligence: decision/reporting/governance, data engineering & pipelines, data literacy & storytelling, advanced analytics & machine learning, data quality & observability, streaming & real-time analytics, and customer analytics.",
       "version": "1.0.0",
       "source": "./plugins/data-bi",
       "category": "productivity"
