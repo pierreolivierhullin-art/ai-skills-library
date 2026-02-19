@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "ai-skills-library",
-  "description": "Comprehensive AI Skills Library — 41 expert skills across 5 domains: Enterprise, Code Development, AI Governance, Data & BI, Market Finance. State-of-the-art best practices, bilingual FR/EN.",
+  "description": "Comprehensive AI Skills Library — 59 expert skills across 6 domains: Enterprise, Code Development, AI Governance, Data & BI, Market Finance, Productivité. State-of-the-art best practices, bilingual FR/EN.",
   "owner": {
     "name": "hullin",
     "email": ""
@@ -9,37 +9,44 @@
   "plugins": [
     {
       "name": "entreprise",
-      "description": "17 expert skills for enterprise operations: strategy, marketing, sales, finance, project management, HR, operations, IT/systems, procurement, client support, risk management, legal, communication, CSR/ESG, product strategy, user research, and change management.",
+      "description": "19 expert skills for enterprise operations: strategy, marketing, sales, finance, project management, HR, operations, IT/systems, procurement, client support, risk management, legal, communication, CSR/ESG, product strategy, user research, change management, innovation management, and data privacy & compliance.",
       "version": "1.0.0",
       "source": "./plugins/entreprise",
       "category": "productivity"
     },
     {
       "name": "code-development",
-      "description": "13 expert skills for software development: architecture, code excellence, UI/UX, process engineering, auth & security, backend & databases, payment/Stripe, monitoring & observability, DevOps & CI/CD, product analytics, quality & reliability, AI engineering, and API design.",
+      "description": "14 expert skills for software development: architecture, code excellence, UI/UX, process engineering, auth & security, backend & databases, payment/Stripe, monitoring & observability, DevOps & CI/CD, product analytics, quality & reliability, AI engineering, API design, and cloud infrastructure.",
       "version": "1.0.0",
       "source": "./plugins/code-development",
       "category": "development"
     },
     {
       "name": "ai-governance",
-      "description": "4 expert skills for AI maturity & governance: AI strategy, AI ethics & responsible AI, prompt engineering & LLMOps, AI risk assessment.",
+      "description": "6 expert skills for AI maturity & governance: AI strategy, AI ethics & responsible AI, prompt engineering & LLMOps, AI risk assessment, AI implementation & MLOps, and AI data privacy & EU AI Act compliance.",
       "version": "1.0.0",
       "source": "./plugins/ai-governance",
       "category": "productivity"
     },
     {
       "name": "data-bi",
-      "description": "3 expert skills for data & business intelligence: decision/reporting/governance, data engineering & pipelines, data literacy & storytelling.",
+      "description": "5 expert skills for data & business intelligence: decision/reporting/governance, data engineering & pipelines, data literacy & storytelling, advanced analytics & machine learning, and data quality & observability.",
       "version": "1.0.0",
       "source": "./plugins/data-bi",
       "category": "productivity"
     },
     {
       "name": "finance-de-marche",
-      "description": "4 expert skills for market finance & investment: options & risk management, portfolio construction, behavioral finance, regulatory & compliance.",
+      "description": "5 expert skills for market finance & investment: options & risk management, portfolio construction, behavioral finance, regulatory & compliance, and quantitative finance & algorithmic trading.",
       "version": "1.0.0",
       "source": "./plugins/finance-de-marche",
+      "category": "productivity"
+    },
+    {
+      "name": "productivite",
+      "description": "10 expert skills for productivity and automation: spreadsheets (Excel/Sheets), presentations & storytelling, professional documents, workflow automation (N8N/Zapier/Make/Power Automate), no-code apps, knowledge management (Notion/Obsidian), digital collaboration, email & time management, AI copilots, and visual design tools (Figma/Canva).",
+      "version": "1.0.0",
+      "source": "./plugins/productivite",
       "category": "productivity"
     }
   ]

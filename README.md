@@ -1,6 +1,6 @@
 # AI Skills Library
 
-Marketplace Claude Code contenant **50 skills experts** organisés en **6 domaines**, couvrant l'ensemble des disciplines business, techniques, analytiques et productivité.
+Marketplace Claude Code contenant **59 skills experts** organisés en **6 domaines**, couvrant l'ensemble des disciplines business, techniques, analytiques et productivité.
 
 Chaque skill intègre les **meilleures pratiques actuelles (2024-2026)**, recherchées et validées pour fournir un contenu state-of-the-art, actionnable et bilingue FR/EN.
 
@@ -8,12 +8,12 @@ Chaque skill intègre les **meilleures pratiques actuelles (2024-2026)**, recher
 
 | Plugin | Domain | Skills | Description |
 |--------|--------|--------|-------------|
-| `entreprise` | Enterprise | 17 | Strategy, Marketing, Sales, Finance, PM, HR, Ops, IT, Procurement, Support, Risk, Legal, Communication, CSR/ESG, Product Strategy, User Research, Change Management |
-| `code-development` | Code Development | 13 | Architecture, Code Excellence, UI/UX, Process Engineering, Auth & Security, Backend & DB, Payment/Stripe, Monitoring, DevOps, Product Analytics, Quality & Reliability, AI Engineering, API Design |
-| `ai-governance` | AI Governance | 4 | AI Strategy, AI Ethics, Prompt Engineering & LLMOps, AI Risk |
-| `data-bi` | Data & BI | 3 | Decision/Reporting/Governance, Data Engineering, Data Literacy |
-| `finance-de-marche` | Market Finance | 4 | Options & Risk, Portfolio, Behavioral Finance, Regulatory |
-| `productivite` | Productivity & Automation | 9 | Excel/Spreadsheets, Presentations/Storytelling, Documents, Workflow Automation (N8N/Zapier/Make), No-Code Apps, Knowledge Management (Notion/Obsidian), Digital Collaboration, Email & Time Management, AI Copilots |
+| `entreprise` | Enterprise | 19 | Strategy, Marketing, Sales, Finance, PM, HR, Ops, IT, Procurement, Support, Risk, Legal, Communication, CSR/ESG, Product Strategy, User Research, Change Management, Innovation Management, Data Privacy & Compliance |
+| `code-development` | Code Development | 14 | Architecture, Code Excellence, UI/UX, Process Engineering, Auth & Security, Backend & DB, Payment/Stripe, Monitoring, DevOps, Product Analytics, Quality & Reliability, AI Engineering, API Design, Cloud Infrastructure |
+| `ai-governance` | AI Governance | 6 | AI Strategy, AI Ethics, Prompt Engineering & LLMOps, AI Risk, AI Implementation & MLOps, AI Data Privacy & EU AI Act |
+| `data-bi` | Data & BI | 5 | Decision/Reporting/Governance, Data Engineering, Data Literacy, Advanced Analytics & ML, Data Quality & Observability |
+| `finance-de-marche` | Market Finance | 5 | Options & Risk, Portfolio, Behavioral Finance, Regulatory, Quantitative Finance & Algo Trading |
+| `productivite` | Productivity & Automation | 10 | Excel/Spreadsheets, Presentations/Storytelling, Documents, Workflow Automation (N8N/Zapier/Make), No-Code Apps, Knowledge Management (Notion/Obsidian), Digital Collaboration, Email & Time Management, AI Copilots, Design Tools (Figma/Canva) |
 
 ## Installation
 
