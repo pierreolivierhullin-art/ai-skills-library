@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "ai-skills-library",
-  "description": "Comprehensive AI Skills Library — 75 expert skills across 6 domains: Enterprise, Code Development, AI Governance, Data & BI, Market Finance, Productivité. State-of-the-art best practices, bilingual FR/EN.",
+  "description": "Comprehensive AI Skills Library — 83 expert skills across 6 domains: Enterprise, Code Development, AI Governance, Data & BI, Market Finance, Productivité. State-of-the-art best practices, bilingual FR/EN.",
   "owner": {
     "name": "hullin",
     "email": ""
@@ -16,7 +16,7 @@
     },
     {
       "name": "code-development",
-      "description": "19 expert skills for software development: architecture, code excellence, UI/UX, process engineering, auth & security, backend & databases, payment/Stripe, monitoring & observability, DevOps & CI/CD, product analytics, quality & reliability, AI engineering, API design, cloud infrastructure, mobile development, web performance, frontend frameworks (React/Next.js), security testing (OWASP/SAST/DAST), and web accessibility (WCAG/A11y).",
+      "description": "27 expert skills for software development: architecture, code excellence, UI/UX, auth & security, backend & databases, DevOps, monitoring, payment/Stripe, product analytics, quality & reliability, AI engineering, API design, cloud infrastructure, mobile, web performance, frontend frameworks, security testing, accessibility, TypeScript advanced, testing strategies, real-time systems, GraphQL, distributed systems, caching strategies, developer tooling, and database advanced.",
       "version": "1.0.0",
       "source": "./plugins/code-development",
       "category": "development"

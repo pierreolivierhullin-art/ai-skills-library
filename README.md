@@ -1,6 +1,6 @@
 # AI Skills Library
 
-Marketplace Claude Code contenant **75 skills experts** organisés en **6 domaines**, couvrant l'ensemble des disciplines business, techniques, analytiques et productivité.
+Marketplace Claude Code contenant **83 skills experts** organisés en **6 domaines**, couvrant l'ensemble des disciplines business, techniques, analytiques et productivité.
 
 Chaque skill intègre les **meilleures pratiques actuelles (2024-2026)**, recherchées et validées pour fournir un contenu state-of-the-art, actionnable et bilingue FR/EN.
 
@@ -9,7 +9,7 @@ Chaque skill intègre les **meilleures pratiques actuelles (2024-2026)**, recher
 | Plugin | Domain | Skills | Description |
 |--------|--------|--------|-------------|
 | `entreprise` | Enterprise | 23 | Strategy, Marketing, Sales, Finance, PM, HR, Ops, IT, Procurement, Support, Risk, Legal, Communication, CSR/ESG, Product Strategy, User Research, Change Management, Innovation Management, Data Privacy & Compliance, Leadership & Management, Fundraising & VC, Pricing Strategy, Entrepreneurship |
-| `code-development` | Code Development | 19 | Architecture, Code Excellence, UI/UX, Process Engineering, Auth & Security, Backend & DB, Payment/Stripe, Monitoring, DevOps, Product Analytics, Quality & Reliability, AI Engineering, API Design, Cloud Infrastructure, Mobile Development, Web Performance, Frontend Frameworks (React/Next.js), Security Testing (OWASP/SAST/DAST), Web Accessibility (WCAG/A11y) |
+| `code-development` | Code Development | 27 | Architecture, Code Excellence, UI/UX, Process Engineering, Auth & Security, Backend & DB, Payment/Stripe, Monitoring, DevOps, Product Analytics, Quality & Reliability, AI Engineering, API Design, Cloud Infrastructure, Mobile Development, Web Performance, Frontend Frameworks (React/Next.js), Security Testing, Web Accessibility, TypeScript Advanced, Testing Strategies (Vitest/RTL/Pact), Real-Time Systems (WebSockets/CRDT), GraphQL (Federation/DataLoader), Distributed Systems (Event Sourcing/CQRS/Saga), Caching Strategies (Redis/CDN), Developer Tooling (Turborepo/Nx), Database Advanced (Migrations/TimescaleDB) |
 | `ai-governance` | AI Governance | 7 | AI Strategy, AI Ethics, Prompt Engineering & LLMOps, AI Risk, AI Implementation & MLOps, AI Data Privacy & EU AI Act, Agentic AI Systems |
 | `data-bi` | Data & BI | 11 | Decision/Reporting/Governance, Data Engineering, Data Literacy, Advanced Analytics & ML, Data Quality & Observability, Streaming & Real-Time Analytics, Customer Analytics, A/B Testing & Experimentation, Time Series Forecasting, Data Viz Tools (Power BI/Tableau/Looker), Geospatial Analytics |
 | `finance-de-marche` | Market Finance | 5 | Options & Risk, Portfolio, Behavioral Finance, Regulatory, Quantitative Finance & Algo Trading |
