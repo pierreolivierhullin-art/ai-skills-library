@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "ai-skills-library",
-  "description": "Comprehensive AI Skills Library — 38 expert skills across 5 domains: Enterprise, Code Development, AI Governance, Data & BI, Market Finance. State-of-the-art best practices, bilingual FR/EN.",
+  "description": "Comprehensive AI Skills Library — 41 expert skills across 5 domains: Enterprise, Code Development, AI Governance, Data & BI, Market Finance. State-of-the-art best practices, bilingual FR/EN.",
   "owner": {
     "name": "hullin",
     "email": ""
@@ -9,14 +9,14 @@
   "plugins": [
     {
       "name": "entreprise",
-      "description": "16 expert skills for enterprise operations: strategy, marketing, sales, finance, project management, HR, operations, IT/systems, procurement, client support, risk management, legal, communication, CSR/ESG, product strategy, and user research.",
+      "description": "17 expert skills for enterprise operations: strategy, marketing, sales, finance, project management, HR, operations, IT/systems, procurement, client support, risk management, legal, communication, CSR/ESG, product strategy, user research, and change management.",
       "version": "1.0.0",
       "source": "./plugins/entreprise",
       "category": "productivity"
     },
     {
       "name": "code-development",
-      "description": "11 expert skills for software development: architecture, code excellence, UI/UX, process engineering, auth & security, backend & databases, payment/Stripe, monitoring & observability, DevOps & CI/CD, product analytics, quality & reliability.",
+      "description": "13 expert skills for software development: architecture, code excellence, UI/UX, process engineering, auth & security, backend & databases, payment/Stripe, monitoring & observability, DevOps & CI/CD, product analytics, quality & reliability, AI engineering, and API design.",
       "version": "1.0.0",
       "source": "./plugins/code-development",
       "category": "development"
