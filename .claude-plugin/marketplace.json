@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "ai-skills-library",
-  "description": "Comprehensive AI Skills Library — 67 expert skills across 6 domains: Enterprise, Code Development, AI Governance, Data & BI, Market Finance, Productivité. State-of-the-art best practices, bilingual FR/EN.",
+  "description": "Comprehensive AI Skills Library — 75 expert skills across 6 domains: Enterprise, Code Development, AI Governance, Data & BI, Market Finance, Productivité. State-of-the-art best practices, bilingual FR/EN.",
   "owner": {
     "name": "hullin",
     "email": ""
@@ -16,7 +16,7 @@
     },
     {
       "name": "code-development",
-      "description": "15 expert skills for software development: architecture, code excellence, UI/UX, process engineering, auth & security, backend & databases, payment/Stripe, monitoring & observability, DevOps & CI/CD, product analytics, quality & reliability, AI engineering, API design, cloud infrastructure, and mobile development (React Native/Flutter).",
+      "description": "19 expert skills for software development: architecture, code excellence, UI/UX, process engineering, auth & security, backend & databases, payment/Stripe, monitoring & observability, DevOps & CI/CD, product analytics, quality & reliability, AI engineering, API design, cloud infrastructure, mobile development, web performance, frontend frameworks (React/Next.js), security testing (OWASP/SAST/DAST), and web accessibility (WCAG/A11y).",
       "version": "1.0.0",
       "source": "./plugins/code-development",
       "category": "development"
@@ -30,7 +30,7 @@
     },
     {
       "name": "data-bi",
-      "description": "7 expert skills for data & business intelligence: decision/reporting/governance, data engineering & pipelines, data literacy & storytelling, advanced analytics & machine learning, data quality & observability, streaming & real-time analytics, and customer analytics.",
+      "description": "11 expert skills for data & business intelligence: decision/reporting/governance, data engineering & pipelines, data literacy & storytelling, advanced analytics & ML, data quality & observability, streaming & real-time analytics, customer analytics, A/B testing & experimentation, time series forecasting, data visualization tools (Power BI/Tableau), and geospatial analytics.",
       "version": "1.0.0",
       "source": "./plugins/data-bi",
       "category": "productivity"

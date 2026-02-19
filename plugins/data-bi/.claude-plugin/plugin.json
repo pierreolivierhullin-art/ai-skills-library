@@ -1,6 +1,6 @@
 {
   "name": "data-bi",
-  "description": "7 expert skills for data & business intelligence covering decision/reporting/governance, data engineering & pipelines, data literacy & storytelling, advanced analytics & machine learning, data quality & observability, streaming & real-time analytics, and customer analytics.",
+  "description": "11 expert skills for data & business intelligence covering decision/reporting/governance, data engineering & pipelines, data literacy & storytelling, advanced analytics & machine learning, data quality & observability, streaming & real-time analytics, customer analytics, A/B testing & experimentation, time series forecasting, data visualization tools (Power BI/Tableau/Looker), and geospatial analytics (PostGIS/GeoPandas/H3).",
   "author": {
     "name": "hullin"
   }

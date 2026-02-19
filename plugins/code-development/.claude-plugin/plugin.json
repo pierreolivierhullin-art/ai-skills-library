@@ -1,6 +1,6 @@
 {
   "name": "code-development",
-  "description": "15 expert skills for software development covering architecture, code excellence, UI/UX, process engineering, authentication & security, backend & databases, payment/Stripe, monitoring & observability, DevOps & CI/CD, product analytics, quality & reliability, AI engineering, API design, cloud infrastructure, and mobile development (React Native/Flutter).",
+  "description": "19 expert skills for software development covering architecture, code excellence, UI/UX, process engineering, authentication & security, backend & databases, payment/Stripe, monitoring & observability, DevOps & CI/CD, product analytics, quality & reliability, AI engineering, API design, cloud infrastructure, mobile development (React Native/Flutter), web performance (Core Web Vitals/Lighthouse), frontend frameworks (React/Next.js), security testing (OWASP/SAST/DAST), and web accessibility (WCAG/A11y).",
   "author": {
     "name": "hullin"
   }
