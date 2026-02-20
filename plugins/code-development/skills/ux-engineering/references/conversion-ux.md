@@ -107,10 +107,11 @@ interface FieldFeedbackProps {
   isDirty: boolean;
   isValid: boolean;
   children: React.ReactNode;
+  errorId?: string; // pour lier aria-describedby de l'input au message d'erreur
 }
 
 // Composant réutilisable pour l'état visuel d'un champ
-function FieldFeedback({ error, isDirty, isValid, children }: FieldFeedbackProps) {
+function FieldFeedback({ error, isDirty, isValid, children, errorId }: FieldFeedbackProps) {
   return (
     <div className="relative">
       {children}
@@ -126,7 +127,7 @@ function FieldFeedback({ error, isDirty, isValid, children }: FieldFeedbackProps
         </span>
       )}
       {error && (
-        <p role="alert" className="mt-1 text-sm text-red-600">
+        <p id={errorId} role="alert" className="mt-1 text-sm text-red-600">
           {error}
         </p>
       )}
@@ -165,6 +166,7 @@ export function RegisterForm() {
           error={errors.email?.message}
           isDirty={!!dirtyFields.email}
           isValid={!errors.email && !!dirtyFields.email}
+          errorId="email-error"
         >
           <input
             id="email"

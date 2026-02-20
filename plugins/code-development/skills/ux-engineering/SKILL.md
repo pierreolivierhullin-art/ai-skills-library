@@ -369,7 +369,8 @@ export function FormulaireInscription() {
     watch,
   } = useForm<DonnéesInscription>({
     resolver: zodResolver(schémaInscription),
-    mode: 'onChange', // Validation en temps réel
+    mode: 'onBlur',          // Valider à la perte de focus (évite les erreurs prématurées)
+    reValidateMode: 'onChange', // Re-valider en temps réel dès qu'une erreur est affichée
   });
 
   const valeurs = watch();
@@ -729,6 +730,8 @@ Leviers CRO côté développeur :
 ```
 
 ### Optimistic UI — Réduire la Latence Perçue
+
+> **React 19+** : utilise `useOptimistic` (hook natif) pour les cas simples — il gère automatiquement le rollback. Pour les cas complexes ou multi-étapes, le pattern manuel ci-dessous reste plus explicite.
 
 ```typescript
 // hooks/useOptimisticLike.ts

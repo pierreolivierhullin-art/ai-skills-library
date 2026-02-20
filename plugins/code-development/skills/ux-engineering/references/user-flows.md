@@ -311,7 +311,7 @@ export function FilAriane() {
   return (
     <nav aria-label="Fil d'Ariane">
       <ol
-        className="flex items-center gap-1 text-sm text-gris-500"
+        className="flex items-center gap-1 text-sm text-gray-500"
         itemScope
         itemType="https://schema.org/BreadcrumbList"
       >
@@ -328,7 +328,7 @@ export function FilAriane() {
             >
               {estDernière ? (
                 <span
-                  className="font-medium text-gris-900"
+                  className="font-medium text-gray-900"
                   aria-current="page"
                   itemProp="name"
                 >
@@ -338,13 +338,13 @@ export function FilAriane() {
                 <>
                   <Link
                     to={miga.chemin ?? '#'}
-                    className="hover:text-gris-900 transition-colors underline-offset-2 hover:underline"
+                    className="hover:text-gray-900 transition-colors underline-offset-2 hover:underline"
                     itemProp="item"
                   >
                     <span itemProp="name">{miga.label}</span>
                   </Link>
                   <ChevronDroiteIcone
-                    className="h-3 w-3 shrink-0 text-gris-400"
+                    className="h-3 w-3 shrink-0 text-gray-400"
                     aria-hidden="true"
                   />
                 </>
@@ -430,9 +430,9 @@ export function IndicateurProgression({
                   className={`
                     flex h-8 w-8 items-center justify-center rounded-full text-sm font-medium
                     transition-colors duration-200
-                    ${statut === 'complétée' ? 'bg-bleu-600 text-blanc' : ''}
-                    ${statut === 'actuelle' ? 'border-2 border-bleu-600 bg-blanc text-bleu-600' : ''}
-                    ${statut === 'à-venir' ? 'border-2 border-gris-300 bg-blanc text-gris-400' : ''}
+                    ${statut === 'complétée' ? 'bg-blue-600 text-white' : ''}
+                    ${statut === 'actuelle' ? 'border-2 border-blue-600 bg-white text-blue-600' : ''}
+                    ${statut === 'à-venir' ? 'border-2 border-gray-300 bg-white text-gray-400' : ''}
                   `}
                   aria-hidden="true"
                 >
@@ -446,7 +446,7 @@ export function IndicateurProgression({
                 {/* Ligne de connexion — orientation verticale */}
                 {orientation === 'vertical' && !estDernière && (
                   <div
-                    className={`mt-1 h-full w-0.5 ${index < étapeActuelle ? 'bg-bleu-600' : 'bg-gris-200'}`}
+                    className={`mt-1 h-full w-0.5 ${index < étapeActuelle ? 'bg-blue-600' : 'bg-gray-200'}`}
                     aria-hidden="true"
                   />
                 )}
@@ -457,15 +457,15 @@ export function IndicateurProgression({
                 <span
                   className={`
                     block text-sm font-medium
-                    ${statut === 'actuelle' ? 'text-bleu-600' : ''}
-                    ${statut === 'complétée' ? 'text-gris-900' : ''}
-                    ${statut === 'à-venir' ? 'text-gris-400' : ''}
+                    ${statut === 'actuelle' ? 'text-blue-600' : ''}
+                    ${statut === 'complétée' ? 'text-gray-900' : ''}
+                    ${statut === 'à-venir' ? 'text-gray-400' : ''}
                   `}
                 >
                   {étape.label}
                 </span>
                 {afficherDescriptions && étape.description && (
-                  <span className="mt-0.5 block text-xs text-gris-500">
+                  <span className="mt-0.5 block text-xs text-gray-500">
                     {étape.description}
                   </span>
                 )}
@@ -474,7 +474,7 @@ export function IndicateurProgression({
               {/* Ligne de connexion — orientation horizontale */}
               {orientation === 'horizontal' && !estDernière && (
                 <div
-                  className={`mx-4 h-0.5 flex-1 ${index < étapeActuelle ? 'bg-bleu-600' : 'bg-gris-200'}`}
+                  className={`mx-4 h-0.5 flex-1 ${index < étapeActuelle ? 'bg-blue-600' : 'bg-gray-200'}`}
                   aria-hidden="true"
                 />
               )}
@@ -576,7 +576,7 @@ export function NavigationOnglets({
       <div
         role="tablist"
         aria-label="Navigation principale"
-        className={`flex ${variant === 'ligne' ? 'border-b border-gris-200' : 'gap-1 p-1 bg-gris-100 rounded-lg'}`}
+        className={`flex ${variant === 'ligne' ? 'border-b border-gray-200' : 'gap-1 p-1 bg-gray-100 rounded-lg'}`}
       >
         {onglets.map((onglet, index) => {
           const estActif = onglet.id === ongletActif;
@@ -595,12 +595,12 @@ export function NavigationOnglets({
               onKeyDown={(e) => gérerNavigationClavier(e, index)}
               className={`
                 px-4 py-2 text-sm font-medium transition-all duration-150
-                focus:outline-none focus-visible:ring-2 focus-visible:ring-bleu-500 focus-visible:ring-offset-2
+                focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2
                 disabled:cursor-not-allowed disabled:opacity-40
-                ${variant === 'ligne' && estActif ? 'border-b-2 border-bleu-600 text-bleu-600' : ''}
-                ${variant === 'ligne' && !estActif ? 'text-gris-600 hover:text-gris-900 hover:border-b-2 hover:border-gris-300' : ''}
-                ${variant === 'pilule' && estActif ? 'bg-bleu-600 text-blanc rounded-full' : ''}
-                ${variant === 'pilule' && !estActif ? 'text-gris-600 hover:text-gris-900 rounded-full' : ''}
+                ${variant === 'ligne' && estActif ? 'border-b-2 border-blue-600 text-blue-600' : ''}
+                ${variant === 'ligne' && !estActif ? 'text-gray-600 hover:text-gray-900 hover:border-b-2 hover:border-gray-300' : ''}
+                ${variant === 'pilule' && estActif ? 'bg-blue-600 text-white rounded-full' : ''}
+                ${variant === 'pilule' && !estActif ? 'text-gray-600 hover:text-gray-900 rounded-full' : ''}
               `}
             >
               {onglet.label}
@@ -790,7 +790,7 @@ export function ChampAutocomplétion({
 
   return (
     <div className="relative">
-      <label htmlFor={identifiant} className="mb-1.5 block text-sm font-medium text-gris-700">
+      <label htmlFor={identifiant} className="mb-1.5 block text-sm font-medium text-gray-700">
         {label}
       </label>
       <div className="relative">
@@ -812,13 +812,13 @@ export function ChampAutocomplétion({
           onBlur={() => setTimeout(() => setOuvert(false), 150)}
           placeholder={placeholder}
           autoComplete="off"
-          className="w-full rounded-lg border border-gris-300 px-3 py-2 pr-9 text-sm
-                     focus:border-bleu-500 focus:outline-none focus:ring-2 focus:ring-bleu-500/20"
+          className="w-full rounded-lg border border-gray-300 px-3 py-2 pr-9 text-sm
+                     focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
         />
 
         {chargement && (
           <div className="absolute right-3 top-1/2 -translate-y-1/2" aria-hidden="true">
-            <SpinnerIcone className="h-4 w-4 animate-spin text-gris-400" />
+            <SpinnerIcone className="h-4 w-4 animate-spin text-gray-400" />
           </div>
         )}
       </div>
@@ -828,8 +828,8 @@ export function ChampAutocomplétion({
           id={idListe}
           role="listbox"
           aria-label={`Suggestions pour "${requête}"`}
-          className="absolute z-50 mt-1 w-full overflow-hidden rounded-lg border border-gris-200
-                     bg-blanc shadow-lg"
+          className="absolute z-50 mt-1 w-full overflow-hidden rounded-lg border border-gray-200
+                     bg-white shadow-lg"
         >
           {résultats.map((suggestion, index) => (
             <li
@@ -840,11 +840,11 @@ export function ChampAutocomplétion({
               onClick={() => sélectionner(suggestion)}
               onMouseEnter={() => setIndexFocus(index)}
               className={`cursor-pointer px-3 py-2 text-sm transition-colors
-                ${index === indexFocus ? 'bg-bleu-50 text-bleu-700' : 'text-gris-700 hover:bg-gris-50'}`}
+                ${index === indexFocus ? 'bg-blue-50 text-blue-700' : 'text-gray-700 hover:bg-gray-50'}`}
             >
               <span className="font-medium">{suggestion.label}</span>
               {suggestion.description && (
-                <span className="mt-0.5 block text-xs text-gris-400">
+                <span className="mt-0.5 block text-xs text-gray-400">
                   {suggestion.description}
                 </span>
               )}
@@ -1030,7 +1030,7 @@ export function TiroirNavigation({
       {/* Fond semi-transparent */}
       {ouvert && (
         <div
-          className="fixed inset-0 z-40 bg-noir/50 backdrop-blur-sm"
+          className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm"
           onClick={surFermeture}
           aria-hidden="true"
         />
@@ -1042,7 +1042,7 @@ export function TiroirNavigation({
         aria-modal="true"
         aria-label="Menu de navigation"
         className={`
-          fixed inset-y-0 z-50 w-72 bg-blanc shadow-xl
+          fixed inset-y-0 z-50 w-72 bg-white shadow-xl
           transition-transform duration-300 ease-in-out
           ${côté === 'gauche' ? 'left-0' : 'right-0'}
           ${ouvert
@@ -1055,8 +1055,8 @@ export function TiroirNavigation({
       >
         <button
           onClick={surFermeture}
-          className="absolute right-4 top-4 rounded-full p-1 text-gris-500 hover:text-gris-900
-                     focus:outline-none focus-visible:ring-2 focus-visible:ring-bleu-500"
+          className="absolute right-4 top-4 rounded-full p-1 text-gray-500 hover:text-gray-900
+                     focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
           aria-label="Fermer le menu"
         >
           <FermerIcone className="h-5 w-5" />
@@ -1136,9 +1136,9 @@ export function RechercheAvecFiltres({
       {/* Panneau de filtres — desktop */}
       <aside className="hidden w-56 shrink-0 lg:block" aria-label="Filtres">
         <div className="flex items-center justify-between mb-4">
-          <span className="text-sm font-medium text-gris-900">
+          <span className="text-sm font-medium text-gray-900">
             Filtres {nombreFiltresActifs > 0 && (
-              <span className="ml-1 rounded-full bg-bleu-100 px-2 py-0.5 text-xs text-bleu-700">
+              <span className="ml-1 rounded-full bg-blue-100 px-2 py-0.5 text-xs text-blue-700">
                 {nombreFiltresActifs}
               </span>
             )}
@@ -1146,7 +1146,7 @@ export function RechercheAvecFiltres({
           {nombreFiltresActifs > 0 && (
             <button
               onClick={réinitialiser}
-              className="text-xs text-bleu-600 hover:text-bleu-800"
+              className="text-xs text-blue-600 hover:text-blue-800"
             >
               Tout effacer
             </button>
@@ -1155,7 +1155,7 @@ export function RechercheAvecFiltres({
 
         {facettes.map((facette) => (
           <fieldset key={facette.clé} className="mb-5">
-            <legend className="mb-2 text-xs font-semibold uppercase tracking-wide text-gris-500">
+            <legend className="mb-2 text-xs font-semibold uppercase tracking-wide text-gray-500">
               {facette.label}
             </legend>
             <ul className="space-y-1.5">
@@ -1163,16 +1163,16 @@ export function RechercheAvecFiltres({
                 const coché = filtresActifs[facette.clé]?.includes(option.valeur) ?? false;
                 return (
                   <li key={option.valeur}>
-                    <label className="flex cursor-pointer items-center gap-2 text-sm text-gris-700 hover:text-gris-900">
+                    <label className="flex cursor-pointer items-center gap-2 text-sm text-gray-700 hover:text-gray-900">
                       <input
                         type="checkbox"
                         checked={coché}
                         onChange={() => basculerFiltre(facette.clé, option.valeur)}
-                        className="rounded border-gris-300 text-bleu-600
-                                   focus:ring-2 focus:ring-bleu-500 focus:ring-offset-1"
+                        className="rounded border-gray-300 text-blue-600
+                                   focus:ring-2 focus:ring-blue-500 focus:ring-offset-1"
                       />
                       <span className="flex-1">{option.label}</span>
-                      <span className="text-xs text-gris-400">({option.nombre})</span>
+                      <span className="text-xs text-gray-400">({option.nombre})</span>
                     </label>
                   </li>
                 );
@@ -1185,7 +1185,7 @@ export function RechercheAvecFiltres({
       {/* Résultats */}
       <div className="flex-1 min-w-0">
         <div className="mb-4 flex items-center justify-between">
-          <p className="text-sm text-gris-500" aria-live="polite" aria-atomic="true">
+          <p className="text-sm text-gray-500" aria-live="polite" aria-atomic="true">
             {enTransition ? 'Mise à jour...' : `${nombreRésultats} résultat${nombreRésultats !== 1 ? 's' : ''}`}
           </p>
         </div>
