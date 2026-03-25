@@ -1,0 +1,22 @@
+[
+  {"query": "Je dois construire un dashboard KPI mensuel pour le COMEX — quels indicateurs inclure et comment les structurer ?", "should_trigger": true},
+  {"query": "Notre stratégie BI est inexistante — aide-moi à définir une feuille de route pour outiller nos équipes analytics", "should_trigger": true},
+  {"query": "Comment mettre en place une gouvernance des données pour garantir la fiabilité de nos rapports direction ?", "should_trigger": true},
+  {"query": "Je prépare le reporting mensuel C-level — comment présenter nos métriques de croissance de façon impactante ?", "should_trigger": true},
+  {"query": "On a 15 dashboards différents qui donnent des chiffres contradictoires — comment unifier notre reporting ?", "should_trigger": true},
+  {"query": "help me design a data governance framework for our 200-person company with 5 business units", "should_trigger": true},
+  {"query": "Comment définir une single source of truth pour nos métriques business clés dans notre organisation ?", "should_trigger": true},
+  {"query": "Notre CEO veut un reporting hebdo en 1 page — aide-moi à sélectionner les 5-7 KPIs les plus pertinents", "should_trigger": true},
+  {"query": "On veut mettre en place un data catalog — comment documenter et gouverner nos assets de données ?", "should_trigger": true},
+  {"query": "Comment structurer notre comité de gouvernance data pour arbitrer les conflits de définitions entre équipes ?", "should_trigger": true},
+  {"query": "we need to build a board-level reporting pack — what financial and operational metrics should we include ?", "should_trigger": true},
+  {"query": "Comment créer un OKR dashboard qui connecte les objectifs stratégiques aux métriques opérationnelles ?", "should_trigger": true},
+  {"query": "On veut automatiser notre reporting mensuel qui prend 3 jours manuellement — quelle approche BI adopter ?", "should_trigger": true},
+  {"query": "Aide-moi à définir des SLA de qualité des données pour notre data warehouse Snowflake", "should_trigger": true},
+  {"query": "Comment communiquer des données complexes à des dirigeants non-techniques lors d'un CODIR ?", "should_trigger": true},
+  {"query": "Comment construire un pipeline dbt pour transformer nos données brutes en tables analytiques propres ?", "should_trigger": false},
+  {"query": "On veut migrer nos ETL Talend vers Airflow — quelle architecture de DAGs adopter ?", "should_trigger": false},
+  {"query": "aide-moi à créer un scatter plot animé dans Flourish pour présenter l'évolution de nos marchés", "should_trigger": false},
+  {"query": "Comment choisir les bons types de graphiques pour visualiser notre distribution de revenus par segment ?", "should_trigger": false},
+  {"query": "On veut créer un heatmap dans D3.js pour visualiser nos corrélations de variables — comment faire ?", "should_trigger": false}
+]

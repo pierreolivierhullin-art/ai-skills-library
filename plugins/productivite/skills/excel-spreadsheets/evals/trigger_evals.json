@@ -1,0 +1,58 @@
+[
+  {
+    "query": "j'ai un fichier Excel avec 50k lignes de ventes, comment créer un tableau de bord dynamique avec des slicers ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how do I use XLOOKUP to replace my nested VLOOKUP/IFERROR formulas?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment modéliser un LBO dans Excel avec des scénarios sensibilité (base / upside / downside) ?",
+    "should_trigger": true
+  },
+  {
+    "query": "I need to consolidate 12 monthly Excel files into one master report automatically — Power Query?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment créer une macro VBA pour automatiser l'envoi d'emails depuis Excel avec les données de chaque ligne ?",
+    "should_trigger": true
+  },
+  {
+    "query": "my Excel file is 200MB and takes 5 minutes to open, how to optimise it?",
+    "should_trigger": true
+  },
+  {
+    "query": "j'ai besoin d'une formule pour calculer la médiane conditionnelle sur plusieurs critères dans Excel",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a Monte Carlo simulation in Excel for project risk assessment?",
+    "should_trigger": true
+  },
+  {
+    "query": "build me a Python script to process CSV files",
+    "should_trigger": false
+  },
+  {
+    "query": "I need a SQL query to aggregate sales data by region",
+    "should_trigger": false
+  },
+  {
+    "query": "how to create a Tableau dashboard for our sales data?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a dbt model to transform our raw orders data",
+    "should_trigger": false
+  },
+  {
+    "query": "create a PowerPoint presentation from our annual report",
+    "should_trigger": false
+  },
+  {
+    "query": "I need to automate a workflow in n8n connecting spreadsheet to Slack",
+    "should_trigger": false
+  }
+]

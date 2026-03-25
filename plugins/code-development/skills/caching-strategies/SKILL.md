@@ -1,7 +1,7 @@
 ---
 name: caching-strategies
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever caching strategies topics arise — even if not explicitly requested. If there is any caching strategies dimension in the conversation, this skill applies.
   Redis advanced patterns caching, cache-aside pattern, write-through write-behind cache,
   cache invalidation strategies, cache stampede dog-pile prevention, TTL strategies,
   Redis data structures sorted sets hashes lists streams, Redis pub/sub,
@@ -361,3 +361,8 @@ async function getData<T>(key: string, fetcher: () => Promise<T>): Promise<T> {
 - `references/cache-patterns.md` — Cache warming, invalidation patterns, consistent hashing, cache eviction policies
 - `references/distributed-cache.md` — Multi-niveau avancé, CDN (Cloudflare, Fastly), Varnish, browser cache, stale-while-revalidate
 - `references/case-studies.md` — 4 cas : API 100ms→5ms avec cache, leaderboard gaming, sessions distribuées, rate limiting API
+
+## See Also
+
+- **backend-db** (`code-development/backend-db`) — Database layer caching patterns
+- **web-performance** (`code-development/web-performance`) — Client-side caching and CDN

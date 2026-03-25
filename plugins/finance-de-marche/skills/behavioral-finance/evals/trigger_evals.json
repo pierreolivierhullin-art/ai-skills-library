@@ -1,0 +1,50 @@
+[
+  {
+    "query": "comment les biais cognitifs affectent les décisions d'investissement de nos clients retail ?",
+    "should_trigger": true
+  },
+  {
+    "query": "explain loss aversion and how it causes investors to hold losing positions too long",
+    "should_trigger": true
+  },
+  {
+    "query": "we want to apply nudge theory to improve our clients' long-term savings behavior",
+    "should_trigger": true
+  },
+  {
+    "query": "overconfidence bias in trading — how to detect it and design rules to counteract it?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre comité d'investissement souffre de biais de confirmation, comment restructurer le processus ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how does anchoring affect M&A deal pricing and how to correct for it?",
+    "should_trigger": true
+  },
+  {
+    "query": "herd behavior in financial markets — how to identify and exploit it?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to optimise a risk-adjusted portfolio using Modern Portfolio Theory?",
+    "should_trigger": false
+  },
+  {
+    "query": "backtest a momentum strategy with transaction costs",
+    "should_trigger": false
+  },
+  {
+    "query": "build a customer segmentation model for our bank clients",
+    "should_trigger": false
+  },
+  {
+    "query": "what are the ethical implications of algorithmic trading?",
+    "should_trigger": false
+  },
+  {
+    "query": "explain prospect theory mathematically and derive the value function",
+    "should_trigger": false
+  }
+]

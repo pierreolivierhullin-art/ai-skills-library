@@ -1,0 +1,54 @@
+[
+  {
+    "query": "on doit publier notre premier rapport CSRD — par où commencer, quelle structure, quels indicateurs obligatoires ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to calculate our scope 3 GHG emissions for our supply chain?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre investisseur demande un scoring ESG — comment nous positionner et améliorer notre note ?",
+    "should_trigger": true
+  },
+  {
+    "query": "SBTi submission for our net-zero target — what's the process and requirements?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment intégrer la taxonomie européenne dans notre reporting financier ?",
+    "should_trigger": true
+  },
+  {
+    "query": "we want to launch a green bond — what are the requirements and frameworks (ICMA, EU Green Bond Standard)?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre bilan carbone scope 1 et 2 est fait — comment réduire et compenser le scope 3 ?",
+    "should_trigger": true
+  },
+  {
+    "query": "matérialité double pour notre rapport CSRD — comment identifier les enjeux matériels ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement sustainable procurement in our supply chain?",
+    "should_trigger": false
+  },
+  {
+    "query": "our company needs a CSR communication strategy",
+    "should_trigger": false
+  },
+  {
+    "query": "how to reduce energy consumption in our data centers?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a diversity and inclusion program for our company",
+    "should_trigger": false
+  },
+  {
+    "query": "impact investing strategy for our family office",
+    "should_trigger": false
+  }
+]

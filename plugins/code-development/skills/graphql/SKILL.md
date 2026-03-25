@@ -1,7 +1,7 @@
 ---
 name: graphql
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever graphql topics arise — even if not explicitly requested. If there is any graphql dimension in the conversation, this skill applies.
   GraphQL schema design SDL, resolvers mutations subscriptions, DataLoader N+1 problem,
   Apollo Server Apollo Client, GraphQL Code Generator, schema-first vs code-first,
   Apollo Federation subgraphs supergraph, persisted queries, query complexity limits,
@@ -422,3 +422,8 @@ const typeDefs2 = gql`
 - `references/performance.md` — DataLoader patterns avancés, query complexity, persisted queries, APQ, caching
 - `references/federation.md` — Apollo Federation v2, supergraph, subgraphs, @key, @shareable, gateway config
 - `references/case-studies.md` — 4 cas : migration REST→GraphQL, N+1 résolu, federation micro-services, client Apollo cache
+
+## See Also
+
+- **api-design** (`code-development/api-design`) — REST and API design principles
+- **backend-db** (`code-development/backend-db`) — Data layer and resolvers

@@ -1,0 +1,50 @@
+[
+  {
+    "query": "comment créer un modèle Word avec styles, table des matières automatique et numérotation pour nos rapports d'audit ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to do a mail merge in Word to send personalized contracts to 200 clients?",
+    "should_trigger": true
+  },
+  {
+    "query": "our legal team needs a document comparison workflow — Word track changes vs dedicated tools?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment automatiser la génération de nos devis PDF depuis notre CRM avec un template Word ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Google Docs vs Word for our 50-person team — collaboration, version history, offline access?",
+    "should_trigger": true
+  },
+  {
+    "query": "DocuSign vs Yousign for our contract signature workflow — we sign 200 contracts/month",
+    "should_trigger": true
+  },
+  {
+    "query": "LaTeX for our academic publication — how to set up the template and manage references with BibTeX?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to write a compelling business proposal for our client?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a document management system for our company",
+    "should_trigger": false
+  },
+  {
+    "query": "how to create a PowerPoint presentation for our board?",
+    "should_trigger": false
+  },
+  {
+    "query": "our company needs a new documentation portal — Confluence vs Notion?",
+    "should_trigger": false
+  },
+  {
+    "query": "write a professional email to follow up on a contract",
+    "should_trigger": false
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "query": "on doit construire notre cartographie des risques entreprise — par où commencer, quelle méthodologie ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement ISO 31000 enterprise risk management for our 500-person company?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre plan de continuité d'activité (PCA) n'a pas été testé depuis 3 ans — comment le remettre à niveau ?",
+    "should_trigger": true
+  },
+  {
+    "query": "COSO framework implementation for our internal control program — where to start?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment construire un programme anti-corruption conforme à Sapin II pour notre groupe ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to conduct a Business Impact Analysis (BIA) for our critical IT systems?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre risk appetite n'est pas formalisé — comment le définir et le décliner par domaine ?",
+    "should_trigger": true
+  },
+  {
+    "query": "crisis management plan for a potential cyberattack on our infrastructure",
+    "should_trigger": true
+  },
+  {
+    "query": "how to manage supplier risk in our supply chain?",
+    "should_trigger": false
+  },
+  {
+    "query": "compliance program for our financial services (AMF regulations)",
+    "should_trigger": false
+  },
+  {
+    "query": "how to assess cybersecurity risks for our IT infrastructure?",
+    "should_trigger": false
+  },
+  {
+    "query": "our project is over budget — how to manage project risks?",
+    "should_trigger": false
+  },
+  {
+    "query": "financial risk management for our treasury (FX exposure)",
+    "should_trigger": false
+  }
+]

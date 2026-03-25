@@ -1,7 +1,7 @@
 ---
 name: design-tools
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever design tools topics arise — even if not explicitly requested. If there is any design tools dimension in the conversation, this skill applies.
   Use this skill when the user asks about "Figma", "Canva", "Adobe Express", "design for non-designers", "visual design tools", "brand kit", "creating visuals", "presentation design", "social media graphics", "infographic creation", "color palette", "typography for business", "logo creation", "banner design", "marketing visuals", "design templates", "visual hierarchy", "brand consistency", discusses creating professional visual content without a design background, or needs guidance on choosing and using visual design tools for business communication.
 ---
 
@@ -235,3 +235,8 @@ Dossiers de contenu
 - L'IA generative produit des images avec des artefacts (mains incorrectes, texte illisible) — verifier systematiquement
 - Les templates Canva sont utilises par des milliers d'entreprises — personnaliser suffisamment pour sortir du lot
 - Le droit d'auteur des images AI est encore non-clarifie dans de nombreuses juridictions — preferer Adobe Firefly (entraine sur donnees licenciees) pour un usage commercial
+
+## See Also
+
+- **ui-design** (`code-development/ui-design`) — UI design systems and components
+- **presentations-storytelling** (`productivite/presentations-storytelling`) — Visual storytelling in presentations

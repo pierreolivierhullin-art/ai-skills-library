@@ -1,8 +1,8 @@
 ---
 name: commercial
-description: This skill should be used when the user asks about "sales strategy", "B2B prospecting", "sales methodology", "negotiation techniques", "revenue operations", "stratégie commerciale", "prospection B2B", "prospection commerciale", "techniques de vente", "closing", "pipeline commercial", "cycle de vente", "sales cycle", "account management", "gestion de comptes", "key account", "sales enablement", "CRM optimization", "cold calling", "cold emailing", "social selling", "MEDDIC", "SPIN selling", "Challenger Sale", "RevOps", "forecast", "prévision de ventes", "upsell", "cross-sell", "objection handling", discusses pipeline management, or needs guidance on closing deals, account management, or sales enablement.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "sales strategy", "B2B prospecting", "sales methodology", "negotiation techniques", "revenue operations", "stratégie commerciale", "prospection B2B", "prospection commerciale", "techniques de vente", "closing", "pipeline commercial", "cycle de vente", "sales cycle", "account management", "gestion de comptes", "key account", "sales enablement", "CRM optimization", "cold calling", "cold emailing", "social selling", "MEDDIC", "SPIN selling", "Challenger Sale", "RevOps", "forecast", "prévision de ventes", "upsell", "cross-sell", "objection handling", discusses pipeline management, or needs guidance on closing deals, account management, or sales enablement. Invoke this skill proactively whenever commercial topics arise — even if not explicitly requested. If there is any commercial dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Commercial / Sales
@@ -270,3 +270,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Sales Enablement & Partners](./references/enablement-partners.md)** : programmes d'enablement, battlecards, tech stack commerciale (Gong, Outreach, Salesloft), conversation intelligence, channel sales, partner programs, co-selling, marketplace selling (AWS/Azure/GCP), state of the art 2024-2026.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **marketing** (`entreprise/marketing`) — Marketing and GTM alignment
+- **customer-analytics** (`data-bi/customer-analytics`) — Sales analytics and pipeline data

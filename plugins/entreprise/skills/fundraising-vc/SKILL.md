@@ -1,7 +1,7 @@
 ---
 name: fundraising-vc
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever fundraising vc topics arise — even if not explicitly requested. If there is any fundraising vc dimension in the conversation, this skill applies.
   Use this skill when the user asks about "levée de fonds", "fundraising", "venture capital", "VC", "investisseur", "term sheet", "cap table", "valorisation startup", "seed round", "série A", "pitch investor", "business angel", "due diligence investisseur", "dilution", "liquidation preference", "data room", "crowdfunding equity", "amorçage", "financement startup", discusses raising external capital, preparing for investor meetings, negotiating investment terms, or needs guidance on the fundraising process for startups and growth companies.
 ---
 
@@ -214,3 +214,8 @@ Les VCs investissent avant tout dans les deals envoyes par leur reseau (warm dea
 | **Revenue-based financing** | Non-dilutif, base sur revenus | Cher si croissance faible | SaaS profitable |
 | **Crowdfunding equity** | Communaute, BtoC | Intensif en temps, < 2M EUR | BtoC, communaute forte |
 | **Dette venture** | Complement au VC | Requiert d'avoir deja des VC | Post-Serie A |
+
+## See Also
+
+- **entrepreneuriat** (`entreprise/entrepreneuriat`) — Startup creation and business planning
+- **finance** (`entreprise/finance`) — Financial modeling for fundraising

@@ -1,7 +1,7 @@
 ---
 name: data-quality
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever data quality topics arise — even if not explicitly requested. If there is any data quality dimension in the conversation, this skill applies.
   Use this skill when the user asks about "data quality", "data observability", "data contracts", "data mesh", "data catalog", "data lineage", "data freshness", "data volume anomaly", "schema drift", "Great Expectations", "Monte Carlo data", "dbt tests", "data products", "data ownership", "federated governance", "data SLOs", discusses data reliability engineering, building trust in data pipelines, or needs guidance on implementing data contracts, data mesh architecture, and data quality monitoring.
 ---
 
@@ -274,3 +274,8 @@ if not results.success:
 - Un catalogue non maintenu est pire qu'un catalogue absent : allouer une fraction du temps des data stewards a la maintenance active
 - La qualite des donnees a la source requiert des engagements des equipes product/engineering — la data team seule ne peut pas l'imposer
 - Great Expectations et Monte Carlo sont complementaires, pas alternatifs : Great Expectations pour les tests business logiques, Monte Carlo pour la detection d'anomalies statistiques automatisee
+
+## See Also
+
+- **data-engineering** (`data-bi/data-engineering`) — Data quality enforcement in pipelines
+- **testing-strategies** (`code-development/testing-strategies`) — Testing principles applied to data

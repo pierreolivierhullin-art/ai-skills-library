@@ -1,0 +1,22 @@
+[
+  {"query": "J'ai besoin d'aide pour construire notre plan stratégique 3 ans, on est une scale-up B2B SaaS de 80 personnes", "should_trigger": true},
+  {"query": "Aide-moi à rédiger nos OKR pour le prochain trimestre — on vient de lever une Série A", "should_trigger": true},
+  {"query": "Je dois préparer une analyse SWOT pour le COMEX avant notre revue stratégique annuelle", "should_trigger": true},
+  {"query": "On envisage une acquisition de concurrent, comment structurer notre analyse stratégique ?", "should_trigger": true},
+  {"query": "Help me build a 3-year growth strategy for our e-commerce company, we're at €5M ARR", "should_trigger": true},
+  {"query": "Notre board nous demande une ambition claire à horizon 5 ans, comment la formuler ?", "should_trigger": true},
+  {"query": "Je dois pitcher notre stratégie de croissance aux investisseurs la semaine prochaine", "should_trigger": true},
+  {"query": "On veut entrer sur le marché allemand, quel framework stratégique utiliser pour prioriser ?", "should_trigger": true},
+  {"query": "Can you help me run a Porter's Five Forces analysis for our industry ?", "should_trigger": true},
+  {"query": "On hésite entre deux directions stratégiques pour 2026, comment les évaluer ?", "should_trigger": true},
+  {"query": "strategic planning session coming up — need a framework to set 18-month company priorities", "should_trigger": true},
+  {"query": "Comment définir notre avantage concurrentiel durable face aux nouveaux entrants ?", "should_trigger": true},
+  {"query": "Notre stratégie M&A : quels critères pour cibler des acquisitions cohérentes avec notre core business ?", "should_trigger": true},
+  {"query": "Aide-moi à segmenter nos marchés adressables (TAM/SAM/SOM) pour notre deck investisseur", "should_trigger": true},
+  {"query": "On veut pivoter notre modèle économique, comment analyser les options stratégiques ?", "should_trigger": true},
+  {"query": "J'ai besoin d'un template de roadmap produit pour les prochains sprints de mon équipe dev", "should_trigger": false},
+  {"query": "Comment prioriser le backlog de notre app mobile pour Q2 ?", "should_trigger": false},
+  {"query": "On doit décider quelle feature développer en premier dans notre roadmap produit", "should_trigger": false},
+  {"query": "Aide-moi à définir notre stratégie de pricing pour notre nouveau forfait Enterprise", "should_trigger": false},
+  {"query": "Comment structurer notre go-to-market pour le lancement de notre nouvelle feature IA ?", "should_trigger": false}
+]

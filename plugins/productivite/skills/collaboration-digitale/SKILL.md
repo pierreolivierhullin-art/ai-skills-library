@@ -1,8 +1,8 @@
 ---
 name: collaboration-digitale
-description: This skill should be used when the user asks about "Teams collaboration", "Slack workspace", "digital collaboration", "remote work tools", "hybrid work", "Miro whiteboard", "FigJam", "Loom video", "asynchronous communication", "meeting management", "video conferencing", "screen recording", "digital facilitation", "team communication", "collaboration outils", "travail hybride", "communication asynchrone", "visioconférence", "facilitation digitale", "tableau blanc collaboratif", "travail à distance", "réunions efficaces", "outils de collaboration", "Microsoft Teams avancé", "Slack avancé", discusses digital collaboration tools, remote/hybrid work, or needs guidance on team communication, facilitation, and meeting management.
-version: 1.0.0
-last_updated: 2026-02
+description: Expert guide for "Teams collaboration", "Slack workspace", "digital collaboration", "remote work tools", "hybrid work", "Miro whiteboard", "FigJam", "Loom video", "asynchronous communication", "meeting management", "video conferencing", "screen recording", "digital facilitation", "team communication", "collaboration outils", "travail hybride", "communication asynchrone", "visioconférence", "facilitation digitale", "tableau blanc collaboratif", "travail à distance", "réunions efficaces", "outils de collaboration", "Microsoft Teams avancé", "Slack avancé", discusses digital collaboration tools, remote/hybrid work, or needs guidance on team communication, facilitation, and meeting management. Invoke this skill proactively whenever collaboration digitale topics arise — even if not explicitly requested. If there is any collaboration digitale dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Collaboration Digitale / Digital Collaboration
@@ -341,3 +341,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Async & Remote Work](./references/async-remote-work.md)** — Principes de communication asynchrone, Loom pour la video async (enregistrement, partage, reactions, taches), outils de screen recording, standups async, culture documentation-first, gestion des fuseaux horaires, bonnes pratiques du travail a distance, decision-making async (RFC, ADR), confiance a distance, onboarding async, mesure de l'efficacite async.
 
 - **[Meeting & Facilitation](./references/meeting-facilitation.md)** — Types et formats de reunion (standup, review, brainstorm, decision, 1:1), preparation (agenda, pre-read, roles), techniques de facilitation (timeboxing, round robin, silent brainstorm, dot voting), comptes-rendus et suivi des actions, bonnes pratiques de visioconference (Zoom, Teams, Meet), defis des reunions hybrides, assistants IA de reunion (Otter.ai, Fireflies, Granola, Copilot), analytics de reunion, annulation des reunions inutiles.
+
+## See Also
+
+- **notion-knowledge-management** (`productivite/notion-knowledge-management`) — Knowledge management systems
+- **communication** (`entreprise/communication`) — Organisational communication

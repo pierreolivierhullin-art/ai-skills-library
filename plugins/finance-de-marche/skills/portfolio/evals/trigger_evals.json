@@ -1,0 +1,66 @@
+[
+  {
+    "query": "je dois construire un portefeuille d'investissement pour ma retraite, comment allouer entre actions et obligations ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how do I apply Modern Portfolio Theory to optimise risk-adjusted returns for a €500k portfolio?",
+    "should_trigger": true
+  },
+  {
+    "query": "quelle stratégie d'allocation d'actifs pour un family office avec horizon 20 ans ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Sharpe ratio vs Sortino ratio — which metric to use for evaluating my hedge fund strategy?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment intégrer des ETF factoriels (value, momentum, quality) dans une allocation core-satellite ?",
+    "should_trigger": true
+  },
+  {
+    "query": "we need to rebalance our institutional portfolio quarterly, what's the best approach to minimise transaction costs?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a portfolio that's robust to inflation and rising interest rates?",
+    "should_trigger": true
+  },
+  {
+    "query": "je veux comprendre comment fonctionne la frontière efficiente de Markowitz pour notre fonds",
+    "should_trigger": true
+  },
+  {
+    "query": "comment choisir entre actions individuelles et fonds indiciels pour un patrimoine de 200k€ ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our company pension fund needs an investment policy statement, what should it cover?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to price an interest rate swap for our fixed income portfolio?",
+    "should_trigger": false
+  },
+  {
+    "query": "help me model the cash flows for a leveraged buyout",
+    "should_trigger": false
+  },
+  {
+    "query": "what is the P&L of selling a covered call option?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a DCF model for this startup valuation",
+    "should_trigger": false
+  },
+  {
+    "query": "how to comply with UCITS regulations for our fund?",
+    "should_trigger": false
+  },
+  {
+    "query": "analyse the financial statements of Apple and compute ROIC",
+    "should_trigger": false
+  }
+]

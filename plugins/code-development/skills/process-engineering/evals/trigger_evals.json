@@ -1,0 +1,50 @@
+[
+  {
+    "query": "notre équipe de 8 devs fait du scrum mais les sprints sont chaotiques — comment améliorer nos rituels ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement DORA metrics (deployment frequency, lead time, MTTR, CFR) for our team?",
+    "should_trigger": true
+  },
+  {
+    "query": "on passe à trunk-based development — comment gérer les feature flags et éviter les merge conflicts ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our code review process is a bottleneck — PRs wait 3 days — how to fix?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment écrire de bonnes ADRs (Architecture Decision Records) que l'équipe va réellement lire ?",
+    "should_trigger": true
+  },
+  {
+    "query": "sprint velocity is unpredictable — how to improve estimation accuracy for our team?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to structure a RFC (Request for Comments) process for technical decisions in a 20-person eng team?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to set up a CI/CD pipeline for our Node.js app?",
+    "should_trigger": false
+  },
+  {
+    "query": "implement code quality gates with SonarQube",
+    "should_trigger": false
+  },
+  {
+    "query": "how to choose between Jira and Linear for our team?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to refactor our messy codebase?",
+    "should_trigger": false
+  },
+  {
+    "query": "our team is fully remote — how to collaborate effectively?",
+    "should_trigger": false
+  }
+]

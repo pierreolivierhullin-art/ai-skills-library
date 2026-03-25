@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on construit un système de collaboration en temps réel (type Google Docs) — WebSockets vs SSE vs WebRTC ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement real-time notifications for 500k concurrent users?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre trading platform a besoin de données de marché en temps réel avec latence < 10ms — quelle architecture ?",
+    "should_trigger": true
+  },
+  {
+    "query": "operational transformation vs CRDT for our collaborative editor — which approach?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment scaler notre WebSocket server pour gérer 100k connexions simultanées ?",
+    "should_trigger": true
+  },
+  {
+    "query": "real-time multiplayer game architecture — state synchronization and conflict resolution?",
+    "should_trigger": true
+  },
+  {
+    "query": "live dashboard with real-time metrics — Phoenix LiveView vs React + WebSocket?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to set up Kafka for our event streaming pipeline?",
+    "should_trigger": false
+  },
+  {
+    "query": "implement Server-Sent Events for our notification system",
+    "should_trigger": false
+  },
+  {
+    "query": "our Kafka consumer is lagging, how to scale?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to build a real-time analytics dashboard with Redshift?",
+    "should_trigger": false
+  },
+  {
+    "query": "WebSocket implementation in Node.js with Socket.io",
+    "should_trigger": false
+  }
+]

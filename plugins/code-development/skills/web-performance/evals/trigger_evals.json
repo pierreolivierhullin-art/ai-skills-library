@@ -1,0 +1,50 @@
+[
+  {
+    "query": "notre LCP est à 4.2s sur mobile — comment identifier et corriger les problèmes de Core Web Vitals ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to reduce our Next.js bundle size from 800KB to under 200KB?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre Time to First Byte (TTFB) est mauvais — comment optimiser le serveur et la CDN ?",
+    "should_trigger": true
+  },
+  {
+    "query": "image optimization strategy for our e-commerce — WebP, lazy loading, responsive images, CDN?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement code splitting and lazy loading in our React SPA with 50+ routes?",
+    "should_trigger": true
+  },
+  {
+    "query": "render-blocking resources killing our FCP — how to defer non-critical CSS and JavaScript?",
+    "should_trigger": true
+  },
+  {
+    "query": "performance budget for our web app — how to set, measure, and enforce it in CI?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to improve SEO ranking for our website?",
+    "should_trigger": false
+  },
+  {
+    "query": "our React app re-renders too often — how to use memo and useMemo?",
+    "should_trigger": false
+  },
+  {
+    "query": "configure a CDN for our static assets",
+    "should_trigger": false
+  },
+  {
+    "query": "how to load test our API with 10k concurrent users?",
+    "should_trigger": false
+  },
+  {
+    "query": "our mobile app is slow — how to profile it?",
+    "should_trigger": false
+  }
+]

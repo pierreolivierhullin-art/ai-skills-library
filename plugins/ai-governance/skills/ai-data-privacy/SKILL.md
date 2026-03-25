@@ -1,7 +1,7 @@
 ---
 name: ai-data-privacy
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever ai data privacy topics arise — even if not explicitly requested. If there is any ai data privacy dimension in the conversation, this skill applies.
   Use this skill when the user asks about "EU AI Act", "AI regulation", "AI compliance", "AI data governance", "model cards", "datasheets for datasets", "bias audit", "algorithmic audit", "AI transparency", "high-risk AI", "prohibited AI", "AI impact assessment", "FRIA", "AI Act conformity", "trustworthy AI certification", "ISO 42001", "NIST AI RMF", discusses AI governance frameworks, AI-specific data rights, or needs guidance on complying with AI regulations, documenting AI systems, and conducting bias audits.
 ---
 
@@ -261,3 +261,9 @@ Complement aux model cards : documentation du dataset lui-meme.
 - Le machine unlearning est techniquement difficile : les obligations RGPD de droit a l'effacement appliquees aux modeles ML sont complexes a implementer en pratique
 - Les metriques d'equite ne capturent pas tous les biais : le biais algorithmique peut exister meme si les metriques formelles sont satisfaites (biais contextuel, historique)
 - Ne pas confondre transparence et explicabilite : un modele peut etre transparent (on sait ce qu'il fait) sans etre explicable (on ne comprend pas pourquoi il prend telle decision)
+
+## See Also
+
+- **juridique** (`entreprise/juridique`) — Legal compliance and GDPR
+- **ai-ethics** (`ai-governance/ai-ethics`) — Ethical dimensions of data use
+- **auth-security** (`code-development/auth-security`) — Technical data security

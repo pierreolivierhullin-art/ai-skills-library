@@ -1,8 +1,8 @@
 ---
 name: notion-knowledge-management
-description: This skill should be used when the user asks about "Notion workspace", "Obsidian vault", "knowledge management", "PKM", "personal knowledge management", "second brain", "Zettelkasten", "wiki team", "Confluence", "knowledge base", "documentation system", "note-taking system", "Notion databases", "Notion templates", "Notion API", "linked notes", "atomic notes", "digital garden", "gestion des connaissances", "base de connaissances", "wiki d'équipe", "système de notes", "documentation interne", "Notion avancé", "organisation de l'information", discusses knowledge management tools, note-taking systems, or needs guidance on building knowledge bases, team wikis, and personal knowledge management systems.
-version: 1.0.0
-last_updated: 2026-02
+description: Expert guide for "Notion workspace", "Obsidian vault", "knowledge management", "PKM", "personal knowledge management", "second brain", "Zettelkasten", "wiki team", "Confluence", "knowledge base", "documentation system", "note-taking system", "Notion databases", "Notion templates", "Notion API", "linked notes", "atomic notes", "digital garden", "gestion des connaissances", "base de connaissances", "wiki d'équipe", "système de notes", "documentation interne", "Notion avancé", "organisation de l'information", discusses knowledge management tools, note-taking systems, or needs guidance on building knowledge bases, team wikis, and personal knowledge management systems. Invoke this skill proactively whenever notion knowledge management topics arise — even if not explicitly requested. If there is any notion knowledge management dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Knowledge Management & PKM / Gestion des Connaissances
@@ -351,3 +351,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Methodes PKM](./references/pkm-methods.md)** : Zettelkasten en profondeur, methode PARA, Building a Second Brain, Progressive Summarization, Evergreen Notes, Digital Garden, outils PKM compares.
 - **[Wikis d'Equipe](./references/team-wikis.md)** : architecture de wikis, Confluence, Notion Team, gouvernance documentaire, types de contenu, adoption, metriques de sante du wiki.
 - **[Templates & Systemes](./references/templates-systems.md)** : design de templates, systemes relationnels, automatisation, scaling du personnel a l'organisation, lifecycle management, backup et export.
+
+## See Also
+
+- **collaboration-digitale** (`productivite/collaboration-digitale`) — Digital collaboration tools
+- **automatisation-workflows** (`productivite/automatisation-workflows`) — Notion automation and integrations

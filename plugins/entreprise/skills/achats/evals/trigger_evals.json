@@ -1,0 +1,54 @@
+[
+  {
+    "query": "on doit sourcer un nouveau fournisseur de services IT — comment structurer notre appel d'offres (RFP) ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a supplier risk management program for our critical suppliers?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre analyse de dépenses montre 60% de tail spend non maîtrisé — comment le rationaliser ?",
+    "should_trigger": true
+  },
+  {
+    "query": "category management approach for our IT software spend — how to structure and optimize?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment négocier un contrat pluriannuel avec notre fournisseur principal pour obtenir -15% ?",
+    "should_trigger": true
+  },
+  {
+    "query": "TCO analysis for our fleet management — how to calculate total cost of ownership beyond purchase price?",
+    "should_trigger": true
+  },
+  {
+    "query": "on implémente un outil e-procurement (Coupa, Jaggaer) — comment cadrer le projet ?",
+    "should_trigger": true
+  },
+  {
+    "query": "stratégie achats responsables pour notre CSR : comment intégrer les critères ESG dans nos appels d'offres ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to reduce our supply chain costs by 10%?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a vendor management system for our IT contracts",
+    "should_trigger": false
+  },
+  {
+    "query": "our inventory management is inefficient — how to optimize?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to negotiate a software license renewal with Microsoft?",
+    "should_trigger": false
+  },
+  {
+    "query": "implement a supplier portal for invoice management",
+    "should_trigger": false
+  }
+]

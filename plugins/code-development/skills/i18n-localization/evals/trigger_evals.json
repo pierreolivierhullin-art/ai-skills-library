@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on internationalise notre app React en 5 langues — react-i18next vs i18next vs LinguiJS — lequel choisir ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to handle RTL languages (Arabic, Hebrew) in our existing LTR web application?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre système de traduction est un fichier JSON de 5000 clés géré manuellement — comment industrialiser ?",
+    "should_trigger": true
+  },
+  {
+    "query": "localization for dates, currencies, and number formats across 15 countries — best practices?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment gérer le pluriel et les genres grammaticaux dans nos traductions (ICU message format) ?",
+    "should_trigger": true
+  },
+  {
+    "query": "translation management workflow — how to integrate Phrase/Lokalise with our CI/CD?",
+    "should_trigger": true
+  },
+  {
+    "query": "our URL structure for SEO in multiple languages — /en/ /fr/ subpaths vs ccTLDs vs subdomains?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement dark mode in our app with CSS variables?",
+    "should_trigger": false
+  },
+  {
+    "query": "GDPR requirements differ by country — how to handle consent?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to add French translation to our existing English documentation?",
+    "should_trigger": false
+  },
+  {
+    "query": "multi-tenant SaaS with country-specific features — architecture?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to make our app accessible in multiple languages for screen readers?",
+    "should_trigger": false
+  }
+]

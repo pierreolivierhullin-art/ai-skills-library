@@ -1,0 +1,50 @@
+[
+  {
+    "query": "comment organiser notre base de connaissances d'équipe dans Notion pour qu'elle reste à jour ?",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to build a personal second brain in Obsidian — how to structure my notes and links?",
+    "should_trigger": true
+  },
+  {
+    "query": "on est 15 dans l'équipe et notre Notion est le chaos total, comment le réorganiser ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a Notion CRM for a small sales team tracking deals and contacts?",
+    "should_trigger": true
+  },
+  {
+    "query": "Notion vs Confluence vs Coda for our 50-person startup's internal wiki?",
+    "should_trigger": true
+  },
+  {
+    "query": "je veux créer un système de prise de notes efficace pour mes réunions avec des templates",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement Zettelkasten method in Obsidian for research and writing?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to set up automated workflows between Notion and Slack?",
+    "should_trigger": false
+  },
+  {
+    "query": "I need to create a project management tool — should I use Jira or Linear?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to build a documentation site from our internal wiki?",
+    "should_trigger": false
+  },
+  {
+    "query": "manage team tasks and sprints with Asana",
+    "should_trigger": false
+  },
+  {
+    "query": "how to use ChatGPT to summarize meeting notes?",
+    "should_trigger": false
+  }
+]

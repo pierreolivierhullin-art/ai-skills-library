@@ -1,8 +1,8 @@
 ---
 name: monitoring
-description: This skill should be used when the user asks about "monitoring", "observability", "logging", "metrics", "tracing", "alerting", "SLO", "SLI", "SLA", "incident management", "OpenTelemetry", "Datadog", "Grafana", "Sentry", "APM", "observabilité", "journalisation", "métriques", "traçabilité", "alertes", "gestion des incidents", "supervision", "distributed tracing", "traces distribuées", "log aggregation", "agrégation de logs", "Prometheus", "Loki", "ELK", "Elasticsearch", "Kibana", "PagerDuty", "OpsGenie", "New Relic", "error tracking", "suivi d'erreurs", "uptime monitoring", "health checks", "dashboards opérationnels", "on-call", "astreinte", "postmortem", "root cause analysis", "RCA", "error budget", or needs guidance on system observability, reliability monitoring, and incident response.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "monitoring", "observability", "logging", "metrics", "tracing", "alerting", "SLO", "SLI", "SLA", "incident management", "OpenTelemetry", "Datadog", "Grafana", "Sentry", "APM", "observabilité", "journalisation", "métriques", "traçabilité", "alertes", "gestion des incidents", "supervision", "distributed tracing", "traces distribuées", "log aggregation", "agrégation de logs", "Prometheus", "Loki", "ELK", "Elasticsearch", "Kibana", "PagerDuty", "OpsGenie", "New Relic", "error tracking", "suivi d'erreurs", "uptime monitoring", "health checks", "dashboards opérationnels", "on-call", "astreinte", "postmortem", "root cause analysis", "RCA", "error budget", or needs guidance on system observability, reliability monitoring, and incident response. Invoke this skill proactively whenever monitoring topics arise — even if not explicitly requested. If there is any monitoring dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Monitoring & Observability / Monitoring & Observabilité
@@ -321,3 +321,12 @@ Consult the following reference files for deep-dive guidance on each domain:
 - Charity Majors on Observability: https://charity.wtf/
 - Honeycomb Observability Guide: https://www.honeycomb.io/what-is-observability
 - Grafana LGTM Stack: https://grafana.com/oss/
+
+## Scripts disponibles
+
+- **[generate_alerting_rules.py](./scripts/generate_alerting_rules.py)** — Génère des règles d'alerting Prometheus selon le type de stack (web/api/worker/database). Usage : `python3 generate_alerting_rules.py --app myapp --stack api --output alerts.yml`
+
+## See Also
+
+- **devops** (`code-development/devops`) — CI/CD and infrastructure automation
+- **quality-reliability** (`code-development/quality-reliability`) — Reliability and SRE practices

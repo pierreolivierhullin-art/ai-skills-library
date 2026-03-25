@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on doit ingérer 1M d'événements/seconde depuis nos capteurs IoT — Kafka vs Pulsar vs Kinesis ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement exactly-once semantics in our Kafka → Flink pipeline for financial transactions?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre pipeline CDC avec Debezium capture les changements Postgres — comment gérer les schema changes ?",
+    "should_trigger": true
+  },
+  {
+    "query": "windowing strategies in stream processing — tumbling vs sliding vs session windows for our use case?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment migrer de notre architecture Lambda (batch + streaming) vers Kappa (streaming only) ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Flink vs Spark Streaming vs ksqlDB for our real-time aggregation pipeline — tradeoffs?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement backpressure handling in our streaming pipeline to avoid OOM?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to set up Kafka for our microservices event bus?",
+    "should_trigger": false
+  },
+  {
+    "query": "real-time dashboard for our business metrics with WebSockets",
+    "should_trigger": false
+  },
+  {
+    "query": "implement a message queue with RabbitMQ for our job processing",
+    "should_trigger": false
+  },
+  {
+    "query": "our batch dbt pipeline runs take 4 hours — how to optimize?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to monitor our Kafka cluster?",
+    "should_trigger": false
+  }
+]

@@ -1,7 +1,7 @@
 ---
 name: time-series-forecasting
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever time series forecasting topics arise — even if not explicitly requested. If there is any time series forecasting dimension in the conversation, this skill applies.
   Time series forecasting, Prophet, ARIMA SARIMA, seasonal decomposition, trend analysis,
   anomaly detection time series, demand forecasting, revenue forecasting, sales prediction,
   statsmodels, scikit-learn time series, cross-validation temporal, LSTM forecasting,
@@ -387,3 +387,8 @@ def prevoir_ca_mensuel(historique: pd.DataFrame, mois_a_prevoir: int = 6) -> pd.
 - `references/prophet-advanced.md` — Saisonnalites custom, regresseurs, changepoints, tuning
 - `references/arima-sarima.md` — Methode Box-Jenkins, selection d'ordre, diagnostic des residus
 - `references/case-studies.md` — 4 cas : prevision demande e-commerce, CA SaaS, capacity cloud, fraude
+
+## See Also
+
+- **advanced-analytics** (`data-bi/advanced-analytics`) — Broader ML and predictive analytics
+- **quantitative-finance** (`finance-de-marche/quantitative-finance`) — Quantitative finance forecasting models

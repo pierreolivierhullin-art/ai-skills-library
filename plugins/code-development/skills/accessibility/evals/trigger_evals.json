@@ -1,0 +1,50 @@
+[
+  {
+    "query": "notre app doit être conforme WCAG 2.1 AA pour un client gouvernemental — par où commencer l'audit ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to make our React components keyboard-navigable and screen-reader compatible?",
+    "should_trigger": true
+  },
+  {
+    "query": "j'ai des images sans alt text, des contrastes insuffisants et des formulaires sans labels — comment prioriser les corrections ?",
+    "should_trigger": true
+  },
+  {
+    "query": "ARIA roles and attributes — when to use them and when they're harmful (ARIA antipatterns)?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to test accessibility automatically in our CI with axe-core and Playwright?",
+    "should_trigger": true
+  },
+  {
+    "query": "color contrast ratio requirements for WCAG — our design team needs guidelines for our design system",
+    "should_trigger": true
+  },
+  {
+    "query": "implement accessible modal dialogs and focus management in our React app",
+    "should_trigger": true
+  },
+  {
+    "query": "how to improve our website's SEO with semantic HTML?",
+    "should_trigger": false
+  },
+  {
+    "query": "design a dark mode for our app with CSS variables",
+    "should_trigger": false
+  },
+  {
+    "query": "how to make our app responsive for mobile devices?",
+    "should_trigger": false
+  },
+  {
+    "query": "write unit tests for our form validation",
+    "should_trigger": false
+  },
+  {
+    "query": "how to implement i18n for our French/English app?",
+    "should_trigger": false
+  }
+]

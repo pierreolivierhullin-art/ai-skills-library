@@ -1,7 +1,7 @@
 ---
 name: customer-analytics
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever customer analytics topics arise — even if not explicitly requested. If there is any customer analytics dimension in the conversation, this skill applies.
   Use this skill when the user asks about "customer analytics", "analyse client", "LTV", "CLV", "customer lifetime value", "RFM", "segmentation client", "cohort analysis", "churn prediction", "churn rate", "retention analysis", "customer 360", "customer health score", "NPS analyse", "customer segmentation", "ARPU", "CAC LTV ratio", "churn modeling", "customer journey analytics", "behavioral segmentation", discusses measuring customer behavior, predicting churn, calculating lifetime value, or needs guidance on customer data analysis and retention strategy.
 ---
 
@@ -468,3 +468,9 @@ def calculate_health_score(customer: dict) -> int:
 | **3 — Cohortes** | Analyse de retention par cohorte, CLV historique |
 | **4 — Predictif** | Modele de churn en production, CLV predictif |
 | **5 — Real-Time** | Health score temps reel, intervention automatique, CLV comme KPI nord |
+
+## See Also
+
+- **marketing** (`entreprise/marketing`) — Marketing use cases for customer analytics
+- **commercial** (`entreprise/commercial`) — Sales analytics and pipeline data
+- **ab-testing-experimentation** (`data-bi/ab-testing-experimentation`) — Experimentation on customer segments

@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on veut construire un outil interne pour gérer nos interventions terrain sans coder — Airtable ou Retool ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a client portal with Softr connected to our Airtable database?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre équipe RH veut un formulaire d'onboarding automatisé qui met à jour notre ATS — solution no-code ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Bubble vs FlutterFlow for building our MVP mobile app without a developer?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment créer une base de données relationnelle dans Airtable avec des linked records et des rollups ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Retool for our internal admin panel — how to connect it to our PostgreSQL and build CRUD interfaces?",
+    "should_trigger": true
+  },
+  {
+    "query": "AppSheet vs Glide for our field technicians app — which is better for offline mobile use?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to automate our lead qualification workflow with n8n and Airtable?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a SaaS application — should I use Webflow or code it?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to create a Notion database for project management?",
+    "should_trigger": false
+  },
+  {
+    "query": "our WordPress site needs a custom booking form",
+    "should_trigger": false
+  },
+  {
+    "query": "how to build a custom CRM with code for our sales team?",
+    "should_trigger": false
+  }
+]

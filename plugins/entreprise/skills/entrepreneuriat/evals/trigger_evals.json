@@ -1,0 +1,54 @@
+[
+  {
+    "query": "je veux lancer une startup dans la GreenTech — comment valider mon idée avec le minimum de ressources ?",
+    "should_trigger": true
+  },
+  {
+    "query": "lean startup methodology for validating our B2B SaaS concept — what experiments to run?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment passer du statut de freelance à la création d'une vraie entreprise avec des associés ?",
+    "should_trigger": true
+  },
+  {
+    "query": "we're at €50k MRR and considering raising a Series A — how do we know if we're ready?",
+    "should_trigger": true
+  },
+  {
+    "query": "quelle structure juridique choisir pour ma startup : SAS, SASU, ou autre ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to find co-founders for my startup? what to look for and how to structure the equity split?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre startup est en phase de croissance — comment organiser l'équipe et déléguer sans perdre la culture ?",
+    "should_trigger": true
+  },
+  {
+    "query": "business model canvas pour mon idée de marketplace — comment le remplir et identifier les hypothèses ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to raise a Series A from VCs — deck, metrics, process?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a financial model for my startup",
+    "should_trigger": false
+  },
+  {
+    "query": "how to price my SaaS product?",
+    "should_trigger": false
+  },
+  {
+    "query": "our startup needs a marketing strategy for growth",
+    "should_trigger": false
+  },
+  {
+    "query": "how to manage a remote team as a startup founder?",
+    "should_trigger": false
+  }
+]

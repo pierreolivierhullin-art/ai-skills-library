@@ -1,0 +1,50 @@
+[
+  {
+    "query": "comment calculer la taille d'échantillon pour notre A/B test avec un effet attendu de 5% ?",
+    "should_trigger": true
+  },
+  {
+    "query": "we peeked at our A/B test early and stopped it — how bad is this and how to correct?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre A/B test montre un effet positif mais le SRM (Sample Ratio Mismatch) est flagrant — que faire ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Bayesian vs frequentist A/B testing — which approach for our fast-moving e-commerce team?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to detect and handle novelty effects in our feature experimentation?",
+    "should_trigger": true
+  },
+  {
+    "query": "multivariate testing vs sequential A/B tests — our team wants to test 4 variants simultaneously",
+    "should_trigger": true
+  },
+  {
+    "query": "comment construire une plateforme d'expérimentation interne pour notre équipe produit de 30 personnes ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to analyze our conversion funnel to find optimization opportunities?",
+    "should_trigger": false
+  },
+  {
+    "query": "set up Google Optimize for our landing page tests",
+    "should_trigger": false
+  },
+  {
+    "query": "how to do user research to validate our hypothesis?",
+    "should_trigger": false
+  },
+  {
+    "query": "our feature adoption rate is low — how to improve it?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to measure the impact of our marketing campaign?",
+    "should_trigger": false
+  }
+]

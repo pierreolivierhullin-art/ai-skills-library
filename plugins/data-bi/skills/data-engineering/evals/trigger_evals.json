@@ -1,0 +1,22 @@
+[
+  {"query": "On doit construire notre premier data warehouse sur Snowflake — aide-moi à concevoir l'architecture", "should_trigger": true},
+  {"query": "Comment structurer nos pipelines ETL avec dbt pour transformer les données de notre ERP SAP ?", "should_trigger": true},
+  {"query": "Je dois migrer nos jobs Spark vers Airflow — comment organiser les DAGs et les dépendances ?", "should_trigger": true},
+  {"query": "On veut implémenter une architecture Medallion (Bronze/Silver/Gold) sur Databricks — par où commencer ?", "should_trigger": true},
+  {"query": "Notre pipeline d'ingestion de données e-commerce tombe en production tous les lundis matin — comment le fiabiliser ?", "should_trigger": true},
+  {"query": "help me design a streaming data pipeline for real-time inventory updates using Kafka and Spark", "should_trigger": true},
+  {"query": "Comment gérer le schéma évolutif de nos sources de données dans un data lake sans casser les pipelines existants ?", "should_trigger": true},
+  {"query": "On ingère 50 sources différentes — quelle stratégie d'orchestration avec Airflow ou Prefect ?", "should_trigger": true},
+  {"query": "Comment mettre en place du data lineage pour tracer l'origine de chaque donnée dans notre DWH ?", "should_trigger": true},
+  {"query": "Aide-moi à écrire les tests dbt pour valider la qualité de nos transformations métier", "should_trigger": true},
+  {"query": "we need to ingest 100GB/day of clickstream data into BigQuery — what's the best architecture ?", "should_trigger": true},
+  {"query": "Comment implémenter le CDC (Change Data Capture) depuis notre base PostgreSQL vers notre data lake ?", "should_trigger": true},
+  {"query": "On veut passer de batch à near-real-time pour nos pipelines de données marketing — quelle stack choisir ?", "should_trigger": true},
+  {"query": "Aide-moi à construire un pipeline de feature engineering pour notre modèle de churn ML", "should_trigger": true},
+  {"query": "Comment optimiser les coûts de notre data warehouse BigQuery qui explose à 8K€/mois ?", "should_trigger": true},
+  {"query": "Notre dashboard Looker se charge en 30 secondes — comment analyser les KPIs pour le COMEX ?", "should_trigger": false},
+  {"query": "Je veux construire un modèle de churn prediction avec XGBoost sur nos données clients", "should_trigger": false},
+  {"query": "Comment écrire une requête SQL pour calculer la LTV de nos clients par cohorte ?", "should_trigger": false},
+  {"query": "aide-moi à créer un schema de base de données PostgreSQL pour notre app SaaS", "should_trigger": false},
+  {"query": "Comment optimiser nos requêtes SQL qui mettent 20 secondes sur notre base OLTP ?", "should_trigger": false}
+]

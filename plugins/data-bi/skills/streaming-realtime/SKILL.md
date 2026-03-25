@@ -1,7 +1,7 @@
 ---
 name: streaming-realtime
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever streaming realtime topics arise — even if not explicitly requested. If there is any streaming realtime dimension in the conversation, this skill applies.
   Use this skill when the user asks about "streaming data", "real-time analytics", "Kafka", "Apache Flink", "Spark Streaming", "event streaming", "event-driven architecture", "CDC change data capture", "event sourcing", "CQRS", "message queue", "pub-sub", "Kinesis", "Pub/Sub Google", "real-time dashboard", "stream processing", "watermarks", "windowing", "exactly-once semantics", discusses processing data in real-time, building event-driven systems, or needs guidance on streaming infrastructure and real-time data pipelines.
 ---
 
@@ -353,3 +353,9 @@ SELECT * FROM live_revenue ORDER BY minute DESC LIMIT 10;
 | **3 — Kafka basique** | Transport d'evenements, consumers simples, pas de processing avance |
 | **4 — Stream Processing** | Flink ou ksqlDB, windowing, detection d'anomalies, CDC |
 | **5 — Streaming-First** | Event sourcing, CQRS, real-time ML inference, zero-latency analytics |
+
+## See Also
+
+- **data-engineering** (`data-bi/data-engineering`) — Batch pipelines complement to streaming
+- **real-time-systems** (`code-development/real-time-systems`) — Real-time systems architecture
+- **distributed-systems** (`code-development/distributed-systems`) — Distributed streaming patterns

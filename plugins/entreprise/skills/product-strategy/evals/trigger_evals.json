@@ -1,0 +1,54 @@
+[
+  {
+    "query": "notre roadmap produit est une liste de features sans stratégie — comment la transformer en vision cohérente ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to assess product-market fit for our B2B SaaS? we have 50 customers but retention is mixed",
+    "should_trigger": true
+  },
+  {
+    "query": "comment prioriser notre backlog entre 3 équipes produit avec des OKRs divergents ?",
+    "should_trigger": true
+  },
+  {
+    "query": "product-led growth strategy for our developer tool — how to design the self-serve funnel?",
+    "should_trigger": true
+  },
+  {
+    "query": "we have a 'feature factory' problem — how to shift to outcome-based product management?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment structurer notre discovery produit avec le continuous discovery habits framework ?",
+    "should_trigger": true
+  },
+  {
+    "query": "build vs buy vs partner decision for a key feature — how to frame the analysis?",
+    "should_trigger": true
+  },
+  {
+    "query": "opportunity solution tree pour notre problème de rétention — comment le construire avec l'équipe ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to run a design sprint for our new product concept?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to write user stories for our development team?",
+    "should_trigger": false
+  },
+  {
+    "query": "our product roadmap needs to align with our fundraising narrative",
+    "should_trigger": false
+  },
+  {
+    "query": "how to prioritize features using RICE scoring?",
+    "should_trigger": false
+  },
+  {
+    "query": "competitive analysis of our main product competitors",
+    "should_trigger": false
+  }
+]

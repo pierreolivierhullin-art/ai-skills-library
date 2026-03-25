@@ -1,7 +1,7 @@
 ---
 name: ux-engineering
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever ux engineering topics arise — even if not explicitly requested. If there is any ux engineering dimension in the conversation, this skill applies.
   user flow parcours utilisateur user journey onboarding first-run experience,
   progressive onboarding activation flow onboarding flow,
   conversion optimization CRO taux de conversion checkout flow parcours d'achat,
@@ -948,3 +948,8 @@ Anti-patterns à éviter
 - `references/onboarding.md` — Onboarding SaaS avancé (Product-led Growth, activation loops, email nurturing, tooltips contextuels), wizard multi-étapes, checklists gamifiées, métriques d'activation (time-to-value, activation rate)
 - `references/conversion-ux.md` — CRO pour développeurs (audit de friction, form UX avec React Hook Form + Zod, checkout optimization, optimistic UI, trust signals, mobile conversion avec Payment Request API)
 - `references/ux-patterns.md` — Bibliothèque de patterns UX : empty states, skeleton screens, toast notifications, confirmation dialogs, micro-interactions Framer Motion, error boundaries, progressive disclosure
+
+## See Also
+
+- **ux-research** (`code-development/ux-research`) — UX research and usability testing
+- **frontend-frameworks** (`code-development/frontend-frameworks`) — Frontend implementation of UX

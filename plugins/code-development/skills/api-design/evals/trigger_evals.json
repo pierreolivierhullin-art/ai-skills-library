@@ -1,0 +1,66 @@
+[
+  {
+    "query": "je dois designer une API REST pour mon app de gestion de projets, par où commencer ?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment structurer mes endpoints pour une API de e-commerce ? j'hésite entre /orders/{id}/items et /items?orderId=",
+    "should_trigger": true
+  },
+  {
+    "query": "REST vs GraphQL pour mon nouveau backend, lequel choisir ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how do I handle API versioning without breaking existing clients? we're on v1 and need to make breaking changes",
+    "should_trigger": true
+  },
+  {
+    "query": "quel format d'erreur utiliser dans mon API ? actuellement je renvoie juste des HTTP 400 avec un message texte",
+    "should_trigger": true
+  },
+  {
+    "query": "quelle stratégie de pagination pour mon API avec 500k records ? offset vs cursor ?",
+    "should_trigger": true
+  },
+  {
+    "query": "j'ai besoin de définir les contrats d'API entre le frontend et le backend de mon SaaS, on part de zéro",
+    "should_trigger": true
+  },
+  {
+    "query": "how to design idempotent APIs for payment endpoints?",
+    "should_trigger": true
+  },
+  {
+    "query": "our mobile app and web app need different API responses, should we have separate endpoints or use field filtering?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment documenter mon API avec OpenAPI 3.0 et générer des clients automatiquement",
+    "should_trigger": true
+  },
+  {
+    "query": "help me implement a POST /users endpoint in Express.js",
+    "should_trigger": false
+  },
+  {
+    "query": "my API is returning 500 errors, how do I debug this?",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I add JWT authentication to my existing API?",
+    "should_trigger": false
+  },
+  {
+    "query": "I need to call the Stripe API from my backend, how do I handle webhooks?",
+    "should_trigger": false
+  },
+  {
+    "query": "our API is slow, how do I add Redis caching to reduce DB queries?",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I rate-limit my API endpoints in Nginx?",
+    "should_trigger": false
+  }
+]

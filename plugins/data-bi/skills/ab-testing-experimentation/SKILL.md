@@ -1,7 +1,7 @@
 ---
 name: ab-testing-experimentation
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever ab testing experimentation topics arise — even if not explicitly requested. If there is any ab testing experimentation dimension in the conversation, this skill applies.
   A/B testing methodology, statistical significance, p-value, confidence interval,
   sample size calculation, Bayesian experimentation, frequentist hypothesis testing,
   online controlled experiments, feature flags, multivariate testing, conversion optimization,
@@ -347,3 +347,9 @@ def verifier_srm(n_controle: int, n_variante: int, ratio_attendu: float = 0.5) -
 - `references/bayesian-testing.md` — Approche bayesienne, Thompson Sampling, Multi-Armed Bandit
 - `references/experimentation-platform.md` — Architecture, feature flags, Statsig, LaunchDarkly
 - `references/case-studies.md` — 4 cas : test checkout e-commerce, pricing page SaaS, onboarding app
+
+## See Also
+
+- **customer-analytics** (`data-bi/customer-analytics`) — Customer segmentation and A/B
+- **advanced-analytics** (`data-bi/advanced-analytics`) — Statistical methods and causal inference
+- **product-strategy** (`entreprise/product-strategy`) — Product decisions via experimentation

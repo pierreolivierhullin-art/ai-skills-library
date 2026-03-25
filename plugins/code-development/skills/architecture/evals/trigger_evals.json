@@ -1,0 +1,58 @@
+[
+  {
+    "query": "on hésite entre monolith et microservices pour notre startup SaaS B2B, on a 3 devs",
+    "should_trigger": true
+  },
+  {
+    "query": "how do I apply Domain-Driven Design to our e-commerce platform? we're struggling with bounded contexts",
+    "should_trigger": true
+  },
+  {
+    "query": "notre système commence à scaler, on doit décider comment découper nos services",
+    "should_trigger": true
+  },
+  {
+    "query": "I need to write an Architecture Decision Record for choosing between event-sourcing and CRUD",
+    "should_trigger": true
+  },
+  {
+    "query": "quelle architecture pour un système de notifications temps réel pour 1M d'utilisateurs ?",
+    "should_trigger": true
+  },
+  {
+    "query": "we're doing a big refactoring, should we use hexagonal architecture or clean architecture?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment organiser mon codebase React/Node pour qu'il scale avec l'équipe ?",
+    "should_trigger": true
+  },
+  {
+    "query": "on doit choisir entre CQRS et une architecture classique pour notre nouveau projet de reporting",
+    "should_trigger": true
+  },
+  {
+    "query": "help me implement a specific repository pattern in TypeScript",
+    "should_trigger": false
+  },
+  {
+    "query": "my microservice is crashing, how do I debug the memory leak?",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I configure Kubernetes for my existing microservices?",
+    "should_trigger": false
+  },
+  {
+    "query": "write me a factory pattern in Python",
+    "should_trigger": false
+  },
+  {
+    "query": "our database queries are slow, how to optimise them?",
+    "should_trigger": false
+  },
+  {
+    "query": "comment configurer le monitoring de mes services avec Prometheus?",
+    "should_trigger": false
+  }
+]

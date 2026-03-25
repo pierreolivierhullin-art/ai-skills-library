@@ -1,0 +1,54 @@
+[
+  {
+    "query": "je veux automatiser l'envoi de rapports hebdomadaires depuis Notion vers Slack sans coder, quelle solution ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build an n8n workflow that reads new Airtable records and creates tasks in Asana?",
+    "should_trigger": true
+  },
+  {
+    "query": "je dois automatiser la facturation de mes clients : créer facture PDF + envoyer par email + marquer payé dans mon CRM",
+    "should_trigger": true
+  },
+  {
+    "query": "Make (Integromat) vs Zapier vs n8n for our marketing automation stack — which to choose?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to automate lead enrichment: new HubSpot contact → enrich with Clearbit → update CRM",
+    "should_trigger": true
+  },
+  {
+    "query": "comment créer un workflow Power Automate pour approuver les demandes de congés dans Teams ?",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to auto-post our blog articles to LinkedIn, Twitter, and newsletter on publish",
+    "should_trigger": true
+  },
+  {
+    "query": "build a no-code chatbot for our website FAQ that connects to our knowledge base",
+    "should_trigger": true
+  },
+  {
+    "query": "write a Python script to automate file renaming in bulk",
+    "should_trigger": false
+  },
+  {
+    "query": "setup a CI/CD pipeline for our Node.js app with GitHub Actions",
+    "should_trigger": false
+  },
+  {
+    "query": "how to schedule a cron job on our Linux server?",
+    "should_trigger": false
+  },
+  {
+    "query": "I need to build a full SaaS app with no-code tools — Bubble vs Webflow?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to manage time and priorities using GTD methodology?",
+    "should_trigger": false
+  }
+]

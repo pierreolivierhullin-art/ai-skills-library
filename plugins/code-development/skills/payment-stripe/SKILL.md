@@ -1,8 +1,8 @@
 ---
 name: payment-stripe
-description: This skill should be used when the user asks about "Stripe integration", "payment processing", "subscription billing", "PCI compliance", "checkout", "webhooks", "Stripe Connect", "payment intents", "recurring payments", "invoicing", "metered billing", "SCA", "3D Secure", "intégration Stripe", "traitement des paiements", "facturation récurrente", "conformité PCI", "paiements récurrents", "facturation", "abonnements", "subscriptions", "pricing page", "page de tarification", "Stripe Elements", "Stripe Checkout", "customer portal", "portail client", "proration", "prorata", "coupons", "promotions", "refunds", "remboursements", "disputes", "litiges", "Stripe Tax", "marketplace payments", "paiements marketplace", "payment links", "Apple Pay", "Google Pay", or needs guidance on payment implementation and monetization.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "Stripe integration", "payment processing", "subscription billing", "PCI compliance", "checkout", "webhooks", "Stripe Connect", "payment intents", "recurring payments", "invoicing", "metered billing", "SCA", "3D Secure", "intégration Stripe", "traitement des paiements", "facturation récurrente", "conformité PCI", "paiements récurrents", "facturation", "abonnements", "subscriptions", "pricing page", "page de tarification", "Stripe Elements", "Stripe Checkout", "customer portal", "portail client", "proration", "prorata", "coupons", "promotions", "refunds", "remboursements", "disputes", "litiges", "Stripe Tax", "marketplace payments", "paiements marketplace", "payment links", "Apple Pay", "Google Pay", or needs guidance on payment implementation and monetization. Invoke this skill proactively whenever payment stripe topics arise — even if not explicitly requested. If there is any payment stripe dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Payment Stripe
@@ -330,3 +330,8 @@ Consulter les fichiers de reference pour un approfondissement detaille :
 - **[Revenue & Integration](./references/revenue-integration.md)** : Revenue recognition (ASC 606, IFRS 15), Stripe Tax, integration comptable (journal entries, ERP sync), reporting financier & reconciliation, gestion des remboursements/litiges/chargebacks, multi-devise & FX, Stripe Sigma & Data Pipeline.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **auth-security** (`code-development/auth-security`) — Authentication and PCI compliance
+- **finance** (`entreprise/finance`) — Financial modeling and revenue operations

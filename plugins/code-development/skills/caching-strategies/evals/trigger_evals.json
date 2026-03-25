@@ -1,0 +1,54 @@
+[
+  {
+    "query": "nos requêtes DB product catalog prennent 800ms, comment mettre en cache avec Redis pour descendre sous 50ms ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement cache invalidation when product data changes? we're seeing stale data issues",
+    "should_trigger": true
+  },
+  {
+    "query": "Redis vs Memcached for our session storage — we have 500k concurrent users",
+    "should_trigger": true
+  },
+  {
+    "query": "comment éviter le cache stampede quand notre cache expire et que 1000 requêtes arrivent simultanément ?",
+    "should_trigger": true
+  },
+  {
+    "query": "multi-level caching strategy: what to put in L1 memory cache vs Redis vs CDN?",
+    "should_trigger": true
+  },
+  {
+    "query": "j'implémente un rate limiter sur mon API avec Redis sliding window — quelle approche ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement a leaderboard with real-time rankings for 1M users using Redis sorted sets?",
+    "should_trigger": true
+  },
+  {
+    "query": "stale-while-revalidate pattern for our API — when to use it vs strict TTL?",
+    "should_trigger": true
+  },
+  {
+    "query": "my Redis instance is using 80% memory, how to optimize?",
+    "should_trigger": false
+  },
+  {
+    "query": "configure Redis Sentinel for high availability in production",
+    "should_trigger": false
+  },
+  {
+    "query": "how to add a CDN to our static website?",
+    "should_trigger": false
+  },
+  {
+    "query": "our API is slow, should I switch to GraphQL?",
+    "should_trigger": false
+  },
+  {
+    "query": "browser caching with HTTP headers — Cache-Control explained",
+    "should_trigger": false
+  }
+]

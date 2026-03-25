@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on passe en full remote avec 30 personnes — comment structurer notre Slack pour éviter le chaos d'information ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to facilitate a virtual strategy workshop with 20 executives using Miro — agenda and templates?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre équipe hybride a du mal à collaborer — les gens en télétravail se sentent exclus des réunions — que faire ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Microsoft Teams vs Slack for our 200-person company — we're already on M365, should we just use Teams?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to use Loom for async communication to replace our daily standups and reduce meeting fatigue?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment définir notre charte de communication asynchrone pour une équipe distribuée sur 3 fuseaux horaires ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Miro vs FigJam vs Mural for our design thinking workshops — which whiteboard tool?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to manage our Notion wiki for team knowledge management?",
+    "should_trigger": false
+  },
+  {
+    "query": "automate our Slack notifications for new GitHub PRs",
+    "should_trigger": false
+  },
+  {
+    "query": "how to set up a project management process for our remote team?",
+    "should_trigger": false
+  },
+  {
+    "query": "our team communication via email is inefficient — should we switch to a chat tool?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to run effective retrospectives for our agile team?",
+    "should_trigger": false
+  }
+]

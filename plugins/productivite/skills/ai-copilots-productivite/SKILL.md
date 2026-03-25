@@ -1,8 +1,8 @@
 ---
 name: ai-copilots-productivite
-description: This skill should be used when the user asks about "Microsoft 365 Copilot", "Copilot in Word", "Copilot in Excel", "Copilot in PowerPoint", "Copilot in Teams", "Copilot in Outlook", "Google Gemini Workspace", "Gemini in Docs", "Gemini in Sheets", "AI productivity tools", "ChatGPT for work", "Claude for productivity", "AI writing assistant", "AI meeting summary", "AI email drafting", "GitHub Copilot", "AI agents personal", "copilotes IA", "productivité augmentée", "IA bureautique", "assistant IA", "automatisation IA", "prompts bureautiques", "agents IA personnels", "IA dans Office", "IA dans Google Workspace", discusses AI copilots for productivity, AI-powered office tools, or needs guidance on leveraging AI assistants in daily work, Microsoft 365 Copilot, Google Gemini, and personal AI workflows.
-version: 1.0.0
-last_updated: 2026-02
+description: Expert guide for "Microsoft 365 Copilot", "Copilot in Word", "Copilot in Excel", "Copilot in PowerPoint", "Copilot in Teams", "Copilot in Outlook", "Google Gemini Workspace", "Gemini in Docs", "Gemini in Sheets", "AI productivity tools", "ChatGPT for work", "Claude for productivity", "AI writing assistant", "AI meeting summary", "AI email drafting", "GitHub Copilot", "AI agents personal", "copilotes IA", "productivité augmentée", "IA bureautique", "assistant IA", "automatisation IA", "prompts bureautiques", "agents IA personnels", "IA dans Office", "IA dans Google Workspace", discusses AI copilots for productivity, AI-powered office tools, or needs guidance on leveraging AI assistants in daily work, Microsoft 365 Copilot, Google Gemini, and personal AI workflows. Invoke this skill proactively whenever ai copilots productivite topics arise — even if not explicitly requested. If there is any ai copilots productivite dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # AI Copilots & Productivite Augmentee / AI Copilots & Augmented Productivity
@@ -345,3 +345,8 @@ Consult these reference files for deep dives on each topic area:
 - **[Workflows IA & Prompts Bureautiques](./references/ai-workflows-prompts.md)** — Patterns de prompt engineering pour la productivite (role, contexte, format, exemples), templates de prompts par cas d'usage (email, resume, analyse, brainstorming), chaines de prompts pour taches complexes, IA pour la redaction, l'analyse de donnees, la communication, construction d'une bibliotheque de prompts, automatisation IA avec N8N, Make, Power Automate, Custom GPTs et Claude Projects.
 
 - **[Agents IA Personnels](./references/ai-agents-personal.md)** — Concept et architecture des agents IA personnels, Claude Code et MCP (Model Context Protocol), Custom GPTs (OpenAI), Claude Projects et instructions custom, agents pour le triage email, la recherche, le scheduling, la creation de contenu, workflows multi-etapes, tool use et function calling, securite et privacy, tendances 2026, build vs buy, evaluation et monitoring.
+
+## See Also
+
+- **strategie-ia** (`ai-governance/strategie-ia`) — AI strategy for organisations
+- **automatisation-workflows** (`productivite/automatisation-workflows`) — AI-powered workflow automation

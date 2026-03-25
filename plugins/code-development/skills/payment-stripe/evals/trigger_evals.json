@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on intègre Stripe pour notre SaaS B2B avec abonnements, trials et seat-based pricing — par où commencer ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to handle Stripe webhooks reliably — idempotency, retries, and signature verification?",
+    "should_trigger": true
+  },
+  {
+    "query": "je dois implémenter un système de facturation avec Stripe Billing : plans, upgrades, downgrades, proration",
+    "should_trigger": true
+  },
+  {
+    "query": "Stripe vs Paddle vs Braintree for our marketplace with split payments — which to choose?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment gérer les paiements échoués et la dunning (relances) pour réduire le churn involontaire ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement usage-based billing in Stripe for our API product (metered billing)?",
+    "should_trigger": true
+  },
+  {
+    "query": "PCI DSS compliance for our checkout — what do we need to implement?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment optimiser notre checkout flow pour réduire les abandons de paiement ?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a financial model for our SaaS pricing",
+    "should_trigger": false
+  },
+  {
+    "query": "how to handle VAT and tax collection for our EU customers?",
+    "should_trigger": false
+  },
+  {
+    "query": "setup fraud detection for our e-commerce platform",
+    "should_trigger": false
+  },
+  {
+    "query": "how to implement a shopping cart in React?",
+    "should_trigger": false
+  }
+]

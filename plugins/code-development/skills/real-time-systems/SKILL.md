@@ -1,7 +1,7 @@
 ---
 name: real-time-systems
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever real time systems topics arise — even if not explicitly requested. If there is any real time systems dimension in the conversation, this skill applies.
   WebSockets real-time applications, Server-Sent Events SSE, Socket.io rooms namespaces,
   real-time state synchronization, pub/sub patterns, presence channels online users,
   collaborative editing CRDT conflict-free replicated data types, operational transform,
@@ -425,3 +425,8 @@ function useWebSocket<T>(url: string) {
 - `references/pub-sub-scaling.md` — Redis pub/sub, NATS, Kafka pour temps réel, Socket.io adapters, multi-région
 - `references/realtime-state.md` — CRDT (Yjs, Automerge), présence avancée, curseurs collaboratifs, conflict resolution
 - `references/case-studies.md` — 4 cas : chat d'équipe, dashboard métriques live, éditeur collaboratif, notifications multi-canal
+
+## See Also
+
+- **streaming-realtime** (`data-bi/streaming-realtime`) — Streaming analytics and Kafka
+- **distributed-systems** (`code-development/distributed-systems`) — Distributed systems patterns

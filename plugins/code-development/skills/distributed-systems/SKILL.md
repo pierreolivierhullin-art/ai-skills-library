@@ -1,7 +1,7 @@
 ---
 name: distributed-systems
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever distributed systems topics arise — even if not explicitly requested. If there is any distributed systems dimension in the conversation, this skill applies.
   Distributed systems patterns, event sourcing, CQRS command query responsibility segregation,
   saga pattern choreography orchestration, outbox pattern transactional messaging,
   domain events, eventual consistency, message queues Kafka RabbitMQ,
@@ -392,3 +392,8 @@ class CircuitBreaker<T> {
 - `references/messaging-patterns.md` — Kafka topologie, RabbitMQ exchanges, choreography, outbox avec Debezium
 - `references/resilience-patterns.md` — Circuit breaker, retry exponentiel, bulkhead, timeout, rate limiting distribué
 - `references/case-studies.md` — 4 cas : monolithe→micro-services, saga e-commerce, outbox pattern, event sourcing caisse
+
+## See Also
+
+- **backend-db** (`code-development/backend-db`) — Database design for distributed workloads
+- **real-time-systems** (`code-development/real-time-systems`) — Real-time messaging and event streaming

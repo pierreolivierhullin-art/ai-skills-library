@@ -1,8 +1,8 @@
 ---
 name: strategie-ia
-description: This skill should be used when the user asks about "AI strategy", "AI maturity", "AI roadmap", "AI governance", "MLOps", "model lifecycle", "AI Center of Excellence", "AI literacy", "build vs buy AI", "AI use case prioritization", "stratégie IA", "maturité IA", "feuille de route IA", "gouvernance IA", "cycle de vie des modèles", "centre d'excellence IA", "acculturation IA", "culture IA", "AI adoption", "adoption de l'IA", "AI transformation", "transformation par l'IA", "AI ROI", "retour sur investissement IA", "AI talent", "compétences IA", "AI operating model", "modèle opérationnel IA", "AI ethics board", "comité éthique IA", "responsible AI governance", "AI portfolio", "AI budget", "make or buy IA", or needs guidance on enterprise AI strategy, model governance, and AI organization.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "AI strategy", "AI maturity", "AI roadmap", "AI governance", "MLOps", "model lifecycle", "AI Center of Excellence", "AI literacy", "build vs buy AI", "AI use case prioritization", "stratégie IA", "maturité IA", "feuille de route IA", "gouvernance IA", "cycle de vie des modèles", "centre d'excellence IA", "acculturation IA", "culture IA", "AI adoption", "adoption de l'IA", "AI transformation", "transformation par l'IA", "AI ROI", "retour sur investissement IA", "AI talent", "compétences IA", "AI operating model", "modèle opérationnel IA", "AI ethics board", "comité éthique IA", "responsible AI governance", "AI portfolio", "AI budget", "make or buy IA", or needs guidance on enterprise AI strategy, model governance, and AI organization. Invoke this skill proactively whenever strategie ia topics arise — even if not explicitly requested. If there is any strategie ia dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Enterprise AI Strategy & Governance
@@ -299,3 +299,9 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[AI Regulatory Frameworks](./references/ai-regulatory-frameworks.md)** : EU AI Act (classification des risques, obligations par niveau), NIST AI RMF (fonctions Govern/Map/Measure/Manage), ISO 42001 (systeme de management de l'IA), reglementations sectorielles, paysage international de la gouvernance IA.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **strategie** (`entreprise/strategie`) — Corporate strategy with AI integration
+- **ai-engineering** (`code-development/ai-engineering`) — Technical AI implementation
+- **ai-implementation** (`ai-governance/ai-implementation`) — AI project delivery and deployment

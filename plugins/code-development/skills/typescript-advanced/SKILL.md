@@ -1,7 +1,7 @@
 ---
 name: typescript-advanced
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever typescript advanced topics arise — even if not explicitly requested. If there is any typescript advanced dimension in the conversation, this skill applies.
   Advanced TypeScript, conditional types, mapped types, template literal types,
   infer keyword, branded types, type narrowing, discriminated unions, variance,
   generic constraints, declaration merging, module augmentation, utility types,
@@ -405,3 +405,8 @@ const port = parseInt(process.env.PORT ?? '3000', 10);
 - `references/generics-patterns.md` — Builder pattern, Factory, variance covariant/contravariant, higher-kinded types
 - `references/typescript-config.md` — tsconfig par environnement, project references, declaration files, compiler API
 - `references/case-studies.md` — 4 cas : migration strict mode, API type-safe Zod, ORM type-safe, monorepo types partagés
+
+## See Also
+
+- **code-excellence** (`code-development/code-excellence`) — Code quality and type safety
+- **frontend-frameworks** (`code-development/frontend-frameworks`) — TypeScript in React/Next.js

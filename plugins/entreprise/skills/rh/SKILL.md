@@ -1,8 +1,8 @@
 ---
 name: rh
-description: This skill should be used when the user asks about "HR strategy", "talent acquisition", "employee engagement", "compensation benchmarking", "people analytics", "DEI programs", "stratégie RH", "ressources humaines", "recrutement", "marque employeur", "employer branding", "onboarding", "intégration", "formation", "training", "L&D", "learning and development", "performance management", "gestion de la performance", "entretien annuel", "grille salariale", "rémunération", "avantages sociaux", "benefits", "workforce planning", "GPEC", "GEPP", "droit du travail", "French labor law", "SIRH", "HRIS", "turnover", "rétention", "engagement collaborateur", "QVT", "qualité de vie au travail", "CSE", "diversité inclusion", discusses performance management, workforce planning, or needs guidance on French labor law, SIRH, or organizational development.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "HR strategy", "talent acquisition", "employee engagement", "compensation benchmarking", "people analytics", "DEI programs", "stratégie RH", "ressources humaines", "recrutement", "marque employeur", "employer branding", "onboarding", "intégration", "formation", "training", "L&D", "learning and development", "performance management", "gestion de la performance", "entretien annuel", "grille salariale", "rémunération", "avantages sociaux", "benefits", "workforce planning", "GPEC", "GEPP", "droit du travail", "French labor law", "SIRH", "HRIS", "turnover", "rétention", "engagement collaborateur", "QVT", "qualité de vie au travail", "CSE", "diversité inclusion", discusses performance management, workforce planning, or needs guidance on French labor law, SIRH, or organizational development. Invoke this skill proactively whenever rh topics arise — even if not explicitly requested. If there is any rh dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Ressources Humaines — Human Capital Management
@@ -293,3 +293,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Labor Relations & Administration](./references/labor-relations-admin.md)** : droit du travail francais, CSE et dialogue social, negociations collectives (NAO), contrats de travail, temps de travail, procedure disciplinaire, paie et DSN, SIRH, BDESE, reporting social obligatoire, etat de l'art 2024-2026.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **leadership-management** (`entreprise/leadership-management`) — Leadership and team management
+- **change-management** (`entreprise/change-management`) — Change management for HR transformations

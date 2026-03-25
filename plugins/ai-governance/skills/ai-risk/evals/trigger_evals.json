@@ -1,0 +1,22 @@
+[
+  {"query": "Notre LLM de service client est vulnérable aux prompt injections — comment s'en protéger ?", "should_trigger": true},
+  {"query": "Comment détecter et atténuer les hallucinations de notre modèle GPT-4 en production ?", "should_trigger": true},
+  {"query": "On a constaté un model drift sur notre modèle de scoring — comment le monitorer et le corriger ?", "should_trigger": true},
+  {"query": "Quelles sont les principales attaques adversariales sur les LLM et comment s'en défendre ?", "should_trigger": true},
+  {"query": "Comment mettre en place un red teaming pour tester la robustesse de notre IA avant déploiement ?", "should_trigger": true},
+  {"query": "help me build a security assessment framework for our customer-facing LLM application", "should_trigger": true},
+  {"query": "Notre modèle de recommandation commence à surfit — comment identifier et traiter ça en production ?", "should_trigger": true},
+  {"query": "Comment évaluer les risques de sécurité d'un modèle IA exposé via une API publique ?", "should_trigger": true},
+  {"query": "On veut mettre en place un système de monitoring pour détecter les comportements anormaux de notre LLM", "should_trigger": true},
+  {"query": "Quels sont les risques d'un jailbreak sur notre assistant IA embarqué dans un produit grand public ?", "should_trigger": true},
+  {"query": "we need a risk register for our AI systems before our ISO 42001 audit next month", "should_trigger": true},
+  {"query": "Comment implémenter des guardrails techniques sur un LLM pour éviter les outputs toxiques ?", "should_trigger": true},
+  {"query": "Notre pipeline ML en prod tourne sur des données qui ont changé — comment gérer le data drift ?", "should_trigger": true},
+  {"query": "Quelles métriques surveiller pour détecter une dégradation silencieuse de notre modèle de classification ?", "should_trigger": true},
+  {"query": "Comment structurer notre réponse à incident si notre IA génère un contenu préjudiciable ?", "should_trigger": true},
+  {"query": "Notre IA de tri de CV défavorise les femmes — est-ce éthiquement acceptable et comment y remédier ?", "should_trigger": false},
+  {"query": "Comment expliquer à nos clients les décisions de refus de crédit prises par notre IA ?", "should_trigger": false},
+  {"query": "On veut évaluer les risques business liés à notre dépendance à un fournisseur cloud unique", "should_trigger": false},
+  {"query": "Comment construire notre matrice de risques opérationnels dans le cadre de notre plan de continuité ?", "should_trigger": false},
+  {"query": "Notre IA collecte des données utilisateurs — comment assurer la conformité RGPD et minimisation des données ?", "should_trigger": false}
+]

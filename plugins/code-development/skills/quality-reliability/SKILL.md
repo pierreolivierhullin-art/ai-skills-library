@@ -1,8 +1,8 @@
 ---
 name: quality-reliability
-description: This skill should be used when the user asks about "QA automation", "test automation", "SRE", "site reliability engineering", "chaos engineering", "performance testing", "load testing", "reliability", "incident management", "quality gates", "visual regression", "Playwright", "Cypress", "automatisation QA", "automatisation de tests", "ingénierie de fiabilité", "tests de performance", "tests de charge", "fiabilité", "gestion des incidents", "portes qualité", "régression visuelle", "Jest", "Vitest", "Testing Library", "Selenium", "k6", "Artillery", "Gatling", "JMeter", "stress testing", "soak testing", "end-to-end testing", "E2E", "smoke testing", "canary testing", "feature flags testing", "contract testing", "Pact", "error budget", "SLO", "toil reduction", "chaos monkey", "game days", or needs guidance on software quality assurance and site reliability engineering.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "QA automation", "test automation", "SRE", "site reliability engineering", "chaos engineering", "performance testing", "load testing", "reliability", "incident management", "quality gates", "visual regression", "Playwright", "Cypress", "automatisation QA", "automatisation de tests", "ingénierie de fiabilité", "tests de performance", "tests de charge", "fiabilité", "gestion des incidents", "portes qualité", "régression visuelle", "Jest", "Vitest", "Testing Library", "Selenium", "k6", "Artillery", "Gatling", "JMeter", "stress testing", "soak testing", "end-to-end testing", "E2E", "smoke testing", "canary testing", "feature flags testing", "contract testing", "Pact", "error budget", "SLO", "toil reduction", "chaos monkey", "game days", or needs guidance on software quality assurance and site reliability engineering. Invoke this skill proactively whenever quality reliability topics arise — even if not explicitly requested. If there is any quality reliability dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Quality & Reliability — QA Automation, SRE, Chaos Engineering & Performance Testing
@@ -312,3 +312,8 @@ Consult the reference files for deep-dive guidance / Consulter les references po
 - k6 Documentation — https://grafana.com/docs/k6/
 - Playwright Documentation — https://playwright.dev/
 - Dave Farley, *Modern Software Engineering* (2021)
+
+## See Also
+
+- **testing-strategies** (`code-development/testing-strategies`) — Testing strategies and TDD
+- **monitoring** (`code-development/monitoring`) — Observability and alerting

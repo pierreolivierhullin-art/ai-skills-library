@@ -1,0 +1,50 @@
+[
+  {
+    "query": "comment typer correctement une fonction qui retourne des types différents selon ses paramètres en TypeScript ?",
+    "should_trigger": true
+  },
+  {
+    "query": "I need to build a type-safe event emitter in TypeScript with conditional types and mapped types",
+    "should_trigger": true
+  },
+  {
+    "query": "comment implémenter le pattern builder avec des types génériques avancés pour notre SDK TypeScript ?",
+    "should_trigger": true
+  },
+  {
+    "query": "TypeScript discriminated unions for our state machine — how to ensure exhaustive handling?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to write a TypeScript transformer/plugin to auto-generate validation schemas from types?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre codebase a des  partout, stratégie pour migrer vers du TypeScript strict progressivement ?",
+    "should_trigger": true
+  },
+  {
+    "query": "infer, conditional types, template literal types — explain advanced TypeScript type utilities with examples",
+    "should_trigger": true
+  },
+  {
+    "query": "how do I add TypeScript to my existing JavaScript project?",
+    "should_trigger": false
+  },
+  {
+    "query": "fix this TypeScript error: 'Property does not exist on type'",
+    "should_trigger": false
+  },
+  {
+    "query": "should I use TypeScript or JavaScript for my new project?",
+    "should_trigger": false
+  },
+  {
+    "query": "configure tsconfig.json for my Next.js project",
+    "should_trigger": false
+  },
+  {
+    "query": "write a TypeScript interface for my User model",
+    "should_trigger": false
+  }
+]

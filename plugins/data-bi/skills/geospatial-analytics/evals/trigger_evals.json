@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on veut analyser les zones de chalandise de nos 50 magasins pour optimiser nos ouvertures — quelle approche ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to do geocoding at scale for 500k customer addresses to map them in Python?",
+    "should_trigger": true
+  },
+  {
+    "query": "PostGIS spatial joins pour croiser nos points de vente avec les données INSEE de population",
+    "should_trigger": true
+  },
+  {
+    "query": "H3 hexagonal grid for our delivery zone analysis — how to aggregate and visualize?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a choropleth map in Python (Folium/Plotly) with our regional sales data?",
+    "should_trigger": true
+  },
+  {
+    "query": "optimisation de tournées logistiques avec OSRM — comment l'intégrer dans notre système ?",
+    "should_trigger": true
+  },
+  {
+    "query": "isochrone analysis to determine 15-minute city coverage for our new store locations",
+    "should_trigger": true
+  },
+  {
+    "query": "how to create a map visualization in Tableau?",
+    "should_trigger": false
+  },
+  {
+    "query": "spatial analysis of customer behavior patterns",
+    "should_trigger": false
+  },
+  {
+    "query": "how to segment customers by geography for targeted marketing?",
+    "should_trigger": false
+  },
+  {
+    "query": "our address matching has many errors — data quality issue",
+    "should_trigger": false
+  },
+  {
+    "query": "how to optimize delivery routes for our logistics?",
+    "should_trigger": false
+  }
+]

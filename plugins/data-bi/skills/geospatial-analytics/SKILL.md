@@ -1,7 +1,7 @@
 ---
 name: geospatial-analytics
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever geospatial analytics topics arise — even if not explicitly requested. If there is any geospatial analytics dimension in the conversation, this skill applies.
   Geospatial analytics, GIS analysis, PostGIS spatial SQL, geopandas Python,
   choropleth maps, spatial clustering, geocoding, catchment area analysis,
   store location optimization, logistics routing, spatial joins, folium maps,
@@ -387,3 +387,8 @@ def clustering_spatial(
 - `references/geopandas-analysis.md` — Analyse spatiale avancee, overlay, dissolve, buffer, nearest
 - `references/visualization-maps.md` — Folium, Plotly Maps, Kepler.gl, Power BI Maps, cartes choroplethes
 - `references/case-studies.md` — 4 cas : implantation magasins, zones de livraison, analyse fraude geo
+
+## See Also
+
+- **advanced-analytics** (`data-bi/advanced-analytics`) — Advanced analytics with spatial dimension
+- **data-engineering** (`data-bi/data-engineering`) — Geospatial data pipelines

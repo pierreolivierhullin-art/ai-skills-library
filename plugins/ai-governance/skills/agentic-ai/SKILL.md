@@ -1,7 +1,7 @@
 ---
 name: agentic-ai
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever agentic ai topics arise — even if not explicitly requested. If there is any agentic ai dimension in the conversation, this skill applies.
   Use this skill when the user asks about "AI agents", "agentic AI", "autonomous AI", "multi-agent systems", "LangGraph", "CrewAI", "AutoGen", "agent orchestration", "tool use", "function calling advanced", "ReAct pattern", "plan and execute", "AI workflows autonomous", "agent memory", "agent evaluation", "MCP model context protocol", "agentic RAG", "AI agent safety", discusses building or deploying AI systems that autonomously plan and execute multi-step tasks, or needs guidance on multi-agent architectures and orchestration frameworks.
 ---
 
@@ -295,3 +295,9 @@ Protocole standard Anthropic pour connecter des outils aux agents de facon unifi
 | **3 — Agent autonome** | ReAct multi-steps, memoire basique, 1 use case |
 | **4 — Multi-agent** | Plusieurs agents specialises, orchestration, evaluation |
 | **5 — Systeme agentique** | Agents en production, monitoring, guardrails, amelioration continue |
+
+## See Also
+
+- **ai-engineering** (`code-development/ai-engineering`) — Engineering agentic AI systems
+- **ai-risk** (`ai-governance/ai-risk`) — Risks specific to autonomous AI agents
+- **prompt-engineering-llmops** (`ai-governance/prompt-engineering-llmops`) — Prompting and orchestrating agents

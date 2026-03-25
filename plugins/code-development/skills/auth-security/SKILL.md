@@ -1,8 +1,8 @@
 ---
 name: auth-security
-description: This skill should be used when the user asks about "authentication", "authorization", "OAuth 2.0", "OpenID Connect", "JWT", "OWASP", "application security", "RBAC", "ABAC", "secrets management", "encryption", "zero trust", "passkeys", "WebAuthn", "authentification", "autorisation", "sécurité applicative", "gestion des secrets", "chiffrement", "OIDC", "SSO", "single sign-on", "MFA", "2FA", "multi-factor authentication", "session management", "gestion des sessions", "CORS", "CSRF", "XSS", "SQL injection", "security headers", "certificate management", "TLS", "SSL", "API security", "sécurité API", "token management", "refresh token", "identity provider", "IdP", "Keycloak", "Auth0", "Clerk", "NextAuth", or needs guidance on application security, identity management, and access control.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "authentication", "authorization", "OAuth 2.0", "OpenID Connect", "JWT", "OWASP", "application security", "RBAC", "ABAC", "secrets management", "encryption", "zero trust", "passkeys", "WebAuthn", "authentification", "autorisation", "sécurité applicative", "gestion des secrets", "chiffrement", "OIDC", "SSO", "single sign-on", "MFA", "2FA", "multi-factor authentication", "session management", "gestion des sessions", "CORS", "CSRF", "XSS", "SQL injection", "security headers", "certificate management", "TLS", "SSL", "API security", "sécurité API", "token management", "refresh token", "identity provider", "IdP", "Keycloak", "Auth0", "Clerk", "NextAuth", or needs guidance on application security, identity management, and access control. Invoke this skill proactively whenever auth security topics arise — even if not explicitly requested. If there is any auth security dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Auth & Security
@@ -340,3 +340,12 @@ Consulter les fichiers de reference pour un approfondissement detaille :
 - **[Secrets Management](./references/secrets-management.md)** : Stockage de secrets (Vault, AWS/GCP Secret Manager), rotation de cles API, gestion des variables d'environnement, certificats TLS, secrets scanning en CI/CD, architecture zero-trust pour les secrets.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## Scripts disponibles
+
+- **[generate_security_checklist.py](./scripts/generate_security_checklist.py)** — Génère une checklist de sécurité personnalisée selon le type de projet et le mécanisme d'auth. Usage : `python3 generate_security_checklist.py --type api --auth jwt --output checklist.md`
+
+## See Also
+
+- **api-design** (`code-development/api-design`) — API design with security constraints
+- **juridique** (`entreprise/juridique`) — Legal and compliance dimensions of security

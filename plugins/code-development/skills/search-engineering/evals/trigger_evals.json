@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on a 5M de produits et notre search e-commerce donne de mauvais résultats de pertinence — comment améliorer ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Elasticsearch vs OpenSearch vs Typesense vs Algolia for our product search — which to choose?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment implémenter la recherche sémantique avec des embeddings pour notre base documentaire ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our search relevance scoring is bad — how to tune BM25 and implement learning-to-rank?",
+    "should_trigger": true
+  },
+  {
+    "query": "faceted search and filters for our marketplace — how to implement efficiently at scale?",
+    "should_trigger": true
+  },
+  {
+    "query": "autocomplete avec typo-tolerance pour notre search bar — architecture et implémentation ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to A/B test search algorithm changes to measure relevance improvement?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to use Claude API for document Q&A on our knowledge base?",
+    "should_trigger": false
+  },
+  {
+    "query": "implement full-text search in PostgreSQL with tsvector",
+    "should_trigger": false
+  },
+  {
+    "query": "how to build a RAG system for our internal documentation?",
+    "should_trigger": false
+  },
+  {
+    "query": "SEO optimization for our e-commerce product pages",
+    "should_trigger": false
+  },
+  {
+    "query": "our database queries are slow — add proper indexes",
+    "should_trigger": false
+  }
+]

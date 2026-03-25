@@ -1,0 +1,50 @@
+[
+  {
+    "query": "je dois créer notre kit de marque complet (logo, couleurs, typo, templates) — Figma ou Canva pour une PME ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to create professional-looking social media visuals in Canva for our marketing team of non-designers?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre équipe marketing perd du temps à refaire les mêmes visuels — comment créer des templates Canva réutilisables ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Figma for our design system — how to set up components, variants, and auto-layout?",
+    "should_trigger": true
+  },
+  {
+    "query": "Adobe Express vs Canva for our small business — we need quick social posts and basic branding",
+    "should_trigger": true
+  },
+  {
+    "query": "comment créer des infographies professionnelles pour nos rapports sans être designer ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our brand identity needs a refresh — how to use design tools to create a consistent visual identity?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to design our product's UI mockups in Figma?",
+    "should_trigger": false
+  },
+  {
+    "query": "which design tool for our UX research prototyping?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to implement our design system in React?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to create a logo for my company?",
+    "should_trigger": false
+  },
+  {
+    "query": "our marketing email template design needs improvement",
+    "should_trigger": false
+  }
+]

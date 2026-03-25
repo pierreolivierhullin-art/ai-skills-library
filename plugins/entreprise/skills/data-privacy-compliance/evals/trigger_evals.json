@@ -1,0 +1,54 @@
+[
+  {
+    "query": "notre app collecte des données de santé de nos clients français — quelles obligations RGPD spécifiques ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to respond to a GDPR data subject access request within the 30-day deadline?",
+    "should_trigger": true
+  },
+  {
+    "query": "we just had a data breach — what are our GDPR notification obligations to CNIL and users?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment rédiger une politique de confidentialité conforme RGPD pour notre SaaS B2B ?",
+    "should_trigger": true
+  },
+  {
+    "query": "CCPA vs GDPR for our US expansion — what's different and what can we reuse?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre DPO nous demande un registre des traitements — comment le construire et le maintenir ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Privacy by Design for our new product — how to integrate it in our development process?",
+    "should_trigger": true
+  },
+  {
+    "query": "transfert de données vers les USA post-Schrems II — quels mécanismes (clauses contractuelles types) ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement GDPR for our customer data processing?",
+    "should_trigger": false
+  },
+  {
+    "query": "EU AI Act compliance for our AI system — is it high-risk?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to set up data governance for our data warehouse?",
+    "should_trigger": false
+  },
+  {
+    "query": "GDPR requirements for our employee monitoring system",
+    "should_trigger": false
+  },
+  {
+    "query": "how to handle cookie consent on our website?",
+    "should_trigger": false
+  }
+]

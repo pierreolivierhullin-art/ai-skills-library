@@ -1,0 +1,58 @@
+[
+  {
+    "query": "je dois présenter notre stratégie 2026 au comité exécutif en 20 slides, comment structurer le message ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to create a compelling investor pitch deck for our Series A fundraise?",
+    "should_trigger": true
+  },
+  {
+    "query": "nos slides sont trop chargées (20 bullets par slide), comment les simplifier sans perdre le contenu ?",
+    "should_trigger": true
+  },
+  {
+    "query": "I need to present bad news (missed targets) to the board — how to frame it?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment construire une narrative pour convaincre le COMEX d'investir dans l'IA ?",
+    "should_trigger": true
+  },
+  {
+    "query": "workshop facilitation — how to design a 3-hour strategic planning session with 20 executives?",
+    "should_trigger": true
+  },
+  {
+    "query": "my presentation is in 2 hours and it's boring — how to make data slides more visual quickly?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to use the Pyramid Principle for a consulting-style recommendation deck?",
+    "should_trigger": true
+  },
+  {
+    "query": "create a 5-year financial model in Excel for my presentation",
+    "should_trigger": false
+  },
+  {
+    "query": "write me a press release for our product launch",
+    "should_trigger": false
+  },
+  {
+    "query": "help me write a business plan document for my startup",
+    "should_trigger": false
+  },
+  {
+    "query": "design a logo for my company in Canva",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I record a screen capture video for a product demo?",
+    "should_trigger": false
+  },
+  {
+    "query": "write a compelling LinkedIn post about our product launch",
+    "should_trigger": false
+  }
+]

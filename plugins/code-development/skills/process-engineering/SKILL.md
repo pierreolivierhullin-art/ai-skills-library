@@ -1,8 +1,8 @@
 ---
 name: process-engineering
-description: This skill should be used when the user asks about "development workflow", "developer experience", "DX", "agile process", "sprint planning", "estimation", "technical documentation", "engineering metrics", "DORA metrics", "SPACE framework", "coding standards", "linting", "workflow de développement", "expérience développeur", "processus agile", "planification de sprint", "estimation", "documentation technique", "métriques d'ingénierie", "standards de code", "velocity", "story points", "retrospective", "daily standup", "code review process", "PR review", "pull request", "git workflow", "branching strategy", "trunk-based development", "feature branching", "monorepo", "RFC", "design doc", "ADR", "technical RFC", "team topologies", "engineering culture", or needs guidance on engineering processes, team productivity, and development standards.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "development workflow", "developer experience", "DX", "agile process", "sprint planning", "estimation", "technical documentation", "engineering metrics", "DORA metrics", "SPACE framework", "coding standards", "linting", "workflow de développement", "expérience développeur", "processus agile", "planification de sprint", "estimation", "documentation technique", "métriques d'ingénierie", "standards de code", "velocity", "story points", "retrospective", "daily standup", "code review process", "PR review", "pull request", "git workflow", "branching strategy", "trunk-based development", "feature branching", "monorepo", "RFC", "design doc", "ADR", "technical RFC", "team topologies", "engineering culture", or needs guidance on engineering processes, team productivity, and development standards. Invoke this skill proactively whenever process engineering topics arise — even if not explicitly requested. If there is any process engineering dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Process Engineering — Development Workflows, Developer Experience, Documentation & Engineering Metrics
@@ -285,3 +285,8 @@ Consult these reference files for deep dives on each topic area:
 - Luca Mezzalira, *Building Micro-Frontends* (2021) — for platform engineering patterns
 - *State of DevOps Report* — DORA / Google Cloud (annual)
 - *DX Core 4* — DX (getdx.com) developer experience measurement framework
+
+## See Also
+
+- **devops** (`code-development/devops`) — DevOps and developer experience
+- **gestion-de-projets** (`entreprise/gestion-de-projets`) — Project management methodology

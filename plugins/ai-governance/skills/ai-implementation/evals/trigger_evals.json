@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on a un PoC IA qui fonctionne en démo mais on n'arrive pas à le passer en production — quels sont les critères go/no-go ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to set up an MLOps pipeline for our recommendation model — feature store, model registry, CI/CD?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment mesurer le ROI de notre projet IA de classification de documents ? quelles métriques business ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our ML model performance is degrading in production — how to detect data drift and set up monitoring?",
+    "should_trigger": true
+  },
+  {
+    "query": "batch inference vs real-time serving for our fraud detection model — what are the tradeoffs?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to do A/B testing for ML models in production with shadow deployment?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre feature store est le chaos — quels outils (Feast, Tecton, Hopsworks) et quelle architecture ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a RAG system for our internal knowledge base?",
+    "should_trigger": false
+  },
+  {
+    "query": "what are the ethical implications of our hiring algorithm?",
+    "should_trigger": false
+  },
+  {
+    "query": "fine-tune a GPT model on our support ticket data",
+    "should_trigger": false
+  },
+  {
+    "query": "our AI Act compliance — is our system high-risk?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to write a business case for an AI investment?",
+    "should_trigger": false
+  }
+]

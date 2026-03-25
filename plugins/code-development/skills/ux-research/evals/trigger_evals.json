@@ -1,0 +1,18 @@
+[
+  {"query": "We're redesigning our onboarding flow and nobody agrees on what's broken. How do I set up a usability testing session with 5 users to get real data?", "should_trigger": true},
+  {"query": "Je dois créer des personas pour notre produit B2B SaaS (outil RH, 3 types d'utilisateurs : DRH, manager, employé). On a 200 clients mais pas de données quali. Par où commencer?", "should_trigger": true},
+  {"query": "Our checkout has a 68% abandonment rate. I want to run user interviews to understand why. How many users do I need and what questions should I ask?", "should_trigger": true},
+  {"query": "Comment faciliter un Google Design Sprint en 5 jours avec une équipe de 6 personnes (2 devs, 1 designer, 1 PM, 1 CEO, 1 client)? On part de zéro sur un nouveau produit.", "should_trigger": true},
+  {"query": "I need to do a heuristic evaluation of our app before the next sprint. Can you walk me through Nielsen's 10 heuristics with examples relevant to a B2C e-commerce site?", "should_trigger": true},
+  {"query": "On veut mesurer la qualité de l'expérience utilisateur de notre app mobile après le redesign. Quelle combinaison de métriques UX utiliser — SUS, NPS, UMUX-Lite?", "should_trigger": true},
+  {"query": "I'm doing card sorting to reorganize our navigation (we have 47 menu items). Should I use open or closed card sorting, and what tools work well for remote sessions?", "should_trigger": true},
+  {"query": "Notre équipe produit invente des features sans validation utilisateur. Comment mettre en place un processus de continuous discovery — 30 min/semaine de tests avec des users?", "should_trigger": true},
+  {"query": "How do I recruit participants for usability testing of a niche B2B product (HR software for companies with 200+ employees)? We can't use UserTesting.com for this.", "should_trigger": true},
+
+  {"query": "I need to build a new button component with hover and focus states. Should I use Radix UI primitives or build it from scratch with Tailwind?", "should_trigger": false},
+  {"query": "How should I implement dark mode in our design system? We use design tokens and Figma Variables.", "should_trigger": false},
+  {"query": "What's the best way to track user behavior in our React app — Mixpanel vs PostHog vs Amplitude? We have 50k MAU.", "should_trigger": false},
+  {"query": "Notre taux de conversion sur la page pricing est de 2.3%. On veut tester un nouveau layout. Comment structurer un A/B test rigoureux?", "should_trigger": false},
+  {"query": "How do I write a product requirements document (PRD) for a new feature? What sections should it include?", "should_trigger": false},
+  {"query": "I want to add accessibility support to our component library — WCAG 2.2 AA compliance. Where do I start?", "should_trigger": false}
+]

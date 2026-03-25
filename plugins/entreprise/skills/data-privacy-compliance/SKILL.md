@@ -1,7 +1,7 @@
 ---
 name: data-privacy-compliance
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever data privacy compliance topics arise — even if not explicitly requested. If there is any data privacy compliance dimension in the conversation, this skill applies.
   Use this skill when the user asks about "RGPD", "GDPR", "data privacy", "DMA", "DSA", "privacy by design", "DPIA", "data protection officer", "DPO", "consent management", "data subject rights", "personal data protection", "CCPA", "data breach notification", "cookies compliance", "privacy compliance program", discusses regulatory obligations for personal data, data mapping, or needs guidance on building a privacy compliance program, managing data subject requests, and implementing privacy engineering.
 ---
 
@@ -191,3 +191,8 @@ Le paysage reglementaire de la donnee personnelle et des plateformes numeriques 
 - Les transferts hors UE post-Schrems II : verifier les Clauses Contractuelles Types et les mesures supplementaires pour chaque transfert vers les US ou autres pays tiers
 - DMA et DSA evoluent rapidement : les lignes directrices de la Commission continuent d'etre publiees
 - La CNIL sanctionne aussi les petites structures : le RGPD s'applique quelle que soit la taille
+
+## See Also
+
+- **ai-data-privacy** (`ai-governance/ai-data-privacy`) — AI data privacy and EU AI Act
+- **juridique** (`entreprise/juridique`) — Legal compliance framework

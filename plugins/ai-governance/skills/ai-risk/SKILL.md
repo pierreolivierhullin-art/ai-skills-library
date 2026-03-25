@@ -1,8 +1,8 @@
 ---
 name: ai-risk
-description: This skill should be used when the user asks about "AI risk", "hallucination", "model drift", "adversarial attacks", "AI safety", "red teaming AI", "prompt injection", "data poisoning", "model collapse", "AI alignment", "AI kill switch", "risque IA", "hallucination IA", "dérive de modèle", "attaques adversariales", "sécurité IA", "red team IA", "injection de prompt", "empoisonnement de données", "effondrement de modèle", "alignement IA", "arrêt d'urgence IA", "AI incident", "incident IA", "AI failure mode", "mode de défaillance IA", "jailbreak", "data leakage", "fuite de données", "model robustness", "robustesse du modèle", "AI monitoring", "surveillance IA", "model validation", "validation de modèle", "AI compliance", "conformité IA", "shadow AI", "AI supply chain risk", or needs guidance on AI-specific risk assessment, mitigation, and safety engineering.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "AI risk", "hallucination", "model drift", "adversarial attacks", "AI safety", "red teaming AI", "prompt injection", "data poisoning", "model collapse", "AI alignment", "AI kill switch", "risque IA", "hallucination IA", "dérive de modèle", "attaques adversariales", "sécurité IA", "red team IA", "injection de prompt", "empoisonnement de données", "effondrement de modèle", "alignement IA", "arrêt d'urgence IA", "AI incident", "incident IA", "AI failure mode", "mode de défaillance IA", "jailbreak", "data leakage", "fuite de données", "model robustness", "robustesse du modèle", "AI monitoring", "surveillance IA", "model validation", "validation de modèle", "AI compliance", "conformité IA", "shadow AI", "AI supply chain risk", or needs guidance on AI-specific risk assessment, mitigation, and safety engineering. Invoke this skill proactively whenever ai risk topics arise — even if not explicitly requested. If there is any ai risk dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # AI Risk Assessment & Safety Engineering
@@ -12,6 +12,9 @@ last_updated: 2026-02
 Ce skill couvre l'ensemble du spectre des risques lies aux systemes d'intelligence artificielle : evaluation et taxonomie des risques, attaques adversariales, securite des modeles, alignement et safety, robustesse operationnelle et reponse aux incidents. Il synthetise les meilleures pratiques 2024-2026 incluant le NIST AI Risk Management Framework, les defenses contre le prompt injection, la securite des agents autonomes, les risques multi-modaux et les bases de donnees d'incidents AI. Utiliser ce skill comme reference systematique pour toute decision touchant a l'identification, l'evaluation, l'attenuation et le monitoring des risques specifiques a l'IA.
 
 ## When This Skill Applies
+
+> **Périmètre** : Ce skill répond à la question **"Est-ce sûr ?"** — sécurité technique, attaques, robustesse, incidents, fiabilité opérationnelle.
+> Pour la question **"Est-ce juste ?"** (biais, équité algorithmique, explicabilité, impact sociétal), utiliser `ai-governance/ai-ethics`.
 
 Activer ce skill dans les situations suivantes :
 
@@ -368,3 +371,9 @@ Consulter les fichiers de reference pour un approfondissement detaille :
 - **[Operational Risks](./references/operational-risks.md)** : Detection et grounding des hallucinations, model drift (data drift, concept drift, performance decay), attenuation du vendor lock-in, gestion des couts, optimisation de la latence, disponibilite et redondance, bases de donnees d'incidents IA (AIAAIC), risques lies aux deepfakes.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **ai-ethics** (`ai-governance/ai-ethics`) — Ethical AI principles — distinct from technical risk
+- **security-testing** (`code-development/security-testing`) — Security testing for AI systems
+- **risk-management** (`entreprise/risk-management`) — Enterprise risk management framework

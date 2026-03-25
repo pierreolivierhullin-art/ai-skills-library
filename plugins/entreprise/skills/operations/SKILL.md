@@ -1,8 +1,8 @@
 ---
 name: operations
-description: This skill should be used when the user asks about "operational excellence", "supply chain management", "lean management", "Six Sigma", "quality management", "excellence opérationnelle", "gestion de la chaîne logistique", "supply chain", "logistique", "gestion des stocks", "inventory management", "process optimization", "optimisation des processus", "SLA management", "continuous improvement", "amélioration continue", "Kaizen", "5S", "value stream mapping", "VSM", "DMAIC", "TQM", "total quality management", "ISO 9001", "KPI opérationnels", "OEE", "taux de service", "lead time", "délai de livraison", "warehouse management", "WMS", "S&OP", "demand planning", discusses process optimization, SLA management, or needs guidance on logistics, inventory, or continuous improvement.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "operational excellence", "supply chain management", "lean management", "Six Sigma", "quality management", "excellence opérationnelle", "gestion de la chaîne logistique", "supply chain", "logistique", "gestion des stocks", "inventory management", "process optimization", "optimisation des processus", "SLA management", "continuous improvement", "amélioration continue", "Kaizen", "5S", "value stream mapping", "VSM", "DMAIC", "TQM", "total quality management", "ISO 9001", "KPI opérationnels", "OEE", "taux de service", "lead time", "délai de livraison", "warehouse management", "WMS", "S&OP", "demand planning", discusses process optimization, SLA management, or needs guidance on logistics, inventory, or continuous improvement. Invoke this skill proactively whenever operations topics arise — even if not explicitly requested. If there is any operations dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Operations / Delivery — Excellence Operationnelle
@@ -270,3 +270,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Service Delivery & Workplace](./references/service-delivery.md)** : design de SLA/SLO/SLI, gestion des incidents, capacity et availability management, Continual Service Improvement (CSI), facilities management, HSE, workplace hybride, tendances 2024-2026 (ITIL 4, XLA, smart buildings).
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **devops** (`code-development/devops`) — DevOps and technical operations
+- **data-engineering** (`data-bi/data-engineering`) — Operational data pipelines

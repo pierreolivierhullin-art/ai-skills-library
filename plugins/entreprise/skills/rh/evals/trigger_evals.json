@@ -1,0 +1,54 @@
+[
+  {
+    "query": "notre turnover est à 25% sur les profils tech — comment identifier les causes et mettre en place une stratégie de rétention ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to design a competency-based performance review process for our 150-person company?",
+    "should_trigger": true
+  },
+  {
+    "query": "on doit mettre en place une grille de salaires transparente — quelle méthodologie et quels benchmarks ?",
+    "should_trigger": true
+  },
+  {
+    "query": "GPEC/GEPP pour anticiper nos besoins en compétences sur 3 ans — comment la construire ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build an employer branding strategy to attract tech talent in a competitive market?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre processus d'onboarding dure 1 semaine et les nouvelles recrues ne sont pas opérationnelles avant 3 mois — comment l'améliorer ?",
+    "should_trigger": true
+  },
+  {
+    "query": "people analytics — which HR metrics to track and how to build a dashboard for our CHRO?",
+    "should_trigger": true
+  },
+  {
+    "query": "DEI program for our tech company — how to go beyond quotas and create real inclusion?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to handle a performance improvement plan (PIP) for an underperforming employee?",
+    "should_trigger": false
+  },
+  {
+    "query": "French labor law: rules for remote work agreements",
+    "should_trigger": false
+  },
+  {
+    "query": "build a learning management system (LMS) for our training programs",
+    "should_trigger": false
+  },
+  {
+    "query": "how to manage a team conflict between two senior employees?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to restructure our team to implement agile methodologies?",
+    "should_trigger": false
+  }
+]

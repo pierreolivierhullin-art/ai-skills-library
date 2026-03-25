@@ -1,8 +1,8 @@
 ---
 name: strategie
-description: This skill should be used when the user asks about "corporate strategy", "strategic planning", "business model design", "M&A due diligence", "OKR implementation", "planification stratégique", "stratégie d'entreprise", "modèle économique", "business model canvas", "vision long terme", "avantage concurrentiel", "competitive advantage", "SWOT analysis", "Porter's five forces", "value proposition", "pivot stratégique", "croissance organique", "fusion acquisition", "gouvernance", "board strategy", "plan stratégique", "strategic roadmap", discusses governance frameworks, or needs guidance on executive decision-making and long-term vision.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "corporate strategy", "strategic planning", "business model design", "M&A due diligence", "OKR implementation", "planification stratégique", "stratégie d'entreprise", "modèle économique", "business model canvas", "vision long terme", "avantage concurrentiel", "competitive advantage", "SWOT analysis", "Porter's five forces", "value proposition", "pivot stratégique", "croissance organique", "fusion acquisition", "gouvernance", "board strategy", "plan stratégique", "strategic roadmap", discusses governance frameworks, or needs guidance on executive decision-making and long-term vision. Invoke this skill proactively whenever strategie topics arise — even if not explicitly requested. If there is any strategie dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Strategie & Direction Generale
@@ -267,3 +267,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[OKR & Performance Management](./references/okr-performance.md)** : methodologie OKR, cascade et alignement, Balanced Scorecard, KPIs strategiques, revues de performance, pilotage agile de la strategie, tendances 2024-2026.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **strategie-ia** (`ai-governance/strategie-ia`) — AI strategy integration into corporate strategy
+- **decision-reporting-governance** (`data-bi/decision-reporting-governance`) — Data-driven strategic reporting

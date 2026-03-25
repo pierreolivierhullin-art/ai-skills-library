@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on envoie 500k emails transactionnels par mois, SendGrid vs AWS SES vs Postmark — lequel choisir ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to improve our email deliverability? we're landing in spam for 30% of Gmail users",
+    "should_trigger": true
+  },
+  {
+    "query": "je dois configurer SPF, DKIM et DMARC pour notre domaine d'envoi — guide pratique ?",
+    "should_trigger": true
+  },
+  {
+    "query": "build an email template system that renders consistently across Outlook, Gmail, Apple Mail",
+    "should_trigger": true
+  },
+  {
+    "query": "how to handle email bounces, complaints, and unsubscribes automatically in our system?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre séquence d'onboarding email a 15% d'open rate, comment optimiser les subject lines et le timing ?",
+    "should_trigger": true
+  },
+  {
+    "query": "implement email preview in browser for our HTML templates — they look broken in Outlook",
+    "should_trigger": true
+  },
+  {
+    "query": "how to write a marketing email campaign to announce our product launch?",
+    "should_trigger": false
+  },
+  {
+    "query": "setup Slack notifications when a new user signs up",
+    "should_trigger": false
+  },
+  {
+    "query": "how to manage my personal inbox with zero inbox methodology?",
+    "should_trigger": false
+  },
+  {
+    "query": "create an email template for invoice reminders",
+    "should_trigger": false
+  },
+  {
+    "query": "automate our customer support ticket routing",
+    "should_trigger": false
+  }
+]

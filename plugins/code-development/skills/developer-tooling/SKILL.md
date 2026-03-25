@@ -1,7 +1,7 @@
 ---
 name: developer-tooling
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever developer tooling topics arise — even if not explicitly requested. If there is any developer tooling dimension in the conversation, this skill applies.
   Monorepo Turborepo Nx pnpm workspaces, build tools Vite esbuild Rollup tsup,
   code generation Plop Hygen scaffolding, CLI tools Node.js Commander Ink,
   developer experience automation, changesets versioning publishing,
@@ -430,3 +430,8 @@ export default ts.config(
 - `references/build-tools.md` — Vite plugins, Rollup config, esbuild plugins, Webpack 5 Module Federation
 - `references/dx-automation.md` — Plop templates avancés, Hygen, Yeoman, scaffolding CLI, dotfiles zsh/fish, terminal tmux/wezterm
 - `references/case-studies.md` — 4 cas : migration vers monorepo, build 8min→45s avec Turborepo, CLI interne équipe, CI/CD unifié
+
+## See Also
+
+- **devops** (`code-development/devops`) — CI/CD and build pipelines
+- **automatisation-workflows** (`productivite/automatisation-workflows`) — Workflow automation

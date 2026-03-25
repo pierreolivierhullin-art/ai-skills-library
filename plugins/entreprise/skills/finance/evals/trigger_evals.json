@@ -1,0 +1,54 @@
+[
+  {
+    "query": "on prépare notre budget 2026 — comment structurer le processus FP&A avec nos BU heads ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our burn rate is €150k/month with €900k in the bank — how to model runway and financing scenarios?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment construire un modèle financier SaaS complet avec MRR, churn, CAC, LTV, et unité économiques ?",
+    "should_trigger": true
+  },
+  {
+    "query": "cash flow management for our seasonal business — how to optimize working capital?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre EBITDA est positif mais notre cash flow opérationnel négatif — comment analyser et corriger ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a 3-statement financial model (P&L, balance sheet, cash flow) for our due diligence?",
+    "should_trigger": true
+  },
+  {
+    "query": "analyse de rentabilité par produit et par client pour prendre des décisions de portefeuille",
+    "should_trigger": true
+  },
+  {
+    "query": "internal audit plan for our finance function — what to prioritize?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to raise a Series A — metrics and pitch deck?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to price our SaaS product for enterprise clients?",
+    "should_trigger": false
+  },
+  {
+    "query": "financial risk management for our FX exposure",
+    "should_trigger": false
+  },
+  {
+    "query": "how to analyze the financial statements of a target company?",
+    "should_trigger": false
+  },
+  {
+    "query": "tax structure for our international expansion",
+    "should_trigger": false
+  }
+]

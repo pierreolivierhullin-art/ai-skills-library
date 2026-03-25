@@ -1,8 +1,8 @@
 ---
 name: prompt-engineering-llmops
-description: This skill should be used when the user asks about "prompt engineering", "RAG", "retrieval-augmented generation", "LLM evaluation", "LLMOps", "fine-tuning", "LLM orchestration", "guardrails", "AI agents", "chain-of-thought", "function calling", "tool use", "vector search", "embeddings", "ingénierie de prompts", "génération augmentée par récupération", "évaluation de LLM", "orchestration LLM", "garde-fous", "agents IA", "chaîne de pensée", "appel de fonctions", "recherche vectorielle", "few-shot", "zero-shot", "system prompt", "prompt template", "LangChain", "LlamaIndex", "semantic search", "recherche sémantique", "chunking", "token optimization", "context window", "fenêtre de contexte", "hallucination reduction", "prompt injection defense", "model selection", "choix de modèle", "Claude API", "OpenAI API", "Anthropic", "structured output", "JSON mode", or needs guidance on LLM operations, prompt design, and AI application development.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "prompt engineering", "RAG", "retrieval-augmented generation", "LLM evaluation", "LLMOps", "fine-tuning", "LLM orchestration", "guardrails", "AI agents", "chain-of-thought", "function calling", "tool use", "vector search", "embeddings", "ingénierie de prompts", "génération augmentée par récupération", "évaluation de LLM", "orchestration LLM", "garde-fous", "agents IA", "chaîne de pensée", "appel de fonctions", "recherche vectorielle", "few-shot", "zero-shot", "system prompt", "prompt template", "LangChain", "LlamaIndex", "semantic search", "recherche sémantique", "chunking", "token optimization", "context window", "fenêtre de contexte", "hallucination reduction", "prompt injection defense", "model selection", "choix de modèle", "Claude API", "OpenAI API", "Anthropic", "structured output", "JSON mode", or needs guidance on LLM operations, prompt design, and AI application development. Invoke this skill proactively whenever prompt engineering llmops topics arise — even if not explicitly requested. If there is any prompt engineering llmops dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Prompt Engineering & LLMOps — Prompt Design, RAG, Evaluation, Orchestration & Fine-Tuning
@@ -311,3 +311,9 @@ Consult these reference files for deep dives on each topic area:
 - **[LLMOps & Orchestration](./references/llmops-orchestration.md)** -- Orchestration frameworks (LangChain, LlamaIndex, Semantic Kernel, Vercel AI SDK), agent frameworks and patterns (tool use, multi-agent, CrewAI, AutoGen, Claude Code), MCP protocol, model routing and fallback strategies, cost optimization (caching, compression, batching), observability (LangSmith, Langfuse, Helicone), guardrails (NeMo Guardrails, Guardrails AI), fine-tuning strategies (LoRA, QLoRA, distillation), synthetic data generation.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **ai-engineering** (`code-development/ai-engineering`) — AI application engineering
+- **advanced-analytics** (`data-bi/advanced-analytics`) — Analytics with LLM-powered tools
+- **strategie-ia** (`ai-governance/strategie-ia`) — AI strategy and LLMOps governance

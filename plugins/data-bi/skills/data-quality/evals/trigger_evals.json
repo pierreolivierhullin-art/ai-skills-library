@@ -1,0 +1,50 @@
+[
+  {
+    "query": "notre pipeline dbt a des données nulles dans des colonnes critiques et on le découvre en prod — comment implémenter des data contracts ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to set up Great Expectations for data quality monitoring on our Snowflake warehouse?",
+    "should_trigger": true
+  },
+  {
+    "query": "on a un problème de data drift — nos données de prod divergent du schéma attendu depuis la migration",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement data quality scoring across our 50 dbt models to prioritize fixes?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre équipe passe 30% de son temps à corriger des données incorrectes — comment construire un DQ framework ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Monte Carlo vs Soda vs dbt tests for data observability — which layer handles what?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement data lineage to understand the impact of upstream changes on our dashboards?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to optimize our dbt models for performance?",
+    "should_trigger": false
+  },
+  {
+    "query": "our Spark job is failing on null values",
+    "should_trigger": false
+  },
+  {
+    "query": "how to migrate our data warehouse from Redshift to Snowflake?",
+    "should_trigger": false
+  },
+  {
+    "query": "GDPR data deletion requirements for our data lake",
+    "should_trigger": false
+  },
+  {
+    "query": "how to implement data governance for our organization?",
+    "should_trigger": false
+  }
+]

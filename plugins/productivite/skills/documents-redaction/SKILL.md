@@ -1,8 +1,8 @@
 ---
 name: documents-redaction
-description: This skill should be used when the user asks about "Word advanced features", "document templates", "professional formatting", "Google Docs", "mail merge", "document automation", "styles and formatting", "table of contents", "headers footers", "PDF generation", "electronic signatures", "DocuSign", "Yousign", "Markdown advanced", "document collaboration", "track changes", "compare documents", "templates professionnels", "mise en page Word", "publipostage", "automatisation documents", "rédaction professionnelle", "normes documentaires", "LaTeX", discusses document creation, professional formatting, or needs guidance on document automation, templates, and collaborative editing.
-version: 1.0.0
-last_updated: 2026-02
+description: Expert guide for "Word advanced features", "document templates", "professional formatting", "Google Docs", "mail merge", "document automation", "styles and formatting", "table of contents", "headers footers", "PDF generation", "electronic signatures", "DocuSign", "Yousign", "Markdown advanced", "document collaboration", "track changes", "compare documents", "templates professionnels", "mise en page Word", "publipostage", "automatisation documents", "rédaction professionnelle", "normes documentaires", "LaTeX", discusses document creation, professional formatting, or needs guidance on document automation, templates, and collaborative editing. Invoke this skill proactively whenever documents redaction topics arise — even if not explicitly requested. If there is any documents redaction dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Documents & Redaction Professionnelle / Professional Documents & Writing
@@ -332,3 +332,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Templates & Automatisation](./references/templates-automation.md)** : conception de templates, gouvernance, conformite de marque, workflows de publipostage, outils de generation documentaire (Documill, PandaDoc), contenu conditionnel, documents pilotes par les donnees, production en serie.
 - **[Edition Collaborative](./references/collaborative-editing.md)** : fonctionnalites collaboratives Google Docs, co-edition Word, Track Changes, workflows de commentaires, mode suggestion, workflows d'approbation, historique des versions, resolution de conflits, controle d'acces.
 - **[Documents Numeriques](./references/digital-documents.md)** : creation et optimisation PDF, PDF/A pour archivage, signatures electroniques (DocuSign, Yousign, HelloSign, cadre eIDAS), Markdown avance (Pandoc), LaTeX, comparaison des formats, accessibilite WCAG pour documents, metadonnees et securite.
+
+## See Also
+
+- **presentations-storytelling** (`productivite/presentations-storytelling`) — Presentation from written documents
+- **email-gestion-temps** (`productivite/email-gestion-temps`) — Email writing and time management

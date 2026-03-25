@@ -1,0 +1,54 @@
+[
+  {
+    "query": "je dois construire un RAG sur notre base documentaire interne de 50k PDFs, par où commencer ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build an AI agent that can use tools and browse the web? should I use LangChain or build from scratch?",
+    "should_trigger": true
+  },
+  {
+    "query": "what embedding model should I use for semantic search over code? comparing OpenAI vs open-source",
+    "should_trigger": true
+  },
+  {
+    "query": "our LLM app has high latency (3s+), how to optimize with caching and streaming?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment évaluer la qualité des outputs de mon RAG ? quelles métriques utiliser ?",
+    "should_trigger": true
+  },
+  {
+    "query": "I need to build a multi-agent system where agents can delegate tasks to each other",
+    "should_trigger": true
+  },
+  {
+    "query": "fine-tuning vs RAG vs prompting — which approach for our customer support use case?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a recommendation system using collaborative filtering?",
+    "should_trigger": false
+  },
+  {
+    "query": "train a classification model on our tabular data using scikit-learn",
+    "should_trigger": false
+  },
+  {
+    "query": "how to use Claude API to summarize documents?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a time series forecast model for sales prediction",
+    "should_trigger": false
+  },
+  {
+    "query": "how to do sentiment analysis on customer reviews?",
+    "should_trigger": false
+  },
+  {
+    "query": "setup Prometheus monitoring for my ML model in production",
+    "should_trigger": false
+  }
+]

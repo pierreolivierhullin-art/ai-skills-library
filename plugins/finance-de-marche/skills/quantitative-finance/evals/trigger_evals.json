@@ -1,0 +1,54 @@
+[
+  {
+    "query": "how to implement a pairs trading strategy with statistical arbitrage?",
+    "should_trigger": true
+  },
+  {
+    "query": "je veux backtester une stratégie momentum sur actions européennes, comment éviter les biais (look-ahead, survivorship) ?",
+    "should_trigger": true
+  },
+  {
+    "query": "implement the Heston stochastic volatility model for options pricing",
+    "should_trigger": true
+  },
+  {
+    "query": "comment utiliser les machine learning pour prédire les rendements actions à court terme ?",
+    "should_trigger": true
+  },
+  {
+    "query": "build an order book market impact model for execution algo",
+    "should_trigger": true
+  },
+  {
+    "query": "Kalman filter for dynamic factor model estimation in equity portfolios",
+    "should_trigger": true
+  },
+  {
+    "query": "how to model credit default swap spreads with a reduced-form model?",
+    "should_trigger": true
+  },
+  {
+    "query": "optimize portfolio weights using mean-variance with transaction cost constraints",
+    "should_trigger": true
+  },
+  {
+    "query": "how to manage interest rate risk in a bond portfolio?",
+    "should_trigger": false
+  },
+  {
+    "query": "explain the behavioral biases of retail investors",
+    "should_trigger": false
+  },
+  {
+    "query": "forecast quarterly sales using time series analysis",
+    "should_trigger": false
+  },
+  {
+    "query": "build a credit scoring model for consumer lending",
+    "should_trigger": false
+  },
+  {
+    "query": "what are the MiFID II reporting requirements for algo trading?",
+    "should_trigger": false
+  }
+]

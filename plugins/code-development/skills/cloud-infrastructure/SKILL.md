@@ -1,8 +1,8 @@
 ---
 name: cloud-infrastructure
-description: This skill should be used when the user asks about "cloud infrastructure", "AWS", "GCP", "Google Cloud", "Azure", "cloud provider", "cloud architecture", "Terraform", "Pulumi", "Infrastructure as Code", "IaC", "serverless", "Lambda", "Cloud Functions", "Azure Functions", "Kubernetes managed", "EKS", "GKE", "AKS", "FinOps", "cloud cost optimization", "VPC", "cloud networking", "cloud security", "IAM", "cloud-native", "multi-cloud", "hybrid cloud", "cloud migration", "lift and shift", "cloud design patterns", "infrastructure cloud", "architecture cloud", "fournisseur cloud", "IaC avancé", "infrastructure serverless", "optimisation des coûts cloud", "réseau cloud", "sécurité cloud", "migration cloud", "patterns d'architecture cloud", "reserved instances", "spot instances", "auto-scaling", "cloud storage", "S3", "GCS", "blob storage", "cloud database", "RDS", "Cloud SQL", "Cosmos DB", "CDN", "load balancer", "WAF", "cloud firewall", or needs guidance on cloud infrastructure design, multi-cloud strategy, Infrastructure as Code, or serverless architectures.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "cloud infrastructure", "AWS", "GCP", "Google Cloud", "Azure", "cloud provider", "cloud architecture", "Terraform", "Pulumi", "Infrastructure as Code", "IaC", "serverless", "Lambda", "Cloud Functions", "Azure Functions", "Kubernetes managed", "EKS", "GKE", "AKS", "FinOps", "cloud cost optimization", "VPC", "cloud networking", "cloud security", "IAM", "cloud-native", "multi-cloud", "hybrid cloud", "cloud migration", "lift and shift", "cloud design patterns", "infrastructure cloud", "architecture cloud", "fournisseur cloud", "IaC avancé", "infrastructure serverless", "optimisation des coûts cloud", "réseau cloud", "sécurité cloud", "migration cloud", "patterns d'architecture cloud", "reserved instances", "spot instances", "auto-scaling", "cloud storage", "S3", "GCS", "blob storage", "cloud database", "RDS", "Cloud SQL", "Cosmos DB", "CDN", "load balancer", "WAF", "cloud firewall", or needs guidance on cloud infrastructure design, multi-cloud strategy, Infrastructure as Code, or serverless architectures. Invoke this skill proactively whenever cloud infrastructure topics arise — even if not explicitly requested. If there is any cloud infrastructure dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Cloud Infrastructure — AWS/GCP/Azure, IaC & Cloud-Native Architecture
@@ -322,3 +322,8 @@ Consult these reference files for deep dives on each topic area:
 - **[Cloud Architecture](./references/cloud-architecture.md)** — Patterns d'architecture cloud (multi-tier, microservices cloud-native, event-driven), VPC design, haute disponibilité, disaster recovery, FinOps avancé, sécurité cloud by design.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant la conception et l'implémentation d'architectures cloud dans différents contextes.
+
+## See Also
+
+- **devops** (`code-development/devops`) — CI/CD pipelines and deployment
+- **distributed-systems** (`code-development/distributed-systems`) — Distributed systems patterns

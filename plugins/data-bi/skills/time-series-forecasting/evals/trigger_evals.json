@@ -1,0 +1,54 @@
+[
+  {
+    "query": "on doit prévoir nos ventes mensuelles avec de la saisonnalité forte (Noël, été) — Prophet vs SARIMA ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a demand forecasting model for our 10k SKU inventory with 3 years of history?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre modèle ARIMA prédit bien 1 mois mais se dégrade sur 3 mois — comment améliorer l'horizon ?",
+    "should_trigger": true
+  },
+  {
+    "query": "time series cross-validation — how to properly backtest my forecast without data leakage?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment détecter les anomalies dans nos séries temporelles de métriques serveur ?",
+    "should_trigger": true
+  },
+  {
+    "query": "LSTM vs Transformer (Temporal Fusion Transformer) for our multivariate time series forecast?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to handle missing values and outliers in my time series before modeling?",
+    "should_trigger": true
+  },
+  {
+    "query": "our electricity consumption forecast needs to account for weather and holidays",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a revenue model in Excel for our startup?",
+    "should_trigger": false
+  },
+  {
+    "query": "create a trend visualization chart in Tableau",
+    "should_trigger": false
+  },
+  {
+    "query": "how to run a cohort retention analysis?",
+    "should_trigger": false
+  },
+  {
+    "query": "forecast our customer growth with a simple linear regression",
+    "should_trigger": false
+  },
+  {
+    "query": "how to monitor data drift in our ML models?",
+    "should_trigger": false
+  }
+]

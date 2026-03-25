@@ -1,8 +1,8 @@
 ---
 name: marketing
-description: This skill should be used when the user asks about "marketing strategy", "brand positioning", "acquisition funnel", "growth hacking", "product marketing", "pricing strategy", "stratégie marketing", "positionnement de marque", "tunnel de conversion", "inbound marketing", "outbound marketing", "content marketing", "marketing de contenu", "SEO", "SEA", "SEM", "social media marketing", "email marketing", "marketing automation", "lead generation", "génération de leads", "buyer persona", "parcours client", "customer journey", "market research", "étude de marché", "branding", "go-to-market", "GTM", "CRM", "product-led growth", "PLG", discusses GTM plans, or needs guidance on lead generation, content marketing, or marketing automation.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "marketing strategy", "brand positioning", "acquisition funnel", "growth hacking", "product marketing", "pricing strategy", "stratégie marketing", "positionnement de marque", "tunnel de conversion", "inbound marketing", "outbound marketing", "content marketing", "marketing de contenu", "SEO", "SEA", "SEM", "social media marketing", "email marketing", "marketing automation", "lead generation", "génération de leads", "buyer persona", "parcours client", "customer journey", "market research", "étude de marché", "branding", "go-to-market", "GTM", "CRM", "product-led growth", "PLG", discusses GTM plans, or needs guidance on lead generation, content marketing, or marketing automation. Invoke this skill proactively whenever marketing topics arise — even if not explicitly requested. If there is any marketing dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Marketing & Produit / Offre / Solution
@@ -329,3 +329,9 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Marketing Ops & CRM](./references/marketing-ops-crm.md)** : MarTech stack, automation workflows, lead routing, data enrichment, CRM, lifecycle marketing, email deliverability, segmentation RFM, loyalty, churn prevention, state of the art 2024-2026.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **customer-analytics** (`data-bi/customer-analytics`) — Customer analytics and LTV modelling
+- **ab-testing-experimentation** (`data-bi/ab-testing-experimentation`) — A/B testing for marketing campaigns
+- **commercial** (`entreprise/commercial`) — Sales and marketing alignment

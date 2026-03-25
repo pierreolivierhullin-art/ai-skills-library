@@ -1,0 +1,54 @@
+[
+  {
+    "query": "notre entrepôt a un taux de service de 87% alors que notre cible est 95% — comment diagnostiquer et améliorer ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement a lean transformation in our manufacturing plant using value stream mapping?",
+    "should_trigger": true
+  },
+  {
+    "query": "on démarre un projet Six Sigma DMAIC pour réduire les défauts sur notre ligne de production — comment structurer ?",
+    "should_trigger": true
+  },
+  {
+    "query": "S&OP process for our €200M revenue company — how to align sales, supply chain, and finance?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment optimiser notre gestion des stocks pour réduire le capital immobilisé de 20% ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our lead time from order to delivery went from 3 to 7 days — how to diagnose and fix?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment mettre en place des KPIs opérationnels pertinents pour notre direction des opérations ?",
+    "should_trigger": true
+  },
+  {
+    "query": "ISO 9001 certification project — how to structure our quality management system?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to optimize our supply chain costs by 15%?",
+    "should_trigger": false
+  },
+  {
+    "query": "implement a project management methodology for our IT projects",
+    "should_trigger": false
+  },
+  {
+    "query": "our customer support response time is too slow — how to fix?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to reduce our carbon footprint in logistics?",
+    "should_trigger": false
+  },
+  {
+    "query": "ERP implementation project plan for our manufacturing company",
+    "should_trigger": false
+  }
+]

@@ -1,8 +1,8 @@
 ---
 name: finance
-description: This skill should be used when the user asks about "financial planning", "FP&A", "budget forecasting", "cash management", "fundraising strategy", "financial modeling", "planification financière", "prévision budgétaire", "gestion de trésorerie", "levée de fonds", "modélisation financière", "business plan financier", "unit economics", "SaaS metrics", "MRR", "ARR", "churn rate", "LTV", "CAC", "burn rate", "runway", "P&L", "compte de résultat", "bilan", "balance sheet", "cash flow", "flux de trésorerie", "EBITDA", "ROI", "audit interne", "internal audit", "tax strategy", "stratégie fiscale", "corporate finance", "valorisation", "valuation", "due diligence financière", discusses unit economics, or needs guidance on corporate finance, tax strategy, or internal audit.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "financial planning", "FP&A", "budget forecasting", "cash management", "fundraising strategy", "financial modeling", "planification financière", "prévision budgétaire", "gestion de trésorerie", "levée de fonds", "modélisation financière", "business plan financier", "unit economics", "SaaS metrics", "MRR", "ARR", "churn rate", "LTV", "CAC", "burn rate", "runway", "P&L", "compte de résultat", "bilan", "balance sheet", "cash flow", "flux de trésorerie", "EBITDA", "ROI", "audit interne", "internal audit", "tax strategy", "stratégie fiscale", "corporate finance", "valorisation", "valuation", "due diligence financière", discusses unit economics, or needs guidance on corporate finance, tax strategy, or internal audit. Invoke this skill proactively whenever finance topics arise — even if not explicitly requested. If there is any finance dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Finance d'Entreprise — Corporate Financial Management
@@ -319,3 +319,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Fundraising & KPIs](./references/fundraising-kpis.md)** : processus de levee de fonds (seed a IPO), relations investisseurs, unit economics (CAC, LTV, payback), metriques SaaS (MRR, ARR, NDR, churn), analyse financiere et ratios cles.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **portfolio** (`finance-de-marche/portfolio`) — Portfolio and investment management
+- **advanced-analytics** (`data-bi/advanced-analytics`) — Financial forecasting and analytics

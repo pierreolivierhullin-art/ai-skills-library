@@ -1,0 +1,54 @@
+[
+  {
+    "query": "on est SaaS B2B et on hésite entre pricing par siège, usage-based, et flat fee — comment choisir ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to do a competitive pricing analysis for our new product launch in a crowded market?",
+    "should_trigger": true
+  },
+  {
+    "query": "on perd des deals sur le prix contre un concurrent low-cost — comment revoir notre positionnement tarifaire ?",
+    "should_trigger": true
+  },
+  {
+    "query": "value-based pricing for our enterprise software — how to quantify and communicate value?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment construire notre stratégie de prix pour l'expansion en Europe avec des marchés aux sensibilités différentes ?",
+    "should_trigger": true
+  },
+  {
+    "query": "freemium vs free trial vs demo for our SaaS — which conversion model and how to price the upgrade?",
+    "should_trigger": true
+  },
+  {
+    "query": "our gross margin is 65% — is there room to reduce price to accelerate growth?",
+    "should_trigger": true
+  },
+  {
+    "query": "price elasticity analysis for our e-commerce catalog — how to find optimal price points?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement dynamic pricing for our marketplace?",
+    "should_trigger": false
+  },
+  {
+    "query": "our LTV:CAC ratio is 2:1 — how to improve unit economics?",
+    "should_trigger": false
+  },
+  {
+    "query": "financial modeling for our SaaS pricing tiers",
+    "should_trigger": false
+  },
+  {
+    "query": "how to negotiate pricing with an enterprise customer?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a discount approval workflow for our sales team",
+    "should_trigger": false
+  }
+]

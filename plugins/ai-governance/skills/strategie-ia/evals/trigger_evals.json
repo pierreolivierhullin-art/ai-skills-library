@@ -1,0 +1,22 @@
+[
+  {"query": "J'ai besoin de construire une roadmap IA pour notre groupe industriel de 2000 personnes sur 3 ans", "should_trigger": true},
+  {"query": "Comment évaluer le ROI de nos projets IA avant de les lancer ? On a un budget limité", "should_trigger": true},
+  {"query": "On doit décider entre build vs buy pour notre moteur de recommandation — quels critères ?", "should_trigger": true},
+  {"query": "Aide-moi à construire un cadre de gouvernance IA pour notre entreprise réglementée (banque)", "should_trigger": true},
+  {"query": "Comment évaluer la maturité IA de notre organisation avec un framework structuré ?", "should_trigger": true},
+  {"query": "help me design an AI strategy for a mid-size retail company looking to compete with Amazon", "should_trigger": true},
+  {"query": "Notre board veut comprendre comment prioriser nos investissements IA — aide-moi à structurer le pitch", "should_trigger": true},
+  {"query": "Comment identifier les cas d'usage IA à plus fort impact dans notre chaîne de valeur ?", "should_trigger": true},
+  {"query": "On veut créer un AI Center of Excellence — quelle structure organisationnelle adopter ?", "should_trigger": true},
+  {"query": "Quels KPIs suivre pour piloter notre transformation IA au niveau direction ?", "should_trigger": true},
+  {"query": "we need an AI adoption framework for our 500-person professional services firm", "should_trigger": true},
+  {"query": "Comment aligner notre stratégie IA avec notre stratégie d'entreprise globale ?", "should_trigger": true},
+  {"query": "On veut déployer des LLM dans nos processus métier — comment décider où commencer ?", "should_trigger": true},
+  {"query": "aide-moi à préparer un comité de pilotage IA mensuel — quels indicateurs présenter au COMEX ?", "should_trigger": true},
+  {"query": "Comment gérer le change management lors du déploiement d'outils IA dans une organisation traditionnelle ?", "should_trigger": true},
+  {"query": "Comment fine-tuner un modèle BERT pour notre cas d'usage de classification de documents ?", "should_trigger": false},
+  {"query": "Aide-moi à écrire un prompt system pour un agent IA de support client", "should_trigger": false},
+  {"query": "Comment déployer notre modèle ML en production avec Docker et Kubernetes ?", "should_trigger": false},
+  {"query": "On veut améliorer nos prompts pour GPT-4 — quelle technique de chain-of-thought utiliser ?", "should_trigger": false},
+  {"query": "Comment implémenter un pipeline RAG avec LangChain et Pinecone ?", "should_trigger": false}
+]

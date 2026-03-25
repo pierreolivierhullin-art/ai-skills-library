@@ -1,8 +1,8 @@
 ---
 name: data-engineering
-description: This skill should be used when the user asks about "data pipeline", "ETL", "ELT", "dbt", "data warehouse", "data lake", "data lakehouse", "Airflow", "Dagster", "streaming", "Kafka", "data orchestration", "Snowflake", "BigQuery", "data transformation", "data infrastructure", "pipeline de données", "entrepôt de données", "lac de données", "orchestration de données", "transformation de données", "infrastructure de données", "ingestion de données", "data ingestion", "batch processing", "traitement par lots", "stream processing", "traitement en temps réel", "real-time data", "données temps réel", "Apache Spark", "Flink", "Fivetran", "Airbyte", "Stitch", "CDC", "change data capture", "data partitioning", "data compaction", "Iceberg", "Delta Lake", "Parquet", "Avro", "schema evolution", "idempotency", "backfill", "data freshness", or needs guidance on data engineering, pipeline architecture, and data platform design.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "data pipeline", "ETL", "ELT", "dbt", "data warehouse", "data lake", "data lakehouse", "Airflow", "Dagster", "streaming", "Kafka", "data orchestration", "Snowflake", "BigQuery", "data transformation", "data infrastructure", "pipeline de données", "entrepôt de données", "lac de données", "orchestration de données", "transformation de données", "infrastructure de données", "ingestion de données", "data ingestion", "batch processing", "traitement par lots", "stream processing", "traitement en temps réel", "real-time data", "données temps réel", "Apache Spark", "Flink", "Fivetran", "Airbyte", "Stitch", "CDC", "change data capture", "data partitioning", "data compaction", "Iceberg", "Delta Lake", "Parquet", "Avro", "schema evolution", "idempotency", "backfill", "data freshness", or needs guidance on data engineering, pipeline architecture, and data platform design. Invoke this skill proactively whenever data engineering topics arise — even if not explicitly requested. If there is any data engineering dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Data Engineering — Pipelines, Transformations, Orchestration & Data Infrastructure
@@ -282,3 +282,14 @@ Consult these reference files for deep dives on each topic area:
 - **[Data Infrastructure](./references/data-infrastructure.md)** — Data warehouse comparison (BigQuery, Snowflake, Redshift, Databricks), data lake and lakehouse (Delta Lake, Iceberg, Hudi), streaming platforms (Kafka, Pub/Sub, Flink), integration tools (Fivetran, Airbyte, Meltano), DataOps practices, CI/CD for data, cost optimization strategies.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## Scripts disponibles
+
+- **[scaffold_dbt_project.py](./scripts/scaffold_dbt_project.py)** — Scaffold un projet dbt complet avec architecture Medallion (bronze/silver/gold). Usage : `python3 scaffold_dbt_project.py mon_projet bigquery`
+
+## See Also
+
+- **backend-db** (`code-development/backend-db`) — Database design and query optimisation
+- **cloud-infrastructure** (`code-development/cloud-infrastructure`) — Cloud infrastructure for data
+- **data-quality** (`data-bi/data-quality`) — Data quality within pipelines
+- **streaming-realtime** (`data-bi/streaming-realtime`) — Real-time data engineering

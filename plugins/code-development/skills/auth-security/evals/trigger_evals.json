@@ -1,0 +1,58 @@
+[
+  {
+    "query": "how to implement JWT authentication in my Next.js app? should I use httpOnly cookies or localStorage?",
+    "should_trigger": true
+  },
+  {
+    "query": "je dois implémenter OAuth2 avec Google pour mon SaaS, quelle est la bonne façon de gérer les refresh tokens ?",
+    "should_trigger": true
+  },
+  {
+    "query": "quelle stratégie RBAC pour mon application multi-tenant ? les rôles doivent être configurables par client",
+    "should_trigger": true
+  },
+  {
+    "query": "OWASP top 10 — comment protéger mon API Node.js contre les injections et le XSS ?",
+    "should_trigger": true
+  },
+  {
+    "query": "we need to implement SSO for our enterprise customers using SAML 2.0",
+    "should_trigger": true
+  },
+  {
+    "query": "comment sécuriser mes API keys côté client dans une app mobile ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our app handles sensitive medical data, how do we implement proper access control and audit logs?",
+    "should_trigger": true
+  },
+  {
+    "query": "passkeys vs passwords — should we implement WebAuthn for our B2C app?",
+    "should_trigger": true
+  },
+  {
+    "query": "my SSL certificate expired, how do I renew it?",
+    "should_trigger": false
+  },
+  {
+    "query": "our server was hacked, what are the immediate incident response steps?",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I set up a VPN for my team's remote access?",
+    "should_trigger": false
+  },
+  {
+    "query": "GDPR compliance — what data do we need to delete when a user requests erasure?",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I scan my Docker images for vulnerabilities?",
+    "should_trigger": false
+  },
+  {
+    "query": "configure nginx HTTPS with Let's Encrypt",
+    "should_trigger": false
+  }
+]

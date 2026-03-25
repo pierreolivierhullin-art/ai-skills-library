@@ -1,0 +1,58 @@
+[
+  {
+    "query": "on a zéro tests automatisés et une release tous les 2 mois, comment mettre en place une stratégie QA sans bloquer les devs ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement visual regression testing with Playwright for our Next.js app? we have 200+ pages",
+    "should_trigger": true
+  },
+  {
+    "query": "notre pipeline de tests prend 45 minutes, comment le paralléliser et réduire à moins de 10 min ?",
+    "should_trigger": true
+  },
+  {
+    "query": "I need to set up chaos engineering for our payment service — where to start with Gremlin/Chaos Monkey?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment définir nos SLOs et error budgets pour notre API critique ? on a des engagements clients à 99.9%",
+    "should_trigger": true
+  },
+  {
+    "query": "load testing notre API avec k6 pour simuler 10k utilisateurs simultanés — quelle stratégie de scénarios ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to reduce toil in our on-call rotation? we're spending 40% of sprint time on incidents",
+    "should_trigger": true
+  },
+  {
+    "query": "notre taux de flaky tests est à 20%, ça bloque les déploiements — comment les identifier et corriger ?",
+    "should_trigger": true
+  },
+  {
+    "query": "setting up quality gates in our CI/CD — what metrics to enforce before merge? coverage, complexity?",
+    "should_trigger": true
+  },
+  {
+    "query": "write me a unit test for this authentication function",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I configure Jest in my React project?",
+    "should_trigger": false
+  },
+  {
+    "query": "our server is down, what are the incident response steps right now?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to set up Prometheus alerts for our Kubernetes cluster?",
+    "should_trigger": false
+  },
+  {
+    "query": "what testing strategy for a new microservice — unit vs integration?",
+    "should_trigger": false
+  }
+]

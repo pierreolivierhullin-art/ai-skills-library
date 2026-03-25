@@ -1,8 +1,8 @@
 ---
 name: product-strategy
-description: This skill should be used when the user asks about "product strategy", "product vision", "product roadmap", "product-market fit", "PMF", "product discovery", "feature prioritization", "product OKR", "North Star Metric", "product organization", "product ops", "product lifecycle", "MVP", "minimum viable product", "product positioning", "product differentiation", "product portfolio", "product-led growth", "stratégie produit", "vision produit", "roadmap produit", "découverte produit", "priorisation des fonctionnalités", "adéquation produit-marché", "cycle de vie produit", "organisation produit", "backlog produit", "opportunity solution tree", "RICE framework", "Kano model", "jobs to be done product", "build vs buy", "product council", "product trio", "dual-track agile", discusses product management decisions, or needs guidance on product strategy, roadmap prioritization, or product-market fit assessment.
-version: 1.0.0
-last_updated: 2026-02
+description: Expert guide for "product strategy", "product vision", "product roadmap", "product-market fit", "PMF", "product discovery", "feature prioritization", "product OKR", "North Star Metric", "product organization", "product ops", "product lifecycle", "MVP", "minimum viable product", "product positioning", "product differentiation", "product portfolio", "product-led growth", "stratégie produit", "vision produit", "roadmap produit", "découverte produit", "priorisation des fonctionnalités", "adéquation produit-marché", "cycle de vie produit", "organisation produit", "backlog produit", "opportunity solution tree", "RICE framework", "Kano model", "jobs to be done product", "build vs buy", "product council", "product trio", "dual-track agile", discusses product management decisions, or needs guidance on product strategy, roadmap prioritization, or product-market fit assessment. Invoke this skill proactively whenever product strategy topics arise — even if not explicitly requested. If there is any product strategy dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Product Strategy & Roadmap
@@ -342,3 +342,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Roadmap & Prioritization](./references/roadmap-prioritization.md)** : frameworks de priorisation (RICE, ICE, Kano, WSJF), formats de roadmap, communication aux stakeholders, betting tables, Shape Up, state of the art 2025-2026.
 - **[Product Growth & Metrics](./references/product-growth-metrics.md)** : North Star Metric, product-led growth, onboarding optimization, retention, expansion revenue, product analytics, unit economics, state of the art 2025-2026.
 - **[Etudes de cas](./references/case-studies.md)** — Cas pratiques detailles illustrant les concepts cles du skill.
+
+## See Also
+
+- **marketing** (`entreprise/marketing`) — Go-to-market for product launches
+- **architecture** (`code-development/architecture`) — Technical feasibility of product strategy

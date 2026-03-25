@@ -1,0 +1,54 @@
+[
+  {
+    "query": "on doit choisir entre implémenter SAP ou un ERP mid-market pour notre PME de 200 personnes — comment décider ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build an IT governance framework with COBIT for our 300-person company?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre parc informatique est un mix de legacy on-premise et SaaS — comment définir notre stratégie cloud ?",
+    "should_trigger": true
+  },
+  {
+    "query": "ITSM implementation with ServiceNow — how to structure incident, problem, change management processes?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment gérer le shadow IT dans notre organisation — 40% des achats SaaS se font sans DSI ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our IT vendor contracts are up for renewal — how to rationalize our software portfolio?",
+    "should_trigger": true
+  },
+  {
+    "query": "TOGAF pour structurer notre architecture d'entreprise — par où commencer ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement a CMDB to track our IT assets and dependencies?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to set up Kubernetes for our microservices?",
+    "should_trigger": false
+  },
+  {
+    "query": "our cloud costs are too high — how to optimize AWS spending?",
+    "should_trigger": false
+  },
+  {
+    "query": "cybersecurity incident response — our server was compromised",
+    "should_trigger": false
+  },
+  {
+    "query": "how to implement SSO for our enterprise applications?",
+    "should_trigger": false
+  },
+  {
+    "query": "which project management tool to use: Jira or Linear?",
+    "should_trigger": false
+  }
+]

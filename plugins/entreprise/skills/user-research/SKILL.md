@@ -1,8 +1,8 @@
 ---
 name: user-research
-description: This skill should be used when the user asks about "user research", "user interviews", "usability testing", "UX research", "personas", "user personas", "jobs to be done", "JTBD", "customer discovery", "user journey mapping", "card sorting", "tree testing", "survey design", "A/B testing qualitative", "diary study", "ethnographic research", "contextual inquiry", "focus group", "design sprint research", "recherche utilisateur", "entretiens utilisateurs", "tests d'utilisabilité", "parcours utilisateur", "carte d'empathie", "empathy map", "découverte client", "besoin utilisateur", "user needs", "voice of customer", "VoC", "unmoderated testing", "moderated testing", "prototype testing", "assumption testing", "research repository", "insight management", "research ops", discusses user research methods and analysis, or needs guidance on understanding users, validating assumptions, or testing product concepts.
-version: 1.0.0
-last_updated: 2026-02
+description: Expert guide for "user research", "user interviews", "usability testing", "UX research", "personas", "user personas", "jobs to be done", "JTBD", "customer discovery", "user journey mapping", "card sorting", "tree testing", "survey design", "A/B testing qualitative", "diary study", "ethnographic research", "contextual inquiry", "focus group", "design sprint research", "recherche utilisateur", "entretiens utilisateurs", "tests d'utilisabilité", "parcours utilisateur", "carte d'empathie", "empathy map", "découverte client", "besoin utilisateur", "user needs", "voice of customer", "VoC", "unmoderated testing", "moderated testing", "prototype testing", "assumption testing", "research repository", "insight management", "research ops", discusses user research methods and analysis, or needs guidance on understanding users, validating assumptions, or testing product concepts. Invoke this skill proactively whenever user research topics arise — even if not explicitly requested. If there is any user research dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # User Research & Product Discovery
@@ -351,3 +351,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Analysis & Synthesis](./references/analysis-synthesis.md)** : techniques d'analyse (affinity mapping, thematic analysis, atomic research), creation de personas, journey mapping, communication des insights, state of the art 2025-2026.
 - **[UX Metrics & Testing](./references/ux-metrics-testing.md)** : metriques UX (SUS, NPS, CSAT, CES, task success rate), benchmarks, tests d'utilisabilite avances, evaluation heuristique, accessibility testing, state of the art 2025-2026.
 - **[Etudes de cas](./references/case-studies.md)** — Cas pratiques detailles illustrant les concepts cles du skill.
+
+## See Also
+
+- **ux-research** (`code-development/ux-research`) — UX research methodology and tools
+- **product-strategy** (`entreprise/product-strategy`) — User insights driving product decisions

@@ -1,0 +1,54 @@
+[
+  {
+    "query": "on lance un nouveau produit B2B — comment mener des entretiens utilisateurs pour valider notre problem-solution fit ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to design a usability test for our mobile app with 8 participants to identify critical UX issues?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre équipe débat sur les features prioritaires — comment utiliser les jobs-to-be-done pour trancher ?",
+    "should_trigger": true
+  },
+  {
+    "query": "we need to create user personas for our SaaS — how to make them based on real data, not assumptions?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment structurer un customer journey map pour identifier les points de friction dans notre onboarding ?",
+    "should_trigger": true
+  },
+  {
+    "query": "unmoderated vs moderated testing for our prototype — which approach for our timeline and budget?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to run a card sorting session to improve our information architecture?",
+    "should_trigger": true
+  },
+  {
+    "query": "on a 200 retours clients — comment les analyser pour en extraire des insights actionnables ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to run a design sprint for our new feature?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to improve our NPS score from 32 to 50?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a customer survey to measure satisfaction",
+    "should_trigger": false
+  },
+  {
+    "query": "how to set up A/B testing for our checkout page?",
+    "should_trigger": false
+  },
+  {
+    "query": "analyze our user behavior data in Mixpanel",
+    "should_trigger": false
+  }
+]

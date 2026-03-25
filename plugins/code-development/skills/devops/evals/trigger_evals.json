@@ -1,0 +1,58 @@
+[
+  {
+    "query": "je dois mettre en place un pipeline CI/CD pour notre app Next.js avec déploiement sur AWS, par où commencer ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how do I containerize my Python microservice and set up Kubernetes deployments?",
+    "should_trigger": true
+  },
+  {
+    "query": "on doit migrer notre infra vers l'IaC avec Terraform, comment structurer les modules ?",
+    "should_trigger": true
+  },
+  {
+    "query": "blue-green vs canary deployments — which strategy for our SaaS with 99.9% SLA?",
+    "should_trigger": true
+  },
+  {
+    "query": "github actions vs gitlab CI vs circleci pour notre équipe de 8 devs ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how do I implement GitOps with ArgoCD for our microservices?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre déploiement prend 45 minutes, comment optimiser le pipeline ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to manage secrets in Kubernetes — Vault vs AWS Secrets Manager vs K8s secrets?",
+    "should_trigger": true
+  },
+  {
+    "query": "my Docker container is using too much memory, how to debug?",
+    "should_trigger": false
+  },
+  {
+    "query": "configure Nginx as a reverse proxy for my Node.js app",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I set up Prometheus monitoring for my app?",
+    "should_trigger": false
+  },
+  {
+    "query": "our servers are down, how to diagnose a production outage?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to choose between AWS, GCP, and Azure for a new project?",
+    "should_trigger": false
+  },
+  {
+    "query": "configure auto-scaling for my EC2 instances",
+    "should_trigger": false
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "query": "j'ai 300 emails non lus et je passe 3h par jour sur ma boîte mail, comment appliquer Inbox Zero ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to use the Eisenhower Matrix to prioritise my overwhelming task list?",
+    "should_trigger": true
+  },
+  {
+    "query": "je veux mettre en place un système GTD (Getting Things Done) pour gérer mes projets et actions",
+    "should_trigger": true
+  },
+  {
+    "query": "time blocking vs todo lists — which approach for a manager with back-to-back meetings?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to write professional emails that get responses faster? mine often get ignored",
+    "should_trigger": true
+  },
+  {
+    "query": "j'ai 15 réunions par semaine qui pourraient être des emails, comment réduire les réunions ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to use Gmail filters and labels to auto-sort my inbox by priority?",
+    "should_trigger": true
+  },
+  {
+    "query": "pomodoro vs deep work — which time management technique for a software developer?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to write a marketing email campaign with high open rates?",
+    "should_trigger": false
+  },
+  {
+    "query": "set up email automation for our customer onboarding sequence",
+    "should_trigger": false
+  },
+  {
+    "query": "how to manage a remote team's communication and async workflows?",
+    "should_trigger": false
+  },
+  {
+    "query": "create an email template for invoice reminders",
+    "should_trigger": false
+  },
+  {
+    "query": "how to build a CRM to track email communications with clients?",
+    "should_trigger": false
+  }
+]

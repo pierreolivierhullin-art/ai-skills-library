@@ -1,0 +1,54 @@
+[
+  {
+    "query": "comment refactorer cette classe de 500 lignes qui fait tout ? j'ai le code ici",
+    "should_trigger": true
+  },
+  {
+    "query": "our codebase has huge functions and no tests, how do we start reducing technical debt?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to apply SOLID principles to this service layer? the dependencies are a mess",
+    "should_trigger": true
+  },
+  {
+    "query": "j'ai une PR à reviewer, quels sont les critères importants à regarder au-delà des bugs ?",
+    "should_trigger": true
+  },
+  {
+    "query": "when should I refactor vs rewrite? our legacy Python 2 service is critical but unmaintainable",
+    "should_trigger": true
+  },
+  {
+    "query": "how to write clean React components? mine are getting bloated with business logic",
+    "should_trigger": true
+  },
+  {
+    "query": "notre équipe n'a pas de standards de code communs, comment mettre en place un guide de style ?",
+    "should_trigger": true
+  },
+  {
+    "query": "I need to add a new feature to this messy codebase without making it worse",
+    "should_trigger": false
+  },
+  {
+    "query": "fix this bug in my authentication middleware",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I set up ESLint and Prettier for my project?",
+    "should_trigger": false
+  },
+  {
+    "query": "write unit tests for this function",
+    "should_trigger": false
+  },
+  {
+    "query": "our CI pipeline takes 20 minutes, how to speed it up?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to implement a specific design pattern in Java?",
+    "should_trigger": false
+  }
+]

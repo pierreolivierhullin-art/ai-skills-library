@@ -1,7 +1,7 @@
 ---
 name: frontend-frameworks
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever frontend frameworks topics arise — even if not explicitly requested. If there is any frontend frameworks dimension in the conversation, this skill applies.
   React patterns, Next.js App Router, SSR SSG ISR rendering strategies, state management
   Zustand Redux Toolkit, React Query TanStack Query, TypeScript React, component architecture,
   Vue Nuxt, frontend architecture best practices, hooks patterns, performance optimization React,
@@ -473,3 +473,8 @@ Quel rendu choisir ?
 - `references/nextjs-app-router.md` — App Router en détail, Server Actions, middleware, auth
 - `references/state-management.md` — Zustand, Jotai, Redux Toolkit, comparaison
 - `references/case-studies.md` — 4 cas : migration Pages→App Router, refacto state management
+
+## See Also
+
+- **web-performance** (`code-development/web-performance`) — Core Web Vitals and bundle optimisation
+- **accessibility** (`code-development/accessibility`) — WCAG and inclusive design

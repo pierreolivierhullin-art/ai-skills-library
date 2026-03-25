@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on démarre de zéro sur Amplitude — comment définir notre plan de tracking pour mesurer l'activation et la rétention ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our funnel analysis shows 80% drop-off at step 3 — how to diagnose with cohort analysis?",
+    "should_trigger": true
+  },
+  {
+    "query": "Mixpanel vs Amplitude vs PostHog for our 200k MAU SaaS — which to choose?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment mesurer le North Star Metric pour notre marketplace et cascader les métriques ?",
+    "should_trigger": true
+  },
+  {
+    "query": "privacy-compliant analytics after iOS 14 and CNIL — how to maintain measurement accuracy?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to set up Segment as our Customer Data Platform to unify our analytics tools?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre taux de rétention D30 est à 15% — comment identifier les segments qui retiennent le mieux ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement A/B testing for our landing page?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to set up Google Analytics 4 for our e-commerce?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a business intelligence dashboard for our sales team",
+    "should_trigger": false
+  },
+  {
+    "query": "how to analyze customer churn using SQL?",
+    "should_trigger": false
+  },
+  {
+    "query": "our marketing attribution model — last click vs multi-touch",
+    "should_trigger": false
+  }
+]

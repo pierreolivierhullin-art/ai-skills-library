@@ -1,0 +1,50 @@
+[
+  {
+    "query": "je dois faire un pentest de notre application web avant le lancement — par où commencer, quels outils ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to set up SAST in our CI/CD pipeline to catch vulnerabilities before merge?",
+    "should_trigger": true
+  },
+  {
+    "query": "OWASP ZAP vs Burp Suite for automated vulnerability scanning of our API — which to choose?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment tester notre app contre les injections SQL et XSS de manière automatisée ?",
+    "should_trigger": true
+  },
+  {
+    "query": "we need to do dependency scanning for our Node.js app — Snyk vs Dependabot vs npm audit?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to write security test cases for our authentication and authorization system?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre équipe red team doit tester nos APIs — quels scénarios d'attaque couvrir en priorité ?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment implémenter JWT auth securement dans mon app — httpOnly cookies ou localStorage ?",
+    "should_trigger": false
+  },
+  {
+    "query": "our server was hacked, what are immediate incident response steps?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to comply with GDPR for our customer data processing?",
+    "should_trigger": false
+  },
+  {
+    "query": "RBAC implementation for our multi-tenant SaaS",
+    "should_trigger": false
+  },
+  {
+    "query": "how to scan our Docker images for vulnerabilities with Trivy?",
+    "should_trigger": false
+  }
+]

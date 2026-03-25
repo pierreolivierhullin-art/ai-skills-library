@@ -1,7 +1,7 @@
 ---
 name: data-viz-tools
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever data viz tools topics arise — even if not explicitly requested. If there is any data viz tools dimension in the conversation, this skill applies.
   Power BI dashboards, DAX formulas, Tableau calculated fields, Looker LookML,
   data visualization best practices, BI tool implementation, executive dashboards,
   KPI visualization, Power BI Service, Tableau Desktop, data storytelling tools,
@@ -371,3 +371,8 @@ Accessibilite
 - `references/tableau-advanced.md` — LOD avancees, table calculations, set actions, extensions
 - `references/dashboard-design.md` — Hierarchie, CRAP, storytelling, charte graphique BI
 - `references/case-studies.md` — 4 cas : exec dashboard Power BI, Tableau operations, migration Metabase
+
+## See Also
+
+- **data-literacy** (`data-bi/data-literacy`) — Data literacy and storytelling
+- **decision-reporting-governance** (`data-bi/decision-reporting-governance`) — Governance and BI strategy

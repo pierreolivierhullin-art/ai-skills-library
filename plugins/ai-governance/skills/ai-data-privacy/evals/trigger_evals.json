@@ -1,0 +1,50 @@
+[
+  {
+    "query": "notre système IA RH est-il soumis à l'EU AI Act comme système à haut risque ? quelles obligations ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to write a model card for our credit scoring AI to comply with transparency requirements?",
+    "should_trigger": true
+  },
+  {
+    "query": "we need to conduct an algorithmic bias audit on our recruitment model — what methodology?",
+    "should_trigger": true
+  },
+  {
+    "query": "EU AI Act Article 6 high-risk classification — does our medical imaging AI qualify?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment se conformer à l'EU AI Act pour notre système de reconnaissance faciale dans les espaces publics ?",
+    "should_trigger": true
+  },
+  {
+    "query": "ISO 42001 vs NIST AI RMF — which AI governance framework to implement first?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre modèle de ML utilise des données personnelles d'entraînement — quels droits RGPD s'appliquent ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to audit our AI models for bias in hiring?",
+    "should_trigger": false
+  },
+  {
+    "query": "GDPR requirements for our customer data processing",
+    "should_trigger": false
+  },
+  {
+    "query": "how to implement federated learning to protect user privacy?",
+    "should_trigger": false
+  },
+  {
+    "query": "what are the ethical implications of our algorithmic trading system?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to detect prompt injection attacks in our LLM application?",
+    "should_trigger": false
+  }
+]

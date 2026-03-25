@@ -1,7 +1,7 @@
 ---
 name: innovation-management
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever innovation management topics arise — even if not explicitly requested. If there is any innovation management dimension in the conversation, this skill applies.
   Use this skill when the user asks about "innovation management", "design thinking", "intrapreneuriat", "open innovation", "innovation lab", "corporate innovation", "stage-gate process", "lean startup methodology", "jobs-to-be-done", "hackathon organisation", "startup collaboration", "innovation culture", "ideation workshop", "prototype validation", discusses accelerators, venture building, or needs guidance on innovation governance, idea management, and building internal innovation capabilities.
 ---
 
@@ -165,3 +165,8 @@ Metrique de validation      Budget / Equipe / Acces
 - Les programmes d'intrapreneuriat echouent souvent par manque de protection organisationnelle : l'intrapreneur doit etre libere de ses objectifs habituels pendant la duree du programme
 - Open Innovation : la propriete intellectuelle doit etre clarifiee avant toute collaboration externe (NDA, accords de co-developpement)
 - Ne pas confondre "innovation" et "R&D" : la R&D produit des technologies, l'innovation produit de la valeur client
+
+## See Also
+
+- **strategie-ia** (`ai-governance/strategie-ia`) — AI as an innovation lever
+- **product-strategy** (`entreprise/product-strategy`) — Product strategy and innovation roadmap

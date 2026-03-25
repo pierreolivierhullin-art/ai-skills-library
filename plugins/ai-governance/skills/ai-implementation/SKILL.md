@@ -1,8 +1,8 @@
 ---
 name: ai-implementation
-description: This skill should be used when the user asks about "AI implementation", "AI deployment", "PoC to production", "MLOps pipeline", "model deployment", "AI project execution", "machine learning in production", "AI ROI measurement", "feature store", "model monitoring", "ML CI/CD", "model serving", "AI operationalization", "implementation IA", "deploiement IA", "mise en production IA", "PoC vers production", "pipeline MLOps", "deploiement de modele", "execution projet IA", "machine learning en production", "mesure ROI IA", "feature store", "monitoring de modele", "CI/CD pour modeles", "serving de modele", "operationnalisation IA", "modele en production", "model registry", "model validation", "A/B testing modele", "shadow deployment", "canary model", "batch inference", "online inference", "real-time prediction", "prediction temps reel", "model drift", "data drift", "concept drift", or needs guidance on concretely implementing AI projects from proof-of-concept to production systems.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "AI implementation", "AI deployment", "PoC to production", "MLOps pipeline", "model deployment", "AI project execution", "machine learning in production", "AI ROI measurement", "feature store", "model monitoring", "ML CI/CD", "model serving", "AI operationalization", "implementation IA", "deploiement IA", "mise en production IA", "PoC vers production", "pipeline MLOps", "deploiement de modele", "execution projet IA", "machine learning en production", "mesure ROI IA", "feature store", "monitoring de modele", "CI/CD pour modeles", "serving de modele", "operationnalisation IA", "modele en production", "model registry", "model validation", "A/B testing modele", "shadow deployment", "canary model", "batch inference", "online inference", "real-time prediction", "prediction temps reel", "model drift", "data drift", "concept drift", or needs guidance on concretely implementing AI projects from proof-of-concept to production systems. Invoke this skill proactively whenever ai implementation topics arise — even if not explicitly requested. If there is any ai implementation dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # AI Implementation — PoC to Production, MLOps & ROI
@@ -280,3 +280,9 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[ROI Measurement](./references/roi-measurement.md)** : KPIs metier par type de modele, methodologies de mesure du ROI, A/B testing pour les modeles, construction du business case IA, dashboard de suivi ROI.
 - **[Deployment Patterns](./references/deployment-patterns.md)** : REST API inference, batch inference, streaming inference, shadow deployment, canary release, champion/challenger, edge deployment, modeles embarques.
 - **[Etudes de cas](./references/case-studies.md)** : cas pratiques detailles illustrant l'implementation IA dans differents contextes metier.
+
+## See Also
+
+- **gestion-de-projets** (`entreprise/gestion-de-projets`) — Project management methodology
+- **strategie-ia** (`ai-governance/strategie-ia`) — AI strategy before implementation
+- **devops** (`code-development/devops`) — MLOps and deployment pipelines

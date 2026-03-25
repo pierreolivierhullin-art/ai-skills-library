@@ -1,0 +1,54 @@
+[
+  {
+    "query": "notre onboarding a un taux de drop de 60% à l'étape 3, comment le redesigner pour réduire la friction ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to optimize our checkout flow to reduce cart abandonment? currently at 75% drop-off",
+    "should_trigger": true
+  },
+  {
+    "query": "je dois améliorer l'expérience de notre formulaire d'inscription qui fait peur aux utilisateurs — trop long, trop d'erreurs",
+    "should_trigger": true
+  },
+  {
+    "query": "design the empty states and loading skeletons for our dashboard — users feel like nothing is happening",
+    "should_trigger": true
+  },
+  {
+    "query": "comment structurer l'architecture de navigation d'une app complexe avec 50+ features sans noyer l'utilisateur ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our first-run experience has 40% activation rate, how to redesign the onboarding to hit 60%?",
+    "should_trigger": true
+  },
+  {
+    "query": "micro-interactions for our mobile app — what animations help users understand state changes?",
+    "should_trigger": true
+  },
+  {
+    "query": "progressive disclosure pattern for our power features — how to show advanced options without overwhelming beginners?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement A/B test our new signup flow?",
+    "should_trigger": false
+  },
+  {
+    "query": "build me a React dropdown component with search",
+    "should_trigger": false
+  },
+  {
+    "query": "how to improve Core Web Vitals on our landing page?",
+    "should_trigger": false
+  },
+  {
+    "query": "conduct user interviews to understand why users churn",
+    "should_trigger": false
+  },
+  {
+    "query": "how to design a dark mode for our app?",
+    "should_trigger": false
+  }
+]

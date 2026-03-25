@@ -1,8 +1,8 @@
 ---
 name: advanced-analytics
-description: This skill should be used when the user asks about "predictive analytics", "machine learning business", "churn prediction", "customer lifetime value", "demand forecasting", "customer segmentation", "RFM analysis", "clustering", "AutoML", "A/B testing", "statistical significance", "uplift modeling", "propensity scoring", "lead scoring", "fraud detection ML", "recommendation engine", "next best action", "causal inference", "analytique predictive", "machine learning metier", "prediction de churn", "valeur vie client", "prevision de demande", "segmentation client", "analyse RFM", "clustering", "AutoML", "test A/B", "significance statistique", "modelisation d'uplift", "scoring de propension", "scoring de leads", "detection de fraude ML", "moteur de recommandation", "prochaine meilleure action", "inference causale", "modele predictif", "ML applique", "science des donnees metier", "business data science", or needs guidance on applying machine learning and statistics to business problems for prediction, segmentation, and experimentation.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "predictive analytics", "machine learning business", "churn prediction", "customer lifetime value", "demand forecasting", "customer segmentation", "RFM analysis", "clustering", "AutoML", "A/B testing", "statistical significance", "uplift modeling", "propensity scoring", "lead scoring", "fraud detection ML", "recommendation engine", "next best action", "causal inference", "analytique predictive", "machine learning metier", "prediction de churn", "valeur vie client", "prevision de demande", "segmentation client", "analyse RFM", "clustering", "AutoML", "test A/B", "significance statistique", "modelisation d'uplift", "scoring de propension", "scoring de leads", "detection de fraude ML", "moteur de recommandation", "prochaine meilleure action", "inference causale", "modele predictif", "ML applique", "science des donnees metier", "business data science", or needs guidance on applying machine learning and statistics to business problems for prediction, segmentation, and experimentation. Invoke this skill proactively whenever advanced analytics topics arise — even if not explicitly requested. If there is any advanced analytics dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Advanced Analytics — Predictive ML, Segmentation & Business Experimentation
@@ -304,3 +304,9 @@ Consult these reference files for deep dives on each topic area:
 - **[Experimentation & Statistics](./references/experimentation-stats.md)** — A/B testing rigoureux, calcul de taille d'echantillon, tests de significativite, methodes bayesiennes, uplift modeling, inference causale.
 
 - **[Etudes de cas](./references/case-studies.md)** — Cas pratiques detailles illustrant l'application du ML avance a des problemes metier reels.
+
+## See Also
+
+- **prompt-engineering-llmops** (`ai-governance/prompt-engineering-llmops`) — LLM-powered analytics
+- **ab-testing-experimentation** (`data-bi/ab-testing-experimentation`) — Experimentation and causal inference
+- **time-series-forecasting** (`data-bi/time-series-forecasting`) — Forecasting as advanced analytics

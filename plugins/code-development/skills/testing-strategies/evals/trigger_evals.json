@@ -1,0 +1,58 @@
+[
+  {
+    "query": "je veux faire du TDD pour ma nouvelle feature, comment structurer mes tests avant le code ?",
+    "should_trigger": true
+  },
+  {
+    "query": "what's the right testing pyramid for a React + Node.js app? how much unit vs integration vs e2e?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to test async code and API calls in Vitest without hitting real endpoints?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre code coverage est à 20%, comment augmenter sans juste écrire des tests inutiles ?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment tester un service qui appelle plusieurs APIs externes — mocking strategy ?",
+    "should_trigger": true
+  },
+  {
+    "query": "should I use Playwright or Cypress for our e2e tests? our app is Next.js",
+    "should_trigger": true
+  },
+  {
+    "query": "how to write tests for a legacy codebase that has none?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment implémenter des contract tests entre nos microservices avec Pact ?",
+    "should_trigger": true
+  },
+  {
+    "query": "my tests are passing but the feature is broken in production — why?",
+    "should_trigger": false
+  },
+  {
+    "query": "configure Jest in my Create React App project",
+    "should_trigger": false
+  },
+  {
+    "query": "load test my API with 10,000 concurrent users using k6",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I do QA testing manually for a mobile app?",
+    "should_trigger": false
+  },
+  {
+    "query": "write a test for this specific function: [code snippet]",
+    "should_trigger": false
+  },
+  {
+    "query": "setup code review process for my team",
+    "should_trigger": false
+  }
+]

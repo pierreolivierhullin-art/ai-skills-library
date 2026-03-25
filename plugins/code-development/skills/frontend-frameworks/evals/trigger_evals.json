@@ -1,0 +1,58 @@
+[
+  {
+    "query": "Next.js App Router vs Pages Router — on démarre un nouveau projet, lequel choisir ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement server-side rendering with data fetching in Next.js 14?",
+    "should_trigger": true
+  },
+  {
+    "query": "quelle stratégie de state management pour une app React complexe : Redux vs Zustand vs Jotai ?",
+    "should_trigger": true
+  },
+  {
+    "query": "React vs Vue vs Svelte for our new dashboard app — we're a 4-person team with React experience",
+    "should_trigger": true
+  },
+  {
+    "query": "comment gérer le routing et le code splitting dans une SPA React avec 50+ pages ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our React app re-renders too often, how to optimize with memo, useMemo, useCallback?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement ISR (Incremental Static Regeneration) in Next.js for our blog?",
+    "should_trigger": true
+  },
+  {
+    "query": "Tanstack Query vs SWR for data fetching in React — what are the tradeoffs?",
+    "should_trigger": true
+  },
+  {
+    "query": "fix this CSS layout issue in my React component",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I set up Tailwind CSS in my project?",
+    "should_trigger": false
+  },
+  {
+    "query": "write me a React component for a dropdown menu",
+    "should_trigger": false
+  },
+  {
+    "query": "my Next.js app is slow, how to check Core Web Vitals?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to add dark mode to my React app with CSS variables?",
+    "should_trigger": false
+  },
+  {
+    "query": "configure webpack for my React app",
+    "should_trigger": false
+  }
+]

@@ -1,8 +1,8 @@
 ---
 name: excel-spreadsheets
-description: This skill should be used when the user asks about "Excel advanced formulas", "spreadsheet modeling", "Power Query", "Power Pivot", "VBA macros", "Google Sheets", "Apps Script", "pivot tables", "data validation", "conditional formatting", "XLOOKUP", "dynamic arrays", "LAMBDA functions", "Excel dashboards", "financial modeling spreadsheet", "formules Excel avancées", "tableaux croisés dynamiques", "modélisation données", "automatisation Excel", "macros VBA", "Google Sheets avancé", "Power BI connection", "data cleaning spreadsheet", "sparklines", "Power Map", discusses advanced spreadsheet techniques, data modeling, or needs guidance on Excel/Sheets automation, formulas, and professional-grade spreadsheet solutions.
-version: 1.0.0
-last_updated: 2026-02
+description: Expert guide for "Excel advanced formulas", "spreadsheet modeling", "Power Query", "Power Pivot", "VBA macros", "Google Sheets", "Apps Script", "pivot tables", "data validation", "conditional formatting", "XLOOKUP", "dynamic arrays", "LAMBDA functions", "Excel dashboards", "financial modeling spreadsheet", "formules Excel avancées", "tableaux croisés dynamiques", "modélisation données", "automatisation Excel", "macros VBA", "Google Sheets avancé", "Power BI connection", "data cleaning spreadsheet", "sparklines", "Power Map", discusses advanced spreadsheet techniques, data modeling, or needs guidance on Excel/Sheets automation, formulas, and professional-grade spreadsheet solutions. Invoke this skill proactively whenever excel spreadsheets topics arise — even if not explicitly requested. If there is any excel spreadsheets dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Excel & Spreadsheets Avances / Advanced Spreadsheets
@@ -322,3 +322,13 @@ Consult these reference files for deep dives on each topic area:
 - **[Data Modeling & Dashboards](./references/data-modeling-dashboards.md)** — Architecture de modele de donnees (Input/Calculation/Output), star schema dans Excel (Power Pivot), DAX fundamentals (CALCULATE, SUMX, RELATED, time intelligence), tableaux croises dynamiques avances, dashboards interactifs (slicers, timelines, form controls), conditional formatting, sparklines, Google Sheets dashboards.
 
 - **[Advanced Techniques](./references/advanced-techniques.md)** — Python in Excel (pandas, matplotlib, scikit-learn), Copilot in Excel, Google Sheets AI, performance optimization (modes de calcul, fonctions volatiles), gestion de gros volumes (1M+ lignes), collaboration (co-authoring, version control, protection), connexion Excel-Power BI, validation de donnees, templates reutilisables, formats de fichiers.
+
+## Scripts disponibles
+
+- **[generate_financial_template.py](./scripts/generate_financial_template.py)** — Génère un fichier Excel avec structure P&L / Bilan / Cash Flow pré-formatée. Usage : `python3 generate_financial_template.py mon_modele.xlsx`
+
+## See Also
+
+- **data-viz-tools** (`data-bi/data-viz-tools`) — BI tools beyond Excel
+- **data-literacy** (`data-bi/data-literacy`) — Data literacy for spreadsheet users
+- **automatisation-workflows** (`productivite/automatisation-workflows`) — Automating Excel workflows

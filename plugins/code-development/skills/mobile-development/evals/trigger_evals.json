@@ -1,0 +1,54 @@
+[
+  {
+    "query": "on démarre une app mobile B2C — React Native vs Flutter vs native Swift/Kotlin — comment choisir ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement offline-first architecture in our React Native app?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre app iOS a un crash rate de 3% — comment diagnostiquer et monitorer avec Sentry/Firebase Crashlytics ?",
+    "should_trigger": true
+  },
+  {
+    "query": "App Store Optimization (ASO) strategy for our new app launch in 3 markets",
+    "should_trigger": true
+  },
+  {
+    "query": "comment gérer l'état global dans une app React Native complexe — Zustand vs Redux Toolkit ?",
+    "should_trigger": true
+  },
+  {
+    "query": "push notifications strategy for our e-commerce app — opt-in rates, segmentation, deep links?",
+    "should_trigger": true
+  },
+  {
+    "query": "performance optimization for our Flutter app — frame drops and memory issues",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement biometric authentication (Face ID, Touch ID) in our mobile app?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a web app that works on mobile?",
+    "should_trigger": false
+  },
+  {
+    "query": "PWA vs native app — which to choose?",
+    "should_trigger": false
+  },
+  {
+    "query": "our mobile API is slow — how to optimize?",
+    "should_trigger": false
+  },
+  {
+    "query": "design our mobile app's navigation flow",
+    "should_trigger": false
+  },
+  {
+    "query": "how to test our mobile app before submission?",
+    "should_trigger": false
+  }
+]

@@ -1,8 +1,8 @@
 ---
 name: backend-db
-description: This skill should be used when the user asks about "database design", "SQL optimization", "PostgreSQL", "Supabase", "ORM", "Prisma", "Drizzle", "API development", "REST API", "GraphQL", "database migrations", "indexing", "query optimization", "NoSQL", "Redis", "vector databases", "conception de base de données", "optimisation SQL", "développement API", "migrations de base de données", "optimisation de requêtes", "bases de données vectorielles", "MySQL", "MongoDB", "DynamoDB", "Elasticsearch", "database schema", "schéma de base de données", "normalization", "normalisation", "denormalization", "N+1 query", "connection pooling", "database replication", "réplication", "sharding", "partitioning", "stored procedures", "triggers", "materialized views", "tRPC", "Hono", "Express", "Fastify", "NestJS", "serverless functions", or needs guidance on backend development and database management.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "database design", "SQL optimization", "PostgreSQL", "Supabase", "ORM", "Prisma", "Drizzle", "API development", "REST API", "GraphQL", "database migrations", "indexing", "query optimization", "NoSQL", "Redis", "vector databases", "conception de base de données", "optimisation SQL", "développement API", "migrations de base de données", "optimisation de requêtes", "bases de données vectorielles", "MySQL", "MongoDB", "DynamoDB", "Elasticsearch", "database schema", "schéma de base de données", "normalization", "normalisation", "denormalization", "N+1 query", "connection pooling", "database replication", "réplication", "sharding", "partitioning", "stored procedures", "triggers", "materialized views", "tRPC", "Hono", "Express", "Fastify", "NestJS", "serverless functions", or needs guidance on backend development and database management. Invoke this skill proactively whenever backend db topics arise — even if not explicitly requested. If there is any backend db dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Backend Development & Database Management
@@ -330,3 +330,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Stack Supabase](./references/supabase-stack.md)** : Supabase Auth (providers, integration RLS), Supabase Storage (policies, transformations), Supabase Realtime (broadcast, presence, postgres changes), Edge Functions (Deno), PostgREST, CLI & developpement local, webhooks & triggers.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **data-engineering** (`data-bi/data-engineering`) — Data pipelines and warehouse architecture
+- **caching-strategies** (`code-development/caching-strategies`) — Caching to reduce DB load

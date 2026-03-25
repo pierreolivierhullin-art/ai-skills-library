@@ -1,0 +1,58 @@
+[
+  {
+    "query": "comment modéliser une relation many-to-many entre produits et catégories avec des attributs sur la relation ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our PostgreSQL queries are taking 3s+ on a table with 10M rows, how do I optimize?",
+    "should_trigger": true
+  },
+  {
+    "query": "Prisma vs TypeORM vs Drizzle — which ORM should I use for my Node.js app?",
+    "should_trigger": true
+  },
+  {
+    "query": "je dois faire une migration sans downtime sur une table de 50M de lignes en production",
+    "should_trigger": true
+  },
+  {
+    "query": "comment gérer les transactions distribuées entre plusieurs microservices ?",
+    "should_trigger": true
+  },
+  {
+    "query": "should I use PostgreSQL or MongoDB for my content management system with flexible schemas?",
+    "should_trigger": true
+  },
+  {
+    "query": "how do I implement optimistic locking to prevent race conditions in my booking system?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre base grandit vite, quand faut-il penser au sharding ? comment l'implémenter ?",
+    "should_trigger": true
+  },
+  {
+    "query": "I need to build a real-time analytics dashboard showing live sales data",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I set up dbt models for our data warehouse?",
+    "should_trigger": false
+  },
+  {
+    "query": "build an ETL pipeline from our PostgreSQL to BigQuery",
+    "should_trigger": false
+  },
+  {
+    "query": "help me write a Python script to parse CSV files and load them into a database",
+    "should_trigger": false
+  },
+  {
+    "query": "configure Redis for session management in my Express app",
+    "should_trigger": false
+  },
+  {
+    "query": "how to do customer cohort analysis from our order data?",
+    "should_trigger": false
+  }
+]

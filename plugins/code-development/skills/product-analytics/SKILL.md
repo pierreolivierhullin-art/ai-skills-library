@@ -1,8 +1,8 @@
 ---
 name: product-analytics
-description: This skill should be used when the user asks about "product analytics", "event tracking", "A/B testing", "experimentation", "product metrics", "funnel analysis", "retention analysis", "cohort analysis", "tracking plan", "Amplitude", "Mixpanel", "PostHog", "Segment", "analytique produit", "suivi d'événements", "tests A/B", "expérimentation", "métriques produit", "analyse de funnel", "analyse de rétention", "analyse de cohortes", "plan de tracking", "AARRR", "pirate metrics", "activation", "engagement", "conversion rate", "taux de conversion", "DAU", "MAU", "WAU", "feature adoption", "adoption fonctionnalité", "user segmentation", "segmentation utilisateurs", "heat maps", "session replay", "Hotjar", "FullStory", "Google Analytics", "GA4", "attribution", "privacy-compliant analytics", "CNIL", or needs guidance on product instrumentation, data-driven decisions, and privacy-compliant analytics.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "product analytics", "event tracking", "A/B testing", "experimentation", "product metrics", "funnel analysis", "retention analysis", "cohort analysis", "tracking plan", "Amplitude", "Mixpanel", "PostHog", "Segment", "analytique produit", "suivi d'événements", "tests A/B", "expérimentation", "métriques produit", "analyse de funnel", "analyse de rétention", "analyse de cohortes", "plan de tracking", "AARRR", "pirate metrics", "activation", "engagement", "conversion rate", "taux de conversion", "DAU", "MAU", "WAU", "feature adoption", "adoption fonctionnalité", "user segmentation", "segmentation utilisateurs", "heat maps", "session replay", "Hotjar", "FullStory", "Google Analytics", "GA4", "attribution", "privacy-compliant analytics", "CNIL", or needs guidance on product instrumentation, data-driven decisions, and privacy-compliant analytics. Invoke this skill proactively whenever product analytics topics arise — even if not explicitly requested. If there is any product analytics dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Product Analytics & Instrumentation / Analytique Produit & Instrumentation
@@ -305,3 +305,8 @@ Consult the following reference files for deep-dive guidance on each domain:
 - Evan Miller Sample Size Calculator: https://www.evanmiller.org/ab-testing/sample-size.html
 - Eppo Experimentation Guide: https://www.geteppo.com/blog
 - CNIL Analytics Exemption: https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies-solutions-pour-les-outils-de-mesure-daudience
+
+## See Also
+
+- **customer-analytics** (`data-bi/customer-analytics`) — Customer analytics and LTV
+- **ab-testing-experimentation** (`data-bi/ab-testing-experimentation`) — A/B testing and experimentation

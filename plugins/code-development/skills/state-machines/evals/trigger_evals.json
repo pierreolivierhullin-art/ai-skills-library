@@ -1,0 +1,50 @@
+[
+  {
+    "query": "notre logique de commande a des centaines de if/else imbriqués — comment la refactorer avec une machine à états ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to model a subscription lifecycle (trial → active → paused → cancelled → reactivated) as a state machine?",
+    "should_trigger": true
+  },
+  {
+    "query": "XState for our React app — how to model complex UI workflows with nested states?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment modéliser et implémenter un workflow d'approbation multi-niveaux avec une machine à états ?",
+    "should_trigger": true
+  },
+  {
+    "query": "statecharts vs flowcharts for modeling our business processes — what are the differences?",
+    "should_trigger": true
+  },
+  {
+    "query": "our state machine has 20 states and it's getting unmanageable — how to use hierarchical states?",
+    "should_trigger": true
+  },
+  {
+    "query": "testing state machine implementations — how to achieve good coverage of all transitions?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement a finite state machine in TypeScript from scratch?",
+    "should_trigger": false
+  },
+  {
+    "query": "our Redux store is getting complex — should we refactor?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to implement workflow automation with n8n?",
+    "should_trigger": false
+  },
+  {
+    "query": "modeling database state transitions with triggers",
+    "should_trigger": false
+  },
+  {
+    "query": "how to implement event-driven architecture?",
+    "should_trigger": false
+  }
+]

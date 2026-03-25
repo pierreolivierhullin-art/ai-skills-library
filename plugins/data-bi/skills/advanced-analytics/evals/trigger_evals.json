@@ -1,0 +1,22 @@
+[
+  {"query": "Je veux construire un modèle de churn prediction pour nos abonnés SaaS — quelle approche ML choisir ?", "should_trigger": true},
+  {"query": "Comment faire un clustering de nos clients pour identifier des segments comportementaux cachés ?", "should_trigger": true},
+  {"query": "On veut modéliser l'impact causal de notre campagne promo sur les ventes — comment faire ça rigoureusement ?", "should_trigger": true},
+  {"query": "Aide-moi à construire un modèle de régression pour prédire le CA mensuel par client", "should_trigger": true},
+  {"query": "Comment utiliser la causal inference pour mesurer l'effet réel de notre A/B test malgré des biais de sélection ?", "should_trigger": true},
+  {"query": "help me build a propensity to buy model using our CRM data and Python scikit-learn", "should_trigger": true},
+  {"query": "Notre modèle XGBoost a 85% d'accuracy mais notre business team ne lui fait pas confiance — comment l'expliquer ?", "should_trigger": true},
+  {"query": "On veut implémenter un système de recommandation produit basé sur le collaborative filtering", "should_trigger": true},
+  {"query": "Comment évaluer correctement un modèle de classification sur un dataset très déséquilibré (1% de positifs) ?", "should_trigger": true},
+  {"query": "Aide-moi à identifier les features les plus importantes dans notre modèle de scoring avec SHAP", "should_trigger": true},
+  {"query": "need to run a survival analysis on our subscription data to predict time to churn", "should_trigger": true},
+  {"query": "Comment construire un modèle de forecast des ventes à 6 mois avec nos données historiques saisonnières ?", "should_trigger": true},
+  {"query": "On veut faire de l'anomaly detection sur nos transactions financières — quelle approche non supervisée ?", "should_trigger": true},
+  {"query": "Quelle différence entre uplift modeling et propensity modeling pour cibler nos campagnes retention ?", "should_trigger": true},
+  {"query": "aide-moi à appliquer un test de Granger pour analyser les relations causales entre nos KPIs", "should_trigger": true},
+  {"query": "Comment créer un dashboard Tableau avec les bons graphiques pour notre rapport mensuel direction ?", "should_trigger": false},
+  {"query": "On veut analyser les résultats de notre A/B test sur le bouton CTA — quelle significativité statistique ?", "should_trigger": false},
+  {"query": "aide-moi à construire un rapport KPI hebdomadaire pour notre équipe marketing dans Power BI", "should_trigger": false},
+  {"query": "Comment calculer la LTV et les cohortes de rétention pour notre rapport business mensuel ?", "should_trigger": false},
+  {"query": "On veut mettre en place une stratégie de data governance pour nos équipes analytics", "should_trigger": false}
+]

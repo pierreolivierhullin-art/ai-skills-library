@@ -1,0 +1,54 @@
+[
+  {
+    "query": "comment mettre en place une stratégie d'observabilité pour mes microservices ? logs, métriques, traces",
+    "should_trigger": true
+  },
+  {
+    "query": "we need SLOs for our API — how to define and track error budget?",
+    "should_trigger": true
+  },
+  {
+    "query": "Prometheus + Grafana vs Datadog vs New Relic pour une startup de 10 devs ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement distributed tracing with OpenTelemetry across my Node.js services?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre système de logs est du chaos total, comment passer à des logs structurés ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to set up alerting that doesn't produce alert fatigue? we're drowning in false positives",
+    "should_trigger": true
+  },
+  {
+    "query": "what metrics should I instrument in my payment service? we had a silent failure last week",
+    "should_trigger": true
+  },
+  {
+    "query": "my app is down, how do I debug a production outage right now?",
+    "should_trigger": false
+  },
+  {
+    "query": "optimize my database queries that are causing high CPU",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I profile my Python application for memory leaks?",
+    "should_trigger": false
+  },
+  {
+    "query": "configure auto-scaling based on CPU metrics in AWS",
+    "should_trigger": false
+  },
+  {
+    "query": "setup CI/CD pipeline with health checks for my Kubernetes deployments",
+    "should_trigger": false
+  },
+  {
+    "query": "Core Web Vitals are bad on my landing page, how to improve LCP?",
+    "should_trigger": false
+  }
+]

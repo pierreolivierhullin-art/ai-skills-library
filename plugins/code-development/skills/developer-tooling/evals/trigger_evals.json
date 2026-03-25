@@ -1,0 +1,50 @@
+[
+  {
+    "query": "notre équipe de 10 devs n'a pas de setup standard, comment uniformiser les environnements de dev avec devcontainers ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to set up a monorepo with Turborepo for our 5 Next.js apps sharing components?",
+    "should_trigger": true
+  },
+  {
+    "query": "je veux automatiser la création de nouveaux projets avec des templates et des scaffolding tools",
+    "should_trigger": true
+  },
+  {
+    "query": "ESLint + Prettier + Husky + lint-staged setup for our TypeScript monorepo — best config?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a CLI tool for our internal workflows — Node.js with Commander vs Python with Click?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre CI prend 20 minutes, comment optimiser avec le caching des dépendances et la parallélisation ?",
+    "should_trigger": true
+  },
+  {
+    "query": "setting up semantic versioning and automated changelogs with Conventional Commits and release-please",
+    "should_trigger": true
+  },
+  {
+    "query": "how to deploy our Node.js app to production with PM2?",
+    "should_trigger": false
+  },
+  {
+    "query": "configure GitHub Actions for our deployment pipeline",
+    "should_trigger": false
+  },
+  {
+    "query": "how to set up a code review process for my team?",
+    "should_trigger": false
+  },
+  {
+    "query": "which IDE should I use for TypeScript development?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to debug a memory leak in Node.js production?",
+    "should_trigger": false
+  }
+]

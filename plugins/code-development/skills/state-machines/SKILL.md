@@ -1,7 +1,7 @@
 ---
 name: state-machines
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever state machines topics arise — even if not explicitly requested. If there is any state machines dimension in the conversation, this skill applies.
   State machines XState v5 finite state machines FSM statecharts actors,
   parallel states guards actions services invoke promises,
   React useSelector useMachine XState hooks,
@@ -487,3 +487,8 @@ ou durer plus de quelques secondes → Temporal.io plutôt que XState
 - `references/temporal-workflows.md` — Temporal.io en profondeur (namespaces, worker configuration, versioning de workflows, continue-as-new, schedules, signaux/queries avancés)
 - `references/fsm-ui.md` — Patterns UI avec XState (formulaires wizard, drag-and-drop, menus complexes, animations coordonnées), React Flow, comparaison avec Zustand/Redux
 - `references/case-studies.md` — 4 cas : checkout e-commerce avec XState (0 état incohérent), workflow Temporal onboarding 14 jours, migration useState → XState, saga de paiement avec compensation
+
+## See Also
+
+- **frontend-frameworks** (`code-development/frontend-frameworks`) — State management in React
+- **distributed-systems** (`code-development/distributed-systems`) — Stateful distributed services

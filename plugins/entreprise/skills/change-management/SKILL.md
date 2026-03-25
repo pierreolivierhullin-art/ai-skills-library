@@ -1,8 +1,8 @@
 ---
 name: change-management
-description: This skill should be used when the user asks about "change management", "conduite du changement", "organizational change", "transformation organisationnelle", "transformation digitale", "digital transformation", "resistance to change", "résistance au changement", "Kotter", "ADKAR", "change communication", "communication du changement", "adoption", "change adoption", "stakeholder management", "gestion des parties prenantes", "change readiness", "organizational readiness", "culture change", "changement culturel", "change impact", "transition management", "gestion de la transition", "Lewin model", "change agents", "agents du changement", "change fatigue", "training and adoption", "formation et adoption", "change governance", "gouvernance du changement", "OCM", "organizational change management", discusses organizational transformations, or needs guidance on leading change, overcoming resistance, or driving adoption of new processes, tools, or ways of working.
-version: 1.0.0
-last_updated: 2026-02
+description: Expert guide for "change management", "conduite du changement", "organizational change", "transformation organisationnelle", "transformation digitale", "digital transformation", "resistance to change", "résistance au changement", "Kotter", "ADKAR", "change communication", "communication du changement", "adoption", "change adoption", "stakeholder management", "gestion des parties prenantes", "change readiness", "organizational readiness", "culture change", "changement culturel", "change impact", "transition management", "gestion de la transition", "Lewin model", "change agents", "agents du changement", "change fatigue", "training and adoption", "formation et adoption", "change governance", "gouvernance du changement", "OCM", "organizational change management", discusses organizational transformations, or needs guidance on leading change, overcoming resistance, or driving adoption of new processes, tools, or ways of working. Invoke this skill proactively whenever change management topics arise — even if not explicitly requested. If there is any change management dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Change Management — Conduite du Changement & Transformation
@@ -327,3 +327,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Resistance & Adoption](./references/resistance-adoption.md)** : diagnostic de la resistance, courbe d'adoption (Rogers), strategies par profil, change champions, gestion de la change fatigue, mesure de l'adoption, state of the art 2025-2026.
 - **[Communication & Engagement](./references/communication-engagement.md)** : plans de communication du changement, storytelling, formats par audience, gestion des rumeurs, engagement des managers, rituels d'ancrage, state of the art 2025-2026.
 - **[Etudes de cas](./references/case-studies.md)** — Cas pratiques detailles illustrant les concepts cles du skill.
+
+## See Also
+
+- **gestion-de-projets** (`entreprise/gestion-de-projets`) — Project management during change
+- **leadership-management** (`entreprise/leadership-management`) — Leadership during transformation

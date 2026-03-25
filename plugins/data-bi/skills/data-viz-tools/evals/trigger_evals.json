@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on doit choisir entre Power BI et Tableau pour notre entreprise de 1000 employés — lequel acheter ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement row-level security in Power BI for our multi-tenant reporting?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre Looker LookML est devenu ingérable avec 500+ measures — comment le refactorer ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Metabase vs Superset vs Redash for self-service analytics in our startup — which is most user-friendly?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment construire un tableau de bord Tableau qui se rafraîchit en temps réel depuis notre PostgreSQL ?",
+    "should_trigger": true
+  },
+  {
+    "query": "DAX formula for a rolling 12-month average in Power BI — why is my calculation wrong?",
+    "should_trigger": true
+  },
+  {
+    "query": "Grafana for business dashboards vs operational monitoring — is it the right tool for our executives?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to choose the right chart type for my data — bar vs line vs area?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a D3.js custom visualization for our website",
+    "should_trigger": false
+  },
+  {
+    "query": "how to set up monitoring dashboards for our Kubernetes cluster?",
+    "should_trigger": false
+  },
+  {
+    "query": "our analytics dashboard design — UX improvements",
+    "should_trigger": false
+  },
+  {
+    "query": "how to create a report in Google Sheets?",
+    "should_trigger": false
+  }
+]

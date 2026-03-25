@@ -1,0 +1,22 @@
+[
+  {"query": "Comment améliorer mes prompts pour obtenir des réponses plus structurées de GPT-4 ?", "should_trigger": true},
+  {"query": "Je veux implémenter un pipeline RAG avec LangChain et une base vectorielle Pinecone — par où commencer ?", "should_trigger": true},
+  {"query": "On envisage de fine-tuner Mistral sur nos données internes — quand ça vaut vraiment le coup vs prompting ?", "should_trigger": true},
+  {"query": "Comment structurer un pipeline LLMOps pour versioner, tester et déployer nos prompts en prod ?", "should_trigger": true},
+  {"query": "Aide-moi à implémenter une technique chain-of-thought pour améliorer le raisonnement de notre LLM", "should_trigger": true},
+  {"query": "how do I use function calling with OpenAI API to build a reliable tool-use agent ?", "should_trigger": true},
+  {"query": "Quelle différence entre few-shot prompting et fine-tuning, et quand choisir l'un vs l'autre ?", "should_trigger": true},
+  {"query": "On veut évaluer la qualité de nos sorties LLM — comment construire un framework d'évaluation automatisé ?", "should_trigger": true},
+  {"query": "Comment orchestrer plusieurs agents LLM avec LangGraph pour un workflow de traitement de documents ?", "should_trigger": true},
+  {"query": "Notre RAG retourne des chunks non pertinents — comment améliorer le retrieval avec du reranking ?", "should_trigger": true},
+  {"query": "need to set up CI/CD for LLM prompts — how to test prompt changes before deploying to production", "should_trigger": true},
+  {"query": "Comment monitorer les coûts et la latence de nos appels LLM en production avec Langfuse ?", "should_trigger": true},
+  {"query": "On veut construire un system prompt robuste pour un agent IA de support — comment le structurer ?", "should_trigger": true},
+  {"query": "Comment implémenter du self-consistency prompting pour réduire la variabilité des sorties ?", "should_trigger": true},
+  {"query": "aide-moi à choisir entre embedding models pour notre pipeline RAG : OpenAI vs Cohere vs open source", "should_trigger": true},
+  {"query": "Comment déployer notre application LLM sur AWS avec une architecture serverless et scalable ?", "should_trigger": false},
+  {"query": "On veut créer une API REST pour exposer notre modèle ML — comment la sécuriser avec OAuth2 ?", "should_trigger": false},
+  {"query": "Comment construire notre roadmap IA d'entreprise et prioriser les cas d'usage à fort ROI ?", "should_trigger": false},
+  {"query": "On veut évaluer si notre IA respecte les principes éthiques de fairness et transparence", "should_trigger": false},
+  {"query": "Comment structurer notre comité de gouvernance IA pour valider les déploiements en production ?", "should_trigger": false}
+]

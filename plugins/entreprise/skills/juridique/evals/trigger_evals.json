@@ -1,0 +1,54 @@
+[
+  {
+    "query": "on signe un contrat SaaS avec un grand compte — quelles clauses critiquer et négocier en priorité ?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment protéger notre logiciel par la propriété intellectuelle en France — dépôt APP, brevets ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our GDPR DPA (Data Processing Agreement) needs reviewing — what clauses are non-negotiable?",
+    "should_trigger": true
+  },
+  {
+    "query": "je dois licencier un salarié en CDI pour faute grave — quelle procédure respecter ?",
+    "should_trigger": true
+  },
+  {
+    "query": "NDA pour notre partenariat stratégique — quelles clauses essentielles et points de vigilance ?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment structurer nos CGV pour notre activité e-commerce B2C ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our startup needs a shareholder agreement (pacte d'actionnaires) — key clauses to include?",
+    "should_trigger": true
+  },
+  {
+    "query": "marque déposée : processus INPI et protection internationale via OMPI ?",
+    "should_trigger": true
+  },
+  {
+    "query": "GDPR compliance requirements for our customer data",
+    "should_trigger": false
+  },
+  {
+    "query": "tax optimization for our holding company structure",
+    "should_trigger": false
+  },
+  {
+    "query": "how to handle a customer complaint about our product?",
+    "should_trigger": false
+  },
+  {
+    "query": "employment contract template for our new hires",
+    "should_trigger": false
+  },
+  {
+    "query": "regulatory compliance for our financial product (AMF)",
+    "should_trigger": false
+  }
+]

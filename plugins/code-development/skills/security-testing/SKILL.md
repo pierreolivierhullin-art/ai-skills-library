@@ -1,7 +1,7 @@
 ---
 name: security-testing
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever security testing topics arise — even if not explicitly requested. If there is any security testing dimension in the conversation, this skill applies.
   Application security testing, SAST static analysis, DAST dynamic testing, OWASP ZAP,
   Burp Suite, dependency scanning, secrets detection, SQL injection XSS CSRF prevention,
   security code review, pen testing, vulnerability assessment, OWASP Top 10,
@@ -441,3 +441,7 @@ const securityHeaders = [
 - `references/sast-dast-tools.md` — Semgrep, Snyk, ZAP, Burp Suite, Trivy en détail
 - `references/secrets-management.md` — HashiCorp Vault, AWS Secrets Manager, rotation, CI/CD
 - `references/case-studies.md` — 4 cas : injection SQL détectée, secret exposé GitHub, pentest résultats
+
+## See Also
+
+- **auth-security** (`code-development/auth-security`) — Authentication and authorisation security

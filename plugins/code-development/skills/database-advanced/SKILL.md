@@ -1,7 +1,7 @@
 ---
 name: database-advanced
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever database advanced topics arise — even if not explicitly requested. If there is any database advanced dimension in the conversation, this skill applies.
   Zero-downtime database migrations, expand-contract pattern, Prisma migrate,
   Flyway Liquibase, query optimization EXPLAIN ANALYZE, database indexing strategies,
   table partitioning, sharding, read replicas, connection pooling PgBouncer,
@@ -320,3 +320,8 @@ SELECT cron.schedule('rafraichir-dashboard', '0 * * * *',
 - `references/performance.md` — EXPLAIN ANALYZE en profondeur, index avancés (BRIN, SP-GiST), autovacuum, pg_stat_statements
 - `references/advanced-patterns.md` — Partitioning avancé, sharding avec Citus, TimescaleDB, Neo4j Cypher, full-text search
 - `references/case-studies.md` — 4 cas : migration zéro downtime 10M lignes, lenteur résolue par index, RLS multi-tenant, TimescaleDB IoT
+
+## See Also
+
+- **backend-db** (`code-development/backend-db`) — Database design and ORMs
+- **data-engineering** (`data-bi/data-engineering`) — Data migrations and warehouse

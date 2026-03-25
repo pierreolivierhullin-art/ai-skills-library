@@ -1,0 +1,54 @@
+[
+  {
+    "query": "what are the MiFID II best execution requirements for our equity trading desk?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment se conformer aux exigences de reporting EMIR pour nos dérivés OTC ?",
+    "should_trigger": true
+  },
+  {
+    "query": "our fund needs to comply with UCITS V — what are the key constraints on derivatives use?",
+    "should_trigger": true
+  },
+  {
+    "query": "SEC Rule 10b-5 compliance for our US trading operations — what do we need to implement?",
+    "should_trigger": true
+  },
+  {
+    "query": "SFDR Article 8 vs Article 9 classification for our ESG fund — what's required?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment implémenter les exigences de ségrégation des actifs clients selon MiFID II ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Basel III capital requirements for our trading book — how to calculate FRTB SA?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to structure our investment policy to comply with ERISA fiduciary standards?",
+    "should_trigger": true
+  },
+  {
+    "query": "explain the mathematical derivation of CAPM",
+    "should_trigger": false
+  },
+  {
+    "query": "how to audit our AI models for bias and fairness?",
+    "should_trigger": false
+  },
+  {
+    "query": "GDPR requirements for our customer data processing",
+    "should_trigger": false
+  },
+  {
+    "query": "how to implement data governance for our data warehouse?",
+    "should_trigger": false
+  },
+  {
+    "query": "corporate tax optimisation strategies for our holding company",
+    "should_trigger": false
+  }
+]

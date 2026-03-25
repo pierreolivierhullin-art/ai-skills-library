@@ -1,8 +1,8 @@
 ---
 name: support-client
-description: This skill should be used when the user asks about "customer support strategy", "customer success", "knowledge base management", "NPS improvement", "customer experience", "stratégie support client", "service client", "satisfaction client", "CSAT", "CES", "customer effort score", "help desk", "centre d'aide", "ticketing", "Zendesk", "Intercom", "Freshdesk", "churn prevention", "rétention client", "fidélisation", "customer health score", "onboarding client", "SLA support", "temps de réponse", "first response time", "résolution au premier contact", "FCR", "self-service", "chatbot support", "escalation", "voice of customer", "VoC", discusses help desk operations, churn prevention, or needs guidance on support metrics, CX programs, or customer health scoring.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "customer support strategy", "customer success", "knowledge base management", "NPS improvement", "customer experience", "stratégie support client", "service client", "satisfaction client", "CSAT", "CES", "customer effort score", "help desk", "centre d'aide", "ticketing", "Zendesk", "Intercom", "Freshdesk", "churn prevention", "rétention client", "fidélisation", "customer health score", "onboarding client", "SLA support", "temps de réponse", "first response time", "résolution au premier contact", "FCR", "self-service", "chatbot support", "escalation", "voice of customer", "VoC", discusses help desk operations, churn prevention, or needs guidance on support metrics, CX programs, or customer health scoring. Invoke this skill proactively whenever support client topics arise — even if not explicitly requested. If there is any support client dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Customer Support & Service Client
@@ -291,3 +291,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[CX & Analytics](./references/cx-analytics.md)** : programmes Voice of Customer, mesure NPS/CSAT/CES, journey mapping, service blueprinting, analytics support, forecasting, performance metrics, state of the art 2024-2026.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **commercial** (`entreprise/commercial`) — Sales and customer success alignment
+- **customer-analytics** (`data-bi/customer-analytics`) — Customer health and churn analytics

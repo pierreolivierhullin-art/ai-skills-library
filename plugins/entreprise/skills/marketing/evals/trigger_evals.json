@@ -1,0 +1,22 @@
+[
+  {"query": "J'ai besoin de construire notre stratégie GTM pour lancer notre produit SaaS en France", "should_trigger": true},
+  {"query": "Aide-moi à définir nos buyer personas pour notre campagne d'acquisition B2B", "should_trigger": true},
+  {"query": "On doit refaire notre branding — comment aligner identité visuelle et positionnement marché ?", "should_trigger": true},
+  {"query": "Comment structurer notre funnel d'acquisition pour passer de 500 à 2000 leads/mois ?", "should_trigger": true},
+  {"query": "Je dois rédiger notre messaging strategy pour un nouveau segment de marché PME", "should_trigger": true},
+  {"query": "Help me create a B2C marketing campaign for our product launch next month", "should_trigger": true},
+  {"query": "On veut repositionner notre marque suite à une fusion — par où commencer ?", "should_trigger": true},
+  {"query": "Analyse notre mix marketing actuel et propose des optimisations pour le Q3", "should_trigger": true},
+  {"query": "Comment construire une stratégie de content marketing pour générer de l'awareness ?", "should_trigger": true},
+  {"query": "Je prépare notre plan marketing annuel, aide-moi à structurer les priorités par canal", "should_trigger": true},
+  {"query": "our brand positioning is blurry — how do we differentiate in a crowded SaaS market ?", "should_trigger": true},
+  {"query": "On lance une campagne LinkedIn Ads pour cibler les DSI de PME industrielles", "should_trigger": true},
+  {"query": "Comment mesurer l'efficacité de notre branding campaign sur les réseaux sociaux ?", "should_trigger": true},
+  {"query": "Aide-moi à segmenter notre audience pour personnaliser nos campagnes email marketing", "should_trigger": true},
+  {"query": "On veut faire du co-marketing avec un partenaire, comment structurer la proposition ?", "should_trigger": true},
+  {"query": "Comment optimiser notre balise title et nos meta-descriptions pour le SEO technique ?", "should_trigger": false},
+  {"query": "Mon taux de conversion sur Stripe est de 2%, comment analyser le funnel technique dans notre code ?", "should_trigger": false},
+  {"query": "aide-moi à écrire un script Python pour scraper les prix de nos concurrents", "should_trigger": false},
+  {"query": "Comment closer une vente lors d'un appel de démo avec un prospect tiède ?", "should_trigger": false},
+  {"query": "Notre équipe sales a besoin d'un script d'appel pour la prospection outbound", "should_trigger": false}
+]

@@ -1,8 +1,8 @@
 ---
 name: email-gestion-temps
-description: This skill should be used when the user asks about "email management", "Inbox Zero", "Outlook advanced", "Gmail advanced", "email productivity", "email templates", "email filters", "email rules", "time management", "time blocking", "GTD", "Getting Things Done", "Pomodoro technique", "Eisenhower matrix", "priority management", "calendar management", "focus mode", "deep work", "productivity system", "gestion des emails", "productivité personnelle", "gestion du temps", "organisation personnelle", "boîte de réception", "règles Outlook", "filtres Gmail", "agenda", "planification", discusses email optimization, time management, or needs guidance on personal productivity systems, calendar management, and prioritization methods.
-version: 1.0.0
-last_updated: 2026-02
+description: Expert guide for "email management", "Inbox Zero", "Outlook advanced", "Gmail advanced", "email productivity", "email templates", "email filters", "email rules", "time management", "time blocking", "GTD", "Getting Things Done", "Pomodoro technique", "Eisenhower matrix", "priority management", "calendar management", "focus mode", "deep work", "productivity system", "gestion des emails", "productivité personnelle", "gestion du temps", "organisation personnelle", "boîte de réception", "règles Outlook", "filtres Gmail", "agenda", "planification", discusses email optimization, time management, or needs guidance on personal productivity systems, calendar management, and prioritization methods. Invoke this skill proactively whenever email gestion temps topics arise — even if not explicitly requested. If there is any email gestion temps dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Email & Gestion du Temps / Email & Time Management
@@ -363,3 +363,8 @@ Consult these reference files for deep dives on each topic area:
 - **[Priority Frameworks](./references/priority-frameworks.md)** — Matrice d'Eisenhower en detail, methode MoSCoW, scoring RICE, matrice Impact/Effort, regle 25/5 de Warren Buffett, principe de Pareto (80/20), fatigue decisionnelle, gestion de la charge cognitive, outils de priorisation.
 
 - **[Productivity Systems](./references/productivity-systems.md)** — Stack de productivite complet (task manager + calendrier + notes + email), comparaison d'outils (Todoist, Things, TickTick, Notion, Obsidian), routines matin et soir, habit tracking, weekly review, metriques de productivite, outils de concentration, minimalisme numerique, durabilite et prevention du burnout.
+
+## See Also
+
+- **collaboration-digitale** (`productivite/collaboration-digitale`) — Digital collaboration and async work
+- **documents-redaction** (`productivite/documents-redaction`) — Professional writing and documentation

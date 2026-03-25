@@ -1,8 +1,8 @@
 ---
 name: ai-engineering
-description: This skill should be used when the user asks about "AI engineering", "LLM integration", "RAG", "retrieval augmented generation", "embeddings", "vector database", "fine-tuning", "prompt engineering for developers", "AI agents", "tool use", "function calling", "multi-agent systems", "LLM API", "model serving", "AI evaluation", "evals", "LLM observability", "AI cost optimization", "ingénierie IA", "intégration LLM", "agents IA", "orchestration IA", "MLOps", "model deployment", "AI pipeline", "semantic search", "recherche sémantique", "chunking strategy", "AI middleware", "structured output", "JSON mode", "streaming LLM", "AI guardrails", "prompt caching", "model routing", "AI gateway", "inference optimization", discusses building AI-powered features, or needs guidance on integrating LLMs into applications, designing AI agents, or managing AI infrastructure.
-version: 1.0.0
-last_updated: 2026-02
+description: Expert guide for "AI engineering", "LLM integration", "RAG", "retrieval augmented generation", "embeddings", "vector database", "fine-tuning", "prompt engineering for developers", "AI agents", "tool use", "function calling", "multi-agent systems", "LLM API", "model serving", "AI evaluation", "evals", "LLM observability", "AI cost optimization", "ingénierie IA", "intégration LLM", "agents IA", "orchestration IA", "MLOps", "model deployment", "AI pipeline", "semantic search", "recherche sémantique", "chunking strategy", "AI middleware", "structured output", "JSON mode", "streaming LLM", "AI guardrails", "prompt caching", "model routing", "AI gateway", "inference optimization", discusses building AI-powered features, or needs guidance on integrating LLMs into applications, designing AI agents, or managing AI infrastructure. Invoke this skill proactively whenever ai engineering topics arise — even if not explicitly requested. If there is any ai engineering dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # AI Engineering — LLM Integration, Agents & ML Operations
@@ -338,3 +338,9 @@ Consulter les fichiers de référence suivants pour des guides détaillés :
 - **[Agents & Workflows](./references/agents-and-workflows.md)** : conception d'agents IA, tool use et function calling, orchestration multi-agents, mémoire et planification, guardrails, patterns d'agentic AI, state of the art 2025-2026.
 - **[ML Engineering & Operations](./references/ml-engineering-ops.md)** : fine-tuning (LoRA, QLoRA), model serving, scaling d'inférence, monitoring IA, gestion des coûts, CI/CD pour pipelines IA, state of the art 2025-2026.
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **strategie-ia** (`ai-governance/strategie-ia`) — AI strategy and governance
+- **prompt-engineering-llmops** (`ai-governance/prompt-engineering-llmops`) — Prompt engineering and LLM operations
+- **advanced-analytics** (`data-bi/advanced-analytics`) — Analytics and ML for business

@@ -1,8 +1,8 @@
 ---
 name: presentations-storytelling
-description: This skill should be used when the user asks about "PowerPoint design", "slide design", "presentation storytelling", "visual storytelling", "pitch deck", "Google Slides", "Keynote", "data visualization slides", "presentation structure", "slide master", "presentation template", "executive presentation", "board presentation", "investor pitch", "design de slides", "présentation percutante", "storytelling visuel", "mise en page PowerPoint", "Gamma", "Beautiful.ai", "Marp", "presentation narrative", "slide animation", discusses presentation design, visual communication, or needs guidance on creating high-impact presentations and pitch decks.
-version: 1.0.0
-last_updated: 2026-02
+description: Expert guide for "PowerPoint design", "slide design", "presentation storytelling", "visual storytelling", "pitch deck", "Google Slides", "Keynote", "data visualization slides", "presentation structure", "slide master", "presentation template", "executive presentation", "board presentation", "investor pitch", "design de slides", "présentation percutante", "storytelling visuel", "mise en page PowerPoint", "Gamma", "Beautiful.ai", "Marp", "presentation narrative", "slide animation", discusses presentation design, visual communication, or needs guidance on creating high-impact presentations and pitch decks. Invoke this skill proactively whenever presentations storytelling topics arise — even if not explicitly requested. If there is any presentations storytelling dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Presentations & Storytelling Visuel / Visual Presentations & Storytelling
@@ -385,3 +385,12 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Storytelling & Narrative](./references/storytelling-narrative.md)** : Minto Pyramid Principle, framework SCP/SCQA, Hero's Journey adapte au business, techniques d'ouverture et de cloture, transitions entre sections, data storytelling, structures de pitch deck specifiques.
 - **[Data Visualization en Slides](./references/data-visualization-slides.md)** : guide de selection de graphiques, bonnes pratiques par type de chart, design de tableaux, KPI displays, diagrammes de processus, annotations et callouts, accessibilite.
 - **[Outils & Workflow](./references/tools-workflow.md)** : PowerPoint avance, Google Slides, Keynote, outils IA (Gamma, Beautiful.ai, Tome, Pitch), Marp, gestion d'assets, collaboration, export et optimisation, delivery et enregistrement.
+
+## Scripts disponibles
+
+- **[generate_presentation_outline.py](./scripts/generate_presentation_outline.py)** — Génère un plan de présentation structuré selon le type (pitch/rapport/workshop/keynote). Usage : `python3 generate_presentation_outline.py --titre "Mon titre" --type pitch --slides 12`
+
+## See Also
+
+- **communication** (`entreprise/communication`) — Corporate communication strategy
+- **data-literacy** (`data-bi/data-literacy`) — Data storytelling and visualisation

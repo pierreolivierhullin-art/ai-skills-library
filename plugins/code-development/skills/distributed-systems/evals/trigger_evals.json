@@ -1,0 +1,54 @@
+[
+  {
+    "query": "on construit un système distribué pour traiter 100k transactions/seconde — comment gérer la cohérence des données ?",
+    "should_trigger": true
+  },
+  {
+    "query": "CAP theorem in practice — our microservices choose consistency over availability, is that right for e-commerce?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment implémenter le pattern saga pour les transactions distribuées entre 5 microservices ?",
+    "should_trigger": true
+  },
+  {
+    "query": "event sourcing vs CQRS — when to use each, and the pitfalls we should avoid?",
+    "should_trigger": true
+  },
+  {
+    "query": "our distributed system has split-brain issues — how to implement leader election properly?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement idempotency for distributed message processing with exactly-once semantics?",
+    "should_trigger": true
+  },
+  {
+    "query": "deux-phase commit vs compensating transactions pour notre système bancaire distribué",
+    "should_trigger": true
+  },
+  {
+    "query": "how to design for failure in a distributed system — circuit breakers, retries, timeouts?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to configure Kubernetes for our microservices?",
+    "should_trigger": false
+  },
+  {
+    "query": "our Kafka consumer is lagging — how to scale it up?",
+    "should_trigger": false
+  },
+  {
+    "query": "implement a message queue with RabbitMQ",
+    "should_trigger": false
+  },
+  {
+    "query": "how to split our monolith into microservices?",
+    "should_trigger": false
+  },
+  {
+    "query": "our database has race conditions — how to fix with locking?",
+    "should_trigger": false
+  }
+]

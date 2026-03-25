@@ -1,7 +1,7 @@
 ---
 name: search-engineering
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever search engineering topics arise — even if not explicitly requested. If there is any search engineering dimension in the conversation, this skill applies.
   Search engineering pgvector PostgreSQL vector similarity semantic search embeddings,
   Elasticsearch OpenSearch full-text search relevance scoring BM25 query DSL,
   Algolia InstantSearch faceted navigation typo tolerance,
@@ -448,3 +448,8 @@ Idéal pour    RAG/AI apps    Gros volumes    E-commerce     App B2B
 - `references/elasticsearch.md` — Elasticsearch en profondeur (aggregations, percolator, mapping explosions, snapshot), OpenSearch, Learning to Rank, relevance tuning avancé
 - `references/search-ux.md` — Algolia InstantSearch avancé, Typesense, autocomplete, search-as-you-type, analytics de recherche, A/B testing de ranking, query understanding NLP
 - `references/case-studies.md` — 4 cas : migration PostgreSQL + pgvector pour RAG, Elasticsearch 50M docs optimisé, Algolia e-commerce avec personnalisation, recherche hybride production
+
+## See Also
+
+- **backend-db** (`code-development/backend-db`) — Database full-text search
+- **data-engineering** (`data-bi/data-engineering`) — Data indexing pipelines

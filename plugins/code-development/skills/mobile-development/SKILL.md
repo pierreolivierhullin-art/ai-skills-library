@@ -1,7 +1,7 @@
 ---
 name: mobile-development
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever mobile development topics arise — even if not explicitly requested. If there is any mobile development dimension in the conversation, this skill applies.
   Use this skill when the user asks about "développement mobile", "React Native", "Flutter", "PWA", "application mobile", "iOS", "Android", "App Store", "Google Play", "push notifications", "deep linking", "mobile architecture", "offline-first", "biometrics mobile", "Expo", "capacitor", "mobile performance", "ASO App Store Optimization", discusses building cross-platform or native mobile applications, or needs guidance on mobile development frameworks, architecture patterns, and app distribution.
 ---
 
@@ -424,3 +424,8 @@ Similaire à l'App Store avec quelques différences :
 | **3 — App cross-platform** | React Native ou Flutter, fonctionnalités natives basiques |
 | **4 — App production** | CI/CD, push notifications, deep linking, analytics, crash reporting |
 | **5 — Mobile-first** | Offline-first, performance optimisée, ASO actif, A/B testing |
+
+## See Also
+
+- **frontend-frameworks** (`code-development/frontend-frameworks`) — React Native and cross-platform
+- **ux-engineering** (`code-development/ux-engineering`) — User onboarding and UX flows

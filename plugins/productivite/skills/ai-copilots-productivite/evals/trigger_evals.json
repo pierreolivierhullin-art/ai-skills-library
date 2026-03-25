@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on vient d'activer M365 Copilot pour notre entreprise — comment former nos 500 employés pour en tirer le maximum ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to use Copilot in Teams to summarize my missed meetings and action items?",
+    "should_trigger": true
+  },
+  {
+    "query": "Google Gemini vs Microsoft Copilot for our G Suite vs M365 company — which AI assistant is better?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment rédiger les meilleurs prompts pour Copilot in Word pour générer des rapports professionnels ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Copilot in Excel — how to use it to analyze our sales data and generate insights automatically?",
+    "should_trigger": true
+  },
+  {
+    "query": "je veux utiliser ChatGPT dans mon travail quotidien — quels cas d'usage pour un directeur commercial ?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre équipe utilise l'IA de façon dispersée — comment créer un guide d'utilisation des AI copilots ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build an AI agent for our business processes?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to fine-tune Claude for our customer support use case?",
+    "should_trigger": false
+  },
+  {
+    "query": "implement AI-powered search for our knowledge base",
+    "should_trigger": false
+  },
+  {
+    "query": "our ChatGPT usage is expensive — how to optimize API costs?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to automate our workflows with n8n and AI?",
+    "should_trigger": false
+  }
+]

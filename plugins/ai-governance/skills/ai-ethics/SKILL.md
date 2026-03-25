@@ -1,8 +1,8 @@
 ---
 name: ai-ethics
-description: This skill should be used when the user asks about "AI ethics", "algorithmic bias", "fairness", "explainability", "XAI", "responsible AI", "trustworthy AI", "AI transparency", "bias mitigation", "model cards", "éthique de l'IA", "biais algorithmique", "équité", "explicabilité", "IA responsable", "IA de confiance", "transparence IA", "atténuation des biais", "fiches modèle", "AI audit", "audit algorithmique", "discrimination algorithmique", "AI impact assessment", "étude d'impact IA", "AIDA", "EU AI Act", "AI Act européen", "human-in-the-loop", "HITL", "AI accountability", "responsabilité IA", "data ethics", "éthique des données", "consent management", "fairness metrics", "disparate impact", "AI governance framework", or needs guidance on ethical AI development, bias detection, and responsible AI practices.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "AI ethics", "algorithmic bias", "fairness", "explainability", "XAI", "responsible AI", "trustworthy AI", "AI transparency", "bias mitigation", "model cards", "éthique de l'IA", "biais algorithmique", "équité", "explicabilité", "IA responsable", "IA de confiance", "transparence IA", "atténuation des biais", "fiches modèle", "AI audit", "audit algorithmique", "discrimination algorithmique", "AI impact assessment", "étude d'impact IA", "AIDA", "EU AI Act", "AI Act européen", "human-in-the-loop", "HITL", "AI accountability", "responsabilité IA", "data ethics", "éthique des données", "consent management", "fairness metrics", "disparate impact", "AI governance framework", or needs guidance on ethical AI development, bias detection, and responsible AI practices. Invoke this skill proactively whenever ai ethics topics arise — even if not explicitly requested. If there is any ai ethics dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # AI Ethics, Fairness & Responsible AI
@@ -12,6 +12,9 @@ last_updated: 2026-02
 Ce skill couvre l'ensemble des disciplines liees a l'ethique de l'intelligence artificielle, a l'equite algorithmique et au developpement responsable de l'IA. Il fournit un cadre structure pour identifier, mesurer et attenuer les biais algorithmiques, assurer la transparence et l'explicabilite des modeles, et mettre en oeuvre les principes d'une IA digne de confiance. L'ethique de l'IA ne se limite pas a un exercice de conformite reglementaire : elle englobe la conception equitable des systemes, la protection des droits fondamentaux, l'evaluation des impacts sociaux et environnementaux, et la mise en place de mecanismes de gouvernance tout au long du cycle de vie des modeles. Appliquer systematiquement les principes decrits ici pour guider chaque decision de conception, d'entrainement, de deploiement et de suivi des systemes d'IA.
 
 ## When This Skill Applies
+
+> **Périmètre** : Ce skill répond à la question **"Est-ce juste ?"** — équité, biais, valeurs humaines, responsabilité sociétale.
+> Pour la question **"Est-ce sûr ?"** (prompt injection, hallucinations, attaques, sécurité technique), utiliser `ai-governance/ai-risk`.
 
 Activer ce skill dans les situations suivantes :
 
@@ -297,3 +300,9 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Impact Assessment](./references/impact-assessment.md)** : Algorithmic Impact Assessment, evaluation d'impact social, impact environnemental (empreinte carbone, CodeCarbon), consultation des parties prenantes, monitoring continu et audit, cadres reglementaires.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **ai-risk** (`ai-governance/ai-risk`) — Technical AI risks and safety — distinct from ethics
+- **ai-data-privacy** (`ai-governance/ai-data-privacy`) — Data privacy and AI governance
+- **juridique** (`entreprise/juridique`) — Legal frameworks for AI ethics

@@ -1,7 +1,7 @@
 ---
 name: testing-strategies
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever testing strategies topics arise — even if not explicitly requested. If there is any testing strategies dimension in the conversation, this skill applies.
   Testing strategies, Vitest unit testing, React Testing Library component testing,
   MSW mock service worker, Playwright component tests, mutation testing Stryker,
   contract testing Pact, property-based testing fast-check, test doubles mocks stubs spies,
@@ -400,3 +400,8 @@ it('retourne true pour 18 ans exactement', () => {
 - `references/component-e2e.md` — React Testing Library avancé, Playwright component tests, visual regression
 - `references/advanced-patterns.md` — MSW avancé, Pact contract testing, Stryker mutation, fast-check, test architecture
 - `references/case-studies.md` — 4 cas : migration Jest→Vitest, 0%→80% coverage, contract testing microservices, TDD feature
+
+## See Also
+
+- **code-excellence** (`code-development/code-excellence`) — Code quality and refactoring
+- **quality-reliability** (`code-development/quality-reliability`) — QA automation and reliability

@@ -1,0 +1,22 @@
+[
+  {"query": "Notre modèle de scoring crédit semble défavoriser certaines populations — comment détecter et corriger ce biais ?", "should_trigger": true},
+  {"query": "On doit se conformer à l'EU AI Act — quelles obligations éthiques pour notre système IA à haut risque ?", "should_trigger": true},
+  {"query": "Comment mettre en place un processus d'audit d'équité (fairness) pour nos algorithmes RH ?", "should_trigger": true},
+  {"query": "Nos clients nous demandent d'expliquer les décisions de notre IA — comment implémenter de l'explicabilité ?", "should_trigger": true},
+  {"query": "Comment construire la confiance des utilisateurs envers notre système IA dans le domaine médical ?", "should_trigger": true},
+  {"query": "help me design an AI ethics review process for our product team before launching new ML features", "should_trigger": true},
+  {"query": "On utilise des données historiques biaisées pour entraîner notre modèle RH — comment mitiger ça ?", "should_trigger": true},
+  {"query": "Comment rendre nos décisions algorithmiques transparentes et contestables par les utilisateurs ?", "should_trigger": true},
+  {"query": "Notre comité éthique IA se réunit la semaine prochaine — aide-moi à structurer le cadre d'évaluation", "should_trigger": true},
+  {"query": "Qu'est-ce que le principe de fairness en machine learning et comment le mesurer concrètement ?", "should_trigger": true},
+  {"query": "algorithmic bias found in our hiring tool — how do we assess the extent and fix it responsibly ?", "should_trigger": true},
+  {"query": "Comment documenter les impacts potentiels de notre IA sur les droits fondamentaux (FRIA) ?", "should_trigger": true},
+  {"query": "On veut créer une charte éthique IA d'entreprise — quels principes y inclure ?", "should_trigger": true},
+  {"query": "Comment impliquer les parties prenantes affectées par notre IA dans un processus participatif ?", "should_trigger": true},
+  {"query": "Quelle différence entre XAI (explainable AI) et interprétabilité, et quand choisir quelle approche ?", "should_trigger": true},
+  {"query": "Comment configurer nos garde-fous techniques pour éviter les prompt injections sur notre LLM en prod ?", "should_trigger": false},
+  {"query": "Notre modèle LLM hallucine 3% du temps — comment réduire ce taux techniquement ?", "should_trigger": false},
+  {"query": "Comment mettre en conformité notre traitement de données IA avec le RGPD article 22 ?", "should_trigger": false},
+  {"query": "On veut chiffrer les données d'entraînement de notre modèle — quelle approche de privacy-preserving ML ?", "should_trigger": false},
+  {"query": "Comment évaluer les risques de sécurité d'un modèle IA exposé en API publique ?", "should_trigger": false}
+]

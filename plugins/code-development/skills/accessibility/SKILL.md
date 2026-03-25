@@ -1,7 +1,7 @@
 ---
 name: accessibility
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever accessibility topics arise — even if not explicitly requested. If there is any accessibility dimension in the conversation, this skill applies.
   Web accessibility WCAG 2.1 2.2, a11y testing, ARIA attributes, screen reader compatibility,
   keyboard navigation, color contrast, accessible forms, focus management, semantic HTML,
   axe-core testing, accessible design patterns, WAI-ARIA, disability inclusive design,
@@ -488,3 +488,8 @@ Visuellement
 - `references/aria-patterns.md` — WAI-ARIA Authoring Practices (accordions, menus, tabs, etc.)
 - `references/testing-tools.md` — axe-core, Lighthouse, NVDA, VoiceOver, Accessibility Insights
 - `references/case-studies.md` — 4 cas : audit RGAA service public, refacto formulaire, modal accessible
+
+## See Also
+
+- **frontend-frameworks** (`code-development/frontend-frameworks`) — React accessibility patterns
+- **ui-design** (`code-development/ui-design`) — UI design and WCAG compliance

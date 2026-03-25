@@ -1,7 +1,7 @@
 ---
 name: i18n-localization
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever i18n localization topics arise — even if not explicitly requested. If there is any i18n localization dimension in the conversation, this skill applies.
   Internationalization i18n localization l10n React Next.js applications,
   i18next react-i18next next-intl configuration namespaces interpolation,
   ICU message format plurals gender ordinals,
@@ -394,3 +394,8 @@ files:
 - `references/icu-plurals.md` — ICU message format complet (plurals par règle CLDR, ordinaux, sélect, nested), i18next-icu, Fluent (Mozilla), gestion des genres grammaticaux
 - `references/rtl-locales.md` — CSS logique complet, Tailwind RTL, tests Playwright RTL, polices arabes/hébraïques, chiffres arabes-indiens, bidi algorithm
 - `references/case-studies.md` — 4 cas : migration vers next-intl dans un monorepo, RTL arabe ajouté en 2 semaines, workflow Crowdin CI/CD, détection des hardcoded strings automatisée
+
+## See Also
+
+- **frontend-frameworks** (`code-development/frontend-frameworks`) — React i18n patterns
+- **marketing** (`entreprise/marketing`) — Localisation for international markets

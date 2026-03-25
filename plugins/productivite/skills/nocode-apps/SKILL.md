@@ -1,8 +1,8 @@
 ---
 name: nocode-apps
-description: This skill should be used when the user asks about "no-code development", "low-code platform", "Airtable", "Retool", "Glide", "AppSheet", "Bubble", "Softr", "internal tools", "visual database", "no-code app builder", "citizen development", "business applications", "forms advanced", "Tally forms", "Typeform", "portals", "applications internes", "développement sans code", "bases de données visuelles", "applications métier", "outils internes", "formulaires avancés", "prototypage rapide", "MVP no-code", "client portal", discusses no-code/low-code application development, visual databases, or needs guidance on building internal tools, forms, and business applications without coding.
-version: 1.0.0
-last_updated: 2026-02
+description: Expert guide for "no-code development", "low-code platform", "Airtable", "Retool", "Glide", "AppSheet", "Bubble", "Softr", "internal tools", "visual database", "no-code app builder", "citizen development", "business applications", "forms advanced", "Tally forms", "Typeform", "portals", "applications internes", "développement sans code", "bases de données visuelles", "applications métier", "outils internes", "formulaires avancés", "prototypage rapide", "MVP no-code", "client portal", discusses no-code/low-code application development, visual databases, or needs guidance on building internal tools, forms, and business applications without coding. Invoke this skill proactively whenever nocode apps topics arise — even if not explicitly requested. If there is any nocode apps dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Applications No-Code / No-Code Applications
@@ -322,3 +322,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[App Builders](./references/app-builders.md)** : Retool (outils internes, SQL-natif, composants), Glide (mobile-first, Sheets/Airtable backend), AppSheet (Google ecosystem, expressions), Bubble (full-stack web apps, workflows), Softr (portails Airtable), comparaison detaillee, architecture, deploiement, pricing, strategies de migration.
 - **[Formulaires & Portails](./references/forms-portals.md)** : form builders modernes (Tally, Typeform, JotForm, Google Forms), fonctionnalites avancees (logique conditionnelle, calculs, uploads, paiements), patterns form-to-workflow, portails clients/fournisseurs, portails self-service, embedding, analytics, accessibilite, conformite GDPR.
 - **[Architecture No-Code](./references/architecture-patterns.md)** : patterns d'architecture de donnees (relationnel, flat, hybride), securite et access control (RBAC), optimisation de performance, limites de scalabilite, framework de gouvernance (naming, documentation, ownership, lifecycle), testing, monitoring, backup, conformite (GDPR, SOC2), migration no-code vers code.
+
+## See Also
+
+- **automatisation-workflows** (`productivite/automatisation-workflows`) — Workflow automation with no-code
+- **developer-tooling** (`code-development/developer-tooling`) — Developer tools as alternatives

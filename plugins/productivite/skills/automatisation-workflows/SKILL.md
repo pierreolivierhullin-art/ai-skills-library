@@ -1,8 +1,8 @@
 ---
 name: automatisation-workflows
-description: This skill should be used when the user asks about "workflow automation", "N8N", "Power Automate", "Zapier", "Make", "Integromat", "IFTTT", "no-code automation", "API integration", "webhook automation", "automated workflows", "business process automation", "RPA", "trigger action", "automatisation des processus", "flux de travail automatisés", "intégration d'applications", "orchestration de workflows", "automatisation sans code", "connecteurs API", "scheduling automation", "error handling workflows", "multi-step automation", discusses workflow automation platforms, API integrations, or needs guidance on automating business processes without code.
-version: 1.0.0
-last_updated: 2026-02
+description: Expert guide for "workflow automation", "N8N", "Power Automate", "Zapier", "Make", "Integromat", "IFTTT", "no-code automation", "API integration", "webhook automation", "automated workflows", "business process automation", "RPA", "trigger action", "automatisation des processus", "flux de travail automatisés", "intégration d'applications", "orchestration de workflows", "automatisation sans code", "connecteurs API", "scheduling automation", "error handling workflows", "multi-step automation", discusses workflow automation platforms, API integrations, or needs guidance on automating business processes without code. Invoke this skill proactively whenever automatisation workflows topics arise — even if not explicitly requested. If there is any automatisation workflows dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Automatisation de Workflows / Workflow Automation
@@ -356,3 +356,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Zapier & Make](./references/zapier-make.md)** : architecture Zapier (Zaps, multi-step, paths, filters), Tables et Interfaces, Make scenarios et modules, data mapping et iterateurs, comparaison Zapier vs Make, IFTTT pour les automatisations simples, modeles de pricing et optimisation, patterns avances et migration entre plateformes.
 - **[Design Patterns de Workflows](./references/workflow-design-patterns.md)** : patterns d'architecture (sequentiel, parallele, branching, boucle, saga), types de triggers, patterns de gestion d'erreurs (retry, dead letter, circuit breaker), transformation de donnees, idempotence, testing, monitoring, gouvernance et securite.
 - **[Integration API & Connecteurs](./references/integration-api.md)** : fondamentaux REST API, methodes HTTP et codes de statut, patterns d'authentification (API key, OAuth 2.0, Bearer token), webhooks et securite, data mapping et transformation, pagination, rate limiting, synchronisation temps reel vs batch, integrations populaires et debugging.
+
+## See Also
+
+- **nocode-apps** (`productivite/nocode-apps`) — No-code app building and automation
+- **developer-tooling** (`code-development/developer-tooling`) — Developer tooling and scripting

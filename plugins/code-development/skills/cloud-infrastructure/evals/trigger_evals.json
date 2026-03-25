@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on démarre sur AWS — comment structurer notre landing zone multi-account avec Terraform ?",
+    "should_trigger": true
+  },
+  {
+    "query": "AWS vs GCP for our ML workloads — our data is in BigQuery, should we go all-in GCP?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre facture AWS est à €50k/mois et monte — comment faire une analyse FinOps et réduire de 30% ?",
+    "should_trigger": true
+  },
+  {
+    "query": "serverless vs containers for our new microservice — Lambda vs ECS vs EKS tradeoffs?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to design a multi-region active-active architecture on AWS for 99.99% uptime?",
+    "should_trigger": true
+  },
+  {
+    "query": "Terraform modules structure for our 10-team org — how to share infrastructure as code?",
+    "should_trigger": true
+  },
+  {
+    "query": "cloud migration strategy — lift-and-shift vs re-platform vs re-architect for our legacy app?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to configure Kubernetes for our microservices?",
+    "should_trigger": false
+  },
+  {
+    "query": "set up Prometheus monitoring for our application",
+    "should_trigger": false
+  },
+  {
+    "query": "how to implement a CI/CD pipeline with GitHub Actions?",
+    "should_trigger": false
+  },
+  {
+    "query": "configure nginx as reverse proxy for our Node.js app",
+    "should_trigger": false
+  },
+  {
+    "query": "how to optimize our PostgreSQL queries on AWS RDS?",
+    "should_trigger": false
+  }
+]

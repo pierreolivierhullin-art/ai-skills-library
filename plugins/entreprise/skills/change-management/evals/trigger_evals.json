@@ -1,0 +1,58 @@
+[
+  {
+    "query": "on déploie SAP dans toute l'entreprise en 6 mois et les équipes terrain résistent fortement — comment gérer le changement ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to apply the ADKAR model to our digital transformation program across 5000 employees?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre taux d'adoption du nouveau CRM est à 30% après 3 mois — comment relancer ?",
+    "should_trigger": true
+  },
+  {
+    "query": "we're merging two companies with very different cultures — what's the change management approach?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment identifier et activer les change agents dans notre organisation pour porter la transformation ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Kotter 8-step vs Lewin unfreeze-change-refreeze for our agile transformation — which fits better?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre comité de direction sous-estime la résistance au changement — comment les convaincre d'investir dans l'OCM ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to design a change communication plan for a workforce reduction announcement?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment mesurer le ROI d'un programme de conduite du changement ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement a new agile methodology in our engineering team?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a training program for our new ERP system",
+    "should_trigger": false
+  },
+  {
+    "query": "our employees are disengaged — how to improve morale?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to create a project management office (PMO)?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to structure our digital transformation roadmap?",
+    "should_trigger": false
+  }
+]

@@ -1,8 +1,8 @@
 ---
 name: risk-management
-description: This skill should be used when the user asks about "enterprise risk management", "business continuity planning", "compliance program", "crisis management", "risk assessment", "gestion des risques", "ERM", "plan de continuité d'activité", "PCA", "PRA", "plan de reprise", "gestion de crise", "évaluation des risques", "cartographie des risques", "risk mapping", "COSO", "ISO 31000", "risk governance", "gouvernance des risques", "anti-corruption", "Sapin II", "FCPA", "UK Bribery Act", "disaster recovery", "BIA", "business impact analysis", "risk appetite", "appétit au risque", "risk register", "matrice de risques", "contrôle interne", "internal control", "audit des risques", discusses COSO, ISO 31000, or needs guidance on risk governance, anti-corruption compliance, or disaster recovery planning.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "enterprise risk management", "business continuity planning", "compliance program", "crisis management", "risk assessment", "gestion des risques", "ERM", "plan de continuité d'activité", "PCA", "PRA", "plan de reprise", "gestion de crise", "évaluation des risques", "cartographie des risques", "risk mapping", "COSO", "ISO 31000", "risk governance", "gouvernance des risques", "anti-corruption", "Sapin II", "FCPA", "UK Bribery Act", "disaster recovery", "BIA", "business impact analysis", "risk appetite", "appétit au risque", "risk register", "matrice de risques", "contrôle interne", "internal control", "audit des risques", discusses COSO, ISO 31000, or needs guidance on risk governance, anti-corruption compliance, or disaster recovery planning. Invoke this skill proactively whenever risk management topics arise — even if not explicitly requested. If there is any risk management dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Enterprise Risk Management
@@ -337,3 +337,8 @@ Consulter les fichiers de reference pour un approfondissement detaille :
 - **[BCP & Insurance](./references/bcp-insurance.md)** : Business Impact Analysis, PCA/BCP, PRA/DRP, gestion de crise, tests de continuite (tabletop, simulation, full-scale), RTO/RPO, programmes d'assurance, transfert de risques, captives, D&O/cyber/property insurance.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **ai-risk** (`ai-governance/ai-risk`) — AI-specific risk management
+- **juridique** (`entreprise/juridique`) — Legal and regulatory risk

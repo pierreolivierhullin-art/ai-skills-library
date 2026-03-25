@@ -1,8 +1,8 @@
 ---
 name: it-systemes
-description: This skill should be used when the user asks about "IT governance", "ITIL framework", "cloud strategy", "ERP implementation", "cybersecurity governance", "gouvernance IT", "gouvernance informatique", "stratégie cloud", "migration cloud", "implémentation ERP", "SAP", "Salesforce", "IT service management", "ITSM", "COBIT", "infrastructure informatique", "IT infrastructure", "vendor management", "gestion des fournisseurs IT", "digital workplace", "environnement de travail numérique", "shadow IT", "IT asset management", "CMDB", "incident management", "gestion des incidents", "disaster recovery", "PRA", "PCA", "SLA", "helpdesk", "ticketing", "TOGAF", "architecture d'entreprise", discusses IT service management, COBIT, or needs guidance on IT infrastructure, vendor management, or digital workplace.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "IT governance", "ITIL framework", "cloud strategy", "ERP implementation", "cybersecurity governance", "gouvernance IT", "gouvernance informatique", "stratégie cloud", "migration cloud", "implémentation ERP", "SAP", "Salesforce", "IT service management", "ITSM", "COBIT", "infrastructure informatique", "IT infrastructure", "vendor management", "gestion des fournisseurs IT", "digital workplace", "environnement de travail numérique", "shadow IT", "IT asset management", "CMDB", "incident management", "gestion des incidents", "disaster recovery", "PRA", "PCA", "SLA", "helpdesk", "ticketing", "TOGAF", "architecture d'entreprise", discusses IT service management, COBIT, or needs guidance on IT infrastructure, vendor management, or digital workplace. Invoke this skill proactively whenever it systemes topics arise — even if not explicitly requested. If there is any it systemes dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # IT / Data / Systemes — Gouvernance IT, Infrastructure, Cybersecurite & Applications Metier
@@ -294,3 +294,9 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[ERP & ITSM](./references/erp-itsm.md)** — ERP (SAP S/4HANA, Oracle, Dynamics 365, Odoo), CRM administration, RPA/low-code/no-code, integration et iPaaS (MuleSoft, Workato, Boomi), service desk (L1/L2/L3), change management IT (CAB), CMDB, problem management, knowledge management, ITAM, ESM.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **architecture** (`code-development/architecture`) — Software architecture for IT systems
+- **devops** (`code-development/devops`) — DevOps and IT delivery
+- **strategie-ia** (`ai-governance/strategie-ia`) — AI strategy for IT transformation

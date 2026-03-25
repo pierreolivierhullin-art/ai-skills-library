@@ -1,8 +1,8 @@
 ---
 name: devops
-description: This skill should be used when the user asks about "CI/CD", "continuous integration", "continuous deployment", "Docker", "Kubernetes", "Infrastructure as Code", "Terraform", "Pulumi", "feature flags", "GitOps", "GitHub Actions", "deployment strategy", "blue-green", "canary", "release management", "intégration continue", "déploiement continu", "infrastructure as code", "IaC", "stratégie de déploiement", "gestion des releases", "containerization", "conteneurisation", "Docker Compose", "Helm", "ArgoCD", "Flux", "Jenkins", "CircleCI", "GitLab CI", "Vercel", "Netlify", "AWS", "GCP", "Azure", "serverless", "rolling update", "rollback", "secrets management", "environment management", "staging", "production", "immutable infrastructure", "12-factor app", or needs guidance on DevOps practices, pipeline design, and release engineering.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "CI/CD", "continuous integration", "continuous deployment", "Docker", "Kubernetes", "Infrastructure as Code", "Terraform", "Pulumi", "feature flags", "GitOps", "GitHub Actions", "deployment strategy", "blue-green", "canary", "release management", "intégration continue", "déploiement continu", "infrastructure as code", "IaC", "stratégie de déploiement", "gestion des releases", "containerization", "conteneurisation", "Docker Compose", "Helm", "ArgoCD", "Flux", "Jenkins", "CircleCI", "GitLab CI", "Vercel", "Netlify", "AWS", "GCP", "Azure", "serverless", "rolling update", "rollback", "secrets management", "environment management", "staging", "production", "immutable infrastructure", "12-factor app", or needs guidance on DevOps practices, pipeline design, and release engineering. Invoke this skill proactively whenever devops topics arise — even if not explicitly requested. If there is any devops dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # DevOps — CI/CD, Infrastructure as Code, Containers & Release Management
@@ -278,3 +278,9 @@ Consult these reference files for deep dives on each topic area:
 - **[Deployment Strategies](./references/deployment-strategies.md)** — Blue-green, canary, rolling updates, feature flags and progressive delivery, zero-downtime deployments, database migrations in deployment, rollback strategies, environment management, preview environments.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **cloud-infrastructure** (`code-development/cloud-infrastructure`) — Cloud infrastructure provisioning
+- **monitoring** (`code-development/monitoring`) — Observability and alerting
+- **operations** (`entreprise/operations`) — Operational excellence and process

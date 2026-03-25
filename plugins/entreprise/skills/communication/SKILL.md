@@ -1,8 +1,8 @@
 ---
 name: communication
-description: This skill should be used when the user asks about "corporate communications", "press relations", "crisis communication", "internal communications", "public affairs", "communication d'entreprise", "relations presse", "communication de crise", "communication interne", "affaires publiques", "media strategy", "stratégie média", "reputation management", "e-réputation", "gestion de réputation", "PR", "relations publiques", "lobbying", "influence", "employee engagement communications", "communication managériale", "communiqué de presse", "press release", "media training", "personal branding", "thought leadership", "social media corporate", "brand journalism", "storytelling", "communication événementielle", "event communication", discusses media strategy, reputation management, or needs guidance on PR, lobbying, or employee engagement communications.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "corporate communications", "press relations", "crisis communication", "internal communications", "public affairs", "communication d'entreprise", "relations presse", "communication de crise", "communication interne", "affaires publiques", "media strategy", "stratégie média", "reputation management", "e-réputation", "gestion de réputation", "PR", "relations publiques", "lobbying", "influence", "employee engagement communications", "communication managériale", "communiqué de presse", "press release", "media training", "personal branding", "thought leadership", "social media corporate", "brand journalism", "storytelling", "communication événementielle", "event communication", discusses media strategy, reputation management, or needs guidance on PR, lobbying, or employee engagement communications. Invoke this skill proactively whenever communication topics arise — even if not explicitly requested. If there is any communication dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Communication Institutionnelle & Relations Publiques
@@ -284,3 +284,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Internal Communications & Public Affairs](./references/internal-public-affairs.md)** : strategie de communication interne, intranet et digital workplace, engagement collaborateur, town halls et all-hands, marque employeur interne, relations institutionnelles, lobbying et advocacy, veille politique et reglementaire, coalitions, tendances 2024-2026.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **presentations-storytelling** (`productivite/presentations-storytelling`) — Presentation design and storytelling
+- **marketing** (`entreprise/marketing`) — Brand communication and marketing

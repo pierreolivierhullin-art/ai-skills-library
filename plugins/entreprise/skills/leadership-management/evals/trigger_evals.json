@@ -1,0 +1,22 @@
+[
+  {"query": "Je dois préparer mon 1:1 avec un collaborateur qui sous-performe depuis 2 mois — comment structurer le feedback ?", "should_trigger": true},
+  {"query": "J'ai un conflit ouvert entre deux members de mon équipe, comment le gérer en tant que manager ?", "should_trigger": true},
+  {"query": "On intègre 3 nouveaux managers en septembre — aide-moi à créer leur programme d'onboarding", "should_trigger": true},
+  {"query": "Comment déléguer efficacement quand je fais encore trop d'opérationnel moi-même ?", "should_trigger": true},
+  {"query": "Mon équipe semble démotivée après un restructuring — comment remotiver sans augmentation de salaire ?", "should_trigger": true},
+  {"query": "help me design a performance review framework for my team of 8 engineers", "should_trigger": true},
+  {"query": "Je dois donner un feedback difficile à un senior qui refuse de collaborer avec le reste de l'équipe", "should_trigger": true},
+  {"query": "Comment faire évoluer mon style de management quand mon équipe passe de 5 à 20 personnes ?", "should_trigger": true},
+  {"query": "On veut créer une culture du feedback continu dans notre équipe produit — par où commencer ?", "should_trigger": true},
+  {"query": "Aide-moi à préparer un plan de développement individuel (PDI) pour un talent que je veux retenir", "should_trigger": true},
+  {"query": "new manager here, how do I build trust quickly with a team that's been together for 3 years ?", "should_trigger": true},
+  {"query": "Comment animer des team meetings qui ne soient pas une perte de temps pour tout le monde ?", "should_trigger": true},
+  {"query": "J'ai une décision difficile à prendre seul — comment impliquer mon équipe sans perdre l'autorité ?", "should_trigger": true},
+  {"query": "Mon top performer veut partir — comment mener la conversation de rétention ?", "should_trigger": true},
+  {"query": "Comment construire un cadre de responsabilisation (accountability) dans une équipe habituée au micro-management ?", "should_trigger": true},
+  {"query": "On a besoin de recruter 5 ingénieurs en 3 mois — comment organiser nos sessions d'entretiens ?", "should_trigger": false},
+  {"query": "Aide-moi à rédiger une offre d'emploi attractive pour un poste de Head of Data", "should_trigger": false},
+  {"query": "Comment structurer notre politique de télétravail pour respecter la législation française ?", "should_trigger": false},
+  {"query": "On veut revoir notre grille salariale — quelle méthodologie de benchmarking utiliser ?", "should_trigger": false},
+  {"query": "Comment piloter notre stratégie RH pour accompagner notre croissance internationale ?", "should_trigger": false}
+]

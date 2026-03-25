@@ -1,0 +1,50 @@
+[
+  {
+    "query": "notre PostgreSQL a des deadlocks fréquents sur notre table commandes — comment diagnostiquer et corriger ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement database sharding for our 500M row user table in PostgreSQL?",
+    "should_trigger": true
+  },
+  {
+    "query": "Cassandra vs ScyllaDB vs DynamoDB for our IoT time-series data — 1M writes/second?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment implémenter le partitionnement de table PostgreSQL pour améliorer les perfs sur nos données historiques ?",
+    "should_trigger": true
+  },
+  {
+    "query": "multi-model database — when to use a graph DB (Neo4j) alongside our relational DB?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement MVCC (Multi-Version Concurrency Control) and understand isolation levels in PostgreSQL?",
+    "should_trigger": true
+  },
+  {
+    "query": "vector databases comparison — Pinecone vs Weaviate vs pgvector for our RAG system?",
+    "should_trigger": true
+  },
+  {
+    "query": "our PostgreSQL queries are slow — how to add indexes and optimize?",
+    "should_trigger": false
+  },
+  {
+    "query": "Prisma vs TypeORM for our Node.js app",
+    "should_trigger": false
+  },
+  {
+    "query": "how to do zero-downtime migration on a 50M row table?",
+    "should_trigger": false
+  },
+  {
+    "query": "should I use PostgreSQL or MongoDB for my CMS?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to set up database replication for high availability?",
+    "should_trigger": false
+  }
+]

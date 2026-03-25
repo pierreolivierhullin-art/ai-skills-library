@@ -1,8 +1,8 @@
 ---
 name: options-risk
-description: This skill should be used when the user asks about "options trading", "Greeks", "delta", "gamma", "theta", "vega", "implied volatility", "options strategies", "risk management", "position sizing", "GARP screening", "covered call", "iron condor", "straddle", "Black-Scholes", "trading d'options", "grecques", "volatilité implicite", "stratégies d'options", "gestion du risque", "dimensionnement de position", "call couvert", "vente de put", "put spread", "call spread", "butterfly", "calendar spread", "strangle", "collar", "risk/reward", "ratio risque/rendement", "IV rank", "IV percentile", "options chain", "chaîne d'options", "expiration", "échéance", "strike price", "prix d'exercice", "in the money", "ITM", "OTM", "ATM", "open interest", "volume", "bid-ask spread", "assignment", "exercise", or needs guidance on options trading, market risk management, and fundamental analysis.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "options trading", "Greeks", "delta", "gamma", "theta", "vega", "implied volatility", "options strategies", "risk management", "position sizing", "GARP screening", "covered call", "iron condor", "straddle", "Black-Scholes", "trading d'options", "grecques", "volatilité implicite", "stratégies d'options", "gestion du risque", "dimensionnement de position", "call couvert", "vente de put", "put spread", "call spread", "butterfly", "calendar spread", "strangle", "collar", "risk/reward", "ratio risque/rendement", "IV rank", "IV percentile", "options chain", "chaîne d'options", "expiration", "échéance", "strike price", "prix d'exercice", "in the money", "ITM", "OTM", "ATM", "open interest", "volume", "bid-ask spread", "assignment", "exercise", or needs guidance on options trading, market risk management, and fundamental analysis. Invoke this skill proactively whenever options risk topics arise — even if not explicitly requested. If there is any options risk dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Options Risk
@@ -307,3 +307,9 @@ Consulter les fichiers de référence suivants pour un approfondissement détail
 - Jim Slater, *The Zulu Principle* (1992) -- PEG ratio et croissance à prix raisonnable
 - Ralph Vince, *The Mathematics of Money Management* (1992) -- Position sizing et Kelly Criterion
 - Aaron Brown, *Red-Blooded Risk* (2011) -- Framework de risk management
+
+## See Also
+
+- **portfolio** (`finance-de-marche/portfolio`) — Portfolio-level risk management
+- **quantitative-finance** (`finance-de-marche/quantitative-finance`) — Pricing models and quantitative methods
+- **risk-management** (`entreprise/risk-management`) — Enterprise risk framework

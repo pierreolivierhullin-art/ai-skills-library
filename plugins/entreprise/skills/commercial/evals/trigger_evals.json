@@ -1,0 +1,22 @@
+[
+  {"query": "J'ai besoin d'aide pour structurer mon pipeline commercial et le rituel de revue hebdo avec mon équipe", "should_trigger": true},
+  {"query": "Comment rédiger un sales playbook pour une équipe de 5 AE qui vend du SaaS B2B enterprise ?", "should_trigger": true},
+  {"query": "On implante Salesforce — comment structurer nos étapes de pipeline et nos champs CRM ?", "should_trigger": true},
+  {"query": "Aide-moi à préparer ma stratégie de négociation pour un deal à 150K€ avec un grand compte", "should_trigger": true},
+  {"query": "Quelles sont les meilleures techniques de prospection outbound pour cibler des DSI ?", "should_trigger": true},
+  {"query": "help me build a sales forecast model for Q4 based on our current pipeline", "should_trigger": true},
+  {"query": "Notre taux de closing est à 15%, comment identifier les goulots dans notre process de vente ?", "should_trigger": true},
+  {"query": "Je dois former mes SDR à la qualification MEDDIC — aide-moi à créer le support de formation", "should_trigger": true},
+  {"query": "Comment gérer un prospect qui veut renégocier le prix en fin de cycle de vente ?", "should_trigger": true},
+  {"query": "On veut passer en account-based sales — quels changements dans notre organisation commerciale ?", "should_trigger": true},
+  {"query": "notre cycle de vente est trop long (6 mois), comment l'accélérer ?", "should_trigger": true},
+  {"query": "Aide-moi à construire un plan de compte pour un renouvellement à risque chez notre client bancaire", "should_trigger": true},
+  {"query": "Comment structurer un discovery call pour identifier les pain points d'un prospect froid ?", "should_trigger": true},
+  {"query": "On veut lancer un programme de referral commercial — comment l'incentiver ?", "should_trigger": true},
+  {"query": "Je prépare la revue mensuelle pipeline avec le CEO, aide-moi à structurer le deck", "should_trigger": true},
+  {"query": "Comment écrire une séquence d'emails nurturing pour nos prospects MQL ?", "should_trigger": false},
+  {"query": "On hésite entre freemium et trial pour notre modèle de pricing SaaS", "should_trigger": false},
+  {"query": "aide-moi à calculer notre LTV/CAC ratio et comprendre ce que ça implique stratégiquement", "should_trigger": false},
+  {"query": "Comment construire notre stratégie de contenu pour attirer des leads inbound ?", "should_trigger": false},
+  {"query": "On veut faire une campagne LinkedIn Ads pour générer de l'awareness sur notre marque", "should_trigger": false}
+]

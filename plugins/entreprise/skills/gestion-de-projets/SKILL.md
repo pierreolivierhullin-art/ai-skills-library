@@ -1,8 +1,8 @@
 ---
 name: gestion-de-projets
-description: This skill should be used when the user asks about "project management", "agile methodology", "digital transformation", "change management", "portfolio prioritization", "gestion de projet", "méthodologie agile", "transformation digitale", "conduite du changement", "Scrum", "SAFe", "PRINCE2", "Kanban", "sprint planning", "backlog management", "user stories", "velocity", "burndown chart", "PMO", "bureau de projets", "roadmap produit", "product roadmap", "stakeholder management", "gestion des parties prenantes", "risk mitigation", "planning poker", "rétrospective", "daily standup", "epic", "milestone", "jalons", "Gantt", "WBS", "benefits realization", discusses Scrum, SAFe, PRINCE2, or needs guidance on PMO setup, organizational change, or benefits realization.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "project management", "agile methodology", "digital transformation", "change management", "portfolio prioritization", "gestion de projet", "méthodologie agile", "transformation digitale", "conduite du changement", "Scrum", "SAFe", "PRINCE2", "Kanban", "sprint planning", "backlog management", "user stories", "velocity", "burndown chart", "PMO", "bureau de projets", "roadmap produit", "product roadmap", "stakeholder management", "gestion des parties prenantes", "risk mitigation", "planning poker", "rétrospective", "daily standup", "epic", "milestone", "jalons", "Gantt", "WBS", "benefits realization", discusses Scrum, SAFe, PRINCE2, or needs guidance on PMO setup, organizational change, or benefits realization. Invoke this skill proactively whenever gestion de projets topics arise — even if not explicitly requested. If there is any gestion de projets dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Gestion de Projets & Transformation
@@ -312,3 +312,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Advanced Agile](./references/agile-advanced.md)** : agilite a l'echelle (Scrum@Scale, LeSS, Nexus, SAFe portfolio), Kanban avance (flight levels, Kanban Maturity Model), Design Thinking, Design Sprint, Lean management (Kaizen, A3 Problem Solving, Value Stream Mapping).
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **ai-implementation** (`ai-governance/ai-implementation`) — AI project delivery
+- **change-management** (`entreprise/change-management`) — Change management for project success

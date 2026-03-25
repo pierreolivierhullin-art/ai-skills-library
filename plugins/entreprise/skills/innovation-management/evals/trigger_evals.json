@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on veut structurer notre programme d'innovation — comment passer des hackathons ponctuels à un système d'innovation pérenne ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement a design thinking process for our product innovation pipeline?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment évaluer et prioriser notre portefeuille d'innovations (incrémentale vs radicale vs disruptive) ?",
+    "should_trigger": true
+  },
+  {
+    "query": "open innovation program for our company — how to collaborate with startups and universities?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre comité d'innovation rejette toutes les idées disruptives — comment changer la culture ?",
+    "should_trigger": true
+  },
+  {
+    "query": "jobs to be done framework for identifying innovation opportunities in our market",
+    "should_trigger": true
+  },
+  {
+    "query": "how to set up an internal startup (intrapreneurship) program with proper governance?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a startup from scratch?",
+    "should_trigger": false
+  },
+  {
+    "query": "product roadmap prioritization for our dev team",
+    "should_trigger": false
+  },
+  {
+    "query": "how to foster a culture of experimentation in our engineering team?",
+    "should_trigger": false
+  },
+  {
+    "query": "digital transformation strategy for our traditional business",
+    "should_trigger": false
+  },
+  {
+    "query": "how to implement agile methodologies in our organization?",
+    "should_trigger": false
+  }
+]

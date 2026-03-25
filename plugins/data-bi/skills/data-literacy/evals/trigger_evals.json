@@ -1,0 +1,50 @@
+[
+  {
+    "query": "comment choisir entre un bar chart, line chart et scatter plot pour mes données — j'ai tendance à tout mettre en camembert",
+    "should_trigger": true
+  },
+  {
+    "query": "how to make data storytelling presentations that convince non-technical executives?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre comité de direction prend des décisions basées sur des intuitions — comment développer une culture data ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to avoid misleading charts — our marketing team uses truncated Y-axes everywhere",
+    "should_trigger": true
+  },
+  {
+    "query": "Simpson's paradox just invalidated our A/B test conclusion — can you explain what happened?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment construire un tableau de bord que les managers lisent vraiment — pas juste un dump de métriques ?",
+    "should_trigger": true
+  },
+  {
+    "query": "data democratization program for our 500-person company — how to train everyone on data basics?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to set up Power BI for our company?",
+    "should_trigger": false
+  },
+  {
+    "query": "write a SQL query to compute our weekly revenue trend",
+    "should_trigger": false
+  },
+  {
+    "query": "how to use D3.js to build a custom visualization?",
+    "should_trigger": false
+  },
+  {
+    "query": "our Looker dashboard is slow — how to optimize the SQL?",
+    "should_trigger": false
+  },
+  {
+    "query": "how to do statistical significance testing for our experiment?",
+    "should_trigger": false
+  }
+]

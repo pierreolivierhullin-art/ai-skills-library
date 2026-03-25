@@ -1,0 +1,54 @@
+[
+  {
+    "query": "comment calculer le delta d'une option call pour hedger mon exposition actions ?",
+    "should_trigger": true
+  },
+  {
+    "query": "explain gamma scalping strategy and when to use it",
+    "should_trigger": true
+  },
+  {
+    "query": "I need to implement a delta-neutral options strategy for our market-making desk",
+    "should_trigger": true
+  },
+  {
+    "query": "quelle stratégie d'options pour profiter d'une faible volatilité implicite (vente de straddle) ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how does vega exposure change as options approach expiry?",
+    "should_trigger": true
+  },
+  {
+    "query": "je dois calculer la VaR de mon book d'options avec des scénarios de stress",
+    "should_trigger": true
+  },
+  {
+    "query": "Black-Scholes vs binomial tree for pricing exotic options — which is more appropriate?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to hedge a long equity portfolio using put options cost-effectively?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a portfolio allocation between stocks and bonds?",
+    "should_trigger": false
+  },
+  {
+    "query": "what's the regulatory capital requirement for our equity trading book?",
+    "should_trigger": false
+  },
+  {
+    "query": "run a Monte Carlo simulation to forecast next year's revenue",
+    "should_trigger": false
+  },
+  {
+    "query": "explain cognitive biases that affect trading decisions",
+    "should_trigger": false
+  },
+  {
+    "query": "how to do DCF valuation for an options-heavy tech company?",
+    "should_trigger": false
+  }
+]

@@ -1,8 +1,8 @@
 ---
 name: decision-reporting-governance
-description: This skill should be used when the user asks about "business intelligence", "BI dashboards", "data governance", "data quality", "data modeling", "KPI frameworks", "data catalog", "master data management", "data lineage", "Power BI", "Tableau", "Looker", "Metabase", "data contracts", "intelligence d'affaires", "tableaux de bord BI", "gouvernance des données", "qualité des données", "modélisation des données", "cadres KPI", "catalogue de données", "gestion des données de référence", "MDM", "lignage des données", "traçabilité des données", "data mesh", "data fabric", "data steward", "data owner", "DAMA", "DMBOK", "dimensional modeling", "star schema", "modèle en étoile", "data dictionary", "dictionnaire de données", "reporting automatisé", "automated reporting", "self-service BI", "BI en libre-service", "data observability", "semantic layer", "couche sémantique", or needs guidance on BI reporting, data governance, and data quality management.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "business intelligence", "BI dashboards", "data governance", "data quality", "data modeling", "KPI frameworks", "data catalog", "master data management", "data lineage", "Power BI", "Tableau", "Looker", "Metabase", "data contracts", "intelligence d'affaires", "tableaux de bord BI", "gouvernance des données", "qualité des données", "modélisation des données", "cadres KPI", "catalogue de données", "gestion des données de référence", "MDM", "lignage des données", "traçabilité des données", "data mesh", "data fabric", "data steward", "data owner", "DAMA", "DMBOK", "dimensional modeling", "star schema", "modèle en étoile", "data dictionary", "dictionnaire de données", "reporting automatisé", "automated reporting", "self-service BI", "BI en libre-service", "data observability", "semantic layer", "couche sémantique", or needs guidance on BI reporting, data governance, and data quality management. Invoke this skill proactively whenever decision reporting governance topics arise — even if not explicitly requested. If there is any decision reporting governance dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Decision Reporting & Governance — BI, Data Quality & Modeling
@@ -357,3 +357,9 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Analytics & Privacy](./references/analytics-privacy.md)** : analytics descriptive/diagnostique/predictive/prescriptive, analyse statistique, cartographie RGPD, classification des donnees, techniques d'anonymisation, politiques de retention.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **strategie** (`entreprise/strategie`) — Strategic decision-making with data
+- **data-literacy** (`data-bi/data-literacy`) — Building data literacy in organisations
+- **data-viz-tools** (`data-bi/data-viz-tools`) — BI tools and dashboards

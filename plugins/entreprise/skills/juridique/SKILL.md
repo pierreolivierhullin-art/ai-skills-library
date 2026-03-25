@@ -1,8 +1,8 @@
 ---
 name: juridique
-description: This skill should be used when the user asks about "contract law", "intellectual property", "GDPR compliance", "corporate legal", "legal operations", "droit des contrats", "propriété intellectuelle", "conformité RGPD", "RGPD", "protection des données", "data privacy", "droit du travail", "French labor law", "droit des sociétés", "corporate law", "contract negotiation", "négociation contractuelle", "NDA", "CGV", "CGU", "terms of service", "SLA juridique", "contentieux", "litigation", "IP protection", "brevets", "patents", "marques", "trademarks", "compliance", "conformité", "legal tech", "CLM", "contract lifecycle management", "clause pénale", "responsabilité civile", discusses contract negotiation, data protection, or needs guidance on French labor law, IP protection, or compliance programs.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "contract law", "intellectual property", "GDPR compliance", "corporate legal", "legal operations", "droit des contrats", "propriété intellectuelle", "conformité RGPD", "RGPD", "protection des données", "data privacy", "droit du travail", "French labor law", "droit des sociétés", "corporate law", "contract negotiation", "négociation contractuelle", "NDA", "CGV", "CGU", "terms of service", "SLA juridique", "contentieux", "litigation", "IP protection", "brevets", "patents", "marques", "trademarks", "compliance", "conformité", "legal tech", "CLM", "contract lifecycle management", "clause pénale", "responsabilité civile", discusses contract negotiation, data protection, or needs guidance on French labor law, IP protection, or compliance programs. Invoke this skill proactively whenever juridique topics arise — even if not explicitly requested. If there is any juridique dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Juridique / Legal
@@ -307,3 +307,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Corporate & Legal Ops](./references/corporate-legal-ops.md)** : droit des societes, assemblees generales, operations sur capital (BSA, BSPCE), gouvernance juridique, legal ops, legal tech, IA et droit, contentieux commercial, state of the art 2024-2026.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **ai-data-privacy** (`ai-governance/ai-data-privacy`) — GDPR and AI data governance
+- **auth-security** (`code-development/auth-security`) — Technical security and compliance

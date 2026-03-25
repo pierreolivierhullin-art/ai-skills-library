@@ -1,7 +1,7 @@
 ---
 name: pricing-strategy
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever pricing strategy topics arise — even if not explicitly requested. If there is any pricing strategy dimension in the conversation, this skill applies.
   Use this skill when the user asks about "pricing strategy", "stratégie de prix", "value-based pricing", "tarification", "SaaS pricing", "freemium model", "pricing model", "willingness to pay", "elasticité prix", "price positioning", "packaging produit", "monétisation", "augmentation de prix", "price testing", "usage-based pricing", "seat-based pricing", "enterprise pricing", discusses how to price a product or service, build pricing tiers, or optimize revenue through pricing decisions.
 ---
 
@@ -222,3 +222,8 @@ Tester differents prix sur differents segments geographiques (prix US vs Europe 
 | **3 — Structure** | Tiers clairs, packaging coherent, processus de revue annuelle |
 | **4 — Value-based** | WTP mesure, pricing par segment, tests A/B sur les changements |
 | **5 — Dynamique** | Usage-based sophistique, pricing ML-assisted, optimisation continue du mix |
+
+## See Also
+
+- **marketing** (`entreprise/marketing`) — Pricing as a marketing lever
+- **commercial** (`entreprise/commercial`) — Pricing negotiation and sales

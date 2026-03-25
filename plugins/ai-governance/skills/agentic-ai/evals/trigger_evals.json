@@ -1,0 +1,50 @@
+[
+  {
+    "query": "je veux construire un agent IA qui peut naviguer sur le web, lire des emails et prendre des actions dans notre CRM",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a multi-agent system where agents delegate tasks to each other? LangGraph vs CrewAI?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre agent LLM fait des erreurs irréversibles — comment implémenter des guardrails et human-in-the-loop ?",
+    "should_trigger": true
+  },
+  {
+    "query": "ReAct vs Plan-and-Execute for our research agent — which architecture for our use case?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to give my AI agent persistent memory across sessions? vector store vs structured DB?",
+    "should_trigger": true
+  },
+  {
+    "query": "building a coding agent that can write, test, and fix code autonomously — what's the right approach?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment évaluer la qualité d'un agent IA — quelles métriques au-delà du task completion rate ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to use the Claude API to summarize documents?",
+    "should_trigger": false
+  },
+  {
+    "query": "fine-tuning vs RAG for our customer support use case",
+    "should_trigger": false
+  },
+  {
+    "query": "how to implement function calling with OpenAI?",
+    "should_trigger": false
+  },
+  {
+    "query": "automate our workflow with n8n and Zapier",
+    "should_trigger": false
+  },
+  {
+    "query": "how to set up a CI/CD pipeline for our ML models?",
+    "should_trigger": false
+  }
+]

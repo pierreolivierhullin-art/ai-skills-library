@@ -1,7 +1,7 @@
 ---
 name: entrepreneuriat
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever entrepreneuriat topics arise — even if not explicitly requested. If there is any entrepreneuriat dimension in the conversation, this skill applies.
   Use this skill when the user asks about "entrepreneuriat", "créer une startup", "business plan", "business model canvas", "product-market fit", "go-to-market", "early stage", "validation d'idée", "pivot", "lean startup", "MVP", "ICP ideal customer profile", "customer discovery", "early adopters", "traction", "MRR", "churn startup", "croissance early stage", "CAC LTV startup", discusses launching a new business, validating a business idea, or needs guidance on the early stages of building a company.
 ---
 
@@ -233,3 +233,8 @@ Pour les SaaS : Croissance (%) + Profitabilite (%) > 40. Un SaaS qui croit a 80%
 | **2 — Early Traction** | 10-50 clients, MRR initial, churn mesure | Product-market fit signals |
 | **3 — PMF** | Retention forte, croissance organique | Optimiser l'acquisition |
 | **4 — Scale** | CAC/LTV prouvés, machine de vente | Recruter, lever |
+
+## See Also
+
+- **fundraising-vc** (`entreprise/fundraising-vc`) — Fundraising for startups
+- **product-strategy** (`entreprise/product-strategy`) — Product-market fit strategy

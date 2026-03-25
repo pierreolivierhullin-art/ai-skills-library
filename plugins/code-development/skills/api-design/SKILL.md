@@ -1,8 +1,8 @@
 ---
 name: api-design
-description: This skill should be used when the user asks about "API design", "REST API", "RESTful", "GraphQL", "gRPC", "API versioning", "API documentation", "OpenAPI", "Swagger", "API gateway", "rate limiting", "API authentication", "OAuth2 API", "API pagination", "API error handling", "API testing", "contract testing", "API-first design", "API lifecycle", "conception d'API", "design d'API", "HATEOAS", "hypermedia API", "API backward compatibility", "breaking changes", "API deprecation", "webhook design", "event-driven API", "API security", "API performance", "API caching", "ETag", "idempotency", "idempotent API", "API monitoring", "API analytics", "developer experience", "DX", "SDK design", "API marketplace", discusses API architecture decisions, or needs guidance on designing, securing, documenting, or evolving APIs.
-version: 1.0.0
-last_updated: 2026-02
+description: Expert guide for "API design", "REST API", "RESTful", "GraphQL", "gRPC", "API versioning", "API documentation", "OpenAPI", "Swagger", "API gateway", "rate limiting", "API authentication", "OAuth2 API", "API pagination", "API error handling", "API testing", "contract testing", "API-first design", "API lifecycle", "conception d'API", "design d'API", "HATEOAS", "hypermedia API", "API backward compatibility", "breaking changes", "API deprecation", "webhook design", "event-driven API", "API security", "API performance", "API caching", "ETag", "idempotency", "idempotent API", "API monitoring", "API analytics", "developer experience", "DX", "SDK design", "API marketplace", discusses API architecture decisions, or needs guidance on designing, securing, documenting, or evolving APIs. Invoke this skill proactively whenever api design topics arise — even if not explicitly requested. If there is any api design dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # API Design — REST, GraphQL, gRPC & Developer Experience
@@ -340,3 +340,8 @@ Consulter les fichiers de référence suivants pour des guides détaillés :
 - **[GraphQL & gRPC](./references/graphql-grpc.md)** : schema design GraphQL, resolvers, subscriptions, DataLoader, gRPC/protobuf, streaming, comparaison de performance, migration entre paradigmes, state of the art 2025-2026.
 - **[API Security & Operations](./references/api-security-operations.md)** : authentification (OAuth2 flows, API keys, mTLS), rate limiting, documentation (OpenAPI), testing (contract, integration, load), monitoring, OWASP API Top 10, state of the art 2025-2026.
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **auth-security** (`code-development/auth-security`) — Security and authentication for APIs
+- **graphql** (`code-development/graphql`) — GraphQL as an alternative API paradigm

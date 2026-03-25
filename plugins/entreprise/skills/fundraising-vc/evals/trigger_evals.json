@@ -1,0 +1,50 @@
+[
+  {
+    "query": "on prépare notre Serie A, on est à €1.2M ARR avec 120% NRR — comment pitcher aux VCs et quel est le bon timing ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a compelling Series A pitch deck — what slides, in what order, with what data?",
+    "should_trigger": true
+  },
+  {
+    "query": "term sheet reçue d'un VC — quelles clauses negocier (liquidation preference, anti-dilution, board seats) ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to find and approach VCs for our seed round? warm intros vs cold outreach?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre valorisation pre-money : comment l'argumenter face aux VCs ?",
+    "should_trigger": true
+  },
+  {
+    "query": "convertible notes vs SAFE vs priced round for our €500k bridge — which structure?",
+    "should_trigger": true
+  },
+  {
+    "query": "due diligence process from investors — what to prepare and how to manage the data room?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a financial model for our startup?",
+    "should_trigger": false
+  },
+  {
+    "query": "our startup needs a pricing strategy for enterprise clients",
+    "should_trigger": false
+  },
+  {
+    "query": "how to create a business plan for a bank loan?",
+    "should_trigger": false
+  },
+  {
+    "query": "equity split between co-founders — how to structure it?",
+    "should_trigger": false
+  },
+  {
+    "query": "build an investor relations strategy for our listed company",
+    "should_trigger": false
+  }
+]

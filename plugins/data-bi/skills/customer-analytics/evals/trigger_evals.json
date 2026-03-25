@@ -1,0 +1,22 @@
+[
+  {"query": "Comment calculer la LTV (Lifetime Value) de nos clients par segment et canal d'acquisition ?", "should_trigger": true},
+  {"query": "Je veux construire une analyse de cohortes pour comprendre notre rétention sur les 12 derniers mois", "should_trigger": true},
+  {"query": "Aide-moi à implémenter une segmentation RFM sur notre base clients e-commerce de 200K acheteurs", "should_trigger": true},
+  {"query": "Notre NPS est à 32 — comment croiser les données NPS avec les comportements pour prioriser les actions ?", "should_trigger": true},
+  {"query": "On veut identifier nos clients à risque de churn dans les 30 prochains jours — quelle approche analytique ?", "should_trigger": true},
+  {"query": "help me build a customer segmentation model to personalize our email campaigns based on purchase behavior", "should_trigger": true},
+  {"query": "Comment mesurer et améliorer la valeur client sur toute la durée de vie (CLV) dans un modèle SaaS ?", "should_trigger": true},
+  {"query": "On veut comprendre pourquoi nos clients B2B nous quittent après 6 mois — quelle analyse churn mener ?", "should_trigger": true},
+  {"query": "Aide-moi à construire une analyse de la customer journey pour identifier les points de friction avant la résiliation", "should_trigger": true},
+  {"query": "Comment segmenter nos clients selon leur potentiel de montée en gamme vers des offres premium ?", "should_trigger": true},
+  {"query": "we need a retention analysis dashboard — what metrics matter most for a subscription business ?", "should_trigger": true},
+  {"query": "Comment calculer le taux de réachat et le temps entre deux achats pour nos clients retail ?", "should_trigger": true},
+  {"query": "On veut mesurer l'impact de notre programme de fidélité sur le comportement d'achat — quelle méthode ?", "should_trigger": true},
+  {"query": "Aide-moi à construire un score de santé client (customer health score) pour notre équipe CSM SaaS", "should_trigger": true},
+  {"query": "Comment identifier les clients à fort potentiel d'upsell en croisant données produit et comportement ?", "should_trigger": true},
+  {"query": "Comment créer une campagne d'acquisition LinkedIn ciblée sur nos personas B2B prioritaires ?", "should_trigger": false},
+  {"query": "On veut faire un test A/B sur notre page de pricing — comment le configurer dans Optimizely ?", "should_trigger": false},
+  {"query": "aide-moi à analyser les performances de nos campagnes Google Ads par canal et par audience", "should_trigger": false},
+  {"query": "Comment construire un modèle de prédiction du churn avec XGBoost et les features de notre data lake ?", "should_trigger": false},
+  {"query": "On veut suivre les events produit dans Mixpanel pour comprendre l'usage de notre app mobile", "should_trigger": false}
+]

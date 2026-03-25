@@ -1,7 +1,7 @@
 ---
 name: email-systems
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever email systems topics arise — even if not explicitly requested. If there is any email systems dimension in the conversation, this skill applies.
   Transactional email infrastructure Resend Postmark SendGrid AWS SES,
   email deliverability SPF DKIM DMARC authentication DNS records,
   React Email templates responsive email HTML CSS rendering,
@@ -423,3 +423,8 @@ SDK TypeScript  ✅ Excellent  ✅ Bon        🔶 Verbose     🔶
 - `references/react-email.md` — React Email templates avancés (composants réutilisables, dark mode, client rendering matrix), Maizzle, MJML comparé, tests Litmus
 - `references/queue-architecture.md` — BullMQ configuration avancée, rate limiting par destinataire, dead-letter queue, dashboard Bull Board, gestion des bounces et suppressions, RGPD compliance
 - `references/case-studies.md` — 4 cas : migration vers Resend avec 99.8% délivrabilité, système de notifications 1M emails/jour, DMARC p=reject en 6 semaines, template system multi-marque
+
+## See Also
+
+- **devops** (`code-development/devops`) — Infrastructure for email delivery
+- **marketing** (`entreprise/marketing`) — Email marketing automation

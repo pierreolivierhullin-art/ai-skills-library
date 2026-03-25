@@ -1,0 +1,19 @@
+[
+  {"query": "I'm building a design system from scratch for a fintech startup (team of 8 devs + 2 designers). Should I use shadcn/ui as a base or build our own component library with Radix?", "should_trigger": true},
+  {"query": "Notre design system utilise des tokens Figma mais ils ne se synchronisent pas bien avec le code. Comment structurer le pipeline Style Dictionary pour propager les tokens vers React et React Native?", "should_trigger": true},
+  {"query": "My Tailwind CSS is getting messy across 40+ components. What's the best way to organize utility classes and avoid duplication — CSS layers, @apply, or something else?", "should_trigger": true},
+  {"query": "Comment implémenter un composant Modal accessible avec Radix UI? J'ai des problèmes de focus trap et de navigation clavier sur Safari + VoiceOver.", "should_trigger": true},
+  {"query": "We're getting dinged on WCAG 2.2 AA audit — specifically color contrast on our button disabled states and focus ring visibility. How do I fix this systematically?", "should_trigger": true},
+  {"query": "J'ai un CLS (Cumulative Layout Shift) de 0.18 sur notre hero section à cause du chargement de police. Quelles techniques pour le réduire sous 0.1 sans sacrifier la typo?", "should_trigger": true},
+  {"query": "How do I implement dark mode properly with CSS variables and design tokens? We're using Next.js and want to avoid the flash of incorrect theme on initial load.", "should_trigger": true},
+  {"query": "On nous demande d'être conformes à l'European Accessibility Act pour juin 2025. Par où commencer l'audit de nos 150 composants React?", "should_trigger": true},
+  {"query": "I want to add skeleton screens to our data tables while they load. What's the right approach in React — pure CSS, a library, or should I build them as component variants in Storybook?", "should_trigger": true},
+  {"query": "Notre équipe Figma et les devs ne sont pas alignés — les devs ignorent les composants Figma et font leur truc. Comment mettre en place un workflow design-to-code qui fonctionne vraiment?", "should_trigger": true},
+
+  {"query": "How should I structure my React component tests with React Testing Library? I'm testing a checkout flow with 5 steps.", "should_trigger": false},
+  {"query": "What's the best way to manage global state in a large React app — Zustand, Redux Toolkit, or Jotai?", "should_trigger": false},
+  {"query": "I need to run a usability test on our new onboarding flow with 5 users. How should I structure the session and what tasks should I give them?", "should_trigger": false},
+  {"query": "Our Lighthouse performance score is 52. The main issue is a 2.1MB JavaScript bundle. How do I do code splitting and tree shaking with Vite?", "should_trigger": false},
+  {"query": "Comment choisir entre PostgreSQL et MongoDB pour une application SaaS multi-tenant avec 500k utilisateurs?", "should_trigger": false},
+  {"query": "I want to add type safety to my API responses using Zod. What's the best pattern for validating API responses in a Next.js app?", "should_trigger": false}
+]

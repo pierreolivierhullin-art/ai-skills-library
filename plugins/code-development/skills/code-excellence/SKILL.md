@@ -1,8 +1,8 @@
 ---
 name: code-excellence
-description: This skill should be used when the user asks about "clean code", "code quality", "refactoring", "testing strategy", "TDD", "BDD", "code review", "technical debt", "SOLID principles", "design patterns", "coding standards", "qualité de code", "dette technique", "revue de code", "principes SOLID", "standards de code", "bonnes pratiques", "best practices", "DRY", "KISS", "YAGNI", "code smells", "code coverage", "couverture de tests", "unit testing", "tests unitaires", "integration testing", "tests d'intégration", "mocking", "pair programming", "mob programming", "linting", "static analysis", "analyse statique", "cyclomatic complexity", "software craftsmanship", or needs guidance on software craftsmanship and engineering best practices.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "clean code", "code quality", "refactoring", "testing strategy", "TDD", "BDD", "code review", "technical debt", "SOLID principles", "design patterns", "coding standards", "qualité de code", "dette technique", "revue de code", "principes SOLID", "standards de code", "bonnes pratiques", "best practices", "DRY", "KISS", "YAGNI", "code smells", "code coverage", "couverture de tests", "unit testing", "tests unitaires", "integration testing", "tests d'intégration", "mocking", "pair programming", "mob programming", "linting", "static analysis", "analyse statique", "cyclomatic complexity", "software craftsmanship", or needs guidance on software craftsmanship and engineering best practices. Invoke this skill proactively whenever code excellence topics arise — even if not explicitly requested. If there is any code excellence dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Code Excellence
@@ -280,3 +280,8 @@ Consulter les fichiers de référence suivants pour un approfondissement détail
 - Dave Farley, *Modern Software Engineering* (2021)
 - Tidy First? -- Kent Beck (2023)
 - Adam Tornhill, *Software Design X-Rays* (2018) et *Your Code as a Crime Scene* (2015)
+
+## See Also
+
+- **testing-strategies** (`code-development/testing-strategies`) — Testing strategies and TDD
+- **quality-reliability** (`code-development/quality-reliability`) — Reliability engineering and QA

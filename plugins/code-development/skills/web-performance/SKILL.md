@@ -1,7 +1,7 @@
 ---
 name: web-performance
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever web performance topics arise — even if not explicitly requested. If there is any web performance dimension in the conversation, this skill applies.
   Optimise web performance, Core Web Vitals, Lighthouse score, bundle optimization,
   lazy loading, caching strategies, CDN, reduce Time to First Byte, improve LCP FID CLS,
   speed up website application loading, frontend performance, render blocking resources,
@@ -463,3 +463,8 @@ Bundle
 - `references/bundle-optimization.md` — Webpack/Vite config, tree shaking, code splitting avancé
 - `references/image-caching-cdn.md` — Formats, CDN config, service workers, cache strategies
 - `references/case-studies.md` — 4 cas réels : e-commerce +40% conversion, SaaS LCP 4s→1,2s
+
+## See Also
+
+- **frontend-frameworks** (`code-development/frontend-frameworks`) — React, Next.js and SSR patterns
+- **caching-strategies** (`code-development/caching-strategies`) — Caching strategies for performance

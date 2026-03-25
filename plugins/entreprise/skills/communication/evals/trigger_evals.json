@@ -1,0 +1,54 @@
+[
+  {
+    "query": "on doit communiquer un plan social (licenciements) — comment gérer la communication interne et externe ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a corporate communications strategy for our IPO?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre CEO doit passer sur BFM Business — comment le préparer au media training ?",
+    "should_trigger": true
+  },
+  {
+    "query": "crisis communication plan for a potential product recall — how to prepare?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment bâtir une stratégie de thought leadership sur LinkedIn pour notre DG ?",
+    "should_trigger": true
+  },
+  {
+    "query": "internal communications for our merger announcement — how to cascade the message?",
+    "should_trigger": true
+  },
+  {
+    "query": "our company reputation was damaged by negative press — how to manage and rebuild?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment rédiger un communiqué de presse pour notre levée de fonds ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to create a presentation for our board meeting?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a social media strategy for our B2C brand",
+    "should_trigger": false
+  },
+  {
+    "query": "how to write a compelling investor pitch?",
+    "should_trigger": false
+  },
+  {
+    "query": "our marketing content strategy for lead generation",
+    "should_trigger": false
+  },
+  {
+    "query": "how to improve employee engagement through better management?",
+    "should_trigger": false
+  }
+]

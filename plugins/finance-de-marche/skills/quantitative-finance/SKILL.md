@@ -1,7 +1,7 @@
 ---
 name: quantitative-finance
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever quantitative finance topics arise — even if not explicitly requested. If there is any quantitative finance dimension in the conversation, this skill applies.
   Use this skill when the user asks about "quantitative finance", "quant models", "algorithmic trading", "algo trading", "backtesting", "systematic trading", "factor models", "alpha generation", "statistical arbitrage", "momentum strategy", "mean reversion", "pairs trading", "risk models", "VaR", "CVaR", "Sharpe ratio optimization", "strategy development", "backtesting pitfalls", "walk-forward optimization", discusses quantitative investment strategies, systematic approaches to trading, or needs guidance on building, testing, and deploying quantitative trading strategies.
 ---
 
@@ -291,3 +291,9 @@ def strategy_metrics(returns, risk_free_rate=0.04):
 - L'acces aux donnees de qualite est un avantage competitif majeur : les donnees gratuites (yfinance) ont des imprecisions qui biais les backtests
 - La capacite de la strategie (AUM max) est inversement proportionnelle aux rendements : une strategie stat arb avec 10% de Sharpe sur 50k EUR ne fonctionnera pas sur 50M EUR (market impact)
 - La conformite reglementaire : toute strategie algorithmique sur marches regules requiert une conformite MiFID II (algo trading) et potentiellement une notification a l'AMF
+
+## See Also
+
+- **portfolio** (`finance-de-marche/portfolio`) — Portfolio theory and optimisation
+- **time-series-forecasting** (`data-bi/time-series-forecasting`) — Time series forecasting for finance
+- **advanced-analytics** (`data-bi/advanced-analytics`) — Machine learning in quantitative finance

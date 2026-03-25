@@ -1,0 +1,54 @@
+[
+  {
+    "query": "on démarre une nouvelle API pour notre app mobile + web, REST vs GraphQL — comment choisir ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to design a GraphQL schema for our e-commerce platform — products, orders, users?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre GraphQL API a des problèmes de N+1 queries sur les resolvers, comment utiliser DataLoader ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement cursor-based pagination in GraphQL for our feed?",
+    "should_trigger": true
+  },
+  {
+    "query": "GraphQL subscriptions for real-time notifications — Apollo vs raw WebSockets?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment sécuriser notre GraphQL API contre les introspection attacks et les deep queries malveillantes ?",
+    "should_trigger": true
+  },
+  {
+    "query": "schema stitching vs federation for our microservices GraphQL API — we have 5 teams",
+    "should_trigger": true
+  },
+  {
+    "query": "how to add caching to GraphQL — persisted queries, Redis, CDN layer?",
+    "should_trigger": true
+  },
+  {
+    "query": "help me design a REST API for our project management tool",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I call the GitHub GraphQL API from Python?",
+    "should_trigger": false
+  },
+  {
+    "query": "our database queries are slow, how to add indexes?",
+    "should_trigger": false
+  },
+  {
+    "query": "implement JWT authentication for my API",
+    "should_trigger": false
+  },
+  {
+    "query": "how to version our REST API without breaking clients?",
+    "should_trigger": false
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {"query": "J'ai besoin de construire la roadmap Q3-Q4 pour mon équipe de 12 personnes, comment la structurer ?", "should_trigger": true},
+  {"query": "On passe en mode agile — aide-moi à définir nos sprints et le backlog pour les 3 prochains mois", "should_trigger": true},
+  {"query": "Je dois animer une rétrospective post-mortem suite à un projet qui a dérapé sur les délais", "should_trigger": true},
+  {"query": "Comment gérer un scope creep sur un projet IT critique livrable en septembre ?", "should_trigger": true},
+  {"query": "Aide-moi à construire une matrice des risques pour un projet de migration cloud", "should_trigger": true},
+  {"query": "help me create a project status report template for weekly stakeholder updates", "should_trigger": true},
+  {"query": "On utilise Jira — comment structurer nos epics et stories pour un projet de refonte UX ?", "should_trigger": true},
+  {"query": "Notre projet a pris 3 semaines de retard, comment recaler le planning sans sacrifier le scope ?", "should_trigger": true},
+  {"query": "Je suis nouveau PM, aide-moi à créer mon plan de lancement de projet pour une équipe cross-fonctionnelle", "should_trigger": true},
+  {"query": "Comment prioriser les initiatives dans notre roadmap quand les ressources sont limitées ?", "should_trigger": true},
+  {"query": "sprint planning coming up, need a framework to estimate effort and assign tasks fairly", "should_trigger": true},
+  {"query": "On travaille avec des équipes en Inde et en France — comment gérer la coordination à distance ?", "should_trigger": true},
+  {"query": "Aide-moi à construire un RACI pour un projet de transformation digitale impliquant 6 équipes", "should_trigger": true},
+  {"query": "Comment structurer un kick-off de projet pour aligner les parties prenantes dès le départ ?", "should_trigger": true},
+  {"query": "Je dois présenter l'avancement du projet au COMEX — aide-moi avec le format de reporting", "should_trigger": true},
+  {"query": "Comment définir notre vision produit à 3 ans pour aligner le board et les équipes R&D ?", "should_trigger": false},
+  {"query": "On doit choisir entre microservices et monolithe pour notre architecture backend", "should_trigger": false},
+  {"query": "aide-moi à écrire les specs techniques pour notre nouvelle API REST", "should_trigger": false},
+  {"query": "Comment prioriser nos investissements R&D dans le cadre de notre plan stratégique 5 ans ?", "should_trigger": false},
+  {"query": "On veut recruter 10 développeurs en 6 mois — quelle stratégie RH adopter ?", "should_trigger": false}
+]

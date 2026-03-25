@@ -1,0 +1,54 @@
+[
+  {
+    "query": "notre CSAT est à 3.2/5 et notre NPS à 12 — comment diagnostiquer les causes et améliorer l'expérience support ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a customer success program for our B2B SaaS to reduce churn from 8% to 4%?",
+    "should_trigger": true
+  },
+  {
+    "query": "on reçoit 500 tickets/semaine et 60% sont des questions répétitives — comment mettre en place le self-service ?",
+    "should_trigger": true
+  },
+  {
+    "query": "Zendesk vs Intercom vs Freshdesk for our 3-person support team — which to choose?",
+    "should_trigger": true
+  },
+  {
+    "query": "comment définir nos SLA support (temps de réponse, résolution) et les tenir ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build a customer health score to identify at-risk accounts before they churn?",
+    "should_trigger": true
+  },
+  {
+    "query": "notre équipe support est en burnout — trop de volume, pas d'outils — comment restructurer ?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to implement a customer onboarding program that drives activation within 14 days?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to improve our product NPS by collecting and acting on user feedback?",
+    "should_trigger": false
+  },
+  {
+    "query": "build a chatbot for our website FAQ",
+    "should_trigger": false
+  },
+  {
+    "query": "how to write a customer apology email for a service outage?",
+    "should_trigger": false
+  },
+  {
+    "query": "CRM setup for our sales team to track customer interactions",
+    "should_trigger": false
+  },
+  {
+    "query": "how to set up live chat on our website?",
+    "should_trigger": false
+  }
+]

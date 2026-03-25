@@ -1,7 +1,7 @@
 ---
 name: leadership-management
-version: 1.0.0
-description: >
+version: 1.1.0
+description: Expert guide for > Invoke this skill proactively whenever leadership management topics arise — even if not explicitly requested. If there is any leadership management dimension in the conversation, this skill applies.
   Use this skill when the user asks about "leadership", "management d'équipe", "feedback", "1:1", "one-on-one", "management situationnel", "délégation", "coaching de manager", "underperformance", "team building", "management difficile", "talent development", "conversations difficiles", "radical candor", "servant leadership", "leadership transformationnel", "onboarding d'un collaborateur", "gestion d'un collaborateur difficile", discusses managing teams, giving performance reviews, or needs guidance on people management, leadership styles, and team development.
 ---
 
@@ -201,3 +201,8 @@ Structure pour les conversations difficiles sans escalade :
 | **3 — Manager de routine** | 1:1 hebdomadaires, feedback regulier, objectifs clairs. |
 | **4 — Manager developpeur** | Fait grandir son equipe, delegue progressivement, cree des leaders. |
 | **5 — Leader transformationnel** | Donne un sens, inspire, attire les talents, construit la culture. |
+
+## See Also
+
+- **rh** (`entreprise/rh`) — HR strategy and talent management
+- **change-management** (`entreprise/change-management`) — Leading organisational change

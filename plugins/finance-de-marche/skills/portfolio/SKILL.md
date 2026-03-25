@@ -1,8 +1,8 @@
 ---
 name: portfolio
-description: This skill should be used when the user asks about "portfolio construction", "asset allocation", "modern portfolio theory", "MPT", "diversification", "rebalancing", "risk-adjusted returns", "Sharpe ratio", "CAPM", "factor investing", "ETF", "tax-loss harvesting", "efficient frontier", "construction de portefeuille", "allocation d'actifs", "théorie moderne du portefeuille", "rééquilibrage", "rendements ajustés au risque", "ratio de Sharpe", "investissement factoriel", "frontière efficiente", "Sortino ratio", "Treynor ratio", "alpha", "beta", "correlation", "corrélation", "volatility", "volatilité", "drawdown", "max drawdown", "value at risk", "VaR", "CVaR", "Monte Carlo simulation", "backtesting", "benchmark", "indice de référence", "S&P 500", "MSCI", "bonds", "obligations", "commodities", "matières premières", "REIT", "alternative investments", "investissements alternatifs", "dollar-cost averaging", "DCA", "strategic allocation", "tactical allocation", or needs guidance on portfolio management, investment strategy, and allocation optimization.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "portfolio construction", "asset allocation", "modern portfolio theory", "MPT", "diversification", "rebalancing", "risk-adjusted returns", "Sharpe ratio", "CAPM", "factor investing", "ETF", "tax-loss harvesting", "efficient frontier", "construction de portefeuille", "allocation d'actifs", "théorie moderne du portefeuille", "rééquilibrage", "rendements ajustés au risque", "ratio de Sharpe", "investissement factoriel", "frontière efficiente", "Sortino ratio", "Treynor ratio", "alpha", "beta", "correlation", "corrélation", "volatility", "volatilité", "drawdown", "max drawdown", "value at risk", "VaR", "CVaR", "Monte Carlo simulation", "backtesting", "benchmark", "indice de référence", "S&P 500", "MSCI", "bonds", "obligations", "commodities", "matières premières", "REIT", "alternative investments", "investissements alternatifs", "dollar-cost averaging", "DCA", "strategic allocation", "tactical allocation", or needs guidance on portfolio management, investment strategy, and allocation optimization. Invoke this skill proactively whenever portfolio topics arise — even if not explicitly requested. If there is any portfolio dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Portfolio Construction, Asset Allocation & Investment Management
@@ -293,3 +293,9 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Investment Vehicles](./references/investment-vehicles.md)** : ETFs vs fonds communs, investissement indiciel (Bogle), strategies d'options overlay, investissements alternatifs (REITs, PE, hedge funds), produits structures, fractional shares, investissement thematique.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **finance** (`entreprise/finance`) — Corporate finance and budgeting
+- **advanced-analytics** (`data-bi/advanced-analytics`) — Quantitative portfolio analytics
+- **quantitative-finance** (`finance-de-marche/quantitative-finance`) — Quantitative models for portfolio

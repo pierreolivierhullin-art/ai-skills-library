@@ -1,8 +1,8 @@
 ---
 name: behavioral-finance
-description: This skill should be used when the user asks about "behavioral finance", "cognitive biases", "trading psychology", "loss aversion", "confirmation bias", "decision-making", "market psychology", "prospect theory", "herd behavior", "emotional discipline", "finance comportementale", "biais cognitifs", "psychologie du trading", "aversion à la perte", "biais de confirmation", "prise de décision", "psychologie de marché", "théorie des perspectives", "comportement moutonnier", "discipline émotionnelle", "overconfidence", "excès de confiance", "anchoring bias", "biais d'ancrage", "disposition effect", "effet de disposition", "FOMO", "fear of missing out", "sunk cost fallacy", "recency bias", "biais de récence", "mental accounting", "comptabilité mentale", "regret aversion", "status quo bias", "framing effect", "effet de cadrage", "Dunning-Kruger", "trading journal", "journal de trading", "mindfulness trading", or needs guidance on behavioral aspects of investing, psychological biases, and decision-making frameworks.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "behavioral finance", "cognitive biases", "trading psychology", "loss aversion", "confirmation bias", "decision-making", "market psychology", "prospect theory", "herd behavior", "emotional discipline", "finance comportementale", "biais cognitifs", "psychologie du trading", "aversion à la perte", "biais de confirmation", "prise de décision", "psychologie de marché", "théorie des perspectives", "comportement moutonnier", "discipline émotionnelle", "overconfidence", "excès de confiance", "anchoring bias", "biais d'ancrage", "disposition effect", "effet de disposition", "FOMO", "fear of missing out", "sunk cost fallacy", "recency bias", "biais de récence", "mental accounting", "comptabilité mentale", "regret aversion", "status quo bias", "framing effect", "effet de cadrage", "Dunning-Kruger", "trading journal", "journal de trading", "mindfulness trading", or needs guidance on behavioral aspects of investing, psychological biases, and decision-making frameworks. Invoke this skill proactively whenever behavioral finance topics arise — even if not explicitly requested. If there is any behavioral finance dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Behavioral Finance — Biais Cognitifs, Psychologie du Trading & Prise de Decision
@@ -341,3 +341,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - Howard Marks, *The Most Important Thing* (2011)
 - Annie Duke, *Thinking in Bets* (2018)
 - Philip Tetlock, *Superforecasting* (2015)
+
+## See Also
+
+- **portfolio** (`finance-de-marche/portfolio`) — Behavioural biases in portfolio construction
+- **ai-ethics** (`ai-governance/ai-ethics`) — Cognitive biases and AI decision-making

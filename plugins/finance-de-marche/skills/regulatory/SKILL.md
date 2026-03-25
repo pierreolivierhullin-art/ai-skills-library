@@ -1,8 +1,8 @@
 ---
 name: regulatory
-description: This skill should be used when the user asks about "MiFID II", "SEC regulations", "trading compliance", "tax reporting", "pattern day trader", "wash sale rules", "insider trading", "FINRA", "EMIR", "MAR", "best execution", "KYC", "AML", "réglementation financière", "conformité trading", "déclaration fiscale", "fiscalité du trading", "délit d'initié", "meilleure exécution", "connaissance client", "lutte anti-blanchiment", "AMF", "Autorité des marchés financiers", "régulateur", "ESMA", "Dodd-Frank", "Basel III", "Bâle III", "suitability", "appropriateness", "transaction reporting", "déclaration de transactions", "market abuse", "abus de marché", "short selling regulations", "réglementation vente à découvert", "UCITS", "AIFMD", "PRIIPs", "flat tax", "PFU", "prélèvement forfaitaire unique", "plus-values", "capital gains tax", or needs guidance on financial market regulations, compliance obligations, and tax reporting for trading.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "MiFID II", "SEC regulations", "trading compliance", "tax reporting", "pattern day trader", "wash sale rules", "insider trading", "FINRA", "EMIR", "MAR", "best execution", "KYC", "AML", "réglementation financière", "conformité trading", "déclaration fiscale", "fiscalité du trading", "délit d'initié", "meilleure exécution", "connaissance client", "lutte anti-blanchiment", "AMF", "Autorité des marchés financiers", "régulateur", "ESMA", "Dodd-Frank", "Basel III", "Bâle III", "suitability", "appropriateness", "transaction reporting", "déclaration de transactions", "market abuse", "abus de marché", "short selling regulations", "réglementation vente à découvert", "UCITS", "AIFMD", "PRIIPs", "flat tax", "PFU", "prélèvement forfaitaire unique", "plus-values", "capital gains tax", or needs guidance on financial market regulations, compliance obligations, and tax reporting for trading. Invoke this skill proactively whenever regulatory topics arise — even if not explicitly requested. If there is any regulatory dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Financial Market Regulations & Compliance
@@ -320,3 +320,8 @@ Consulter les fichiers de reference pour un approfondissement detaille / Consult
 - **[Trading Compliance](./references/trading-compliance.md)** : Best execution obligations, order handling & transparency, conflicts of interest management, suitability & appropriateness, record keeping, personal account dealing, AML/KYC for trading accounts.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **juridique** (`entreprise/juridique`) — Legal and compliance framework
+- **ai-data-privacy** (`ai-governance/ai-data-privacy`) — Regulatory dimensions of AI in finance

@@ -1,8 +1,8 @@
 ---
 name: achats
-description: This skill should be used when the user asks about "procurement strategy", "supplier management", "strategic sourcing", "contract management", "spend analysis", "stratégie achats", "gestion des fournisseurs", "sourcing stratégique", "gestion des contrats", "analyse des dépenses", "e-procurement", "appels d'offres", "RFP", "RFQ", "supplier risk", "risque fournisseur", "category management", "gestion par catégories", "P2P", "procure-to-pay", "purchase-to-pay", "sustainable procurement", "achats responsables", "achats durables", "négociation fournisseur", "TCO", "total cost of ownership", "coût total de possession", "panel fournisseurs", "SRM", "supplier relationship management", discusses e-procurement, supplier risk, or needs guidance on category management, P2P processes, or sustainable procurement.
-version: 1.2.0
-last_updated: 2026-02
+description: Expert guide for "procurement strategy", "supplier management", "strategic sourcing", "contract management", "spend analysis", "stratégie achats", "gestion des fournisseurs", "sourcing stratégique", "gestion des contrats", "analyse des dépenses", "e-procurement", "appels d'offres", "RFP", "RFQ", "supplier risk", "risque fournisseur", "category management", "gestion par catégories", "P2P", "procure-to-pay", "purchase-to-pay", "sustainable procurement", "achats responsables", "achats durables", "négociation fournisseur", "TCO", "total cost of ownership", "coût total de possession", "panel fournisseurs", "SRM", "supplier relationship management", discusses e-procurement, supplier risk, or needs guidance on category management, P2P processes, or sustainable procurement. Invoke this skill proactively whenever achats topics arise — even if not explicitly requested. If there is any achats dimension in the conversation, this skill applies.
+version: 1.1.0
+last_updated: 2026-03-25
 ---
 
 # Achats / Procurement
@@ -306,3 +306,8 @@ Consulter les fichiers de reference suivants pour des guides detailles :
 - **[Procurement Operations](./references/procurement-ops.md)** : processus Purchase-to-Pay, plateformes e-procurement (SAP Ariba, Coupa, Ivalua), spend analysis, KPIs achats (savings, compliance, cycle time), achats durables, state of the art 2024-2026.
 
 - **[Études de cas](./references/case-studies.md)** — Cas pratiques détaillés illustrant les concepts clés du skill.
+
+## See Also
+
+- **operations** (`entreprise/operations`) — Operational supply chain management
+- **risk-management** (`entreprise/risk-management`) — Supplier risk assessment
